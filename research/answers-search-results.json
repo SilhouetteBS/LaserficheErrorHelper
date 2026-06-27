@@ -5640,5 +5640,244 @@
     "noMatch": true,
     "query": "7834 Search or sort is already in progress",
     "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7851",
+    "links": [],
+    "message": "Unknown syntax error.",
+    "noMatch": true,
+    "query": "7851 Unknown syntax error",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7852",
+    "links": [],
+    "message": "Unknown parser error.",
+    "noMatch": true,
+    "query": "7852 Unknown parser error",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7854",
+    "links": [],
+    "message": "Search stack overflow.",
+    "noMatch": true,
+    "query": "7854 Search stack overflow",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7855",
+    "links": [
+      {
+        "title": "Feature Request - Rich Text Editor - Laserfiche Workflow Email Tool",
+        "url": "https://answers.laserfiche.com/questions/54461/Feature-Request--Rich-Text-Editor--Laserfiche-Workflow-Email-Tool"
+      }
+    ],
+    "message": "Literal missing final quote.",
+    "noMatch": false,
+    "query": "7855 Literal missing final quote",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7856",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "Within or near missing distance number.",
+    "noMatch": false,
+    "query": "7856 Within or near missing distance number",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7857",
+    "links": [
+      {
+        "title": "7857: Invalid character in search string.",
+        "url": "https://answers.laserfiche.com/questions/50245/7857-Invalid-character-in-search-string"
+      }
+    ],
+    "message": "Invalid character in search string.",
+    "noMatch": false,
+    "query": "7857 Invalid character in search string",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7858",
+    "links": [],
+    "message": "Too many carets (^) in [ ]",
+    "noMatch": true,
+    "query": "7858 Too many carets (^) in [ ]",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7859",
+    "links": [],
+    "message": "Needs high end of range --> [ab-]",
+    "noMatch": true,
+    "query": "7859 Needs high end of range --> [ab-]",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7860",
+    "links": [],
+    "message": "Mismatched parentheses.",
+    "noMatch": true,
+    "query": "7860 Mismatched parentheses",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7861",
+    "links": [],
+    "message": "Unexpected end of search phrase.",
+    "noMatch": true,
+    "query": "7861 Unexpected end of search phrase",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7862",
+    "links": [],
+    "message": "Unexpected AND.",
+    "noMatch": true,
+    "query": "7862 Unexpected AND",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7863",
+    "links": [],
+    "message": "Unexpected OR.",
+    "noMatch": true,
+    "query": "7863 Unexpected OR",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7864",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "Unexpected NOT.",
+    "noMatch": false,
+    "query": "7864 Unexpected NOT",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7865",
+    "links": [],
+    "message": "Unexpected right parenthesis.",
+    "noMatch": true,
+    "query": "7865 Unexpected right parenthesis",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7866",
+    "links": [],
+    "message": "Unexpected field operator.",
+    "noMatch": true,
+    "query": "7866 Unexpected field operator",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7867",
+    "links": [],
+    "message": "Unexpected within operator.",
+    "noMatch": true,
+    "query": "7867 Unexpected within operator",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7868",
+    "links": [],
+    "message": "Missing right parenthesis.",
+    "noMatch": true,
+    "query": "7868 Missing right parenthesis",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7869",
+    "links": [],
+    "message": "Missing left parenthesis.",
+    "noMatch": true,
+    "query": "7869 Missing left parenthesis",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7870",
+    "links": [
+      {
+        "title": "Laserfiche Forms 12 Notification Master Service Keeps Stopping",
+        "url": "https://answers.laserfiche.com/questions/228322/Laserfiche-Forms-12-Notification-Master-Service-Keeps-Stopping"
+      },
+      {
+        "title": "Laserfiche 11 Audit Trail Install Error",
+        "url": "https://answers.laserfiche.com/questions/209630/Laserfiche-11-Audit-Trail-Install-Error"
+      }
+    ],
+    "message": "Missing right brace.",
+    "noMatch": false,
+    "query": "7870 Missing right brace",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7871",
+    "links": [],
+    "message": "Missing left brace.",
+    "noMatch": true,
+    "query": "7871 Missing left brace",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7872",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "Template name not recognized.",
+    "noMatch": false,
+    "query": "7872 Template name not recognized",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7873",
+    "links": [],
+    "message": "Field name not recognized.",
+    "noMatch": true,
+    "query": "7873 Field name not recognized",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7874",
+    "links": [],
+    "message": "The specified path is invalid.",
+    "noMatch": true,
+    "query": "7874 The specified path is invalid",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7875",
+    "links": [],
+    "message": "The specified object ID is invalid.",
+    "noMatch": true,
+    "query": "7875 The specified object ID is invalid",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7876",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "Invalid field value was inputted for the field type.",
+    "noMatch": false,
+    "query": "7876 Invalid field value was inputted for the field type",
+    "searchedAt": "2026-06-27"
   }
 ]

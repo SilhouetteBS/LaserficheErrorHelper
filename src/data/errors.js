@@ -471,6 +471,42 @@ const curatedErrorEntries = [
     ],
   },
   {
+    id: "lf-search-7857-invalid-character-search-string",
+    code: "7857",
+    message: "Invalid character in search string",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Invalid character in search string can be caused by generated advanced search syntax that includes a malformed or unintended field criterion, especially around blank template field searches.",
+    symptoms: [
+      "A template search with blank fields returns Invalid character in search string. [7857].",
+      "The generated advanced search syntax may include an incomplete field clause even though the user did not intentionally enter that criterion.",
+    ],
+    likelyFixes: [
+      "Inspect the generated Advanced Search Syntax for the failing search.",
+      "Remove malformed field criteria and test the template-only search syntax.",
+      "If a date field is involved, try an explicit broad date range instead of leaving the field blank.",
+      "Use appropriate administrative privileges when counting documents by template, because ordinary searches may omit entries the user cannot see.",
+    ],
+    notes: "The reviewed Answers thread was from a Version 7 to Version 9 upgrade context, so this is promoted as a troubleshooting pattern for Version 12 rather than a guaranteed product-specific defect.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 7857 as Invalid character in search string.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "7857: Invalid character in search string.",
+        url: "https://answers.laserfiche.com/questions/50245/7857-Invalid-character-in-search-string",
+        note: "Laserfiche employee asks for generated advanced search syntax; user confirms cleaning up the generated field syntax resolved the search.",
+      },
+    ],
+  },
+  {
     id: "lf-server-9013-access-denied",
     code: "9013",
     message: "Access Denied",

@@ -250,6 +250,16 @@ export const reviewedSources = [
     reviewStatus: "curated",
   },
   {
+    id: "answers-50245-7857",
+    title: "7857: Invalid character in search string.",
+    url: "https://answers.laserfiche.com/questions/50245/7857-Invalid-character-in-search-string",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-27",
+    productTags: ["Windows Client/Desktop Client", "Version 9"],
+    extractedErrorCodes: ["7857"],
+    reviewStatus: "curated",
+  },
+  {
     id: "lf12-user-guide-9001",
     title: "Laserfiche 12 User Guide: 9001 Entry Not Found",
     url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-9001.htm",

@@ -378,5 +378,15 @@
     "hasAcceptedLanguage": false,
     "reviewedDate": "2026-06-27",
     "notes": "False-positive search hit: 7580 refers to a Canon scanner model, not Laserfiche error 7580."
+  },
+  {
+    "code": "7857",
+    "message": "Invalid character in search string.",
+    "title": "7857: Invalid character in search string.",
+    "url": "https://answers.laserfiche.com/questions/50245/7857-Invalid-character-in-search-string",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27",
+    "notes": "Employee-assisted thread; user confirmed generated advanced search syntax contained an unintended/malformed field criterion."
   }
 ]
