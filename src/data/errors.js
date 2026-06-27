@@ -6,33 +6,41 @@ export const sourcePriority = {
 };
 
 export const productOptions = [
-  "Audit Trail",
-  "Windows Client/Desktop Client",
-  "Web Client Scanning",
-  "Records Management",
-  "Snapshot",
-  "Federated Search",
-  "Import Agent",
-  "Connector",
-  "Directory Server",
-  "Forms",
-  "Mobile",
-  "Quick Fields",
-  "Discussions",
-  "WebLink",
-  "Workflow",
-  "Laserfiche Installer",
   "Administration Hub",
   "AI Service",
   "API Server",
+  "Audit Trail",
+  "Connector",
+  "Directory Server",
+  "Discussions",
   "Distributed Computing Cluster",
+  "Federated Search",
+  "Forms",
   "Full Text Search",
-  "Office Integration",
+  "Import Agent",
+  "Laserfiche Installer",
   "Laserfiche Server/Repository Server",
+  "Mobile",
+  "Office Integration",
+  "Quick Fields",
+  "Records Management",
+  "Snapshot",
+  "Web Client Scanning",
+  "WebLink",
   "Webtools Agent",
+  "Windows Client/Desktop Client",
+  "Workflow",
 ];
 
 export const versionOptions = ["Version 9", "Version 10", "Version 11", "Version 12"];
+
+export const sourceTypeOptions = [
+  { value: "answers-community-confirmed", label: "Answers - Community Confirmed" },
+  { value: "answers-laserfiche-employee", label: "Answers - Laserfiche Employee" },
+  { value: "answers-community", label: "Answers - Community" },
+  { value: "answers-search", label: "Answers - Search Reviewed" },
+  { value: "official-docs", label: "Official Docs" },
+];
 
 export const errorEntries = [
   {

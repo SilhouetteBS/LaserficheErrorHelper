@@ -1,7 +1,13 @@
 import { chromium } from "playwright";
+import { existsSync } from "node:fs";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import { preview } from "vite";
 
 const chromePath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
+const rootDir = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const desktopScreenshot = resolve(rootDir, "dist", "render-check.png");
+const mobileScreenshot = resolve(rootDir, "dist", "render-check-mobile.png");
 let server;
 
 try {
@@ -25,14 +31,17 @@ try {
   await page.goto(url, { waitUntil: "networkidle" });
   await page.getByPlaceholder("Search code, message, symptom, product, or fix").fill("9030");
   await page.getByRole("button", { name: /9030 Maximum sessions or licensing limit reached/ }).click();
-  await page.screenshot({ path: "dist/render-check.png", fullPage: false });
-  const visible = await page.getByText("Potential fixes and checks").isVisible();
+  await page.screenshot({ path: desktopScreenshot, fullPage: false });
+  const visible = await page.getByText("Likely Fixes").isVisible();
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.screenshot({ path: "dist/render-check-mobile.png", fullPage: false });
+  await page.screenshot({ path: mobileScreenshot, fullPage: false });
   const mobileOverflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
   await browser.close();
   if (!visible) throw new Error("Detail pane did not render expected troubleshooting section.");
   if (mobileOverflow) throw new Error("Mobile viewport has horizontal overflow.");
+  if (!existsSync(desktopScreenshot) || !existsSync(mobileScreenshot)) {
+    throw new Error("Render check screenshots were not written.");
+  }
   if (consoleErrors.length > 0) throw new Error(`Console errors: ${consoleErrors.join("; ")}`);
   console.log(`Render check passed: ${url}`);
 } finally {

@@ -5,6 +5,11 @@ const errors = [];
 const reviewedUrls = new Set(reviewedSources.map((source) => source.url));
 const validProducts = new Set(productOptions);
 const validVersions = new Set(versionOptions);
+const sortedProducts = [...productOptions].sort((a, b) => a.localeCompare(b));
+
+if (productOptions.some((product, index) => product !== sortedProducts[index])) {
+  errors.push("productOptions must remain in alphabetical order");
+}
 
 for (const entry of errorEntries) {
   for (const field of ["id", "code", "message", "product", "confidence", "reviewedDate", "summary"]) {

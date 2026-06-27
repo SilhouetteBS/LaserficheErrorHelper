@@ -7,10 +7,20 @@ import {
   ExternalLink,
   FileSearch,
   Filter,
+  HelpCircle,
+  Info,
+  RefreshCw,
   Search,
   ShieldCheck,
+  SlidersHorizontal,
 } from "lucide-react";
-import { errorEntries, productOptions, sourcePriority, versionOptions } from "./data/errors.js";
+import {
+  errorEntries,
+  productOptions,
+  sourcePriority,
+  sourceTypeOptions,
+  versionOptions,
+} from "./data/errors.js";
 import { reviewedSources } from "./data/reviewedSources.js";
 import "./styles.css";
 
@@ -38,6 +48,19 @@ function confidenceLabel(value) {
   return "Needs validation";
 }
 
+function sourceTypeLabel(sourceType) {
+  return sourceTypeOptions.find((option) => option.value === sourceType)?.label ?? sourceType;
+}
+
+function filterOptionLabel(value, label) {
+  if (value !== allOption) return value;
+  if (label === "Product") return "All Products";
+  if (label === "Version") return "All Versions";
+  if (label === "Source Confidence") return "All Confidence";
+  if (label === "Source") return "All Sources";
+  return value;
+}
+
 function App() {
   const [query, setQuery] = useState("");
   const [product, setProduct] = useState(allOption);
@@ -50,7 +73,14 @@ function App() {
     () => ({
       products: withAll(productOptions),
       versions: withAll(versionOptions),
-      sources: uniqueSorted(errorEntries.flatMap((entry) => entry.sources.map((item) => item.sourceType))),
+      sources: [
+        allOption,
+        ...sourceTypeOptions
+          .filter((option) =>
+            errorEntries.some((entry) => entry.sources.some((item) => item.sourceType === option.value)),
+          )
+          .map((option) => option.value),
+      ],
       confidences: uniqueSorted(errorEntries.map((entry) => confidenceLabel(entry.confidence))),
     }),
     [],
@@ -97,63 +127,89 @@ function App() {
   ).length;
 
   return (
-    <main className="app-shell">
+    <>
       <header className="topbar">
-        <div>
+        <div className="topbar-inner">
           <div className="brand-row">
             <FileSearch aria-hidden="true" size={28} />
             <h1>Laserfiche Self-Hosted Error Helper</h1>
           </div>
-          <p>
-            Curated error-code guidance from Laserfiche documentation and reviewed Laserfiche Answers
-            threads.
-          </p>
-        </div>
-        <div className="source-summary" aria-label="Source summary">
-          <span>{errorEntries.length} curated entries</span>
-          <span>{reviewedSources.length} reviewed sources</span>
-          <span>{employeeSourceCount} employee-sourced entries</span>
+          <nav className="top-actions" aria-label="Utility links">
+            <span>Sources updated Jun 27, 2026</span>
+            <RefreshCw aria-hidden="true" size={16} />
+            <span className="utility-link">
+              <HelpCircle aria-hidden="true" size={16} />
+              How it works
+            </span>
+            <span className="utility-link">
+              <Info aria-hidden="true" size={16} />
+              About
+            </span>
+          </nav>
         </div>
       </header>
 
-      <section className="notice">
-        <ShieldCheck aria-hidden="true" size={20} />
-        <p>
-          Validate guidance against the affected self-hosted environment before changing production
-          systems. Source links are retained so every recommendation can be checked against the original
-          context.
-        </p>
-      </section>
-
-      <section className="toolbar" aria-label="Search and filters">
-        <label className="search-control">
-          <Search aria-hidden="true" size={20} />
-          <input
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder="Search code, message, symptom, product, or fix"
-            type="search"
+      <main className="app-shell">
+        <section className="toolbar" aria-label="Search and filters">
+          <label className="search-control">
+            <Search aria-hidden="true" size={20} />
+            <input
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Search code, message, symptom, product, or fix"
+              type="search"
+            />
+            {query && (
+              <button aria-label="Clear search" className="clear-search" onClick={() => setQuery("")} type="button">
+                ×
+              </button>
+            )}
+          </label>
+          <FilterSelect label="Product" value={product} onChange={setProduct} options={filters.products} />
+          <FilterSelect label="Version" value={version} onChange={setVersion} options={filters.versions} />
+          <FilterSelect
+            label="Source Confidence"
+            value={confidence}
+            onChange={setConfidence}
+            options={filters.confidences}
           />
-        </label>
-        <FilterSelect label="Product" value={product} onChange={setProduct} options={filters.products} />
-        <FilterSelect label="Version" value={version} onChange={setVersion} options={filters.versions} />
-        <FilterSelect label="Source" value={source} onChange={setSource} options={filters.sources} />
-        <FilterSelect
-          label="Confidence"
-          value={confidence}
-          onChange={setConfidence}
-          options={filters.confidences}
-        />
-      </section>
+          <FilterSelect
+            label="Source"
+            value={source}
+            onChange={setSource}
+            options={filters.sources}
+            formatOption={sourceTypeLabel}
+          />
+          <button className="more-filters" type="button">
+            <SlidersHorizontal aria-hidden="true" size={17} />
+            More Filters
+          </button>
+          <button
+            className="reset-button"
+            onClick={() => {
+              setQuery("");
+              setProduct(allOption);
+              setVersion(allOption);
+              setSource(allOption);
+              setConfidence(allOption);
+            }}
+            type="button"
+          >
+            Reset
+          </button>
+        </section>
 
       <section className="workspace">
         <aside className="results-pane" aria-label="Error results">
           <div className="pane-heading">
             <div>
-              <h2>Errors by product</h2>
-              <p>{filteredEntries.length} matching entries</p>
+              <h2>{filteredEntries.length} results</h2>
             </div>
-            <Filter aria-hidden="true" size={18} />
+            <div className="sort-control">
+              <span>Sort by:</span>
+              <button type="button">Relevance</button>
+              <Filter aria-hidden="true" size={18} />
+            </div>
           </div>
           {filteredEntries.length === 0 ? (
             <div className="empty-state">
@@ -188,32 +244,49 @@ function App() {
       </section>
 
       <section className="ledger-panel" aria-label="Reviewed source ledger">
-        <div>
-          <h2>Reviewed-source ledger</h2>
-          <p>Checked-in research list used to prevent duplicate Answers/doc review passes.</p>
+        <div className="ledger-heading">
+          <div>
+            <h2>Reviewed Source Ledger</h2>
+            <span>{reviewedSources.length} sources</span>
+          </div>
+          <div className="ledger-actions">
+            <span>Showing:</span>
+            <button type="button">All Sources</button>
+            <button type="button">View full ledger</button>
+          </div>
         </div>
-        <div className="ledger-grid">
+        <div className="ledger-table" role="table" aria-label="Reviewed source ledger table">
+          <div className="ledger-row ledger-head" role="row">
+            <span>Source</span>
+            <span>Type</span>
+            <span>Priority</span>
+            <span>Last Reviewed</span>
+            <span>Notes</span>
+          </div>
           {reviewedSources.slice(0, 5).map((sourceItem) => (
-            <a href={sourceItem.url} key={sourceItem.id} rel="noreferrer" target="_blank">
-              <span>{sourceItem.reviewedDate}</span>
+            <a className="ledger-row" href={sourceItem.url} key={sourceItem.id} rel="noreferrer" target="_blank">
               <strong>{sourceItem.title}</strong>
-              <small>{sourceItem.extractedErrorCodes.join(", ") || "No code extracted"}</small>
+              <span>{sourceTypeLabel(sourceItem.sourceType)}</span>
+              <span>{sourcePriority[sourceItem.sourceType] ?? "Review"}</span>
+              <span>{sourceItem.reviewedDate}</span>
+              <span>{sourceItem.extractedErrorCodes.join(", ") || sourceItem.reviewStatus}</span>
             </a>
           ))}
         </div>
       </section>
-    </main>
+      </main>
+    </>
   );
 }
 
-function FilterSelect({ label, options, value, onChange }) {
+function FilterSelect({ label, options, value, onChange, formatOption = (option) => option }) {
   return (
     <label className="filter-control">
       <span>{label}</span>
       <select value={value} onChange={(event) => onChange(event.target.value)}>
         {options.map((option) => (
           <option key={option} value={option}>
-            {option}
+            {filterOptionLabel(formatOption(option), label)}
           </option>
         ))}
       </select>
@@ -227,10 +300,10 @@ function ConfidenceBadge({ value }) {
 
 function SourceBadge({ sourceType }) {
   const labels = {
-    "official-docs": "Official docs",
-    "answers-laserfiche-employee": "Laserfiche employee",
-    "answers-community-confirmed": "Community confirmed",
-    "answers-community": "Community",
+    "official-docs": "Official Docs",
+    "answers-laserfiche-employee": "Answers - Laserfiche Employee",
+    "answers-community-confirmed": "Answers - Community Confirmed",
+    "answers-community": "Answers - Community",
   };
   return <span className={`source-badge ${sourceType}`}>{labels[sourceType] ?? sourceType}</span>;
 }
@@ -238,66 +311,100 @@ function SourceBadge({ sourceType }) {
 function ErrorDetail({ entry }) {
   return (
     <article className="detail-pane">
-      <div className="detail-header">
-        <div>
-          <span className="product">{entry.product}</span>
-          <h2>
-            {entry.code} <span>{entry.message}</span>
-          </h2>
+      <div className="detail-main">
+        <div className="detail-header">
+          <div>
+            <span className="selected-label">Selected error</span>
+            <h2>
+              {entry.code} <span>{entry.message}</span>
+            </h2>
+          </div>
+          <div className="detail-actions">
+            <button type="button">Save</button>
+            <button type="button">Share</button>
+          </div>
+        </div>
+
+        <div className="meta-strip">
+          <span>
+            <strong>Product</strong>
+            {entry.product}
+          </span>
+          <span>
+            <strong>Versions</strong>
+            {entry.versions.join(", ")}
+          </span>
+          <span>
+            <strong>Last reviewed</strong>
+            {entry.reviewedDate}
+          </span>
+        </div>
+
+        <DetailSection title="Symptoms">
+          <ul>
+            {entry.symptoms.map((symptom) => (
+              <li key={symptom}>{symptom}</li>
+            ))}
+          </ul>
+        </DetailSection>
+
+        <DetailSection title="Likely Fixes">
+          <ol>
+            {entry.likelyFixes.map((fix) => (
+              <li key={fix}>{fix}</li>
+            ))}
+          </ol>
+        </DetailSection>
+
+        <div className="notice inline-notice">
+          <ShieldCheck aria-hidden="true" size={18} />
+          <p>Validate guidance in a test or maintenance window before changing production systems.</p>
+        </div>
+      </div>
+
+      <aside className="detail-sidebar" aria-label="Evidence and source details">
+        <section className="side-card">
+          <h3>Source Confidence</h3>
+          <ConfidenceBadge value={entry.confidence} />
           <p>{entry.summary}</p>
-        </div>
-        <ConfidenceBadge value={entry.confidence} />
-      </div>
-
-      <div className="meta-strip">
-        <span>Versions: {entry.versions.join(", ")}</span>
-        <span>Last reviewed: {entry.reviewedDate}</span>
-        <span>Source rank: {sourceRank(entry)}</span>
-      </div>
-
-      <DetailSection title="Symptoms">
-        <ul>
-          {entry.symptoms.map((symptom) => (
-            <li key={symptom}>{symptom}</li>
-          ))}
-        </ul>
-      </DetailSection>
-
-      <DetailSection title="Potential fixes and checks">
-        <ol>
-          {entry.likelyFixes.map((fix) => (
-            <li key={fix}>{fix}</li>
-          ))}
-        </ol>
-      </DetailSection>
-
-      <DetailSection title="Evidence and source priority">
-        <div className="source-list">
-          {entry.sources.map((sourceItem, index) => (
-            <a
-              className="source-card"
-              href={sourceItem.url}
-              key={`${sourceItem.sourceType}-${sourceItem.url}-${index}`}
-              rel="noreferrer"
-              target="_blank"
-            >
-              <div>
-                <SourceBadge sourceType={sourceItem.sourceType} />
-                <strong>{sourceItem.title}</strong>
-                <p>{sourceItem.note}</p>
-              </div>
-              <ExternalLink aria-hidden="true" size={18} />
-            </a>
-          ))}
-        </div>
-      </DetailSection>
-
-      {entry.notes && (
-        <div className="caution">
-          <AlertTriangle aria-hidden="true" size={18} />
-          <p>{entry.notes}</p>
-        </div>
-      )}
+        </section>
+        <section className="side-card">
+          <h3>Source Priority</h3>
+          <ol className="priority-list">
+            {[...entry.sources]
+              .sort((a, b) => (sourcePriority[a.sourceType] ?? 99) - (sourcePriority[b.sourceType] ?? 99))
+              .map((sourceItem) => (
+                <li key={`${sourceItem.sourceType}-${sourceItem.title}`}>
+                  <span>{sourceTypeLabel(sourceItem.sourceType)}</span>
+                  <CheckCircle2 aria-hidden="true" size={15} />
+                </li>
+              ))}
+          </ol>
+        </section>
+        <section className="side-card">
+          <h3>Links to Sources</h3>
+          <div className="source-list">
+            {entry.sources.map((sourceItem, index) => (
+              <a
+                className="source-card"
+                href={sourceItem.url}
+                key={`${sourceItem.sourceType}-${sourceItem.url}-${index}`}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <span>{sourceItem.title}</span>
+                <ExternalLink aria-hidden="true" size={16} />
+              </a>
+            ))}
+          </div>
+        </section>
+        {entry.notes && (
+          <div className="caution">
+            <AlertTriangle aria-hidden="true" size={18} />
+            <p>{entry.notes}</p>
+          </div>
+        )}
+      </aside>
     </article>
   );
 }
