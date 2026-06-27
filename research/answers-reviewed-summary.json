@@ -368,5 +368,15 @@
     "hasAcceptedLanguage": false,
     "reviewedDate": "2026-06-27",
     "notes": "False-positive search hit: 7480 refers to a Fujitsu scanner model, not Laserfiche error 7480."
+  },
+  {
+    "code": "7580",
+    "message": "Unrecognized annotation type.",
+    "title": "Need to replace Canon DR-7580. Looking at Canon DR-G1100. Drivers/support for ScanConnect?",
+    "url": "https://answers.laserfiche.com/questions/149594/Need-to-replace-Canon-DR7580-Looking-at-Canon-DRG1100-Driverssupport-for-ScanConnect",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27",
+    "notes": "False-positive search hit: 7580 refers to a Canon scanner model, not Laserfiche error 7580."
   }
 ]

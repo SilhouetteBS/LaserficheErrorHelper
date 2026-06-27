@@ -5102,5 +5102,543 @@
     "noMatch": true,
     "query": "7543 Cannot create/update entry tag",
     "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7550",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "The requested electronic document of that mime-type does not exist.",
+    "noMatch": false,
+    "query": "7550 The requested electronic document of that mime-type does not exist",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7560",
+    "links": [],
+    "message": "Could not queue electronic document for deletion.",
+    "noMatch": true,
+    "query": "7560 Could not queue electronic document for deletion",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7570",
+    "links": [
+      {
+        "title": "Laserfiche Office Integration",
+        "url": "https://answers.laserfiche.com/questions/139257/Laserfiche-Office-Integration"
+      }
+    ],
+    "message": "The specified connection was not found.",
+    "noMatch": false,
+    "query": "7570 The specified connection was not found",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7571",
+    "links": [],
+    "message": "The specified Windows account does not exist.",
+    "noMatch": true,
+    "query": "7571 The specified Windows account does not exist",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7572",
+    "links": [],
+    "message": "The specified Windows account is of the wrong type.",
+    "noMatch": true,
+    "query": "7572 The specified Windows account is of the wrong type",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7573",
+    "links": [],
+    "message": "A Windows user can be linked with a maximum of one Laserfiche user.",
+    "noMatch": true,
+    "query": "7573 A Windows user can be linked with a maximum of one Laserfiche user",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7575",
+    "links": [],
+    "message": "Invalid configuration. A user must be able to change a temporary password.",
+    "noMatch": true,
+    "query": "7575 Invalid configuration. A user must be able to change a temporary password",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7580",
+    "links": [
+      {
+        "title": "Need to replace Canon DR-7580. Looking at Canon DR-G1100. Drivers/support for ScanConnect?",
+        "url": "https://answers.laserfiche.com/questions/149594/Need-to-replace-Canon-DR7580-Looking-at-Canon-DRG1100-Driverssupport-for-ScanConnect"
+      }
+    ],
+    "message": "Unrecognized annotation type.",
+    "noMatch": false,
+    "query": "7580 Unrecognized annotation type",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7581",
+    "links": [],
+    "message": "The stamp bitmap header is incomplete.",
+    "noMatch": true,
+    "query": "7581 The stamp bitmap header is incomplete",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7582",
+    "links": [],
+    "message": "Cannot generate thumbnail.",
+    "noMatch": true,
+    "query": "7582 Cannot generate thumbnail",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7583",
+    "links": [],
+    "message": "The stamp is a duplicate.",
+    "noMatch": true,
+    "query": "7583 The stamp is a duplicate",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7590",
+    "links": [
+      {
+        "title": "Laserfiche 11 Audit Trail Install Error",
+        "url": "https://answers.laserfiche.com/questions/209630/Laserfiche-11-Audit-Trail-Install-Error"
+      }
+    ],
+    "message": "Unrecognized parameter name.",
+    "noMatch": false,
+    "query": "7590 Unrecognized parameter name",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7591",
+    "links": [],
+    "message": "Parameter value is of the wrong type or out of range.",
+    "noMatch": true,
+    "query": "7591 Parameter value is of the wrong type or out of range",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7592",
+    "links": [
+      {
+        "title": "An error occurred while generating the process image.",
+        "url": "https://answers.laserfiche.com/questions/200565/An-error-occurred-while-generating-the-process-image"
+      }
+    ],
+    "message": "Incorrect scope for this parameter.",
+    "noMatch": false,
+    "query": "7592 Incorrect scope for this parameter",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7593",
+    "links": [],
+    "message": "Error encountered attempting to save parameter.",
+    "noMatch": true,
+    "query": "7593 Error encountered attempting to save parameter",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7600",
+    "links": [
+      {
+        "title": "FUJITSU Scanner fi-7700",
+        "url": "https://answers.laserfiche.com/questions/150465/FUJITSU-Scanner-fi7700"
+      },
+      {
+        "title": "Unable to Create or Register repositories on only one OS instance",
+        "url": "https://answers.laserfiche.com/questions/71186/Unable-to-Create-or-Register-repositories-on-only-one-OS-instance"
+      },
+      {
+        "title": "Canon DR-M260",
+        "url": "https://answers.laserfiche.com/questions/148459/Canon-DRM260"
+      },
+      {
+        "title": "Admin Console crashes setting up LDAP Users",
+        "url": "https://answers.laserfiche.com/questions/74631/Admin-Console-crashes-setting-up-LDAP-Users"
+      },
+      {
+        "title": "Scan will not duplex",
+        "url": "https://answers.laserfiche.com/questions/206659/Scan-will-not-duplex"
+      },
+      {
+        "title": "Weblink HTTP error 500.19/Object reference error",
+        "url": "https://answers.laserfiche.com/questions/64586/Weblink-HTTP-error-50019Object-reference-error"
+      },
+      {
+        "title": "Unattended Installation (LFGet.exe) - Permissions issue",
+        "url": "https://answers.laserfiche.com/questions/232457/Unattended-Installation-LFGetexe--Permissions-issue"
+      }
+    ],
+    "message": "Cannot export logical volume.",
+    "noMatch": false,
+    "query": "7600 Cannot export logical volume",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7601",
+    "links": [
+      {
+        "title": "Laserfiche Client crashes when selecting multiple documents and opening metadata pane",
+        "url": "https://answers.laserfiche.com/questions/99008/Laserfiche-Client-crashes-when-selecting-multiple-documents-and-opening-metadata-pane"
+      },
+      {
+        "title": "APPCRASH - SNAPSHOT",
+        "url": "https://answers.laserfiche.com/questions/83589/APPCRASH--SNAPSHOT"
+      },
+      {
+        "title": "Faulting Application Name: w3wp.exe, Exception code: 0xc00000fd",
+        "url": "https://answers.laserfiche.com/questions/92079/Faulting-Application-Name-w3wpexe-Exception-code-0xc00000fd"
+      },
+      {
+        "title": "Forms App Pool Keeps Stopping",
+        "url": "https://answers.laserfiche.com/questions/91689/Forms-App-Pool-Keeps-Stopping"
+      },
+      {
+        "title": "Error using Snapshot on pc 32 bits",
+        "url": "https://answers.laserfiche.com/questions/82785/Error-using-Snapshot-on-pc-32-bits"
+      },
+      {
+        "title": "PhotoDocs 10.1.1.320 crashes after getting error PD20-161",
+        "url": "https://answers.laserfiche.com/questions/111668/PhotoDocs-1011320-crashes-after-getting-error-PD20161"
+      },
+      {
+        "title": "Laserfiche installation keeps trying to install Office add-ins",
+        "url": "https://answers.laserfiche.com/questions/95520/Laserfiche-installation-keeps-trying-to-install-Office-addins"
+      },
+      {
+        "title": "Unable to find assembly 'EntityFramework,",
+        "url": "https://answers.laserfiche.com/questions/160841/Unable-to-find-assembly-EntityFramework"
+      },
+      {
+        "title": "Import Agent .net runtime error",
+        "url": "https://answers.laserfiche.com/questions/159369/Import-Agent-net-runtime-error"
+      },
+      {
+        "title": "ERROR: OCR Engine has stopped working",
+        "url": "https://answers.laserfiche.com/questions/109756/ERROR-OCR-Engine-has-stopped-working"
+      }
+    ],
+    "message": "Could not export volume; target device is out of space.",
+    "noMatch": false,
+    "query": "7601 Could not export volume; target device is out of space",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7602",
+    "links": [],
+    "message": "Cannot export volume to a non-empty directory.",
+    "noMatch": true,
+    "query": "7602 Cannot export volume to a non-empty directory",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7604",
+    "links": [],
+    "message": "Maximum volume size specified is out of acceptable range.",
+    "noMatch": true,
+    "query": "7604 Maximum volume size specified is out of acceptable range",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7801",
+    "links": [
+      {
+        "title": "Prop tree failed to get record.",
+        "url": "https://answers.laserfiche.com/questions/117309/Prop-tree-failed-to-get-record"
+      },
+      {
+        "title": "LFFTS Crashing and setting repository in read only mode.",
+        "url": "https://answers.laserfiche.com/questions/113278/LFFTS-Crashing-and-setting-repository-in-read-only-mode"
+      },
+      {
+        "title": "insert picture in a form",
+        "url": "https://answers.laserfiche.com/questions/113298/insert-picture-in-a-form"
+      }
+    ],
+    "message": "General failure in the search engine.",
+    "noMatch": false,
+    "query": "7801 General failure in the search engine",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7802",
+    "links": [
+      {
+        "title": "insert picture in a form",
+        "url": "https://answers.laserfiche.com/questions/113298/insert-picture-in-a-form"
+      }
+    ],
+    "message": "Search index files are corrupt. Rebuild search index.",
+    "noMatch": false,
+    "query": "7802 Search index files are corrupt. Rebuild search index",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7803",
+    "links": [],
+    "message": "The noise file is corrupt.",
+    "noMatch": true,
+    "query": "7803 The noise file is corrupt",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7805",
+    "links": [],
+    "message": "The server is out of disk space.",
+    "noMatch": true,
+    "query": "7805 The server is out of disk space",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7806",
+    "links": [],
+    "message": "The file won't open, etc.",
+    "noMatch": true,
+    "query": "7806 The file won't open, etc",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7807",
+    "links": [],
+    "message": "The link has been deleted (bad version).",
+    "noMatch": true,
+    "query": "7807 The link has been deleted (bad version)",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7808",
+    "links": [],
+    "message": "There have been too many revisions made to the document.",
+    "noMatch": true,
+    "query": "7808 There have been too many revisions made to the document",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7809",
+    "links": [],
+    "message": "Too many btrees in use.",
+    "noMatch": true,
+    "query": "7809 Too many btrees in use",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7810",
+    "links": [],
+    "message": "Document not open.",
+    "noMatch": true,
+    "query": "7810 Document not open",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7811",
+    "links": [],
+    "message": "User canceled indexing.",
+    "noMatch": true,
+    "query": "7811 User canceled indexing",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7812",
+    "links": [
+      {
+        "title": "Fields hidden through JavaScript are shown in Repository",
+        "url": "https://answers.laserfiche.com/questions/74522/Fields-hidden-through-JavaScript-are-shown-in-Repository"
+      }
+    ],
+    "message": "Index not opened.",
+    "noMatch": false,
+    "query": "7812 Index not opened",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7813",
+    "links": [],
+    "message": "No text files to index.",
+    "noMatch": true,
+    "query": "7813 No text files to index",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7814",
+    "links": [],
+    "message": "Document cannot be opened for full-text indexing.",
+    "noMatch": true,
+    "query": "7814 Document cannot be opened for full-text indexing",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7816",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "Open/create link failed.",
+    "noMatch": false,
+    "query": "7816 Open/create link failed",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7817",
+    "links": [],
+    "message": "The search handle is invalid.",
+    "noMatch": true,
+    "query": "7817 The search handle is invalid",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7818",
+    "links": [],
+    "message": "Could not open hit file.",
+    "noMatch": true,
+    "query": "7818 Could not open hit file",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7819",
+    "links": [],
+    "message": "Could not open word offset file.",
+    "noMatch": true,
+    "query": "7819 Could not open word offset file",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7820",
+    "links": [],
+    "message": "The document is too large to be completely indexed.",
+    "noMatch": true,
+    "query": "7820 The document is too large to be completely indexed",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7821",
+    "links": [],
+    "message": "Search indices locked due to processing.",
+    "noMatch": true,
+    "query": "7821 Search indices locked due to processing",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7822",
+    "links": [],
+    "message": "Unknown swap file error.",
+    "noMatch": true,
+    "query": "7822 Unknown swap file error",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7823",
+    "links": [],
+    "message": "The search/swap file is invalid.",
+    "noMatch": true,
+    "query": "7823 The search/swap file is invalid",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7824",
+    "links": [
+      {
+        "title": "insert picture in a form",
+        "url": "https://answers.laserfiche.com/questions/113298/insert-picture-in-a-form"
+      }
+    ],
+    "message": "Cannot create search indices.",
+    "noMatch": false,
+    "query": "7824 Cannot create search indices",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7825",
+    "links": [
+      {
+        "title": "insert picture in a form",
+        "url": "https://answers.laserfiche.com/questions/113298/insert-picture-in-a-form"
+      }
+    ],
+    "message": "Cannot open search indices.",
+    "noMatch": false,
+    "query": "7825 Cannot open search indices",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7826",
+    "links": [
+      {
+        "title": "insert picture in a form",
+        "url": "https://answers.laserfiche.com/questions/113298/insert-picture-in-a-form"
+      }
+    ],
+    "message": "Access denied to search file.",
+    "noMatch": false,
+    "query": "7826 Access denied to search file",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7827",
+    "links": [],
+    "message": "Search file does not exist.",
+    "noMatch": true,
+    "query": "7827 Search file does not exist",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7828",
+    "links": [],
+    "message": "Document not found in hit list.",
+    "noMatch": true,
+    "query": "7828 Document not found in hit list",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7830",
+    "links": [],
+    "message": "The indexing thread has terminated. The Laserfiche Server must be restarted before documents can be indexed.",
+    "noMatch": true,
+    "query": "7830 The indexing thread has terminated. The Laserfiche Server must be restarted before documents can be indexed",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7831",
+    "links": [],
+    "message": "Bad searchwrapper handle.",
+    "noMatch": true,
+    "query": "7831 Bad searchwrapper handle",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7832",
+    "links": [],
+    "message": "Search initialization timed out during wait.",
+    "noMatch": true,
+    "query": "7832 Search initialization timed out during wait",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7833",
+    "links": [],
+    "message": "Indexing could not rebuild search blackouts.",
+    "noMatch": true,
+    "query": "7833 Indexing could not rebuild search blackouts",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7834",
+    "links": [],
+    "message": "Search or sort is already in progress.",
+    "noMatch": true,
+    "query": "7834 Search or sort is already in progress",
+    "searchedAt": "2026-06-27"
   }
 ]
