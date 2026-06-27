@@ -20,11 +20,13 @@
     "snippet": "Administration Hub - Cannot get server list more reports of this same error from other clients. Just looked at another one where no errors are being logged to the programdata folder ... posted by Chad Saar 3975 Jan 27 updated by Chad Saar 3975 May 26 12 replies · 274 views · 0 0 · Administration Hub",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "queries": [
       "Administration Hub \"error\" Laserfiche",
       "Admin Hub \"error\" Laserfiche"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Administration Hub",
@@ -35,11 +37,13 @@
     "snippet": "Administration Hub 12 Error LFAH500-Internal Error on 2 servers). Unfortunately, the Administration Hub keeps giving me an error . I couldn't find any logs under the Event Viewer as they were ... ProgramData. This post: https://answers. laserfiche .com/questions/228118/ Administration-Hub -Diagram- Error -LFAH500 This log file: C:\\ProgramData\\ Laserfiche \\AdminHub\\Logs\\AdminHubLog_w3wp.log ...... posted by Matthew Tingey 9658 May 3, 2025 updated by Christopher Becker 38 Nov 13, 2025 7 replies · ",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "Administration Hub \"error\" Laserfiche",
       "Admin Hub \"error\" Laserfiche"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Administration Hub",
@@ -51,7 +55,9 @@
     "snippet": "Administration Hub Diagram Error LFAH500 However, I only see this error message: Laserfiche Administration Hub encountered an internal error . Please try again. [LFAH500-InternalError] I checked the logs in C ... String key, String regionName) at Laserfiche .AdminHub.Utils.DNSUtil.GetFQDN(String machineName) at Laserfiche .AdminHub.Web.WebAPI.ApplicationInfoController.d__3.MoveNext() --- End of stack trace ...... posted by Kevin Wells 1289 Apr 7, 2025 updated by Ziyan Chen 1261 Oct 22, 2025 4 re",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Administration Hub",
@@ -114,7 +120,9 @@
     "snippet": "Administration Hub 12 Error LFAH500-Internal Error installer (see post: https://answers. laserfiche .com/questions/228869/ Laserfiche -12-Installer-- Error -Selecting-LFDS-for-Licensing ) but it did appear to be successfully installed ... ProgramData. This post: https://answers. laserfiche .com/questions/228118/Administration- Hub -Diagram- Error -LFAH500 This log file: C:\\ProgramData\\ Laserfiche \\AdminHub\\Logs\\AdminHubLog_w3wp.log ...... posted by Matthew Tingey 9658 May 3, 2025 updated by Chri",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Administration Hub",
@@ -186,7 +194,9 @@
     "snippet": "HTTP Error 500.19 repositoryAPI browse from IIS to the API site, I get this error { \"Logging\": { \"LogLevel\": { \"Default\": \"Trace\" ... determined Error Code 0x8007000d Config Error Config File \\\\?\\C:\\Program Files\\ Laserfiche\\API Server\\LFRepositoryAPI\\web.config Requested URL https://apiserverfqdn:443/lfrepositoryapi Physical Path ...... posted by Karl Balshaw 69 Mar 14, 2023 updated by Samuel Carson 9599 Mar 14, 2023 1 reply · 555 views · 0 0 · Laserfiche Version 11 Self-Hosted Administration H",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "API Server",
@@ -248,11 +258,13 @@
     "snippet": "HTTP Error 500.19 repositoryAPI am trying to get Repository API working. my Appsettings.json are as follows, but then I browse from IIS to the API site, I get ... Config File \\\\?\\C:\\Program Files\\ Laserfiche\\API Server\\LFRepositoryAPI\\web.config Requested URL https://apiserverfqdn:443/lfrepositoryapi Physical Path C:\\Program Files\\ Laserfiche\\API Server ...... posted by Karl Balshaw 69 Mar 14, 2023 updated by Samuel Carson 9599 Mar 14, 2023 1 reply · 555 views · 0 0 · Laserfiche Version 11 Self-",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "Laserfiche API \"error code\"",
       "Laserfiche API \"self-hosted\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "API Server",
@@ -811,9 +823,9 @@
     "title": "Administrator Hub Configuration LFAH1000-ErrorConnectToLFDS",
     "url": "https://answers.laserfiche.com/questions/225151/Administrator-Hub-Configuration-LFAH1000ErrorConnectToLFDS",
     "snippet": "Administrator Hub Configuration LFAH1000-ErrorConnectToLFDS",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Directory Server",
@@ -1264,9 +1276,9 @@
     "title": "Error: [LFF4117-FailedToGeneratePage]",
     "url": "https://answers.laserfiche.com/questions/119958/Error-LFF4117FailedToGeneratePage",
     "snippet": "Error: [LFF4117-FailedToGeneratePage]",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Forms",
@@ -1712,7 +1724,9 @@
     "snippet": "\"The process cannot access the file because it is being used by another process\" error when importing documents using Import Agent Hello, This customer experiences this error fairly often when using Import Agent to bring documents into Laserfiche. Full error message below: There was an error ...... posted by Jacob Hlas 71 Jun 11, 2019 updated by Jacob Hlas 71 Feb 19, 2020 5 replies · 1010 views · 0 0 · Import Agent Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Import Agent",
@@ -1724,7 +1738,9 @@
     "snippet": "Exception From 0x800401f3 Error in Import Agent E_CLASSSTRING)))\" while performing an OCR on a file using Import Agent . I know that the 0x800401F3 denotes that a dll is not registered. I ...... posted by Norman Reynolds 2 Mar 24, 2016 updated by Raymond Cruz 2783 Mar 24, 2016 1 reply · 575 views · 0 0 · Import Agent Version 9 Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Import Agent",
@@ -1736,7 +1752,9 @@
     "snippet": "Import Agent Startlist, volume not found error [9006] Import Agent 10.3 Configured correctly. Both Tiff and LST files exist in the \"monitored\" folder. Imports metadata to correct repository but does not put ...... posted by Richard Blue 0 Mar 26, 2018 updated by Richard Blue 0 Mar 27, 2018 6 replies · 766 views · 0 0 · Import Agent Capture Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Import Agent",
@@ -1760,7 +1778,9 @@
     "snippet": "Import Agent Error Code 9013 that if I upgraded to Import Agent version 10.4, I would be able to do this; however, my event log is showing the below ... into Laserfiche 10.4 using Import Agent 10.4? Thanks, Bill... posted by Bill Ehrbar 12 Aug 25, 2020 updated by Huazhen Liu 817 Sep 29, 2020 1 reply · 892 views · 0 0 · Laserfiche Import Agent Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Import Agent",
@@ -1796,7 +1816,9 @@
     "snippet": "Exception From 0x800401f3 Error in Import Agent E_CLASSSTRING)))\" while performing an OCR on a file using Import Agent . I know that the 0x800401F3 denotes that a dll is not registered. I ...... posted by Norman Reynolds 2 Mar 24, 2016 updated by Raymond Cruz 2783 Mar 24, 2016 1 reply · 575 views · 0 0 · Import Agent Version 9 Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Import Agent",
@@ -1868,7 +1890,9 @@
     "snippet": "Import Agent Error Code 9013 that if I upgraded to Import Agent version 10.4, I would be able to do this; however, my event log is showing the below ... into Laserfiche 10.4 using Import Agent 10.4? Thanks, Bill... posted by Bill Ehrbar 12 Aug 25, 2020 updated by Huazhen Liu 817 Sep 29, 2020 1 reply · 892 views · 0 0 · Laserfiche Import Agent Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Import Agent",
@@ -1907,7 +1931,9 @@
     "snippet": "Import Agent Startlist, volume not found error [9006] Import Agent 10.3 Configured correctly. Both Tiff and LST files exist in the \"monitored\" folder. Imports metadata to correct repository but does not put ...... posted by Richard Blue 0 Mar 26, 2018 updated by Richard Blue 0 Mar 27, 2018 6 replies · 766 views · 0 0 · Import Agent Capture Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Import Agent",
@@ -2963,7 +2989,9 @@
     "snippet": "\"The process cannot access the file because it is being used by another process\" error when importing documents using Import Agent used by another process : F:\\ Scans \\Contract\\Untitled_06102019_024948.tif.lck) Error Code : StackTrace: at Laserfiche .ImportAgent.Library.Helpers.GetLastErrorAndThrowIfFailed(String extra) at Laserfiche ... FileMode mode, FileAccess access) at Laserfiche .ImportAgent.Service.ExecuteProfileFile.IsLocked(LongFileInfo fi) at Laserfiche .ImportAgent.Service.ExecuteProf",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Web Client Scanning",
@@ -3284,7 +3312,9 @@
     "snippet": "Caught exception ArgumentNullException, Message: Value cannot be null in WebLink message a lot in the WebLink Operational logs on all of my WebLink servers. Log Name: Laserfiche-Portal-Server/ Operational Source: Laserfiche-Portal-Server Date ... 0x8000f00000000000 240383 Laserfiche-Portal-Server/ Operational XXXX Operation: / WebLink /Helper/TileData.aspx?repo=XXXX&amp;docID=9815443&amp;x=3&amp;y ...... posted by Blake Smith 18822 Aug 13, 2024 updated by Blake Smith 18822 Aug 22, 2024 2 replies",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "WebLink",
@@ -3296,7 +3326,9 @@
     "snippet": "Caught exception CryptographicException, Message: Bad Key in WebLink I am seeing this error on one of my WebLink servers over and over again. The Operation value is not always the same, but everything ... 0x8000f00000000000 239940 Laserfiche-Portal-Server/ Operational XXXX Operation: / WebLink /FolderListingService.aspx/GetColumnInfo Message: Exception encountered, stack trace: WebLinkControls.HttpHandlers.BaseIHttpHandlerClass.ProcessRequest ... posted by Blake Smith 18822 Aug 12, 2024 updated ",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "WebLink",
@@ -3590,7 +3622,9 @@
     "snippet": "The Workflow Server needs a license with The Laserfiche Serial '' as a connection. [0543-WF0] Geeting error, Workflow in not liecnsed. posted by Chris Kubheka 29 Apr 6, 2023 updated by Braden Young 131 Oct 4, 2023 9 replies · 770 views · 0 0 · Workflow Version 11 Self-Hosted Licensing",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Workflow",
@@ -3625,9 +3659,9 @@
     "title": "Workflow Error 0700-WF10 with \"Invoke Workflow\" Activity",
     "url": "https://answers.laserfiche.com/questions/57726/Workflow-Error-0700WF10-with-Invoke-Workflow-Activity",
     "snippet": "Workflow Error 0700-WF10 with \"Invoke Workflow\" Activity",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Workflow",
@@ -3689,9 +3723,9 @@
     "title": "Workflow Error 0700-WF10 with \"Invoke Workflow\" Activity",
     "url": "https://answers.laserfiche.com/questions/57726/Workflow-Error-0700WF10-with-Invoke-Workflow-Activity",
     "snippet": "Workflow Error 0700-WF10 with \"Invoke Workflow\" Activity",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Workflow",
@@ -3878,9 +3912,9 @@
     "title": "Workflow Error 0700-WF10 with \"Invoke Workflow\" Activity",
     "url": "https://answers.laserfiche.com/questions/57726/Workflow-Error-0700WF10-with-Invoke-Workflow-Activity",
     "snippet": "Workflow Error 0700-WF10 with \"Invoke Workflow\" Activity",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Workflow",

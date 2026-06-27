@@ -2518,6 +2518,403 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "adminhub-lfah500-internal-error",
+    code: "LFAH500",
+    message: "Laserfiche Administration Hub encountered an internal error.",
+    product: "Administration Hub",
+    versions: ["Version 12"],
+    confidence: "high",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Administration Hub LFAH500 can appear when Admin Hub API calls lose administrator authentication or when a known diagram-related bug is present in earlier Laserfiche 12 builds.",
+    symptoms: [
+      "Administration Hub displays LFAH500-InternalError.",
+      "Admin Hub logs may show Unauthorized for API calls even after logging in as administrator.",
+      "Diagram pages may fail with LFAH500 and stack traces in AdminHubLog_w3wp.log.",
+    ],
+    likelyFixes: [
+      "Run Laserfiche.AdminHub.AdminHubUtility.exe from the AdminHub AgentController folder and reconfigure Administration Hub.",
+      "Review certificate/FQDN configuration used by Admin Hub and Agent Controller.",
+      "Update to Laserfiche 12 Fall 2025 or later when the failure matches the diagram-related bug fixed in Administration Hub 12.0.2509.20365.",
+    ],
+    notes:
+      "Two Laserfiche employee replies identify separate LFAH500 paths: reconfiguration for an unauthorized API scenario and a Laserfiche 12 Fall 2025 fix for a diagram bug.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Administration Hub 12 Error LFAH500-Internal Error",
+        url: "https://answers.laserfiche.com/questions/228870/Administration-Hub-12-Error-LFAH500Internal-Error",
+        note: "Laserfiche reply points to Admin Hub losing administrator authentication and recommends reconfiguring with AdminHubUtility.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Administration Hub Diagram Error LFAH500",
+        url: "https://answers.laserfiche.com/questions/228118/Administration-Hub-Diagram-Error-LFAH500",
+        note: "Laserfiche reply says Administration Hub 12.0.2509.20365 includes a fix for related bug 585572.",
+      },
+    ],
+  },
+  {
+    id: "adminhub-lfah1000-connect-to-lfds",
+    code: "LFAH1000",
+    message: "Administration Hub cannot connect to LFDS.",
+    product: "Administration Hub",
+    versions: ["Version 12"],
+    confidence: "low",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Administration Hub configuration can fail with LFAH1000-ErrorConnectToLFDS while connecting to Directory Server. The reviewed thread documents the symptom but does not include a confirmed fix.",
+    symptoms: [
+      "Administration Hub configuration reports LFAH1000-ErrorConnectToLFDS.",
+      "The issue may appear during a Version 12 upgrade or fresh Administration Hub install.",
+      "The service account and configured FQDN may appear correct.",
+    ],
+    likelyFixes: [
+      "Verify the LFDS licensing site, service account, and FQDN used on the Administration Hub configuration page.",
+      "Check Administration Hub and LFDS logs for the underlying connection or authentication failure.",
+      "No confirmed public fix was posted in the reviewed Answers thread; escalate with logs if configuration checks do not isolate the cause.",
+    ],
+    notes: "Documented as an unresolved candidate so users can recognize the error and gather the right logs.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Administrator Hub Configuration LFAH1000-ErrorConnectToLFDS",
+        url: "https://answers.laserfiche.com/questions/225151/Administrator-Hub-Configuration-LFAH1000ErrorConnectToLFDS",
+        note: "Community thread documents the error during Administration Hub Version 12 configuration, but no confirmed resolution is posted.",
+      },
+    ],
+  },
+  {
+    id: "adminhub-lfah3800-scp-error",
+    code: "LFAH3800",
+    message: "Laserfiche Administration Hub encountered a SCP error.",
+    product: "Administration Hub",
+    versions: ["Version 12"],
+    confidence: "low",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Administration Hub can fail to get the server list when the Admin Hub site cannot establish SSL connections with Agent Controller or the service connection point update fails.",
+    symptoms: [
+      "Administration Hub cannot get the server list.",
+      "Agent Controller logs show LFAH3800-SCPError.",
+      "Logs may include The specified domain either does not exist or could not be contacted.",
+    ],
+    likelyFixes: [
+      "Confirm the Agent Controller certificate matches the FQDN configured in the utility.",
+      "Check whether the certificate is a wildcard certificate and whether the configured host name matches the certificate subject/SAN.",
+      "Review domain connectivity for the service account because the public thread does not include a final confirmed fix.",
+    ],
+    notes:
+      "Laserfiche employee guidance identifies certificate/FQDN mismatch as a likely cause; the later SCP error remained unresolved publicly.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Administration Hub - Cannot get server list",
+        url: "https://answers.laserfiche.com/questions/234855/Administration-Hub--Cannot-get-server-list",
+        note: "Laserfiche reply says the certificate should match the Agent Controller FQDN configured in the utility.",
+      },
+    ],
+  },
+  {
+    id: "api-server-http-500-19-repositoryapi",
+    code: "HTTP 500.19 / 0x8007000d",
+    message: "HTTP Error 500.19 repositoryAPI.",
+    product: "API Server",
+    versions: ["Version 11"],
+    confidence: "high",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Repository API can return HTTP 500.19 with 0x8007000d when malformed JSON breaks API Server configuration.",
+    symptoms: [
+      "Browsing to LFRepositoryAPI in IIS returns HTTP Error 500.19.",
+      "The detailed error includes 0x8007000d and points at the API Server web.config path.",
+      "The issue may occur after editing appsettings.json.",
+    ],
+    likelyFixes: [
+      "Validate appsettings.json for stray text or malformed JSON.",
+      "Remove unexpected text from configuration values, then recycle the API Server application pool.",
+      "Compare the edited configuration against a known-good API Server configuration.",
+    ],
+    notes: "Laserfiche employee answer identified an unexpected cmd string in the JSON as the likely cause in the reviewed case.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "HTTP Error 500.19 repositoryAPI",
+        url: "https://answers.laserfiche.com/questions/207235/HTTP-Error-50019--repositoryAPI",
+        note: "Samuel Carson from Laserfiche points out malformed JSON in appsettings.json.",
+      },
+    ],
+  },
+  {
+    id: "import-agent-0x800401f3-ocr-com-class",
+    code: "0x800401f3",
+    message: "Exception from 0x800401f3 while performing OCR in Import Agent.",
+    product: "Import Agent",
+    versions: ["Version 9"],
+    confidence: "high",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Import Agent OCR can fail with COM class string error 0x800401f3 when the Import Agent installation or registered components are damaged.",
+    symptoms: [
+      "Import Agent throws 0x800401f3 while performing OCR.",
+      "The error may be interpreted as a missing or unregistered DLL.",
+    ],
+    likelyFixes: [
+      "Run a repair of the Import Agent installation.",
+      "Retest OCR through Import Agent after the repair completes.",
+    ],
+    notes: "Laserfiche employee reply recommends repairing Import Agent instead of manually hunting for the DLL.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Exception From 0x800401f3 Error in Import Agent",
+        url: "https://answers.laserfiche.com/questions/94825/Exception-From-0x800401f3-Error-in-Import-Agent",
+        note: "Raymond Cruz from Laserfiche says repairing the Import Agent install should fix the issue.",
+      },
+    ],
+  },
+  {
+    id: "import-agent-9006-startlist-volume-not-found",
+    code: "9006",
+    message: "Volume not found.",
+    product: "Import Agent",
+    versions: ["Version 10"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Import Agent list-file imports can report volume not found when the LST file references a volume or file path incorrectly.",
+    symptoms: [
+      "Import Agent Startlist returns volume not found. [9006].",
+      "Folders may be created, but image files are not placed into the intended entries.",
+      "Images may be placed at the root of the volume instead of under the intended target folders.",
+    ],
+    likelyFixes: [
+      "Confirm the volume named in the LST file exists in Administration Console.",
+      "Enable Recognize file with LST extensions as list files and verify the profile filter includes .lst.",
+      "Set the LST image location to the volume name rather than a folder in the volume when that matches the import format.",
+    ],
+    notes:
+      "Laserfiche employee reply supports the LST-file/profile checks; the requester later confirmed the volume designation was the issue.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Import Agent Startlist, volume not found error [9006]",
+        url: "https://answers.laserfiche.com/questions/138657/Import-Agent-Startlist-volume-not-found-error-9006",
+        note: "Laserfiche reply recommends checking the LST recognition option and file references; requester resolved the volume designation.",
+      },
+    ],
+  },
+  {
+    id: "import-agent-9013-folder-create-permission",
+    code: "9013",
+    message: "Permission denied.",
+    product: "Import Agent",
+    versions: ["Version 10"],
+    confidence: "high",
+    reviewedDate: "2026-06-27",
+    summary: "Import Agent error 9013 can indicate the configured user lacks permission to create documents in the target repository folder.",
+    symptoms: [
+      "Import Agent returns Error Code 9013.",
+      "The affected import profile targets a specific repository folder.",
+    ],
+    likelyFixes: [
+      "Check the repository security settings on the target folder.",
+      "Confirm the Import Agent connection user has rights to create documents under that folder.",
+      "Retest the import with the same profile after adjusting folder security.",
+    ],
+    notes: "Laserfiche employee reply maps this Import Agent scenario to create-document permissions in the repository.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Import Agent Error Code 9013",
+        url: "https://answers.laserfiche.com/questions/177615/Import-Agent-Error-Code-9013",
+        note: "Huazhen Liu from Laserfiche says the user does not have permission to create a document under the given folder.",
+      },
+    ],
+  },
+  {
+    id: "import-agent-file-in-use",
+    code: "IMPORT-FILE-IN-USE",
+    message: "The process cannot access the file because it is being used by another process.",
+    product: "Import Agent",
+    versions: ["Version 10"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Import Agent can move documents to the IAError folder when it attempts to import files before another process has finished writing or releasing them.",
+    symptoms: [
+      "Import Agent reports that the process cannot access the file because it is being used by another process.",
+      "Problem documents may land in the IAError folder.",
+      "Some failed files may have .LCK extensions.",
+    ],
+    likelyFixes: [
+      "Increase the delay before Import Agent attempts to import newly detected files.",
+      "In Import Agent Config, open Profile > Options > Advanced and adjust the New Files timing.",
+      "Confirm upstream systems fully finish writing files before Import Agent monitors the folder.",
+    ],
+    notes:
+      "The reviewed thread has Laserfiche employee triage and a community follow-up saying similar issues were fixed by increasing the new-file delay.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "The process cannot access the file because it is being used by another process error when importing documents using Import Agent",
+        url: "https://answers.laserfiche.com/questions/160421/The-process-cannot-access-the-file-because-it-is-being-used-by-another-process-error-when-importing-documents-using-Import-Agent",
+        note: "Community follow-up recommends increasing the delay before Import Agent imports new files.",
+      },
+    ],
+  },
+  {
+    id: "weblink-bad-key-dotnet-update",
+    code: "WEBLINK-BAD-KEY",
+    message: "Caught exception CryptographicException, Message: Bad Key in WebLink.",
+    product: "WebLink",
+    versions: ["Version 11"],
+    confidence: "high",
+    reviewedDate: "2026-06-27",
+    summary:
+      "WebLink Bad Key event-log messages can indicate the May 14, 2024 .NET Framework cumulative update reliability issue affecting Laserfiche Web Client and WebLink.",
+    symptoms: [
+      "WebLink logs Caught exception CryptographicException, Message: Bad Key.",
+      "The issue appears around the May 2024 .NET Framework cumulative update or related IIS crash symptoms.",
+    ],
+    likelyFixes: [
+      "Apply the Laserfiche hotfix for the May 2024 .NET Framework update IIS crash issue.",
+      "Confirm whether KB1014527 or the relevant support-provided hotfix is installed for the affected environment.",
+      "Monitor WebLink event logs after applying the hotfix.",
+    ],
+    notes: "Laserfiche employee reply identifies the event-log message as part of the .NET Framework update IIS crash issue.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Caught exception CryptographicException, Message: Bad Key in WebLink",
+        url: "https://answers.laserfiche.com/questions/221909/Caught-exception-CryptographicException-Message-Bad-Key-in-WebLink",
+        note: "Laserfiche employee reply ties Bad Key to the May 2024 .NET Framework update issue; follow-up says KB1014527 helped.",
+      },
+    ],
+  },
+  {
+    id: "weblink-argument-null-value-cannot-be-null",
+    code: "WEBLINK-ARGUMENT-NULL",
+    message: "Caught exception ArgumentNullException, Message: Value cannot be null in WebLink.",
+    product: "WebLink",
+    versions: ["Version 11"],
+    confidence: "low",
+    reviewedDate: "2026-06-27",
+    summary:
+      "WebLink ArgumentNullException messages were reported after applying a hotfix, but the reviewed thread does not include a confirmed root cause or fix.",
+    symptoms: [
+      "WebLink logs Caught exception ArgumentNullException, Message: Value cannot be null.",
+      "The errors may be noticed after applying a WebLink/Web Client hotfix.",
+    ],
+    likelyFixes: [
+      "Increase Laserfiche event-log size so enough history remains for support review.",
+      "Compare timestamps against patch/hotfix installation and related IIS or WebLink errors.",
+      "No confirmed public fix was posted in the reviewed Answers thread; escalate with retained logs if it continues.",
+    ],
+    notes:
+      "Laserfiche employee reply gives diagnostic guidance only. This entry is intentionally published as unresolved documentation.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Caught exception ArgumentNullException, Message: Value cannot be null in WebLink",
+        url: "https://answers.laserfiche.com/questions/221945/Caught-exception-ArgumentNullException-Message-Value-cannot-be-null-in-WebLink",
+        note: "Samuel Carson from Laserfiche recommends increasing Laserfiche event-log size to preserve diagnostic history.",
+      },
+    ],
+  },
+  {
+    id: "forms-lff4117-failed-to-generate-page",
+    code: "LFF4117",
+    message: "Failed to generate page.",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Forms can fail to generate a page when PDF generation, SSL Forms-server configuration, or external script loading is misconfigured.",
+    symptoms: [
+      "Forms returns [LFF4117-FailedToGeneratePage].",
+      "The error may appear when sending or rendering a form as a PDF.",
+      "A simplified form may reproduce the problem, indicating it is not necessarily tied to custom script.",
+    ],
+    likelyFixes: [
+      "If the failing output is PDF-related, confirm Adobe Reader or the required PDF rendering dependency is installed where needed.",
+      "Verify the Primary Forms Server address and SSL setting after upgrades.",
+      "Review custom HTML fields and external script references if the error mentions failure to generate HTML.",
+    ],
+    notes:
+      "The reviewed thread includes Laserfiche employee involvement plus community follow-ups with SSL and external-script troubleshooting paths.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error: [LFF4117-FailedToGeneratePage]",
+        url: "https://answers.laserfiche.com/questions/119958/Error-LFF4117FailedToGeneratePage",
+        note: "Community follow-ups report fixes involving Primary Forms Server/SSL configuration and external script loading.",
+      },
+    ],
+  },
+  {
+    id: "workflow-0543-wf0-license-connection",
+    code: "0543-WF0",
+    message: "The Workflow Server needs a license with the Laserfiche serial as a connection.",
+    product: "Workflow",
+    versions: ["Version 11"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow can report 0543-WF0 when attaching a repository or configuring Workflow against a server/license model that requires Workflow licensing or updated license files.",
+    symptoms: [
+      "Workflow Configuration Manager or Workflow Administration Console reports 0543-WF0 while adding a repository.",
+      "The message says Workflow Server needs a license with the Laserfiche serial as a connection.",
+      "The issue may appear after a reboot or licensing change.",
+    ],
+    likelyFixes: [
+      "Confirm a monitored repository is configured correctly in Workflow Configuration Manager.",
+      "Check the Laserfiche Server license type and serial in Administration Console.",
+      "Regenerate or update license files for the affected Laserfiche components, including Workflow-related licensing locations.",
+    ],
+    notes:
+      "Laserfiche employee replies point to repository licensing and Laserfiche Server license state; community follow-up mentions updating license file locations.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "The Workflow Server needs a license with The Laserfiche Serial as a connection. [0543-WF0]",
+        url: "https://answers.laserfiche.com/questions/207790/The--Workflow-Server-needs-a-license-with-The-Laserfiche-Serial--as-a-connection-0543WF0",
+        note: "Laserfiche reply says the error indicates a repository hosted on a Laserfiche Server license model requiring Workflow licensing.",
+      },
+    ],
+  },
+  {
+    id: "workflow-0700-wf10-invoke-depth",
+    code: "0700-WF10",
+    message: "The maximum invoke depth has been reached.",
+    product: "Workflow",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "high",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow Invoke Workflow can fail with 0700-WF10 when the same workflow is invoked repeatedly in a single instance and reaches the built-in recursion/loop guard.",
+    symptoms: [
+      "Invoke Workflow fails with 0700-WF10.",
+      "A related message may say the maximum invoke depth has been reached.",
+      "The workflow design invokes the same workflow repeatedly or recursively.",
+    ],
+    likelyFixes: [
+      "Review invoke workflow paths for recursion or loops.",
+      "Break recursive designs into a non-recursive pattern or add stop conditions before 32 invocations.",
+      "Use the Workflow activity logs to identify the repeated invocation chain.",
+    ],
+    notes: "Laserfiche employee reply states there is a built-in limit of 32 iterations to protect against infinite loops.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Workflow Error 0700-WF10 with Invoke Workflow Activity",
+        url: "https://answers.laserfiche.com/questions/57726/Workflow-Error-0700WF10-with-Invoke-Workflow-Activity",
+        note: "Miruna Babatie from Laserfiche identifies the built-in 32-iteration invoke limit.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
