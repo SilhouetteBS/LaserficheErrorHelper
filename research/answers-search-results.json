@@ -7982,5 +7982,2384 @@
     "noMatch": true,
     "query": "9065 The Annotations Cannot Be Linked Because Their Types Do Not Match",
     "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9066",
+    "links": [
+      {
+        "title": "Forms - How can my field values be bad if the restrictions are determined by the form",
+        "url": "https://answers.laserfiche.com/questions/70029/Forms--How-can-my-field-values-be-bad-if-the-restrictions-are-determined-by-the-form"
+      },
+      {
+        "title": "Variables losing values on secondary form submission (lookup-related)",
+        "url": "https://answers.laserfiche.com/questions/82181/Variables-losing-values-on-secondary-form-submission-lookuprelated"
+      },
+      {
+        "title": "Metadata disappears and error 9066 on populated fields",
+        "url": "https://answers.laserfiche.com/questions/112995/Metadata-disappears-and-error-9066-on-populated-fields"
+      },
+      {
+        "title": "One or more required fields were omitted or had a blank value. [9066]",
+        "url": "https://answers.laserfiche.com/questions/134027/One-or-more-required-fields-were-omitted-or-had-a-blank-value-9066"
+      },
+      {
+        "title": "Metadata Being Erased After Receiving [9066] Error",
+        "url": "https://answers.laserfiche.com/questions/68935/Metadata-Being-Erased-After-Receiving-9066-Error"
+      },
+      {
+        "title": "Checking for errors in Workflow",
+        "url": "https://answers.laserfiche.com/questions/97943/Checking-for-errors-in-Workflow"
+      },
+      {
+        "title": "Configure Fields Issue - Download to Repository Fails",
+        "url": "https://answers.laserfiche.com/questions/214767/Configure-Fields-Issue--Download-to-Repository-Fails"
+      },
+      {
+        "title": "9066 exact field problem",
+        "url": "https://answers.laserfiche.com/questions/94057/9066-exact-field-problem"
+      },
+      {
+        "title": "Uploading a file self hosted",
+        "url": "https://answers.laserfiche.com/questions/212472/Uploading-a-file-self-hosted"
+      },
+      {
+        "title": "Read-only field not greyed out?",
+        "url": "https://answers.laserfiche.com/questions/230254/Readonly-field-not-greyed-out"
+      },
+      {
+        "title": "Why does forms save copies of the upload due to bad field values",
+        "url": "https://answers.laserfiche.com/questions/196151/Why-does-forms-save-copies-of-the-upload-due-to-bad-field-values"
+      },
+      {
+        "title": "Bad field value ('Instance ID') & Bad field value ('Submission ID')",
+        "url": "https://answers.laserfiche.com/questions/165114/Bad-field-value-Instance-ID--Bad-field-value-Submission-ID"
+      }
+    ]
+  },
+  {
+    "code": "9067",
+    "links": [
+      {
+        "title": "The Current Session has been Terminated [9067]",
+        "url": "https://answers.laserfiche.com/questions/224931/The-Current-Session-has-been-Terminated-9067"
+      },
+      {
+        "title": "LF 11 Office Integration \"Failed to connect to the server. Verify the server is online before trying again. [9067]\"",
+        "url": "https://answers.laserfiche.com/questions/202550/LF-11-Office-Integration-Failed-to-connect-to-the-server-Verify-the-server-is-online-before-trying-again-9067"
+      }
+    ]
+  },
+  {
+    "code": "9068",
+    "links": [
+      {
+        "title": "Create document relationships\\links from an excel sheet",
+        "url": "https://answers.laserfiche.com/questions/148849/Create-document-relationshipslinks-from-an-excel-sheet"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9069",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9070",
+    "links": []
+  },
+  {
+    "code": "9071",
+    "links": []
+  },
+  {
+    "code": "9072",
+    "links": [
+      {
+        "title": "Setting Field Constraints",
+        "url": "https://answers.laserfiche.com/questions/48878/Setting-Field-Constraints"
+      }
+    ]
+  },
+  {
+    "code": "9073",
+    "links": [
+      {
+        "title": "WF Designer editing starting rules user gets error \"This user is not allowed to sign in using a password. [9073]",
+        "url": "https://answers.laserfiche.com/questions/167851/WF-Designer-editing-starting-rules-user-gets-error-This-user-is-not-allowed-to-sign-in-using-a-password-9073"
+      },
+      {
+        "title": "LF Forms domain users logging in",
+        "url": "https://answers.laserfiche.com/questions/69927/LF-Forms-domain-users-logging-in"
+      }
+    ]
+  },
+  {
+    "code": "9074",
+    "links": []
+  },
+  {
+    "code": "9075",
+    "links": [
+      {
+        "title": "Laserfiche Mobile App: This password has expired and must be changed. [9075]",
+        "url": "https://answers.laserfiche.com/questions/110038/Laserfiche-Mobile-App-This-password-has-expired-and-must-be-changed-9075"
+      },
+      {
+        "title": "Error when forms tries to save to repository",
+        "url": "https://answers.laserfiche.com/questions/122762/Error-when-forms-tries-to-save-to-repository"
+      }
+    ]
+  },
+  {
+    "code": "9076",
+    "links": []
+  },
+  {
+    "code": "9077",
+    "links": []
+  },
+  {
+    "code": "9078",
+    "links": [
+      {
+        "title": "Save as Draft and Database Lookup Question",
+        "url": "https://answers.laserfiche.com/questions/78684/Save-as-Draft-and-Database-Lookup-Question"
+      }
+    ]
+  },
+  {
+    "code": "9079",
+    "links": []
+  },
+  {
+    "code": "9080",
+    "links": [
+      {
+        "title": "Using Web scanning 9.1 through Web Access 9.1.1 display error.",
+        "url": "https://answers.laserfiche.com/questions/53442/Using-Web-scanning-91-through-Web-Access-911-display-error"
+      },
+      {
+        "title": "Last Modified - What Counts as a Modification?",
+        "url": "https://answers.laserfiche.com/questions/157375/Last-Modified--What-Counts-as-a-Modification"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9081",
+    "links": [
+      {
+        "title": "Last Modified - What Counts as a Modification?",
+        "url": "https://answers.laserfiche.com/questions/157375/Last-Modified--What-Counts-as-a-Modification"
+      }
+    ]
+  },
+  {
+    "code": "9082",
+    "links": [
+      {
+        "title": "Last Modified - What Counts as a Modification?",
+        "url": "https://answers.laserfiche.com/questions/157375/Last-Modified--What-Counts-as-a-Modification"
+      }
+    ]
+  },
+  {
+    "code": "9083",
+    "links": [
+      {
+        "title": "Needing ideas please for creation of a workflow for a daily email of changed documents",
+        "url": "https://answers.laserfiche.com/questions/111240/Needing-ideas-please-for-creation-of-a-workflow-for-a-daily-email-of-changed-documents"
+      }
+    ]
+  },
+  {
+    "code": "9084",
+    "links": [
+      {
+        "title": "Strange Search Results",
+        "url": "https://answers.laserfiche.com/questions/202033/Strange-Search-Results"
+      },
+      {
+        "title": "Search Repository error messages #9084 and #9085",
+        "url": "https://answers.laserfiche.com/questions/128927/Search-Repository-error-messages-9084-and-9085"
+      },
+      {
+        "title": "Quesntions on Laserfiche Connector",
+        "url": "https://answers.laserfiche.com/questions/119164/Quesntions-on-Laserfiche-Connector"
+      },
+      {
+        "title": "LF Client-Search multiple Entry ID's at once",
+        "url": "https://answers.laserfiche.com/questions/200802/LF-ClientSearch-multiple-Entry-IDs-at-once"
+      },
+      {
+        "title": "workflow search syntax token search 1 or 2",
+        "url": "https://answers.laserfiche.com/questions/232993/workflow-search-syntax-token-search-1-or-2"
+      },
+      {
+        "title": "Workflow Search : 9084 - A syntax error was encountered while processing the search",
+        "url": "https://answers.laserfiche.com/questions/48014/Workflow-Search--9084--A-syntax-error-was-encountered-while-processing-the-search"
+      },
+      {
+        "title": "Syntax Error when searching with quotes",
+        "url": "https://answers.laserfiche.com/questions/161107/Syntax-Error-when-searching-with-quotes"
+      },
+      {
+        "title": "Unable to query by Date Modified within 2 hours",
+        "url": "https://answers.laserfiche.com/questions/75526/Unable-to-query-by-Date-Modified-within-2-hours"
+      },
+      {
+        "title": "Getting an error 9084 when using SDK",
+        "url": "https://answers.laserfiche.com/questions/54760/Getting-an-error-9084-when-using-SDK"
+      },
+      {
+        "title": "Possibility to make a workflow be completed until another workflow is completely satisfied",
+        "url": "https://answers.laserfiche.com/questions/82317/Possibility-to-make-a-workflow-be-completed-until-another-workflow-is-completely-satisfied"
+      }
+    ]
+  },
+  {
+    "code": "9085",
+    "links": [
+      {
+        "title": "Search Repository error messages #9084 and #9085",
+        "url": "https://answers.laserfiche.com/questions/128927/Search-Repository-error-messages-9084-and-9085"
+      },
+      {
+        "title": "Using syntax code to find duplicate folders with and with out documents inside",
+        "url": "https://answers.laserfiche.com/questions/197630/Using-syntax-code-to-find-duplicate-folders-with-and-with-out-documents-inside"
+      },
+      {
+        "title": "An Unrecognized character was encountered [9085].",
+        "url": "https://answers.laserfiche.com/questions/141957/An-Unrecognized-character-was-encountered-9085"
+      },
+      {
+        "title": "Search for all pages that have not been redacted?",
+        "url": "https://answers.laserfiche.com/questions/60114/Search-for-all-pages-that-have-not-been-redacted-"
+      },
+      {
+        "title": "Input Parameter in Workflow Business Process",
+        "url": "https://answers.laserfiche.com/questions/190473/Input-Parameter-in-Workflow-Business-Process"
+      },
+      {
+        "title": "Search Syntax Error",
+        "url": "https://answers.laserfiche.com/questions/155377/Search-Syntax-Error"
+      },
+      {
+        "title": "[Bug Report] Forms Email Issue with Newlines in Web Client Search URLs",
+        "url": "https://answers.laserfiche.com/questions/168327/Bug-Report-Forms-Email-Issue-with-Newlines-in-Web-Client-Search-URLs"
+      }
+    ]
+  },
+  {
+    "code": "9086",
+    "links": [
+      {
+        "title": "Workflow failing with 9086 Error",
+        "url": "https://answers.laserfiche.com/questions/115342/Workflow-failing-with-9086-Error"
+      },
+      {
+        "title": "LFQL Field Query with Period in Field Name",
+        "url": "https://answers.laserfiche.com/questions/123802/LFQL-Field-Query-with-Period-in-Field-Name"
+      },
+      {
+        "title": "Advance Search Syntax to Retrieve documents based upon template field info",
+        "url": "https://answers.laserfiche.com/questions/49085/Advance-Search-Syntax-to-Retrieve-documents-based-upon-template-field-info"
+      },
+      {
+        "title": "Search Repository just keeps running",
+        "url": "https://answers.laserfiche.com/questions/78866/Search-Repository-just-keeps-running"
+      },
+      {
+        "title": "Last Modified - What Counts as a Modification?",
+        "url": "https://answers.laserfiche.com/questions/157375/Last-Modified--What-Counts-as-a-Modification"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9087",
+    "links": [
+      {
+        "title": "Form task suspended at Save to Repository being able to re-assign",
+        "url": "https://answers.laserfiche.com/questions/150062/Form-task-suspended-at-Save-to-Repository-being-able-to-reassign"
+      }
+    ]
+  },
+  {
+    "code": "9088",
+    "links": []
+  },
+  {
+    "code": "9089",
+    "links": [
+      {
+        "title": "Unattended Installation (LFGet.exe) - Permissions issue",
+        "url": "https://answers.laserfiche.com/questions/232457/Unattended-Installation-LFGetexe--Permissions-issue"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9090",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9091",
+    "links": [
+      {
+        "title": "Weblink Error 9091",
+        "url": "https://answers.laserfiche.com/questions/170443/Weblink-Error-9091"
+      }
+    ]
+  },
+  {
+    "code": "9092",
+    "links": []
+  },
+  {
+    "code": "9093",
+    "links": []
+  },
+  {
+    "code": "9094",
+    "links": []
+  },
+  {
+    "code": "9095",
+    "links": [
+      {
+        "title": "The requested entry link was not found. [9095]",
+        "url": "https://answers.laserfiche.com/questions/233168/The-requested-entry-link-was-not-found-9095"
+      },
+      {
+        "title": "Help! Field with division calculation (percentage calculation) error",
+        "url": "https://answers.laserfiche.com/questions/205642/Help-Field-with-division-calculation-percentage-calculation-error"
+      }
+    ]
+  },
+  {
+    "code": "9096",
+    "links": [
+      {
+        "title": "Error: Stamp not Found Error 9096",
+        "url": "https://answers.laserfiche.com/questions/170500/Error-Stamp-not-Found-Error-9096"
+      }
+    ]
+  },
+  {
+    "code": "9097",
+    "links": []
+  },
+  {
+    "code": "9098",
+    "links": []
+  },
+  {
+    "code": "9099",
+    "links": []
+  },
+  {
+    "code": "9100",
+    "links": [
+      {
+        "title": "Web Client - Annotation Error: The operation requires the document to be checked out first",
+        "url": "https://answers.laserfiche.com/questions/170120/Web-Client--Annotation-Error-The-operation-requires-the-document-to-be-checked-out-first"
+      },
+      {
+        "title": "Error occurring when user annotates a document",
+        "url": "https://answers.laserfiche.com/questions/224413/Error-occurring-when-user-annotates-a-document"
+      }
+    ]
+  },
+  {
+    "code": "9101",
+    "links": []
+  },
+  {
+    "code": "9102",
+    "links": [
+      {
+        "title": "a connection to the Laserfiche web client cannot be made",
+        "url": "https://answers.laserfiche.com/questions/129201/a-connection-to-the-Laserfiche-web-client-cannot-be-made"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9103",
+    "links": []
+  },
+  {
+    "code": "9104",
+    "links": [
+      {
+        "title": "The conversion of the nvarchar value overflowed an INT2 column Error",
+        "url": "https://answers.laserfiche.com/questions/197595/The-conversion-of-the-nvarchar-value-overflowed-an-INT2-column-Error"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9105",
+    "links": [
+      {
+        "title": "Error Code : 9105",
+        "url": "https://answers.laserfiche.com/questions/97754/Error-Code--9105"
+      },
+      {
+        "title": "Read-Only Sessions with expired Laserfiche license",
+        "url": "https://answers.laserfiche.com/questions/146549/ReadOnly-Sessions-with-expired-Laserfiche-license"
+      },
+      {
+        "title": "Forms 10.2 from 9.2. An error was encountered while updating the database.",
+        "url": "https://answers.laserfiche.com/questions/125173/Forms-102-from-92-An-error-was-encountered-while-updating-the-database"
+      }
+    ]
+  },
+  {
+    "code": "9106",
+    "links": [
+      {
+        "title": "Collections and Exclusive Gateways",
+        "url": "https://answers.laserfiche.com/questions/188030/Collections-and-Exclusive-Gateways"
+      }
+    ]
+  },
+  {
+    "code": "9107",
+    "links": []
+  },
+  {
+    "code": "9108",
+    "links": [
+      {
+        "title": "Workflow script runs fine inside the script editor, but gives error when ran by workflow",
+        "url": "https://answers.laserfiche.com/questions/87503/Workflow-script-runs-fine-inside-the-script-editor-but-gives-error-when-ran-by-workflow"
+      }
+    ]
+  },
+  {
+    "code": "9109",
+    "links": []
+  },
+  {
+    "code": "9110",
+    "links": [
+      {
+        "title": "SQL database schema does not match error 9110",
+        "url": "https://answers.laserfiche.com/questions/52173/SQL-database-schema-does-not-match-error-9110"
+      },
+      {
+        "title": "The database schema is the wrong type or is not a supported version. [9110]",
+        "url": "https://answers.laserfiche.com/questions/93352/The-database-schema-is-the-wrong-type-or-is-not-a-supported-version-9110"
+      },
+      {
+        "title": "Laserfiche Server version for a Database with a schema of 7.2.1",
+        "url": "https://answers.laserfiche.com/questions/193436/Laserfiche-Server-version-for-a-Database-with-a-schema-of-721"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9111",
+    "links": []
+  },
+  {
+    "code": "9112",
+    "links": [
+      {
+        "title": "XMLPath language with Namespaces",
+        "url": "https://answers.laserfiche.com/questions/196906/XMLPath-language-with-Namespaces"
+      }
+    ]
+  },
+  {
+    "code": "9113",
+    "links": [
+      {
+        "title": "Need assistance referencing the most recent date in a multi value token (when adding to it in Date Token Calculator)",
+        "url": "https://answers.laserfiche.com/questions/207337/Need-assistance-referencing-the-most-recent-date-in-a-multi-value-token-when-adding-to-it-in-Date-Token-Calculator"
+      }
+    ]
+  },
+  {
+    "code": "9114",
+    "links": [
+      {
+        "title": "Laserfiche Office Integration",
+        "url": "https://answers.laserfiche.com/questions/139257/Laserfiche-Office-Integration"
+      },
+      {
+        "title": "Save as Draft and Database Lookup Question",
+        "url": "https://answers.laserfiche.com/questions/78684/Save-as-Draft-and-Database-Lookup-Question"
+      }
+    ]
+  },
+  {
+    "code": "9115",
+    "links": []
+  },
+  {
+    "code": "9116",
+    "links": [
+      {
+        "title": "Failed to load annotations. This image cannot be modified. General database error. [9008] - after upgrade from 8.3.2 to 9.1.1",
+        "url": "https://answers.laserfiche.com/questions/55838/Failed-to-load-annotations-This-image-cannot-be-modified-General-database-error-9008--after-upgrade-from-832-to-911"
+      },
+      {
+        "title": "Records Management Activities in Workflow",
+        "url": "https://answers.laserfiche.com/questions/175325/Records-Management-Activities-in-Workflow"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9117",
+    "links": []
+  },
+  {
+    "code": "9118",
+    "links": [
+      {
+        "title": "a connection to the Laserfiche web client cannot be made",
+        "url": "https://answers.laserfiche.com/questions/129201/a-connection-to-the-Laserfiche-web-client-cannot-be-made"
+      },
+      {
+        "title": "\"Designate these records for transfer or accession to NARA\"?",
+        "url": "https://answers.laserfiche.com/questions/75422/Designate-these-records-for-transfer-or-accession-to-NARA"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9119",
+    "links": [
+      {
+        "title": "Error - 9119 - How to find entries that you don't have access to?",
+        "url": "https://answers.laserfiche.com/questions/75161/Error--9119--How-to-find-entries-that-you-dont-have-access-to"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      },
+      {
+        "title": "LF Client Document Viewer-Drag/Drop to Website",
+        "url": "https://answers.laserfiche.com/questions/193678/LF-Client-Document-ViewerDragDrop-to-Website"
+      }
+    ]
+  },
+  {
+    "code": "9120",
+    "links": []
+  },
+  {
+    "code": "9121",
+    "links": []
+  },
+  {
+    "code": "9122",
+    "links": [
+      {
+        "title": "Laserfiche Office Integration",
+        "url": "https://answers.laserfiche.com/questions/139257/Laserfiche-Office-Integration"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9123",
+    "links": [
+      {
+        "title": "Fields hidden through JavaScript are shown in Repository",
+        "url": "https://answers.laserfiche.com/questions/74522/Fields-hidden-through-JavaScript-are-shown-in-Repository"
+      }
+    ]
+  },
+  {
+    "code": "9124",
+    "links": [
+      {
+        "title": "Forms-Data Source Creation LFF2400 Error",
+        "url": "https://answers.laserfiche.com/questions/180047/FormsData-Source-Creation-LFF2400-Error"
+      }
+    ]
+  },
+  {
+    "code": "9125",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9126",
+    "links": []
+  },
+  {
+    "code": "9127",
+    "links": []
+  },
+  {
+    "code": "9128",
+    "links": [
+      {
+        "title": "There was an error decompressing the briefcase. The briefcase may be corrupted. error 9128",
+        "url": "https://answers.laserfiche.com/questions/195302/There-was-an-error-decompressing-the-briefcase-The-briefcase-may-be-corrupted-error-9128"
+      }
+    ]
+  },
+  {
+    "code": "9129",
+    "links": [
+      {
+        "title": "Unable to login to web client",
+        "url": "https://answers.laserfiche.com/questions/173923/Unable-to-login-to-web-client"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9130",
+    "links": [
+      {
+        "title": "Error: The operation could not be completed because the volume is offline. [9130]",
+        "url": "https://answers.laserfiche.com/questions/116540/Error-The-operation-could-not-be-completed-because-the-volume-is-offline-9130"
+      },
+      {
+        "title": "Error moving pages [9130]",
+        "url": "https://answers.laserfiche.com/questions/141507/Error-moving-pages-9130"
+      },
+      {
+        "title": "XMLPath language with Namespaces",
+        "url": "https://answers.laserfiche.com/questions/196906/XMLPath-language-with-Namespaces"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9131",
+    "links": []
+  },
+  {
+    "code": "9132",
+    "links": [
+      {
+        "title": "The search engine encountered an internal error. Please check the search engine error log for more details. [9132]",
+        "url": "https://answers.laserfiche.com/questions/109766/The-search-engine-encountered-an-internal-error-Please-check-the-search-engine-error-log-for-more-details-9132"
+      },
+      {
+        "title": "laserfiche error 9132 when create index",
+        "url": "https://answers.laserfiche.com/questions/96900/laserfiche-error-9132-when-create-index"
+      },
+      {
+        "title": "LFFTS and LFS in different machine",
+        "url": "https://answers.laserfiche.com/questions/162334/LFFTS-and-LFS-in-different-machine"
+      }
+    ]
+  },
+  {
+    "code": "9133",
+    "links": [
+      {
+        "title": "Page text out of range. [9133]",
+        "url": "https://answers.laserfiche.com/questions/183309/Page-text-out-of-range-9133"
+      },
+      {
+        "title": "Import Agent - Maximum file size - Error Code: 9133",
+        "url": "https://answers.laserfiche.com/questions/205490/Import-Agent--Maximum-file-size--Error-Code-9133"
+      }
+    ]
+  },
+  {
+    "code": "9134",
+    "links": []
+  },
+  {
+    "code": "9135",
+    "links": [
+      {
+        "title": "An Underlying Connection Was Closed Error",
+        "url": "https://answers.laserfiche.com/questions/223498/An-Underlying-Connection-Was-Closed-Error"
+      }
+    ]
+  },
+  {
+    "code": "9136",
+    "links": [
+      {
+        "title": "WebLink Designer error while creating custom forms",
+        "url": "https://answers.laserfiche.com/questions/219237/WebLink-Designer-error-while-creating-custom-forms"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9137",
+    "links": []
+  },
+  {
+    "code": "9138",
+    "links": []
+  },
+  {
+    "code": "9139",
+    "links": []
+  },
+  {
+    "code": "9140",
+    "links": []
+  },
+  {
+    "code": "9141",
+    "links": [
+      {
+        "title": "Laserfiche Office Integration",
+        "url": "https://answers.laserfiche.com/questions/139257/Laserfiche-Office-Integration"
+      }
+    ]
+  },
+  {
+    "code": "9142",
+    "links": []
+  },
+  {
+    "code": "9143",
+    "links": [
+      {
+        "title": "Searches not returning hits on OCR'd pages.",
+        "url": "https://answers.laserfiche.com/questions/121189/Searches-not-returning-hits-on-OCRd-pages"
+      },
+      {
+        "title": "Emails with Unable to obtain the context hit [9143]",
+        "url": "https://answers.laserfiche.com/questions/103925/Emails-with-Unable-to-obtain-the-context-hit-9143"
+      },
+      {
+        "title": "Workflow/Script to Upload Docs to SharePoint Online",
+        "url": "https://answers.laserfiche.com/questions/175450/WorkflowScript-to-Upload-Docs-to-SharePoint-Online"
+      }
+    ]
+  },
+  {
+    "code": "9144",
+    "links": [
+      {
+        "title": "Change default folder in the bip file",
+        "url": "https://answers.laserfiche.com/questions/168995/Change-default-folder-in-the-bip-file"
+      }
+    ]
+  },
+  {
+    "code": "9146",
+    "links": []
+  },
+  {
+    "code": "9147",
+    "links": []
+  },
+  {
+    "code": "9148",
+    "links": []
+  },
+  {
+    "code": "9149",
+    "links": []
+  },
+  {
+    "code": "9150",
+    "links": [
+      {
+        "title": "Client with 250 users",
+        "url": "https://answers.laserfiche.com/questions/48593/Client-with-250-users"
+      }
+    ]
+  },
+  {
+    "code": "9151",
+    "links": [
+      {
+        "title": "Laserfiche 11 Audit Trail Install Error",
+        "url": "https://answers.laserfiche.com/questions/209630/Laserfiche-11-Audit-Trail-Install-Error"
+      }
+    ]
+  },
+  {
+    "code": "9152",
+    "links": [
+      {
+        "title": "Error 9152 y 9030",
+        "url": "https://answers.laserfiche.com/questions/141075/Error-9152-y-9030"
+      }
+    ]
+  },
+  {
+    "code": "9153",
+    "links": [
+      {
+        "title": "Laserfiche error 9153",
+        "url": "https://answers.laserfiche.com/questions/223877/Laserfiche-error-9153"
+      }
+    ]
+  },
+  {
+    "code": "9154",
+    "links": []
+  },
+  {
+    "code": "9155",
+    "links": [
+      {
+        "title": "Error 9155 - A Literal is missing a final quote in the search query",
+        "url": "https://answers.laserfiche.com/questions/96197/Error-9155--A-Literal-is-missing-a-final-quote-in-the-search-query"
+      },
+      {
+        "title": "Error Message: A literal is missing a final quote in the search query.",
+        "url": "https://answers.laserfiche.com/questions/163993/Error-Message-A-literal-is-missing-a-final-quote-in-the-search-query"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9156",
+    "links": [
+      {
+        "title": "Workflow HTTP Web Request GET - Data Loss?",
+        "url": "https://answers.laserfiche.com/questions/164382/Workflow-HTTP-Web-Request-GET--Data-Loss"
+      },
+      {
+        "title": "workflow 9.2.0.167",
+        "url": "https://answers.laserfiche.com/questions/92622/workflow-920167"
+      },
+      {
+        "title": "Partial match or wildcard or reg ex expressions in JPATH",
+        "url": "https://answers.laserfiche.com/questions/161434/Partial-match-or-wildcard-or-reg-ex-expressions-in-JPATH"
+      }
+    ]
+  },
+  {
+    "code": "9157",
+    "links": [
+      {
+        "title": "Advanced search syntax: include empty and specific field values",
+        "url": "https://answers.laserfiche.com/questions/77747/Advanced-search-syntax-include-empty-and-specific-field-values"
+      }
+    ]
+  },
+  {
+    "code": "9158",
+    "links": [
+      {
+        "title": "Forms Essentials configuration fails at User Authentication tab",
+        "url": "https://answers.laserfiche.com/questions/142626/Forms-Essentials-configuration-fails-at-User-Authentication-tab"
+      },
+      {
+        "title": "9231: The password specified is invalid.",
+        "url": "https://answers.laserfiche.com/questions/204154/9231-The-password-specified-is-invalid"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9159",
+    "links": []
+  },
+  {
+    "code": "9160",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9161",
+    "links": [
+      {
+        "title": "date token calculator not working as expected",
+        "url": "https://answers.laserfiche.com/questions/89978/date-token-calculator-not-working-as-expected"
+      },
+      {
+        "title": "Invalid Date Format [Workflow] 9.1.0.328",
+        "url": "https://answers.laserfiche.com/questions/70858/Invalid-Date-Format-Workflow-910328"
+      }
+    ]
+  },
+  {
+    "code": "9162",
+    "links": [
+      {
+        "title": "Unknown breaking bug on form submission",
+        "url": "https://answers.laserfiche.com/questions/232735/Unknown-breaking-bug-on-form-submission"
+      }
+    ]
+  },
+  {
+    "code": "9163",
+    "links": []
+  },
+  {
+    "code": "9164",
+    "links": []
+  },
+  {
+    "code": "9165",
+    "links": []
+  },
+  {
+    "code": "9166",
+    "links": [
+      {
+        "title": "error creating a new laserfiche repository in rio",
+        "url": "https://answers.laserfiche.com/questions/70395/error-creating-a-new-laserfiche-repository-in-rio"
+      },
+      {
+        "title": "Last Modified - What Counts as a Modification?",
+        "url": "https://answers.laserfiche.com/questions/157375/Last-Modified--What-Counts-as-a-Modification"
+      }
+    ]
+  },
+  {
+    "code": "9167",
+    "links": [
+      {
+        "title": "Resume Instance",
+        "url": "https://answers.laserfiche.com/questions/138959/Resume-Instance"
+      },
+      {
+        "title": "Document locked with a persistent lock. [9167]",
+        "url": "https://answers.laserfiche.com/questions/161608/Document-locked-with-a-persistent-lock-9167"
+      },
+      {
+        "title": "Document locked with a persistent lock. [9167] Multistatus response. [9039]",
+        "url": "https://answers.laserfiche.com/questions/119863/Document-locked-with-a-persistent-lock-9167-Multistatus-response-9039"
+      },
+      {
+        "title": "Document Locked with Persistent Lock 9167 Error",
+        "url": "https://answers.laserfiche.com/questions/167391/Document-Locked-with-Persistent-Lock-9167-Error"
+      },
+      {
+        "title": "Skip document if locked (try-catch expected error handling)",
+        "url": "https://answers.laserfiche.com/questions/167812/Skip-document-if-locked-trycatch-expected-error-handling"
+      },
+      {
+        "title": "entry is locked during move pages in SDK",
+        "url": "https://answers.laserfiche.com/questions/102608/entry-is-locked-during-move-pages-in-SDK"
+      },
+      {
+        "title": "Need to perform an Undo Check Out from within a Workflow",
+        "url": "https://answers.laserfiche.com/questions/143542/Need-to-perform-an-Undo-Check-Out-from-within-a-Workflow"
+      }
+    ]
+  },
+  {
+    "code": "9168",
+    "links": []
+  },
+  {
+    "code": "9169",
+    "links": []
+  },
+  {
+    "code": "9170",
+    "links": [
+      {
+        "title": "Date/time out of range. [9170] when doing a search",
+        "url": "https://answers.laserfiche.com/questions/150337/Datetime-out-of-range-9170-when-doing-a-search"
+      },
+      {
+        "title": "Date/time out of range. [9170]",
+        "url": "https://answers.laserfiche.com/questions/126400/Datetime-out-of-range-9170"
+      },
+      {
+        "title": "Change default folder in the bip file",
+        "url": "https://answers.laserfiche.com/questions/168995/Change-default-folder-in-the-bip-file"
+      }
+    ]
+  },
+  {
+    "code": "9171",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9172",
+    "links": [
+      {
+        "title": "Unattended Installation (LFGet.exe) - Permissions issue",
+        "url": "https://answers.laserfiche.com/questions/232457/Unattended-Installation-LFGetexe--Permissions-issue"
+      }
+    ]
+  },
+  {
+    "code": "9173",
+    "links": [
+      {
+        "title": "Change default folder in the bip file",
+        "url": "https://answers.laserfiche.com/questions/168995/Change-default-folder-in-the-bip-file"
+      }
+    ]
+  },
+  {
+    "code": "9174",
+    "links": []
+  },
+  {
+    "code": "9175",
+    "links": []
+  },
+  {
+    "code": "9176",
+    "links": [
+      {
+        "title": "Change default folder in the bip file",
+        "url": "https://answers.laserfiche.com/questions/168995/Change-default-folder-in-the-bip-file"
+      },
+      {
+        "title": "Last Modified - What Counts as a Modification?",
+        "url": "https://answers.laserfiche.com/questions/157375/Last-Modified--What-Counts-as-a-Modification"
+      }
+    ]
+  },
+  {
+    "code": "9177",
+    "links": [
+      {
+        "title": "Registering a Repository with Oracle: Encountered an error with ODBC driver. Please check the event viewer on the Laserfiche Server machine for more information.",
+        "url": "https://answers.laserfiche.com/questions/78635/Registering-a-Repository-with-Oracle-Encountered-an-error-with-ODBC--driver-Please-check-the-event-viewer-on-the-Laserfiche-Server-machine-for-more-information"
+      },
+      {
+        "title": "Change default folder in the bip file",
+        "url": "https://answers.laserfiche.com/questions/168995/Change-default-folder-in-the-bip-file"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9178",
+    "links": [
+      {
+        "title": "DocumentProcessor OCREngine Unknown Error and Permissions",
+        "url": "https://answers.laserfiche.com/questions/89055/DocumentProcessor-OCREngine-Unknown-Error-and-Permissions"
+      }
+    ]
+  },
+  {
+    "code": "9179",
+    "links": [
+      {
+        "title": "Getting Error 9179 when creating Repository. Need Quick Support",
+        "url": "https://answers.laserfiche.com/questions/133935/Getting-Error-9179-when-creating-Repository-Need-Quick-Support"
+      },
+      {
+        "title": "9179 Error when using Laserfiche App",
+        "url": "https://answers.laserfiche.com/questions/136424/9179-Error-when-using-Laserfiche-App"
+      },
+      {
+        "title": "DocuSign Connect - Not licensed for DocuSign integration. (9179)",
+        "url": "https://answers.laserfiche.com/questions/186078/DocuSign-Connect--Not-licensed-for-DocuSign-integration-9179"
+      },
+      {
+        "title": "No permission to mobile upload \"electronic documents\", yet no problem with image files or other clients",
+        "url": "https://answers.laserfiche.com/questions/94427/No-permission-to-mobile-upload-electronic-documents-yet-no-problem-with-image-files-or-other-clients"
+      },
+      {
+        "title": "9179 - License Lacks feature activation required for the requested operation",
+        "url": "https://answers.laserfiche.com/questions/108029/9179--License-Lacks-feature-activation-required-for-the-requested-operation"
+      },
+      {
+        "title": "9179 License Lacks feature activation required for the requested operation",
+        "url": "https://answers.laserfiche.com/questions/191524/9179-License-Lacks-feature-activation-required-for-the-requested-operation"
+      },
+      {
+        "title": "Installing LF11",
+        "url": "https://answers.laserfiche.com/questions/207125/Installing-LF11"
+      },
+      {
+        "title": "Restricted Licenses Allow Rotating Pages?",
+        "url": "https://answers.laserfiche.com/questions/112504/Restricted-Licenses-Allow-Rotating-Pages"
+      },
+      {
+        "title": "Docusign Connect & Certificates",
+        "url": "https://answers.laserfiche.com/questions/205578/Docusign-Connect--Certificates"
+      },
+      {
+        "title": "Workflow/Script to Upload Docs to SharePoint Online",
+        "url": "https://answers.laserfiche.com/questions/175450/WorkflowScript-to-Upload-Docs-to-SharePoint-Online"
+      }
+    ]
+  },
+  {
+    "code": "9180",
+    "links": [
+      {
+        "title": "DocumentProcessor OCREngine Unknown Error and Permissions",
+        "url": "https://answers.laserfiche.com/questions/89055/DocumentProcessor-OCREngine-Unknown-Error-and-Permissions"
+      }
+    ]
+  },
+  {
+    "code": "9181",
+    "links": []
+  },
+  {
+    "code": "9182",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9183",
+    "links": []
+  },
+  {
+    "code": "9184",
+    "links": [
+      {
+        "title": "Can I use the REST api from within Forms to trigger an Oracle Orchestrator orchestration?",
+        "url": "https://answers.laserfiche.com/questions/194435/Can-I-use-the-REST-api-from-within-Forms-to-trigger-an-Oracle-Orchestrator-orchestration"
+      }
+    ]
+  },
+  {
+    "code": "9185",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9186",
+    "links": []
+  },
+  {
+    "code": "9187",
+    "links": [
+      {
+        "title": "Can we Delete or Move Quick Fields Data",
+        "url": "https://answers.laserfiche.com/questions/119713/Can-we-Delete-or-Move-Quick-Fields-Data"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9188",
+    "links": []
+  },
+  {
+    "code": "9189",
+    "links": []
+  },
+  {
+    "code": "9190",
+    "links": []
+  },
+  {
+    "code": "9191",
+    "links": [
+      {
+        "title": "Workflow Subscriber error 9010",
+        "url": "https://answers.laserfiche.com/questions/57237/Workflow-Subscriber-error-9010"
+      },
+      {
+        "title": "Find/Replace Regular Expression?",
+        "url": "https://answers.laserfiche.com/questions/77877/FindReplace-Regular-Expression"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9192",
+    "links": [
+      {
+        "title": "Workflow: Get results of stored procedure from OUTPUT parameter",
+        "url": "https://answers.laserfiche.com/questions/210797/Workflow-Get-results-of-stored-procedure-from-OUTPUT-parameter"
+      }
+    ]
+  },
+  {
+    "code": "9193",
+    "links": [
+      {
+        "title": "Error Message: The record or record folder cannot be uncutoff at this point. [9193]",
+        "url": "https://answers.laserfiche.com/questions/163653/Error-Message-The-record-or-record-folder-cannot-be-uncutoff-at-this-point-9193"
+      }
+    ]
+  },
+  {
+    "code": "9194",
+    "links": []
+  },
+  {
+    "code": "9195",
+    "links": []
+  },
+  {
+    "code": "9196",
+    "links": [
+      {
+        "title": "Changing cycle definitions",
+        "url": "https://answers.laserfiche.com/questions/135036/Changing-cycle-definitions"
+      }
+    ]
+  },
+  {
+    "code": "9197",
+    "links": [
+      {
+        "title": "Last Modified - What Counts as a Modification?",
+        "url": "https://answers.laserfiche.com/questions/157375/Last-Modified--What-Counts-as-a-Modification"
+      }
+    ]
+  },
+  {
+    "code": "9198",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9199",
+    "links": []
+  },
+  {
+    "code": "9200",
+    "links": [
+      {
+        "title": "\"SideBySide\" Error in Application event log",
+        "url": "https://answers.laserfiche.com/questions/87873/SideBySide-Error-in-Application-event-log"
+      },
+      {
+        "title": "Error Logging In",
+        "url": "https://answers.laserfiche.com/questions/154848/Error-Logging-In"
+      },
+      {
+        "title": "Quick fields Agent hanged",
+        "url": "https://answers.laserfiche.com/questions/71315/Quick-fields-Agent-hanged"
+      },
+      {
+        "title": "Invoice automation and upload into SAP",
+        "url": "https://answers.laserfiche.com/questions/148211/Invoice-automation-and-upload-into-SAP"
+      },
+      {
+        "title": "SQL State: 08S01",
+        "url": "https://answers.laserfiche.com/questions/182468/SQL-State-08S01"
+      },
+      {
+        "title": "Could not connect to Laserfiche Server in Workflow",
+        "url": "https://answers.laserfiche.com/questions/88653/Could-not-connect-to-Laserfiche-Server-in-Workflow"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      },
+      {
+        "title": "Laserfiche Forms on DMZ",
+        "url": "https://answers.laserfiche.com/questions/86969/Laserfiche-Forms-on-DMZ"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9201",
+    "links": []
+  },
+  {
+    "code": "9202",
+    "links": []
+  },
+  {
+    "code": "9203",
+    "links": [
+      {
+        "title": "Recursive access rights report",
+        "url": "https://answers.laserfiche.com/questions/181404/Recursive-access-rights-report"
+      }
+    ]
+  },
+  {
+    "code": "9204",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9205",
+    "links": []
+  },
+  {
+    "code": "9206",
+    "links": [
+      {
+        "title": "Invoice automation and upload into SAP",
+        "url": "https://answers.laserfiche.com/questions/148211/Invoice-automation-and-upload-into-SAP"
+      }
+    ]
+  },
+  {
+    "code": "9207",
+    "links": []
+  },
+  {
+    "code": "9208",
+    "links": []
+  },
+  {
+    "code": "9209",
+    "links": [
+      {
+        "title": "How can I delete a white page from a Document?",
+        "url": "https://answers.laserfiche.com/questions/126371/How-can-I-delete-a-white-page-from-a-Document"
+      }
+    ]
+  },
+  {
+    "code": "9210",
+    "links": [
+      {
+        "title": "Patter Matching from folder path",
+        "url": "https://answers.laserfiche.com/questions/216104/Patter-Matching-from-folder-path"
+      },
+      {
+        "title": "pattern match to rename from folder path",
+        "url": "https://answers.laserfiche.com/questions/213533/pattern-match-to-rename-from-folder-path"
+      }
+    ]
+  },
+  {
+    "code": "9211",
+    "links": []
+  },
+  {
+    "code": "9212",
+    "links": [
+      {
+        "title": "Bulk Download Business Process XML",
+        "url": "https://answers.laserfiche.com/questions/227931/Bulk-Download-Business-Process-XML"
+      },
+      {
+        "title": "Save as Draft and Database Lookup Question",
+        "url": "https://answers.laserfiche.com/questions/78684/Save-as-Draft-and-Database-Lookup-Question"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9213",
+    "links": []
+  },
+  {
+    "code": "9214",
+    "links": [
+      {
+        "title": "Save as Draft and Database Lookup Question",
+        "url": "https://answers.laserfiche.com/questions/78684/Save-as-Draft-and-Database-Lookup-Question"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9215",
+    "links": []
+  },
+  {
+    "code": "9216",
+    "links": [
+      {
+        "title": "DocumentProcessor OCREngine Unknown Error and Permissions",
+        "url": "https://answers.laserfiche.com/questions/89055/DocumentProcessor-OCREngine-Unknown-Error-and-Permissions"
+      }
+    ]
+  },
+  {
+    "code": "9217",
+    "links": []
+  },
+  {
+    "code": "9218",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9219",
+    "links": []
+  },
+  {
+    "code": "9220",
+    "links": [
+      {
+        "title": "Error 9220 when Registering a New External Table in Admin Console",
+        "url": "https://answers.laserfiche.com/questions/53987/Error-9220-when-Registering-a-New-External-Table-in-Admin-Console"
+      },
+      {
+        "title": "Laserfiche 11 Audit Trail Install Error",
+        "url": "https://answers.laserfiche.com/questions/209630/Laserfiche-11-Audit-Trail-Install-Error"
+      }
+    ]
+  },
+  {
+    "code": "9221",
+    "links": []
+  },
+  {
+    "code": "9222",
+    "links": [
+      {
+        "title": "Robotic process automation- chrome not configured correctly",
+        "url": "https://answers.laserfiche.com/questions/155045/Robotic-process-automation-chrome-not-configured-correctly"
+      },
+      {
+        "title": "Connector & Chrome debugging port",
+        "url": "https://answers.laserfiche.com/questions/171566/Connector--Chrome-debugging-port"
+      },
+      {
+        "title": "Connector will not create a profile",
+        "url": "https://answers.laserfiche.com/questions/147870/Connector-will-not-create-a-profile"
+      },
+      {
+        "title": "Laserfiche Connector & Edge",
+        "url": "https://answers.laserfiche.com/questions/208910/Laserfiche-Connector--Edge"
+      },
+      {
+        "title": "LF Connector with Edge (Chromium)",
+        "url": "https://answers.laserfiche.com/questions/179104/LF-Connector-with-Edge-Chromium"
+      },
+      {
+        "title": "Web Client Dropdowns Hanging and Crashing Browser",
+        "url": "https://answers.laserfiche.com/questions/190711/Web-Client-Dropdowns-Hanging-and-Crashing-Browser"
+      }
+    ]
+  },
+  {
+    "code": "9223",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9224",
+    "links": []
+  },
+  {
+    "code": "9225",
+    "links": []
+  },
+  {
+    "code": "9226",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9227",
+    "links": [
+      {
+        "title": "Trouble with External Table using View from Linked SQL Server",
+        "url": "https://answers.laserfiche.com/questions/142724/Trouble-with-External-Table-using-View-from-Linked-SQL-Server"
+      },
+      {
+        "title": "Unable to locate the provided external database table. [9227]",
+        "url": "https://answers.laserfiche.com/questions/48862/Unable-to-locate-the-provided-external-database-table-9227"
+      },
+      {
+        "title": "9227 error can not locate external table for views in SQL",
+        "url": "https://answers.laserfiche.com/questions/53079/9227-error-can-not-locate-external-table-for-views-in-SQL"
+      },
+      {
+        "title": "Do the Laserfiche Products Support Azure SQL?",
+        "url": "https://answers.laserfiche.com/questions/81043/Do-the-Laserfiche-Products-Support-Azure-SQL"
+      },
+      {
+        "title": "Register an external table for Dynamic Field",
+        "url": "https://answers.laserfiche.com/questions/70561/Register-an-external-table-for-Dynamic-Field"
+      }
+    ]
+  },
+  {
+    "code": "9228",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9229",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ]
+  },
+  {
+    "code": "9230",
+    "links": []
+  },
+  {
+    "code": "9231",
+    "links": [
+      {
+        "title": "9231: The password specified is invalid.",
+        "url": "https://answers.laserfiche.com/questions/204154/9231-The-password-specified-is-invalid"
+      }
+    ]
+  },
+  {
+    "code": "9232",
+    "links": []
+  },
+  {
+    "code": "9233",
+    "links": [
+      {
+        "title": "Workflow/Script to Upload Docs to SharePoint Online",
+        "url": "https://answers.laserfiche.com/questions/175450/WorkflowScript-to-Upload-Docs-to-SharePoint-Online"
+      }
+    ]
+  },
+  {
+    "code": "9234",
+    "links": [
+      {
+        "title": "Receiving \"Filing date cannot be changed after cutoff\" on record that is not cutoff",
+        "url": "https://answers.laserfiche.com/questions/205479/Receiving-Filing-date-cannot-be-changed-after-cutoff-on-record-that-is-not-cutoff"
+      },
+      {
+        "title": "Quick Fields ignores barcode value",
+        "url": "https://answers.laserfiche.com/questions/93484/Quick-Fields-ignores-barcode-value"
+      }
+    ]
+  },
+  {
+    "code": "9235",
+    "links": []
+  },
+  {
+    "code": "9236",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9237",
+    "links": [
+      {
+        "title": "Audit trail problem resulting in 9237 error for end users",
+        "url": "https://answers.laserfiche.com/questions/81944/Audit-trail-problem-resulting-in-9237-error-for-end-users"
+      },
+      {
+        "title": "9237: Could not enable audit log",
+        "url": "https://answers.laserfiche.com/questions/48042/9237-Could-not-enable-audit-log"
+      },
+      {
+        "title": "Repository cannot be unregistered because the search catalog could not be detached 9290",
+        "url": "https://answers.laserfiche.com/questions/95240/Repository-cannot-be-unregistered-because-the-search-catalog-could-not-be-detached-9290"
+      },
+      {
+        "title": "Auditar usuario participantes de forms",
+        "url": "https://answers.laserfiche.com/questions/84234/Auditar-usuario-participantes-de-forms"
+      },
+      {
+        "title": "Mobile 10 Configuration Page Add Button Does Not Respond",
+        "url": "https://answers.laserfiche.com/questions/105789/Mobile-10-Configuration-Page-Add-Button-Does-Not-Respond"
+      }
+    ]
+  },
+  {
+    "code": "9238",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9239",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9240",
+    "links": [
+      {
+        "title": "Workflow - Iterate through multi-value field and replace blank fields with a 0",
+        "url": "https://answers.laserfiche.com/questions/205695/Workflow--Iterate-through-multivalue-field-and-replace-blank-fields-with-a-0"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9241",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9242",
+    "links": []
+  },
+  {
+    "code": "9243",
+    "links": []
+  },
+  {
+    "code": "9244",
+    "links": []
+  },
+  {
+    "code": "9245",
+    "links": [
+      {
+        "title": "Search query \"LF:OCR<>all\" gets error \"The search parameter is invalid. [9245]\"",
+        "url": "https://answers.laserfiche.com/questions/114495/Search-query-LFOCRall-gets-error-The-search-parameter-is-invalid-9245"
+      },
+      {
+        "title": "Search Syntax no longer valid from 9.1.1 to 10.3.1 using IN \"\"",
+        "url": "https://answers.laserfiche.com/questions/144825/Search-Syntax-no-longer-valid-from-911-to-1031-using-IN-"
+      },
+      {
+        "title": "Search Repository using date token is not working",
+        "url": "https://answers.laserfiche.com/questions/116709/Search-Repository-using-date-token-is-not-working"
+      },
+      {
+        "title": "Searching for Documents Dated This Year",
+        "url": "https://answers.laserfiche.com/questions/125602/Searching-for-Documents-Dated-This-Year"
+      }
+    ]
+  },
+  {
+    "code": "9246",
+    "links": []
+  },
+  {
+    "code": "9247",
+    "links": []
+  },
+  {
+    "code": "9248",
+    "links": [
+      {
+        "title": "Enhancements to Reporting Tools & Smart Chat: March 2026 Cloud Release",
+        "url": "https://answers.laserfiche.com/questions/235625/Enhancements-to-Reporting-Tools--Smart-Chat-March-2026-Cloud-Release"
+      }
+    ]
+  },
+  {
+    "code": "9249",
+    "links": []
+  },
+  {
+    "code": "9250",
+    "links": [
+      {
+        "title": "Recycle Bin Searches",
+        "url": "https://answers.laserfiche.com/questions/154294/Recycle-Bin-Searches"
+      },
+      {
+        "title": "Can't set new constraint; get error 9250",
+        "url": "https://answers.laserfiche.com/questions/85691/Cant-set-new-constraint-get-error-9250"
+      },
+      {
+        "title": "Can't purge or restore some entries from the recycle bin [Entry not found. [9001]",
+        "url": "https://answers.laserfiche.com/questions/131380/Cant-purge-or-restore-some-entries-from-the-recycle-bin-Entry-not-found-9001"
+      },
+      {
+        "title": "Does a web access user need to have a named user account?",
+        "url": "https://answers.laserfiche.com/questions/60112/Does-a-web-access-user-need-to-have-a-named-user-account"
+      }
+    ]
+  },
+  {
+    "code": "9251",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ]
+  },
+  {
+    "code": "9252",
+    "links": [
+      {
+        "title": "What is the problem in a PDF file if \"Error 9252: The bitmap data exceeds the maximum size\" is displayed",
+        "url": "https://answers.laserfiche.com/questions/173484/What-is-the-problem-in-a-PDF-file-if-Error-9252-The-bitmap-data-exceeds-the-maximum-size-is-displayed"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9253",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9254",
+    "links": []
+  },
+  {
+    "code": "9255",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9256",
+    "links": [
+      {
+        "title": "DocumentProcessor OCREngine Unknown Error and Permissions",
+        "url": "https://answers.laserfiche.com/questions/89055/DocumentProcessor-OCREngine-Unknown-Error-and-Permissions"
+      }
+    ]
+  },
+  {
+    "code": "9257",
+    "links": []
+  },
+  {
+    "code": "9258",
+    "links": [
+      {
+        "title": "Laserfiche volume server running out of RAM?",
+        "url": "https://answers.laserfiche.com/questions/70549/Laserfiche-volume-server-running-out-of-RAM"
+      },
+      {
+        "title": "a connection to the Laserfiche web client cannot be made",
+        "url": "https://answers.laserfiche.com/questions/129201/a-connection-to-the-Laserfiche-web-client-cannot-be-made"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9259",
+    "links": [
+      {
+        "title": "9259: The number of pages in the repository has exceeded the licensed page limit.",
+        "url": "https://answers.laserfiche.com/questions/108871/9259--The-number-of-pages-in-the-repository-has-exceeded-the-licensed-page-limit"
+      },
+      {
+        "title": "Help! Field with division calculation (percentage calculation) error",
+        "url": "https://answers.laserfiche.com/questions/205642/Help-Field-with-division-calculation-percentage-calculation-error"
+      }
+    ]
+  },
+  {
+    "code": "9260",
+    "links": [
+      {
+        "title": "Error while constructing audit log: file I/O error or corrupted audit log. [9260]",
+        "url": "https://answers.laserfiche.com/questions/164120/Error-while-constructing-audit-log-file-IO-error-or-corrupted-audit-log-9260"
+      }
+    ]
+  },
+  {
+    "code": "9261",
+    "links": [
+      {
+        "title": "Giving Users Select All/Deselect All Option for Checkbox fields in a Table",
+        "url": "https://answers.laserfiche.com/questions/236626/Giving-Users-Select-AllDeselect-All-Option-for-Checkbox-fields-in-a-Table"
+      }
+    ]
+  },
+  {
+    "code": "9262",
+    "links": [
+      {
+        "title": "Contact Information for Austin ISD?",
+        "url": "https://answers.laserfiche.com/questions/70870/Contact-Information-for-Austin-ISD"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9263",
+    "links": []
+  },
+  {
+    "code": "9264",
+    "links": [
+      {
+        "title": "Error 9264",
+        "url": "https://answers.laserfiche.com/questions/58025/Error-9264"
+      },
+      {
+        "title": "corrupted volume.id file",
+        "url": "https://answers.laserfiche.com/questions/89131/corrupted-volumeid-file"
+      },
+      {
+        "title": "Move Volume to different folder on the same server",
+        "url": "https://answers.laserfiche.com/questions/82205/Move-Volume-to-different-folder-on-the-same-server"
+      }
+    ]
+  },
+  {
+    "code": "9265",
+    "links": [
+      {
+        "title": "Briefcase Import error 9265 needs more specification",
+        "url": "https://answers.laserfiche.com/questions/224442/Briefcase-Import-error-9265-needs-more-specification"
+      },
+      {
+        "title": "The briefcase you tried to upload is too large.",
+        "url": "https://answers.laserfiche.com/questions/183195/The-briefcase-you-tried-to-upload-is-too-large"
+      },
+      {
+        "title": "There was an error decompressing the briefcase. The briefcase file may be corrupt, the disk may be out of space, or another I/O error occurred. [9265]",
+        "url": "https://answers.laserfiche.com/questions/220015/There-was-an-error-decompressing-the-briefcase-The-briefcase-file-may-be-corrupt-the-disk-may-be-out-of-space-or-another-IO-error-occurred-9265"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9266",
+    "links": [
+      {
+        "title": "XMLPath language with Namespaces",
+        "url": "https://answers.laserfiche.com/questions/196906/XMLPath-language-with-Namespaces"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      },
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ]
+  },
+  {
+    "code": "9267",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9268",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9269",
+    "links": [
+      {
+        "title": "Add LFDS Groups to SQL Query",
+        "url": "https://answers.laserfiche.com/questions/217062/Add-LFDS-Groups-to-SQL-Query"
+      },
+      {
+        "title": "Directory Server database",
+        "url": "https://answers.laserfiche.com/questions/117487/Directory-Server-database"
+      },
+      {
+        "title": "Forms Calendar - Restrict to specific list of dates",
+        "url": "https://answers.laserfiche.com/questions/182596/Forms-Calendar--Restrict-to-specific-list-of-dates"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9270",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9271",
+    "links": []
+  },
+  {
+    "code": "9272",
+    "links": []
+  },
+  {
+    "code": "9273",
+    "links": []
+  },
+  {
+    "code": "9274",
+    "links": []
+  },
+  {
+    "code": "9275",
+    "links": []
+  },
+  {
+    "code": "9276",
+    "links": []
+  },
+  {
+    "code": "9277",
+    "links": [
+      {
+        "title": "How to unlock secured volume? - Erro 9277",
+        "url": "https://answers.laserfiche.com/questions/69249/How-to-unlock-secured-volume--Erro-9277-"
+      }
+    ]
+  },
+  {
+    "code": "9278",
+    "links": [
+      {
+        "title": "Laserfiche Office Integration",
+        "url": "https://answers.laserfiche.com/questions/139257/Laserfiche-Office-Integration"
+      }
+    ]
+  },
+  {
+    "code": "9279",
+    "links": []
+  },
+  {
+    "code": "9280",
+    "links": [
+      {
+        "title": "Workflow conditions being met",
+        "url": "https://answers.laserfiche.com/questions/115626/Workflow-conditions-being-met"
+      },
+      {
+        "title": "Cannot verify SMTP address within Laserfiche 9.0.3 Web Access Configuration",
+        "url": "https://answers.laserfiche.com/questions/47794/Cannot-verify-SMTP-address-within-Laserfiche-903-Web-Access-Configuration"
+      }
+    ]
+  },
+  {
+    "code": "9281",
+    "links": []
+  },
+  {
+    "code": "9282",
+    "links": []
+  },
+  {
+    "code": "9283",
+    "links": []
+  },
+  {
+    "code": "9284",
+    "links": [
+      {
+        "title": "Opening PDFs from WA 9 in IE 9 Prompting To Open or Save",
+        "url": "https://answers.laserfiche.com/questions/50452/Opening-PDFs-from-WA-9-in-IE-9-Prompting-To-Open-or-Save"
+      }
+    ]
+  },
+  {
+    "code": "9285",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9286",
+    "links": []
+  },
+  {
+    "code": "9287",
+    "links": []
+  },
+  {
+    "code": "9288",
+    "links": [
+      {
+        "title": "Error 9288 : This repository does not have an associated catalog .",
+        "url": "https://answers.laserfiche.com/questions/88948/Error-9288--This-repository-does-not-have-an-associated-catalog-"
+      }
+    ]
+  },
+  {
+    "code": "9289",
+    "links": []
+  },
+  {
+    "code": "9290",
+    "links": [
+      {
+        "title": "Repository cannot be unregistered because the search catalog could not be detached 9290",
+        "url": "https://answers.laserfiche.com/questions/95240/Repository-cannot-be-unregistered-because-the-search-catalog-could-not-be-detached-9290"
+      }
+    ]
+  },
+  {
+    "code": "9291",
+    "links": [
+      {
+        "title": "XMLPath language with Namespaces",
+        "url": "https://answers.laserfiche.com/questions/196906/XMLPath-language-with-Namespaces"
+      }
+    ]
+  },
+  {
+    "code": "9292",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9293",
+    "links": [
+      {
+        "title": "Help! Field with division calculation (percentage calculation) error",
+        "url": "https://answers.laserfiche.com/questions/205642/Help-Field-with-division-calculation-percentage-calculation-error"
+      }
+    ]
+  },
+  {
+    "code": "9294",
+    "links": [
+      {
+        "title": "Creating or attaching catalog for fulltext searches",
+        "url": "https://answers.laserfiche.com/questions/77320/Creating-or-attaching-catalog-for-fulltext-searches"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9295",
+    "links": []
+  },
+  {
+    "code": "9296",
+    "links": [
+      {
+        "title": "Save as Draft and Database Lookup Question",
+        "url": "https://answers.laserfiche.com/questions/78684/Save-as-Draft-and-Database-Lookup-Question"
+      }
+    ]
+  },
+  {
+    "code": "9297",
+    "links": []
+  },
+  {
+    "code": "9298",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9299",
+    "links": [
+      {
+        "title": "Migrating photos, videos",
+        "url": "https://answers.laserfiche.com/questions/59783/Migrating-photos-videos"
+      }
+    ]
+  },
+  {
+    "code": "9300",
+    "links": [
+      {
+        "title": "Count of documents created for a month doesn't match between audit and master database",
+        "url": "https://answers.laserfiche.com/questions/62492/Count-of-documents-created-for-a-month-doesnt-match-between-audit-and-master-database"
+      },
+      {
+        "title": "Workflow HTTP Web Request GET - Data Loss?",
+        "url": "https://answers.laserfiche.com/questions/164382/Workflow-HTTP-Web-Request-GET--Data-Loss"
+      }
+    ]
+  },
+  {
+    "code": "9301",
+    "links": [
+      {
+        "title": "Randomized Evaluation of a peer",
+        "url": "https://answers.laserfiche.com/questions/232209/Randomized-Evaluation-of-a-peer"
+      }
+    ]
+  },
+  {
+    "code": "9302",
+    "links": [
+      {
+        "title": "date token month is wrong, error 9302",
+        "url": "https://answers.laserfiche.com/questions/57631/date-token-month-is-wrong-error-9302"
+      },
+      {
+        "title": "Notification Configuration Utility",
+        "url": "https://answers.laserfiche.com/questions/193911/Notification-Configuration-Utility"
+      }
+    ]
+  },
+  {
+    "code": "9303",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9304",
+    "links": []
+  },
+  {
+    "code": "9305",
+    "links": []
+  },
+  {
+    "code": "9306",
+    "links": [
+      {
+        "title": "Find/Replace Regular Expression?",
+        "url": "https://answers.laserfiche.com/questions/77877/FindReplace-Regular-Expression"
+      }
+    ]
+  },
+  {
+    "code": "9307",
+    "links": [
+      {
+        "title": "Laserfiche 11 Audit Trail Install Error",
+        "url": "https://answers.laserfiche.com/questions/209630/Laserfiche-11-Audit-Trail-Install-Error"
+      }
+    ]
+  },
+  {
+    "code": "9308",
+    "links": []
+  },
+  {
+    "code": "9309",
+    "links": []
+  },
+  {
+    "code": "9310",
+    "links": []
+  },
+  {
+    "code": "9311",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ]
+  },
+  {
+    "code": "9312",
+    "links": [
+      {
+        "title": "laserfiche error 9132 when create index",
+        "url": "https://answers.laserfiche.com/questions/96900/laserfiche-error-9132-when-create-index"
+      },
+      {
+        "title": "Save as Draft and Database Lookup Question",
+        "url": "https://answers.laserfiche.com/questions/78684/Save-as-Draft-and-Database-Lookup-Question"
+      }
+    ]
+  },
+  {
+    "code": "9313",
+    "links": [
+      {
+        "title": "Tamaño máximo que Soporta laserfice",
+        "url": "https://answers.laserfiche.com/questions/107839/Tamao-mximo-que-Soporta-laserfice"
+      },
+      {
+        "title": "Docusign - Laserfiche Integration",
+        "url": "https://answers.laserfiche.com/questions/187883/Docusign--Laserfiche-Integration"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ]
+  },
+  {
+    "code": "9314",
+    "links": [
+      {
+        "title": "Invoice automation and upload into SAP",
+        "url": "https://answers.laserfiche.com/questions/148211/Invoice-automation-and-upload-into-SAP"
+      }
+    ]
+  },
+  {
+    "code": "9315",
+    "links": []
+  },
+  {
+    "code": "9316",
+    "links": [
+      {
+        "title": "Migrating documents to different volumes error",
+        "url": "https://answers.laserfiche.com/questions/119107/Migrating-documents-to-different-volumes-error"
+      }
+    ]
   }
 ]

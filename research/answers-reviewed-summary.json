@@ -1207,5 +1207,536 @@
     "hasLaserficheEmployee": true,
     "hasAcceptedLanguage": true,
     "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9066",
+    "message": "One Or More Required Fields Were Omitted",
+    "title": "Metadata disappears and error 9066 on populated fields",
+    "url": "https://answers.laserfiche.com/questions/112995/Metadata-disappears-and-error-9066-on-populated-fields",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9066",
+    "message": "One Or More Required Fields Were Omitted",
+    "title": "One or more required fields were omitted or had a blank value. [9066]",
+    "url": "https://answers.laserfiche.com/questions/134027/One-or-more-required-fields-were-omitted-or-had-a-blank-value-9066",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9066",
+    "message": "One Or More Required Fields Were Omitted",
+    "title": "Metadata Being Erased After Receiving [9066] Error",
+    "url": "https://answers.laserfiche.com/questions/68935/Metadata-Being-Erased-After-Receiving-9066-Error",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9066",
+    "message": "One Or More Required Fields Were Omitted",
+    "title": "9066 exact field problem",
+    "url": "https://answers.laserfiche.com/questions/94057/9066-exact-field-problem",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9067",
+    "message": "The Current Session Has Been Terminated",
+    "title": "The Current Session has been Terminated [9067]",
+    "url": "https://answers.laserfiche.com/questions/224931/The-Current-Session-has-been-Terminated-9067",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9067",
+    "message": "The Current Session Has Been Terminated",
+    "title": "LF 11 Office Integration \"Failed to connect to the server. Verify the server is online before trying again. [9067]\"",
+    "url": "https://answers.laserfiche.com/questions/202550/LF-11-Office-Integration-Failed-to-connect-to-the-server-Verify-the-server-is-online-before-trying-again-9067",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9073",
+    "message": "This User Is Not Allowed to Log In Using a Password",
+    "title": "WF Designer editing starting rules user gets error \"This user is not allowed to sign in using a password. [9073]",
+    "url": "https://answers.laserfiche.com/questions/167851/WF-Designer-editing-starting-rules-user-gets-error-This-user-is-not-allowed-to-sign-in-using-a-password-9073",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9075",
+    "message": "This Password Has Expired And Must Be Changed",
+    "title": "Laserfiche Mobile App: This password has expired and must be changed. [9075]",
+    "url": "https://answers.laserfiche.com/questions/110038/Laserfiche-Mobile-App-This-password-has-expired-and-must-be-changed-9075",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9084",
+    "message": "The search term you have entered is not valid.",
+    "title": "Search Repository error messages #9084 and #9085",
+    "url": "https://answers.laserfiche.com/questions/128927/Search-Repository-error-messages-9084-and-9085",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9084",
+    "message": "The search term you have entered is not valid.",
+    "title": "Workflow Search : 9084 - A syntax error was encountered while processing the search",
+    "url": "https://answers.laserfiche.com/questions/48014/Workflow-Search--9084--A-syntax-error-was-encountered-while-processing-the-search",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9084",
+    "message": "The search term you have entered is not valid.",
+    "title": "Getting an error 9084 when using SDK",
+    "url": "https://answers.laserfiche.com/questions/54760/Getting-an-error-9084-when-using-SDK",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9085",
+    "message": "An unrecognized character was encountered.",
+    "title": "An Unrecognized character was encountered [9085].",
+    "url": "https://answers.laserfiche.com/questions/141957/An-Unrecognized-character-was-encountered-9085",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9086",
+    "message": "An unrecognized name was encountered.",
+    "title": "Workflow failing with 9086 Error",
+    "url": "https://answers.laserfiche.com/questions/115342/Workflow-failing-with-9086-Error",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9091",
+    "message": "An end-of-file or end-of-input was encountered unexpectedly. Check for unterminated strings and open parentheses or brackets.",
+    "title": "Weblink Error 9091",
+    "url": "https://answers.laserfiche.com/questions/170443/Weblink-Error-9091",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9095",
+    "message": "The requested entry link was not found.",
+    "title": "The requested entry link was not found. [9095]",
+    "url": "https://answers.laserfiche.com/questions/233168/The-requested-entry-link-was-not-found-9095",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9096",
+    "message": "Stamp not found.",
+    "title": "Error: Stamp not Found Error 9096",
+    "url": "https://answers.laserfiche.com/questions/170500/Error-Stamp-not-Found-Error-9096",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9105",
+    "message": "A read-only session is not permitted to perform this operation.",
+    "title": "Error Code : 9105",
+    "url": "https://answers.laserfiche.com/questions/97754/Error-Code--9105",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9110",
+    "message": "The database schema is the wrong type or is not a supported version.",
+    "title": "SQL database schema does not match error 9110",
+    "url": "https://answers.laserfiche.com/questions/52173/SQL-database-schema-does-not-match-error-9110",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9110",
+    "message": "The database schema is the wrong type or is not a supported version.",
+    "title": "The database schema is the wrong type or is not a supported version. [9110]",
+    "url": "https://answers.laserfiche.com/questions/93352/The-database-schema-is-the-wrong-type-or-is-not-a-supported-version-9110",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9119",
+    "message": "The template is assigned to one or more entries and must be unassigned before it can be deleted.",
+    "title": "Error - 9119 - How to find entries that you don't have access to?",
+    "url": "https://answers.laserfiche.com/questions/75161/Error--9119--How-to-find-entries-that-you-dont-have-access-to",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9128",
+    "message": "The briefcase failed to import.",
+    "title": "There was an error decompressing the briefcase. The briefcase may be corrupted. error 9128",
+    "url": "https://answers.laserfiche.com/questions/195302/There-was-an-error-decompressing-the-briefcase-The-briefcase-may-be-corrupted-error-9128",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9130",
+    "message": "The operation could not be completed because the volume is offline.",
+    "title": "Error: The operation could not be completed because the volume is offline. [9130]",
+    "url": "https://answers.laserfiche.com/questions/116540/Error-The-operation-could-not-be-completed-because-the-volume-is-offline-9130",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9130",
+    "message": "The operation could not be completed because the volume is offline.",
+    "title": "Error moving pages [9130]",
+    "url": "https://answers.laserfiche.com/questions/141507/Error-moving-pages-9130",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9132",
+    "message": "The search engine encountered an internal error. Please check the search engine error log for more details.",
+    "title": "The search engine encountered an internal error. Please check the search engine error log for more details. [9132]",
+    "url": "https://answers.laserfiche.com/questions/109766/The-search-engine-encountered-an-internal-error-Please-check-the-search-engine-error-log-for-more-details-9132",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9132",
+    "message": "The search engine encountered an internal error. Please check the search engine error log for more details.",
+    "title": "laserfiche error 9132 when create index",
+    "url": "https://answers.laserfiche.com/questions/96900/laserfiche-error-9132-when-create-index",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9133",
+    "message": "Page text out of range.",
+    "title": "Page text out of range. [9133]",
+    "url": "https://answers.laserfiche.com/questions/183309/Page-text-out-of-range-9133",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9133",
+    "message": "Page text out of range.",
+    "title": "Import Agent - Maximum file size - Error Code: 9133",
+    "url": "https://answers.laserfiche.com/questions/205490/Import-Agent--Maximum-file-size--Error-Code-9133",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9143",
+    "message": "Unable to obtain the context hit.",
+    "title": "Emails with Unable to obtain the context hit [9143]",
+    "url": "https://answers.laserfiche.com/questions/103925/Emails-with-Unable-to-obtain-the-context-hit-9143",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9152",
+    "message": "Account locked",
+    "title": "Error 9152 y 9030",
+    "url": "https://answers.laserfiche.com/questions/141075/Error-9152-y-9030",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9153",
+    "message": "Account locked",
+    "title": "Laserfiche error 9153",
+    "url": "https://answers.laserfiche.com/questions/223877/Laserfiche-error-9153",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9155",
+    "message": "A literal is missing a final quote in the search query.",
+    "title": "Error 9155 - A Literal is missing a final quote in the search query",
+    "url": "https://answers.laserfiche.com/questions/96197/Error-9155--A-Literal-is-missing-a-final-quote-in-the-search-query",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9167",
+    "message": "Document locked with a persistent lock.",
+    "title": "Document locked with a persistent lock. [9167]",
+    "url": "https://answers.laserfiche.com/questions/161608/Document-locked-with-a-persistent-lock-9167",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9167",
+    "message": "Document locked with a persistent lock.",
+    "title": "Document Locked with Persistent Lock 9167 Error",
+    "url": "https://answers.laserfiche.com/questions/167391/Document-Locked-with-Persistent-Lock-9167-Error",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9170",
+    "message": "Date/Time out of range.",
+    "title": "Date/time out of range. [9170] when doing a search",
+    "url": "https://answers.laserfiche.com/questions/150337/Datetime-out-of-range-9170-when-doing-a-search",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9170",
+    "message": "Date/Time out of range.",
+    "title": "Date/time out of range. [9170]",
+    "url": "https://answers.laserfiche.com/questions/126400/Datetime-out-of-range-9170",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9179",
+    "message": "License lacks feature activation required for the requested operation.",
+    "title": "Getting Error 9179 when creating Repository. Need Quick Support",
+    "url": "https://answers.laserfiche.com/questions/133935/Getting-Error-9179-when-creating-Repository-Need-Quick-Support",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9179",
+    "message": "License lacks feature activation required for the requested operation.",
+    "title": "DocuSign Connect - Not licensed for DocuSign integration. (9179)",
+    "url": "https://answers.laserfiche.com/questions/186078/DocuSign-Connect--Not-licensed-for-DocuSign-integration-9179",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9179",
+    "message": "License lacks feature activation required for the requested operation.",
+    "title": "9179 - License Lacks feature activation required for the requested operation",
+    "url": "https://answers.laserfiche.com/questions/108029/9179--License-Lacks-feature-activation-required-for-the-requested-operation",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9179",
+    "message": "License lacks feature activation required for the requested operation.",
+    "title": "9179 License Lacks feature activation required for the requested operation",
+    "url": "https://answers.laserfiche.com/questions/191524/9179-License-Lacks-feature-activation-required-for-the-requested-operation",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9193",
+    "message": "The record folder cannot be uncutoff at this point.",
+    "title": "Error Message: The record or record folder cannot be uncutoff at this point. [9193]",
+    "url": "https://answers.laserfiche.com/questions/163653/Error-Message-The-record-or-record-folder-cannot-be-uncutoff-at-this-point-9193",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9220",
+    "message": "Invalid Laserfiche external table name.",
+    "title": "Error 9220 when Registering a New External Table in Admin Console",
+    "url": "https://answers.laserfiche.com/questions/53987/Error-9220-when-Registering-a-New-External-Table-in-Admin-Console",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9227",
+    "message": "Unable to locate the specified external database table.",
+    "title": "Unable to locate the provided external database table. [9227]",
+    "url": "https://answers.laserfiche.com/questions/48862/Unable-to-locate-the-provided-external-database-table-9227",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9227",
+    "message": "Unable to locate the specified external database table.",
+    "title": "9227 error can not locate external table for views in SQL",
+    "url": "https://answers.laserfiche.com/questions/53079/9227-error-can-not-locate-external-table-for-views-in-SQL",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9231",
+    "message": "The password specified is invalid.",
+    "title": "9231: The password specified is invalid.",
+    "url": "https://answers.laserfiche.com/questions/204154/9231-The-password-specified-is-invalid",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9237",
+    "message": "Could not enable audit log.",
+    "title": "Audit trail problem resulting in 9237 error for end users",
+    "url": "https://answers.laserfiche.com/questions/81944/Audit-trail-problem-resulting-in-9237-error-for-end-users",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9237",
+    "message": "Could not enable audit log.",
+    "title": "9237: Could not enable audit log",
+    "url": "https://answers.laserfiche.com/questions/48042/9237-Could-not-enable-audit-log",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9245",
+    "message": "The search parameter is invalid.",
+    "title": "Search query \"LF:OCR<>all\" gets error \"The search parameter is invalid. [9245]\"",
+    "url": "https://answers.laserfiche.com/questions/114495/Search-query-LFOCRall-gets-error-The-search-parameter-is-invalid-9245",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9250",
+    "message": "One or more entries in the recycle bin have field values that do not satisfy the constraint on the field.",
+    "title": "Can't set new constraint; get error 9250",
+    "url": "https://answers.laserfiche.com/questions/85691/Cant-set-new-constraint-get-error-9250",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9252",
+    "message": "The bitmap data exceeds the maximum size.",
+    "title": "What is the problem in a PDF file if \"Error 9252: The bitmap data exceeds the maximum size\" is displayed",
+    "url": "https://answers.laserfiche.com/questions/173484/What-is-the-problem-in-a-PDF-file-if-Error-9252-The-bitmap-data-exceeds-the-maximum-size-is-displayed",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9259",
+    "message": "The number of pages in the repository has exceeded the licensed page limit.",
+    "title": "9259: The number of pages in the repository has exceeded the licensed page limit.",
+    "url": "https://answers.laserfiche.com/questions/108871/9259--The-number-of-pages-in-the-repository-has-exceeded-the-licensed-page-limit",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9260",
+    "message": "Error while constructing audit log",
+    "title": "Error while constructing audit log: file I/O error or corrupted audit log. [9260]",
+    "url": "https://answers.laserfiche.com/questions/164120/Error-while-constructing-audit-log-file-IO-error-or-corrupted-audit-log-9260",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9264",
+    "message": "Fixed path for a volume must either be empty or contain a valid VOLUME.ID file.",
+    "title": "Error 9264",
+    "url": "https://answers.laserfiche.com/questions/58025/Error-9264",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9265",
+    "message": "There was an error decompressing the briefcase. The briefcase file may be corrupt or the disk may be full.",
+    "title": "Briefcase Import error 9265 needs more specification",
+    "url": "https://answers.laserfiche.com/questions/224442/Briefcase-Import-error-9265-needs-more-specification",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9265",
+    "message": "There was an error decompressing the briefcase. The briefcase file may be corrupt or the disk may be full.",
+    "title": "There was an error decompressing the briefcase. The briefcase file may be corrupt, the disk may be out of space, or another I/O error occurred. [9265]",
+    "url": "https://answers.laserfiche.com/questions/220015/There-was-an-error-decompressing-the-briefcase-The-briefcase-file-may-be-corrupt-the-disk-may-be-out-of-space-or-another-IO-error-occurred-9265",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9277",
+    "message": "The file is unavailable because the volume is currently secured.",
+    "title": "How to unlock secured volume? - Erro 9277",
+    "url": "https://answers.laserfiche.com/questions/69249/How-to-unlock-secured-volume--Erro-9277-",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9288",
+    "message": "This repository does not have an associated catalog.",
+    "title": "Error 9288 : This repository does not have an associated catalog .",
+    "url": "https://answers.laserfiche.com/questions/88948/Error-9288--This-repository-does-not-have-an-associated-catalog-",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9290",
+    "message": "The repository cannot be unregistered because the search catalog could not be detached.",
+    "title": "Repository cannot be unregistered because the search catalog could not be detached 9290",
+    "url": "https://answers.laserfiche.com/questions/95240/Repository-cannot-be-unregistered-because-the-search-catalog-could-not-be-detached-9290",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9302",
+    "message": "Setting the date or time pattern to the supplied string failed.",
+    "title": "date token month is wrong, error 9302",
+    "url": "https://answers.laserfiche.com/questions/57631/date-token-month-is-wrong-error-9302",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9179",
+    "message": "License lacks feature activation required for the requested operation.",
+    "title": "9179 Error when using Laserfiche App",
+    "url": "https://answers.laserfiche.com/questions/136424/9179-Error-when-using-Laserfiche-App",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
   }
 ]

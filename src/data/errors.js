@@ -1500,6 +1500,411 @@ const curatedErrorEntries = [
     ],
   },
   {
+    id: "lf-server-9066-required-fields-omitted",
+    code: "9066",
+    message: "One Or More Required Fields Were Omitted",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "A required field is blank or a supplied metadata value is invalid for the field. Reviewed Answers posts show this in Workflow and Quick Fields metadata updates.",
+    symptoms: [
+      "Workflow or Quick Fields reports 9066 while assigning template metadata.",
+      "Metadata may be cleared or fail to save when required fields or token values do not match the field definition.",
+    ],
+    likelyFixes: [
+      "Confirm every required field in the target template receives a nonblank value.",
+      "When using tokens, verify the token value type matches the Laserfiche field type before assigning it.",
+      "For Quick Fields 9.0 scenarios, apply the latest Quick Fields patch referenced by Laserfiche Support.",
+      "Republish the Workflow after changing Assign Field Values activity configuration.",
+    ],
+    notes:
+      "Reviewed Answers threads include Workflow metadata assignment and Quick Fields 9.0 patch scenarios.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9066 as One Or More Required Fields Were Omitted.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Metadata disappears and error 9066 on populated fields",
+        url: "https://answers.laserfiche.com/questions/112995/Metadata-disappears-and-error-9066-on-populated-fields",
+        note:
+          "Laserfiche employee replies recommend checking that token values have the correct field types and that the workflow was republished after assigning field values.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Metadata Being Erased After Receiving [9066] Error",
+        url: "https://answers.laserfiche.com/questions/68935/Metadata-Being-Erased-After-Receiving-9066-Error",
+        note: "Laserfiche employee reply recommends applying the latest Quick Fields patch, KB 1013497.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9067-session-terminated-office-integration",
+    code: "9067",
+    message: "The Current Session Has Been Terminated",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 11", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The repository session was terminated. One reviewed Office Integration 11 thread was resolved by correcting the Web Client server configuration from an IP address to the FQDN.",
+    symptoms: [
+      "Office Integration fails to connect to the repository and reports 9067.",
+      "The issue may be intermittent and affect Office Integration while Web Client access works.",
+      "Self-hosted API calls may also report a terminated session and require support investigation.",
+    ],
+    likelyFixes: [
+      "For Office Integration, check the Web Client configuration page and verify the configured Laserfiche Server name is the expected FQDN.",
+      "Replace IP-address server configuration with the FQDN when Office Integration depends on that configuration.",
+      "For API Server cases where a fresh token is terminated, collect API operation logs and open a Laserfiche Support case.",
+    ],
+    notes:
+      "The concrete fix came from a Version 11 Office Integration thread. The API Server thread had employee guidance to open a support ticket.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9067 as The Current Session Has Been Terminated.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LF 11 Office Integration Failed to connect to the server [9067]",
+        url: "https://answers.laserfiche.com/questions/202550/LF-11-Office-Integration-Failed-to-connect-to-the-server-Verify-the-server-is-online-before-trying-again-9067",
+        note:
+          "Community follow-up after a Laserfiche case reports that changing the Web Client server value from IP address to FQDN resolved complaints.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "The Current Session has been Terminated [9067]",
+        url: "https://answers.laserfiche.com/questions/224931/The-Current-Session-has-been-Terminated-9067",
+        note: "Laserfiche employee guidance for a self-hosted API Server session case was to open a support ticket for investigation.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9073-password-login-not-allowed",
+    code: "9073",
+    message: "This User Is Not Allowed to Log In Using a Password",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "A connection profile or starting-rule configuration is using an account that is no longer allowed to authenticate with a password.",
+    symptoms: [
+      "Workflow Designer reports 9073 while editing starting rules.",
+      "The workstation user can open Workflow Designer, but the selected repository connection profile fails.",
+    ],
+    likelyFixes: [
+      "Open the starting-rule wizard and check which connection profile is selected.",
+      "Select a different repository connection profile that uses an allowed authentication method.",
+      "Update the affected user in the Laserfiche Administration Console if password sign-in should be allowed.",
+    ],
+    notes:
+      "Reviewed employee guidance is specific to Workflow Designer starting rules in a Version 10 environment.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9073 as This User Is Not Allowed to Log In Using a Password.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "WF Designer editing starting rules user gets error 9073",
+        url: "https://answers.laserfiche.com/questions/167851/WF-Designer-editing-starting-rules-user-gets-error-This-user-is-not-allowed-to-sign-in-using-a-password-9073",
+        note:
+          "Laserfiche employee reply says the rules wizard connection profile is likely using a user no longer allowed to log in with a password.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9084-invalid-search-term",
+    code: "9084",
+    message: "The search term you have entered is not valid.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The repository search syntax is invalid. Reviewed Workflow and SDK threads point to quoting field values, validating custom search syntax, and isolating bad entry names or special characters.",
+    symptoms: [
+      "Workflow Search Repository or SDK search code fails with 9084.",
+      "The query may include field values with spaces, hyphens, special characters, or unquoted token output.",
+    ],
+    likelyFixes: [
+      "Wrap text field values in double quotes in custom search syntax.",
+      "Log or inspect the final search string after token replacement before executing the search.",
+      "Test the same search in the Laserfiche Client to isolate syntax problems.",
+      "Use try/catch or per-entry handling in Workflow loops so one invalid folder or search value does not terminate the whole workflow.",
+    ],
+    notes:
+      "Reviewed posts include Workflow and SDK examples. Version 12 is retained from the official listing.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9084 as an invalid search term.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Search Repository error messages #9084 and #9085",
+        url: "https://answers.laserfiche.com/questions/128927/Search-Repository-error-messages-9084-and-9085",
+        note: "Laserfiche employee response says a Workflow field value in the query needed double quotes.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Getting an error 9084 when using SDK",
+        url: "https://answers.laserfiche.com/questions/54760/Getting-an-error-9084-when-using-SDK",
+        note: "Laserfiche employee response identifies incorrect SDK search syntax as the cause.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9105-read-only-session-license",
+    code: "9105",
+    message: "A read-only session is not permitted to perform this operation.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The operation requires a writable session, but the server issued a read-only session. A reviewed employee answer traced one case to incorrect Laserfiche Server licensing.",
+    symptoms: [
+      "Creating a user, template, or other administrative object fails with 9105.",
+      "The user appears to have rights, but the server session is read-only.",
+    ],
+    likelyFixes: [
+      "Check whether the Laserfiche Server is activated with the correct license.",
+      "Reactivate with the proper key and regenerate or install the correct license file.",
+      "Restart the Laserfiche Server service after correcting the license state.",
+    ],
+    notes:
+      "The reviewed Answers thread points to a licensing issue rather than normal repository security.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9105 as a read-only session operation failure.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error Code : 9105",
+        url: "https://answers.laserfiche.com/questions/97754/Error-Code--9105",
+        note:
+          "Laserfiche employee response says the issue was caused by incorrect Laserfiche Server licensing and resolved after reactivation with the proper key.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9237-audit-log-enable-failed",
+    code: "9237",
+    message: "Could not enable audit log.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 12"],
+    confidence: "high",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche could not open or initialize the repository audit log. Reviewed threads point to SQL connection disruption, service restart, audit log path permissions, and possible log-file corruption.",
+    symptoms: [
+      "Repository login or startup fails with Could not enable audit log. [9237].",
+      "The issue may appear after SQL Server connection changes or service interruptions.",
+    ],
+    likelyFixes: [
+      "Restart the Laserfiche Server service after SQL Server connectivity is restored.",
+      "Verify the Laserfiche Server service account has read/write permissions to the configured Audit Log path.",
+      "Check the repository AuditLog registry path and confirm the path exists.",
+      "If permissions and path are valid, back up the repository audit log file before following support guidance to recreate it.",
+    ],
+    notes:
+      "One accepted community fix was a Laserfiche Server restart after SQL Server was restarted; employee guidance adds audit-log path and permissions checks.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9237 as Could not enable audit log.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Audit trail problem resulting in 9237 error for end users",
+        url: "https://answers.laserfiche.com/questions/81944/Audit-trail-problem-resulting-in-9237-error-for-end-users",
+        note:
+          "Laserfiche employee reply recommends checking the server service account permissions to the Audit Log path and backing up the log file if the path and rights are valid.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "9237: Could not enable audit log",
+        url: "https://answers.laserfiche.com/questions/48042/9237-Could-not-enable-audit-log",
+        note: "Accepted answer reports the error cleared after restarting the Laserfiche Server following a SQL Server restart.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9265-briefcase-decompress-error",
+    code: "9265",
+    message: "There was an error decompressing the briefcase. The briefcase file may be corrupt or the disk may be full.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Briefcase import failed while decompressing. Reviewed employee guidance points to repository temp space during import and incomplete asynchronous briefcase exports.",
+    symptoms: [
+      "Briefcase import or Workflow Replicate Entry fails with 9265.",
+      "Disk space may appear sufficient after the failure because temporary files are cleaned up.",
+      "Briefcases generated by custom code may be smaller than client-generated briefcases and fail to import.",
+    ],
+    likelyFixes: [
+      "Monitor free space on the repository drive and temp folder while imports are running, not only after they fail.",
+      "Avoid running many briefcase imports or Replicate Entry operations concurrently when repository temp space is limited.",
+      "For SDK exports, use the synchronous Export function or correctly pair BeginExport with EndExport so the briefcase is complete before import.",
+      "Compare failing briefcase size and behavior against a briefcase exported through the Laserfiche Client.",
+    ],
+    notes:
+      "One reviewed thread is a self-hosted Workflow scenario; another is a RepositoryAccess 10.4 SDK export scenario.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9265 as a briefcase decompression error.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Briefcase Import error 9265 needs more specification",
+        url: "https://answers.laserfiche.com/questions/224442/Briefcase-Import-error-9265-needs-more-specification",
+        note:
+          "Laserfiche employee reply explains that temp space on the repository drive can be consumed while Laserfiche Server uncompresses briefcases.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "There was an error decompressing the briefcase [9265]",
+        url: "https://answers.laserfiche.com/questions/220015/There-was-an-error-decompressing-the-briefcase-The-briefcase-file-may-be-corrupt-the-disk-may-be-out-of-space-or-another-IO-error-occurred-9265",
+        note:
+          "Laserfiche employee reply recommends using synchronous Export or correct BeginExport/EndExport handling so an exported briefcase is complete.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9288-no-search-catalog",
+    code: "9288",
+    message: "This repository does not have an associated catalog.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The repository has no attached full-text search catalog. Reviewed employee guidance points to the Laserfiche Full Text Search service not being installed or running.",
+    symptoms: [
+      "Creating or using a repository reports 9288.",
+      "Full-text search and indexing are unavailable until a catalog is attached or created.",
+    ],
+    likelyFixes: [
+      "Verify the Laserfiche Full Text Search service is installed and running.",
+      "If the service is missing, run the Laserfiche Server installer and install LFFTS on the appropriate machine.",
+      "After LFFTS is available, create or attach the repository search catalog.",
+    ],
+    notes:
+      "The reviewed Answers thread involved a new repository installation where the LFFTS service was not visible.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9288 as a repository without an associated catalog.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error 9288: This repository does not have an associated catalog",
+        url: "https://answers.laserfiche.com/questions/88948/Error-9288--This-repository-does-not-have-an-associated-catalog-",
+        note:
+          "Laserfiche employee response says the service is Laserfiche Full Text Search and recommends installing LFFTS if it is missing.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9290-catalog-detach-failed",
+    code: "9290",
+    message: "The repository cannot be unregistered because the search catalog could not be detached.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Repository unregister failed because the search catalog could not be detached.",
+    symptoms: [
+      "Unregistering a repository fails with 9290.",
+      "The error may appear alongside earlier repository startup or audit log problems.",
+    ],
+    likelyFixes: [
+      "Restart the Laserfiche Server service and retry when the failure appears transient.",
+      "If restart does not help, manually unregister the repository using the documented Laserfiche KB 1011998 procedure.",
+      "Register the repository again after manual cleanup if the repository should remain in service.",
+    ],
+    notes:
+      "Reviewed thread includes employee guidance to manually unregister using KB 1011998 and community confirmation that a service restart sometimes clears the issue.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9290 as search catalog detach failure during repository unregister.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Repository cannot be unregistered because the search catalog could not be detached 9290",
+        url: "https://answers.laserfiche.com/questions/95240/Repository-cannot-be-unregistered-because-the-search-catalog-could-not-be-detached-9290",
+        note:
+          "Laserfiche employee reply recommends manually unregistering the repository using KB 1011998, then registering it again.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9302-date-time-pattern-failed",
+    code: "9302",
+    message: "Setting the date or time pattern to the supplied string failed.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "A date/time format pattern is invalid. Reviewed employee guidance points to case-sensitive date pattern tokens, especially MM for month instead of mm for minutes.",
+    symptoms: [
+      "A date token or pattern returns 9302.",
+      "The month appears as zeros or the formatted value is wrong.",
+    ],
+    likelyFixes: [
+      "Use uppercase MM for month in date patterns.",
+      "Use lowercase mm only when the intended value is minutes.",
+      "Test the formatted token output before assigning it to a field or search.",
+    ],
+    notes:
+      "The reviewed thread confirms that changing mm to MM fixed the month value.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9302 as failure setting the date or time pattern.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "date token month is wrong, error 9302",
+        url: "https://answers.laserfiche.com/questions/57631/date-token-month-is-wrong-error-9302",
+        note: "Laserfiche employee reply explains that MM means month while mm means minutes.",
+      },
+    ],
+  },
+  {
     id: "lf-server-9128-briefcase-import-failed",
     code: "9128",
     message: "The briefcase failed to import",
