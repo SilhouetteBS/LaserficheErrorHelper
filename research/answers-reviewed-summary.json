@@ -358,5 +358,15 @@
     "hasLaserficheEmployee": true,
     "hasAcceptedLanguage": true,
     "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "7480",
+    "message": "Volume has unrecognized XML attribute tag.",
+    "title": "Scanning Issue with Win 11, TWAIN and Fujitsu fi-7480",
+    "url": "https://answers.laserfiche.com/questions/204153/Scanning-Issue-with-Win-11-TWAIN-and-Fujitsu-fi7480",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27",
+    "notes": "False-positive search hit: 7480 refers to a Fujitsu scanner model, not Laserfiche error 7480."
   }
 ]

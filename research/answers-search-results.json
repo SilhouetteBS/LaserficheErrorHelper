@@ -4605,5 +4605,502 @@
     "noMatch": true,
     "query": "7431 Volume grab handle table full.",
     "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7433",
+    "links": [],
+    "message": "There are no more files in the directory.",
+    "noMatch": true,
+    "query": "7433 There are no more files in the directory",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7434",
+    "links": [
+      {
+        "title": "import Problem. Urgent! S.O.S.",
+        "url": "https://answers.laserfiche.com/questions/155431/import-Problem-Urgent-SOS"
+      }
+    ],
+    "message": "Decompression of briefcase failed.",
+    "noMatch": false,
+    "query": "7434 Decompression of briefcase failed",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7435",
+    "links": [],
+    "message": "Compression of briefcase failed.",
+    "noMatch": true,
+    "query": "7435 Compression of briefcase failed",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7440",
+    "links": [],
+    "message": "Could not initialize a new audit log file.",
+    "noMatch": true,
+    "query": "7440 Could not initialize a new audit log file",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7441",
+    "links": [],
+    "message": "Could not find or read the compression dictionary.",
+    "noMatch": true,
+    "query": "7441 Could not find or read the compression dictionary",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7442",
+    "links": [],
+    "message": "The compression of audit event data failed.",
+    "noMatch": true,
+    "query": "7442 The compression of audit event data failed",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7443",
+    "links": [],
+    "message": "Error writing to audit XML file.",
+    "noMatch": true,
+    "query": "7443 Error writing to audit XML file",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7444",
+    "links": [],
+    "message": "An audit reason was not specified, or an invalid reason was specified.",
+    "noMatch": true,
+    "query": "7444 An audit reason was not specified, or an invalid reason was specified",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7470",
+    "links": [],
+    "message": "The SQL data file location (.mdf) is not valid. Please make sure that the file exists.",
+    "noMatch": true,
+    "query": "7470 The SQL data file location (.mdf) is not valid. Please make sure that the file exists",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7471",
+    "links": [
+      {
+        "title": "Laserfiche 11 Audit Trail Install Error",
+        "url": "https://answers.laserfiche.com/questions/209630/Laserfiche-11-Audit-Trail-Install-Error"
+      }
+    ],
+    "message": "A Laserfiche repository is not located at the path specified.",
+    "noMatch": false,
+    "query": "7471 A Laserfiche repository is not located at the path specified",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7472",
+    "links": [
+      {
+        "title": "DocumentProcessor OCREngine Unknown Error and Permissions",
+        "url": "https://answers.laserfiche.com/questions/89055/DocumentProcessor-OCREngine-Unknown-Error-and-Permissions"
+      }
+    ],
+    "message": "Supplementary databases could not be removed.",
+    "noMatch": false,
+    "query": "7472 Supplementary databases could not be removed",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7473",
+    "links": [
+      {
+        "title": "Workflow HTTP Web Request GET - Data Loss?",
+        "url": "https://answers.laserfiche.com/questions/164382/Workflow-HTTP-Web-Request-GET--Data-Loss"
+      }
+    ],
+    "message": "Repository could not be detached or deleted.",
+    "noMatch": false,
+    "query": "7473 Repository could not be detached or deleted",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7480",
+    "links": [
+      {
+        "title": "Scanning Issue with Win 11, TWAIN and Fujitsu fi-7480",
+        "url": "https://answers.laserfiche.com/questions/204153/Scanning-Issue-with-Win-11-TWAIN-and-Fujitsu-fi7480"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "Volume has unrecognized XML attribute tag.",
+    "noMatch": false,
+    "query": "7480 Volume has unrecognized XML attribute tag",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7490",
+    "links": [],
+    "message": "This record series has folders and/or documents associated with it and can't be deleted.",
+    "noMatch": true,
+    "query": "7490 This record series has folders and/or documents associated with it and can't be deleted",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7491",
+    "links": [],
+    "message": "The specified entry is not a record folder.",
+    "noMatch": true,
+    "query": "7491 The specified entry is not a record folder",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7492",
+    "links": [],
+    "message": "Records marked as permanent cannot be destroyed.",
+    "noMatch": true,
+    "query": "7492 Records marked as permanent cannot be destroyed",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7493",
+    "links": [],
+    "message": "A record series with the code you specified already exists. Specify a different code.",
+    "noMatch": true,
+    "query": "7493 A record series with the code you specified already exists. Specify a different code",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7494",
+    "links": [],
+    "message": "The record already has been cut off.",
+    "noMatch": true,
+    "query": "7494 The record already has been cut off",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7495",
+    "links": [],
+    "message": "The record is not eligible for disposition.",
+    "noMatch": true,
+    "query": "7495 The record is not eligible for disposition",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7496",
+    "links": [],
+    "message": "Only record folders are allowed directly under record series.",
+    "noMatch": true,
+    "query": "7496 Only record folders are allowed directly under record series",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7497",
+    "links": [],
+    "message": "Cannot reverse the cutoff designation of record transferred away from the Current File Area.",
+    "noMatch": true,
+    "query": "7497 Cannot reverse the cutoff designation of record transferred away from the Current File Area",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7498",
+    "links": [],
+    "message": "The specified transfer sequence number does not exist.",
+    "noMatch": true,
+    "query": "7498 The specified transfer sequence number does not exist",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7499",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "The specified location already exists.",
+    "noMatch": false,
+    "query": "7499 The specified location already exists",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7500",
+    "links": [
+      {
+        "title": "Perform Calculation based on Radio Button value",
+        "url": "https://answers.laserfiche.com/questions/162716/Perform-Calculation-based-on-Radio-Button-value"
+      },
+      {
+        "title": "Error while Committing System Changes during Windows Client 10.2.1 installation",
+        "url": "https://answers.laserfiche.com/questions/129200/Error-while-Committing-System-Changes-during--Windows-Client-1021-installation"
+      },
+      {
+        "title": "Search Business Process Details Size",
+        "url": "https://answers.laserfiche.com/questions/184651/Search-Business-Process-Details-Size"
+      }
+    ],
+    "message": "Version group does not exist.",
+    "noMatch": false,
+    "query": "7500 Version group does not exist",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7501",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "Duplicate version numbers in a group are not allowed.",
+    "noMatch": false,
+    "query": "7501 Duplicate version numbers in a group are not allowed",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7502",
+    "links": [],
+    "message": "No such version in the version group.",
+    "noMatch": true,
+    "query": "7502 No such version in the version group",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7503",
+    "links": [
+      {
+        "title": "Could not connect to the Quick Fields Server. [QF10000]",
+        "url": "https://answers.laserfiche.com/questions/115504/Could-not-connect-to-the-Quick-Fields-Server-QF10000"
+      }
+    ],
+    "message": "No such document in the version group.",
+    "noMatch": false,
+    "query": "7503 No such document in the version group",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7504",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "The version number is out of range.",
+    "noMatch": false,
+    "query": "7504 The version number is out of range",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7505",
+    "links": [],
+    "message": "Cannot modify version status when a version of the document is checked out by another user.",
+    "noMatch": true,
+    "query": "7505 Cannot modify version status when a version of the document is checked out by another user",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7520",
+    "links": [],
+    "message": "Could not set read-only attribute on file when making volume read-only.",
+    "noMatch": true,
+    "query": "7520 Could not set read-only attribute on file when making volume read-only",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7521",
+    "links": [],
+    "message": "Could not modify volume properties.",
+    "noMatch": true,
+    "query": "7521 Could not modify volume properties",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7522",
+    "links": [
+      {
+        "title": "Import Briefcase from LF7 to LF9?",
+        "url": "https://answers.laserfiche.com/questions/68788/Import-Briefcase-from-LF7-to-LF9"
+      }
+    ],
+    "message": "Could not attach volume.",
+    "noMatch": false,
+    "query": "7522 Could not attach volume",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7523",
+    "links": [],
+    "message": "Could not export volume.",
+    "noMatch": true,
+    "query": "7523 Could not export volume",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7524",
+    "links": [
+      {
+        "title": "Laserfiche 11 Audit Trail Install Error",
+        "url": "https://answers.laserfiche.com/questions/209630/Laserfiche-11-Audit-Trail-Install-Error"
+      }
+    ],
+    "message": "Invalid characters used in the volume name.",
+    "noMatch": false,
+    "query": "7524 Invalid characters used in the volume name",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7525",
+    "links": [
+      {
+        "title": "XMLPath language with Namespaces",
+        "url": "https://answers.laserfiche.com/questions/196906/XMLPath-language-with-Namespaces"
+      }
+    ],
+    "message": "Failed to set event date.",
+    "noMatch": false,
+    "query": "7525 Failed to set event date",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7526",
+    "links": [],
+    "message": "Series description or code is too long.",
+    "noMatch": true,
+    "query": "7526 Series description or code is too long",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7527",
+    "links": [],
+    "message": "Record series must be under the root.",
+    "noMatch": true,
+    "query": "7527 Record series must be under the root",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7528",
+    "links": [],
+    "message": "Cannot move a record folder outside of a series.",
+    "noMatch": true,
+    "query": "7528 Cannot move a record folder outside of a series",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7529",
+    "links": [
+      {
+        "title": "Laserfiche 11 Audit Trail Install Error",
+        "url": "https://answers.laserfiche.com/questions/209630/Laserfiche-11-Audit-Trail-Install-Error"
+      }
+    ],
+    "message": "Cannot remove the last review date.",
+    "noMatch": false,
+    "query": "7529 Cannot remove the last review date",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7530",
+    "links": [],
+    "message": "The specified relationship type does not exist.",
+    "noMatch": true,
+    "query": "7530 The specified relationship type does not exist",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7531",
+    "links": [
+      {
+        "title": "Mobile 10 Configuration Page Add Button Does Not Respond",
+        "url": "https://answers.laserfiche.com/questions/105789/Mobile-10-Configuration-Page-Add-Button-Does-Not-Respond"
+      }
+    ],
+    "message": "Could not create/modify relationship type (duplicate exists).",
+    "noMatch": false,
+    "query": "7531 Could not create/modify relationship type (duplicate exists)",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7532",
+    "links": [],
+    "message": "Failed to check property.",
+    "noMatch": true,
+    "query": "7532 Failed to check property",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7533",
+    "links": [],
+    "message": "Failed to close record folder; it may already be closed.",
+    "noMatch": true,
+    "query": "7533 Failed to close record folder; it may already be closed",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7534",
+    "links": [],
+    "message": "Cannot move a cutoff record folder.",
+    "noMatch": true,
+    "query": "7534 Cannot move a cutoff record folder",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7535",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "User lacks Create Folders right; some files not imported.",
+    "noMatch": false,
+    "query": "7535 User lacks Create Folders right; some files not imported",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7536",
+    "links": [],
+    "message": "User lacks Create Files right; no documents were created.",
+    "noMatch": true,
+    "query": "7536 User lacks Create Files right; no documents were created",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7540",
+    "links": [],
+    "message": "Entry tag does not exist.",
+    "noMatch": true,
+    "query": "7540 Entry tag does not exist",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7541",
+    "links": [],
+    "message": "Cannot create entry tag.",
+    "noMatch": true,
+    "query": "7541 Cannot create entry tag",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7542",
+    "links": [
+      {
+        "title": "Save as Draft and Database Lookup Question",
+        "url": "https://answers.laserfiche.com/questions/78684/Save-as-Draft-and-Database-Lookup-Question"
+      }
+    ],
+    "message": "The entry tag cannot be deleted, as it is currently assigned to one or more entries.",
+    "noMatch": false,
+    "query": "7542 The entry tag cannot be deleted, as it is currently assigned to one or more entries",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7543",
+    "links": [],
+    "message": "Cannot create/update entry tag.",
+    "noMatch": true,
+    "query": "7543 Cannot create/update entry tag",
+    "searchedAt": "2026-06-27"
   }
 ]
