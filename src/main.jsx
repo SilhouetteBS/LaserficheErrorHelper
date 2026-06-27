@@ -56,6 +56,23 @@ function sourceTypeLabel(sourceType) {
   return sourceTypeOptions.find((option) => option.value === sourceType)?.label ?? sourceType;
 }
 
+function fixStatusLabel(value) {
+  const labels = {
+    "known-fix": "Known fix",
+    workaround: "Workaround",
+    "diagnostic-only": "Diagnostic only",
+    unresolved: "Unresolved",
+    "needs-review": "Needs review",
+  };
+  return labels[value] ?? labels["needs-review"];
+}
+
+function fixStatusValue(entry) {
+  if (entry.fixStatus) return entry.fixStatus;
+  if (entry.confidence === "low") return "needs-review";
+  return "diagnostic-only";
+}
+
 function sourceIcon(sourceType) {
   if (sourceType === "official-docs") return BookOpen;
   if (sourceType === "answers-search") return Search;
@@ -282,7 +299,10 @@ function App() {
                           <strong>{entry.message}</strong>
                           <small>{entry.summary}</small>
                         </span>
-                        <ConfidenceBadge value={entry.confidence} />
+                        <span className="result-badges">
+                          <FixStatusBadge value={fixStatusValue(entry)} />
+                          <ConfidenceBadge value={entry.confidence} />
+                        </span>
                       </button>
                     ))}
                 </div>
@@ -358,6 +378,10 @@ function ConfidenceBadge({ value }) {
   return <span className={`confidence ${value}`}>{confidenceLabel(value)}</span>;
 }
 
+function FixStatusBadge({ value }) {
+  return <span className={`fix-status ${value}`}>{fixStatusLabel(value)}</span>;
+}
+
 function confidenceWeight(value) {
   if (value === "high") return 1;
   if (value === "medium") return 2;
@@ -415,6 +439,10 @@ function ErrorDetail({ entry }) {
             <strong>Last reviewed</strong>
             {entry.reviewedDate}
           </span>
+          <span>
+            <strong>Fix status</strong>
+            {fixStatusLabel(fixStatusValue(entry))}
+          </span>
         </div>
 
         <DetailSection title="Symptoms">
@@ -453,6 +481,22 @@ function ErrorDetail({ entry }) {
           </h3>
           <ConfidenceBadge value={entry.confidence} />
           <p>{entry.summary}</p>
+        </section>
+        <section className="side-card">
+          <h3>Fix Status</h3>
+          <FixStatusBadge value={fixStatusValue(entry)} />
+          <p>
+            {fixStatusValue(entry) === "known-fix" &&
+              "A source-backed fix is documented for at least one matching scenario."}
+            {fixStatusValue(entry) === "workaround" &&
+              "A source-backed workaround is documented, but it may not be a permanent product fix."}
+            {fixStatusValue(entry) === "diagnostic-only" &&
+              "Sources provide troubleshooting direction, but no single confirmed fix is documented."}
+            {fixStatusValue(entry) === "unresolved" &&
+              "The error is documented, but no confirmed public fix has been identified yet."}
+            {fixStatusValue(entry) === "needs-review" &&
+              "This entry needs additional source review before a fix status can be assigned."}
+          </p>
         </section>
         <section className="side-card">
           <h3>Source Priority</h3>

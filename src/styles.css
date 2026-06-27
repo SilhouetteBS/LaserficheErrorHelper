@@ -351,9 +351,16 @@ h3 {
   line-height: 1.35;
 }
 
-.result-row .confidence {
+.result-row .confidence,
+.result-badges {
   align-self: center;
   grid-column: 3;
+}
+
+.result-badges {
+  display: grid;
+  justify-items: end;
+  gap: 5px;
 }
 
 .detail-pane {
@@ -415,7 +422,7 @@ h3 {
 
 .meta-strip {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0;
   margin: 18px 0 2px;
   padding: 0 0 16px;
@@ -495,6 +502,7 @@ li + li {
 }
 
 .confidence,
+.fix-status,
 .source-badge {
   display: inline-flex;
   align-items: center;
@@ -520,6 +528,31 @@ li + li {
 }
 
 .confidence.low {
+  color: #7b3531;
+  background: #fde6e2;
+  border: 1px solid #efb9b0;
+}
+
+.fix-status.known-fix {
+  color: #095436;
+  background: #def6e8;
+  border: 1px solid #86cfa8;
+}
+
+.fix-status.workaround {
+  color: #064a5a;
+  background: #d9f2f7;
+  border: 1px solid #8fcdd8;
+}
+
+.fix-status.diagnostic-only {
+  color: #7a4a00;
+  background: #fff1ca;
+  border: 1px solid #f0cf82;
+}
+
+.fix-status.unresolved,
+.fix-status.needs-review {
   color: #7b3531;
   background: #fde6e2;
   border: 1px solid #efb9b0;
@@ -822,8 +855,13 @@ li + li {
     grid-template-columns: 1fr;
   }
 
-  .result-row .confidence {
+  .result-row .confidence,
+  .result-badges {
     grid-column: auto;
     justify-self: start;
+  }
+
+  .result-badges {
+    justify-items: start;
   }
 }

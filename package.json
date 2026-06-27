@@ -9,6 +9,7 @@
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
     "generate:official-docs": "node tools/generate-official-doc-data.mjs",
+    "candidates": "node tools/list-product-candidates.mjs",
     "lint:data": "node tools/validate-data.mjs",
     "render:check": "node tools/render-check.mjs"
   },

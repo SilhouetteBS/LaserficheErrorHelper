@@ -2915,6 +2915,478 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "import-agent-9008-pdf-annotations",
+    code: "9008",
+    message: "General database error while generating pages from PDF.",
+    product: "Import Agent",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Import Agent can report general database error 9008 while generating pages for certain PDFs, with logs pointing to PDF annotation import.",
+    symptoms: [
+      "Importing PDFs through Import Agent or the client returns General database error. [9008].",
+      "Import Agent logs include PdfServices annotation import calls.",
+      "The source PDF may contain AutoCAD SHX text or unusual annotations.",
+    ],
+    likelyFixes: [
+      "Check the Laserfiche Server Windows event log for the specific database error behind 9008.",
+      "Open a support case and provide the PDF file plus the Import Agent profile when the error is reproducible.",
+      "Test whether flattening or regenerating the PDF annotations changes the failure.",
+    ],
+    notes:
+      "Laserfiche employee replies provide diagnostic direction, but the public thread does not include a confirmed fix.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "PDF import General database error [9008] when generating pages",
+        url: "https://answers.laserfiche.com/questions/115078/PDF-import-General-database-error-9008-when-generating-pages",
+        note: "Laserfiche replies recommend checking Laserfiche Server event logs and opening a support case with the PDF and Import Agent profile.",
+      },
+    ],
+  },
+  {
+    id: "import-agent-9045-entry-lock",
+    code: "9045",
+    message: "The operation cannot complete because an object is locked.",
+    product: "Import Agent",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Import Agent can hit 9045 entry-lock errors when downstream Workflow processing starts before Import Agent has fully finished with the document.",
+    symptoms: [
+      "Import Agent logs error 9045 while importing a file.",
+      "Documents may land in an error folder or be created without electronic data.",
+      "Workflow may start on document creation and attempt to read/extract text too early.",
+    ],
+    likelyFixes: [
+      "If Workflow depends on pages or text, trigger the workflow on document changes when pages are added instead of initial document creation.",
+      "Allow the built-in retry behavior to handle temporary 9045 locks when possible.",
+      "Open a support case with Import Agent logs if files still move to the error folder.",
+    ],
+    notes:
+      "Laserfiche employee guidance explains the lock/retry behavior and suggests changing the Workflow start event when text is needed.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Entry Lock when using Import Agent",
+        url: "https://answers.laserfiche.com/questions/187456/Entry-Lock-when-using-Import-Agent",
+        note: "Miruna Babatie from Laserfiche says 9045 has retry handling and suggests starting Workflow when pages are added.",
+      },
+    ],
+  },
+  {
+    id: "import-agent-install-media-license-errors",
+    code: "IMPORTAGENT-INSTALL-MEDIA",
+    message: "Import Agent installer asks to insert disk or cannot read/find the license file.",
+    product: "Import Agent",
+    versions: ["Version 11"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Import Agent 11 installation can fail from a mounted ISO with insert-disk or license-file read errors; copying the installation files locally resolved the reviewed case.",
+    symptoms: [
+      "The Import Agent installer prompts to insert disk during OCR engine installation.",
+      "The installer reports that it cannot read or find the license file.",
+      "The installation media is mounted from an ISO.",
+    ],
+    likelyFixes: [
+      "Copy all files from the mounted ISO to a local folder.",
+      "Run the Import Agent installer from the local copied folder.",
+      "Keep the license file in an accessible local path during installation.",
+    ],
+    notes: "Community-confirmed workaround; no Laserfiche employee reply was posted in the reviewed discussion.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Errors when installing Import Agent 11",
+        url: "https://answers.laserfiche.com/questions/213402/Errors-when-installing-Import-Agent-11-insert-disk-error-readingfinding-license-file",
+        note: "Community reply suggests copying ISO contents to local disk; requester confirmed that fixed the install issue.",
+      },
+    ],
+  },
+  {
+    id: "weblink-3005-unhandled-exception",
+    code: "3005",
+    message: "Event code 3005: An unhandled exception has occurred.",
+    product: "WebLink",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "WebLink can log ASP.NET event code 3005 for unhandled exceptions. The reviewed thread points to IIS logs, customizations, and application-pool mode as troubleshooting paths.",
+    symptoms: [
+      "WebLink server event logs show Event code 3005 and An unhandled exception has occurred.",
+      "Users may not report visible errors even while warnings appear repeatedly.",
+      "Stack traces may reference WebLink8.Global.Application_BeginRequest.",
+    ],
+    likelyFixes: [
+      "Find the corresponding IIS log row by timestamp and HTTP 500 status to identify the failing request.",
+      "Check whether WebLink code was customized, especially Application_BeginRequest.",
+      "Verify IIS application-pool mode and ASP.NET registration for older WebLink/IIS environments.",
+    ],
+    notes:
+      "Laserfiche employee reply provides diagnostic direction. A community reply adds IIS/classic app-pool and ASP.NET registration checks.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Weblink - event code 3005: An unhandled exception has occurred",
+        url: "https://answers.laserfiche.com/questions/62498/Weblink--event-code-3005--An-unhandled-exception-has-occurred",
+        note: "Brian McKeever from Laserfiche recommends checking the matching IIS log row and customizations.",
+      },
+    ],
+  },
+  {
+    id: "weblink-compressed-file-corrupt",
+    code: "WEBLINK-COMPRESSED-FILE-CORRUPT",
+    message: "Compressed file data is invalid or corrupt and cannot be decompressed.",
+    product: "WebLink",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "high",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "When WebLink downloads a document and Laserfiche reports compressed file data is corrupt, the root issue is likely the repository volume/file data rather than WebLink itself.",
+    symptoms: [
+      "Downloading a document through WebLink returns compressed file data is invalid or corrupt.",
+      "Only some documents on the same volume may fail.",
+      "The volume may use Laserfiche compression.",
+    ],
+    likelyFixes: [
+      "Export the affected file through the Laserfiche client and test whether it opens outside Laserfiche.",
+      "Check whether the containing volume is compressed and whether only some files fail.",
+      "Open a support case to inspect volume compression/data corruption when only some compressed files fail.",
+    ],
+    notes:
+      "Laserfiche employee replies identify this as a repository/volume compression issue surfaced through WebLink.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Compressed file data is invalid or corrupt and cannot be decompressed",
+        url: "https://answers.laserfiche.com/questions/89429/Compressed-file-data-is-invalid-or-corrupt-and-cannot-be-decompressed",
+        note: "Brian McKeever from Laserfiche explains that each volume file is compressed separately and support can determine what happened.",
+      },
+    ],
+  },
+  {
+    id: "weblink-9035-too-many-operations",
+    code: "9035",
+    message: "The current request could not be performed because there are too many existing operations running.",
+    product: "WebLink",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "WebLink tile/image requests can log 9035 when too many operations are running. The reviewed source documents the event but does not provide a confirmed public fix.",
+    symptoms: [
+      "WebLink operational logs show 9035 during TileData.aspx requests.",
+      "The stack trace may involve WebLinkControls.Tiling image extraction.",
+      "The message reports too many existing operations running.",
+    ],
+    likelyFixes: [
+      "Capture the full WebLink operational log event and request URL for support review.",
+      "Check whether the issue clusters around specific documents, pages, annotations, or high-concurrency periods.",
+      "No confirmed public fix was posted in the reviewed thread.",
+    ],
+    notes: "Published as unresolved documentation so administrators can recognize and search the exact WebLink symptom.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "The current request could not be performed because there are too many existing operations running. [9035]",
+        url: "https://answers.laserfiche.com/questions/221839/The-current-request-could-not-be-performed-because-there-are-too-many-existing-operations-running-9035",
+        note: "Reviewed thread documents WebLink operational log 9035; no confirmed public resolution was captured in this pass.",
+      },
+    ],
+  },
+  {
+    id: "forms-lff502-unexpected-error",
+    code: "LFF502",
+    message: "Laserfiche Forms has encountered a problem. Unexpected error.",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Forms LFF502 is a broad unexpected-error message; the reviewed employee guidance starts with the LFForms Windows event log for the specific backend failure.",
+    symptoms: [
+      "Submitting a form returns LFF502-UnexpectedError.",
+      "The browser may also show HTTP 500.",
+      "Restarting the Forms application pool may not resolve the issue.",
+    ],
+    likelyFixes: [
+      "Open Windows Event Viewer on the Forms server.",
+      "Check Applications and Services Logs > LFForms for the detailed error.",
+      "Use the LFForms event details to determine the component-specific fix or support case evidence.",
+    ],
+    notes: "Laserfiche employee reply gives the diagnostic starting point, not a specific universal fix.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Forms 10 error [LFF502-UnexpectedError] when submitting",
+        url: "https://answers.laserfiche.com/questions/95210/Forms-10-error-LFF502UnexpectedError-when-submitting",
+        note: "Alexander Huang from Laserfiche directs the user to Applications and Services Logs > LFForms.",
+      },
+    ],
+  },
+  {
+    id: "forms-lff5437-str-error-generate-page",
+    code: "LFF5437",
+    message: "An error occurred when generating pages for PDFs in a Save to Repository service task.",
+    product: "Forms",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Forms Save to Repository can suspend instances with LFF5437-STRErrorGeneratePage while generating PDF pages. The reviewed thread documents the stack but has no confirmed public fix.",
+    symptoms: [
+      "Forms Monitor shows suspended upload tasks.",
+      "The error is LFF5437-STRErrorGeneratePage.",
+      "The task is a Save to Repository service task generating pages for PDFs.",
+    ],
+    likelyFixes: [
+      "Capture the Forms stack trace, business process ID, instance ID, and affected document details.",
+      "Compare whether only specific uploaded PDFs or all PDFs trigger page-generation failure.",
+      "No confirmed public fix was posted in the reviewed thread.",
+    ],
+    notes: "Published as unresolved documentation because the exact LFF5437 signature is valuable for administrators to recognize.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Laserfiche Forms Error: LFF5437-STRErrorGeneratePage",
+        url: "https://answers.laserfiche.com/questions/211554/Laserfiche-Forms-Error-LFF5437STRErrorGeneratePage",
+        note: "Reviewed thread documents the LFF5437 Save to Repository page-generation stack in Forms 11.",
+      },
+    ],
+  },
+  {
+    id: "forms-lff9320-validation-aggregate",
+    code: "LFF9320",
+    message: "Forms validation aggregate exception.",
+    product: "Forms",
+    versions: ["Version 12"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Forms can return LFF9320-FormsValidationAggregateException when hidden or rule-controlled required fields still fail validation during submission.",
+    symptoms: [
+      "Submission reports LFF9320-FormsValidationAggregateException.",
+      "The details may include LFF9300-ValueRequired and LFF9312-ErrorOccuredDuringFormsValidation.",
+      "The reported required fields may be hidden by form rules.",
+    ],
+    likelyFixes: [
+      "Review field rules and required settings for hidden fields named in the validation error.",
+      "Test the same route with field-rule combinations that show and hide the affected fields.",
+      "No confirmed public fix was captured in the reviewed thread.",
+    ],
+    notes: "Published as unresolved documentation for a Version 12 Forms Layout Designer validation signature.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "What would cause this LFF9320-FormsValidationAggregateException error?",
+        url: "https://answers.laserfiche.com/questions/235981/What-would-cause-this-LFF9320FormsValidationAggregateException-error",
+        note: "Community thread documents hidden required fields causing LFF9300/LFF9312/LFF9320 validation errors.",
+      },
+    ],
+  },
+  {
+    id: "forms-archive-sequence-no-match",
+    code: "FORMS-ARCHIVE-SEQUENCE",
+    message: "Sequence contains no matching element.",
+    product: "Forms",
+    versions: ["Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Forms archive or Save to Laserfiche routing can suspend with Sequence contains no matching element. The reviewed source documents the stack but no confirmed fix.",
+    symptoms: [
+      "A Forms archive profile verifies successfully but suspends on submission.",
+      "The inner exception is System.InvalidOperationException: Sequence contains no matching element.",
+      "The stack includes SaveToLaserficheHelper.OpenSessionAndSave or SaveToLaserficheService.Execute.",
+    ],
+    likelyFixes: [
+      "Capture the archive profile, repository configuration, and suspended instance stack trace.",
+      "Compare repository/profile IDs against the Save to Laserfiche configuration used by the process.",
+      "No confirmed public fix was posted in the reviewed thread.",
+    ],
+    notes: "Laserfiche employee participation exists in the thread, but the reviewed excerpt does not include a confirmed resolution.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Forms Archive Error: Sequence contains no matching element",
+        url: "https://answers.laserfiche.com/questions/221408/Forms-Archive-Error--Sequence-contains-no-matching-element",
+        note: "Reviewed thread documents the Forms archive SaveToLaserfiche stack and symptom.",
+      },
+    ],
+  },
+  {
+    id: "workflow-0650-wf0-condition-entry-deleted",
+    code: "0650-WF0",
+    message: "The condition entry was deleted.",
+    product: "Workflow",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow wait conditions can terminate with 0650-WF0 when the entry being monitored was deleted and possibly restored later.",
+    symptoms: [
+      "Workflow terminates while waiting for entry changes.",
+      "The error says The condition entry was deleted. [0650-WF0].",
+      "The entry may still exist by the time administrators inspect it.",
+    ],
+    likelyFixes: [
+      "Check Audit Trail or repository activity logs for delete and restore events on the affected entry.",
+      "Review Workflow token logs and subscriber trace logs for the failing Wait activity.",
+      "Add error handling around the Wait activity if delete/restore events are expected.",
+    ],
+    notes:
+      "Laserfiche employee explanation and user follow-up confirm delete/restore activity as the cause in the reviewed case.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Workflow Terminating with Error 0650",
+        url: "https://answers.laserfiche.com/questions/54725/Workflow-Terminating-with-Error-0650-",
+        note: "Ed Heaney from Laserfiche explains delete events trigger the error; requester confirmed Audit Trail showed deletion and restore.",
+      },
+    ],
+  },
+  {
+    id: "workflow-subscriber-9013-access-denied",
+    code: "9013",
+    message: "Workflow Subscriber access denied.",
+    product: "Workflow",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow Subscriber can log 9013 Access denied when it cannot access the monitored repository or when subscriber configuration/repository identity is inconsistent.",
+    symptoms: [
+      "Workflows stop triggering from repository events while manual designer runs may still work.",
+      "Workflow subscriber_error_log shows Access denied. [9013].",
+      "The Windows identity may be Local System or another subscriber service identity.",
+    ],
+    likelyFixes: [
+      "Verify Workflow Subscriber configuration can reach the intended repository.",
+      "Check whether another subscriber is connected incorrectly and changed the subscriber account password.",
+      "Check whether the repository is a copy with an incorrectly edited unique identifier.",
+    ],
+    notes:
+      "Laserfiche employee reply lists two possible subscriber/repository configuration causes; the public thread does not show one final fix.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Workflow subscriber error 9013",
+        url: "https://answers.laserfiche.com/questions/86218/Workflow-subscriber-error-9013",
+        note: "Miruna Babatie from Laserfiche says this can happen with an incorrectly connected second subscriber or copied repository identifier issues.",
+      },
+    ],
+  },
+  {
+    id: "workflow-0637-wf1-session-reset",
+    code: "0637-WF1",
+    message: "The session has been reset by the server.",
+    product: "Workflow",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow Subscriber can report 0637-WF1 when the server resets the session while retrieving subscriber profile data. The reviewed thread documents the stack but no confirmed fix.",
+    symptoms: [
+      "Workflow and Workflow Subscriber services must be restarted periodically.",
+      "Event Viewer logs WorkflowConnectionResetException.",
+      "The message says The session has been reset by the server. [0637-WF1].",
+    ],
+    likelyFixes: [
+      "Capture the full Workflow Subscriber exception and timing of service restarts.",
+      "Review monitored repository connection and subscriber profile configuration.",
+      "No confirmed public fix was captured in the reviewed thread.",
+    ],
+    notes: "Published as unresolved documentation for a Workflow Subscriber reset signature.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "The session has been reset by the server. [0637-WF1]",
+        url: "https://answers.laserfiche.com/questions/106147/The-session-has-been-reset-by-the-server-0637WF1",
+        note: "Reviewed thread documents the Workflow Subscriber 0637-WF1 stack.",
+      },
+    ],
+  },
+  {
+    id: "workflow-2343-installer-iis",
+    code: "2343",
+    message: "Workflow installer specified path is empty.",
+    product: "Workflow",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow 11 Designer/Admin Console installer error 2343 was tied to IIS not being installed and later addressed by Workflow 11 Update 1.",
+    symptoms: [
+      "Workflow 11 desktop component installation fails and rolls back.",
+      "MSI logs show DEBUG: Error 2343: Specified path is empty.",
+      "The failure references ChangeDir or registry value setup during install.",
+    ],
+    likelyFixes: [
+      "Install Laserfiche Workflow 11 Update 1 or later.",
+      "As a workaround for affected installers, install IIS on PCs that need Workflow Designer installed.",
+      "Collect logs from the temp Laserfiche install Workflow folder if installation still fails.",
+    ],
+    notes:
+      "Laserfiche employee reply identifies missing IIS as the cause and bug 312607; the selected answer points to Workflow 11 Update 1.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Workflow 11 Installation Setup Error Code 2343",
+        url: "https://answers.laserfiche.com/questions/185188/Workflow-11-Installation-Setup-Error-Code-2343",
+        note: "Alexander Huang from Laserfiche says the issue appears caused by not having IIS installed and was filed as bug 312607.",
+      },
+    ],
+  },
+  {
+    id: "workflow-2147467259-not-responsive",
+    code: "2147467259",
+    message: "Workflow not responsive / Error sending HTTP request to server.",
+    product: "Workflow",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow 10.4 can log generic error 2147467259 with Error sending HTTP request to server when an otherwise valid workflow does not trigger as expected.",
+    symptoms: [
+      "A published workflow validates but does not trigger from repository events.",
+      "Workflow logs show Error Code 2147467259 or Error sending HTTP request to server.",
+      "Older similar workflows may still run normally.",
+    ],
+    likelyFixes: [
+      "Capture Workflow service logs for the affected workflow and activity name.",
+      "Compare rule manager conditions and monitored repository configuration against working workflows.",
+      "No confirmed public fix was captured in the reviewed thread.",
+    ],
+    notes: "Published as unresolved documentation for a generic but searchable Workflow error signature.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Workflow not responsive, Error Code 2147467259",
+        url: "https://answers.laserfiche.com/questions/212850/Workflow-not-responsive-Error-Code-2147467259",
+        note: "Reviewed thread documents the Workflow 10.4 activity stack and non-triggering symptom.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));

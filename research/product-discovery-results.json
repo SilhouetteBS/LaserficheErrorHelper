@@ -182,7 +182,9 @@
     "snippet": "The session has been reset by the server. [0637-WF1] by the server. [0637-WF1] Laserfiche .Workflow.ServerObjects Error Code 637 Laserfiche .LaserficheException: The session has been reset by the server. [0637-WF1] at Laserfiche ... d__8`1.MoveNext() at Laserfiche .Workflow.WorkflowServerClientExtensions.GetItem[T](IWorkflowServerApi api , KnownTransfer transferType, Object[] args) at Laserfiche .Workflow.Objects.LaserficheSubscriberLink.RetrieveProfileXml() at Laserfiche .Workflow ...... posted",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "API Server",
@@ -208,7 +210,9 @@
     "snippet": "The session has been reset by the server. [0637-WF1] by the server. [0637-WF1] Laserfiche .Workflow.ServerObjects Error Code 637 Laserfiche .LaserficheException: The session has been reset by the server. [0637-WF1] at Laserfiche ... d__8`1.MoveNext() at Laserfiche .Workflow.WorkflowServerClientExtensions.GetItem[T](IWorkflowServerApi api , KnownTransfer transferType, Object[] args) at Laserfiche .Workflow.Objects.LaserficheSubscriberLink.RetrieveProfileXml() at Laserfiche .Workflow ...... posted",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "API Server",
@@ -343,7 +347,9 @@
     "snippet": "Workflow Terminating with Error 0650 Could you please explain the error code 0650?... posted by Peter Cave 483 Apr 21, 2014 updated by Peter Cave 483 Apr 22, 2014 5 replies · 1001 views · 0 0 · Version 9 Workflow Business Processes",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Audit Trail",
@@ -631,7 +637,9 @@
     "snippet": "Workflow Terminating with Error 0650 Could you please explain the error code 0650?... posted by Peter Cave 483 Apr 21, 2014 updated by Peter Cave 483 Apr 22, 2014 5 replies · 1001 views · 0 0 · Version 9 Workflow Business Processes",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Connector",
@@ -1315,9 +1323,9 @@
     "title": "Forms Archive Error: Sequence contains no matching element",
     "url": "https://answers.laserfiche.com/questions/221408/Forms-Archive-Error--Sequence-contains-no-matching-element",
     "snippet": "Forms Archive Error: Sequence contains no matching element",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Forms",
@@ -1497,9 +1505,9 @@
     "title": "What would cause this LFF9320-FormsValidationAggregateException error?",
     "url": "https://answers.laserfiche.com/questions/235981/What-would-cause-this-LFF9320FormsValidationAggregateException-error",
     "snippet": "What would cause this LFF9320-FormsValidationAggregateException error?",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Full Text Search",
@@ -1766,7 +1774,9 @@
     "snippet": "PDF import \"General database error [9008]\" when generating pages are throwing a \"General database error [9008]\". The Import Agent event viewer logs suggested the problem had something to do with the PDF annotations, and ... see below for an example Import Agent log. Although I'm pretty sure the problem has something to do with these SHX text comments, I ...... posted by Jesse Struck 23 Feb 9, 2017 updated by Jesse Struck 23 Feb 13, 2017 6 replies · 854 views · 0 0 · Import Agent Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Import Agent",
@@ -1792,7 +1802,9 @@
     "snippet": "Entry Lock when using Import Agent anyone experienced the following with Import Agent ? Event Viewer Text - There was an error running the profile Invoice XML Files while importing the file \"D ... an object is locked. [9045]) Error Code : 9045 StackTrace: at Laserfiche.RepositoryAccess.LaserficheReadStream..ctor(HttpUrl url, StreamRange byteRange, Session session) ... posted by Ian Dury 48 May 24, 2021 updated by Miruna Babatie 41329 May 25, 2021 3 replies · 597 views · 0 0 · Import Agent",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published with partial or workaround guidance."
   },
   {
     "product": "Import Agent",
@@ -1804,7 +1816,9 @@
     "snippet": "Errors when installing Import Agent 11 ('insert disk', 'error reading/finding license file') laserfiche.com/download/4194/laserfiche- import-agent -11) and followed the instructions here (https://doc.laserfiche.com/laserfiche.documentation/11/administration/en-us/Default.htm ... went fine until the 'Install OCR engine' component where I had a 'Please insert the disk' pop up. The install package is an ISO file ...... posted by Donna Waye 12 Nov 14, 2023 updated by Donna Waye 12 Nov 15, 2023 2 rep",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Import Agent",
@@ -1957,7 +1971,9 @@
     "snippet": "PDF import \"General database error [9008]\" when generating pages are throwing a \"General database error [9008]\". The Import Agent event viewer logs suggested the problem had something to do with the PDF annotations, and ... see below for an example Import Agent log. Although I'm pretty sure the problem has something to do with these SHX text comments, I ...... posted by Jesse Struck 23 Feb 9, 2017 updated by Jesse Struck 23 Feb 13, 2017 6 replies · 854 views · 0 0 · Import Agent Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Import Agent",
@@ -2008,7 +2024,9 @@
     "snippet": "Workflow 11 Installation Setup Error Code 2343 server. However, when trying to install Laserfiche Workflow 11 Designer and Admin Console on our Windows 10 desktops, we are receiving an error code 2343 ... 3707_48BB_9403_D62F3C9D0FDD. The installation will fail and roll back the installation . Has anyone else run into this problem and found a resolution?... posted by Zach Merrill 210 Mar 23, 2021 updated by Craig Slack 2133 Jun 24, 2022 30 replies · 2835 views · 5 0 · Workflow",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Laserfiche Installer",
@@ -2182,7 +2200,9 @@
     "snippet": "Workflow 11 Installation Setup Error Code 2343 server. However, when trying to install Laserfiche Workflow 11 Designer and Admin Console on our Windows 10 desktops, we are receiving an error code 2343 ... 3707_48BB_9403_D62F3C9D0FDD. The installation will fail and roll back the installation . Has anyone else run into this problem and found a resolution?... posted by Zach Merrill 210 Mar 23, 2021 updated by Craig Slack 2133 Jun 24, 2022 30 replies · 2835 views · 5 0 · Workflow",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Mobile",
@@ -2914,7 +2934,9 @@
     "snippet": "Forms 10 error [LFF502-UnexpectedError] when submitting an error 500 and this error code on the page : [LFF502-UnexpectedError]. FYI, I run it on a virtual box under Win7 pro x86. I ...... posted by Moana Houdoux 198 Mar 31, 2016 updated by Olivier Baccino 489 Aug 28, 2017 6 replies · 5107 views · 0 0 · Forms Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Snapshot",
@@ -2938,7 +2960,9 @@
     "snippet": "Forms 10 error [LFF502-UnexpectedError] when submitting an error 500 and this error code on the page : [LFF502-UnexpectedError]. FYI, I run it on a virtual box under Win7 pro x86. I ...... posted by Moana Houdoux 198 Mar 31, 2016 updated by Olivier Baccino 489 Aug 28, 2017 6 replies · 5107 views · 0 0 · Forms Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Snapshot",
@@ -3252,7 +3276,9 @@
     "snippet": "Weblink - event code 3005 : An unhandled exception has occurred. you requested does not exist WebLink server - Windows Server 2008 R2 Standard SP1 WebLink version is: 8.2.1.107 The event log shows about ... error message. First part of error code : (complete code in attached Word doc) Source: ASP.NET 2.0.50727.0 Date: 9/3/2014 9:40:13 ...... posted by Andy Price 55 Sep 3, 2014 updated by Wes Funderberg 767 Sep 12, 2014 4 replies · 14830 views · 0 0 · WebLink",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published with partial or workaround guidance."
   },
   {
     "product": "WebLink",
@@ -3276,7 +3302,9 @@
     "snippet": "The current request could not be performed because there are too many existing operations running. [9035] In our Laserfiche WebLink Laserfiche\\Portal\\Server\\ Operational logs we are seeing the following error : Log Name: Laserfiche-Portal-Server/ Operational Source: Laserfiche-Portal-Server ... 0x8000f00000000000 5426695 Laserfiche-Portal-Server/ Operational XXXXX Operation: / WebLink /Helper/TileData.aspx?repo=XXXXX&amp;docID=9409311&amp;x=5&amp;y ...... posted by Blake Smith 18822 Aug 9, 2024 ",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "WebLink",
@@ -3340,7 +3368,9 @@
     "snippet": "Compressed file data is invalid or corrupt and cannot be decompressed We get this error on Weblink 8 \"Compressed file data is invalid or corrupt and cannot be decompressed\", no information on the support site, only ...... posted by Ricardo Cairo 183 Jan 6, 2016 updated by Brian McKeever 9889 Jan 6, 2016 6 replies · 1409 views · 0 0 · WebLink",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "WebLink",
@@ -3484,7 +3514,9 @@
     "snippet": "Weblink - event code 3005 : An unhandled exception has occurred. you requested does not exist WebLink server - Windows Server 2008 R2 Standard SP1 WebLink version is: 8.2.1.107 The event log shows about ... error message. First part of error code : (complete code in attached Word doc) Source: ASP.NET 2.0.50727.0 Date: 9/3/2014 9:40:13 ...... posted by Andy Price 55 Sep 3, 2014 updated by Wes Funderberg 767 Sep 12, 2014 4 replies · 14830 views · 0 0 · WebLink",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published with partial or workaround guidance."
   },
   {
     "product": "WebLink",
@@ -3636,7 +3668,9 @@
     "snippet": "Workflow Terminating with Error 0650 Entry Change conditions in the workflow . The error is \"The condition entry was deleted. [username] [0650-WF0]\" The image still exists complete with any metadata ... new versions for this particular workflow . Could you please explain the error code 0650?... posted by Peter Cave 483 Apr 21, 2014 updated by Peter Cave 483 Apr 22, 2014 5 replies · 1001 views · 0 0 · Version 9 Workflow Business Processes",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Workflow",
@@ -3648,7 +3682,9 @@
     "snippet": "Workflow Terminating with Error 0650 Entry Change conditions in the workflow . The error is \"The condition entry was deleted. [username] [0650-WF0]\" The image still exists complete with any metadata ... new versions for this particular workflow . Could you please explain the error code 0650?... posted by Peter Cave 483 Apr 21, 2014 updated by Peter Cave 483 Apr 22, 2014 5 replies · 1001 views · 0 0 · Version 9 Workflow Business Processes",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Workflow",
@@ -3673,7 +3709,9 @@
     "snippet": "Workflow not responsive, Error Code 2147467259 a folder in the Laserfiche Repository . If a document is created, then the workflow will be triggered. The workflow is fine. I validated it and ... and different folders in the repository . The two workflows that were created before 2020 work as expected. The workflow that I created in October 2023 ...... posted by Wissam Halawani 71 Oct 27, 2023 updated by Wissam Halawani 71 Nov 1, 2023 6 replies · 746 views · 0 0 · Laserfiche Workflow",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Workflow",
@@ -3684,9 +3722,9 @@
     "title": "Workflow 11 Installation Setup Error Code 2343",
     "url": "https://answers.laserfiche.com/questions/185188/Workflow-11-Installation-Setup-Error-Code-2343",
     "snippet": "Workflow 11 Installation Setup Error Code 2343",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Workflow",
@@ -3697,9 +3735,9 @@
     "title": "Workflow subscriber error 9013",
     "url": "https://answers.laserfiche.com/questions/86218/Workflow-subscriber-error-9013",
     "snippet": "Workflow subscriber error 9013",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and published with partial or workaround guidance."
   },
   {
     "product": "Workflow",
@@ -3952,7 +3990,9 @@
     "snippet": "Workflow not responsive, Error Code 2147467259 a folder in the Laserfiche Repository . If a document is created, then the workflow will be triggered. The workflow is fine. I validated it and ... and different folders in the repository . The two workflows that were created before 2020 work as expected. The workflow that I created in October 2023 ...... posted by Wissam Halawani 71 Oct 27, 2023 updated by Wissam Halawani 71 Nov 1, 2023 6 replies · 746 views · 0 0 · Laserfiche Workflow",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Workflow",
@@ -3964,7 +4004,9 @@
     "snippet": "Workflow subscriber error 9013 has an issue in the workflow server, all workflows suddenly stop working,if we try to run the workflow from the designer it works fine ... not working. we checked the Error Log in workflow administration console and it show an error on subscriber_ error _log \"AccessDenied\" Is there any solution ...... posted by Amir Hady 0 Nov 3, 2015 updated by Miruna Babatie 41329 Nov 4, 2015 4 replies · 1024 views · 0 0 · Workflow",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published with partial or workaround guidance."
   },
   {
     "product": "Workflow",
@@ -3989,6 +4031,8 @@
     "snippet": "Workflow Terminating with Error 0650 Entry Change conditions in the workflow . The error is \"The condition entry was deleted. [username] [0650-WF0]\" The image still exists complete with any metadata ... new versions for this particular workflow . Could you please explain the error code 0650?... posted by Peter Cave 483 Apr 21, 2014 updated by Peter Cave 483 Apr 22, 2014 5 replies · 1001 views · 0 0 · Version 9 Workflow Business Processes",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   }
 ]

@@ -5,6 +5,7 @@ const errors = [];
 const reviewedUrls = new Set(reviewedSources.map((source) => source.url));
 const validProducts = new Set(productOptions);
 const validVersions = new Set(versionOptions);
+const validFixStatuses = new Set(["known-fix", "workaround", "diagnostic-only", "unresolved", "needs-review"]);
 const sortedProducts = [...productOptions].sort((a, b) => a.localeCompare(b));
 
 if (productOptions.some((product, index) => product !== sortedProducts[index])) {
@@ -17,6 +18,9 @@ for (const entry of errorEntries) {
   }
   if (!Array.isArray(entry.versions) || entry.versions.length === 0) {
     errors.push(`${entry.id} must include at least one version label`);
+  }
+  if (entry.fixStatus && !validFixStatuses.has(entry.fixStatus)) {
+    errors.push(`${entry.id} uses unknown fix status ${entry.fixStatus}`);
   }
   if (!validProducts.has(entry.product)) {
     errors.push(`${entry.id} uses unknown product ${entry.product}`);
