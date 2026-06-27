@@ -1,0 +1,2881 @@
+[
+  {
+    "code": "768",
+    "links": [
+      {
+        "title": "Error Code: 768 Error Message: Error deleting pages Unknown error. [768]",
+        "url": "https://answers.laserfiche.com/questions/144363/Error-Code-768-Error-Message-Error-deleting-pages-Unknown-error-768"
+      },
+      {
+        "title": "Printing and Access Rights Error",
+        "url": "https://answers.laserfiche.com/questions/130454/Printing-and-Access-Rights-Error"
+      },
+      {
+        "title": "Laserfiche Unknown Error 768 after accessing several Documents",
+        "url": "https://answers.laserfiche.com/questions/168149/Laserfiche-Unknown-Error-768-after-accessing-several-Documents"
+      },
+      {
+        "title": "Unknown Error 768",
+        "url": "https://answers.laserfiche.com/questions/60134/Unknown-Error-768"
+      },
+      {
+        "title": "\"height cannot be less than zero\"",
+        "url": "https://answers.laserfiche.com/questions/114981/height-cannot-be-less-than-zero"
+      },
+      {
+        "title": "Unknown error with no error code while opening a specific document in LF client 9.1.1",
+        "url": "https://answers.laserfiche.com/questions/63195/Unknown-error-with-no-error-code-while-opening-a-specific-document-in-LF-client-911"
+      },
+      {
+        "title": "Arithmetic Operation resulted in an Overflow\"Error Retrieving Databasetables\"",
+        "url": "https://answers.laserfiche.com/questions/79756/-Arithmetic-Operation-resulted-in-an-OverflowError-Retrieving-Databasetables-"
+      },
+      {
+        "title": "Unknown breaking bug on form submission",
+        "url": "https://answers.laserfiche.com/questions/232735/Unknown-breaking-bug-on-form-submission"
+      },
+      {
+        "title": "DocumentProcessor OCREngine Unknown Error and Permissions",
+        "url": "https://answers.laserfiche.com/questions/89055/DocumentProcessor-OCREngine-Unknown-Error-and-Permissions"
+      },
+      {
+        "title": "Unattended Installation (LFGet.exe) - Permissions issue",
+        "url": "https://answers.laserfiche.com/questions/232457/Unattended-Installation-LFGetexe--Permissions-issue"
+      }
+    ],
+    "message": "Unknown error.",
+    "noMatch": false,
+    "query": "768 Unknown error.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "771",
+    "links": [
+      {
+        "title": "error 771",
+        "url": "https://answers.laserfiche.com/questions/194597/error-771"
+      },
+      {
+        "title": "Odd 771 error in LF client",
+        "url": "https://answers.laserfiche.com/questions/182277/Odd-771-error-in-LF-client"
+      },
+      {
+        "title": "Issue Dragging Attachments to Outlook From Repository",
+        "url": "https://answers.laserfiche.com/questions/139269/Issue-Dragging-Attachments-to-Outlook-From-Repository"
+      },
+      {
+        "title": "PhotoDocs - cannot launch Laserfiche PhotoDocs",
+        "url": "https://answers.laserfiche.com/questions/164087/PhotoDocs--cannot-launch-Laserfiche-PhotoDocs"
+      },
+      {
+        "title": "Laserfiche Log File??",
+        "url": "https://answers.laserfiche.com/questions/83900/Laserfiche-Log-File"
+      }
+    ],
+    "message": "The object must have its connection set before it can be used.",
+    "noMatch": false,
+    "query": "771 The object must have its connection set before it can be used.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "772",
+    "links": [],
+    "message": "The object is not identified, and cannot be locked or read from.",
+    "noMatch": true,
+    "query": "772 The object is not identified, and cannot be locked or read from.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "773",
+    "links": [
+      {
+        "title": "Unattended Installation (LFGet.exe) - Permissions issue",
+        "url": "https://answers.laserfiche.com/questions/232457/Unattended-Installation-LFGetexe--Permissions-issue"
+      }
+    ],
+    "message": "The object must be locked before it can be modified.",
+    "noMatch": false,
+    "query": "773 The object must be locked before it can be modified.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "774",
+    "links": [
+      {
+        "title": "Unattended Installation (LFGet.exe) - Permissions issue",
+        "url": "https://answers.laserfiche.com/questions/232457/Unattended-Installation-LFGetexe--Permissions-issue"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "This server does not support the requested property.",
+    "noMatch": false,
+    "query": "774 This server does not support the requested property.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "775",
+    "links": [],
+    "message": "Create cannot be called on an object that already exists in the database.",
+    "noMatch": true,
+    "query": "775 Create cannot be called on an object that already exists in the database.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "777",
+    "links": [],
+    "message": "The properties of an existing connection cannot be changed.",
+    "noMatch": true,
+    "query": "777 The properties of an existing connection cannot be changed.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "778",
+    "links": [
+      {
+        "title": "Unattended Installation (LFGet.exe) - Permissions issue",
+        "url": "https://answers.laserfiche.com/questions/232457/Unattended-Installation-LFGetexe--Permissions-issue"
+      }
+    ],
+    "message": "This method can only be called on the current connection.",
+    "noMatch": false,
+    "query": "778 This method can only be called on the current connection.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "779",
+    "links": [],
+    "message": "Received unexpected null value.",
+    "noMatch": true,
+    "query": "779 Received unexpected null value.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "780",
+    "links": [
+      {
+        "title": "\"operation timed out 784\" and then \"No response received from the server 780\"",
+        "url": "https://answers.laserfiche.com/questions/177340/operation-timed-out-784--and-then--No-response-received-from-the-server-780"
+      },
+      {
+        "title": "Microsoft Office Files on VPN have Error 780: No response received from the server",
+        "url": "https://answers.laserfiche.com/questions/101400/Microsoft-Office-Files-on-VPN-have-Error-780-No-response-received-from-the-server"
+      },
+      {
+        "title": "error 780 after server upgrade to 9.1.1.545",
+        "url": "https://answers.laserfiche.com/questions/59045/error-780-after-server-upgrade-to-911545"
+      },
+      {
+        "title": "when I assign a template to a PDF in LF Client I receive \"No reponse received from the server. [780]",
+        "url": "https://answers.laserfiche.com/questions/110818/when-I-assign-a-template-to-a-PDF-in-LF-Client-I-receive-No-reponse-received-from-the-server-780"
+      },
+      {
+        "title": "No response received from the server. [780]",
+        "url": "https://answers.laserfiche.com/questions/221473/No-response-received-from-the-server-780"
+      },
+      {
+        "title": "Error Generating Pages - Error 780",
+        "url": "https://answers.laserfiche.com/questions/77224/Error-Generating-Pages--Error-780"
+      },
+      {
+        "title": "Testing SSL - No Response Received From the Server",
+        "url": "https://answers.laserfiche.com/questions/94921/Testing-SSL--No-Response-Received-From-the-Server"
+      },
+      {
+        "title": "\"Failed to Load Image. No response received from the server. [780]\" on some Pages when open in Document Viewer",
+        "url": "https://answers.laserfiche.com/questions/95104/Failed-to-Load-Image-No-response-received-from-the-server-780-on-some-Pages-when-open-in-Document-Viewer"
+      },
+      {
+        "title": "no response received from the server. [780] windows Client",
+        "url": "https://answers.laserfiche.com/questions/157008/no-response-received-from-the-server-780-windows-Client"
+      },
+      {
+        "title": "Cannot Open PDF files with Laserfiche Web Access 9.1",
+        "url": "https://answers.laserfiche.com/questions/73726/Cannot-Open-PDF-files-with-Laserfiche-Web-Access-91"
+      }
+    ],
+    "message": "No response received from the server.",
+    "noMatch": false,
+    "query": "780 No response received from the server.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "781",
+    "links": [],
+    "message": "Received bad response from the server.",
+    "noMatch": true,
+    "query": "781 Received bad response from the server.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "782",
+    "links": [
+      {
+        "title": "\"Invalid host name. [782]\" when logging into a repository through the desktop client.",
+        "url": "https://answers.laserfiche.com/questions/80225/Invalid-host-name-782-when-logging-into-a-repository-through-the-desktop-client"
+      },
+      {
+        "title": "new laptop has error 782 Invalid host name",
+        "url": "https://answers.laserfiche.com/questions/133566/new-laptop-has-error-782-Invalid-host-name"
+      },
+      {
+        "title": "9481 invalid host name",
+        "url": "https://answers.laserfiche.com/questions/119740/9481-invalid-host-name"
+      },
+      {
+        "title": "Cannot login on Laserfiche Client 9.2",
+        "url": "https://answers.laserfiche.com/questions/73733/Cannot-login-on-Laserfiche-Client-92"
+      },
+      {
+        "title": "v10.2 Could not connect to the Laserfiche Server [797]",
+        "url": "https://answers.laserfiche.com/questions/119692/v102-Could-not-connect-to-the-Laserfiche-Server-797"
+      },
+      {
+        "title": "Invalid host name. [782]",
+        "url": "https://answers.laserfiche.com/questions/50320/Invalid-host-name-782"
+      }
+    ],
+    "message": "Invalid host name.",
+    "noMatch": false,
+    "query": "782 Invalid host name.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "783",
+    "links": [
+      {
+        "title": "Error 783: Repository names can only contain alphanumeric characters and dashes ('-'). [783]",
+        "url": "https://answers.laserfiche.com/questions/115208/Error-783-Repository-names-can-only-contain-alphanumeric-characters-and-dashes--783"
+      }
+    ],
+    "message": "Repository names can only contain alphanumeric characters and dashes ('-').",
+    "noMatch": false,
+    "query": "783 Repository names can only contain alphanumeric characters and dashes ('-').",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "784",
+    "links": [
+      {
+        "title": "Operation Timed Out. [784] Error",
+        "url": "https://answers.laserfiche.com/questions/148489/Operation-Timed-Out-784-Error"
+      },
+      {
+        "title": "error 784 operation timed out",
+        "url": "https://answers.laserfiche.com/questions/153318/error-784-operation-timed-out"
+      },
+      {
+        "title": "Empower 2018 VM Available for Download",
+        "url": "https://answers.laserfiche.com/questions/133119/Empower-2018-VM-Available-for-Download"
+      },
+      {
+        "title": "cant login to LaserRepossitory in demoVM",
+        "url": "https://answers.laserfiche.com/questions/215588/cant-login-to-LaserRepossitory-in-demoVM"
+      },
+      {
+        "title": "empower 2019 BeachCity repository not opening",
+        "url": "https://answers.laserfiche.com/questions/154717/empower-2019-BeachCity-repository-not-opening"
+      },
+      {
+        "title": "\"Exception: 0x80040310 (Operation timed out.)",
+        "url": "https://answers.laserfiche.com/questions/184693/Exception-0x80040310--Operation-timed-out"
+      },
+      {
+        "title": "Virtual Desktop- 784 Timeout when logging into the Desktop Client",
+        "url": "https://answers.laserfiche.com/questions/197061/Virtual-Desktop-784-Timeout-when-logging-into-the-Desktop-Client"
+      },
+      {
+        "title": "Laserfiche slow/freezes when trying to combine or delete a document",
+        "url": "https://answers.laserfiche.com/questions/162396/Laserfiche-slowfreezes-when-trying-to-combine-or-delete-a-document"
+      },
+      {
+        "title": "\"operation timed out 784\" and then \"No response received from the server 780\"",
+        "url": "https://answers.laserfiche.com/questions/177340/operation-timed-out-784--and-then--No-response-received-from-the-server-780"
+      },
+      {
+        "title": "Failed to initialize metadata display - Error Code 784",
+        "url": "https://answers.laserfiche.com/questions/227906/Failed-to-initialize-metadata-display--Error-Code-784"
+      }
+    ],
+    "message": "Operation timed out.",
+    "noMatch": false,
+    "query": "784 Operation timed out.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "785",
+    "links": [
+      {
+        "title": "Unattended Installation (LFGet.exe) - Permissions issue",
+        "url": "https://answers.laserfiche.com/questions/232457/Unattended-Installation-LFGetexe--Permissions-issue"
+      },
+      {
+        "title": "Fields hidden through JavaScript are shown in Repository",
+        "url": "https://answers.laserfiche.com/questions/74522/Fields-hidden-through-JavaScript-are-shown-in-Repository"
+      }
+    ],
+    "message": "Invalid Request",
+    "noMatch": false,
+    "query": "785 Invalid Request",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "786",
+    "links": [
+      {
+        "title": "Action not permitted by server to set Records Management Filing Date",
+        "url": "https://answers.laserfiche.com/questions/195538/Action-not-permitted-by-server-to-set-Records-Management-Filing-Date"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "Action not permitted by server.",
+    "noMatch": false,
+    "query": "786 Action not permitted by server.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "788",
+    "links": [
+      {
+        "title": "Fields hidden through JavaScript are shown in Repository",
+        "url": "https://answers.laserfiche.com/questions/74522/Fields-hidden-through-JavaScript-are-shown-in-Repository"
+      }
+    ],
+    "message": "Invalid server name.",
+    "noMatch": false,
+    "query": "788 Invalid server name.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "789",
+    "links": [
+      {
+        "title": "789 - Invalid Object Name",
+        "url": "https://answers.laserfiche.com/questions/114378/789--Invalid-Object-Name"
+      },
+      {
+        "title": "Save as Draft and Database Lookup Question",
+        "url": "https://answers.laserfiche.com/questions/78684/Save-as-Draft-and-Database-Lookup-Question"
+      }
+    ],
+    "message": "Invalid object name.",
+    "noMatch": false,
+    "query": "789 Invalid object name.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "790",
+    "links": [
+      {
+        "title": "Customer keeps getting randomly logged out of Web Client (10.4.1)",
+        "url": "https://answers.laserfiche.com/questions/162329/Customer-keeps-getting-randomly-logged-out-of-Web-Client-1041"
+      },
+      {
+        "title": "System.NullReferenceException: Invalid pointer",
+        "url": "https://answers.laserfiche.com/questions/55579/SystemNullReferenceException-Invalid-pointer"
+      }
+    ],
+    "message": "Invalid connection.",
+    "noMatch": false,
+    "query": "790 Invalid connection.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "791",
+    "links": [],
+    "message": "Invalid stream.",
+    "noMatch": true,
+    "query": "791 Invalid stream.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "792",
+    "links": [
+      {
+        "title": "LFFTS: Laserfiche Server error: Invalid stream state.(792)",
+        "url": "https://answers.laserfiche.com/questions/63975/LFFTS-Laserfiche-Server-error-Invalid-stream-state792"
+      }
+    ],
+    "message": "Invalid stream state.",
+    "noMatch": false,
+    "query": "792 Invalid stream state.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "793",
+    "links": [],
+    "message": "Error initializing WinHTTP.",
+    "noMatch": true,
+    "query": "793 Error initializing WinHTTP.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "795",
+    "links": [],
+    "message": "Received invalid XML response from the server.",
+    "noMatch": true,
+    "query": "795 Received invalid XML response from the server.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "796",
+    "links": [
+      {
+        "title": "LF Server 10 cannot connect with LFDS",
+        "url": "https://answers.laserfiche.com/questions/88453/LF-Server-10-cannot-connect-with-LFDS"
+      },
+      {
+        "title": "Save as Draft and Database Lookup Question",
+        "url": "https://answers.laserfiche.com/questions/78684/Save-as-Draft-and-Database-Lookup-Question"
+      }
+    ],
+    "message": "Invalid database object.",
+    "noMatch": false,
+    "query": "796 Invalid database object.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "797",
+    "links": [
+      {
+        "title": "LaserFiche Service running ok Admin Console shows offline",
+        "url": "https://answers.laserfiche.com/questions/215489/LaserFiche-Service-running-ok-Admin-Console-shows-offline"
+      },
+      {
+        "title": "797 Error when using client",
+        "url": "https://answers.laserfiche.com/questions/117672/797-Error-when-using-client"
+      },
+      {
+        "title": "Error Message: Could not connect to the Laserfiche Server. [797]",
+        "url": "https://answers.laserfiche.com/questions/63136/Error-Message-Could-not-connect-to-the-Laserfiche-Server-797"
+      },
+      {
+        "title": "797 Errors",
+        "url": "https://answers.laserfiche.com/questions/99162/797-Errors"
+      },
+      {
+        "title": "LF Server 10 cannot connect with LFDS",
+        "url": "https://answers.laserfiche.com/questions/88453/LF-Server-10-cannot-connect-with-LFDS"
+      },
+      {
+        "title": "Workflow is not working properly",
+        "url": "https://answers.laserfiche.com/questions/84708/Workflow-is-not-working-properly"
+      },
+      {
+        "title": "797",
+        "url": "https://answers.laserfiche.com/questions/71494/797"
+      },
+      {
+        "title": "search repository",
+        "url": "https://answers.laserfiche.com/questions/73154/search-repository"
+      },
+      {
+        "title": "SSL from Web Access Server to Laserfiche Server",
+        "url": "https://answers.laserfiche.com/questions/87120/SSL-from-Web-Access-Server-to-Laserfiche-Server"
+      },
+      {
+        "title": "v10.2 Could not connect to the Laserfiche Server [797]",
+        "url": "https://answers.laserfiche.com/questions/119692/v102-Could-not-connect-to-the-Laserfiche-Server-797"
+      }
+    ],
+    "message": "Could not connect to the Laserfiche Server.",
+    "noMatch": false,
+    "query": "797 Could not connect to the Laserfiche Server.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "798",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "The ICU module failed to initialize.",
+    "noMatch": false,
+    "query": "798 The ICU module failed to initialize.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "799",
+    "links": [],
+    "message": "The preconditions on the HTTP request failed to be satisfied.",
+    "noMatch": true,
+    "query": "799 The preconditions on the HTTP request failed to be satisfied.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "800",
+    "links": [],
+    "message": "The Laserfiche Server is an unsupported version.",
+    "noMatch": true,
+    "query": "800 The Laserfiche Server is an unsupported version.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "801",
+    "links": [
+      {
+        "title": "Unattended Installation (LFGet.exe) - Permissions issue",
+        "url": "https://answers.laserfiche.com/questions/232457/Unattended-Installation-LFGetexe--Permissions-issue"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "This command can only be performed on objects in the same repository.",
+    "noMatch": false,
+    "query": "801 This command can only be performed on objects in the same repository.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "816",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "The field value could not be retrieved because the specified field does not exist.",
+    "noMatch": false,
+    "query": "816 The field value could not be retrieved because the specified field does not exist.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "817",
+    "links": [
+      {
+        "title": "Unattended Installation (LFGet.exe) - Permissions issue",
+        "url": "https://answers.laserfiche.com/questions/232457/Unattended-Installation-LFGetexe--Permissions-issue"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "The field value could not be retrieved because the specified field does not exist in that template.",
+    "noMatch": false,
+    "query": "817 The field value could not be retrieved because the specified field does not exist in that template.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "820",
+    "links": [],
+    "message": "This field does not allow multiple values.",
+    "noMatch": true,
+    "query": "820 This field does not allow multiple values.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "821",
+    "links": [
+      {
+        "title": "Fields hidden through JavaScript are shown in Repository",
+        "url": "https://answers.laserfiche.com/questions/74522/Fields-hidden-through-JavaScript-are-shown-in-Repository"
+      }
+    ],
+    "message": "At least two fields must be specified",
+    "noMatch": false,
+    "query": "821 At least two fields must be specified",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "832",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "Page does not contain text data.",
+    "noMatch": false,
+    "query": "832 Page does not contain text data.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "833",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "Page does not contain image data.",
+    "noMatch": false,
+    "query": "833 Page does not contain image data.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "834",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "Document does not contain an electronic document.",
+    "noMatch": false,
+    "query": "834 Document does not contain an electronic document.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "835",
+    "links": [
+      {
+        "title": "LF 9.1 - Redactions in migrated documents do not show and generate errors",
+        "url": "https://answers.laserfiche.com/questions/54326/LF-91--Redactions-in-migrated-documents-do-not-show-and-generate-errors"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "Annotation does not contain attachment data.",
+    "noMatch": false,
+    "query": "835 Annotation does not contain attachment data.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "849",
+    "links": [],
+    "message": "The Volume must have its Fixed or RemovablePath properties set before it can be created.",
+    "noMatch": true,
+    "query": "849 The Volume must have its Fixed or RemovablePath properties set before it can be created.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "850",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "Volume attach is not in progress.",
+    "noMatch": false,
+    "query": "850 Volume attach is not in progress.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "851",
+    "links": [],
+    "message": "Volume export is not in progress.",
+    "noMatch": true,
+    "query": "851 Volume export is not in progress.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "852",
+    "links": [],
+    "message": "Volume export already running.",
+    "noMatch": true,
+    "query": "852 Volume export already running.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "853",
+    "links": [],
+    "message": "Volume paths don't match.",
+    "noMatch": true,
+    "query": "853 Volume paths don't match.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "854",
+    "links": [],
+    "message": "Incompatible template field types.",
+    "noMatch": true,
+    "query": "854 Incompatible template field types.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "855",
+    "links": [],
+    "message": "Volume export path must be an empty directory.",
+    "noMatch": true,
+    "query": "855 Volume export path must be an empty directory.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "856",
+    "links": [],
+    "message": "Invalid volume definition object.",
+    "noMatch": true,
+    "query": "856 Invalid volume definition object.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "857",
+    "links": [],
+    "message": "Invalid volume export version.",
+    "noMatch": true,
+    "query": "857 Invalid volume export version.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "864",
+    "links": [],
+    "message": "The volume files must be copied in order to encrypt or compress the volume files.",
+    "noMatch": true,
+    "query": "864 The volume files must be copied in order to encrypt or compress the volume files.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "869",
+    "links": [],
+    "message": "There are no more words in the stream.",
+    "noMatch": true,
+    "query": "869 There are no more words in the stream.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "871",
+    "links": [],
+    "message": "The stream has not been opened.",
+    "noMatch": true,
+    "query": "871 The stream has not been opened.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "872",
+    "links": [],
+    "message": "This stream is already open.",
+    "noMatch": true,
+    "query": "872 This stream is already open.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "873",
+    "links": [],
+    "message": "Image too small to be valid.",
+    "noMatch": true,
+    "query": "873 Image too small to be valid.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "883",
+    "links": [],
+    "message": "The indicated page is not part of this document.",
+    "noMatch": true,
+    "query": "883 The indicated page is not part of this document.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "884",
+    "links": [],
+    "message": "Pages cannot be copied within the same document.",
+    "noMatch": true,
+    "query": "884 Pages cannot be copied within the same document.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "885",
+    "links": [],
+    "message": "The text for this page is too large.",
+    "noMatch": true,
+    "query": "885 The text for this page is too large.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "886",
+    "links": [],
+    "message": "The location data for this page is too large.",
+    "noMatch": true,
+    "query": "886 The location data for this page is too large.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "896",
+    "links": [],
+    "message": "The search object needs to have its command set in order to find results.",
+    "noMatch": true,
+    "query": "896 The search object needs to have its command set in order to find results.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "898",
+    "links": [],
+    "message": "The search object cannot process more than one search at a time.",
+    "noMatch": true,
+    "query": "898 The search object cannot process more than one search at a time.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "899",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "The search has not been completed.",
+    "noMatch": false,
+    "query": "899 The search has not been completed.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "900",
+    "links": [],
+    "message": "The column name is invalid.",
+    "noMatch": true,
+    "query": "900 The column name is invalid.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "901",
+    "links": [],
+    "message": "Invalid column type conversion.",
+    "noMatch": true,
+    "query": "901 Invalid column type conversion.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "915",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "The word you have attempted to add contains no text data.",
+    "noMatch": false,
+    "query": "915 The word you have attempted to add contains no text data.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "916",
+    "links": [],
+    "message": "The text of the word you have attempted to append contains more than one group of delimiters.",
+    "noMatch": true,
+    "query": "916 The text of the word you have attempted to append contains more than one group of delimiters.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "917",
+    "links": [],
+    "message": "There are no delimiters between the last word of the text and the word you are attempting to add.",
+    "noMatch": true,
+    "query": "917 There are no delimiters between the last word of the text and the word you are attempting to add.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1024",
+    "links": [
+      {
+        "title": "Laserfiche Client version 11 - General Database [Error 9008] while Searching",
+        "url": "https://answers.laserfiche.com/questions/193855/Laserfiche-Client-version-11--General-Database-Error-9008-while-Searching"
+      }
+    ],
+    "message": "Memory could not be allocated.",
+    "noMatch": false,
+    "query": "1024 Memory could not be allocated.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1040",
+    "links": [
+      {
+        "title": "Deleting a document from a search result prompts errors 6000 and 1040 (also clear results)",
+        "url": "https://answers.laserfiche.com/questions/137784/Deleting-a-document-from-a-search-result-prompts-errors-6000-and-1040-also-clear-results"
+      },
+      {
+        "title": "Recycle Bin Searches",
+        "url": "https://answers.laserfiche.com/questions/154294/Recycle-Bin-Searches"
+      }
+    ],
+    "message": "The specified index is out of range for this collection.",
+    "noMatch": false,
+    "query": "1040 The specified index is out of range for this collection.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1041",
+    "links": [],
+    "message": "The collection does not contain the specified object.",
+    "noMatch": true,
+    "query": "1041 The collection does not contain the specified object.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1042",
+    "links": [
+      {
+        "title": "Error 1042 when applying security tag to trustee",
+        "url": "https://answers.laserfiche.com/questions/59683/Error-1042-when-applying-security-tag-to-trustee"
+      }
+    ],
+    "message": "The specified object is already a member of this collection",
+    "noMatch": false,
+    "query": "1042 The specified object is already a member of this collection",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1043",
+    "links": [],
+    "message": "There is no object with the given sequence number.",
+    "noMatch": true,
+    "query": "1043 There is no object with the given sequence number.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1044",
+    "links": [],
+    "message": "Reached end of activity stream.",
+    "noMatch": true,
+    "query": "1044 Reached end of activity stream.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1072",
+    "links": [],
+    "message": "The thumbnail for this page is too large.",
+    "noMatch": true,
+    "query": "1072 The thumbnail for this page is too large.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1096",
+    "links": [],
+    "message": "The stamp data must be a bitmap with a depth of 1.",
+    "noMatch": true,
+    "query": "1096 The stamp data must be a bitmap with a depth of 1.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1097",
+    "links": [],
+    "message": "An annotation cannot be linked after it is added to the database.",
+    "noMatch": true,
+    "query": "1097 An annotation cannot be linked after it is added to the database.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1098",
+    "links": [],
+    "message": "The given annotation is not part of this page object.",
+    "noMatch": true,
+    "query": "1098 The given annotation is not part of this page object.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1099",
+    "links": [],
+    "message": "Annotation not found.",
+    "noMatch": true,
+    "query": "1099 Annotation not found.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1100",
+    "links": [],
+    "message": "Image block annotation must contain at least one rectangle.",
+    "noMatch": true,
+    "query": "1100 Image block annotation must contain at least one rectangle.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1101",
+    "links": [],
+    "message": "Vector annotation must contain at least one point.",
+    "noMatch": true,
+    "query": "1101 Vector annotation must contain at least one point.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1102",
+    "links": [],
+    "message": "The stamp requested has a different type.",
+    "noMatch": true,
+    "query": "1102 The stamp requested has a different type.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1103",
+    "links": [],
+    "message": "Annotation contains invalid rectangle.",
+    "noMatch": true,
+    "query": "1103 Annotation contains invalid rectangle.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1104",
+    "links": [],
+    "message": "Annotation contains invalid point.",
+    "noMatch": true,
+    "query": "1104 Annotation contains invalid point.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1105",
+    "links": [],
+    "message": "Annotation contains invalid text position.",
+    "noMatch": true,
+    "query": "1105 Annotation contains invalid text position.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1106",
+    "links": [],
+    "message": "Cannot modify protected annotation.",
+    "noMatch": true,
+    "query": "1106 Cannot modify protected annotation.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1107",
+    "links": [],
+    "message": "The page must be saved before an attachment can be written.",
+    "noMatch": true,
+    "query": "1107 The page must be saved before an attachment can be written.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1108",
+    "links": [],
+    "message": "Unknown annotation type.",
+    "noMatch": true,
+    "query": "1108 Unknown annotation type.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1109",
+    "links": [],
+    "message": "Annotation must contain a text position before it can be linked.",
+    "noMatch": true,
+    "query": "1109 Annotation must contain a text position before it can be linked.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1110",
+    "links": [],
+    "message": "The text object does not belong to the same page.",
+    "noMatch": true,
+    "query": "1110 The text object does not belong to the same page.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1120",
+    "links": [
+      {
+        "title": "Lookup Not Working at User Task",
+        "url": "https://answers.laserfiche.com/questions/80329/Lookup-Not-Working-at-User-Task"
+      }
+    ],
+    "message": "Domain account not found.",
+    "noMatch": false,
+    "query": "1120 Domain account not found.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1121",
+    "links": [],
+    "message": "Invalid textual SID.",
+    "noMatch": true,
+    "query": "1121 Invalid textual SID.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1122",
+    "links": [],
+    "message": "Not all account properties could be deleted.",
+    "noMatch": true,
+    "query": "1122 Not all account properties could be deleted.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1123",
+    "links": [],
+    "message": "Invalid device ID.",
+    "noMatch": true,
+    "query": "1123 Invalid device ID.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1140",
+    "links": [],
+    "message": "This rights object cannot be used to delete an entry from another object's ACL.",
+    "noMatch": true,
+    "query": "1140 This rights object cannot be used to delete an entry from another object's ACL.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1141",
+    "links": [],
+    "message": "There is no compartment matching the given identifier.",
+    "noMatch": true,
+    "query": "1141 There is no compartment matching the given identifier.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1142",
+    "links": [],
+    "message": "There is no security level matching the given identifier.",
+    "noMatch": true,
+    "query": "1142 There is no security level matching the given identifier.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1143",
+    "links": [],
+    "message": "You cannot specify a maximum security level unless a minimum level is also specified and the object is a folder or volume.",
+    "noMatch": true,
+    "query": "1143 You cannot specify a maximum security level unless a minimum level is also specified and the object is a folder or volume.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1144",
+    "links": [],
+    "message": "You cannot set an unauthorized compartment to be in/active by default.",
+    "noMatch": true,
+    "query": "1144 You cannot set an unauthorized compartment to be in/active by default.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1145",
+    "links": [],
+    "message": "Scope must be set to SCOPE_NONE only for non-entry ACEs.",
+    "noMatch": true,
+    "query": "1145 Scope must be set to SCOPE_NONE only for non-entry ACEs.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1146",
+    "links": [],
+    "message": "There is no ACE in this ACL for the specified user and scope.",
+    "noMatch": true,
+    "query": "1146 There is no ACE in this ACL for the specified user and scope.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1147",
+    "links": [],
+    "message": "The right specified does not apply to this object.",
+    "noMatch": true,
+    "query": "1147 The right specified does not apply to this object.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1155",
+    "links": [
+      {
+        "title": "Transparent records management",
+        "url": "https://answers.laserfiche.com/questions/74318/Transparent-records-management"
+      },
+      {
+        "title": "Fields hidden through JavaScript are shown in Repository",
+        "url": "https://answers.laserfiche.com/questions/74522/Fields-hidden-through-JavaScript-are-shown-in-Repository"
+      }
+    ],
+    "message": "This is not a record folder.",
+    "noMatch": false,
+    "query": "1155 This is not a record folder.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1156",
+    "links": [],
+    "message": "This folder is not a record series.",
+    "noMatch": true,
+    "query": "1156 This folder is not a record series.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1158",
+    "links": [
+      {
+        "title": "OCR License Check Failed",
+        "url": "https://answers.laserfiche.com/questions/76951/OCR-License-Check-Failed"
+      },
+      {
+        "title": "Fields hidden through JavaScript are shown in Repository",
+        "url": "https://answers.laserfiche.com/questions/74522/Fields-hidden-through-JavaScript-are-shown-in-Repository"
+      }
+    ],
+    "message": "Error reading file.",
+    "noMatch": false,
+    "query": "1158 Error reading file.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1159",
+    "links": [
+      {
+        "title": "Fields hidden through JavaScript are shown in Repository",
+        "url": "https://answers.laserfiche.com/questions/74522/Fields-hidden-through-JavaScript-are-shown-in-Repository"
+      },
+      {
+        "title": "How can I use the signature JavaScript from the BPM251 conference course demo with multiple signatures on the same form?",
+        "url": "https://answers.laserfiche.com/questions/51554/How-can-I-use-the-signature-JavaScript-from-the-BPM251-conference-course-demo-with-multiple-signatures-on-the-same-form"
+      }
+    ],
+    "message": "Invalid file type.",
+    "noMatch": false,
+    "query": "1159 Invalid file type.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1160",
+    "links": [
+      {
+        "title": "How can I use the signature JavaScript from the BPM251 conference course demo with multiple signatures on the same form?",
+        "url": "https://answers.laserfiche.com/questions/51554/How-can-I-use-the-signature-JavaScript-from-the-BPM251-conference-course-demo-with-multiple-signatures-on-the-same-form"
+      }
+    ],
+    "message": "Error writing to file.",
+    "noMatch": false,
+    "query": "1160 Error writing to file.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1161",
+    "links": [],
+    "message": "Operation is not in progress.",
+    "noMatch": true,
+    "query": "1161 Operation is not in progress.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1168",
+    "links": [],
+    "message": "Too much data was provided for the briefcase.",
+    "noMatch": true,
+    "query": "1168 Too much data was provided for the briefcase.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1169",
+    "links": [],
+    "message": "The briefcase object has not been initialized. Obtain a briefcase importer through a call to ILFFolder",
+    "noMatch": true,
+    "query": "1169 The briefcase object has not been initialized. Obtain a briefcase importer through a call to ILFFolder",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1170",
+    "links": [],
+    "message": "This briefcase request does not support that property.",
+    "noMatch": true,
+    "query": "1170 This briefcase request does not support that property.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1172",
+    "links": [],
+    "message": "A briefcase operation is already in progress.",
+    "noMatch": true,
+    "query": "1172 A briefcase operation is already in progress.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1173",
+    "links": [],
+    "message": "The template match provided is invalid.",
+    "noMatch": true,
+    "query": "1173 The template match provided is invalid.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1174",
+    "links": [],
+    "message": "A briefcase operation is not in progress.",
+    "noMatch": true,
+    "query": "1174 A briefcase operation is not in progress.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1187",
+    "links": [],
+    "message": "Month definitions can only be added to annual cycles; day definitions to weekly cycles.",
+    "noMatch": true,
+    "query": "1187 Month definitions can only be added to annual cycles; day definitions to weekly cycles.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1200",
+    "links": [],
+    "message": "The Windows security DLL failed to load.",
+    "noMatch": true,
+    "query": "1200 The Windows security DLL failed to load.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1201",
+    "links": [
+      {
+        "title": "Problems logging into the client.",
+        "url": "https://answers.laserfiche.com/questions/94822/Problems-logging-into-the-client"
+      },
+      {
+        "title": "permission denied while registering server in admin console",
+        "url": "https://answers.laserfiche.com/questions/84896/permission-denied-while-registering-server-in-admin-console"
+      },
+      {
+        "title": "what could be causing a windows authentication fail error 1201?",
+        "url": "https://answers.laserfiche.com/questions/51850/what-could-be-causing-a-windows-authentication-fail-error-1201"
+      }
+    ],
+    "message": "Windows authentication failed.",
+    "noMatch": false,
+    "query": "1201 Windows authentication failed.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1202",
+    "links": [],
+    "message": "The connection to Laserfiche is not a secure channel and no security certificate is present.",
+    "noMatch": true,
+    "query": "1202 The connection to Laserfiche is not a secure channel and no security certificate is present.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1216",
+    "links": [],
+    "message": "A secure tag cannot have its security removed.",
+    "noMatch": true,
+    "query": "1216 A secure tag cannot have its security removed.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1280",
+    "links": [],
+    "message": "Unsupported column type.",
+    "noMatch": true,
+    "query": "1280 Unsupported column type.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1281",
+    "links": [],
+    "message": "Wipe passes value must be between 0 and 4.",
+    "noMatch": true,
+    "query": "1281 Wipe passes value must be between 0 and 4.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1282",
+    "links": [],
+    "message": "The entry path column was not requested.",
+    "noMatch": true,
+    "query": "1282 The entry path column was not requested.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1297",
+    "links": [],
+    "message": "Notification connection not established.",
+    "noMatch": true,
+    "query": "1297 Notification connection not established.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1298",
+    "links": [],
+    "message": "Notification connection reset.",
+    "noMatch": true,
+    "query": "1298 Notification connection reset.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1299",
+    "links": [],
+    "message": "Invalid notification subscription ID.",
+    "noMatch": true,
+    "query": "1299 Invalid notification subscription ID.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1300",
+    "links": [],
+    "message": "Cannot obtain secure notification connection.",
+    "noMatch": true,
+    "query": "1300 Cannot obtain secure notification connection.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1328",
+    "links": [],
+    "message": "General WMI Error",
+    "noMatch": true,
+    "query": "1328 General WMI Error",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1344",
+    "links": [],
+    "message": "The requested property name is reserved for a system property.",
+    "noMatch": true,
+    "query": "1344 The requested property name is reserved for a system property.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1345",
+    "links": [],
+    "message": "The requested property is already assigned to this custom audit object.",
+    "noMatch": true,
+    "query": "1345 The requested property is already assigned to this custom audit object.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1346",
+    "links": [],
+    "message": "The requested property is not assigned to this custom audit object.",
+    "noMatch": true,
+    "query": "1346 The requested property is not assigned to this custom audit object.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1347",
+    "links": [],
+    "message": "The requested property name is too long.",
+    "noMatch": true,
+    "query": "1347 The requested property name is too long.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1348",
+    "links": [],
+    "message": "Failed to initialize regional settings.",
+    "noMatch": true,
+    "query": "1348 Failed to initialize regional settings.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1360",
+    "links": [],
+    "message": "Failed to verify whether certificate is revoked.",
+    "noMatch": true,
+    "query": "1360 Failed to verify whether certificate is revoked.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1361",
+    "links": [],
+    "message": "SSL certificate is invalid.",
+    "noMatch": true,
+    "query": "1361 SSL certificate is invalid.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1362",
+    "links": [],
+    "message": "SSL certificate was revoked.",
+    "noMatch": true,
+    "query": "1362 SSL certificate was revoked.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1363",
+    "links": [],
+    "message": "The server's certificate was generated by an unknown Certificate Authority.",
+    "noMatch": true,
+    "query": "1363 The server's certificate was generated by an unknown Certificate Authority.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1364",
+    "links": [
+      {
+        "title": "SSL Host Name Does Not Match Certificate Host Name",
+        "url": "https://answers.laserfiche.com/questions/54237/SSL-Host-Name-Does-Not-Match-Certificate-Host-Name"
+      }
+    ],
+    "message": "SSL host name does not match certificate host name.",
+    "noMatch": false,
+    "query": "1364 SSL host name does not match certificate host name.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1365",
+    "links": [],
+    "message": "The SSL certificate is expired.",
+    "noMatch": true,
+    "query": "1365 The SSL certificate is expired.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1366",
+    "links": [
+      {
+        "title": "Internal SSL error [1366] when attempting to attach a repository from the client using SSL.",
+        "url": "https://answers.laserfiche.com/questions/63336/Internal-SSL-error-1366-when-attempting-to-attach-a-repository-from-the-client-using-SSL"
+      },
+      {
+        "title": "Windows client - Users periodically receiving 1366 errors when logging in, but TLS is not configured",
+        "url": "https://answers.laserfiche.com/questions/213390/Windows-client--Users-periodically-receiving-1366-errors-when-logging-in-but-TLS-is-not-configured"
+      },
+      {
+        "title": "Internal SSL error [1366] when trying to log into repository using Admin Console",
+        "url": "https://answers.laserfiche.com/questions/118714/Internal-SSL-error-1366-when-trying-to-log-into-repository-using-Admin-Console"
+      },
+      {
+        "title": "Internal SSL error [1366] when trying to log into repository using mobile app",
+        "url": "https://answers.laserfiche.com/questions/65502/Internal-SSL-error-1366-when-trying-to-log-into-repository-using-mobile-app"
+      }
+    ],
+    "message": "Internal SSL error.",
+    "noMatch": false,
+    "query": "1366 Internal SSL error.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1376",
+    "links": [],
+    "message": "The query is not parsed.",
+    "noMatch": true,
+    "query": "1376 The query is not parsed.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1377",
+    "links": [],
+    "message": "The query is empty.",
+    "noMatch": true,
+    "query": "1377 The query is empty.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1378",
+    "links": [],
+    "message": "The query object cannot process more than one query at a time.",
+    "noMatch": true,
+    "query": "1378 The query object cannot process more than one query at a time.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1392",
+    "links": [],
+    "message": "A briefcase file is already loaded.",
+    "noMatch": true,
+    "query": "1392 A briefcase file is already loaded.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1393",
+    "links": [],
+    "message": "The briefcase file could not be loaded.",
+    "noMatch": true,
+    "query": "1393 The briefcase file could not be loaded.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1394",
+    "links": [],
+    "message": "The loaded file is not a valid briefcase for signing.",
+    "noMatch": true,
+    "query": "1394 The loaded file is not a valid briefcase for signing.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1395",
+    "links": [],
+    "message": "The data could not be hashed properly.",
+    "noMatch": true,
+    "query": "1395 The data could not be hashed properly.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1396",
+    "links": [],
+    "message": "Invalid key pair.",
+    "noMatch": true,
+    "query": "1396 Invalid key pair.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1397",
+    "links": [],
+    "message": "Error while signing data.",
+    "noMatch": true,
+    "query": "1397 Error while signing data.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1398",
+    "links": [],
+    "message": "Error while decompressing briefcase.",
+    "noMatch": true,
+    "query": "1398 Error while decompressing briefcase.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1399",
+    "links": [],
+    "message": "The trailer is corrupted.",
+    "noMatch": true,
+    "query": "1399 The trailer is corrupted.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1400",
+    "links": [],
+    "message": "Invalid hash value.",
+    "noMatch": true,
+    "query": "1400 Invalid hash value.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1401",
+    "links": [],
+    "message": "The specified certificate store could not be opened.",
+    "noMatch": true,
+    "query": "1401 The specified certificate store could not be opened.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1402",
+    "links": [
+      {
+        "title": "Laserfiche 11 Audit Trail Install Error",
+        "url": "https://answers.laserfiche.com/questions/209630/Laserfiche-11-Audit-Trail-Install-Error"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      },
+      {
+        "title": "Unattended Installation (LFGet.exe) - Permissions issue",
+        "url": "https://answers.laserfiche.com/questions/232457/Unattended-Installation-LFGetexe--Permissions-issue"
+      }
+    ],
+    "message": "Key data could not be loaded.",
+    "noMatch": false,
+    "query": "1402 Key data could not be loaded.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1403",
+    "links": [
+      {
+        "title": "Save as Draft and Database Lookup Question",
+        "url": "https://answers.laserfiche.com/questions/78684/Save-as-Draft-and-Database-Lookup-Question"
+      }
+    ],
+    "message": "Invalid signature.",
+    "noMatch": false,
+    "query": "1403 Invalid signature.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1404",
+    "links": [],
+    "message": "Not enough information to determine which certificate to load.",
+    "noMatch": true,
+    "query": "1404 Not enough information to determine which certificate to load.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1405",
+    "links": [],
+    "message": "No certificate loaded.",
+    "noMatch": true,
+    "query": "1405 No certificate loaded.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1406",
+    "links": [],
+    "message": "The cryptographic algorithm is not supported.",
+    "noMatch": true,
+    "query": "1406 The cryptographic algorithm is not supported.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1408",
+    "links": [],
+    "message": "There is already a signature in progress.",
+    "noMatch": true,
+    "query": "1408 There is already a signature in progress.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1409",
+    "links": [
+      {
+        "title": "Save as Draft and Database Lookup Question",
+        "url": "https://answers.laserfiche.com/questions/78684/Save-as-Draft-and-Database-Lookup-Question"
+      }
+    ],
+    "message": "The signature could not be initialized.",
+    "noMatch": false,
+    "query": "1409 The signature could not be initialized.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1410",
+    "links": [
+      {
+        "title": "Save as Draft and Database Lookup Question",
+        "url": "https://answers.laserfiche.com/questions/78684/Save-as-Draft-and-Database-Lookup-Question"
+      }
+    ],
+    "message": "The signature is not initialized.",
+    "noMatch": false,
+    "query": "1410 The signature is not initialized.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1411",
+    "links": [],
+    "message": "The specified data range is invalid.",
+    "noMatch": true,
+    "query": "1411 The specified data range is invalid.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1412",
+    "links": [],
+    "message": "Private key not available.",
+    "noMatch": true,
+    "query": "1412 Private key not available.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1413",
+    "links": [],
+    "message": "Public key not available.",
+    "noMatch": true,
+    "query": "1413 Public key not available.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1414",
+    "links": [],
+    "message": "The certificate's format is invalid.",
+    "noMatch": true,
+    "query": "1414 The certificate's format is invalid.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1415",
+    "links": [],
+    "message": "Certificate could not be loaded.",
+    "noMatch": true,
+    "query": "1415 Certificate could not be loaded.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1416",
+    "links": [
+      {
+        "title": "Receiving the following error when trying to digitally sign documents: The certificate could not be trusted. [1416]",
+        "url": "https://answers.laserfiche.com/questions/80092/Receiving-the-following-error-when-trying-to-digitally-sign-documents-The-certificate-could-not-be-trusted-1416"
+      },
+      {
+        "title": "Digital Signature Error \"The Certificate could not be trusted 1416\"",
+        "url": "https://answers.laserfiche.com/questions/195035/Digital-Signature-Error-The-Certificate-could-not-be-trusted-1416"
+      },
+      {
+        "title": "certificate could not be trusted \"[1416]\"",
+        "url": "https://answers.laserfiche.com/questions/187334/certificate-could-not-be-trusted-1416"
+      }
+    ],
+    "message": "The certificate could not be trusted.",
+    "noMatch": false,
+    "query": "1416 The certificate could not be trusted.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1417",
+    "links": [],
+    "message": "Streaming import not supported on Laserfiche 6 briefcases.",
+    "noMatch": true,
+    "query": "1417 Streaming import not supported on Laserfiche 6 briefcases.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1418",
+    "links": [],
+    "message": "Streaming import not supported on encrypted briefcases.",
+    "noMatch": true,
+    "query": "1418 Streaming import not supported on encrypted briefcases.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "1440",
+    "links": [],
+    "message": "Error while briefcasing file.",
+    "noMatch": true,
+    "query": "1440 Error while briefcasing file.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "2500",
+    "links": [],
+    "message": "Could not create a copy of the specified file. Please make sure your temporary directory is properly configured.",
+    "noMatch": true,
+    "query": "2500 Could not create a copy of the specified file. Please make sure your temporary directory is properly configured.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "2504",
+    "links": [],
+    "message": "You do not have sufficient permissions to import a file into this repository.",
+    "noMatch": true,
+    "query": "2504 You do not have sufficient permissions to import a file into this repository.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "2505",
+    "links": [],
+    "message": "You do not have permission to create a folder at the specified location. Please choose another location.",
+    "noMatch": true,
+    "query": "2505 You do not have permission to create a folder at the specified location. Please choose another location.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "2506",
+    "links": [],
+    "message": "You do not have permission to create a document at the specified location. Please choose another location.",
+    "noMatch": true,
+    "query": "2506 You do not have permission to create a document at the specified location. Please choose another location.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "2507",
+    "links": [],
+    "message": "You do not have permission to create the specified parent folder structure. Please choose a folder that exists or move the new folder to another location.",
+    "noMatch": true,
+    "query": "2507 You do not have permission to create the specified parent folder structure. Please choose a folder that exists or move the new folder to another location.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "2508",
+    "links": [],
+    "message": "The path must begin with the repository name.",
+    "noMatch": true,
+    "query": "2508 The path must begin with the repository name.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "2509",
+    "links": [],
+    "message": "Folder names must have at least one character and cannot be made entirely of spaces.",
+    "noMatch": true,
+    "query": "2509 Folder names must have at least one character and cannot be made entirely of spaces.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "2510",
+    "links": [],
+    "message": "The folder path cannot be left empty.",
+    "noMatch": true,
+    "query": "2510 The folder path cannot be left empty.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "2511",
+    "links": [],
+    "message": "The name of this entry cannot be left blank.",
+    "noMatch": true,
+    "query": "2511 The name of this entry cannot be left blank.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "5100",
+    "links": [],
+    "message": "The file chosen for export already exists, and the user does not wish to overwrite it.",
+    "noMatch": true,
+    "query": "5100 The file chosen for export already exists, and the user does not wish to overwrite it.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "5801",
+    "links": [],
+    "message": "Cannot orient images in folder x.",
+    "noMatch": true,
+    "query": "5801 Cannot orient images in folder x.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "5802",
+    "links": [],
+    "message": "Please mount volume x.",
+    "noMatch": true,
+    "query": "5802 Please mount volume x.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "5850",
+    "links": [],
+    "message": "Orient images failed, n page(s).",
+    "noMatch": true,
+    "query": "5850 Orient images failed, n page(s).",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "5851",
+    "links": [],
+    "message": "Internal security error #n. Call Technical Support.",
+    "noMatch": true,
+    "query": "5851 Internal security error #n. Call Technical Support.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "5852",
+    "links": [],
+    "message": "One or more errors occurred during migration.",
+    "noMatch": true,
+    "query": "5852 One or more errors occurred during migration.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6000",
+    "links": [
+      {
+        "title": "Error Exporting PDF. initializing helper Unknown error. [6000 ]",
+        "url": "https://answers.laserfiche.com/questions/164847/Error-Exporting-PDF--initializing-helper--Unknown-error-6000-"
+      },
+      {
+        "title": "Error Code: 6000",
+        "url": "https://answers.laserfiche.com/questions/123888/Error-Code-6000"
+      },
+      {
+        "title": "Laserfiche Download Folder Contents Error",
+        "url": "https://answers.laserfiche.com/questions/174439/Laserfiche-Download-Folder-Contents-Error"
+      },
+      {
+        "title": "Laserfiche import freeze",
+        "url": "https://answers.laserfiche.com/questions/89750/Laserfiche-import-freeze"
+      },
+      {
+        "title": "Root Element is missing issue",
+        "url": "https://answers.laserfiche.com/questions/92419/Root-Element-is-missing-issue"
+      },
+      {
+        "title": "Client login using Active Directory with wrong credentials generate Unknown error. [6000] - possible bug",
+        "url": "https://answers.laserfiche.com/questions/148403/Client-login-using-Active-Directory-with-wrong-credentials-generate-Unknown-error-6000--possible-bug"
+      },
+      {
+        "title": "\"height cannot be less than zero\"",
+        "url": "https://answers.laserfiche.com/questions/114981/height-cannot-be-less-than-zero"
+      },
+      {
+        "title": "Error generating pages Unknown error [6000:0x80131600] [6000]",
+        "url": "https://answers.laserfiche.com/questions/86494/Error-generating-pages-Unknown-error-60000x80131600-6000"
+      },
+      {
+        "title": "error 6000 generating pages, version 10",
+        "url": "https://answers.laserfiche.com/questions/103821/error-6000-generating-pages-version-10"
+      },
+      {
+        "title": "unknown error 6000",
+        "url": "https://answers.laserfiche.com/questions/99614/unknown-error-6000"
+      }
+    ],
+    "message": "Unknown error.",
+    "noMatch": false,
+    "query": "6000 Unknown error.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6001",
+    "links": [],
+    "message": "No documents found.",
+    "noMatch": true,
+    "query": "6001 No documents found.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6002",
+    "links": [],
+    "message": "API user slot index is invalid.",
+    "noMatch": true,
+    "query": "6002 API user slot index is invalid.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6003",
+    "links": [],
+    "message": "Invalid parameter passed to API.",
+    "noMatch": true,
+    "query": "6003 Invalid parameter passed to API.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6004",
+    "links": [],
+    "message": "A connection slot could not be found or created.",
+    "noMatch": true,
+    "query": "6004 A connection slot could not be found or created.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6010",
+    "links": [],
+    "message": "Operation canceled.",
+    "noMatch": true,
+    "query": "6010 Operation canceled.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6020",
+    "links": [],
+    "message": "Volume not mounted.",
+    "noMatch": true,
+    "query": "6020 Volume not mounted.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6310",
+    "links": [],
+    "message": "Engine Error #8310--import image failed.",
+    "noMatch": true,
+    "query": "6310 Engine Error #8310--import image failed.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6313",
+    "links": [],
+    "message": "Error reading directory--TOC failed.",
+    "noMatch": true,
+    "query": "6313 Error reading directory--TOC failed.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6315",
+    "links": [],
+    "message": "Repository is empty.",
+    "noMatch": true,
+    "query": "6315 Repository is empty.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6316",
+    "links": [],
+    "message": "You must specify the full path to an existing directory when you specify a volume.",
+    "noMatch": true,
+    "query": "6316 You must specify the full path to an existing directory when you specify a volume.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6317",
+    "links": [
+      {
+        "title": "Error Code: 6317 Permission Denied",
+        "url": "https://answers.laserfiche.com/questions/66321/Error-Code-6317-Permission-Denied"
+      },
+      {
+        "title": "unable to delete a folder/documents",
+        "url": "https://answers.laserfiche.com/questions/152757/unable-to-delete-a-folderdocuments"
+      },
+      {
+        "title": "Permission Denied 6317 CBusinessProcessManager::LoadBusinessProcesses",
+        "url": "https://answers.laserfiche.com/questions/152811/Permission-Denied-6317-CBusinessProcessManagerLoadBusinessProcesses"
+      },
+      {
+        "title": "Read-Only Sessions with expired Laserfiche license",
+        "url": "https://answers.laserfiche.com/questions/146549/ReadOnly-Sessions-with-expired-Laserfiche-license"
+      }
+    ],
+    "message": "Permission denied.",
+    "noMatch": false,
+    "query": "6317 Permission denied.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6321",
+    "links": [],
+    "message": "You are not allowed to delete the root folder.",
+    "noMatch": true,
+    "query": "6321 You are not allowed to delete the root folder.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6322",
+    "links": [],
+    "message": "You are not allowed to rename the root folder.",
+    "noMatch": true,
+    "query": "6322 You are not allowed to rename the root folder.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6323",
+    "links": [],
+    "message": "Operation failed. Name is not valid.",
+    "noMatch": true,
+    "query": "6323 Operation failed. Name is not valid.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6324",
+    "links": [],
+    "message": "More than one file has been selected. This operation only works on a single file.",
+    "noMatch": true,
+    "query": "6324 More than one file has been selected. This operation only works on a single file.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6325",
+    "links": [],
+    "message": "There must be a file selected for this operation.",
+    "noMatch": true,
+    "query": "6325 There must be a file selected for this operation.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6327",
+    "links": [],
+    "message": "Only image documents can be processed.",
+    "noMatch": true,
+    "query": "6327 Only image documents can be processed.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6328",
+    "links": [],
+    "message": "Folders cannot be printed.",
+    "noMatch": true,
+    "query": "6328 Folders cannot be printed.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6334",
+    "links": [],
+    "message": "You cannot move a page to an electronic document.",
+    "noMatch": true,
+    "query": "6334 You cannot move a page to an electronic document.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6335",
+    "links": [],
+    "message": "Invalid page range.",
+    "noMatch": true,
+    "query": "6335 Invalid page range.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6336",
+    "links": [],
+    "message": "Unable to compress thumbnail data.",
+    "noMatch": true,
+    "query": "6336 Unable to compress thumbnail data.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6337",
+    "links": [],
+    "message": "Error decompressing thumbnail data.",
+    "noMatch": true,
+    "query": "6337 Error decompressing thumbnail data.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6339",
+    "links": [],
+    "message": "Attempted to perform a folder operation on a document.",
+    "noMatch": true,
+    "query": "6339 Attempted to perform a folder operation on a document.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6340",
+    "links": [],
+    "message": "This document contains no pages.",
+    "noMatch": true,
+    "query": "6340 This document contains no pages.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6341",
+    "links": [
+      {
+        "title": "Error Print: Printing (6341)",
+        "url": "https://answers.laserfiche.com/questions/153757/Error-Print-Printing-6341"
+      }
+    ],
+    "message": "Printing the Electronic Document pages failed.",
+    "noMatch": false,
+    "query": "6341 Printing the Electronic Document pages failed.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6342",
+    "links": [],
+    "message": "The specified name contains one or more invalid characters.",
+    "noMatch": true,
+    "query": "6342 The specified name contains one or more invalid characters.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6350",
+    "links": [],
+    "message": "Print job aborted.",
+    "noMatch": true,
+    "query": "6350 Print job aborted.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6360",
+    "links": [],
+    "message": "The template must have a name.",
+    "noMatch": true,
+    "query": "6360 The template must have a name.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6361",
+    "links": [],
+    "message": "The template name is already in use.",
+    "noMatch": true,
+    "query": "6361 The template name is already in use.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6362",
+    "links": [],
+    "message": "A template cannot be created without fields.",
+    "noMatch": true,
+    "query": "6362 A template cannot be created without fields.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6363",
+    "links": [],
+    "message": "Template field names must be unique.",
+    "noMatch": true,
+    "query": "6363 Template field names must be unique.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6364",
+    "links": [],
+    "message": "String fields must be between 1 and 4000 characters.",
+    "noMatch": true,
+    "query": "6364 String fields must be between 1 and 4000 characters.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6365",
+    "links": [],
+    "message": "The template could not be deleted. There are documents still attached to it.",
+    "noMatch": true,
+    "query": "6365 The template could not be deleted. There are documents still attached to it.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6366",
+    "links": [],
+    "message": "Template field names must contain only letters, numbers, and spaces.",
+    "noMatch": true,
+    "query": "6366 Template field names must contain only letters, numbers, and spaces.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6367",
+    "links": [],
+    "message": "Changing the template field TYPE or WIDTH (to a smaller size) can cause irreparable data loss.",
+    "noMatch": true,
+    "query": "6367 Changing the template field TYPE or WIDTH (to a smaller size) can cause irreparable data loss.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6368",
+    "links": [],
+    "message": "The maximum number of template fields has been reached.",
+    "noMatch": true,
+    "query": "6368 The maximum number of template fields has been reached.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6380",
+    "links": [],
+    "message": "The document contains a missing image.",
+    "noMatch": true,
+    "query": "6380 The document contains a missing image.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6381",
+    "links": [],
+    "message": "The image orientation could not be retrieved.",
+    "noMatch": true,
+    "query": "6381 The image orientation could not be retrieved.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6382",
+    "links": [],
+    "message": "A temporary image file could not be stored.",
+    "noMatch": true,
+    "query": "6382 A temporary image file could not be stored.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6384",
+    "links": [],
+    "message": "The image could not be converted to TIFF format.",
+    "noMatch": true,
+    "query": "6384 The image could not be converted to TIFF format.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6385",
+    "links": [],
+    "message": "The server path provided was not in the proper format.",
+    "noMatch": true,
+    "query": "6385 The server path provided was not in the proper format.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6386",
+    "links": [],
+    "message": "The OCR engine was not found.",
+    "noMatch": true,
+    "query": "6386 The OCR engine was not found.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6387",
+    "links": [],
+    "message": "The language selected for the OCR engine is not valid.",
+    "noMatch": true,
+    "query": "6387 The language selected for the OCR engine is not valid.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6388",
+    "links": [],
+    "message": "Can't delete user (from DeleteGroup in LFAPICom).",
+    "noMatch": true,
+    "query": "6388 Can't delete user (from DeleteGroup in LFAPICom).",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6389",
+    "links": [],
+    "message": "Can't delete group (from DeleteUser in LFAPICom).",
+    "noMatch": true,
+    "query": "6389 Can't delete group (from DeleteUser in LFAPICom).",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6390",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "Unable to generate a thumbnail.",
+    "noMatch": false,
+    "query": "6390 Unable to generate a thumbnail.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6395",
+    "links": [],
+    "message": "Unable to read this version of briefcase.",
+    "noMatch": true,
+    "query": "6395 Unable to read this version of briefcase.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6396",
+    "links": [],
+    "message": "Invalid briefcase file.",
+    "noMatch": true,
+    "query": "6396 Invalid briefcase file.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6397",
+    "links": [],
+    "message": "Unexpected end of file in briefcase.",
+    "noMatch": true,
+    "query": "6397 Unexpected end of file in briefcase.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6398",
+    "links": [],
+    "message": "The tokens in the document name are not valid. The tokens have not been replaced.",
+    "noMatch": true,
+    "query": "6398 The tokens in the document name are not valid. The tokens have not been replaced.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6399",
+    "links": [],
+    "message": "This account does not have rights to folders.",
+    "noMatch": true,
+    "query": "6399 This account does not have rights to folders.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6400",
+    "links": [],
+    "message": "Importing not completed.",
+    "noMatch": true,
+    "query": "6400 Importing not completed.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6401",
+    "links": [],
+    "message": "The date value entered is not valid.",
+    "noMatch": true,
+    "query": "6401 The date value entered is not valid.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6402",
+    "links": [],
+    "message": "The numeric value entered is not valid.",
+    "noMatch": true,
+    "query": "6402 The numeric value entered is not valid.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6403",
+    "links": [],
+    "message": "The password entered is not correct.",
+    "noMatch": true,
+    "query": "6403 The password entered is not correct.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6404",
+    "links": [],
+    "message": "There is not enough memory, please select fewer items.",
+    "noMatch": true,
+    "query": "6404 There is not enough memory, please select fewer items.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6405",
+    "links": [],
+    "message": "This name already exists; select a different one.",
+    "noMatch": true,
+    "query": "6405 This name already exists; select a different one.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6406",
+    "links": [],
+    "message": "Source images have not been deleted.",
+    "noMatch": true,
+    "query": "6406 Source images have not been deleted.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6407",
+    "links": [],
+    "message": "You cannot remove supervisor privileges from your own account.",
+    "noMatch": true,
+    "query": "6407 You cannot remove supervisor privileges from your own account.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6408",
+    "links": [
+      {
+        "title": "Cannot OCR certain Large size PDF documents",
+        "url": "https://answers.laserfiche.com/questions/172707/Cannot-OCR-certain-Large-size-PDF-documents"
+      },
+      {
+        "title": "Error reading file ; code 6408",
+        "url": "https://answers.laserfiche.com/questions/129310/Error-reading-file--code-6408"
+      },
+      {
+        "title": "Error preparing page for OCR / Unknown error.",
+        "url": "https://answers.laserfiche.com/questions/99639/Error-preparing-page-for-OCR----Unknown-error"
+      },
+      {
+        "title": "Scanning PDF files & Import Agent Issues",
+        "url": "https://answers.laserfiche.com/questions/160926/Scanning-PDF-files--Import-Agent-Issues"
+      },
+      {
+        "title": "OCRing Photographs",
+        "url": "https://answers.laserfiche.com/questions/85100/OCRing-Photographs"
+      },
+      {
+        "title": "Error 407 OCR license check failed",
+        "url": "https://answers.laserfiche.com/questions/130765/Error-407-OCR-license-check-failed"
+      }
+    ],
+    "message": "Error reading file.",
+    "noMatch": false,
+    "query": "6408 Error reading file.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6409",
+    "links": [],
+    "message": "Error writing to file.",
+    "noMatch": true,
+    "query": "6409 Error writing to file.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6410",
+    "links": [
+      {
+        "title": "error opening file 6410",
+        "url": "https://answers.laserfiche.com/questions/59401/error-opening-file-6410"
+      },
+      {
+        "title": "Error Code: 6410 Error Message: Error opening file. (Incorrect function.)",
+        "url": "https://answers.laserfiche.com/questions/141775/Error-Code-6410-Error-Message-Error-opening-file--Incorrect-function"
+      },
+      {
+        "title": "Trying to drag and drop/import a .lst file into LF client and getting error 6410",
+        "url": "https://answers.laserfiche.com/questions/105799/Trying-to-drag-and-dropimport-a-lst-file-into-LF-client-and-getting-error-6410"
+      },
+      {
+        "title": "Error Opening File 6410",
+        "url": "https://answers.laserfiche.com/questions/205277/Error-Opening-File-6410"
+      },
+      {
+        "title": "error message 6410",
+        "url": "https://answers.laserfiche.com/questions/90046/error-message-6410"
+      },
+      {
+        "title": "error 6410 when importing an LST file",
+        "url": "https://answers.laserfiche.com/questions/147776/error-6410-when-importing-an-LST-file"
+      }
+    ],
+    "message": "Error opening file.",
+    "noMatch": false,
+    "query": "6410 Error opening file.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6411",
+    "links": [
+      {
+        "title": "Issue with \"export contents\" and file path.",
+        "url": "https://answers.laserfiche.com/questions/60221/Issue-with-export-contents-and-file-path"
+      }
+    ],
+    "message": "Error creating file.",
+    "noMatch": false,
+    "query": "6411 Error creating file.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6412",
+    "links": [],
+    "message": "Error deleting file.",
+    "noMatch": true,
+    "query": "6412 Error deleting file.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6413",
+    "links": [],
+    "message": "Error seeking in file.",
+    "noMatch": true,
+    "query": "6413 Error seeking in file.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6414",
+    "links": [],
+    "message": "Access denied to file or path.",
+    "noMatch": true,
+    "query": "6414 Access denied to file or path.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6415",
+    "links": [],
+    "message": "A thumbnail could not be generated from an image.",
+    "noMatch": true,
+    "query": "6415 A thumbnail could not be generated from an image.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6416",
+    "links": [],
+    "message": "Cannot add to folder list selection.",
+    "noMatch": true,
+    "query": "6416 Cannot add to folder list selection.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6419",
+    "links": [],
+    "message": "The volume has not been bundled.",
+    "noMatch": true,
+    "query": "6419 The volume has not been bundled.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6420",
+    "links": [],
+    "message": "Unable to create the specified path.",
+    "noMatch": true,
+    "query": "6420 Unable to create the specified path.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6421",
+    "links": [],
+    "message": "The file chosen for export already exists, and the user does not wish to overwrite it.",
+    "noMatch": true,
+    "query": "6421 The file chosen for export already exists, and the user does not wish to overwrite it.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6430",
+    "links": [],
+    "message": "A folder in the list import file could not be found or created.",
+    "noMatch": true,
+    "query": "6430 A folder in the list import file could not be found or created.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6431",
+    "links": [],
+    "message": "The name provided with the RENAME directive is invalid.",
+    "noMatch": true,
+    "query": "6431 The name provided with the RENAME directive is invalid.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6432",
+    "links": [],
+    "message": "A document's pages could not be imported.",
+    "noMatch": true,
+    "query": "6432 A document's pages could not be imported.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6433",
+    "links": [],
+    "message": "The name provided with a document was absent.",
+    "noMatch": true,
+    "query": "6433 The name provided with a document was absent.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6434",
+    "links": [],
+    "message": "The syntax of the list import file was incorrect.",
+    "noMatch": true,
+    "query": "6434 The syntax of the list import file was incorrect.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6436",
+    "links": [],
+    "message": "The end of the file was reached before the ENDFIELDS directive was found.",
+    "noMatch": true,
+    "query": "6436 The end of the file was reached before the ENDFIELDS directive was found.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6439",
+    "links": [],
+    "message": "The option for indexing is invalid.",
+    "noMatch": true,
+    "query": "6439 The option for indexing is invalid.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6440",
+    "links": [],
+    "message": "The specified file is not a valid Laserfiche import list.",
+    "noMatch": true,
+    "query": "6440 The specified file is not a valid Laserfiche import list.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6441",
+    "links": [],
+    "message": "The import process was interrupted unexpectedly.",
+    "noMatch": true,
+    "query": "6441 The import process was interrupted unexpectedly.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6470",
+    "links": [],
+    "message": "No audit reason was provided, or the audit reason is invalid.",
+    "noMatch": true,
+    "query": "6470 No audit reason was provided, or the audit reason is invalid.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6500",
+    "links": [],
+    "message": "Invalid serial number.",
+    "noMatch": true,
+    "query": "6500 Invalid serial number.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6501",
+    "links": [],
+    "message": "Invalid registration information.",
+    "noMatch": true,
+    "query": "6501 Invalid registration information.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6502",
+    "links": [
+      {
+        "title": "I am getting an error code 6502",
+        "url": "https://answers.laserfiche.com/questions/50156/I-am-getting-an-error-code-6502"
+      }
+    ],
+    "message": "Unable to find the specified Laserfiche repository.",
+    "noMatch": false,
+    "query": "6502 Unable to find the specified Laserfiche repository.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6503",
+    "links": [],
+    "message": "Laserfiche has detected an earlier fatal exit. Please restart Windows before reloading Laserfiche.",
+    "noMatch": true,
+    "query": "6503 Laserfiche has detected an earlier fatal exit. Please restart Windows before reloading Laserfiche.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6505",
+    "links": [],
+    "message": "Unable to find the specified Laserfiche server.",
+    "noMatch": true,
+    "query": "6505 Unable to find the specified Laserfiche server.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6506",
+    "links": [],
+    "message": "Laserfiche could not update your old repository. There is an error in the repository files.",
+    "noMatch": true,
+    "query": "6506 Laserfiche could not update your old repository. There is an error in the repository files.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6507",
+    "links": [],
+    "message": "Maximum users exceeded.",
+    "noMatch": true,
+    "query": "6507 Maximum users exceeded.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6508",
+    "links": [],
+    "message": "The user name or password is incorrect",
+    "noMatch": true,
+    "query": "6508 The user name or password is incorrect",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6509",
+    "links": [],
+    "message": "Evaluation copy has expired.",
+    "noMatch": true,
+    "query": "6509 Evaluation copy has expired.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6510",
+    "links": [],
+    "message": "Corrupt DLL",
+    "noMatch": true,
+    "query": "6510 Corrupt DLL",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6511",
+    "links": [],
+    "message": "The specified drive is out of space.",
+    "noMatch": true,
+    "query": "6511 The specified drive is out of space.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6512",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "Error opening repository. Check log file for more information.",
+    "noMatch": false,
+    "query": "6512 Error opening repository. Check log file for more information.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6513",
+    "links": [],
+    "message": "Laserfiche requires version 5.10 or higher of WBTRV32.DLL.",
+    "noMatch": true,
+    "query": "6513 Laserfiche requires version 5.10 or higher of WBTRV32.DLL.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6515",
+    "links": [],
+    "message": "Error locating library.",
+    "noMatch": true,
+    "query": "6515 Error locating library.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6516",
+    "links": [],
+    "message": "Error loading library.",
+    "noMatch": true,
+    "query": "6516 Error loading library.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6517",
+    "links": [
+      {
+        "title": "The Laserfiche is from previous versin and cannot be accessed from this version of the client [6517]",
+        "url": "https://answers.laserfiche.com/questions/134877/The-Laserfiche-is-from-previous-versin-and-cannot-be-accessed-from-this-version-of-the-client-6517"
+      },
+      {
+        "title": "Client/Server Connection Problem. Error [6517].",
+        "url": "https://answers.laserfiche.com/questions/69100/ClientServer-Connection-Problem-Error-6517"
+      }
+    ],
+    "message": "The Laserfiche Server is from a previous version and cannot be accessed from this version of the client.",
+    "noMatch": false,
+    "query": "6517 The Laserfiche Server is from a previous version and cannot be accessed from this version of the client.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6518",
+    "links": [],
+    "message": "Write failed. Disk space may be running low.",
+    "noMatch": true,
+    "query": "6518 Write failed. Disk space may be running low.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6519",
+    "links": [],
+    "message": "Not enough memory to complete operation. Please close some applications and try again.",
+    "noMatch": true,
+    "query": "6519 Not enough memory to complete operation. Please close some applications and try again.",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "6520",
+    "links": [],
+    "message": "Time-out for operation call.",
+    "noMatch": true,
+    "query": "6520 Time-out for operation call.",
+    "searchedAt": "2026-06-27"
+  }
+]

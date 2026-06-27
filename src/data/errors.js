@@ -46,6 +46,193 @@ export const sourceTypeOptions = [
 
 const curatedErrorEntries = [
   {
+    id: "lf-client-768-unknown-error",
+    code: "768",
+    message: "Unknown error",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "A generic LFSO unknown error; employee replies point to trace logging, server restarts, and network checks depending on context.",
+    symptoms: [
+      "Client or repository operations fail with Unknown error. [768].",
+      "The error can appear during login, document access, page deletion, or other client/server operations.",
+    ],
+    likelyFixes: [
+      "Enable LFSO tracing from Help > About > Tracing, restart the client, reproduce the problem, and collect trace logs for support.",
+      "For login-time 768 errors, restart SQL Server followed by the Laserfiche Server service, then test repository login again.",
+      "Check client-to-server connectivity and firewalls; test from the client installed on the Laserfiche Server as a control.",
+      "Open a support case when the trace logs are needed to identify the root cause.",
+    ],
+    notes:
+      "Laserfiche employee guidance varies by scenario. One selected answer mentions Laserfiche 8; this entry keeps Version 12 because the official code is in the Version 12 listing.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 768 as Unknown error.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Laserfiche Unknown Error 768 after accessing several Documents",
+        url: "https://answers.laserfiche.com/questions/168149/Laserfiche-Unknown-Error-768-after-accessing-several-Documents",
+        note: "Robert Strickland from Laserfiche recommends collecting LFSO trace logs and opening a support case.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Unknown Error 768",
+        url: "https://answers.laserfiche.com/questions/60134/Unknown-Error-768",
+        note:
+          "Alexander Huang from Laserfiche recommends restarting SQL Server and Laserfiche Server, then checking network/firewall connectivity.",
+      },
+    ],
+  },
+  {
+    id: "lf-client-780-no-response",
+    code: "780",
+    message: "No response received from the server",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The client did not receive a server response; related Answers replies point to network, firewall, service pack, repository volume, and antivirus checks.",
+    symptoms: [
+      "Opening documents, generating pages, assigning templates, or logging in returns No response received from the server. [780].",
+      "The issue may happen only across VPN/firewall paths, only for certain document types, or only for certain repository files.",
+    ],
+    likelyFixes: [
+      "Check firewall/VPN paths and confirm Laserfiche traffic on ports 80 or 443 is allowed when those ports are used.",
+      "Look for firewalls blocking large response messages or certain file types, especially Office files.",
+      "For Laserfiche 9.1.1 Service Pack 1 environments, review the re-released service pack noted by Laserfiche.",
+      "Verify the electronic document exists on the repository volume, can be opened from the server filesystem, and the volume disk is not full.",
+      "Temporarily test without antivirus or add exclusions for Laserfiche files, folders, executables, and processes.",
+    ],
+    notes:
+      "The reviewed Answers posts describe several distinct 780 scenarios. Treat the fixes as troubleshooting branches, not one universal root cause.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 780 as No response received from the server.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Microsoft Office Files on VPN have Error 780",
+        url: "https://answers.laserfiche.com/questions/101400/Microsoft-Office-Files-on-VPN-have-Error-780-No-response-received-from-the-server",
+        note:
+          "Brian McKeever from Laserfiche points to firewall ports 80/443 and firewalls blocking large responses or file types.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "error 780 after server upgrade to 9.1.1.545",
+        url: "https://answers.laserfiche.com/questions/59045/error-780-after-server-upgrade-to-911545",
+        note:
+          "Alexander Huang from Laserfiche references KB 1013480 and the re-released Laserfiche 9.1.1 SP1 for a client/server connection issue.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "No response received from the server while assigning a template",
+        url: "https://answers.laserfiche.com/questions/110818/when-I-assign-a-template-to-a-PDF-in-LF-Client-I-receive-No-reponse-received-from-the-server-780",
+        note:
+          "Ryan Wong from Laserfiche recommends verifying the electronic document exists and opens correctly from the repository volume.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Failed to Load Image. No response received from the server. [780]",
+        url: "https://answers.laserfiche.com/questions/95104/Failed-to-Load-Image-No-response-received-from-the-server-780-on-some-Pages-when-open-in-Document-Viewer",
+        note: "Raymond Cruz from Laserfiche asks about antivirus and recommends testing Laserfiche exclusions.",
+      },
+    ],
+  },
+  {
+    id: "lf-client-782-invalid-host-name",
+    code: "782",
+    message: "Invalid host name",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The client cannot resolve or use the specified Laserfiche Server host name; employee replies point to DNS, FQDN, and connectivity checks.",
+    symptoms: [
+      "Logging into a repository through the desktop client returns Invalid host name. [782].",
+      "The issue may affect a new workstation or only some users/machines.",
+    ],
+    likelyFixes: [
+      "Try attaching or logging in by IP address to isolate DNS/name-resolution issues.",
+      "Test the server short name versus the fully qualified domain name.",
+      "Ping the Laserfiche Server from the affected workstation and compare behavior with working machines.",
+      "Collect the error details if the host-name tests do not isolate the problem.",
+    ],
+    notes: "The strongest reviewed Answers replies are Laserfiche employee troubleshooting questions rather than final confirmed resolutions.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 782 as Invalid host name.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Invalid host name. [782] when logging into a repository",
+        url: "https://answers.laserfiche.com/questions/80225/Invalid-host-name-782-when-logging-into-a-repository-through-the-desktop-client",
+        note: "Laserfiche employee reply recommends testing IP address versus server name to check for DNS issues.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "new laptop has error 782 Invalid host name",
+        url: "https://answers.laserfiche.com/questions/133566/new-laptop-has-error-782-Invalid-host-name",
+        note: "Brian McKeever from Laserfiche asks whether the workstation can ping the server and whether FQDN behaves differently.",
+      },
+    ],
+  },
+  {
+    id: "lf-client-784-operation-timeout",
+    code: "784",
+    message: "Operation timed out",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 10", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Client operations timed out; employee replies point to overloaded SQL Server or transient network connectivity between the client environment and Laserfiche Server.",
+    symptoms: [
+      "Login or client operations return Operation timed out. [784].",
+      "The issue may occur from virtual desktops, remote networks, VPNs, or during metadata/search-related operations.",
+    ],
+    likelyFixes: [
+      "Check SQL Server load and performance when the timeout occurs.",
+      "Investigate network connectivity between the client network or virtual desktop environment and Laserfiche Server.",
+      "For Azure or hosted networks, check site-to-site VPN or ExpressRoute tunnel health.",
+      "Review timing with server, SQL, and network logs before opening support.",
+    ],
+    notes: "Reviewed Answers replies are scenario-specific and should be used as troubleshooting branches.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 784 as Operation timed out.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "error 784 operation timed out",
+        url: "https://answers.laserfiche.com/questions/153318/error-784-operation-timed-out",
+        note: "Robert Strickland from Laserfiche notes that this type of performance issue can usually be traced to overloaded SQL Server.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Virtual Desktop - 784 Timeout when logging into the Desktop Client",
+        url: "https://answers.laserfiche.com/questions/197061/Virtual-Desktop-784-Timeout-when-logging-into-the-Desktop-Client",
+        note: "Samuel Carson from Laserfiche points to transient connectivity between the Azure VNet and hosted Laserfiche Server.",
+      },
+    ],
+  },
+  {
     id: "lf-server-9013-access-denied",
     code: "9013",
     message: "Access Denied",
