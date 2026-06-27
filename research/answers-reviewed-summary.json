@@ -178,5 +178,185 @@
     "hasLaserficheEmployee": true,
     "hasAcceptedLanguage": true,
     "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "784",
+    "message": "Operation timed out.",
+    "title": "Failed to initialize metadata display - Error Code 784",
+    "url": "https://answers.laserfiche.com/questions/227906/Failed-to-initialize-metadata-display--Error-Code-784",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "789",
+    "message": "Invalid object name.",
+    "title": "789 - Invalid Object Name",
+    "url": "https://answers.laserfiche.com/questions/114378/789--Invalid-Object-Name",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "792",
+    "message": "Invalid stream state.",
+    "title": "LFFTS: Laserfiche Server error: Invalid stream state.(792)",
+    "url": "https://answers.laserfiche.com/questions/63975/LFFTS-Laserfiche-Server-error-Invalid-stream-state792",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "797",
+    "message": "Could not connect to the Laserfiche Server.",
+    "title": "797 Error when using client",
+    "url": "https://answers.laserfiche.com/questions/117672/797-Error-when-using-client",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "797",
+    "message": "Could not connect to the Laserfiche Server.",
+    "title": "Error Message: Could not connect to the Laserfiche Server. [797]",
+    "url": "https://answers.laserfiche.com/questions/63136/Error-Message-Could-not-connect-to-the-Laserfiche-Server-797",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "797",
+    "message": "Could not connect to the Laserfiche Server.",
+    "title": "797 Errors",
+    "url": "https://answers.laserfiche.com/questions/99162/797-Errors",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "797",
+    "message": "Could not connect to the Laserfiche Server.",
+    "title": "797",
+    "url": "https://answers.laserfiche.com/questions/71494/797",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "797",
+    "message": "Could not connect to the Laserfiche Server.",
+    "title": "v10.2 Could not connect to the Laserfiche Server [797]",
+    "url": "https://answers.laserfiche.com/questions/119692/v102-Could-not-connect-to-the-Laserfiche-Server-797",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "1040",
+    "message": "The specified index is out of range for this collection.",
+    "title": "Deleting a document from a search result prompts errors 6000 and 1040 (also clear results)",
+    "url": "https://answers.laserfiche.com/questions/137784/Deleting-a-document-from-a-search-result-prompts-errors-6000-and-1040-also-clear-results",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "1042",
+    "message": "The specified object is already a member of this collection",
+    "title": "Error 1042 when applying security tag to trustee",
+    "url": "https://answers.laserfiche.com/questions/59683/Error-1042-when-applying-security-tag-to-trustee",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "1201",
+    "message": "Windows authentication failed.",
+    "title": "what could be causing a windows authentication fail error 1201?",
+    "url": "https://answers.laserfiche.com/questions/51850/what-could-be-causing-a-windows-authentication-fail-error-1201",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "1366",
+    "message": "Internal SSL error.",
+    "title": "Internal SSL error [1366] when attempting to attach a repository from the client using SSL.",
+    "url": "https://answers.laserfiche.com/questions/63336/Internal-SSL-error-1366-when-attempting-to-attach-a-repository-from-the-client-using-SSL",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "1366",
+    "message": "Internal SSL error.",
+    "title": "Windows client - Users periodically receiving 1366 errors when logging in, but TLS is not configured",
+    "url": "https://answers.laserfiche.com/questions/213390/Windows-client--Users-periodically-receiving-1366-errors-when-logging-in-but-TLS-is-not-configured",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "1366",
+    "message": "Internal SSL error.",
+    "title": "Internal SSL error [1366] when trying to log into repository using Admin Console",
+    "url": "https://answers.laserfiche.com/questions/118714/Internal-SSL-error-1366-when-trying-to-log-into-repository-using-Admin-Console",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "1366",
+    "message": "Internal SSL error.",
+    "title": "Internal SSL error [1366] when trying to log into repository using mobile app",
+    "url": "https://answers.laserfiche.com/questions/65502/Internal-SSL-error-1366-when-trying-to-log-into-repository-using-mobile-app",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "1416",
+    "message": "The certificate could not be trusted.",
+    "title": "Receiving the following error when trying to digitally sign documents: The certificate could not be trusted. [1416]",
+    "url": "https://answers.laserfiche.com/questions/80092/Receiving-the-following-error-when-trying-to-digitally-sign-documents-The-certificate-could-not-be-trusted-1416",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "1416",
+    "message": "The certificate could not be trusted.",
+    "title": "Digital Signature Error \"The Certificate could not be trusted 1416\"",
+    "url": "https://answers.laserfiche.com/questions/195035/Digital-Signature-Error-The-Certificate-could-not-be-trusted-1416",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "1416",
+    "message": "The certificate could not be trusted.",
+    "title": "certificate could not be trusted \"[1416]\"",
+    "url": "https://answers.laserfiche.com/questions/187334/certificate-could-not-be-trusted-1416",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "6000",
+    "message": "Unknown error.",
+    "title": "Error Exporting PDF. initializing helper Unknown error. [6000 ]",
+    "url": "https://answers.laserfiche.com/questions/164847/Error-Exporting-PDF--initializing-helper--Unknown-error-6000-",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "6000",
+    "message": "Unknown error.",
+    "title": "Error Code: 6000",
+    "url": "https://answers.laserfiche.com/questions/123888/Error-Code-6000",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
   }
 ]
