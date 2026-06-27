@@ -1,8 +1,10 @@
-import { errorEntries, sourcePriority } from "../src/data/errors.js";
+import { errorEntries, productOptions, sourcePriority, versionOptions } from "../src/data/errors.js";
 import { reviewedSources } from "../src/data/reviewedSources.js";
 
 const errors = [];
 const reviewedUrls = new Set(reviewedSources.map((source) => source.url));
+const validProducts = new Set(productOptions);
+const validVersions = new Set(versionOptions);
 
 for (const entry of errorEntries) {
   for (const field of ["id", "code", "message", "product", "confidence", "reviewedDate", "summary"]) {
@@ -10,6 +12,14 @@ for (const entry of errorEntries) {
   }
   if (!Array.isArray(entry.versions) || entry.versions.length === 0) {
     errors.push(`${entry.id} must include at least one version label`);
+  }
+  if (!validProducts.has(entry.product)) {
+    errors.push(`${entry.id} uses unknown product ${entry.product}`);
+  }
+  for (const version of entry.versions ?? []) {
+    if (!validVersions.has(version)) {
+      errors.push(`${entry.id} uses unknown version ${version}`);
+    }
   }
   if (!Array.isArray(entry.sources) || entry.sources.length === 0) {
     errors.push(`${entry.id} must include source evidence`);

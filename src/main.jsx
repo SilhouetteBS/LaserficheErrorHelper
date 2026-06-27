@@ -10,7 +10,7 @@ import {
   Search,
   ShieldCheck,
 } from "lucide-react";
-import { errorEntries, sourcePriority } from "./data/errors.js";
+import { errorEntries, productOptions, sourcePriority, versionOptions } from "./data/errors.js";
 import { reviewedSources } from "./data/reviewedSources.js";
 import "./styles.css";
 
@@ -18,6 +18,10 @@ const allOption = "All";
 
 function uniqueSorted(values) {
   return [allOption, ...Array.from(new Set(values.filter(Boolean))).sort()];
+}
+
+function withAll(values) {
+  return [allOption, ...values];
 }
 
 function normalize(value) {
@@ -44,8 +48,8 @@ function App() {
 
   const filters = useMemo(
     () => ({
-      products: uniqueSorted(errorEntries.map((entry) => entry.product)),
-      versions: uniqueSorted(errorEntries.flatMap((entry) => entry.versions)),
+      products: withAll(productOptions),
+      versions: withAll(versionOptions),
       sources: uniqueSorted(errorEntries.flatMap((entry) => entry.sources.map((item) => item.sourceType))),
       confidences: uniqueSorted(errorEntries.map((entry) => confidenceLabel(entry.confidence))),
     }),
