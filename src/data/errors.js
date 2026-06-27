@@ -1,3 +1,5 @@
+import { officialDocumentationErrorEntries } from "./officialDocumentationErrors.js";
+
 export const sourcePriority = {
   "official-docs": 1,
   "answers-laserfiche-employee": 2,
@@ -42,7 +44,7 @@ export const sourceTypeOptions = [
   { value: "official-docs", label: "Official Docs" },
 ];
 
-export const errorEntries = [
+const curatedErrorEntries = [
   {
     id: "lf-server-9013-access-denied",
     code: "9013",
@@ -669,3 +671,10 @@ export const errorEntries = [
     ],
   },
 ];
+
+const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
+
+export const errorEntries = [
+  ...curatedErrorEntries,
+  ...officialDocumentationErrorEntries.filter((entry) => !curatedCodes.has(entry.code)),
+].sort((a, b) => a.code.localeCompare(b.code, undefined, { numeric: true }) || a.id.localeCompare(b.id));
