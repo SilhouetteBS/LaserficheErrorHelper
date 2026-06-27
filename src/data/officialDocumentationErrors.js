@@ -4836,7 +4836,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-2500-could-not-create-a-copy-of-the-specified-file-please-make-sure-your-temporary-di",
     "code": "2500",
     "message": "Could not create a copy of the specified file. Please make sure your temporary directory is properly configured.",
-    "product": "Windows Client/Desktop Client",
+    "product": "Common Dialog",
     "versions": [
       "Version 12"
     ],
@@ -4866,7 +4866,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-2504-you-do-not-have-sufficient-permissions-to-import-a-file-into-this-repository",
     "code": "2504",
     "message": "You do not have sufficient permissions to import a file into this repository.",
-    "product": "Windows Client/Desktop Client",
+    "product": "Common Dialog",
     "versions": [
       "Version 12"
     ],
@@ -4897,7 +4897,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-2505-you-do-not-have-permission-to-create-a-folder-at-the-specified-location-please-c",
     "code": "2505",
     "message": "You do not have permission to create a folder at the specified location. Please choose another location.",
-    "product": "Windows Client/Desktop Client",
+    "product": "Common Dialog",
     "versions": [
       "Version 12"
     ],
@@ -4928,7 +4928,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-2506-you-do-not-have-permission-to-create-a-document-at-the-specified-location-please",
     "code": "2506",
     "message": "You do not have permission to create a document at the specified location. Please choose another location.",
-    "product": "Windows Client/Desktop Client",
+    "product": "Common Dialog",
     "versions": [
       "Version 12"
     ],
@@ -4958,7 +4958,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-2507-you-do-not-have-permission-to-create-the-specified-parent-folder-structure-pleas",
     "code": "2507",
     "message": "You do not have permission to create the specified parent folder structure. Please choose a folder that exists or move the new folder to another location.",
-    "product": "Windows Client/Desktop Client",
+    "product": "Common Dialog",
     "versions": [
       "Version 12"
     ],
@@ -4989,7 +4989,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-2508-the-path-must-begin-with-the-repository-name",
     "code": "2508",
     "message": "The path must begin with the repository name.",
-    "product": "Windows Client/Desktop Client",
+    "product": "Common Dialog",
     "versions": [
       "Version 12"
     ],
@@ -5019,7 +5019,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-2509-folder-names-must-have-at-least-one-character-and-cannot-be-made-entirely-of-spa",
     "code": "2509",
     "message": "Folder names must have at least one character and cannot be made entirely of spaces.",
-    "product": "Windows Client/Desktop Client",
+    "product": "Common Dialog",
     "versions": [
       "Version 12"
     ],
@@ -5050,7 +5050,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-2510-the-folder-path-cannot-be-left-empty",
     "code": "2510",
     "message": "The folder path cannot be left empty.",
-    "product": "Windows Client/Desktop Client",
+    "product": "Common Dialog",
     "versions": [
       "Version 12"
     ],
@@ -5080,7 +5080,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-2511-the-name-of-this-entry-cannot-be-left-blank",
     "code": "2511",
     "message": "The name of this entry cannot be left blank.",
-    "product": "Windows Client/Desktop Client",
+    "product": "Common Dialog",
     "versions": [
       "Version 12"
     ],
@@ -5109,7 +5109,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-5100-the-file-chosen-for-export-already-exists-and-the-user-does-not-wish-to-overwrit",
     "code": "5100",
     "message": "The file chosen for export already exists, and the user does not wish to overwrite it.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5139,7 +5139,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-5801-cannot-orient-images-in-folder-x",
     "code": "5801",
     "message": "Cannot orient images in folder x.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5169,7 +5169,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-5802-please-mount-volume-x",
     "code": "5802",
     "message": "Please mount volume x.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5199,7 +5199,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-5850-orient-images-failed-n-page-s",
     "code": "5850",
     "message": "Orient images failed, n page(s).",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5228,7 +5228,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-5851-internal-security-error-n-call-technical-support",
     "code": "5851",
     "message": "Internal security error #n. Call Technical Support.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5258,7 +5258,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-5852-one-or-more-errors-occurred-during-migration",
     "code": "5852",
     "message": "One or more errors occurred during migration.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5287,7 +5287,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6000-unknown-error",
     "code": "6000",
     "message": "Unknown error.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5316,7 +5316,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6001-no-documents-found",
     "code": "6001",
     "message": "No documents found.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5345,7 +5345,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6002-api-user-slot-index-is-invalid",
     "code": "6002",
     "message": "API user slot index is invalid.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5375,7 +5375,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6003-invalid-parameter-passed-to-api",
     "code": "6003",
     "message": "Invalid parameter passed to API.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5405,7 +5405,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6004-a-connection-slot-could-not-be-found-or-created",
     "code": "6004",
     "message": "A connection slot could not be found or created.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5434,7 +5434,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6010-operation-canceled",
     "code": "6010",
     "message": "Operation canceled.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5463,7 +5463,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6020-volume-not-mounted",
     "code": "6020",
     "message": "Volume not mounted.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5493,7 +5493,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6310-engine-error-8310-import-image-failed",
     "code": "6310",
     "message": "Engine Error #8310--import image failed.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5522,7 +5522,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6313-error-reading-directory-toc-failed",
     "code": "6313",
     "message": "Error reading directory--TOC failed.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5552,7 +5552,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6315-repository-is-empty",
     "code": "6315",
     "message": "Repository is empty.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5581,7 +5581,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6316-you-must-specify-the-full-path-to-an-existing-directory-when-you-specify-a-volum",
     "code": "6316",
     "message": "You must specify the full path to an existing directory when you specify a volume.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5612,7 +5612,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6317-permission-denied",
     "code": "6317",
     "message": "Permission denied.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5642,7 +5642,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6321-you-are-not-allowed-to-delete-the-root-folder",
     "code": "6321",
     "message": "You are not allowed to delete the root folder.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5672,7 +5672,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6322-you-are-not-allowed-to-rename-the-root-folder",
     "code": "6322",
     "message": "You are not allowed to rename the root folder.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5702,7 +5702,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6323-operation-failed-name-is-not-valid",
     "code": "6323",
     "message": "Operation failed. Name is not valid.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5731,7 +5731,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6324-more-than-one-file-has-been-selected-this-operation-only-works-on-a-single-file",
     "code": "6324",
     "message": "More than one file has been selected. This operation only works on a single file.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5761,7 +5761,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6325-there-must-be-a-file-selected-for-this-operation",
     "code": "6325",
     "message": "There must be a file selected for this operation.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5791,7 +5791,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6327-only-image-documents-can-be-processed",
     "code": "6327",
     "message": "Only image documents can be processed.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5820,7 +5820,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6328-folders-cannot-be-printed",
     "code": "6328",
     "message": "Folders cannot be printed.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5850,7 +5850,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6334-you-cannot-move-a-page-to-an-electronic-document",
     "code": "6334",
     "message": "You cannot move a page to an electronic document.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5879,7 +5879,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6335-invalid-page-range",
     "code": "6335",
     "message": "Invalid page range.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5909,7 +5909,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6336-unable-to-compress-thumbnail-data",
     "code": "6336",
     "message": "Unable to compress thumbnail data.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5938,7 +5938,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6337-error-decompressing-thumbnail-data",
     "code": "6337",
     "message": "Error decompressing thumbnail data.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5967,7 +5967,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6339-attempted-to-perform-a-folder-operation-on-a-document",
     "code": "6339",
     "message": "Attempted to perform a folder operation on a document.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -5997,7 +5997,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6340-this-document-contains-no-pages",
     "code": "6340",
     "message": "This document contains no pages.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6026,7 +6026,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6341-printing-the-electronic-document-pages-failed",
     "code": "6341",
     "message": "Printing the Electronic Document pages failed.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6055,7 +6055,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6342-the-specified-name-contains-one-or-more-invalid-characters",
     "code": "6342",
     "message": "The specified name contains one or more invalid characters.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6085,7 +6085,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6350-print-job-aborted",
     "code": "6350",
     "message": "Print job aborted.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6114,7 +6114,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6360-the-template-must-have-a-name",
     "code": "6360",
     "message": "The template must have a name.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6143,7 +6143,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6361-the-template-name-is-already-in-use",
     "code": "6361",
     "message": "The template name is already in use.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6172,7 +6172,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6362-a-template-cannot-be-created-without-fields",
     "code": "6362",
     "message": "A template cannot be created without fields.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6201,7 +6201,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6363-template-field-names-must-be-unique",
     "code": "6363",
     "message": "Template field names must be unique.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6230,7 +6230,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6364-string-fields-must-be-between-1-and-4000-characters",
     "code": "6364",
     "message": "String fields must be between 1 and 4000 characters.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6259,7 +6259,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6365-the-template-could-not-be-deleted-there-are-documents-still-attached-to-it",
     "code": "6365",
     "message": "The template could not be deleted. There are documents still attached to it.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6288,7 +6288,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6366-template-field-names-must-contain-only-letters-numbers-and-spaces",
     "code": "6366",
     "message": "Template field names must contain only letters, numbers, and spaces.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6318,7 +6318,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6367-changing-the-template-field-type-or-width-to-a-smaller-size-can-cause-irreparabl",
     "code": "6367",
     "message": "Changing the template field TYPE or WIDTH (to a smaller size) can cause irreparable data loss.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6347,7 +6347,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6368-the-maximum-number-of-template-fields-has-been-reached",
     "code": "6368",
     "message": "The maximum number of template fields has been reached.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6377,7 +6377,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6380-the-document-contains-a-missing-image",
     "code": "6380",
     "message": "The document contains a missing image.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6407,7 +6407,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6381-the-image-orientation-could-not-be-retrieved",
     "code": "6381",
     "message": "The image orientation could not be retrieved.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6436,7 +6436,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6382-a-temporary-image-file-could-not-be-stored",
     "code": "6382",
     "message": "A temporary image file could not be stored.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6466,7 +6466,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6384-the-image-could-not-be-converted-to-tiff-format",
     "code": "6384",
     "message": "The image could not be converted to TIFF format.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6495,7 +6495,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6385-the-server-path-provided-was-not-in-the-proper-format",
     "code": "6385",
     "message": "The server path provided was not in the proper format.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6525,7 +6525,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6386-the-ocr-engine-was-not-found",
     "code": "6386",
     "message": "The OCR engine was not found.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6555,7 +6555,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6387-the-language-selected-for-the-ocr-engine-is-not-valid",
     "code": "6387",
     "message": "The language selected for the OCR engine is not valid.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6584,7 +6584,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6388-can-t-delete-user-from-deletegroup-in-lfapicom",
     "code": "6388",
     "message": "Can't delete user (from DeleteGroup in LFAPICom).",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6613,7 +6613,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6389-can-t-delete-group-from-deleteuser-in-lfapicom",
     "code": "6389",
     "message": "Can't delete group (from DeleteUser in LFAPICom).",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6642,7 +6642,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6390-unable-to-generate-a-thumbnail",
     "code": "6390",
     "message": "Unable to generate a thumbnail.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6671,7 +6671,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6395-unable-to-read-this-version-of-briefcase",
     "code": "6395",
     "message": "Unable to read this version of briefcase.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6700,7 +6700,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6396-invalid-briefcase-file",
     "code": "6396",
     "message": "Invalid briefcase file.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6731,7 +6731,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6397-unexpected-end-of-file-in-briefcase",
     "code": "6397",
     "message": "Unexpected end of file in briefcase.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6761,7 +6761,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6398-the-tokens-in-the-document-name-are-not-valid-the-tokens-have-not-been-replaced",
     "code": "6398",
     "message": "The tokens in the document name are not valid. The tokens have not been replaced.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6790,7 +6790,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6399-this-account-does-not-have-rights-to-folders",
     "code": "6399",
     "message": "This account does not have rights to folders.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6822,7 +6822,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6400-importing-not-completed",
     "code": "6400",
     "message": "Importing not completed.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6851,7 +6851,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6401-the-date-value-entered-is-not-valid",
     "code": "6401",
     "message": "The date value entered is not valid.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6880,7 +6880,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6402-the-numeric-value-entered-is-not-valid",
     "code": "6402",
     "message": "The numeric value entered is not valid.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6909,7 +6909,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6403-the-password-entered-is-not-correct",
     "code": "6403",
     "message": "The password entered is not correct.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6939,7 +6939,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6404-there-is-not-enough-memory-please-select-fewer-items",
     "code": "6404",
     "message": "There is not enough memory, please select fewer items.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6969,7 +6969,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6405-this-name-already-exists-select-a-different-one",
     "code": "6405",
     "message": "This name already exists; select a different one.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -6998,7 +6998,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6406-source-images-have-not-been-deleted",
     "code": "6406",
     "message": "Source images have not been deleted.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7027,7 +7027,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6407-you-cannot-remove-supervisor-privileges-from-your-own-account",
     "code": "6407",
     "message": "You cannot remove supervisor privileges from your own account.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7057,7 +7057,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6408-error-reading-file",
     "code": "6408",
     "message": "Error reading file.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7087,7 +7087,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6409-error-writing-to-file",
     "code": "6409",
     "message": "Error writing to file.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7117,7 +7117,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6410-error-opening-file",
     "code": "6410",
     "message": "Error opening file.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7147,7 +7147,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6411-error-creating-file",
     "code": "6411",
     "message": "Error creating file.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7177,7 +7177,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6412-error-deleting-file",
     "code": "6412",
     "message": "Error deleting file.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7207,7 +7207,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6413-error-seeking-in-file",
     "code": "6413",
     "message": "Error seeking in file.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7237,7 +7237,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6414-access-denied-to-file-or-path",
     "code": "6414",
     "message": "Access denied to file or path.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7268,7 +7268,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6415-a-thumbnail-could-not-be-generated-from-an-image",
     "code": "6415",
     "message": "A thumbnail could not be generated from an image.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7297,7 +7297,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6416-cannot-add-to-folder-list-selection",
     "code": "6416",
     "message": "Cannot add to folder list selection.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7327,7 +7327,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6419-the-volume-has-not-been-bundled",
     "code": "6419",
     "message": "The volume has not been bundled.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7357,7 +7357,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6420-unable-to-create-the-specified-path",
     "code": "6420",
     "message": "Unable to create the specified path.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7387,7 +7387,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6421-the-file-chosen-for-export-already-exists-and-the-user-does-not-wish-to-overwrit",
     "code": "6421",
     "message": "The file chosen for export already exists, and the user does not wish to overwrite it.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7417,7 +7417,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6430-a-folder-in-the-list-import-file-could-not-be-found-or-created",
     "code": "6430",
     "message": "A folder in the list import file could not be found or created.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7447,7 +7447,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6431-the-name-provided-with-the-rename-directive-is-invalid",
     "code": "6431",
     "message": "The name provided with the RENAME directive is invalid.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7477,7 +7477,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6432-a-document-s-pages-could-not-be-imported",
     "code": "6432",
     "message": "A document's pages could not be imported.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7506,7 +7506,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6433-the-name-provided-with-a-document-was-absent",
     "code": "6433",
     "message": "The name provided with a document was absent.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7535,7 +7535,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6434-the-syntax-of-the-list-import-file-was-incorrect",
     "code": "6434",
     "message": "The syntax of the list import file was incorrect.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7565,7 +7565,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6436-the-end-of-the-file-was-reached-before-the-endfields-directive-was-found",
     "code": "6436",
     "message": "The end of the file was reached before the ENDFIELDS directive was found.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7595,7 +7595,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6439-the-option-for-indexing-is-invalid",
     "code": "6439",
     "message": "The option for indexing is invalid.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7625,7 +7625,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6440-the-specified-file-is-not-a-valid-laserfiche-import-list",
     "code": "6440",
     "message": "The specified file is not a valid Laserfiche import list.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7655,7 +7655,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6441-the-import-process-was-interrupted-unexpectedly",
     "code": "6441",
     "message": "The import process was interrupted unexpectedly.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7684,7 +7684,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6470-no-audit-reason-was-provided-or-the-audit-reason-is-invalid",
     "code": "6470",
     "message": "No audit reason was provided, or the audit reason is invalid.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7714,7 +7714,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6500-invalid-serial-number",
     "code": "6500",
     "message": "Invalid serial number.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7744,7 +7744,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6501-invalid-registration-information",
     "code": "6501",
     "message": "Invalid registration information.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7774,7 +7774,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6502-unable-to-find-the-specified-laserfiche-repository",
     "code": "6502",
     "message": "Unable to find the specified Laserfiche repository.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7803,7 +7803,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6503-laserfiche-has-detected-an-earlier-fatal-exit-please-restart-windows-before-relo",
     "code": "6503",
     "message": "Laserfiche has detected an earlier fatal exit. Please restart Windows before reloading Laserfiche.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7832,7 +7832,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6505-unable-to-find-the-specified-laserfiche-server",
     "code": "6505",
     "message": "Unable to find the specified Laserfiche server.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7861,7 +7861,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6506-laserfiche-could-not-update-your-old-repository-there-is-an-error-in-the-reposit",
     "code": "6506",
     "message": "Laserfiche could not update your old repository. There is an error in the repository files.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7891,7 +7891,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6507-maximum-users-exceeded",
     "code": "6507",
     "message": "Maximum users exceeded.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7921,7 +7921,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6508-the-user-name-or-password-is-incorrect",
     "code": "6508",
     "message": "The user name or password is incorrect.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7951,7 +7951,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6509-evaluation-copy-has-expired",
     "code": "6509",
     "message": "Evaluation copy has expired.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -7980,7 +7980,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6510-corrupt-dll",
     "code": "6510",
     "message": "Corrupt DLL",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8009,7 +8009,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6511-the-specified-drive-is-out-of-space",
     "code": "6511",
     "message": "The specified drive is out of space.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8039,7 +8039,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6512-error-opening-repository-check-log-file-for-more-information",
     "code": "6512",
     "message": "Error opening repository. Check log file for more information.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8069,7 +8069,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6513-laserfiche-requires-version-5-10-or-higher-of-wbtrv32-dll",
     "code": "6513",
     "message": "Laserfiche requires version 5.10 or higher of WBTRV32.DLL.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8098,7 +8098,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6515-error-locating-library",
     "code": "6515",
     "message": "Error locating library.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8127,7 +8127,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6516-error-loading-library",
     "code": "6516",
     "message": "Error loading library.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8156,7 +8156,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6517-the-laserfiche-server-is-from-a-previous-version-and-cannot-be-accessed-from-thi",
     "code": "6517",
     "message": "The Laserfiche Server is from a previous version and cannot be accessed from this version of the client.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8186,7 +8186,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6518-write-failed-disk-space-may-be-running-low",
     "code": "6518",
     "message": "Write failed. Disk space may be running low.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8216,7 +8216,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6519-not-enough-memory-to-complete-operation-please-close-some-applications-and-try-a",
     "code": "6519",
     "message": "Not enough memory to complete operation. Please close some applications and try again.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8246,7 +8246,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6520-time-out-for-operation-call",
     "code": "6520",
     "message": "Time-out for operation call.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8275,7 +8275,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6522-the-server-did-not-respond-correctly-to-the-last-function",
     "code": "6522",
     "message": "The server did not respond correctly to the last function.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8304,7 +8304,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6524-invalid-ip-address",
     "code": "6524",
     "message": "Invalid IP address.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8334,7 +8334,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6525-ip-connection-failed",
     "code": "6525",
     "message": "IP connection failed.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8363,7 +8363,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6526-this-client-is-a-viewer-for-a-specific-repository-and-will-not-work-with-other-r",
     "code": "6526",
     "message": "This client is a viewer for a specific repository and will not work with other repositories.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8392,7 +8392,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6527-maximum-connections-exceeded",
     "code": "6527",
     "message": "Maximum connections exceeded.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8422,7 +8422,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6528-invalid-connection",
     "code": "6528",
     "message": "Invalid connection.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8452,7 +8452,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6529-please-run-this-version-of-laserfiche-from-the-laserfiche-loader-lfview-exe",
     "code": "6529",
     "message": "Please run this version of Laserfiche from the Laserfiche Loader (LFVIEW.EXE)",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8481,7 +8481,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6530-this-copy-of-laserfiche-is-unlicensed-so-it-will-run-as-laserfiche-viewer-for-in",
     "code": "6530",
     "message": "This copy of Laserfiche is unlicensed, so it will run as Laserfiche Viewer. For information on full-featured versions of Laserfiche, please contact the nearest Laserfiche reseller.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8510,7 +8510,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6531-the-license-file-for-this-copy-of-laserfiche-has-been-corrupted",
     "code": "6531",
     "message": "The license file for this copy of Laserfiche has been corrupted!",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8540,7 +8540,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6532-your-connection-has-been-terminated",
     "code": "6532",
     "message": "Your connection has been terminated.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8569,7 +8569,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6534-laserfiche-is-unable-to-store-a-temporary-copy-of-the-electronic-file-you-are-at",
     "code": "6534",
     "message": "Laserfiche is unable to store a temporary copy of the electronic file you are attempting to open.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8599,7 +8599,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6535-the-mapi-subsystem-mapi32-dll-could-not-be-loaded-make-sure-your-e-mail-client-i",
     "code": "6535",
     "message": "The MAPI Subsystem (mapi32.dll) could not be loaded. Make sure your e-mail client is properly installed and configured to work with MAPI.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8628,7 +8628,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6537-failed-to-initialize-mapi",
     "code": "6537",
     "message": "Failed to initialize MAPI.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8657,7 +8657,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6550-the-search-was-not-successfully-initialized",
     "code": "6550",
     "message": "The search was not successfully initialized.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8686,7 +8686,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6551-search-error",
     "code": "6551",
     "message": "Search error",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8715,7 +8715,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6552-search-error",
     "code": "6552",
     "message": "Search error",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8744,7 +8744,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6553-search-error",
     "code": "6553",
     "message": "Search error",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8773,7 +8773,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6554-search-error",
     "code": "6554",
     "message": "Search error",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8802,7 +8802,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6561-error-creating-new-volume-volume-already-exists",
     "code": "6561",
     "message": "Error creating new volume/ Volume already exists.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8832,7 +8832,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6562-error-creating-directory",
     "code": "6562",
     "message": "Error creating directory.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8862,7 +8862,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6563-engine-error-8663",
     "code": "6563",
     "message": "Engine error #8663.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8891,7 +8891,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6564-volume-label-not-created",
     "code": "6564",
     "message": "Volume label not created.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8921,7 +8921,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6565-the-volume-name-is-already-in-use",
     "code": "6565",
     "message": "The volume name is already in use.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8951,7 +8951,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6567-the-volume-is-marked-read-only",
     "code": "6567",
     "message": "The volume is marked read-only.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -8981,7 +8981,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6568-the-volume-could-not-be-found",
     "code": "6568",
     "message": "The volume could not be found.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9011,7 +9011,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6571-could-not-find-the-specified-template",
     "code": "6571",
     "message": "Could not find the specified template.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9040,7 +9040,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6572-one-or-more-template-field-values-supplied-are-invalid",
     "code": "6572",
     "message": "One or more template field values supplied are invalid.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9070,7 +9070,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6580-the-bitmap-file-cannot-be-made-into-a-stamp",
     "code": "6580",
     "message": "The bitmap file cannot be made into a stamp.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9100,7 +9100,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6581-the-selected-file-exceeds-the-size-limit",
     "code": "6581",
     "message": "The selected file exceeds the size limit.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9131,7 +9131,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6582-the-hardlock-is-connected-but-not-programmed-the-application-will-now-close",
     "code": "6582",
     "message": "The Hardlock is connected but not programmed. The application will now close.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9161,7 +9161,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6583-the-hardlock-is-not-compatible-with-this-product-the-application-will-now-close",
     "code": "6583",
     "message": "The Hardlock is not compatible with this product. The application will now close.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9191,7 +9191,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6590-could-not-find-scanning-components",
     "code": "6590",
     "message": "Could not find scanning components.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9220,7 +9220,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6601-problem-with-display-engine",
     "code": "6601",
     "message": "Problem with display engine.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9249,7 +9249,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6602-display-engine-out-of-memory",
     "code": "6602",
     "message": "Display engine out of memory.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9279,7 +9279,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6603-i-o-error-in-display-engine",
     "code": "6603",
     "message": "I/O error in display engine.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9308,7 +9308,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6604-unknown-image-format-or-the-format-is-not-allowed",
     "code": "6604",
     "message": "Unknown image format, or the format is not allowed.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9337,7 +9337,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6605-operation-canceled",
     "code": "6605",
     "message": "Operation canceled.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9366,7 +9366,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6606-invalid-display-destination",
     "code": "6606",
     "message": "Invalid display destination.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9396,7 +9396,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6607-invalid-image-handle-in-display-engine",
     "code": "6607",
     "message": "Invalid image handle in display engine.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9426,7 +9426,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6608-unknown-display-engine-error",
     "code": "6608",
     "message": "Unknown display engine error.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9455,7 +9455,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6611-illegal-source-format",
     "code": "6611",
     "message": "Illegal source format.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9484,7 +9484,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6612-illegal-target-format",
     "code": "6612",
     "message": "Illegal target format.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9513,7 +9513,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6613-source-file-not-found",
     "code": "6613",
     "message": "Source file not found.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9544,7 +9544,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6614-invalid-parameter",
     "code": "6614",
     "message": "Invalid parameter.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9574,7 +9574,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6720-could-not-create-required-control",
     "code": "6720",
     "message": "Could not create required control.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9603,7 +9603,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6721-cannot-find-file",
     "code": "6721",
     "message": "Cannot find file.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9633,7 +9633,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6722-cannot-find-file",
     "code": "6722",
     "message": "Cannot find file.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9663,7 +9663,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6730-folders-cannot-be-moved-under-themselves",
     "code": "6730",
     "message": "Folders cannot be moved under themselves.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9693,7 +9693,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6731-folders-cannot-be-moved-under-themselves",
     "code": "6731",
     "message": "Folders cannot be moved under themselves.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9723,7 +9723,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6751-the-parameter-is-incorrect",
     "code": "6751",
     "message": "The parameter is incorrect.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9752,7 +9752,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6752-unable-to-find-the-specified-entry",
     "code": "6752",
     "message": "Unable to find the specified entry.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9781,7 +9781,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6753-the-memory-buffer-is-too-small",
     "code": "6753",
     "message": "The memory buffer is too small.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9811,7 +9811,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6754-no-data-is-available",
     "code": "6754",
     "message": "No data is available.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9840,7 +9840,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6755-folders-cannot-be-copied",
     "code": "6755",
     "message": "Folders cannot be copied.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9870,7 +9870,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6800-could-not-find-local-check-out-information",
     "code": "6800",
     "message": "Could not find local check out information.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9899,7 +9899,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6801-could-not-store-local-check-out-information",
     "code": "6801",
     "message": "Could not store local check out information.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9928,7 +9928,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6802-the-entry-is-locked-by-another-user",
     "code": "6802",
     "message": "The entry is locked by another user.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9958,7 +9958,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6850-the-entry-is-under-hold",
     "code": "6850",
     "message": "The entry is under hold.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -9987,7 +9987,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6900-the-certificate-is-not-yet-valid",
     "code": "6900",
     "message": "The certificate is not yet valid.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -10016,7 +10016,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6901-the-certificate-is-expired",
     "code": "6901",
     "message": "The certificate is expired.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -10045,7 +10045,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6902-the-certificate-does-not-contain-a-private-key",
     "code": "6902",
     "message": "The certificate does not contain a private key.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -10074,7 +10074,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6903-the-certificate-cannot-be-used-to-sign",
     "code": "6903",
     "message": "The certificate cannot be used to sign.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],
@@ -10103,7 +10103,7 @@ export const officialDocumentationErrorEntries = [
     "id": "official-lf12-6920-there-was-an-error-launching-microsoft-word",
     "code": "6920",
     "message": "There was an error launching Microsoft Word.",
-    "product": "Laserfiche Server/Repository Server",
+    "product": "Windows Client/Desktop Client",
     "versions": [
       "Version 12"
     ],

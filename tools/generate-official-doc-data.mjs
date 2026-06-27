@@ -41,8 +41,29 @@ function slug(value) {
     .slice(0, 80);
 }
 
-function productFor(section) {
-  if (section === "Common Dialog Errors") return "Windows Client/Desktop Client";
+function numberFromCode(code) {
+  return Number.parseInt(code, 10);
+}
+
+function productFor(section, code) {
+  const number = numberFromCode(code);
+
+  if (section === "Common Dialog Errors" || (number >= 2500 && number <= 2599)) {
+    return "Common Dialog";
+  }
+
+  if (/Workflow/i.test(section)) {
+    return "Workflow";
+  }
+
+  if ((number >= 700 && number <= 1500) || (number >= 9000 && number <= 10099)) {
+    return "Laserfiche Server/Repository Server";
+  }
+
+  if (number >= 5100 && number <= 6999) {
+    return "Windows Client/Desktop Client";
+  }
+
   return "Laserfiche Server/Repository Server";
 }
 
@@ -112,7 +133,7 @@ async function main() {
       id: `official-lf12-${code}-${slug(description)}`,
       code,
       message: description,
-      product: productFor(normalizedSection),
+      product: productFor(normalizedSection, code),
       versions: ["Version 12"],
       confidence: "low",
       reviewedDate: "2026-06-27",
