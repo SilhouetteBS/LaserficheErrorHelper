@@ -245,45 +245,49 @@ function App() {
               <p>No curated entries match the current filters.</p>
             </div>
           ) : (
-            Object.entries(groupedEntries).map(([groupProduct, entries]) => (
-              <div className="result-group" key={groupProduct}>
-                <button
-                  aria-expanded={!collapsedGroups[groupProduct]}
-                  className="group-toggle"
-                  onClick={() =>
-                    setCollapsedGroups((current) => ({
-                      ...current,
-                      [groupProduct]: !current[groupProduct],
-                    }))
-                  }
-                  type="button"
-                >
-                  {collapsedGroups[groupProduct] ? (
-                    <ChevronRight aria-hidden="true" size={17} />
-                  ) : (
-                    <ChevronDown aria-hidden="true" size={17} />
-                  )}
-                  <span>{groupProduct}</span>
-                  <small>{entries.length}</small>
-                </button>
-                {!collapsedGroups[groupProduct] &&
-                  entries.map((entry) => (
-                    <button
-                      className={`result-row ${selectedEntry?.id === entry.id ? "selected" : ""}`}
-                      key={entry.id}
-                      onClick={() => setSelectedId(entry.id)}
-                      type="button"
-                    >
-                      <span className="code">{entry.code}</span>
-                      <span>
-                        <strong>{entry.message}</strong>
-                        <small>{entry.summary}</small>
-                      </span>
-                      <ConfidenceBadge value={entry.confidence} />
-                    </button>
-                  ))}
-              </div>
-            ))
+            Object.entries(groupedEntries).map(([groupProduct, entries]) => {
+              const isCollapsed = collapsedGroups[groupProduct] ?? true;
+
+              return (
+                <div className="result-group" key={groupProduct}>
+                  <button
+                    aria-expanded={!isCollapsed}
+                    className="group-toggle"
+                    onClick={() =>
+                      setCollapsedGroups((current) => ({
+                        ...current,
+                        [groupProduct]: !isCollapsed,
+                      }))
+                    }
+                    type="button"
+                  >
+                    {isCollapsed ? (
+                      <ChevronRight aria-hidden="true" size={17} />
+                    ) : (
+                      <ChevronDown aria-hidden="true" size={17} />
+                    )}
+                    <span>{groupProduct}</span>
+                    <small>{entries.length}</small>
+                  </button>
+                  {!isCollapsed &&
+                    entries.map((entry) => (
+                      <button
+                        className={`result-row ${selectedEntry?.id === entry.id ? "selected" : ""}`}
+                        key={entry.id}
+                        onClick={() => setSelectedId(entry.id)}
+                        type="button"
+                      >
+                        <span className="code">{entry.code}</span>
+                        <span>
+                          <strong>{entry.message}</strong>
+                          <small>{entry.summary}</small>
+                        </span>
+                        <ConfidenceBadge value={entry.confidence} />
+                      </button>
+                    ))}
+                </div>
+              );
+            })
           )}
         </aside>
 

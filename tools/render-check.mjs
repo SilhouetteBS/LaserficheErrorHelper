@@ -30,6 +30,7 @@ try {
   });
   await page.goto(url, { waitUntil: "networkidle" });
   await page.getByPlaceholder("Search code, message, symptom, product, or fix").fill("9030");
+  await page.getByRole("button", { name: /Laserfiche Server\/Repository Server/ }).click();
   await page.getByRole("button", { name: /9030 Maximum sessions or licensing limit reached/ }).click();
   await page.screenshot({ path: desktopScreenshot, fullPage: false });
   const visible = await page.getByText("Likely Fixes").isVisible();
