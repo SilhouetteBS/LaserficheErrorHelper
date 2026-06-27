@@ -1182,6 +1182,324 @@ const curatedErrorEntries = [
     ],
   },
   {
+    id: "lf-server-9017-bad-field-value-date-format",
+    code: "9017",
+    message: "Bad Field Value",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The value being written to a repository field is not valid for that field type. Reviewed Answers threads most often show this with Workflow or Forms date tokens being written to Laserfiche date fields.",
+    symptoms: [
+      "Workflow reports The data assigned to field is not valid. 9017.",
+      "A text or regular-expression token is written into a Laserfiche date field.",
+      "The issue may start after changing a metadata field from text to date.",
+    ],
+    likelyFixes: [
+      "Track the token value immediately before the field assignment and confirm it matches the expected field type.",
+      "For date fields, reformat extracted strings into the Windows date format used by the Workflow server or into the field's configured display format.",
+      "Use Workflow token calculation or substitution to convert values such as YYYYMMDD before assigning them to a date field.",
+      "Confirm that the Laserfiche field type still matches the values being supplied by Forms or Workflow.",
+    ],
+    notes:
+      "One reviewed thread names Forms 10.2.0.834. The Version 12 tag is retained because 9017 is also listed in the Laserfiche 12 official error code table.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9017 as Bad Field Value.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "9017 Bad field value. [0265-WF10]",
+        url: "https://answers.laserfiche.com/questions/129280/9017-Bad-field-value-0265WF10",
+        note:
+          "Laserfiche employee guidance recommends tracking the value before it is set and checking whether it matches the Workflow server's Windows date format.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Date column invalid format error: The data assigned to field 'Student DOB' is not valid. 9017",
+        url: "https://answers.laserfiche.com/questions/231597/Date-column-invalid-format-error-The-data-assigned-to-field-Student-DOB-is-not-valid-9017",
+        note:
+          "Community guidance explains that an extracted YYYYMMDD value must be converted before assignment to a Laserfiche date field.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9022-volume-locked",
+    code: "9022",
+    message: "Volume Currently Locked or in Use",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche cannot change a volume path, read-only state, or enabled state while something still has the volume open.",
+    symptoms: [
+      "Changing a volume path, marking a volume read-only, or disabling a volume fails with 9022.",
+      "The volume appears unused, but background services may still hold locks.",
+    ],
+    likelyFixes: [
+      "Check whether indexing or another Laserfiche background service is using the volume.",
+      "Perform volume maintenance during a controlled outage when users and automation are disconnected.",
+      "If a lock does not clear after normal shutdown, collect server/service state and involve Laserfiche Support before forcing changes.",
+    ],
+    notes:
+      "The reviewed employee-backed thread discusses administrative volume changes rather than document-level user locks.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9022 as Volume Currently Locked or in Use.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Volume currently locked or in use. [9022] - can't mark as Read-only, disable, or change fixed path",
+        url: "https://answers.laserfiche.com/questions/82855/Volume-currently-locked-or-in-use-9022--cant-mark-as-Readonly-disable-or-change-fixed-path",
+        note:
+          "The thread identifies background services such as indexing as a possible reason a volume remains locked during administrative changes.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9029-repository-license-limit",
+    code: "9029",
+    message: "The Maximum Number of Repositories That This Server Instance Is Licensed For Has Been Reached",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The server believes its license allows no additional repositories. In one reviewed first-repository scenario, the likely cause was license validation failing.",
+    symptoms: [
+      "Creating or attaching a repository fails with 9029 even when no repository has been created yet.",
+      "Administration Console may show Maximum Repositories allowed as 0.",
+    ],
+    likelyFixes: [
+      "Open the Administration Console and check the server's repository license count.",
+      "Confirm the Laserfiche Server service can validate the license and has the correct license file.",
+      "Restart the Laserfiche Server service after correcting license validation or connectivity issues.",
+      "Contact Laserfiche Support or your reseller if the license count remains wrong.",
+    ],
+    notes:
+      "The reviewed Answers thread is community-confirmed rather than a Laserfiche employee answer, so confidence remains medium.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9029 as the maximum repository count being reached.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "1st repository creation : error 9029 - the maximum number of repositories has been reached",
+        url: "https://answers.laserfiche.com/questions/65262/1st-repository-creation--error-9029--the-maximum-number-of-repositories-has-been-reached",
+        note:
+          "Accepted guidance points to failed server license validation and checking whether the Administration Console shows Maximum Repositories allowed as 0.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9035-too-many-operations",
+    code: "9035",
+    message: "The Current Request Could Not Be Executed Because There Are Too Many Existing Operations Executing",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 11", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche reports too many concurrent operations. A reviewed WebLink 11 thread identifies one known issue that required a Laserfiche Support supplied fix.",
+    symptoms: [
+      "Requests fail or log warnings with 9035.",
+      "WebLink 11 operational logs may show the warning while loading tile data.",
+      "The server may not show obvious CPU, memory, or disk pressure.",
+    ],
+    likelyFixes: [
+      "Check whether many long-running repository operations are active and retry when load is lower.",
+      "For WebLink 11.0.2307.136 with repeated tile-data warnings, contact Laserfiche Support for the applicable fix.",
+      "Review product updates or hotfix guidance before applying private fixes in production.",
+    ],
+    notes:
+      "The strongest reviewed thread is WebLink-specific and mentions WebLink 11.0.2307.136. Treat that as a scenario-specific fix path.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9035 as too many existing operations executing.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "The current request could not be performed because there are too many existing operations running. [9035]",
+        url: "https://answers.laserfiche.com/questions/221839/The-current-request-could-not-be-performed-because-there-are-too-many-existing-operations-running-9035",
+        note:
+          "Laserfiche employee response says the WebLink 11 scenario was a known issue and that Technical Support had a potential fix.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9044-invalid-volume-path",
+    code: "9044",
+    message: "Invalid Volume Path",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 12"],
+    confidence: "high",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The volume path is invalid or inaccessible to the Laserfiche Server service account.",
+    symptoms: [
+      "Creating or editing a volume fails with Invalid volume path. [9044].",
+      "The path may look valid to an administrator but not be reachable by the service identity.",
+    ],
+    likelyFixes: [
+      "Check the Windows account running the Laserfiche Server service.",
+      "Grant that service account full control to the volume folder as required by the environment.",
+      "If the volume is on a network share, use a service account that can access the share and configure the path with UNC notation.",
+      "Avoid relying on Local System for remote or non-local volume paths.",
+    ],
+    notes:
+      "Reviewed Laserfiche employee guidance calls out Local System account limitations and filesystem permissions.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9044 as Invalid Volume Path.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Invalid volume path. [9044]",
+        url: "https://answers.laserfiche.com/questions/94688/Invalid-volume-path-9044",
+        note:
+          "Laserfiche employee response lists root causes including the server service running as Local System and missing folder permissions for the volume path.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9051-operation-not-recognized-client-102",
+    code: "9051",
+    message: "The Specified Operation Is Not Recognized",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The server or client does not recognize the requested operation. A reviewed Laserfiche 10.2 scanning/client scenario was a known bug fixed in 10.2.1.",
+    symptoms: [
+      "Laserfiche Scanning or a client integration fails with 9051 after upgrading to 10.2.",
+      "The Windows Client may crash or fail while storing scanned pages into an existing document.",
+      "SDK integrations using older client automation components may surface the error after a client upgrade.",
+    ],
+    likelyFixes: [
+      "If the environment is Laserfiche 10.2, upgrade the Windows Client and related runtime components to 10.2.1 or later.",
+      "Confirm whether the failing workflow, SDK, or client action depends on an older client automation command.",
+      "Collect the full technical details and product versions before opening a support case for other 9051 scenarios.",
+    ],
+    notes:
+      "The reviewed fix is specific to Laserfiche 10.2 bug 154363. Version 12 remains included because the code exists in the current official error listing.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9051 as The Specified Operation Is Not Recognized.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "10.2 Client crashes with \"The specified operation is not recognized. [9051]\"",
+        url: "https://answers.laserfiche.com/questions/117439/102-Client-crashes-with-The-specified-operation-is-not-recognized-9051",
+        note:
+          "Laserfiche employee response identifies a known 10.2 issue, reference 154363, and confirms it was fixed with 10.2.1.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9059-entry-sharing-violation",
+    code: "9059",
+    message: "Operation Failed Due To Entry Sharing Violation",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "An entry operation hit a sharing violation. A reviewed PDF import scenario was tied to generated text during import and a Laserfiche Server 10.1 fix.",
+    symptoms: [
+      "PDF import fails with 9059 when Generate Text is selected.",
+      "Workflow or rights-related operations may also log sharing-violation warnings.",
+    ],
+    likelyFixes: [
+      "For Laserfiche Server 10.1 PDF import cases, verify the server is updated to a build that includes bug 136436.",
+      "If the issue persists after updating, test whether the PDF format is unsupported by the third-party PDF component used by Laserfiche.",
+      "Disable generated text during import as a diagnostic step and compare behavior.",
+      "Open a support case when the failure is reproducible with a sample PDF.",
+    ],
+    notes:
+      "The reviewed thread includes both employee bug guidance and community follow-up that unsupported PDF format may still be a factor.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9059 as Operation Failed Due To Entry Sharing Violation.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Operation failed due to entry sharing violation. [9059]",
+        url: "https://answers.laserfiche.com/questions/114221/Operation-failed-due-to-entry-sharing-violation-9059",
+        note:
+          "Laserfiche employee response says the PDF import/generate-text scenario should be fixed in the latest 10.1 Laserfiche Server, bug 136436.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9063-entry-locked-refresh-needed",
+    code: "9063",
+    message: "The entry is locked and cannot be modified, or the object needs to be refreshed before it can be updated.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The entry was locked or stale when the client tried to save changes. Reviewed Laserfiche 9.x threads point to fixes in later builds and refreshing or reopening affected objects.",
+    symptoms: [
+      "The Windows Client reports 9063 while advancing between documents, renaming an open document, or saving metadata.",
+      "The object may still save some changes even though the client reports a lock or refresh error.",
+    ],
+    likelyFixes: [
+      "Refresh or reopen the document before retrying the change.",
+      "Check whether Workflow or another client is modifying the same document at the same time.",
+      "For Laserfiche 9.1.1.546 Alt+Down scenarios, contact support or update to a later fixed build.",
+      "For Laserfiche 9.1 rename-while-open scenarios, upgrade to 9.2 or later based on the reviewed employee reproduction.",
+    ],
+    notes:
+      "Reviewed threads mention Laserfiche 9.1.1.546, support-provided lfs.exe build 9.1.1.564, and a separate issue reproduced in 9.1 but not 9.2.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9063 as an entry lock or refresh-needed error.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche 9.1.1.546 Client Error Code 9063",
+        url: "https://answers.laserfiche.com/questions/61491/Laserfiche-911546-Client-Error-Code-9063",
+        note:
+          "The requester reports support supplied lfs.exe build 9.1.1.564 and attributed the lock condition to multiple application access.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Client getting 9063 error when renaming document",
+        url: "https://answers.laserfiche.com/questions/117586/Client-getting-9063-error-when-renaming-document",
+        note:
+          "Laserfiche employee response says the rename-while-open scenario was reproducible in 9.1 but not 9.2.",
+      },
+    ],
+  },
+  {
     id: "lf-server-9128-briefcase-import-failed",
     code: "9128",
     message: "The briefcase failed to import",

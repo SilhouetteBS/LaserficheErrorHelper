@@ -6924,5 +6924,1063 @@
     "noMatch": false,
     "query": "9014 Entry Locked",
     "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9015",
+    "links": [
+      {
+        "title": "Workflow Error [9015] and [9016]",
+        "url": "https://answers.laserfiche.com/questions/179845/Workflow-Error-9015-and-9016"
+      },
+      {
+        "title": "API Export/Import",
+        "url": "https://answers.laserfiche.com/questions/202673/API-ExportImport"
+      },
+      {
+        "title": "Find documents containing no annotations",
+        "url": "https://answers.laserfiche.com/questions/173892/Find-documents-containing-no-annotations"
+      }
+    ],
+    "message": "Template not Found",
+    "noMatch": false,
+    "query": "9015 Template not Found",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9016",
+    "links": [
+      {
+        "title": "Multistatus response. (9039) Another operation on which this operation depends failed. (9054) Field not found. (9016)",
+        "url": "https://answers.laserfiche.com/questions/149180/Multistatus-response-9039-Another-operation-on-which-this-operation-depends-failed-9054--Field-not-found-9016"
+      },
+      {
+        "title": "Search Result 9016 Error: Field Not Found",
+        "url": "https://answers.laserfiche.com/questions/210960/Search-Result-9016-Error-Field-Not-Found"
+      },
+      {
+        "title": "Custom Searches Won't Save with Shared Users and All Syntax is Missing",
+        "url": "https://answers.laserfiche.com/questions/210998/Custom-Searches-Wont-Save-with-Shared-Users-and-All-Syntax-is-Missing"
+      },
+      {
+        "title": "Must a field be created in Administration Console before being added with code?",
+        "url": "https://answers.laserfiche.com/questions/68116/Must-a-field-be-created-in-Administration-Console-before-being-added-with-code"
+      },
+      {
+        "title": "How to create new fields, and Templates using RA",
+        "url": "https://answers.laserfiche.com/questions/53235/How-to-create-new-fields-and-Templates-using-RA"
+      },
+      {
+        "title": "Workflow Error [9015] and [9016]",
+        "url": "https://answers.laserfiche.com/questions/179845/Workflow-Error-9015-and-9016"
+      },
+      {
+        "title": "Modify template name automatically updates related workflow",
+        "url": "https://answers.laserfiche.com/questions/156807/Modify-template-name-automatically-updates-related-workflow"
+      },
+      {
+        "title": "Problem adding field not contained in Template",
+        "url": "https://answers.laserfiche.com/questions/153532/Problem-adding-field-not-contained-in-Template"
+      }
+    ],
+    "message": "Field not Found",
+    "noMatch": false,
+    "query": "9016 Field not Found",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9017",
+    "links": [
+      {
+        "title": "Forms - Save to Repository task - Bad Field Value",
+        "url": "https://answers.laserfiche.com/questions/199468/Forms--Save-to-Repository-task--Bad-Field-Value"
+      },
+      {
+        "title": "Issue with multi row table in form dropping to repository",
+        "url": "https://answers.laserfiche.com/questions/224101/Issue-with-multi-row-table-in-form-dropping-to-repository"
+      },
+      {
+        "title": "9017 Bad field value. [0265-WF10]",
+        "url": "https://answers.laserfiche.com/questions/129280/9017-Bad-field-value-0265WF10"
+      },
+      {
+        "title": "Date column invalid format error: The data assigned to field 'Student DOB' is not valid. 9017",
+        "url": "https://answers.laserfiche.com/questions/231597/Date-column-invalid-format-error-The-data-assigned-to-field-Student-DOB-is-not-valid-9017"
+      },
+      {
+        "title": "Try-Catch on Warning - Workflow Feature Request",
+        "url": "https://answers.laserfiche.com/questions/54484/TryCatch-on-Warning--Workflow-Feature-Request"
+      },
+      {
+        "title": "Bad field value when entering a number into a number field",
+        "url": "https://answers.laserfiche.com/questions/215577/Bad-field-value-when-entering-a-number-into-a-number-field"
+      },
+      {
+        "title": "Bad field value for date field occasionally happening",
+        "url": "https://answers.laserfiche.com/questions/78411/Bad-field-value-for-date-field-occasionally-happening"
+      },
+      {
+        "title": "Upgraded Forms 9.1 - does not apply Forms Submittion template when sending to the repository.",
+        "url": "https://answers.laserfiche.com/questions/47681/Upgraded-Forms-91--does-not-apply-Forms-Submittion-template-when-sending-to-the-repository"
+      },
+      {
+        "title": "Forms not adding Template",
+        "url": "https://answers.laserfiche.com/questions/190178/Forms-not-adding-Template"
+      },
+      {
+        "title": "Clearing a date filed in Workflow v9.2",
+        "url": "https://answers.laserfiche.com/questions/72332/Clearing-a-date-filed-in-Workflow-v92"
+      }
+    ],
+    "message": "Bad Field Value",
+    "noMatch": false,
+    "query": "9017 Bad Field Value",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9018",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "Repository Not Found",
+    "noMatch": false,
+    "query": "9018 Repository Not Found",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9019",
+    "links": [
+      {
+        "title": "9019: Invalid object name",
+        "url": "https://answers.laserfiche.com/questions/88665/9019-Invalid-object-name"
+      },
+      {
+        "title": "Rio upgrade from 9.2 to 10",
+        "url": "https://answers.laserfiche.com/questions/99945/Rio-upgrade-from-92-to-10"
+      },
+      {
+        "title": "Cannot able to Rename a document using SDK function",
+        "url": "https://answers.laserfiche.com/questions/206740/Cannot-able-to-Rename-a-document-using-SDK-function"
+      },
+      {
+        "title": "converting from 9.2 to 10.2 (SDK)",
+        "url": "https://answers.laserfiche.com/questions/127202/converting-from-92-to-102-SDK"
+      },
+      {
+        "title": "\"Object Not Found\" 9019",
+        "url": "https://answers.laserfiche.com/questions/70164/Object-Not-Found-9019"
+      }
+    ],
+    "message": "Invalid Object Name",
+    "noMatch": false,
+    "query": "9019 Invalid Object Name",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9020",
+    "links": [
+      {
+        "title": "Suspend Save to Laserfiche Tasks after upgrading from Ver 9.2 to 10.2",
+        "url": "https://answers.laserfiche.com/questions/124016/Suspend-Save-to-Laserfiche-Tasks-after-upgrading-from-Ver-92-to-102"
+      },
+      {
+        "title": "Search: Parameter is out of range or too long. [9020]",
+        "url": "https://answers.laserfiche.com/questions/79127/Search-Parameter-is-out-of-range-or-too-long-9020"
+      },
+      {
+        "title": "Error Message When Using API to Index a Document to Multiple Clients on Import: Parameter too long or out of range error (9020)",
+        "url": "https://answers.laserfiche.com/questions/153743/Error-Message-When-Using-API-to-Index-a-Document-to-Multiple-Clients-on-Import-Parameter-too-long-or-out-of-range-error-9020"
+      },
+      {
+        "title": "why do i keep getting 9020 error? it's only from laserfiche forms saving to repository",
+        "url": "https://answers.laserfiche.com/questions/85000/why-do-i-keep-getting-9020-error--its-only-from-laserfiche-forms-saving-to-repository"
+      },
+      {
+        "title": "Forms 9.2 - Save to Repository randomly suspending submissions",
+        "url": "https://answers.laserfiche.com/questions/83652/Forms-92--Save-to-Repository-randomly-suspending-submissions"
+      },
+      {
+        "title": "Another operation on which this operation depends failed [9054]",
+        "url": "https://answers.laserfiche.com/questions/165609/Another-operation-on-which-this-operation-depends-failed-9054"
+      },
+      {
+        "title": "Business Process error - The parameter is out of range or too long",
+        "url": "https://answers.laserfiche.com/questions/204616/Business-Process-error--The-parameter-is-out-of-range-or-too-long"
+      },
+      {
+        "title": "What is the file name max for Import Agent",
+        "url": "https://answers.laserfiche.com/questions/91927/What-is-the-file-name-max-for-Import-Agent"
+      },
+      {
+        "title": "How do I pull metadata from a multi-row table in a form?",
+        "url": "https://answers.laserfiche.com/questions/91681/How-do-I-pull-metadata-from-a-multirow-table-in-a-form"
+      },
+      {
+        "title": "Forms / Workflow routing failure",
+        "url": "https://answers.laserfiche.com/questions/65505/Forms--Workflow-routing-failure"
+      }
+    ],
+    "message": "The Parameter is out of Range or Too Long",
+    "noMatch": false,
+    "query": "9020 The Parameter is out of Range or Too Long",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9021",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "Page Not Found",
+    "noMatch": false,
+    "query": "9021 Page Not Found",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9022",
+    "links": [
+      {
+        "title": "Volume currently locked or in use. [9022] - can't mark as Read-only, disable, or change fixed path",
+        "url": "https://answers.laserfiche.com/questions/82855/Volume-currently-locked-or-in-use-9022--cant-mark-as-Readonly-disable-or-change-fixed-path"
+      },
+      {
+        "title": "corrupted volume.id file",
+        "url": "https://answers.laserfiche.com/questions/89131/corrupted-volumeid-file"
+      },
+      {
+        "title": "volume locked or currently in use [9022]",
+        "url": "https://answers.laserfiche.com/questions/53096/volume-locked-or-currently-in-use-9022"
+      }
+    ],
+    "message": "Volume Currently Locked or in Use",
+    "noMatch": false,
+    "query": "9022 Volume Currently Locked or in Use",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9023",
+    "links": [],
+    "message": "Template Currently Locked or in Use",
+    "noMatch": true,
+    "query": "9023 Template Currently Locked or in Use",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9024",
+    "links": [],
+    "message": "Field Currently Locked or in Use",
+    "noMatch": true,
+    "query": "9024 Field Currently Locked or in Use",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9025",
+    "links": [
+      {
+        "title": "error reading repository information 9025",
+        "url": "https://answers.laserfiche.com/questions/91154/error-reading-repository-information-9025"
+      },
+      {
+        "title": "Error reading Repository Information",
+        "url": "https://answers.laserfiche.com/questions/208698/Error-reading-Repository-Information"
+      },
+      {
+        "title": "Another 9025 error",
+        "url": "https://answers.laserfiche.com/questions/157010/Another-9025-error"
+      },
+      {
+        "title": "Repository name space",
+        "url": "https://answers.laserfiche.com/questions/72472/Repository-name-space"
+      },
+      {
+        "title": "9025 - Error reading Repository Information or Repository is misconfigured",
+        "url": "https://answers.laserfiche.com/questions/70847/9025--Error-reading-Repository-Information--or-Repository-is-misconfigured"
+      },
+      {
+        "title": "Error after upgradeing from Server 2008R2 to 2012r2",
+        "url": "https://answers.laserfiche.com/questions/173957/Error-after-upgradeing-from-Server-2008R2-to-2012r2"
+      },
+      {
+        "title": "LFServerNotConfigured",
+        "url": "https://answers.laserfiche.com/questions/203582/LFServerNotConfigured"
+      },
+      {
+        "title": "Error=0x106 CREATE DATABASE permission denied in database 'master'",
+        "url": "https://answers.laserfiche.com/questions/143663/Error0x106-CREATE-DATABASE-permission-denied-in-database-master"
+      },
+      {
+        "title": "Upgrade sql native client when moving databases to sql 2012?",
+        "url": "https://answers.laserfiche.com/questions/64649/Upgrade-sql-native-client-when-moving-databases-to-sql-2012"
+      },
+      {
+        "title": "Upgrading laserfiche Rio to 9.2",
+        "url": "https://answers.laserfiche.com/questions/66971/Upgrading-laserfiche-Rio-to-92"
+      }
+    ],
+    "message": "Error Reading Repository Information, or Repository Misconfigured",
+    "noMatch": false,
+    "query": "9025 Error Reading Repository Information, or Repository Misconfigured",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9026",
+    "links": [
+      {
+        "title": "Find/Replace Regular Expression?",
+        "url": "https://answers.laserfiche.com/questions/77877/FindReplace-Regular-Expression"
+      }
+    ],
+    "message": "VOLUME.ID File Bad, or Volume Otherwise Corrupt",
+    "noMatch": false,
+    "query": "9026 VOLUME.ID File Bad, or Volume Otherwise Corrupt",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9027",
+    "links": [
+      {
+        "title": "9231: The password specified is invalid.",
+        "url": "https://answers.laserfiche.com/questions/204154/9231-The-password-specified-is-invalid"
+      }
+    ],
+    "message": "Password Violates Password Policy",
+    "noMatch": false,
+    "query": "9027 Password Violates Password Policy",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9028",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "Missing Required Data from Request",
+    "noMatch": false,
+    "query": "9028 Missing Required Data from Request",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9029",
+    "links": [
+      {
+        "title": "1st repository creation : error 9029 - the maximum number of repositories has been reached",
+        "url": "https://answers.laserfiche.com/questions/65262/1st-repository-creation--error-9029--the-maximum-number-of-repositories-has-been-reached"
+      }
+    ],
+    "message": "The Maximum Number of Repositories That This Server Instance Is Licensed For Has Been Reached",
+    "noMatch": false,
+    "query": "9029 The Maximum Number of Repositories That This Server Instance Is Licensed For Has Been Reached",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9030",
+    "links": [
+      {
+        "title": "The user has not been allocated a name user license, or the maximum number of sessions that this server instance is licensed for has been reached. [9030]",
+        "url": "https://answers.laserfiche.com/questions/69010/The-user-has-not-been-allocated-a-name-user-license-or-the-maximum-number-of-sessions-that-this-server-instance-is-licensed-for-has-been-reached-9030"
+      },
+      {
+        "title": "Unable to log in to admin console error 9030",
+        "url": "https://answers.laserfiche.com/questions/60804/Unable-to-log-in-to-admin-console-error-9030"
+      },
+      {
+        "title": "Retrieval named user can't login",
+        "url": "https://answers.laserfiche.com/questions/76627/Retrieval-named-user-cant-login"
+      },
+      {
+        "title": "Upgrade laserfiche 8.3 to 9.2",
+        "url": "https://answers.laserfiche.com/questions/78482/Upgrade-laserfiche-83-to-92"
+      },
+      {
+        "title": "Maximum number of session reached",
+        "url": "https://answers.laserfiche.com/questions/64678/Maximum-number-of-session-reached"
+      },
+      {
+        "title": "Should Laserfiche service have a dependency on License Manager service?",
+        "url": "https://answers.laserfiche.com/questions/67498/Should-Laserfiche-service-have-a-dependency-on-License-Manager-service"
+      },
+      {
+        "title": "RASession workflow",
+        "url": "https://answers.laserfiche.com/questions/156737/RASession-workflow"
+      },
+      {
+        "title": "workflow status created",
+        "url": "https://answers.laserfiche.com/questions/56092/workflow-status-created"
+      },
+      {
+        "title": "LF Server 10 cannot connect with LFDS",
+        "url": "https://answers.laserfiche.com/questions/88453/LF-Server-10-cannot-connect-with-LFDS"
+      }
+    ],
+    "message": "The Maximum Number of Sessions That This Server Instance Is Licensed For Has Been Reached",
+    "noMatch": false,
+    "query": "9030 The Maximum Number of Sessions That This Server Instance Is Licensed For Has Been Reached",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9031",
+    "links": [
+      {
+        "title": "How to clear access rights in LF 10.4",
+        "url": "https://answers.laserfiche.com/questions/197865/How-to-clear-access-rights-in-LF-104"
+      }
+    ],
+    "message": "The Maximum Number of Volumes Has Been Reached",
+    "noMatch": false,
+    "query": "9031 The Maximum Number of Volumes Has Been Reached",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9032",
+    "links": [
+      {
+        "title": "Unattended Installation (LFGet.exe) - Permissions issue",
+        "url": "https://answers.laserfiche.com/questions/232457/Unattended-Installation-LFGetexe--Permissions-issue"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "The Maximum Number of Fields Has Been Reached",
+    "noMatch": false,
+    "query": "9032 The Maximum Number of Fields Has Been Reached",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9033",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "Maximum Path Depth Exceeded",
+    "noMatch": false,
+    "query": "9033 Maximum Path Depth Exceeded",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9034",
+    "links": [],
+    "message": "The Maximum Number of Entries Has Been Reached",
+    "noMatch": true,
+    "query": "9034 The Maximum Number of Entries Has Been Reached",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9035",
+    "links": [
+      {
+        "title": "The current request could not be performed because there are too many existing operations running. [9035]",
+        "url": "https://answers.laserfiche.com/questions/221839/The-current-request-could-not-be-performed-because-there-are-too-many-existing-operations-running-9035"
+      },
+      {
+        "title": "ClientAutomation- ERROR: The current request could not be performed because there are too many existing operations running. [9035]",
+        "url": "https://answers.laserfiche.com/questions/55332/ClientAutomation-ERROR-The-current-request-could-not-be-performed-because-there-are-too-many-existing-operations-running-9035"
+      },
+      {
+        "title": "How to upload multiple files (xml with field and images) with Import Agent",
+        "url": "https://answers.laserfiche.com/questions/125690/How-to-upload-multiple-files-xml-with-field-and-images--with-Import-Agent"
+      },
+      {
+        "title": "Import Agent: Limit on number of XML file imports?",
+        "url": "https://answers.laserfiche.com/questions/84022/Import-Agent--Limit-on-number-of-XML-file-imports"
+      },
+      {
+        "title": "Document Export",
+        "url": "https://answers.laserfiche.com/questions/73617/Document-Export"
+      }
+    ],
+    "message": "The Current Request Could Not Be Executed Because There Are Too Many Existing Operations Executing",
+    "noMatch": false,
+    "query": "9035 The Current Request Could Not Be Executed Because There Are Too Many Existing Operations Executing",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9036",
+    "links": [
+      {
+        "title": "exporting Volume Error Message: Unknown internal error. [9036]",
+        "url": "https://answers.laserfiche.com/questions/162597/exporting-Volume-Error-Message-Unknown-internal-error-9036"
+      },
+      {
+        "title": "The briefcase failed to export properly. Unknown internal error [9036]",
+        "url": "https://answers.laserfiche.com/questions/103377/The-briefcase-failed-to-export-properly--Unknown-internal-error-9036"
+      },
+      {
+        "title": "Briefcase and Redaction - 9036 error",
+        "url": "https://answers.laserfiche.com/questions/75459/Briefcase-and-Redaction--9036-error"
+      },
+      {
+        "title": "Intermittent - Unknown internal error. [9036] on laserfiche web client",
+        "url": "https://answers.laserfiche.com/questions/157313/Intermittent--Unknown-internal-error-9036-on-laserfiche-web-client"
+      },
+      {
+        "title": "Documents are displayed but are not accessible",
+        "url": "https://answers.laserfiche.com/questions/59695/Documents-are-displayed-but-are-not-accessible"
+      }
+    ],
+    "message": "Unknown Internal Error",
+    "noMatch": false,
+    "query": "9036 Unknown Internal Error",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9037",
+    "links": [
+      {
+        "title": "Laserfiche JRA application creating invalid sessions - eventually using up all licenses",
+        "url": "https://answers.laserfiche.com/questions/93060/Laserfiche-JRA-application-creating-invalid-sessions--eventually-using-up-all-licenses"
+      },
+      {
+        "title": "stuck sessions in admin console",
+        "url": "https://answers.laserfiche.com/questions/144766/stuck-sessions-in-admin-console"
+      },
+      {
+        "title": "I got a 9037 error (invalid session) after upgrade from lasserfiche 8.1. How can I fix it?",
+        "url": "https://answers.laserfiche.com/questions/48181/I-got-a-9037-error-invalid-session-after-upgrade-from-lasserfiche-81-How-can-I-fix-it"
+      },
+      {
+        "title": "Error 9037 occurs from time to time. Restart services any everything is fine.",
+        "url": "https://answers.laserfiche.com/questions/50201/Error-9037-occurs-from-time-to-time-Restart-services-any-everything-is-fine"
+      },
+      {
+        "title": "Unable to log in to admin console error 9030",
+        "url": "https://answers.laserfiche.com/questions/60804/Unable-to-log-in-to-admin-console-error-9030"
+      },
+      {
+        "title": "Web Access does not display an error that the maximum number of licenses limit has been reached",
+        "url": "https://answers.laserfiche.com/questions/55936/Web-Access-does-not-display-an-error-that-the-maximum-number-of-licenses-limit-has-been-reached"
+      }
+    ],
+    "message": "Invalid Session",
+    "noMatch": false,
+    "query": "9037 Invalid Session",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9038",
+    "links": [
+      {
+        "title": "How to clear access rights in LF 10.4",
+        "url": "https://answers.laserfiche.com/questions/197865/How-to-clear-access-rights-in-LF-104"
+      }
+    ],
+    "message": "Invalid Handle",
+    "noMatch": false,
+    "query": "9038 Invalid Handle",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9039",
+    "links": [
+      {
+        "title": "Document locked with a persistent lock. [9167] Multistatus response. [9039]",
+        "url": "https://answers.laserfiche.com/questions/119863/Document-locked-with-a-persistent-lock-9167-Multistatus-response-9039"
+      },
+      {
+        "title": "Error migrating documents",
+        "url": "https://answers.laserfiche.com/questions/119539/Error-migrating-documents"
+      },
+      {
+        "title": "Issues with Import Agent since database Migration",
+        "url": "https://answers.laserfiche.com/questions/206646/Issues-with-Import-Agent-since-database-Migration"
+      },
+      {
+        "title": "Multistatus response. (9039) Another operation on which this operation depends failed. (9054) Field not found. (9016)",
+        "url": "https://answers.laserfiche.com/questions/149180/Multistatus-response-9039-Another-operation-on-which-this-operation-depends-failed-9054--Field-not-found-9016"
+      },
+      {
+        "title": "Forms save to repository task",
+        "url": "https://answers.laserfiche.com/questions/54665/Forms-save-to-repository-task"
+      },
+      {
+        "title": "prevent workflow from terminating",
+        "url": "https://answers.laserfiche.com/questions/101505/prevent-workflow-from-terminating"
+      },
+      {
+        "title": "Another operation on which this operation depends failed [9054]",
+        "url": "https://answers.laserfiche.com/questions/165609/Another-operation-on-which-this-operation-depends-failed-9054"
+      },
+      {
+        "title": "Variables losing values on secondary form submission (lookup-related)",
+        "url": "https://answers.laserfiche.com/questions/82181/Variables-losing-values-on-secondary-form-submission-lookuprelated"
+      },
+      {
+        "title": "Intermittent Errors when saving an email to Laserfiche with Outlook Add-In",
+        "url": "https://answers.laserfiche.com/questions/173524/Intermittent-Errors-when-saving-an-email-to-Laserfiche-with-Outlook-AddIn"
+      },
+      {
+        "title": "Open document stops workflow",
+        "url": "https://answers.laserfiche.com/questions/131192/Open-document-stops-workflow"
+      }
+    ],
+    "message": "Multistatus Reponse",
+    "noMatch": false,
+    "query": "9039 Multistatus Reponse",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9040",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "Buffer Size Was Insufficient to Complete the Request",
+    "noMatch": false,
+    "query": "9040 Buffer Size Was Insufficient to Complete the Request",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9041",
+    "links": [],
+    "message": "The Maximum Number of Templates Has Been Reached",
+    "noMatch": true,
+    "query": "9041 The Maximum Number of Templates Has Been Reached",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9042",
+    "links": [
+      {
+        "title": "How to clear access rights in LF 10.4",
+        "url": "https://answers.laserfiche.com/questions/197865/How-to-clear-access-rights-in-LF-104"
+      }
+    ],
+    "message": "The Request Has Timed Out",
+    "noMatch": false,
+    "query": "9042 The Request Has Timed Out",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9043",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "Could Not Obtain a Connection to the Database",
+    "noMatch": false,
+    "query": "9043 Could Not Obtain a Connection to the Database",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9044",
+    "links": [
+      {
+        "title": "Invalid volume path. [9044]",
+        "url": "https://answers.laserfiche.com/questions/94688/Invalid-volume-path-9044"
+      },
+      {
+        "title": "Invalid Volume Path (9044)",
+        "url": "https://answers.laserfiche.com/questions/95403/Invalid-Volume-Path-9044"
+      },
+      {
+        "title": "Laserfiche Volumes",
+        "url": "https://answers.laserfiche.com/questions/226557/Laserfiche-Volumes"
+      },
+      {
+        "title": "Azure Files Setup",
+        "url": "https://answers.laserfiche.com/questions/191121/Azure-Files-Setup"
+      },
+      {
+        "title": "Creating volume in Azure Storage File Share",
+        "url": "https://answers.laserfiche.com/questions/194689/Creating-volume-in-Azure-Storage-File-Share"
+      }
+    ],
+    "message": "Invalid Volume Path",
+    "noMatch": false,
+    "query": "9044 Invalid Volume Path",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9045",
+    "links": [
+      {
+        "title": "When creating a document in Laserfiche using RA, I sometime get the error Laserfiche.RepositoryAccess.LockedObjectException: The operation cannot complete because an object is locked. [9045]",
+        "url": "https://answers.laserfiche.com/questions/78670/When-creating-a-document-in-Laserfiche-using-RA-I-sometime-get-the-error-LaserficheRepositoryAccessLockedObjectException-The-operation-cannot-complete-because-an-object-is-locked-9045"
+      },
+      {
+        "title": "How do I unlock a folder on laserfiche client 9.1?",
+        "url": "https://answers.laserfiche.com/questions/50231/How-do-I-unlock-a-folder-on-laserfiche-client-91"
+      },
+      {
+        "title": "Forms Archive to Repository and Entry Lock",
+        "url": "https://answers.laserfiche.com/questions/225019/Forms-Archive-to-Repository-and-Entry-Lock"
+      },
+      {
+        "title": "Object locked - The operation cannot complete because an object is locked. [9045]",
+        "url": "https://answers.laserfiche.com/questions/55408/Object-locked--The-operation-cannot-complete-because-an-object-is-locked-9045"
+      },
+      {
+        "title": "Entry locked: 9045",
+        "url": "https://answers.laserfiche.com/questions/132683/Entry-locked-9045"
+      },
+      {
+        "title": "Entry Lock when using Import Agent",
+        "url": "https://answers.laserfiche.com/questions/187456/Entry-Lock-when-using-Import-Agent"
+      },
+      {
+        "title": "Receiving error 9045 when trying to add a new field in template",
+        "url": "https://answers.laserfiche.com/questions/172770/Receiving-error-9045-when-trying-to-add-a-new-field-in-template"
+      }
+    ],
+    "message": "The Operation Cannot Complete Because an Object is Locked",
+    "noMatch": false,
+    "query": "9045 The Operation Cannot Complete Because an Object is Locked",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9046",
+    "links": [
+      {
+        "title": "The repository is not recognized as a valid repository in this Laserfiche instance. (9046)",
+        "url": "https://answers.laserfiche.com/questions/48467/The-repository-is-not-recognized-as-a-valid-repository-in-this-Laserfiche-instance-9046"
+      },
+      {
+        "title": "Trying to connect LF 10.3 Repository using older SDKRuntime DLLs v9.0",
+        "url": "https://answers.laserfiche.com/questions/139163/Trying-to-connect-LF-103-Repository-using-older-SDKRuntime-DLLs-v90"
+      },
+      {
+        "title": "Can't retrieve existing repository from laserfiche server (C#)",
+        "url": "https://answers.laserfiche.com/questions/146780/Cant-retrieve-existing-repository-from-laserfiche-server-C"
+      },
+      {
+        "title": "Wait condition from route to folder activity does not get satisfied",
+        "url": "https://answers.laserfiche.com/questions/79989/Wait-condition-from-route-to-folder-activity-does-not-get-satisfied-"
+      }
+    ],
+    "message": "The Repository Is Not Recognized as a Valid Repository In This Laserfiche Instance",
+    "noMatch": false,
+    "query": "9046 The Repository Is Not Recognized as a Valid Repository In This Laserfiche Instance",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9047",
+    "links": [
+      {
+        "title": "Document could not be locked for writing. The object has been modified since it was last read. [9047]",
+        "url": "https://answers.laserfiche.com/questions/168462/Document-could-not-be-locked-for-writing-The-object-has-been-modified-since-it-was-last-read-9047"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "The Object Has Been Modified Since It Was Last Read",
+    "noMatch": false,
+    "query": "9047 The Object Has Been Modified Since It Was Last Read",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9048",
+    "links": [
+      {
+        "title": "Error Code: 9048",
+        "url": "https://answers.laserfiche.com/questions/211921/Error-Code-9048"
+      },
+      {
+        "title": "How to mark a User a \"Repository Named User\" using sdk script in workflow?",
+        "url": "https://answers.laserfiche.com/questions/107997/How-to-mark-a-User-a-Repository-Named-User-using-sdk-script-in-workflow"
+      },
+      {
+        "title": "Cannot connect to Laserfiche Directory Server [9528]",
+        "url": "https://answers.laserfiche.com/questions/169393/Cannot-connect-to-Laserfiche-Directory-Server-9528"
+      }
+    ],
+    "message": "The Security Identifier Is Not a Valid Laserfiche SID",
+    "noMatch": false,
+    "query": "9048 The Security Identifier Is Not a Valid Laserfiche SID",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9049",
+    "links": [
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      }
+    ],
+    "message": "A Session Cannot Terminate Itself",
+    "noMatch": false,
+    "query": "9049 A Session Cannot Terminate Itself",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9050",
+    "links": [],
+    "message": "Invalid Column Identifier",
+    "noMatch": true,
+    "query": "9050 Invalid Column Identifier",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9051",
+    "links": [
+      {
+        "title": "10.2 Client crashes with \"The specified operation is not recognized. [9051]\"",
+        "url": "https://answers.laserfiche.com/questions/117439/102-Client-crashes-with-The-specified-operation-is-not-recognized-9051"
+      },
+      {
+        "title": "Error 9051 on Email Activity in Workflow",
+        "url": "https://answers.laserfiche.com/questions/153873/Error-9051-on-Email-Activity-in-Workflow"
+      },
+      {
+        "title": "The specified operation is not recognized. (9051) - UpdateStatus",
+        "url": "https://answers.laserfiche.com/questions/191855/The-specified-operation-is-not-recognized-9051--UpdateStatus"
+      },
+      {
+        "title": "The specified operation is not recognized",
+        "url": "https://answers.laserfiche.com/questions/87898/The-specified-operation-is-not-recognized"
+      },
+      {
+        "title": "Opening Folders Using Web Access",
+        "url": "https://answers.laserfiche.com/questions/51892/Opening-Folders-Using-Web-Access"
+      }
+    ],
+    "message": "The Specified Operation Is Not Recognized",
+    "noMatch": false,
+    "query": "9051 The Specified Operation Is Not Recognized",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9052",
+    "links": [
+      {
+        "title": "The specified operation was aborted by the user.",
+        "url": "https://answers.laserfiche.com/questions/112118/The-specified-operation-was-aborted-by-the-user"
+      }
+    ],
+    "message": "The Specified Operation Was Aborted By The User",
+    "noMatch": false,
+    "query": "9052 The Specified Operation Was Aborted By The User",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9053",
+    "links": [
+      {
+        "title": "Insufficient space on target device. [9053]",
+        "url": "https://answers.laserfiche.com/questions/122731/Insufficient-space-on-target-device-9053"
+      },
+      {
+        "title": "Move Volume to different folder on the same server",
+        "url": "https://answers.laserfiche.com/questions/82205/Move-Volume-to-different-folder-on-the-same-server"
+      }
+    ],
+    "message": "Insufficient Space On Target Device",
+    "noMatch": false,
+    "query": "9053 Insufficient Space On Target Device",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9054",
+    "links": [
+      {
+        "title": "Bad field value for date field occasionally happening",
+        "url": "https://answers.laserfiche.com/questions/78411/Bad-field-value-for-date-field-occasionally-happening"
+      },
+      {
+        "title": "Forms 9.2 - Save to Repository randomly suspending submissions",
+        "url": "https://answers.laserfiche.com/questions/83652/Forms-92--Save-to-Repository-randomly-suspending-submissions"
+      },
+      {
+        "title": "How to fix instances suspended at a Save to Repository step?",
+        "url": "https://answers.laserfiche.com/questions/89536/How-to-fix-instances-suspended-at-a-Save-to-Repository-step"
+      },
+      {
+        "title": "Configure Fields Issue - Download to Repository Fails",
+        "url": "https://answers.laserfiche.com/questions/214767/Configure-Fields-Issue--Download-to-Repository-Fails"
+      },
+      {
+        "title": "Forms not adding Template",
+        "url": "https://answers.laserfiche.com/questions/190178/Forms-not-adding-Template"
+      },
+      {
+        "title": "Multistatus response. (9039) Another operation on which this operation depends failed. (9054) Field not found. (9016)",
+        "url": "https://answers.laserfiche.com/questions/149180/Multistatus-response-9039-Another-operation-on-which-this-operation-depends-failed-9054--Field-not-found-9016"
+      },
+      {
+        "title": "Another operation on which this operation depends failed [9054]",
+        "url": "https://answers.laserfiche.com/questions/165609/Another-operation-on-which-this-operation-depends-failed-9054"
+      },
+      {
+        "title": "Issue with multi row table in form dropping to repository",
+        "url": "https://answers.laserfiche.com/questions/224101/Issue-with-multi-row-table-in-form-dropping-to-repository"
+      },
+      {
+        "title": "Suspend Save to Laserfiche Tasks after upgrading from Ver 9.2 to 10.2",
+        "url": "https://answers.laserfiche.com/questions/124016/Suspend-Save-to-Laserfiche-Tasks-after-upgrading-from-Ver-92-to-102"
+      },
+      {
+        "title": "Upgraded Forms 9.1 - does not apply Forms Submittion template when sending to the repository.",
+        "url": "https://answers.laserfiche.com/questions/47681/Upgraded-Forms-91--does-not-apply-Forms-Submittion-template-when-sending-to-the-repository"
+      }
+    ],
+    "message": "Another Operation On Which This Operation Depends Failed",
+    "noMatch": false,
+    "query": "9054 Another Operation On Which This Operation Depends Failed",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9055",
+    "links": [],
+    "message": "I/O Operations Are Not Possible On Logical Volumes",
+    "noMatch": true,
+    "query": "9055 I/O Operations Are Not Possible On Logical Volumes",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9056",
+    "links": [
+      {
+        "title": "I keep getting the error message Please Mount the Correct Volume : 9056",
+        "url": "https://answers.laserfiche.com/questions/110402/I-keep-getting-the-error-message-Please-Mount-the-Correct-Volume--9056"
+      }
+    ],
+    "message": "Please Mount The Correct Volume",
+    "noMatch": false,
+    "query": "9056 Please Mount The Correct Volume",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9057",
+    "links": [
+      {
+        "title": "The specified XML document is invalid: 9057",
+        "url": "https://answers.laserfiche.com/questions/63744/The-specified-XML-document-is-invalid-9057"
+      }
+    ],
+    "message": "The Specified XML Document Is Invalid.",
+    "noMatch": false,
+    "query": "9057 The Specified XML Document Is Invalid",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9058",
+    "links": [
+      {
+        "title": "SQL Query for Laserfiche 9",
+        "url": "https://answers.laserfiche.com/questions/71311/SQL-Query-for-Laserfiche-9"
+      }
+    ],
+    "message": "The Object Has Been Deleted.",
+    "noMatch": false,
+    "query": "9058 The Object Has Been Deleted",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9059",
+    "links": [
+      {
+        "title": "Operation failed due to entry sharing violation. [9059]",
+        "url": "https://answers.laserfiche.com/questions/114221/Operation-failed-due-to-entry-sharing-violation-9059"
+      },
+      {
+        "title": "terminate workflow delete document",
+        "url": "https://answers.laserfiche.com/questions/103484/terminate-workflow-delete-document"
+      },
+      {
+        "title": "Error Deleting a document",
+        "url": "https://answers.laserfiche.com/questions/110797/Error-Deleting-a-document"
+      },
+      {
+        "title": "Warning 9014 and 9059",
+        "url": "https://answers.laserfiche.com/questions/110289/Warning-9014-and-9059"
+      },
+      {
+        "title": "Error when importing pdf with create Laserfiche pages",
+        "url": "https://answers.laserfiche.com/questions/195513/Error-when-importing-pdf-with-create-Laserfiche-pages"
+      }
+    ],
+    "message": "Operation Failed Due To Entry Sharing Violation",
+    "noMatch": false,
+    "query": "9059 Operation Failed Due To Entry Sharing Violation",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9060",
+    "links": [
+      {
+        "title": "Recursive access rights report",
+        "url": "https://answers.laserfiche.com/questions/181404/Recursive-access-rights-report"
+      }
+    ],
+    "message": "Annotation Not Found",
+    "noMatch": false,
+    "query": "9060 Annotation Not Found",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9061",
+    "links": [
+      {
+        "title": "9061 folder not empty",
+        "url": "https://answers.laserfiche.com/questions/102687/9061--folder-not-empty"
+      },
+      {
+        "title": "Can't delete Laserfiche folder",
+        "url": "https://answers.laserfiche.com/questions/62754/Cant-delete-Laserfiche-folder"
+      }
+    ],
+    "message": "Folder Not Empty",
+    "noMatch": false,
+    "query": "9061 Folder Not Empty",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9063",
+    "links": [
+      {
+        "title": "Laserfiche 9.1.1.546 Client Error Code 9063",
+        "url": "https://answers.laserfiche.com/questions/61491/Laserfiche-911546-Client-Error-Code-9063"
+      },
+      {
+        "title": "Client getting 9063 error when renaming document",
+        "url": "https://answers.laserfiche.com/questions/117586/Client-getting-9063-error-when-renaming-document"
+      },
+      {
+        "title": "Entry Lock Import Agent 10",
+        "url": "https://answers.laserfiche.com/questions/103601/Entry-Lock-Import-Agent-10"
+      },
+      {
+        "title": "The entry is locked and cannot be modified, or the object needs to be refreshed before it can be updated",
+        "url": "https://answers.laserfiche.com/questions/145745/The-entry-is-locked-and-cannot-be-modified-or-the-object-needs-to-be-refreshed-before-it-can-be-updated"
+      }
+    ],
+    "message": "The entry is locked and cannot be modified, or the object needs to be refreshed before it can be updated.",
+    "noMatch": false,
+    "query": "9063 The entry is locked and cannot be modified, or the object needs to be refreshed before it can be updated",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9064",
+    "links": [],
+    "message": "The Maximum Number of Annotations Per Page Has Been Exceeded",
+    "noMatch": true,
+    "query": "9064 The Maximum Number of Annotations Per Page Has Been Exceeded",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9065",
+    "links": [],
+    "message": "The Annotations Cannot Be Linked Because Their Types Do Not Match",
+    "noMatch": true,
+    "query": "9065 The Annotations Cannot Be Linked Because Their Types Do Not Match",
+    "searchedAt": "2026-06-27"
   }
 ]

@@ -784,5 +784,428 @@
     "hasLaserficheEmployee": false,
     "hasAcceptedLanguage": false,
     "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9015",
+    "message": "Template not Found",
+    "title": "Workflow Error [9015] and [9016]",
+    "url": "https://answers.laserfiche.com/questions/179845/Workflow-Error-9015-and-9016",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9016",
+    "message": "Field not Found",
+    "title": "Multistatus response. (9039) Another operation on which this operation depends failed. (9054) Field not found. (9016)",
+    "url": "https://answers.laserfiche.com/questions/149180/Multistatus-response-9039-Another-operation-on-which-this-operation-depends-failed-9054--Field-not-found-9016",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9016",
+    "message": "Field not Found",
+    "title": "Search Result 9016 Error: Field Not Found",
+    "url": "https://answers.laserfiche.com/questions/210960/Search-Result-9016-Error-Field-Not-Found",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9017",
+    "message": "Bad Field Value",
+    "title": "9017 Bad field value. [0265-WF10]",
+    "url": "https://answers.laserfiche.com/questions/129280/9017-Bad-field-value-0265WF10",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9017",
+    "message": "Bad Field Value",
+    "title": "Date column invalid format error: The data assigned to field 'Student DOB' is not valid. 9017",
+    "url": "https://answers.laserfiche.com/questions/231597/Date-column-invalid-format-error-The-data-assigned-to-field-Student-DOB-is-not-valid-9017",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9019",
+    "message": "Invalid Object Name",
+    "title": "9019: Invalid object name",
+    "url": "https://answers.laserfiche.com/questions/88665/9019-Invalid-object-name",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9019",
+    "message": "Invalid Object Name",
+    "title": "\"Object Not Found\" 9019",
+    "url": "https://answers.laserfiche.com/questions/70164/Object-Not-Found-9019",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9020",
+    "message": "The Parameter is out of Range or Too Long",
+    "title": "Search: Parameter is out of range or too long. [9020]",
+    "url": "https://answers.laserfiche.com/questions/79127/Search-Parameter-is-out-of-range-or-too-long-9020",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9020",
+    "message": "The Parameter is out of Range or Too Long",
+    "title": "Error Message When Using API to Index a Document to Multiple Clients on Import: Parameter too long or out of range error (9020)",
+    "url": "https://answers.laserfiche.com/questions/153743/Error-Message-When-Using-API-to-Index-a-Document-to-Multiple-Clients-on-Import-Parameter-too-long-or-out-of-range-error-9020",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9020",
+    "message": "The Parameter is out of Range or Too Long",
+    "title": "why do i keep getting 9020 error? it's only from laserfiche forms saving to repository",
+    "url": "https://answers.laserfiche.com/questions/85000/why-do-i-keep-getting-9020-error--its-only-from-laserfiche-forms-saving-to-repository",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9022",
+    "message": "Volume Currently Locked or in Use",
+    "title": "Volume currently locked or in use. [9022] - can't mark as Read-only, disable, or change fixed path",
+    "url": "https://answers.laserfiche.com/questions/82855/Volume-currently-locked-or-in-use-9022--cant-mark-as-Readonly-disable-or-change-fixed-path",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9022",
+    "message": "Volume Currently Locked or in Use",
+    "title": "volume locked or currently in use [9022]",
+    "url": "https://answers.laserfiche.com/questions/53096/volume-locked-or-currently-in-use-9022",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9025",
+    "message": "Error Reading Repository Information, or Repository Misconfigured",
+    "title": "error reading repository information 9025",
+    "url": "https://answers.laserfiche.com/questions/91154/error-reading-repository-information-9025",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9025",
+    "message": "Error Reading Repository Information, or Repository Misconfigured",
+    "title": "9025 - Error reading Repository Information or Repository is misconfigured",
+    "url": "https://answers.laserfiche.com/questions/70847/9025--Error-reading-Repository-Information--or-Repository-is-misconfigured",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9029",
+    "message": "The Maximum Number of Repositories That This Server Instance Is Licensed For Has Been Reached",
+    "title": "1st repository creation : error 9029 - the maximum number of repositories has been reached",
+    "url": "https://answers.laserfiche.com/questions/65262/1st-repository-creation--error-9029--the-maximum-number-of-repositories-has-been-reached",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9030",
+    "message": "The Maximum Number of Sessions That This Server Instance Is Licensed For Has Been Reached",
+    "title": "The user has not been allocated a name user license, or the maximum number of sessions that this server instance is licensed for has been reached. [9030]",
+    "url": "https://answers.laserfiche.com/questions/69010/The-user-has-not-been-allocated-a-name-user-license-or-the-maximum-number-of-sessions-that-this-server-instance-is-licensed-for-has-been-reached-9030",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9030",
+    "message": "The Maximum Number of Sessions That This Server Instance Is Licensed For Has Been Reached",
+    "title": "Unable to log in to admin console error 9030",
+    "url": "https://answers.laserfiche.com/questions/60804/Unable-to-log-in-to-admin-console-error-9030",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9035",
+    "message": "The Current Request Could Not Be Executed Because There Are Too Many Existing Operations Executing",
+    "title": "The current request could not be performed because there are too many existing operations running. [9035]",
+    "url": "https://answers.laserfiche.com/questions/221839/The-current-request-could-not-be-performed-because-there-are-too-many-existing-operations-running-9035",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9035",
+    "message": "The Current Request Could Not Be Executed Because There Are Too Many Existing Operations Executing",
+    "title": "ClientAutomation- ERROR: The current request could not be performed because there are too many existing operations running. [9035]",
+    "url": "https://answers.laserfiche.com/questions/55332/ClientAutomation-ERROR-The-current-request-could-not-be-performed-because-there-are-too-many-existing-operations-running-9035",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9036",
+    "message": "Unknown Internal Error",
+    "title": "exporting Volume Error Message: Unknown internal error. [9036]",
+    "url": "https://answers.laserfiche.com/questions/162597/exporting-Volume-Error-Message-Unknown-internal-error-9036",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9036",
+    "message": "Unknown Internal Error",
+    "title": "The briefcase failed to export properly. Unknown internal error [9036]",
+    "url": "https://answers.laserfiche.com/questions/103377/The-briefcase-failed-to-export-properly--Unknown-internal-error-9036",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9036",
+    "message": "Unknown Internal Error",
+    "title": "Briefcase and Redaction - 9036 error",
+    "url": "https://answers.laserfiche.com/questions/75459/Briefcase-and-Redaction--9036-error",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9036",
+    "message": "Unknown Internal Error",
+    "title": "Intermittent - Unknown internal error. [9036] on laserfiche web client",
+    "url": "https://answers.laserfiche.com/questions/157313/Intermittent--Unknown-internal-error-9036-on-laserfiche-web-client",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9037",
+    "message": "Invalid Session",
+    "title": "I got a 9037 error (invalid session) after upgrade from lasserfiche 8.1. How can I fix it?",
+    "url": "https://answers.laserfiche.com/questions/48181/I-got-a-9037-error-invalid-session-after-upgrade-from-lasserfiche-81-How-can-I-fix-it",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9037",
+    "message": "Invalid Session",
+    "title": "Error 9037 occurs from time to time. Restart services any everything is fine.",
+    "url": "https://answers.laserfiche.com/questions/50201/Error-9037-occurs-from-time-to-time-Restart-services-any-everything-is-fine",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9039",
+    "message": "Multistatus Reponse",
+    "title": "Document locked with a persistent lock. [9167] Multistatus response. [9039]",
+    "url": "https://answers.laserfiche.com/questions/119863/Document-locked-with-a-persistent-lock-9167-Multistatus-response-9039",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9044",
+    "message": "Invalid Volume Path",
+    "title": "Invalid volume path. [9044]",
+    "url": "https://answers.laserfiche.com/questions/94688/Invalid-volume-path-9044",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9044",
+    "message": "Invalid Volume Path",
+    "title": "Invalid Volume Path (9044)",
+    "url": "https://answers.laserfiche.com/questions/95403/Invalid-Volume-Path-9044",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9045",
+    "message": "The Operation Cannot Complete Because an Object is Locked",
+    "title": "When creating a document in Laserfiche using RA, I sometime get the error Laserfiche.RepositoryAccess.LockedObjectException: The operation cannot complete because an object is locked. [9045]",
+    "url": "https://answers.laserfiche.com/questions/78670/When-creating-a-document-in-Laserfiche-using-RA-I-sometime-get-the-error-LaserficheRepositoryAccessLockedObjectException-The-operation-cannot-complete-because-an-object-is-locked-9045",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9045",
+    "message": "The Operation Cannot Complete Because an Object is Locked",
+    "title": "Object locked - The operation cannot complete because an object is locked. [9045]",
+    "url": "https://answers.laserfiche.com/questions/55408/Object-locked--The-operation-cannot-complete-because-an-object-is-locked-9045",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9045",
+    "message": "The Operation Cannot Complete Because an Object is Locked",
+    "title": "Entry locked: 9045",
+    "url": "https://answers.laserfiche.com/questions/132683/Entry-locked-9045",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9045",
+    "message": "The Operation Cannot Complete Because an Object is Locked",
+    "title": "Receiving error 9045 when trying to add a new field in template",
+    "url": "https://answers.laserfiche.com/questions/172770/Receiving-error-9045-when-trying-to-add-a-new-field-in-template",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9046",
+    "message": "The Repository Is Not Recognized as a Valid Repository In This Laserfiche Instance",
+    "title": "The repository is not recognized as a valid repository in this Laserfiche instance. (9046)",
+    "url": "https://answers.laserfiche.com/questions/48467/The-repository-is-not-recognized-as-a-valid-repository-in-this-Laserfiche-instance-9046",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9047",
+    "message": "The Object Has Been Modified Since It Was Last Read",
+    "title": "Document could not be locked for writing. The object has been modified since it was last read. [9047]",
+    "url": "https://answers.laserfiche.com/questions/168462/Document-could-not-be-locked-for-writing-The-object-has-been-modified-since-it-was-last-read-9047",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9048",
+    "message": "The Security Identifier Is Not a Valid Laserfiche SID",
+    "title": "Error Code: 9048",
+    "url": "https://answers.laserfiche.com/questions/211921/Error-Code-9048",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9051",
+    "message": "The Specified Operation Is Not Recognized",
+    "title": "Error 9051 on Email Activity in Workflow",
+    "url": "https://answers.laserfiche.com/questions/153873/Error-9051-on-Email-Activity-in-Workflow",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9051",
+    "message": "The Specified Operation Is Not Recognized",
+    "title": "The specified operation is not recognized. (9051) - UpdateStatus",
+    "url": "https://answers.laserfiche.com/questions/191855/The-specified-operation-is-not-recognized-9051--UpdateStatus",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9053",
+    "message": "Insufficient Space On Target Device",
+    "title": "Insufficient space on target device. [9053]",
+    "url": "https://answers.laserfiche.com/questions/122731/Insufficient-space-on-target-device-9053",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9054",
+    "message": "Another Operation On Which This Operation Depends Failed",
+    "title": "Another operation on which this operation depends failed [9054]",
+    "url": "https://answers.laserfiche.com/questions/165609/Another-operation-on-which-this-operation-depends-failed-9054",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9056",
+    "message": "Please Mount The Correct Volume",
+    "title": "I keep getting the error message Please Mount the Correct Volume : 9056",
+    "url": "https://answers.laserfiche.com/questions/110402/I-keep-getting-the-error-message-Please-Mount-the-Correct-Volume--9056",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9057",
+    "message": "The Specified XML Document Is Invalid.",
+    "title": "The specified XML document is invalid: 9057",
+    "url": "https://answers.laserfiche.com/questions/63744/The-specified-XML-document-is-invalid-9057",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9059",
+    "message": "Operation Failed Due To Entry Sharing Violation",
+    "title": "Operation failed due to entry sharing violation. [9059]",
+    "url": "https://answers.laserfiche.com/questions/114221/Operation-failed-due-to-entry-sharing-violation-9059",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9061",
+    "message": "Folder Not Empty",
+    "title": "9061 folder not empty",
+    "url": "https://answers.laserfiche.com/questions/102687/9061--folder-not-empty",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9063",
+    "message": "The entry is locked and cannot be modified, or the object needs to be refreshed before it can be updated.",
+    "title": "Laserfiche 9.1.1.546 Client Error Code 9063",
+    "url": "https://answers.laserfiche.com/questions/61491/Laserfiche-911546-Client-Error-Code-9063",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9063",
+    "message": "The entry is locked and cannot be modified, or the object needs to be refreshed before it can be updated.",
+    "title": "Client getting 9063 error when renaming document",
+    "url": "https://answers.laserfiche.com/questions/117586/Client-getting-9063-error-when-renaming-document",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9025",
+    "message": "Error Reading Repository Information, or Repository Misconfigured",
+    "title": "Another 9025 error",
+    "url": "https://answers.laserfiche.com/questions/157010/Another-9025-error",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9051",
+    "message": "The Specified Operation Is Not Recognized",
+    "title": "10.2 Client crashes with \"The specified operation is not recognized. [9051]\"",
+    "url": "https://answers.laserfiche.com/questions/117439/102-Client-crashes-with-The-specified-operation-is-not-recognized-9051",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
   }
 ]
