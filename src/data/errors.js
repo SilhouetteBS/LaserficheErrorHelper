@@ -2334,6 +2334,190 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "forms-lff500-internal-error",
+    code: "LFF500",
+    message: "Laserfiche Forms encountered an internal error. Please try again.",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "A Forms internal error can be triggered by form definition issues such as problematic title markup, but the reviewed source shows this as a broad symptom rather than one single root cause.",
+    symptoms: [
+      "Opening a Forms instance or submitting a form returns LFF500-InternalError.",
+      "The same process may also show related LFF502 service or unexpected-error messages.",
+    ],
+    likelyFixes: [
+      "Open the form in Forms designer, edit the form title, save it, and test the form again.",
+      "Remove or simplify HTML or unusual markup from the form title when present.",
+      "If the error persists, review Forms logs for the matching request because LFF500 can represent multiple backend failures.",
+    ],
+    notes:
+      "The reviewed Answers thread is community-confirmed and gives a practical workaround, but it does not identify a universal Forms defect.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche Forms encountered an internal error. Please try again. [LFF500-InternalError]",
+        url: "https://answers.laserfiche.com/questions/125713/Laserfiche-Forms-encountered-an-internal-error-Please-try-again-LFF500InternalError",
+        note: "Community replies suggest resaving the form title and checking for HTML tags in the title.",
+      },
+    ],
+  },
+  {
+    id: "workflow-0232-wf1-0411-wf0-script-assembly-not-authorized",
+    code: "0232-WF1 / 0411-WF0",
+    message: "Workflow script assembly is not authorized to be run as part of a script.",
+    product: "Workflow",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "high",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow publishing can fail when scripting is disabled or the referenced assembly is missing from the Workflow Administration Console custom assembly allow-list.",
+    symptoms: [
+      "Publishing a workflow with a script activity fails with Access denied.",
+      "The error cites Laserfiche.Workflow.Activities or another assembly as not authorized and includes [0232-WF1] [0411-WF0].",
+      "The same workflow may publish on another Workflow server where the assembly allow-list is configured differently.",
+    ],
+    likelyFixes: [
+      "In Workflow Administration Console, open Security > Scripting and confirm scripting activities are enabled.",
+      "Add an exact Custom Assembly List entry for the referenced assembly, including version, culture, and public key token.",
+      "If the workflow was copied from another machine, remove and re-add the assembly reference through the Workflow designer wizard instead of only resolving the old DLL path.",
+    ],
+    notes:
+      "A Laserfiche employee first points to scripting configuration; the requester confirmed the final fix was the missing exact custom assembly list entry.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Failed to publish workflow Error code [0232-WF1] [0411-WF0]",
+        url: "https://answers.laserfiche.com/questions/111213/Failed-to-publish-workflow-Error-code-0232WF1-0411WF0",
+        note: "Laserfiche reply asks whether scripting is enabled; follow-up confirms the custom assembly list needed an exact matching entry.",
+      },
+    ],
+  },
+  {
+    id: "workflow-0516-wf10-invoke-workflow-not-visible",
+    code: "0516-WF10",
+    message: "Workflow Activity does not exist.",
+    product: "Workflow",
+    versions: ["Version 10"],
+    confidence: "high",
+    reviewedDate: "2026-06-27",
+    summary:
+      "In Workflow 10.4.1 upgrade scenarios, Invoke Workflow can report that a workflow does not exist when enhanced workflow visibility/security prevents the runtime identity from seeing the target workflow.",
+    symptoms: [
+      "Invoke Workflow terminates with Workflow Activity does not exist. [0516-WF10].",
+      "The issue may affect workflows created after an upgrade while older invoked workflows still run.",
+      "The full activity error may show WfsoObjectNotFoundException for the target workflow.",
+    ],
+    likelyFixes: [
+      "Check the full activity errors.log from Workflow Administration Console Monitoring.",
+      "Review the target workflow's enhanced security or visibility setting introduced in Workflow 10.4.1.",
+      "Ensure the Workflow Server service identity or runtime identity can see and invoke the target workflow.",
+    ],
+    notes:
+      "The reviewed thread identifies Workflow 10.4.1.223 and includes Laserfiche employee guidance to check service identity and the full activity error.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Invoke Workflow - Workflow Activity does not exist 0516-WF10",
+        url: "https://answers.laserfiche.com/questions/160646/Invoke-Workflow--Workflow-Activity-does-not-exist-0516WF10",
+        note: "Laserfiche reply recommends checking service identity and activity errors.log; requester reports enhanced security visibility was the cause.",
+      },
+    ],
+  },
+  {
+    id: "directory-server-saml-invalid-token-after-upgrade",
+    code: "LFDS-SAML-INVALID-TOKEN",
+    message: "Received an invalid or untrusted SAML token.",
+    product: "Directory Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "After upgrading LFDS-integrated components, SAML login can fail when application registrations or license files are stale or mismatched.",
+    symptoms: [
+      "LFDS login returns Received an invalid or untrusted SAML token.",
+      "The issue may appear after upgrading Laserfiche Server, Web Access, or other LFDS-integrated services.",
+    ],
+    likelyFixes: [
+      "Renew or replace the Laserfiche Server license file used by the upgraded service.",
+      "Delete and recreate the affected application registration in Directory Server.",
+      "Restart the Laserfiche Server service and the affected web application pool after updating registration and license files.",
+    ],
+    notes:
+      "The reviewed source is a community-confirmed resolution after Laserfiche Support involvement, not a Laserfiche employee public reply.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Upgraded to 10.3 - Now LFDS login gives Received an invalid or untrusted SAML token error",
+        url: "https://answers.laserfiche.com/questions/132814/Upgraded-to-103--Now-LFDS-login-gives-Received-an-invalid-or-untrusted-SAML-token-error",
+        note: "Requester reports support resolved it by renewing licensing, recreating LFDS registration, and restarting services/app pools.",
+      },
+    ],
+  },
+  {
+    id: "quick-fields-agent-9013-unidentified-doc-auth",
+    code: "9013",
+    message: "Permission denied.",
+    product: "Quick Fields",
+    versions: ["Version 9"],
+    confidence: "high",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Quick Fields Agent can finish with permission denied when the session's unidentified-document configuration still uses Windows Authentication while the agent needs Laserfiche Authentication.",
+    symptoms: [
+      "Quick Fields Agent processes and stores documents but ends with error 9013.",
+      "The same Quick Fields session runs successfully when processed manually.",
+      "QF Agent service filesystem permissions appear correct.",
+    ],
+    likelyFixes: [
+      "Open the Quick Fields session and check the unidentified-document configuration.",
+      "Change that configuration from Windows Authentication to Laserfiche Authentication.",
+      "Retest the session through Quick Fields Agent rather than only manual processing.",
+    ],
+    notes: "The reviewed Answers thread has a Laserfiche employee answer with a confirmed configuration fix.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "qf agent with error 9013",
+        url: "https://answers.laserfiche.com/questions/65539/qf-agent--with-error-9013",
+        note: "Alexander Huang from Laserfiche identifies the unidentified-document authentication setting as the cause.",
+      },
+    ],
+  },
+  {
+    id: "office-integration-lfds-automatic-windows-auth",
+    code: "OFFICE-LFDS-WINDOWS-AUTH",
+    message:
+      "Because your organization is using Laserfiche Directory Server authentication, you cannot use automatic Windows authentication.",
+    product: "Office Integration",
+    versions: ["Version 11"],
+    confidence: "high",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Office Integration can show this LFDS authentication message when the repository was attached through a Web Client URL with LFDS SSO instead of the repository server name.",
+    symptoms: [
+      "One user cannot sign in through Office Integration with Windows Authentication.",
+      "The same user can sign in through the Windows Client.",
+      "The error says automatic Windows authentication cannot be used because the organization uses Laserfiche Directory Server authentication.",
+    ],
+    likelyFixes: [
+      "Compare the affected user's Office Integration, Windows Client, and WebTools Agent versions with working users.",
+      "Check whether Office Integration is connecting through a Web Client URL with LFDS SSO enabled.",
+      "Detach the repository in Office Integration and attach it again using the Laserfiche Server/repository server name.",
+    ],
+    notes:
+      "Laserfiche employee guidance identified the likely Web Client URL path; the requester confirmed reconnecting by server name fixed the user.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Office Integration - Cannot Use Windows Auth as LFDS Auth is Configured",
+        url: "https://answers.laserfiche.com/questions/226098/Office-Integration--Cannot-Use-Windows-Auth-as-LFDS-Auth-is-Configured",
+        note: "Samuel Carson from Laserfiche points to connecting through Web Client with LFDS SSO; requester confirms attaching by server name resolved it.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
