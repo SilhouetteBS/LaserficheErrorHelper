@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import {
   AlertTriangle,
   BookOpen,
+  Bookmark,
   Check,
   ChevronDown,
   ChevronRight,
@@ -14,6 +15,7 @@ import {
   MessageSquare,
   RefreshCw,
   Search,
+  Share2,
   ShieldCheck,
 } from "lucide-react";
 import {
@@ -385,8 +387,14 @@ function ErrorDetail({ entry }) {
             </h2>
           </div>
           <div className="detail-actions">
-            <button type="button">Save</button>
-            <button type="button">Share</button>
+            <button type="button">
+              <Bookmark aria-hidden="true" size={17} />
+              Save
+            </button>
+            <button type="button">
+              <Share2 aria-hidden="true" size={17} />
+              Share
+            </button>
           </div>
         </div>
 

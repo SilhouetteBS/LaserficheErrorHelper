@@ -403,6 +403,9 @@ h3 {
 }
 
 .detail-actions button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   border: 0;
   color: var(--link);
   background: transparent;
