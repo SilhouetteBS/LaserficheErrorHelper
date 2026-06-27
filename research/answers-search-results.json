@@ -6208,5 +6208,721 @@
     "noMatch": false,
     "query": "7940 The field data specified does not match all field data constraint requirements",
     "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7990",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "Failed to delete event date.",
+    "noMatch": false,
+    "query": "7990 Failed to delete event date",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7991",
+    "links": [
+      {
+        "title": "LFFTS: Laserfiche Server error: Invalid stream state.(792)",
+        "url": "https://answers.laserfiche.com/questions/63975/LFFTS-Laserfiche-Server-error-Invalid-stream-state792"
+      },
+      {
+        "title": "Lookup Not Working at User Task",
+        "url": "https://answers.laserfiche.com/questions/80329/Lookup-Not-Working-at-User-Task"
+      },
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "Failed to get current disposition.",
+    "noMatch": false,
+    "query": "7991 Failed to get current disposition",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7992",
+    "links": [
+      {
+        "title": "Workflow service terminating because of insufficient disk space",
+        "url": "https://answers.laserfiche.com/questions/199844/Workflow-service-terminating--because-of-insufficient-disk-space"
+      },
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      },
+      {
+        "title": "Lookup Not Working at User Task",
+        "url": "https://answers.laserfiche.com/questions/80329/Lookup-Not-Working-at-User-Task"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "Failed to confirm transfer.",
+    "noMatch": false,
+    "query": "7992 Failed to confirm transfer",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7993",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "Invalid hold duration defined.",
+    "noMatch": false,
+    "query": "7993 Invalid hold duration defined",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7994",
+    "links": [
+      {
+        "title": "Lookup Not Working at User Task",
+        "url": "https://answers.laserfiche.com/questions/80329/Lookup-Not-Working-at-User-Task"
+      },
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "Invalid hold disposition type defined.",
+    "noMatch": false,
+    "query": "7994 Invalid hold disposition type defined",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7995",
+    "links": [
+      {
+        "title": "Giving Users Select All/Deselect All Option for Checkbox fields in a Table",
+        "url": "https://answers.laserfiche.com/questions/236626/Giving-Users-Select-AllDeselect-All-Option-for-Checkbox-fields-in-a-Table"
+      },
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      },
+      {
+        "title": "Lookup Not Working at User Task",
+        "url": "https://answers.laserfiche.com/questions/80329/Lookup-Not-Working-at-User-Task"
+      }
+    ],
+    "message": "Failed to get eligibility date.",
+    "noMatch": false,
+    "query": "7995 Failed to get eligibility date",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7996",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "Failed to carry out final disposition action.",
+    "noMatch": false,
+    "query": "7996 Failed to carry out final disposition action",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7997",
+    "links": [
+      {
+        "title": "Empower Conference App!",
+        "url": "https://answers.laserfiche.com/questions/110823/Empower-Conference-App"
+      },
+      {
+        "title": "Lookup Not Working at User Task",
+        "url": "https://answers.laserfiche.com/questions/80329/Lookup-Not-Working-at-User-Task"
+      },
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "The specified series does not exist.",
+    "noMatch": false,
+    "query": "7997 The specified series does not exist",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7998",
+    "links": [
+      {
+        "title": "multi value fields using real time look up with quick fields",
+        "url": "https://answers.laserfiche.com/questions/108228/multi-value-fields-using-real-time-look-up-with-quick-fields"
+      },
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      },
+      {
+        "title": "Lookup Not Working at User Task",
+        "url": "https://answers.laserfiche.com/questions/80329/Lookup-Not-Working-at-User-Task"
+      }
+    ],
+    "message": "There are no records at the specified location.",
+    "noMatch": false,
+    "query": "7998 There are no records at the specified location",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7999",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "There are no records that satisfy this criteria.",
+    "noMatch": false,
+    "query": "7999 There are no records that satisfy this criteria",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9000",
+    "links": [
+      {
+        "title": "operation or command invalid for the requested document type 9000 when trying to restore from recycle bin",
+        "url": "https://answers.laserfiche.com/questions/180871/operation-or-command-invalid-for-the-requested-document-type-9000-when-trying-to-restore-from-recycle-bin"
+      },
+      {
+        "title": "Operation or command invalid for the requested type of object. [9000] When trying to copy a document to Outlook 365",
+        "url": "https://answers.laserfiche.com/questions/209571/Operation-or-command-invalid-for-the-requested-type-of-object-9000-When-trying-to-copy-a-document-to-Outlook-365"
+      },
+      {
+        "title": "Getting Issue while executing Document.Create() method.",
+        "url": "https://answers.laserfiche.com/questions/60558/Getting-Issue-while-executing-DocumentCreate-method"
+      },
+      {
+        "title": "Forms are suspended with an error of \" Operation or command invalid for the requested type of object. [9000]",
+        "url": "https://answers.laserfiche.com/questions/102738/Forms-are-suspended-with-an-error-of--Operation-or-command-invalid-for-the-requested-type-of-object-9000"
+      },
+      {
+        "title": "Basic User not able to login to Forms Portal",
+        "url": "https://answers.laserfiche.com/questions/49436/Basic-User-not-able-to-login-to-Forms-Portal"
+      },
+      {
+        "title": "Workflow Error [9000]",
+        "url": "https://answers.laserfiche.com/questions/135957/Workflow-Error-9000"
+      },
+      {
+        "title": "SID Trustees in Repository Rights",
+        "url": "https://answers.laserfiche.com/questions/225534/SID-Trustees-in-Repository-Rights"
+      },
+      {
+        "title": "Error in Route Entry Activity in Workflow",
+        "url": "https://answers.laserfiche.com/questions/66197/Error-in-Route-Entry-Activity-in-Workflow"
+      },
+      {
+        "title": "My workflow has stopped working",
+        "url": "https://answers.laserfiche.com/questions/84302/My-workflow-has-stopped-working"
+      },
+      {
+        "title": "Setting alternate retention using workflow activity",
+        "url": "https://answers.laserfiche.com/questions/167897/Setting-alternate-retention-using-workflow-activity"
+      }
+    ],
+    "message": "Invalid Operation",
+    "noMatch": false,
+    "query": "9000 Invalid Operation",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9001",
+    "links": [
+      {
+        "title": "Entry Not Found - 9001 Error - Attempting to open or view metadata on entry in search results",
+        "url": "https://answers.laserfiche.com/questions/127763/Entry-Not-Found--9001-Error--Attempting-to-open-or-view-metadata-on-entry-in-search-results"
+      },
+      {
+        "title": "Delete folder error -Entry not found (9001)",
+        "url": "https://answers.laserfiche.com/questions/102169/Delete-folder-error-Entry-not-found-9001"
+      },
+      {
+        "title": "Workflow event log errors - system problems",
+        "url": "https://answers.laserfiche.com/questions/141224/Workflow-event-log-errors--system-problems"
+      },
+      {
+        "title": "workflow 9.2.0.167",
+        "url": "https://answers.laserfiche.com/questions/92622/workflow-920167"
+      },
+      {
+        "title": "Workflow - Entry Changed but Not Deleted",
+        "url": "https://answers.laserfiche.com/questions/164025/Workflow--Entry-Changed-but-Not-Deleted"
+      },
+      {
+        "title": "Entry Not Found - 9001 Error - Attempting to open a document",
+        "url": "https://answers.laserfiche.com/questions/148677/Entry-Not-Found--9001-Error--Attempting-to-open-a-document"
+      },
+      {
+        "title": "Entry Not found. [9001] when trying to do a customized search.",
+        "url": "https://answers.laserfiche.com/questions/92046/Entry-Not-found-9001-when-trying-to-do-a-customized-search"
+      },
+      {
+        "title": "Error On Login + Entry not found (but should be)",
+        "url": "https://answers.laserfiche.com/questions/155575/Error-On-Login--Entry-not-found-but-should-be"
+      },
+      {
+        "title": "SDK - Error moving a folder into a new folder",
+        "url": "https://answers.laserfiche.com/questions/148223/SDK--Error-moving-a-folder-into-a-new-folder"
+      },
+      {
+        "title": "Entry Not Found (9001) - When Logging into Web Access",
+        "url": "https://answers.laserfiche.com/questions/50208/Entry-Not-Found-9001--When-Logging-into-Web-Access"
+      }
+    ],
+    "message": "Entry Not Found",
+    "noMatch": false,
+    "query": "9001 Entry Not Found",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9002",
+    "links": [
+      {
+        "title": "EntryNameOption.Overwrite throwing 9002 error",
+        "url": "https://answers.laserfiche.com/questions/133028/EntryNameOptionOverwrite-throwing-9002-error"
+      },
+      {
+        "title": "How do I interpret error code 9002 - Trying to save a template",
+        "url": "https://answers.laserfiche.com/questions/231960/How-do-I-interpret-error-code-9002--Trying-to-save-a-template"
+      },
+      {
+        "title": "EntryNameOption.Overwrite fails in DocumentInfo.Create method",
+        "url": "https://answers.laserfiche.com/questions/180680/EntryNameOptionOverwrite-fails-in-DocumentInfoCreate-method"
+      }
+    ],
+    "message": "Object Already Exists",
+    "noMatch": false,
+    "query": "9002 Object Already Exists",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9003",
+    "links": [
+      {
+        "title": "9003 \"The Requested Document Rendition Does Not Exist\"",
+        "url": "https://answers.laserfiche.com/questions/78471/9003-The-Requested-Document-Rendition-Does-Not-Exist"
+      }
+    ],
+    "message": "The Requested Document Rendition Does Not Exist",
+    "noMatch": false,
+    "query": "9003 The Requested Document Rendition Does Not Exist",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9004",
+    "links": [
+      {
+        "title": "file input/output error 9004",
+        "url": "https://answers.laserfiche.com/questions/83893/file-inputoutput-error-9004"
+      },
+      {
+        "title": "Error 9004 file input output error when attaching a volume",
+        "url": "https://answers.laserfiche.com/questions/84500/Error-9004-file-input-output-error-when-attaching-a-volume"
+      },
+      {
+        "title": "October Technical Resources",
+        "url": "https://answers.laserfiche.com/questions/86026/October-Technical-Resources"
+      },
+      {
+        "title": "Error 9004 File input / output for a particular Volume",
+        "url": "https://answers.laserfiche.com/questions/129257/Error-9004-File-input--output-for-a-particular-Volume"
+      },
+      {
+        "title": "import agent email archive - what happens if LF repo is offline?",
+        "url": "https://answers.laserfiche.com/questions/181269/import-agent-email-archive--what-happens-if-LF-repo-is-offline"
+      },
+      {
+        "title": "Errors When Migrating document to different volume",
+        "url": "https://answers.laserfiche.com/questions/81541/Errors-When-Migrating-document-to-different-volume"
+      },
+      {
+        "title": "File input/output error. [9004]",
+        "url": "https://answers.laserfiche.com/questions/84369/File-inputoutput-error-9004"
+      },
+      {
+        "title": "SQL Native client 2005 not installed",
+        "url": "https://answers.laserfiche.com/questions/54731/SQL-Native-client-2005-not-installed"
+      },
+      {
+        "title": "9004 - I/O Error when creating or attaching repository. Rio 9.2",
+        "url": "https://answers.laserfiche.com/questions/84341/9004--IO-Error-when-creating-or-attaching-repository--Rio-92"
+      }
+    ],
+    "message": "File Input Output Error",
+    "noMatch": false,
+    "query": "9004 File Input Output Error",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9005",
+    "links": [],
+    "message": "Volume is Read-only",
+    "noMatch": true,
+    "query": "9005 Volume is Read-only",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9006",
+    "links": [
+      {
+        "title": "Import Agent Startlist, volume not found error [9006]",
+        "url": "https://answers.laserfiche.com/questions/138657/Import-Agent-Startlist-volume-not-found-error-9006"
+      },
+      {
+        "title": "Volume not found. [9006]",
+        "url": "https://answers.laserfiche.com/questions/120182/Volume-not-found-9006"
+      },
+      {
+        "title": "Getting Issue while executing Document.Create() method.",
+        "url": "https://answers.laserfiche.com/questions/60558/Getting-Issue-while-executing-DocumentCreate-method"
+      },
+      {
+        "title": "Client getting Volume Not Found error",
+        "url": "https://answers.laserfiche.com/questions/115581/Client-getting-Volume-Not-Found-error"
+      },
+      {
+        "title": "Connector - Receiving an error upon starting up scan to LF Client Profile",
+        "url": "https://answers.laserfiche.com/questions/83933/Connector--Receiving-an-error-upon-starting-up-scan-to-LF-Client-Profile-"
+      },
+      {
+        "title": "Error during Save to Reporsitory task [LFF5427-ErrorExecuteSTR]",
+        "url": "https://answers.laserfiche.com/questions/134532/Error-during-Save-to-Reporsitory-task-LFF5427ErrorExecuteSTR"
+      },
+      {
+        "title": "Form Suspended. \"An error occurred during the execution of the Save to Repository service task. [LFF5426-ErrorExecuteSTR]",
+        "url": "https://answers.laserfiche.com/questions/215374/Form-Suspended-An-error-occurred-during-the-execution-of-the-Save-to-Repository-service-task-LFF5426ErrorExecuteSTR"
+      },
+      {
+        "title": "Saving documents to Repository through workflow SDK script returning errors",
+        "url": "https://answers.laserfiche.com/questions/206281/Saving-documents-to-Repository-through-workflow-SDK-script-returning-errors"
+      }
+    ],
+    "message": "Volume not found",
+    "noMatch": false,
+    "query": "9006 Volume not found",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9007",
+    "links": [
+      {
+        "title": "9007 when downloading folder contents from Laserfiche",
+        "url": "https://answers.laserfiche.com/questions/147261/9007-when-downloading-folder-contents-from-Laserfiche"
+      },
+      {
+        "title": "Export from Laserfiche to Box",
+        "url": "https://answers.laserfiche.com/questions/174610/Export-from-Laserfiche-to-Box"
+      }
+    ],
+    "message": "Path too long",
+    "noMatch": false,
+    "query": "9007 Path too long",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9008",
+    "links": [
+      {
+        "title": "Migration to new volume - Database error",
+        "url": "https://answers.laserfiche.com/questions/79648/Migration-to-new-volume--Database-error"
+      },
+      {
+        "title": "Getting database error when trying to login to Laserfiche",
+        "url": "https://answers.laserfiche.com/questions/175852/Getting-database-error-when-trying-to-login-to-Laserfiche"
+      },
+      {
+        "title": "Error Message: General database error [9008] In Recycle bin",
+        "url": "https://answers.laserfiche.com/questions/219922/Error-Message-General-database-error-9008-In-Recycle-bin"
+      },
+      {
+        "title": "9008",
+        "url": "https://answers.laserfiche.com/questions/77211/9008"
+      },
+      {
+        "title": "While we search within repository we got error : Error executing SQL command. General database error. [9008]",
+        "url": "https://answers.laserfiche.com/questions/221495/While-we-search-within-repository-we-got-error--Error-executing-SQL-command-General-database-error-9008"
+      },
+      {
+        "title": "Receiving Error code 9008",
+        "url": "https://answers.laserfiche.com/questions/236659/Receiving-Error-code-9008"
+      },
+      {
+        "title": "Failed to load annotations. This image cannot be modified. General database error. [9008] - after upgrade from 8.3.2 to 9.1.1",
+        "url": "https://answers.laserfiche.com/questions/55838/Failed-to-load-annotations-This-image-cannot-be-modified-General-database-error-9008--after-upgrade-from-832-to-911"
+      },
+      {
+        "title": "Error executing SQL command. general database error 9008",
+        "url": "https://answers.laserfiche.com/questions/190690/Error-executing-SQL-command-general-database-error-9008"
+      },
+      {
+        "title": "How to configure Laserfiche (server) to NOT be db_owner - least privileges",
+        "url": "https://answers.laserfiche.com/questions/182333/How-to-configure-Laserfiche-server-to-NOT-be-dbowner--least-privileges"
+      },
+      {
+        "title": "What is the correct Authentication Service version for Laserfiche 12?",
+        "url": "https://answers.laserfiche.com/questions/233114/What-is-the-correct-Authentication-Service-version-for-Laserfiche-12"
+      }
+    ],
+    "message": "General database error",
+    "noMatch": false,
+    "query": "9008 General database error",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9009",
+    "links": [
+      {
+        "title": "Unable to save to Laserfiche",
+        "url": "https://answers.laserfiche.com/questions/82940/Unable-to-save-to-Laserfiche"
+      }
+    ],
+    "message": "Out of Space on Device",
+    "noMatch": false,
+    "query": "9009 Out of Space on Device",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9010",
+    "links": [
+      {
+        "title": "A few Windows Account won't authenticate with the new LF 10 Server Upgrade",
+        "url": "https://answers.laserfiche.com/questions/102793/A-few-Windows-Account-wont-authenticate-with-the-new-LF-10-Server-Upgrade"
+      },
+      {
+        "title": "Error: The user account name or password is incorrect.",
+        "url": "https://answers.laserfiche.com/questions/144196/Error-The-user-account-name-or-password-is-incorrect"
+      },
+      {
+        "title": "The user account name or password is incorrect after network password change",
+        "url": "https://answers.laserfiche.com/questions/185663/The-user-account-name-or-password-is-incorrect-after-network-password-change"
+      },
+      {
+        "title": "\"The user account or password is incorrect. [9010]\" error occurs when logging into a repository with Windows Authentication",
+        "url": "https://answers.laserfiche.com/questions/108568/The-user-account-or-password-is-incorrect-9010-error-occurs-when-logging-into-a-repository-with-Windows-Authentication"
+      },
+      {
+        "title": "Upgrade to LF9.1, now can't connect to remote server via the administration console",
+        "url": "https://answers.laserfiche.com/questions/50146/Upgrade-to-LF91-now-cant-connect-to-remote-server-via-the-administration-console"
+      },
+      {
+        "title": "client 9.1.1 not letting me login from any other station",
+        "url": "https://answers.laserfiche.com/questions/113968/client-911-not-letting-me-login-from-any-other-station"
+      },
+      {
+        "title": "Self Hosted Rest API 9010 Access Denied",
+        "url": "https://answers.laserfiche.com/questions/203765/Self-Hosted-Rest-API-9010-Access-Denied"
+      },
+      {
+        "title": "How to log into Laserfische with Networkcredentialcache specified explicitly?",
+        "url": "https://answers.laserfiche.com/questions/78281/How-to-log-into-Laserfische-with-Networkcredentialcache-specified-explicitly"
+      },
+      {
+        "title": "Error Code: 9010 Error Message: The user account name or password is incorrect. [9010]",
+        "url": "https://answers.laserfiche.com/questions/101883/Error-Code-9010-Error-Message-The-user-account-name-or-password-is-incorrect-9010"
+      },
+      {
+        "title": "Windows authentication using DNS name instead of server name",
+        "url": "https://answers.laserfiche.com/questions/114810/Windows-authentication-using-DNS-name-instead-of-server-name"
+      }
+    ],
+    "message": "The User Account or Password is Incorrect",
+    "noMatch": false,
+    "query": "9010 The User Account or Password is Incorrect",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9011",
+    "links": [
+      {
+        "title": "Access Rights Effective Rights Showing \"Account locked. [9011]\"",
+        "url": "https://answers.laserfiche.com/questions/231672/Access-Rights-Effective-Rights-Showing-Account-locked-9011"
+      },
+      {
+        "title": "Laserfiche client cannot login and Account Locked 9011",
+        "url": "https://answers.laserfiche.com/questions/139279/Laserfiche-client-cannot-login-and-Account-Locked-9011"
+      },
+      {
+        "title": "Account Locked. [9011] in subscriber_error.log",
+        "url": "https://answers.laserfiche.com/questions/94788/Account-Locked-9011-in-subscribererrorlog"
+      },
+      {
+        "title": "Enhancement Request: Change Client Error When Account Is Locked",
+        "url": "https://answers.laserfiche.com/questions/168860/Enhancement-Request-Change-Client-Error-When-Account-Is-Locked"
+      },
+      {
+        "title": "Directory Server User Locked",
+        "url": "https://answers.laserfiche.com/questions/206768/Directory-Server-User-Locked"
+      },
+      {
+        "title": "S4U - Directory Server Windows Authentication Fails without Domain Admin Service Account",
+        "url": "https://answers.laserfiche.com/questions/113877/S4U--Directory-Server-Windows-Authentication-Fails-without-Domain-Admin-Service-Account"
+      },
+      {
+        "title": "Upgraded from 8.3.1.625 to 8.3.2.755, Text Search Broken, Catalogue misconfigured, Index Status Unknown",
+        "url": "https://answers.laserfiche.com/questions/54216/Upgraded-from-831625-to-832755-Text-Search-Broken-Catalogue-misconfigured-Index-Status-Unknown"
+      }
+    ],
+    "message": "Account locked",
+    "noMatch": false,
+    "query": "9011 Account locked",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9012",
+    "links": [
+      {
+        "title": "Repository Trustee Not Found [9012]",
+        "url": "https://answers.laserfiche.com/questions/233323/Repository-Trustee-Not-Found-9012"
+      },
+      {
+        "title": "How do you create first user for repository?",
+        "url": "https://answers.laserfiche.com/questions/195387/How-do-you-create-first-user-for-repository"
+      },
+      {
+        "title": "Add Named User to Rio License Manager",
+        "url": "https://answers.laserfiche.com/questions/115535/Add-Named-User-to-Rio-License-Manager"
+      },
+      {
+        "title": "When selecting Repository Named User it gives error, The Trustee could not be found. The trustee not found. [9012]",
+        "url": "https://answers.laserfiche.com/questions/131819/When-selecting-Repository-Named-User-it-gives-error-The-Trustee-could-not-be-found-The-trustee-not-found-9012"
+      },
+      {
+        "title": "SDK: Unable to Add LDAP User To Group",
+        "url": "https://answers.laserfiche.com/questions/146457/SDK-Unable-to-Add-LDAP-User-To-Group"
+      },
+      {
+        "title": "Using SDK Script to add a Windows user to a repository group",
+        "url": "https://answers.laserfiche.com/questions/209795/Using-SDK-Script-to-add-a-Windows-user-to-a-repository-group"
+      },
+      {
+        "title": "SDK Script To Change Account Password Not Working Consistently",
+        "url": "https://answers.laserfiche.com/questions/80928/SDK-Script-To-Change-Account-Password-Not-Working-Consistently"
+      },
+      {
+        "title": "Access denied. [9013] using Windows Authentication signin to repository",
+        "url": "https://answers.laserfiche.com/questions/195006/Access-denied-9013-using-Windows-Authentication-signin-to-repository"
+      },
+      {
+        "title": "Configuring Web Client Custom Tabs in 10.3",
+        "url": "https://answers.laserfiche.com/questions/133736/Configuring-Web-Client-Custom-Tabs-in-103"
+      },
+      {
+        "title": "Deleted User still shows as Named Full User. Error 9012",
+        "url": "https://answers.laserfiche.com/questions/75399/Deleted-User-still-shows-as-Named-Full-User-Error-9012"
+      }
+    ],
+    "message": "Trustee not Found",
+    "noMatch": false,
+    "query": "9012 Trustee not Found",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9013",
+    "links": [
+      {
+        "title": "Weblink: Users getting Access Denied 9013 error",
+        "url": "https://answers.laserfiche.com/questions/181979/Weblink-Users-getting-Access-Denied-9013-error"
+      },
+      {
+        "title": "Forms save to repository task",
+        "url": "https://answers.laserfiche.com/questions/54665/Forms-save-to-repository-task"
+      },
+      {
+        "title": "Assembly Qualified Name for [9013] Access Denied Exception LFv11",
+        "url": "https://answers.laserfiche.com/questions/211533/Assembly-Qualified-Name-for-9013-Access-Denied-Exception-LFv11"
+      },
+      {
+        "title": "Access denied on check out",
+        "url": "https://answers.laserfiche.com/questions/112361/Access-denied-on-check-out"
+      },
+      {
+        "title": "Kerberos, Web Access and Windows Authentication Setting Help",
+        "url": "https://answers.laserfiche.com/questions/76474/Kerberos-Web-Access-and-Windows-Authentication-Setting-Help"
+      },
+      {
+        "title": "9013 Access Denied error in Thick Client 9.2",
+        "url": "https://answers.laserfiche.com/questions/68992/9013-Access-Denied-error-in-Thick-Client-92"
+      },
+      {
+        "title": "Error Code: 9013",
+        "url": "https://answers.laserfiche.com/questions/95952/Error-Code-9013"
+      },
+      {
+        "title": "Error Access denied. [9013]",
+        "url": "https://answers.laserfiche.com/questions/72907/Error-Access-denied-9013"
+      },
+      {
+        "title": "Getting a Permission Denied 9013 - RIO - Windows Accounts.",
+        "url": "https://answers.laserfiche.com/questions/83509/Getting-a-Permission-Denied-9013--RIO--Windows-Accounts"
+      },
+      {
+        "title": "Could not get document information. Access denied [9013]",
+        "url": "https://answers.laserfiche.com/questions/113783/Could-not-get-document-information-Access-denied-9013"
+      }
+    ],
+    "message": "Access Denied",
+    "noMatch": false,
+    "query": "9013 Access Denied",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "9014",
+    "links": [
+      {
+        "title": "How can I get information on fails from the \"Schedule OCR\" activity?",
+        "url": "https://answers.laserfiche.com/questions/203590/How-can-I-get-information-on-fails-from-the-Schedule-OCR-activity"
+      },
+      {
+        "title": "entry locked when changing metadata",
+        "url": "https://answers.laserfiche.com/questions/80868/entry-locked-when-changing-metadata"
+      },
+      {
+        "title": "Quick fields move entry before checking it in",
+        "url": "https://answers.laserfiche.com/questions/170162/Quick-fields-move-entry-before-checking-it-in"
+      },
+      {
+        "title": "Warning 9014 and 9059",
+        "url": "https://answers.laserfiche.com/questions/110289/Warning-9014-and-9059"
+      },
+      {
+        "title": "Entry Locked [9014]",
+        "url": "https://answers.laserfiche.com/questions/135705/Entry-Locked-9014"
+      },
+      {
+        "title": "Entry Locked Error in Workflow",
+        "url": "https://answers.laserfiche.com/questions/107831/Entry-Locked-Error-in-Workflow"
+      },
+      {
+        "title": "create entry rule and entry locks",
+        "url": "https://answers.laserfiche.com/questions/105321/create-entry-rule-and-entry-locks"
+      },
+      {
+        "title": "Workflow Suspend",
+        "url": "https://answers.laserfiche.com/questions/128066/Workflow-Suspend"
+      },
+      {
+        "title": "Entry Lock Issues in Repository",
+        "url": "https://answers.laserfiche.com/questions/221751/Entry-Lock-Issues-in-Repository"
+      },
+      {
+        "title": "prevent workflow from terminating",
+        "url": "https://answers.laserfiche.com/questions/101505/prevent-workflow-from-terminating"
+      }
+    ],
+    "message": "Entry Locked",
+    "noMatch": false,
+    "query": "9014 Entry Locked",
+    "searchedAt": "2026-06-27"
   }
 ]

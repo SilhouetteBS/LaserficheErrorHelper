@@ -388,5 +388,401 @@
     "hasAcceptedLanguage": true,
     "reviewedDate": "2026-06-27",
     "notes": "Employee-assisted thread; user confirmed generated advanced search syntax contained an unintended/malformed field criterion."
+  },
+  {
+    "code": "9000",
+    "message": "Invalid Operation",
+    "title": "operation or command invalid for the requested document type 9000 when trying to restore from recycle bin",
+    "url": "https://answers.laserfiche.com/questions/180871/operation-or-command-invalid-for-the-requested-document-type-9000-when-trying-to-restore-from-recycle-bin",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9000",
+    "message": "Invalid Operation",
+    "title": "Operation or command invalid for the requested type of object. [9000] When trying to copy a document to Outlook 365",
+    "url": "https://answers.laserfiche.com/questions/209571/Operation-or-command-invalid-for-the-requested-type-of-object-9000-When-trying-to-copy-a-document-to-Outlook-365",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9000",
+    "message": "Invalid Operation",
+    "title": "Forms are suspended with an error of \" Operation or command invalid for the requested type of object. [9000]",
+    "url": "https://answers.laserfiche.com/questions/102738/Forms-are-suspended-with-an-error-of--Operation-or-command-invalid-for-the-requested-type-of-object-9000",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9000",
+    "message": "Invalid Operation",
+    "title": "Workflow Error [9000]",
+    "url": "https://answers.laserfiche.com/questions/135957/Workflow-Error-9000",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9001",
+    "message": "Entry Not Found",
+    "title": "Entry Not Found - 9001 Error - Attempting to open or view metadata on entry in search results",
+    "url": "https://answers.laserfiche.com/questions/127763/Entry-Not-Found--9001-Error--Attempting-to-open-or-view-metadata-on-entry-in-search-results",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9001",
+    "message": "Entry Not Found",
+    "title": "Delete folder error -Entry not found (9001)",
+    "url": "https://answers.laserfiche.com/questions/102169/Delete-folder-error-Entry-not-found-9001",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9001",
+    "message": "Entry Not Found",
+    "title": "Entry Not Found - 9001 Error - Attempting to open a document",
+    "url": "https://answers.laserfiche.com/questions/148677/Entry-Not-Found--9001-Error--Attempting-to-open-a-document",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9001",
+    "message": "Entry Not Found",
+    "title": "Entry Not found. [9001] when trying to do a customized search.",
+    "url": "https://answers.laserfiche.com/questions/92046/Entry-Not-found-9001-when-trying-to-do-a-customized-search",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9001",
+    "message": "Entry Not Found",
+    "title": "Entry Not Found (9001) - When Logging into Web Access",
+    "url": "https://answers.laserfiche.com/questions/50208/Entry-Not-Found-9001--When-Logging-into-Web-Access",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9002",
+    "message": "Object Already Exists",
+    "title": "EntryNameOption.Overwrite throwing 9002 error",
+    "url": "https://answers.laserfiche.com/questions/133028/EntryNameOptionOverwrite-throwing-9002-error",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9002",
+    "message": "Object Already Exists",
+    "title": "How do I interpret error code 9002 - Trying to save a template",
+    "url": "https://answers.laserfiche.com/questions/231960/How-do-I-interpret-error-code-9002--Trying-to-save-a-template",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9003",
+    "message": "The Requested Document Rendition Does Not Exist",
+    "title": "9003 \"The Requested Document Rendition Does Not Exist\"",
+    "url": "https://answers.laserfiche.com/questions/78471/9003-The-Requested-Document-Rendition-Does-Not-Exist",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9004",
+    "message": "File Input Output Error",
+    "title": "file input/output error 9004",
+    "url": "https://answers.laserfiche.com/questions/83893/file-inputoutput-error-9004",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9004",
+    "message": "File Input Output Error",
+    "title": "Error 9004 file input output error when attaching a volume",
+    "url": "https://answers.laserfiche.com/questions/84500/Error-9004-file-input-output-error-when-attaching-a-volume",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9004",
+    "message": "File Input Output Error",
+    "title": "Error 9004 File input / output for a particular Volume",
+    "url": "https://answers.laserfiche.com/questions/129257/Error-9004-File-input--output-for-a-particular-Volume",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9004",
+    "message": "File Input Output Error",
+    "title": "File input/output error. [9004]",
+    "url": "https://answers.laserfiche.com/questions/84369/File-inputoutput-error-9004",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9004",
+    "message": "File Input Output Error",
+    "title": "9004 - I/O Error when creating or attaching repository. Rio 9.2",
+    "url": "https://answers.laserfiche.com/questions/84341/9004--IO-Error-when-creating-or-attaching-repository--Rio-92",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9006",
+    "message": "Volume not found",
+    "title": "Import Agent Startlist, volume not found error [9006]",
+    "url": "https://answers.laserfiche.com/questions/138657/Import-Agent-Startlist-volume-not-found-error-9006",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9006",
+    "message": "Volume not found",
+    "title": "Volume not found. [9006]",
+    "url": "https://answers.laserfiche.com/questions/120182/Volume-not-found-9006",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9007",
+    "message": "Path too long",
+    "title": "9007 when downloading folder contents from Laserfiche",
+    "url": "https://answers.laserfiche.com/questions/147261/9007-when-downloading-folder-contents-from-Laserfiche",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9008",
+    "message": "General database error",
+    "title": "Error Message: General database error [9008] In Recycle bin",
+    "url": "https://answers.laserfiche.com/questions/219922/Error-Message-General-database-error-9008-In-Recycle-bin",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9008",
+    "message": "General database error",
+    "title": "9008",
+    "url": "https://answers.laserfiche.com/questions/77211/9008",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9008",
+    "message": "General database error",
+    "title": "While we search within repository we got error : Error executing SQL command. General database error. [9008]",
+    "url": "https://answers.laserfiche.com/questions/221495/While-we-search-within-repository-we-got-error--Error-executing-SQL-command-General-database-error-9008",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9008",
+    "message": "General database error",
+    "title": "Receiving Error code 9008",
+    "url": "https://answers.laserfiche.com/questions/236659/Receiving-Error-code-9008",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9008",
+    "message": "General database error",
+    "title": "Failed to load annotations. This image cannot be modified. General database error. [9008] - after upgrade from 8.3.2 to 9.1.1",
+    "url": "https://answers.laserfiche.com/questions/55838/Failed-to-load-annotations-This-image-cannot-be-modified-General-database-error-9008--after-upgrade-from-832-to-911",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9008",
+    "message": "General database error",
+    "title": "Error executing SQL command. general database error 9008",
+    "url": "https://answers.laserfiche.com/questions/190690/Error-executing-SQL-command-general-database-error-9008",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9010",
+    "message": "The User Account or Password is Incorrect",
+    "title": "\"The user account or password is incorrect. [9010]\" error occurs when logging into a repository with Windows Authentication",
+    "url": "https://answers.laserfiche.com/questions/108568/The-user-account-or-password-is-incorrect-9010-error-occurs-when-logging-into-a-repository-with-Windows-Authentication",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9010",
+    "message": "The User Account or Password is Incorrect",
+    "title": "Self Hosted Rest API 9010 Access Denied",
+    "url": "https://answers.laserfiche.com/questions/203765/Self-Hosted-Rest-API-9010-Access-Denied",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9010",
+    "message": "The User Account or Password is Incorrect",
+    "title": "Error Code: 9010 Error Message: The user account name or password is incorrect. [9010]",
+    "url": "https://answers.laserfiche.com/questions/101883/Error-Code-9010-Error-Message-The-user-account-name-or-password-is-incorrect-9010",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9011",
+    "message": "Account locked",
+    "title": "Access Rights Effective Rights Showing \"Account locked. [9011]\"",
+    "url": "https://answers.laserfiche.com/questions/231672/Access-Rights-Effective-Rights-Showing-Account-locked-9011",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9011",
+    "message": "Account locked",
+    "title": "Laserfiche client cannot login and Account Locked 9011",
+    "url": "https://answers.laserfiche.com/questions/139279/Laserfiche-client-cannot-login-and-Account-Locked-9011",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9011",
+    "message": "Account locked",
+    "title": "Account Locked. [9011] in subscriber_error.log",
+    "url": "https://answers.laserfiche.com/questions/94788/Account-Locked-9011-in-subscribererrorlog",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9012",
+    "message": "Trustee not Found",
+    "title": "Repository Trustee Not Found [9012]",
+    "url": "https://answers.laserfiche.com/questions/233323/Repository-Trustee-Not-Found-9012",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9012",
+    "message": "Trustee not Found",
+    "title": "When selecting Repository Named User it gives error, The Trustee could not be found. The trustee not found. [9012]",
+    "url": "https://answers.laserfiche.com/questions/131819/When-selecting-Repository-Named-User-it-gives-error-The-Trustee-could-not-be-found-The-trustee-not-found-9012",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9012",
+    "message": "Trustee not Found",
+    "title": "Deleted User still shows as Named Full User. Error 9012",
+    "url": "https://answers.laserfiche.com/questions/75399/Deleted-User-still-shows-as-Named-Full-User-Error-9012",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9013",
+    "message": "Access Denied",
+    "title": "Weblink: Users getting Access Denied 9013 error",
+    "url": "https://answers.laserfiche.com/questions/181979/Weblink-Users-getting-Access-Denied-9013-error",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9013",
+    "message": "Access Denied",
+    "title": "Assembly Qualified Name for [9013] Access Denied Exception LFv11",
+    "url": "https://answers.laserfiche.com/questions/211533/Assembly-Qualified-Name-for-9013-Access-Denied-Exception-LFv11",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9013",
+    "message": "Access Denied",
+    "title": "9013 Access Denied error in Thick Client 9.2",
+    "url": "https://answers.laserfiche.com/questions/68992/9013-Access-Denied-error-in-Thick-Client-92",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9013",
+    "message": "Access Denied",
+    "title": "Error Code: 9013",
+    "url": "https://answers.laserfiche.com/questions/95952/Error-Code-9013",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9013",
+    "message": "Access Denied",
+    "title": "Error Access denied. [9013]",
+    "url": "https://answers.laserfiche.com/questions/72907/Error-Access-denied-9013",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9013",
+    "message": "Access Denied",
+    "title": "Getting a Permission Denied 9013 - RIO - Windows Accounts.",
+    "url": "https://answers.laserfiche.com/questions/83509/Getting-a-Permission-Denied-9013--RIO--Windows-Accounts",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9013",
+    "message": "Access Denied",
+    "title": "Could not get document information. Access denied [9013]",
+    "url": "https://answers.laserfiche.com/questions/113783/Could-not-get-document-information-Access-denied-9013",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9014",
+    "message": "Entry Locked",
+    "title": "Warning 9014 and 9059",
+    "url": "https://answers.laserfiche.com/questions/110289/Warning-9014-and-9059",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9014",
+    "message": "Entry Locked",
+    "title": "Entry Locked [9014]",
+    "url": "https://answers.laserfiche.com/questions/135705/Entry-Locked-9014",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
   }
 ]
