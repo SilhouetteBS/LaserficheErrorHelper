@@ -1738,5 +1738,491 @@
     "hasLaserficheEmployee": false,
     "hasAcceptedLanguage": false,
     "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9334",
+    "message": "The number of registered named users has reached its licensed limit.",
+    "title": "The number of registered named users has reached its licensed limit 9334",
+    "url": "https://answers.laserfiche.com/questions/70906/The-number-of-registered-named-users-has-reached-its-licensed-limit-9334",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9337",
+    "message": "The field constraint has a syntax error or is invalid.",
+    "title": "regular expressions syntax error 9337",
+    "url": "https://answers.laserfiche.com/questions/76309/regular-expressions-syntax-error-9337",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9352",
+    "message": "The number of registered Laserfiche named users has reached its licensed limit.",
+    "title": "Can't add Full user to Rio; error 9352",
+    "url": "https://answers.laserfiche.com/questions/80191/Cant-add-Full-user-to-Rio-error-9352",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9352",
+    "message": "The number of registered Laserfiche named users has reached its licensed limit.",
+    "title": "The number of registered repository named users has reached its licensed limit.[9352]",
+    "url": "https://answers.laserfiche.com/questions/227117/The-number-of-registered-repository-named-users-has-reached-its-licensed-limit9352",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9356",
+    "message": "LDAP server profile not found.",
+    "title": "LDAP Server Profile Not Found Error 9356",
+    "url": "https://answers.laserfiche.com/questions/89351/LDAP-Server-Profile-Not-Found-Error-9356",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9357",
+    "message": "LDAP query could not be completed.",
+    "title": "Error Code: 9357 Error Message: LDAP query could not be completed. [9357]",
+    "url": "https://answers.laserfiche.com/questions/143104/Error-Code-9357-Error-Message-LDAP-query-could-not-be-completed-9357",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9357",
+    "message": "LDAP query could not be completed.",
+    "title": "Adding LFDS Group/User to Repository - Error 9357",
+    "url": "https://answers.laserfiche.com/questions/215118/Adding-LFDS-GroupUser-to-Repository--Error-9357",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9357",
+    "message": "LDAP query could not be completed.",
+    "title": "LF 11 Admin Console Error: \"LDAP query could not be completed. [9357]\" when querying LFDS Users/Groups",
+    "url": "https://answers.laserfiche.com/questions/206964/LF-11-Admin-Console-Error-LDAP-query-could-not-be-completed-9357-when-querying-LFDS-UsersGroups",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9357",
+    "message": "LDAP query could not be completed.",
+    "title": "LDAP query could not be completed - Error Code: 9357",
+    "url": "https://answers.laserfiche.com/questions/95710/LDAP-query-could-not-be-completed--Error-Code-9357",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9409",
+    "message": "Fail to initialize the external table.",
+    "title": "Error Code: 9409 Failed to initialize the external table.",
+    "url": "https://answers.laserfiche.com/questions/85306/Error-Code-9409-Failed-to-initialize-the-external-table-",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9409",
+    "message": "Fail to initialize the external table.",
+    "title": "Error Message: Failed to initialize the external table. [9409]",
+    "url": "https://answers.laserfiche.com/questions/72761/Error-Message-Failed-to-initialize-the-external-table-9409",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9409",
+    "message": "Fail to initialize the external table.",
+    "title": "Failed to initialize the external table - 9409",
+    "url": "https://answers.laserfiche.com/questions/79235/Failed-to-initialize-the-external-table--9409",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9418",
+    "message": "Certificate not found.",
+    "title": "Certificate not found. [9418] on Web Access",
+    "url": "https://answers.laserfiche.com/questions/155935/Certificate-not-found-9418-on-Web-Access",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9421",
+    "message": "Invalid search catalog status.",
+    "title": "Programmatically check for 9421 - invalid search catalog status",
+    "url": "https://answers.laserfiche.com/questions/122377/Programmatically-check-for-9421--invalid-search-catalog-status",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9421",
+    "message": "Invalid search catalog status.",
+    "title": "error 9421 : Invalid search catalog status ?",
+    "url": "https://answers.laserfiche.com/questions/60923/error-9421--Invalid-search-catalog-status-",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9451",
+    "message": "The search catalog could not be created or it failed to start.",
+    "title": "Error Code 9451",
+    "url": "https://answers.laserfiche.com/questions/84547/Error-Code-9451",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9456",
+    "message": "Failed to set up the dynamic fields as specified.",
+    "title": "failed to setup the dynamic fields as specified[9456]",
+    "url": "https://answers.laserfiche.com/questions/204789/failed-to-setup-the-dynamic-fields-as-specified9456",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9457",
+    "message": "Unknown Laserfiche external table column name.",
+    "title": "Error - Unknown Laserfiche external table column name. [9457] [9457]",
+    "url": "https://answers.laserfiche.com/questions/192430/Error--Unknown-Laserfiche-external-table-column-name-9457-9457",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9479",
+    "message": "Error connecting to the search engine. Either the search engine is offline or the search engine connection settings are misconfigured. Please contact your Laserfiche administrator.",
+    "title": "Getting the message \"Unknown error [9479:0xc0042507]\"",
+    "url": "https://answers.laserfiche.com/questions/54696/Getting-the-message-Unknown-error--94790xc0042507",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9479",
+    "message": "Error connecting to the search engine. Either the search engine is offline or the search engine connection settings are misconfigured. Please contact your Laserfiche administrator.",
+    "title": "Error with search in web access, Error 9479, Laserfiche10",
+    "url": "https://answers.laserfiche.com/questions/95987/Error-with-search-in-web-access-Error-9479-Laserfiche10",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9479",
+    "message": "Error connecting to the search engine. Either the search engine is offline or the search engine connection settings are misconfigured. Please contact your Laserfiche administrator.",
+    "title": "error 9479 al momento de indexar y en los documentos da error error 6390 y 9004",
+    "url": "https://answers.laserfiche.com/questions/140771/error-9479-al-momento-de-indexar-y-en-los-documentos-da-error-error-6390-y-9004",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9479",
+    "message": "Error connecting to the search engine. Either the search engine is offline or the search engine connection settings are misconfigured. Please contact your Laserfiche administrator.",
+    "title": "Search Error 9479 only on text searches. Service is running on the server (v10.4). Any ideas why?",
+    "url": "https://answers.laserfiche.com/questions/203245/Search-Error-9479-only-on-text-searches--Service-is-running-on-the-server-v104--Any-ideas-why",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9481",
+    "message": "The review interval unit was not found.",
+    "title": "9481 invalid host name",
+    "url": "https://answers.laserfiche.com/questions/119740/9481-invalid-host-name",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9491",
+    "message": "The search catalog is in read-only mode. Full-text search is available, but indexing and stop word updating are disabled.",
+    "title": "Search Catalog Error 9491",
+    "url": "https://answers.laserfiche.com/questions/134494/Search-Catalog-Error-9491",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9496",
+    "message": "This field definition cannot be changed because one or more entries exist with values in the version history.",
+    "title": "Field definition cannot be changed (9496)",
+    "url": "https://answers.laserfiche.com/questions/59970/Field-definition-cannot-be-changed-9496",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9498",
+    "message": "Failed to find the full-text search session. The connection to the search engine might have been reset.",
+    "title": "Laserfiche Error 9498",
+    "url": "https://answers.laserfiche.com/questions/80739/Laserfiche-Error-9498",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9499",
+    "message": "Failed to cutoff the record or the record folder. One or more required records are checked out.",
+    "title": "Failed to cutoff the record or the record folder. One or more required records are checked out. [9499]",
+    "url": "https://answers.laserfiche.com/questions/95751/Failed-to-cutoff-the-record-or-the-record-folder-One-or-more-required-records-are-checked-out-9499",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9499",
+    "message": "Failed to cutoff the record or the record folder. One or more required records are checked out.",
+    "title": "Error 9499 one or more checked out",
+    "url": "https://answers.laserfiche.com/questions/95908/Error-9499-one-or-more-checked-out",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9520",
+    "message": "No license has been allocated for this user.",
+    "title": "new users are not able to access repositories 9520 error",
+    "url": "https://answers.laserfiche.com/questions/67149/new-users-are-not-able-to-access-repositories-9520-error",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9520",
+    "message": "No license has been allocated for this user.",
+    "title": "9520 error",
+    "url": "https://answers.laserfiche.com/questions/60589/9520-error",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9520",
+    "message": "No license has been allocated for this user.",
+    "title": "error 9520 - what does this mean?",
+    "url": "https://answers.laserfiche.com/questions/52517/error-9520--what-does-this-mean",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9520",
+    "message": "No license has been allocated for this user.",
+    "title": "error 9520 causing confusion for public portal users",
+    "url": "https://answers.laserfiche.com/questions/66364/error-9520-causing-confusion-for-public-portal-users",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9520",
+    "message": "No license has been allocated for this user.",
+    "title": "Unable to log in using admin account error 9520",
+    "url": "https://answers.laserfiche.com/questions/55965/Unable-to-log-in-using-admin-account-error-9520",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9520",
+    "message": "No license has been allocated for this user.",
+    "title": "Weblink Login Unknown Error 9520",
+    "url": "https://answers.laserfiche.com/questions/56773/Weblink-Login-Unknown-Error-9520",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9522",
+    "message": "The requested operation could not proceed because the target volume's configured size limit has been reached.",
+    "title": "Unknown Error 9522",
+    "url": "https://answers.laserfiche.com/questions/60147/Unknown-Error-9522",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9523",
+    "message": "The repository cannot be mounted at the current time because it is being upgraded. Please wait until the upgrade completes.",
+    "title": "Error Code: 9523",
+    "url": "https://answers.laserfiche.com/questions/144302/Error-Code-9523",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9523",
+    "message": "The repository cannot be mounted at the current time because it is being upgraded. Please wait until the upgrade completes.",
+    "title": "Upgraded from 9.2 to 10.3 about 3 hours ago, but still can't log in error 9523",
+    "url": "https://answers.laserfiche.com/questions/141996/Upgraded-from-92-to-103-about-3-hours-ago-but-still-cant-log-in-error-9523",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9523",
+    "message": "The repository cannot be mounted at the current time because it is being upgraded. Please wait until the upgrade completes.",
+    "title": "Error 9523 - The repository cannot be mounted at the current time because it is being upgraded",
+    "url": "https://answers.laserfiche.com/questions/143411/Error-9523--The-repository-cannot-be-mounted-at-the-current-time-because-it-is-being-upgraded",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9523",
+    "message": "The repository cannot be mounted at the current time because it is being upgraded. Please wait until the upgrade completes.",
+    "title": "Error 9523 upgrading from 9.21 to 10.4",
+    "url": "https://answers.laserfiche.com/questions/164764/Error-9523-upgrading-from-921-to-104",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9523",
+    "message": "The repository cannot be mounted at the current time because it is being upgraded. Please wait until the upgrade completes.",
+    "title": "The repository cannot be mounted at this time because it is being upgraded. Please wait until the upgrade completes. [9523]",
+    "url": "https://answers.laserfiche.com/questions/83311/-The-repository-cannot-be-mounted-at-this-time-because-it-is-being-upgraded-Please-wait-until-the-upgrade-completes-9523",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9523",
+    "message": "The repository cannot be mounted at the current time because it is being upgraded. Please wait until the upgrade completes.",
+    "title": "The repository cannot be mounted at this time because it is being upgraded. Please wait until the upgrade completes. [9523]",
+    "url": "https://answers.laserfiche.com/questions/78747/The-repository-cannot-be-mounted-at-this-time-because-it-is-being-upgraded-Please-wait-until-the-upgrade-completes-9523",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9523",
+    "message": "The repository cannot be mounted at the current time because it is being upgraded. Please wait until the upgrade completes.",
+    "title": "Apoyo con proceso de adjuntar un repositorio de lf 9 a lf 10.3 error 9523",
+    "url": "https://answers.laserfiche.com/questions/138172/Apoyo-con-proceso-de-adjuntar-un-repositorio-de-lf-9-a-lf-103-error-9523",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9526",
+    "message": "The repository cannot be mounted at the current time because it is being mounted or unmounted. Please wait until the current operation completes.",
+    "title": "Repository cannot be mounted because it is being mounted or unmounted [9526]",
+    "url": "https://answers.laserfiche.com/questions/123761/Repository-cannot-be-mounted-because-it-is-being-mounted-or-unmounted-9526",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9526",
+    "message": "The repository cannot be mounted at the current time because it is being mounted or unmounted. Please wait until the current operation completes.",
+    "title": "The repository cannot be mounted at the current time because it is being mounted or unmounted. Please wait until the current operation completes. [9526]",
+    "url": "https://answers.laserfiche.com/questions/77752/The-repository-cannot-be-mounted-at-the-current-time-because-it-is-being-mounted-or-unmounted-Please-wait-until-the-current-operation-completes-9526",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9526",
+    "message": "The repository cannot be mounted at the current time because it is being mounted or unmounted. Please wait until the current operation completes.",
+    "title": "Error 9526",
+    "url": "https://answers.laserfiche.com/questions/152854/Error-9526",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9526",
+    "message": "The repository cannot be mounted at the current time because it is being mounted or unmounted. Please wait until the current operation completes.",
+    "title": "The repository cannot be mounted at the current time because it is being mounted or umounted. Please wait until the current operation completes. [9526]",
+    "url": "https://answers.laserfiche.com/questions/109572/The-repository-cannot-be-mounted-at-the-current-time-because-it-is-being-mounted-or-umounted-Please-wait-until-the-current-operation-completes-9526",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9527",
+    "message": "The result of the operation cannot be retrieved because the operation has not finished.",
+    "title": "Unknown Error 9527",
+    "url": "https://answers.laserfiche.com/questions/84635/Unknown-Error-9527",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9528",
+    "message": "Cannot connect to the Laserfiche Directory Server.",
+    "title": "Cannot connect to Laserfiche Directory Server [9528]",
+    "url": "https://answers.laserfiche.com/questions/169393/Cannot-connect-to-Laserfiche-Directory-Server-9528",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9528",
+    "message": "Cannot connect to the Laserfiche Directory Server.",
+    "title": "Cannot connect to the Laserfiche Directory Server. [9528]",
+    "url": "https://answers.laserfiche.com/questions/181608/Cannot-connect-to-the-Laserfiche-Directory-Server-9528",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9536",
+    "message": "LFS received an unrecognized or unexpected error from LFDS.",
+    "title": "Error: LFS received an unrecognized or unexpected error from LFDS. [9536]",
+    "url": "https://answers.laserfiche.com/questions/166318/Error-LFS-received-an-unrecognized-or-unexpected-error-from-LFDS-9536",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9908",
+    "message": "Volume \\",
+    "title": "Error: 9908: Volume \"[1]\" is read-only.",
+    "url": "https://answers.laserfiche.com/questions/184343/Error-9908-Volume-1-is-readonly",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9357",
+    "message": "LDAP query could not be completed.",
+    "title": "LDAP query could not be completed error 9357",
+    "url": "https://answers.laserfiche.com/questions/134232/LDAP-query-could-not-be-completed-error-9357",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9409",
+    "message": "Fail to initialize the external table.",
+    "title": "9409 - PaymentBrowserVersionNotSupported",
+    "url": "https://answers.laserfiche.com/questions/192174/9409--PaymentBrowserVersionNotSupported",
+    "hasLaserficheEmployee": true,
+    "hasAcceptedLanguage": false,
+    "reviewedDate": "2026-06-27"
+  },
+  {
+    "code": "9536",
+    "message": "LFS received an unrecognized or unexpected error from LFDS.",
+    "title": "9536 Error",
+    "url": "https://answers.laserfiche.com/questions/221061/9536-Error",
+    "hasLaserficheEmployee": false,
+    "hasAcceptedLanguage": true,
+    "reviewedDate": "2026-06-27"
   }
 ]

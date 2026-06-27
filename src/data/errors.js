@@ -1905,6 +1905,408 @@ const curatedErrorEntries = [
     ],
   },
   {
+    id: "lf-server-9337-field-constraint-syntax-error",
+    code: "9337",
+    message: "The field constraint has a syntax error or is invalid.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "A field constraint is invalid for the field type. Reviewed employee guidance shows that a regular-expression-style constraint on a number field can cause 9337 because the constraint is not a number constraint.",
+    symptoms: [
+      "Saving a field constraint returns 9337.",
+      "A numeric field is configured with a pattern that contains characters such as dashes.",
+    ],
+    likelyFixes: [
+      "Confirm the field type matches the constraint being configured.",
+      "Use a text field when the constraint is a regular expression or pattern containing nonnumeric characters.",
+      "If the field was created with the wrong type, recreate it with the correct field type before applying the constraint.",
+    ],
+    notes:
+      "The reviewed thread involved Avante 9.2. Version 12 remains included because the code is in the official Version 12 listing.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9337 as an invalid field constraint syntax error.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "regular expressions syntax error 9337",
+        url: "https://answers.laserfiche.com/questions/76309/regular-expressions-syntax-error-9337",
+        note:
+          "Laserfiche employee reply explains that the constraint was not valid for a number field and recommends using a text field.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9352-repository-named-user-limit",
+    code: "9352",
+    message: "The number of registered Laserfiche named users has reached its licensed limit.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche cannot allocate another repository named user. Reviewed guidance points to LFDS server-instance license allocation or server activation, not just the total user count shown in LFDS.",
+    symptoms: [
+      "Adding or changing a repository user to Full returns 9352.",
+      "LFDS may show available named users, but the Laserfiche Server instance cannot allocate repository named users.",
+    ],
+    likelyFixes: [
+      "In LFDS, edit the registered Laserfiche Server instance and assign repository named-user licenses under Advanced options.",
+      "Save the LFDS server-instance change and restart the Laserfiche Server service.",
+      "For new Version 12 installs, verify the Laserfiche Server license is activated before creating the first full repository user.",
+    ],
+    notes:
+      "One reviewed thread involved Rio 9.2.1; another involved a self-hosted Version 12 install.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9352 as the named-user licensed limit being reached.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Can't add Full user to Rio; error 9352",
+        url: "https://answers.laserfiche.com/questions/80191/Cant-add-Full-user-to-Rio-error-9352",
+        note:
+          "Laserfiche employee reply says to assign repository named-user licenses to the Laserfiche Server instance in LFDS Advanced options, then restart Laserfiche Server.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "The number of registered repository named users has reached its licensed limit.[9352]",
+        url: "https://answers.laserfiche.com/questions/227117/The-number-of-registered-repository-named-users-has-reached-its-licensed-limit9352",
+        note: "Community guidance points to checking whether the server license has been activated.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9356-ldap-profile-not-found",
+    code: "9356",
+    message: "LDAP server profile not found.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche could not find the LDAP profile referenced during sign-in or repository access.",
+    symptoms: [
+      "A user cannot sign in and receives LDAP server profile not found. [9356].",
+      "The error may affect only one user or one client path.",
+    ],
+    likelyFixes: [
+      "Recheck the LDAP profile name being used by the affected client or login path.",
+      "Use Attach in the client to confirm the user is connecting to the intended Laserfiche Server.",
+      "For web access paths, confirm the URL points to the intended application and not a different Laserfiche web component.",
+      "If the profile has a friendly name in LFDS, confirm users authenticate using the expected profile name format.",
+    ],
+    notes:
+      "Reviewed community follow-up also notes a case where the user was pointing to Web Access instead of WebLink.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9356 as LDAP server profile not found.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "LDAP Server Profile Not Found Error 9356",
+        url: "https://answers.laserfiche.com/questions/89351/LDAP-Server-Profile-Not-Found-Error-9356",
+        note:
+          "Laserfiche employee reply says the most likely cause is a mistyped LDAP profile name and recommends confirming the server attachment.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9409-external-table-init-failed",
+    code: "9409",
+    message: "Fail to initialize the external table.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 12"],
+    confidence: "high",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche could not initialize an external table or dynamic field source. Reviewed employee guidance identifies unsupported timestamp/interval data types as one confirmed cause.",
+    symptoms: [
+      "Dynamic fields or external table registration fails with 9409.",
+      "The external table may be a SQL view or linked-server-backed view.",
+    ],
+    likelyFixes: [
+      "Inspect the external table or view for timestamp, timestamp-with-time-zone, timestamp-with-local-time-zone, interval-year-to-month, or interval-day-to-second columns.",
+      "Remove unsupported columns from the view exposed to Laserfiche.",
+      "If the issue is intermittent with linked-server data, test the view directly in SQL Server when the error occurs and review database connectivity.",
+    ],
+    notes:
+      "One accepted answer resolved the issue by removing a timestamp column from the SQL view.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9409 as external table initialization failure.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error Message: Failed to initialize the external table. [9409]",
+        url: "https://answers.laserfiche.com/questions/72761/Error-Message-Failed-to-initialize-the-external-table-9409",
+        note:
+          "Laserfiche employee reply confirms a timestamp column caused the issue and references unsupported external-table data types.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Failed to initialize the external table - 9409",
+        url: "https://answers.laserfiche.com/questions/79235/Failed-to-initialize-the-external-table--9409",
+        note:
+          "Community thread discusses linked-server-backed views and notes testing the view directly in SQL as a temporary recovery step.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9421-invalid-search-catalog-status",
+    code: "9421",
+    message: "Invalid search catalog status.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The full-text search catalog is in an invalid state, often because the catalog is corrupt or the Laserfiche Full Text Search service needs attention.",
+    symptoms: [
+      "Text searches fail with Invalid search catalog status. [9421].",
+      "The repository search catalog may not start or may show an unhealthy state.",
+    ],
+    likelyFixes: [
+      "Restart the Laserfiche Full Text Search service and retest search.",
+      "If restart does not recover the catalog, delete or recreate the search catalog from the documented catalog path.",
+      "Re-index the repository after recreating the catalog and plan for indexing time based on repository size.",
+    ],
+    notes:
+      "Reviewed community answer says restarting the Full Text service resolved the issue in a later confirmation.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9421 as Invalid search catalog status.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "error 9421 : Invalid search catalog status ?",
+        url: "https://answers.laserfiche.com/questions/60923/error-9421--Invalid-search-catalog-status-",
+        note:
+          "Accepted community answer recommends restarting Laserfiche Full Text Search, then recreating and re-indexing the catalog if needed.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9523-repository-upgrading",
+    code: "9523",
+    message: "The repository cannot be mounted at the current time because it is being upgraded. Please wait until the upgrade completes.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The repository is still in an internal upgrade or migration state and cannot be mounted until that process completes.",
+    symptoms: [
+      "Administration Console, Client, or Workflow cannot connect and report 9523.",
+      "The message appears after upgrading or attaching a repository from an older Laserfiche version.",
+    ],
+    likelyFixes: [
+      "Wait for the repository upgrade/migration process to complete before retrying.",
+      "Check the Laserfiche Server machine's Application Event Viewer for upgrade progress or errors.",
+      "Open a support case if the repository remains in the upgrade state far longer than expected or logs show upgrade failures.",
+    ],
+    notes:
+      "Reviewed threads include upgrades from 8.x/9.x to 9.2/10.x. One user reported a 64 GB database completed internal migration in under an hour, but timing is environment-specific.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9523 as repository cannot be mounted because it is being upgraded.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "The repository cannot be mounted because it is being upgraded [9523]",
+        url: "https://answers.laserfiche.com/questions/78747/The-repository-cannot-be-mounted-at-this-time-because-it-is-being-upgraded-Please-wait-until-the-upgrade-completes-9523",
+        note:
+          "Community follow-up reports the error is normal until internal migration finishes.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "The repository cannot be mounted at this time because it is being upgraded. [9523]",
+        url: "https://answers.laserfiche.com/questions/83311/-The-repository-cannot-be-mounted-at-this-time-because-it-is-being-upgraded-Please-wait-until-the-upgrade-completes-9523",
+        note:
+          "Laserfiche employee reply recommends checking the Application Event Viewer on the Laserfiche Server for more information.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9526-repository-mounting-unmounting",
+    code: "9526",
+    message: "The repository cannot be mounted at the current time because it is being mounted or unmounted. Please wait until the current operation completes.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche reports that the repository is already mounting or unmounting. Reviewed threads include a confirmed client-side DNS case where using the server IP resolved affected machines.",
+    symptoms: [
+      "Login or Admin Console access fails with 9526.",
+      "The issue may affect only some client machines.",
+    ],
+    likelyFixes: [
+      "Wait for any current mount or unmount operation to finish and retry.",
+      "If only some clients fail, test attaching the Laserfiche Client to the server by IP address to isolate DNS issues.",
+      "Verify SQL connectivity and the SQL instance name if the repository is being mounted.",
+      "If attaching a repository, temporarily test firewall and antivirus behavior between client and server.",
+    ],
+    notes:
+      "The accepted employee answer identifies client-side DNS as one confirmed cause; other reviewed replies are troubleshooting branches.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9526 as repository cannot be mounted because it is being mounted or unmounted.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "The repository cannot be mounted because it is being mounted or unmounted [9526]",
+        url: "https://answers.laserfiche.com/questions/77752/The-repository-cannot-be-mounted-at-the-current-time-because-it-is-being-mounted-or-unmounted-Please-wait-until-the-current-operation-completes-9526",
+        note:
+          "Laserfiche employee accepted answer says the issue was client-side DNS and was resolved by attaching the client with the server IP address.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9527-operation-result-not-finished",
+    code: "9527",
+    message: "The result of the operation cannot be retrieved because the operation has not finished.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The operation result was requested before the operation completed. A reviewed Web Access 9.1.1 search scenario was identified as a bug fixed in 9.2.",
+    symptoms: [
+      "Web Access search returns Unknown Error 9527.",
+      "The issue appears during searching within folders and subfolders.",
+    ],
+    likelyFixes: [
+      "If using Web Access 9.1.1, upgrade to 9.2 or later.",
+      "For other scenarios, collect the full operation details and server logs because the official code is generic.",
+    ],
+    notes:
+      "Laserfiche employee response references SCR 119891 fixed in 9.2.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9527 as operation result not yet available.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Unknown Error 9527",
+        url: "https://answers.laserfiche.com/questions/84635/Unknown-Error-9527",
+        note: "Laserfiche employee reply says the Web Access issue was fixed in 9.2, SCR 119891.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9528-directory-server-connect",
+    code: "9528",
+    message: "Cannot connect to the Laserfiche Directory Server.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche Server cannot connect to LFDS. Reviewed threads point to LFDS connectivity, cross-domain identity-provider configuration, and user-specific LFDS records.",
+    symptoms: [
+      "Repository sign-in or adding LFDS users fails with 9528.",
+      "Related errors may include 9048 or 9357 when querying Directory Server users or groups.",
+    ],
+    likelyFixes: [
+      "Verify the Laserfiche Server can reach LFDS on the configured host and ports.",
+      "Review LFDS identity-provider settings, especially service-account querying across trusted domains.",
+      "If only one user is affected, recreate or repair the affected user record as a diagnostic step.",
+      "Open a support case when LFDS connectivity and identity-provider settings look correct but the error persists.",
+    ],
+    notes:
+      "The strongest reviewed employee response recommends support for a cross-domain LFDS issue; a community-confirmed Version 10 thread reports recreating the user resolved one user-specific case.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9528 as cannot connect to Laserfiche Directory Server.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Cannot connect to Laserfiche Directory Server [9528]",
+        url: "https://answers.laserfiche.com/questions/169393/Cannot-connect-to-Laserfiche-Directory-Server-9528",
+        note: "Laserfiche employee reply recommends opening a support case for a cross-domain LFDS connectivity issue.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Cannot connect to the Laserfiche Directory Server. [9528]",
+        url: "https://answers.laserfiche.com/questions/181608/Cannot-connect-to-the-Laserfiche-Directory-Server-9528",
+        note: "Community follow-up reports recreating the affected user resolved one Version 10 sign-in case.",
+      },
+    ],
+  },
+  {
+    id: "lf-server-9536-unexpected-lfds-error",
+    code: "9536",
+    message: "LFS received an unrecognized or unexpected error from LFDS.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "medium",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche Server received an unexpected error from LFDS. Reviewed threads indicate some cases are resolved by updating Directory Server.",
+    symptoms: [
+      "Viewing documents or Workflow business-process details returns 9536.",
+      "The issue may start after a Laserfiche migration or upgrade.",
+      "Some service accounts may work while affected user accounts see the error.",
+    ],
+    likelyFixes: [
+      "Update Laserfiche Directory Server to a current maintenance build for the installed major version.",
+      "For Version 10.4 environments, review product updates that address LFDS-related 9536 errors.",
+      "Compare affected users and groups against a working service account to isolate LFDS identity or group data issues.",
+    ],
+    notes:
+      "Reviewed Answers follow-up reports Directory Server 11.0.2204.1467 resolved one case; another Version 10 thread points back to that update/fix discussion.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9536 as an unexpected LFDS error.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error: LFS received an unrecognized or unexpected error from LFDS. [9536]",
+        url: "https://answers.laserfiche.com/questions/166318/Error-LFS-received-an-unrecognized-or-unexpected-error-from-LFDS-9536",
+        note: "Community follow-up reports upgrading to Directory Server 11.0.2204.1467 resolved the error.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "9536 Error",
+        url: "https://answers.laserfiche.com/questions/221061/9536-Error",
+        note: "Community reply references the Version 10.4-related fix discussion for 9536.",
+      },
+    ],
+  },
+  {
     id: "lf-server-9128-briefcase-import-failed",
     code: "9128",
     message: "The briefcase failed to import",
