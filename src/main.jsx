@@ -3,16 +3,18 @@ import { createRoot } from "react-dom/client";
 import {
   AlertTriangle,
   BookOpen,
-  CheckCircle2,
+  Check,
+  ChevronDown,
+  ChevronRight,
   ExternalLink,
   FileSearch,
   Filter,
   HelpCircle,
   Info,
+  MessageSquare,
   RefreshCw,
   Search,
   ShieldCheck,
-  SlidersHorizontal,
 } from "lucide-react";
 import {
   errorEntries,
@@ -52,6 +54,12 @@ function sourceTypeLabel(sourceType) {
   return sourceTypeOptions.find((option) => option.value === sourceType)?.label ?? sourceType;
 }
 
+function sourceIcon(sourceType) {
+  if (sourceType === "official-docs") return BookOpen;
+  if (sourceType === "answers-search") return Search;
+  return MessageSquare;
+}
+
 function filterOptionLabel(value, label) {
   if (value !== allOption) return value;
   if (label === "Product") return "All Products";
@@ -67,6 +75,9 @@ function App() {
   const [version, setVersion] = useState(allOption);
   const [source, setSource] = useState(allOption);
   const [confidence, setConfidence] = useState(allOption);
+  const [sortBy, setSortBy] = useState("relevance");
+  const [ledgerSource, setLedgerSource] = useState(allOption);
+  const [collapsedGroups, setCollapsedGroups] = useState({});
   const [selectedId, setSelectedId] = useState(errorEntries[0]?.id);
 
   const filters = useMemo(
@@ -77,7 +88,8 @@ function App() {
         allOption,
         ...sourceTypeOptions
           .filter((option) =>
-            errorEntries.some((entry) => entry.sources.some((item) => item.sourceType === option.value)),
+            errorEntries.some((entry) => entry.sources.some((item) => item.sourceType === option.value)) ||
+            reviewedSources.some((item) => item.sourceType === option.value),
           )
           .map((option) => option.value),
       ],
@@ -108,8 +120,13 @@ function App() {
       .filter((entry) => version === allOption || entry.versions.includes(version))
       .filter((entry) => source === allOption || entry.sources.some((item) => item.sourceType === source))
       .filter((entry) => confidence === allOption || confidenceLabel(entry.confidence) === confidence)
-      .sort((a, b) => sourceRank(a) - sourceRank(b) || a.code.localeCompare(b.code));
-  }, [query, product, version, source, confidence]);
+      .sort((a, b) => {
+        if (sortBy === "code") return a.code.localeCompare(b.code, undefined, { numeric: true });
+        if (sortBy === "confidence") return confidenceWeight(a.confidence) - confidenceWeight(b.confidence);
+        if (sortBy === "product") return a.product.localeCompare(b.product) || a.code.localeCompare(b.code);
+        return sourceRank(a) - sourceRank(b) || a.code.localeCompare(b.code, undefined, { numeric: true });
+      });
+  }, [query, product, version, source, confidence, sortBy]);
 
   const selectedEntry =
     filteredEntries.find((entry) => entry.id === selectedId) ?? filteredEntries[0] ?? errorEntries[0];
@@ -122,9 +139,9 @@ function App() {
     }, {});
   }, [filteredEntries]);
 
-  const employeeSourceCount = errorEntries.filter((entry) =>
-    entry.sources.some((item) => item.sourceType === "answers-laserfiche-employee"),
-  ).length;
+  const displayedReviewedSources = reviewedSources.filter(
+    (sourceItem) => ledgerSource === allOption || sourceItem.sourceType === ledgerSource,
+  );
 
   return (
     <>
@@ -181,7 +198,7 @@ function App() {
             formatOption={sourceTypeLabel}
           />
           <button className="more-filters" type="button">
-            <SlidersHorizontal aria-hidden="true" size={17} />
+            <Filter aria-hidden="true" size={17} />
             More Filters
           </button>
           <button
@@ -192,6 +209,8 @@ function App() {
               setVersion(allOption);
               setSource(allOption);
               setConfidence(allOption);
+              setSortBy("relevance");
+              setLedgerSource(allOption);
             }}
             type="button"
           >
@@ -206,8 +225,15 @@ function App() {
               <h2>{filteredEntries.length} results</h2>
             </div>
             <div className="sort-control">
-              <span>Sort by:</span>
-              <button type="button">Relevance</button>
+              <label>
+                <span>Sort by:</span>
+                <select value={sortBy} onChange={(event) => setSortBy(event.target.value)}>
+                  <option value="relevance">Relevance</option>
+                  <option value="code">Error code</option>
+                  <option value="confidence">Confidence</option>
+                  <option value="product">Product</option>
+                </select>
+              </label>
               <Filter aria-hidden="true" size={18} />
             </div>
           </div>
@@ -219,22 +245,41 @@ function App() {
           ) : (
             Object.entries(groupedEntries).map(([groupProduct, entries]) => (
               <div className="result-group" key={groupProduct}>
-                <h3>{groupProduct}</h3>
-                {entries.map((entry) => (
-                  <button
-                    className={`result-row ${selectedEntry?.id === entry.id ? "selected" : ""}`}
-                    key={entry.id}
-                    onClick={() => setSelectedId(entry.id)}
-                    type="button"
-                  >
-                    <span className="code">{entry.code}</span>
-                    <span>
-                      <strong>{entry.message}</strong>
-                      <small>{entry.summary}</small>
-                    </span>
-                    <ConfidenceBadge value={entry.confidence} />
-                  </button>
-                ))}
+                <button
+                  aria-expanded={!collapsedGroups[groupProduct]}
+                  className="group-toggle"
+                  onClick={() =>
+                    setCollapsedGroups((current) => ({
+                      ...current,
+                      [groupProduct]: !current[groupProduct],
+                    }))
+                  }
+                  type="button"
+                >
+                  {collapsedGroups[groupProduct] ? (
+                    <ChevronRight aria-hidden="true" size={17} />
+                  ) : (
+                    <ChevronDown aria-hidden="true" size={17} />
+                  )}
+                  <span>{groupProduct}</span>
+                  <small>{entries.length}</small>
+                </button>
+                {!collapsedGroups[groupProduct] &&
+                  entries.map((entry) => (
+                    <button
+                      className={`result-row ${selectedEntry?.id === entry.id ? "selected" : ""}`}
+                      key={entry.id}
+                      onClick={() => setSelectedId(entry.id)}
+                      type="button"
+                    >
+                      <span className="code">{entry.code}</span>
+                      <span>
+                        <strong>{entry.message}</strong>
+                        <small>{entry.summary}</small>
+                      </span>
+                      <ConfidenceBadge value={entry.confidence} />
+                    </button>
+                  ))}
               </div>
             ))
           )}
@@ -251,7 +296,13 @@ function App() {
           </div>
           <div className="ledger-actions">
             <span>Showing:</span>
-            <button type="button">All Sources</button>
+            <select value={ledgerSource} onChange={(event) => setLedgerSource(event.target.value)}>
+              {filters.sources.map((option) => (
+                <option key={option} value={option}>
+                  {filterOptionLabel(sourceTypeLabel(option), "Source")}
+                </option>
+              ))}
+            </select>
             <button type="button">View full ledger</button>
           </div>
         </div>
@@ -263,9 +314,12 @@ function App() {
             <span>Last Reviewed</span>
             <span>Notes</span>
           </div>
-          {reviewedSources.slice(0, 5).map((sourceItem) => (
+          {displayedReviewedSources.slice(0, 5).map((sourceItem) => (
             <a className="ledger-row" href={sourceItem.url} key={sourceItem.id} rel="noreferrer" target="_blank">
-              <strong>{sourceItem.title}</strong>
+              <span className="ledger-source-name">
+                <SourceTypeIcon sourceType={sourceItem.sourceType} />
+                <strong>{sourceItem.title}</strong>
+              </span>
               <span>{sourceTypeLabel(sourceItem.sourceType)}</span>
               <span>{sourcePriority[sourceItem.sourceType] ?? "Review"}</span>
               <span>{sourceItem.reviewedDate}</span>
@@ -296,6 +350,17 @@ function FilterSelect({ label, options, value, onChange, formatOption = (option)
 
 function ConfidenceBadge({ value }) {
   return <span className={`confidence ${value}`}>{confidenceLabel(value)}</span>;
+}
+
+function confidenceWeight(value) {
+  if (value === "high") return 1;
+  if (value === "medium") return 2;
+  return 3;
+}
+
+function SourceTypeIcon({ sourceType }) {
+  const Icon = sourceIcon(sourceType);
+  return <Icon aria-hidden="true" size={17} />;
 }
 
 function SourceBadge({ sourceType }) {
@@ -364,7 +429,16 @@ function ErrorDetail({ entry }) {
 
       <aside className="detail-sidebar" aria-label="Evidence and source details">
         <section className="side-card">
-          <h3>Source Confidence</h3>
+          <h3 className="with-tooltip">
+            Source Confidence
+            <span className="tooltip-anchor" tabIndex={0}>
+              <HelpCircle aria-hidden="true" size={15} />
+              <span className="tooltip-text">
+                Confidence is based on source authority, whether a Laserfiche employee replied, and whether
+                the fix was confirmed.
+              </span>
+            </span>
+          </h3>
           <ConfidenceBadge value={entry.confidence} />
           <p>{entry.summary}</p>
         </section>
@@ -376,7 +450,9 @@ function ErrorDetail({ entry }) {
               .map((sourceItem) => (
                 <li key={`${sourceItem.sourceType}-${sourceItem.title}`}>
                   <span>{sourceTypeLabel(sourceItem.sourceType)}</span>
-                  <CheckCircle2 aria-hidden="true" size={15} />
+                  <span className="check-dot">
+                    <Check aria-hidden="true" size={11} strokeWidth={3.5} />
+                  </span>
                 </li>
               ))}
           </ol>
