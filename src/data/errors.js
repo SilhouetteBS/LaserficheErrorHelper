@@ -2270,6 +2270,7 @@ const curatedErrorEntries = [
     product: "Laserfiche Server/Repository Server",
     versions: ["Version 10", "Version 11", "Version 12"],
     confidence: "medium",
+    fixStatus: "workaround",
     reviewedDate: "2026-06-27",
     summary:
       "Laserfiche Server received an unexpected error from LFDS. Reviewed threads indicate some cases are resolved by updating Directory Server.",
@@ -2371,6 +2372,7 @@ const curatedErrorEntries = [
     product: "Workflow",
     versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
     confidence: "high",
+    fixStatus: "known-fix",
     reviewedDate: "2026-06-27",
     summary:
       "Workflow publishing can fail when scripting is disabled or the referenced assembly is missing from the Workflow Administration Console custom assembly allow-list.",
@@ -2402,6 +2404,7 @@ const curatedErrorEntries = [
     product: "Workflow",
     versions: ["Version 10"],
     confidence: "high",
+    fixStatus: "known-fix",
     reviewedDate: "2026-06-27",
     summary:
       "In Workflow 10.4.1 upgrade scenarios, Invoke Workflow can report that a workflow does not exist when enhanced workflow visibility/security prevents the runtime identity from seeing the target workflow.",
@@ -2433,6 +2436,7 @@ const curatedErrorEntries = [
     product: "Directory Server",
     versions: ["Version 10", "Version 11", "Version 12"],
     confidence: "medium",
+    fixStatus: "workaround",
     reviewedDate: "2026-06-27",
     summary:
       "After upgrading LFDS-integrated components, SAML login can fail when application registrations or license files are stale or mismatched.",
@@ -2463,6 +2467,7 @@ const curatedErrorEntries = [
     product: "Quick Fields",
     versions: ["Version 9"],
     confidence: "high",
+    fixStatus: "known-fix",
     reviewedDate: "2026-06-27",
     summary:
       "Quick Fields Agent can finish with permission denied when the session's unidentified-document configuration still uses Windows Authentication while the agent needs Laserfiche Authentication.",
@@ -2494,6 +2499,7 @@ const curatedErrorEntries = [
     product: "Office Integration",
     versions: ["Version 11"],
     confidence: "high",
+    fixStatus: "known-fix",
     reviewedDate: "2026-06-27",
     summary:
       "Office Integration can show this LFDS authentication message when the repository was attached through a Web Client URL with LFDS SSO instead of the repository server name.",
@@ -2525,6 +2531,7 @@ const curatedErrorEntries = [
     product: "Administration Hub",
     versions: ["Version 12"],
     confidence: "high",
+    fixStatus: "known-fix",
     reviewedDate: "2026-06-27",
     summary:
       "Administration Hub LFAH500 can appear when Admin Hub API calls lose administrator authentication or when a known diagram-related bug is present in earlier Laserfiche 12 builds.",
@@ -2562,6 +2569,7 @@ const curatedErrorEntries = [
     product: "Administration Hub",
     versions: ["Version 12"],
     confidence: "low",
+    fixStatus: "unresolved",
     reviewedDate: "2026-06-27",
     summary:
       "Administration Hub configuration can fail with LFAH1000-ErrorConnectToLFDS while connecting to Directory Server. The reviewed thread documents the symptom but does not include a confirmed fix.",
@@ -2592,6 +2600,7 @@ const curatedErrorEntries = [
     product: "Administration Hub",
     versions: ["Version 12"],
     confidence: "low",
+    fixStatus: "unresolved",
     reviewedDate: "2026-06-27",
     summary:
       "Administration Hub can fail to get the server list when the Admin Hub site cannot establish SSL connections with Agent Controller or the service connection point update fails.",
@@ -2623,6 +2632,7 @@ const curatedErrorEntries = [
     product: "API Server",
     versions: ["Version 11"],
     confidence: "high",
+    fixStatus: "known-fix",
     reviewedDate: "2026-06-27",
     summary:
       "Repository API can return HTTP 500.19 with 0x8007000d when malformed JSON breaks API Server configuration.",
@@ -2653,6 +2663,7 @@ const curatedErrorEntries = [
     product: "Import Agent",
     versions: ["Version 9"],
     confidence: "high",
+    fixStatus: "known-fix",
     reviewedDate: "2026-06-27",
     summary:
       "Import Agent OCR can fail with COM class string error 0x800401f3 when the Import Agent installation or registered components are damaged.",
@@ -2681,6 +2692,7 @@ const curatedErrorEntries = [
     product: "Import Agent",
     versions: ["Version 10"],
     confidence: "medium",
+    fixStatus: "workaround",
     reviewedDate: "2026-06-27",
     summary:
       "Import Agent list-file imports can report volume not found when the LST file references a volume or file path incorrectly.",
@@ -2712,6 +2724,7 @@ const curatedErrorEntries = [
     product: "Import Agent",
     versions: ["Version 10"],
     confidence: "high",
+    fixStatus: "known-fix",
     reviewedDate: "2026-06-27",
     summary: "Import Agent error 9013 can indicate the configured user lacks permission to create documents in the target repository folder.",
     symptoms: [
@@ -2740,6 +2753,7 @@ const curatedErrorEntries = [
     product: "Import Agent",
     versions: ["Version 10"],
     confidence: "medium",
+    fixStatus: "workaround",
     reviewedDate: "2026-06-27",
     summary:
       "Import Agent can move documents to the IAError folder when it attempts to import files before another process has finished writing or releasing them.",
@@ -2771,6 +2785,7 @@ const curatedErrorEntries = [
     product: "WebLink",
     versions: ["Version 11"],
     confidence: "high",
+    fixStatus: "known-fix",
     reviewedDate: "2026-06-27",
     summary:
       "WebLink Bad Key event-log messages can indicate the May 14, 2024 .NET Framework cumulative update reliability issue affecting Laserfiche Web Client and WebLink.",
@@ -2800,6 +2815,7 @@ const curatedErrorEntries = [
     product: "WebLink",
     versions: ["Version 11"],
     confidence: "low",
+    fixStatus: "unresolved",
     reviewedDate: "2026-06-27",
     summary:
       "WebLink ArgumentNullException messages were reported after applying a hotfix, but the reviewed thread does not include a confirmed root cause or fix.",
@@ -2830,6 +2846,7 @@ const curatedErrorEntries = [
     product: "Forms",
     versions: ["Version 10", "Version 11", "Version 12"],
     confidence: "medium",
+    fixStatus: "workaround",
     reviewedDate: "2026-06-27",
     summary:
       "Forms can fail to generate a page when PDF generation, SSL Forms-server configuration, or external script loading is misconfigured.",
@@ -2861,6 +2878,7 @@ const curatedErrorEntries = [
     product: "Workflow",
     versions: ["Version 11"],
     confidence: "medium",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Workflow can report 0543-WF0 when attaching a repository or configuring Workflow against a server/license model that requires Workflow licensing or updated license files.",
@@ -2892,6 +2910,7 @@ const curatedErrorEntries = [
     product: "Workflow",
     versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
     confidence: "high",
+    fixStatus: "known-fix",
     reviewedDate: "2026-06-27",
     summary:
       "Workflow Invoke Workflow can fail with 0700-WF10 when the same workflow is invoked repeatedly in a single instance and reaches the built-in recursion/loop guard.",
@@ -3384,6 +3403,289 @@ const curatedErrorEntries = [
         title: "Workflow not responsive, Error Code 2147467259",
         url: "https://answers.laserfiche.com/questions/212850/Workflow-not-responsive-Error-Code-2147467259",
         note: "Reviewed thread documents the Workflow 10.4 activity stack and non-triggering symptom.",
+      },
+    ],
+  },
+  {
+    id: "weblink-http-503-session-null",
+    code: "HTTP 503 / WEBLINK-SESSION-NULL",
+    message: "WebLink returns HTTP 503 or logs Value cannot be null for a disconnected session.",
+    product: "WebLink",
+    versions: ["Version 11"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "WebLink can go offline with HTTP 503 or log TileData.aspx session-null exceptions. Laserfiche employee guidance distinguishes an older WebLink 10 listing bug from Version 11 inactive-session tile requests.",
+    symptoms: [
+      "WebLink portal returns HTTP 503 until the WebLink application pool is reset.",
+      "Laserfiche-Portal-Server logs Event ID 14 with WebLink.LFDSHelper.DisableLFDSConfigurations or TileData.aspx stack traces.",
+      "A later event may include ArgumentNullException, parameter name session, after a user leaves a page inactive.",
+    ],
+    likelyFixes: [
+      "Confirm the exact WebLink build and whether the issue matches the WebLink 10 long-listing bug fixed in WebLink 11.",
+      "For Version 11 inactive-page TileData.aspx session-null events, capture reproducible steps before opening a support case.",
+      "If the issue is only an event-log warning after an inactive session disconnects, document and monitor it rather than treating it as a portal outage.",
+    ],
+    notes:
+      "The reviewed thread has Laserfiche employee guidance but no confirmed public fix for the repeated Version 11 HTTP 503 outage scenario.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "WebLink experiencing Error HTTP 503",
+        url: "https://answers.laserfiche.com/questions/230484/WebLink-experiencing-Error-HTTP-503",
+        note: "Rui Deng from Laserfiche says one similar WebLink 10 issue was fixed in WebLink 11 and that the later session-null tile event can occur after an inactive disconnected session.",
+      },
+    ],
+  },
+  {
+    id: "weblink-missing-random-tiles-http-500",
+    code: "HTTP 500 / WEBLINK-MISSING-TILES",
+    message: "WebLink missing random tiles when viewing documents.",
+    product: "WebLink",
+    versions: ["Version 11"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "WebLink 11 can intermittently fail TileData.aspx requests with HTTP 500 and missing page tiles. Community follow-up reports Laserfiche Support identified a known bug and provided an updated WeblinkControls.dll.",
+    symptoms: [
+      "Document pages display missing tiles after viewing several documents.",
+      "Browser developer tools show HTTP 500 responses from TileData.aspx.",
+      "The issue was reported on WebLink 11 Update 5 and persisted for at least one user on Update 6.",
+    ],
+    likelyFixes: [
+      "Apply current WebLink 11 updates, backing up configuration and customizations with WebLink Settings Bundler first.",
+      "If the issue persists on Update 6, have the Solution Provider open a Laserfiche Support case for the known WebLink 11 tile bug.",
+      "As a temporary workaround, some administrators schedule a stop and start of the WebLink application pool, after validating user impact.",
+    ],
+    notes:
+      "The support-provided DLL fix is reported by a community/VAR follow-up, while Laserfiche employee replies in the public thread discuss update sequencing and configuration backups.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Weblink missing random tiles when viewing documents",
+        url: "https://answers.laserfiche.com/questions/232843/Weblink-missing-random-tiles-when-viewing-documents",
+        note: "Laserfiche reply recommends WebLink Update 6, explains it is not cumulative, and recommends backing up configuration/customizations before upgrade work.",
+      },
+    ],
+  },
+  {
+    id: "weblink-404-17-iis-app",
+    code: "HTTP 404.17",
+    message: "WebLink returns IIS 404.17.",
+    product: "WebLink",
+    versions: ["Version 9"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "WebLink 9 on newer IIS can return 404.17 when the IIS application name, app pool runtime, or required component setup is wrong.",
+    symptoms: [
+      "Browsing the WebLink IIS application returns 404.17.",
+      "The environment is a moved or recreated WebLink directory on Windows Server 2012 R2/IIS.",
+      "The application path or name may include spaces.",
+    ],
+    likelyFixes: [
+      "Create WebLink as an IIS application with a name that does not contain spaces.",
+      "Set the WebLink application pool to the .NET runtime required by that WebLink version.",
+      "Apply the Laserfiche knowledge-base component referenced by the Laserfiche employee reply when the login error remains.",
+    ],
+    notes: "Laserfiche employee replies provide IIS application naming, app-pool runtime, and missing-component checks.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Weblink 404.17 error",
+        url: "https://answers.laserfiche.com/questions/79371/Weblink-40417-error",
+        note: "Alexander Huang recommends recreating the IIS app without spaces; Raymond Cruz recommends checking the app pool runtime and missing component KB.",
+      },
+    ],
+  },
+  {
+    id: "weblink-read-only-named-user-9030",
+    code: "9030",
+    message: "WebLink read-only named user login returns no license available.",
+    product: "WebLink",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "WebLink auto-login with a read-only named user can return 9030 in a concurrent-license Avante environment. The reviewed thread documents the symptom but does not include a confirmed public resolution.",
+    symptoms: [
+      "WebLink is configured for Auto-Login with Laserfiche Credentials using a named account.",
+      "Accessing WebLink returns error 9030.",
+      "The environment does not use LFDS and has concurrent licensing.",
+    ],
+    likelyFixes: [
+      "Verify the WebLink connection profile account and repository licensing model.",
+      "Confirm whether the selected account type is valid for WebLink public/read-only access in that licensing model.",
+      "No confirmed public fix was posted in the reviewed thread.",
+    ],
+    notes: "Published as unresolved so administrators can recognize this WebLink-specific 9030 scenario.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Weblink-Read Only Named User Account getting 9030 Error",
+        url: "https://answers.laserfiche.com/questions/200366/WeblinkRead-Only-Named-User-Account-getting-9030-Error",
+        note: "Thread documents WebLink Version 10 auto-login 9030 with no public confirmed resolution.",
+      },
+    ],
+  },
+  {
+    id: "weblink-auto-login-9013",
+    code: "9013",
+    message: "WebLink users get Access Denied.",
+    product: "WebLink",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "WebLink users can get Access Denied 9013 in an Auto Login to Windows configuration. The reviewed thread is product-specific but does not publish a confirmed fix.",
+    symptoms: [
+      "Access Denied 9013 appears only through WebLink.",
+      "The WebLink site uses Auto Login to Windows.",
+      "The environment is licensed for Public Portal for Single Public Access.",
+    ],
+    likelyFixes: [
+      "Verify the WebLink identity, repository permissions, and auto-login configuration used by the site.",
+      "Compare Windows-authentication and Laserfiche-authentication behavior for the same repository path.",
+      "No confirmed public fix was posted in the reviewed thread.",
+    ],
+    notes: "Published as unresolved documentation because it is a searchable WebLink-specific access-denied scenario.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Weblink: Users getting Access Denied 9013 error",
+        url: "https://answers.laserfiche.com/questions/181979/Weblink-Users-getting-Access-Denied-9013-error",
+        note: "Thread documents WebLink Version 10 auto-login 9013 with no public confirmed resolution.",
+      },
+    ],
+  },
+  {
+    id: "forms-lff3004-autotrigger-service-proxy",
+    code: "LFF3004",
+    message: "The requested service (IAutoTrigger) may not be running.",
+    product: "Forms",
+    versions: ["Version 10", "Version 11"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Forms save or routing operations can report LFF3004 when Forms cannot open an auto-trigger/routing service proxy. A community-confirmed fix involved correcting the Workflow monitored repository connection.",
+    symptoms: [
+      "Saving a form or changing publish status reports The requested service (IAutoTrigger) may not be running.",
+      "The error includes [LFF3004-UnableToOpenServiceProxy].",
+      "Related environments may also report Workflow licensing or monitored-repository configuration issues.",
+    ],
+    likelyFixes: [
+      "Restart the Forms Routing Service and check whether the error returns.",
+      "Open Workflow Configuration Manager and review Monitored Repositories.",
+      "Remove and re-add the repository using the correct server URL/name, then retest Forms routing.",
+    ],
+    notes:
+      "The confirmed fix is from a community follow-up, not a Laserfiche employee public answer. A related thread links LFF3004 with LFF706 after Forms 11 upgrades.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms 10 error The requested service (IAutoTrigger) may not be running.",
+        url: "https://answers.laserfiche.com/questions/87831/Forms-10-error-The-requested-service-IAutoTrigger-may-not-be-running",
+        note: "Community follow-up reports resolving it by removing and re-adding the monitored repository in Workflow Configuration Manager using the server URL.",
+      },
+    ],
+  },
+  {
+    id: "forms-lff706-unable-to-trigger-routing",
+    code: "LFF706",
+    message: "Unable to trigger routing.",
+    product: "Forms",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Forms can report LFF706 while editing variables in an in-progress instance when the Forms IIS application cannot connect to the Forms Routing Service.",
+    symptoms: [
+      "Editing variables on an in-progress Forms instance fails.",
+      "The UI says Forms must be configured properly and suggests restarting the Forms Routing Service.",
+      "Restarting the routing service may not immediately resolve the issue.",
+    ],
+    likelyFixes: [
+      "Check the lfrouting endpoint in Forms/Web.config on the Forms IIS server.",
+      "Confirm the Forms IIS app and Forms Routing Service are using the expected server and net.tcp port.",
+      "Check for port conflicts and open a support case if the endpoint configuration looks correct.",
+    ],
+    notes: "Laserfiche employee guidance provides connection and endpoint checks but no final confirmed resolution was posted.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Forms 11- Trying to edit Variables in an In Progress Forms instance throws [LFF706-UnableToTriggerRouting] error",
+        url: "https://answers.laserfiche.com/questions/201552/Forms-11-Trying-to-edit-Variables-in-an-In-Progress-Forms-instance-throws-LFF706UnableToTriggerRouting-error",
+        note: "Ziyan Chen from Laserfiche says the Forms IIS server cannot connect to the Forms Routing Service and recommends checking the lfrouting endpoint.",
+      },
+    ],
+  },
+  {
+    id: "forms-routing-service-not-listening",
+    code: "FORMS-ROUTING-NOT-LISTENING",
+    message: "Forms Routing Service is running but not listening on its port.",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "high",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Forms routing-service listener failures should be investigated through the shared LFForms event channels plus Windows Application/System logs; repair or reinstall can reset listener and URL ACL state.",
+    symptoms: [
+      "Forms IIS logs indicate the Routing Service is not listening.",
+      "The Windows service remains running, but netstat does not show the expected listener.",
+      "Unable-to-trigger-routing errors may cluster after the listener disappears.",
+    ],
+    likelyFixes: [
+      "Check Applications and Services Logs > Laserfiche > Forms > App > Admin and Operational.",
+      "Differentiate Routing Service events from IIS app events by the User field when default identities are used.",
+      "Check Windows Application and System logs for port, permission, or service warnings.",
+      "Reboot first; if standalone Forms still cannot register listeners, repair the Forms installation before manually changing port listeners or URL ACLs.",
+    ],
+    notes: "Laserfiche employee answer clarifies logging locations and recommends repair/reinstall as a safer reset path.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Forms Routing Service Error Log Location?",
+        url: "https://answers.laserfiche.com/questions/206162/Forms-Routing-Service-Error-Log-Location",
+        note: "Samuel Carson from Laserfiche says both Routing Service and IIS app write to LFForms App/Admin and App/Operational, and suggests reboot/repair/reinstall for listener reset.",
+      },
+    ],
+  },
+  {
+    id: "forms-http-500-19-0x800700b7",
+    code: "HTTP 500.19 / 0x800700b7",
+    message: "Forms returns HTTP Error 500.19 with error code 0x800700b7.",
+    product: "Forms",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Forms can fail immediately after installation with IIS HTTP 500.19 and 0x800700b7. The reviewed thread documents the symptom but only points to support escalation.",
+    symptoms: [
+      "Forms application fails to run after installation.",
+      "IIS displays HTTP Error 500.19 with error code 0x800700b7.",
+      "Microsoft duplicate-reference guidance does not reveal an obvious duplicate in the attached web configuration.",
+    ],
+    likelyFixes: [
+      "Review the IIS detailed error and Forms web.config for duplicate or invalid configuration sections.",
+      "Collect the Forms web.config and IIS detailed error screenshot for a support case.",
+      "No confirmed public fix was posted in the reviewed Answers thread.",
+    ],
+    notes: "Laserfiche employee reply recommends opening a support case; this entry is included for recognition and evidence gathering.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Forms HTTP error 500.19/Error code: 0x800700b7",
+        url: "https://answers.laserfiche.com/questions/157969/Forms-HTTP-error-50019Error-code-0x800700b7",
+        note: "Jared Rechnitz from Laserfiche recommends opening a support case for troubleshooting.",
       },
     ],
   },

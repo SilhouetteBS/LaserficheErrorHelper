@@ -9,7 +9,9 @@
     "snippet": "Accept invalid certificates authenticating Forms to the Repository install and configure many other LF services (Forms, WF, LFS) and with the exception of Audit Trail we never have a problem just connecting to ... 191180 Avante has a single \" Laserfiche Forms Portal - Licensed for one Laserfiche Forms Server\" SKU, which you can purchase multiple instances of. I imagine the ...... posted by Chad Saar 3975 Aug 15, 2024 updated by Chad Saar 3975 Aug 30, 2024 9 replies · 689 views · 0 0 · Self-Hoste",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "not-actionable",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; security/design discussion, not a discrete error helper entry."
   },
   {
     "product": "Administration Hub",
@@ -1206,9 +1208,9 @@
     "title": "Forms HTTP error 500.19/Error code: 0x800700b7",
     "url": "https://answers.laserfiche.com/questions/157969/Forms-HTTP-error-50019Error-code-0x800700b7",
     "snippet": "Forms HTTP error 500.19/Error code: 0x800700b7",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Forms",
@@ -1219,9 +1221,9 @@
     "title": "Accept invalid certificates authenticating Forms to the Repository",
     "url": "https://answers.laserfiche.com/questions/222047/Accept-invalid-certificates-authenticating-Forms-to-the-Repository",
     "snippet": "Accept invalid certificates authenticating Forms to the Repository",
-    "status": "candidate",
+    "status": "not-actionable",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed; security/design discussion, not a discrete error helper entry."
   },
   {
     "product": "Forms",
@@ -1310,9 +1312,9 @@
     "title": "Forms 10 error The requested service (IAutoTrigger) may not be running.",
     "url": "https://answers.laserfiche.com/questions/87831/Forms-10-error-The-requested-service-IAutoTrigger-may-not-be-running",
     "snippet": "Forms 10 error The requested service (IAutoTrigger) may not be running.",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Forms",
@@ -1362,9 +1364,9 @@
     "title": "Forms 11- Trying to edit Variables in an \"In Progress\" Forms instance throws [LFF706-UnableToTriggerRouting] error",
     "url": "https://answers.laserfiche.com/questions/201552/Forms-11-Trying-to-edit-Variables-in-an-In-Progress-Forms-instance-throws-LFF706UnableToTriggerRouting-error",
     "snippet": "Forms 11- Trying to edit Variables in an \"In Progress\" Forms instance throws [LFF706-UnableToTriggerRouting] error",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and published as diagnostic-only guidance."
   },
   {
     "product": "Forms",
@@ -1375,9 +1377,9 @@
     "title": "Forms Routing Service Error Log Location?",
     "url": "https://answers.laserfiche.com/questions/206162/Forms-Routing-Service-Error-Log-Location",
     "snippet": "Forms Routing Service Error Log Location?",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Forms",
@@ -3316,7 +3318,9 @@
     "snippet": "Adding LFDS Group/User to Repository - Error 9357 keep getting the following error: Error Code : 9357 Error Message: LDAP query could not be completed. [9357] ------------ Technical Details: ------------ LFSO: Call Stack: (Exception) ... as well for WebClient and WebLink . Both servers are on the same domain and same subnet.... posted by John Gonzales 4 Jan 24, 2024 updated by Chris Douglas 4991 May 30, 2024 3 replies · 674 views · 0 0 · Version 11 Directory Server Laserfiche Administration Self",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed as a WebLink candidate; better tracked under Directory Server or repository-server authentication rather than WebLink."
   },
   {
     "product": "WebLink",
@@ -3328,7 +3332,9 @@
     "snippet": "Adding LFDS Group/User to Repository - Error 9357 keep getting the following error: Error Code : 9357 Error Message: LDAP query could not be completed. [9357] ------------ Technical Details: ------------ LFSO: Call Stack: (Exception) ... as well for WebClient and WebLink . Both servers are on the same domain and same subnet.... posted by John Gonzales 4 Jan 24, 2024 updated by Chris Douglas 4991 May 30, 2024 3 replies · 674 views · 0 0 · Version 11 Directory Server Laserfiche Administration Self",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed as a WebLink candidate; better tracked under Directory Server or repository-server authentication rather than WebLink."
   },
   {
     "product": "WebLink",
@@ -3382,7 +3388,9 @@
     "snippet": "Weblink missing random tiles when viewing documents anyone experience the issue with WebLink , where it starts missing the tiles after viewing a few documents and eventually terminates the session and forces the ... browser is the HTTP 500 errors (for the missing tiles) from the TileData.aspx. Refresh the browser will reload the missing tiles, but this happens ...... posted by Hao Lu 9 Nov 13, 2025 updated by Eric Moore 45 May 19 10 replies · 341 views · 1 0 · Web Client",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "WebLink",
@@ -3394,7 +3402,9 @@
     "snippet": "WebLink experiencing Error HTTP 503 Over the weekend, our WebLink portal experienced an event that caused error HTTP 503. We had to reset the Web Link Application Pool to bring ... encountered, stack trace:\\r\\n WebLink .LFDSHelper.DisableLFDSConfigurations\\r\\n WebLink .Global.Application_Start\\r\\n System.RuntimeMethodHandle.InvokeMethod\\r\\n System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal ...... posted by Wissam Halawani 71 Jul 14, 2025 updated by Rui Deng 5625 Jul 15, 2025 4 replies · 4",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "WebLink",
@@ -3418,7 +3428,9 @@
     "snippet": "Upgraded to 10.3 - Now LFDS login gives \"Received an invalid or untrusted SAML token\" error when encountering this error in Weblink . Relicensed LFS and was good to go. ... posted by Ege Ersoz 1864 Dec 14, 2017 updated by Blake Smith 18822 Jun 4, 2025 6 replies · 1528 views · 0 0 · Laserfiche Directory Server",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed as a WebLink candidate; better tracked under Directory Server or repository-server authentication rather than WebLink."
   },
   {
     "product": "WebLink",
@@ -3430,7 +3442,9 @@
     "snippet": "Possible to configure multiple Web STS endpoints? Both the Web Client and WebLink are configured to use LFDS for authentication and the Single Sign-on is working for both via Web STS ... I'd like to force WebLink to \"Always use Windows Authentication\" (never prompt for it), but allow the web client to accept either a LF ...... posted by John Champoux 58 Mar 30, 2020 updated by John Champoux 58 Apr 3, 2020 14 replies · 1443 views · 0 0 · Directory Server Version 10 Web Client WebLink",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed as a WebLink candidate; better tracked under Directory Server or repository-server authentication rather than WebLink."
   },
   {
     "product": "WebLink",
@@ -3442,7 +3456,9 @@
     "snippet": "Weblink-Read Only Named User Account getting 9030 Error customer who is setting up Weblink . They have the 25 Concurrent License model. They are on Avante with no LFDS installed. In the LF Admin ... used this account in the Weblink Configuration->Connection Profile, for the \"Auto- Login with Laserfiche Credentials\" option. When we try to access Weblink we get ...... posted by Jeff Curtis 725 Jul 6, 2022 updated by Jeff Curtis 725 Jul 11, 2022 2 replies · 681 views · 0 0 · WebLink Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "WebLink",
@@ -3454,7 +3470,9 @@
     "snippet": "Adding LFDS Group/User to Repository - Error 9357 keep getting the following error: Error Code : 9357 Error Message: LDAP query could not be completed. [9357] ------------ Technical Details: ------------ LFSO: Call Stack: (Exception) ... as well for WebClient and WebLink . Both servers are on the same domain and same subnet.... posted by John Gonzales 4 Jan 24, 2024 updated by Chris Douglas 4991 May 30, 2024 3 replies · 674 views · 0 0 · Version 11 Directory Server Laserfiche Administration Self",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed as a WebLink candidate; better tracked under Directory Server or repository-server authentication rather than WebLink."
   },
   {
     "product": "WebLink",
@@ -3466,7 +3484,9 @@
     "snippet": "WebLink experiencing Error HTTP 503 Over the weekend, our WebLink portal experienced an event that caused error HTTP 503. We had to reset the Web Link Application Pool to bring ... encountered, stack trace:\\r\\n WebLink .LFDSHelper.DisableLFDSConfigurations\\r\\n WebLink .Global.Application_Start\\r\\n System.RuntimeMethodHandle.InvokeMethod\\r\\n System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal ...... posted by Wissam Halawani 71 Jul 14, 2025 updated by Rui Deng 5625 Jul 15, 2025 4 replies · 4",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "WebLink",
@@ -3502,7 +3522,9 @@
     "snippet": "Upgraded to 10.3 - Now LFDS login gives \"Received an invalid or untrusted SAML token\" error when encountering this error in Weblink . Relicensed LFS and was good to go. ... posted by Ege Ersoz 1864 Dec 14, 2017 updated by Blake Smith 18822 Jun 4, 2025 6 replies · 1528 views · 0 0 · Laserfiche Directory Server",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed as a WebLink candidate; better tracked under Directory Server or repository-server authentication rather than WebLink."
   },
   {
     "product": "WebLink",
@@ -3528,7 +3550,9 @@
     "snippet": "Weblink 404.17 error I keep getting a 404.17 error when trying to create a weblink directory. This is on a 2012R2 server. I added the application under default ... what I have and the error . It is a MIME error . The other server was a 2003 server so the directory was setup a little ...... posted by Casey Miller 196 Jun 22, 2015 updated by Casey Miller 196 Jun 23, 2015 14 replies · 615 views · 0 0 · WebLink",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "WebLink",
@@ -3564,7 +3588,9 @@
     "snippet": "WebLink experiencing Error HTTP 503 Over the weekend, our WebLink portal experienced an event that caused error HTTP 503. We had to reset the Web Link Application Pool to bring ... encountered, stack trace:\\r\\n WebLink .LFDSHelper.DisableLFDSConfigurations\\r\\n WebLink .Global.Application_Start\\r\\n System.RuntimeMethodHandle.InvokeMethod\\r\\n System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal ...... posted by Wissam Halawani 71 Jul 14, 2025 updated by Rui Deng 5625 Jul 15, 2025 4 replies · 4",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "WebLink",
@@ -3603,7 +3629,9 @@
     "snippet": "Weblink-Read Only Named User Account getting 9030 Error customer who is setting up Weblink . They have the 25 Concurrent License model. They are on Avante with no LFDS installed. In the LF Admin ... used this account in the Weblink Configuration->Connection Profile, for the \"Auto- Login with Laserfiche Credentials\" option. When we try to access Weblink we get ...... posted by Jeff Curtis 725 Jul 6, 2022 updated by Jeff Curtis 725 Jul 11, 2022 2 replies · 681 views · 0 0 · WebLink Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "WebLink",
@@ -3615,7 +3643,9 @@
     "snippet": "Weblink: Users getting Access Denied 9013 error This appears to only affect Weblink and only the instances configured for Auto Login to Windows. They are licensed for the Public Portal for Single ... be the reason for the error ? Appreciate any feedback, Jeff Curtis... posted by Jeff Curtis 725 Dec 9, 2020 updated by Jeff Curtis 725 Dec 10, 2020 3 replies · 1537 views · 0 0 · WebLink Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "WebLink",

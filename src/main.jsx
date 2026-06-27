@@ -57,6 +57,7 @@ function sourceTypeLabel(sourceType) {
 }
 
 function fixStatusLabel(value) {
+  if (value === allOption) return allOption;
   const labels = {
     "known-fix": "Known fix",
     workaround: "Workaround",
@@ -84,8 +85,22 @@ function filterOptionLabel(value, label) {
   if (label === "Product") return "All Products";
   if (label === "Version") return "All Versions";
   if (label === "Source Confidence") return "All Confidence";
+  if (label === "Fix Status") return "All Fix Statuses";
   if (label === "Source") return "All Sources";
   return value;
+}
+
+function reviewStatusLabel(value) {
+  const labels = {
+    curated: "Curated",
+    "curated-partial": "Curated partial",
+    "curated-unresolved": "Curated unresolved",
+    candidate: "Candidate",
+    "cross-product": "Cross-product",
+    "not-actionable": "Not actionable",
+    "no-matching-posts": "No matching posts",
+  };
+  return labels[value] ?? value;
 }
 
 function App() {
@@ -94,6 +109,7 @@ function App() {
   const [version, setVersion] = useState(allOption);
   const [source, setSource] = useState(allOption);
   const [confidence, setConfidence] = useState(allOption);
+  const [fixStatus, setFixStatus] = useState(allOption);
   const [sortBy, setSortBy] = useState("relevance");
   const [ledgerSource, setLedgerSource] = useState(allOption);
   const [collapsedGroups, setCollapsedGroups] = useState({});
@@ -113,6 +129,7 @@ function App() {
           .map((option) => option.value),
       ],
       confidences: uniqueSorted(errorEntries.map((entry) => confidenceLabel(entry.confidence))),
+      fixStatuses: withAll(["known-fix", "workaround", "diagnostic-only", "unresolved", "needs-review"]),
     }),
     [],
   );
@@ -130,6 +147,7 @@ function App() {
             ...entry.symptoms,
             ...entry.likelyFixes,
             ...entry.versions,
+            fixStatusLabel(fixStatusValue(entry)),
             ...entry.sources.map((item) => item.title),
           ].join(" "),
         );
@@ -139,13 +157,14 @@ function App() {
       .filter((entry) => version === allOption || entry.versions.includes(version))
       .filter((entry) => source === allOption || entry.sources.some((item) => item.sourceType === source))
       .filter((entry) => confidence === allOption || confidenceLabel(entry.confidence) === confidence)
+      .filter((entry) => fixStatus === allOption || fixStatusValue(entry) === fixStatus)
       .sort((a, b) => {
         if (sortBy === "code") return a.code.localeCompare(b.code, undefined, { numeric: true });
         if (sortBy === "confidence") return confidenceWeight(a.confidence) - confidenceWeight(b.confidence);
         if (sortBy === "product") return a.product.localeCompare(b.product) || a.code.localeCompare(b.code);
         return sourceRank(a) - sourceRank(b) || a.code.localeCompare(b.code, undefined, { numeric: true });
       });
-  }, [query, product, version, source, confidence, sortBy]);
+  }, [query, product, version, source, confidence, fixStatus, sortBy]);
 
   const selectedEntry =
     filteredEntries.find((entry) => entry.id === selectedId) ?? filteredEntries[0] ?? errorEntries[0];
@@ -216,6 +235,13 @@ function App() {
             options={filters.sources}
             formatOption={sourceTypeLabel}
           />
+          <FilterSelect
+            label="Fix Status"
+            value={fixStatus}
+            onChange={setFixStatus}
+            options={filters.fixStatuses}
+            formatOption={fixStatusLabel}
+          />
           <button className="more-filters" type="button">
             <Filter aria-hidden="true" size={17} />
             More Filters
@@ -228,6 +254,7 @@ function App() {
               setVersion(allOption);
               setSource(allOption);
               setConfidence(allOption);
+              setFixStatus(allOption);
               setSortBy("relevance");
               setLedgerSource(allOption);
             }}
@@ -338,6 +365,7 @@ function App() {
             <span>Type</span>
             <span>Priority</span>
             <span>Last Reviewed</span>
+            <span>Review Status</span>
             <span>Notes</span>
           </div>
           {displayedReviewedSources.slice(0, 5).map((sourceItem) => (
@@ -349,6 +377,9 @@ function App() {
               <span>{sourceTypeLabel(sourceItem.sourceType)}</span>
               <span>{sourcePriority[sourceItem.sourceType] ?? "Review"}</span>
               <span>{sourceItem.reviewedDate}</span>
+              <span>
+                <ReviewStatusBadge value={sourceItem.reviewStatus} />
+              </span>
               <span>{sourceItem.extractedErrorCodes.join(", ") || sourceItem.reviewStatus}</span>
             </a>
           ))}
@@ -380,6 +411,10 @@ function ConfidenceBadge({ value }) {
 
 function FixStatusBadge({ value }) {
   return <span className={`fix-status ${value}`}>{fixStatusLabel(value)}</span>;
+}
+
+function ReviewStatusBadge({ value }) {
+  return <span className={`review-status ${value}`}>{reviewStatusLabel(value)}</span>;
 }
 
 function confidenceWeight(value) {

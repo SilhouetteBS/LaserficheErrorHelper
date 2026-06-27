@@ -113,7 +113,7 @@ a {
 
 .toolbar {
   display: grid;
-  grid-template-columns: minmax(330px, 2.15fr) repeat(4, minmax(140px, 0.66fr)) auto auto;
+  grid-template-columns: minmax(330px, 2.15fr) repeat(5, minmax(130px, 0.66fr)) auto auto;
   gap: 14px;
   align-items: end;
 }
@@ -503,6 +503,7 @@ li + li {
 
 .confidence,
 .fix-status,
+.review-status,
 .source-badge {
   display: inline-flex;
   align-items: center;
@@ -556,6 +557,32 @@ li + li {
   color: #7b3531;
   background: #fde6e2;
   border: 1px solid #efb9b0;
+}
+
+.review-status {
+  text-transform: none;
+}
+
+.review-status.curated {
+  color: #095436;
+  background: #def6e8;
+  border: 1px solid #86cfa8;
+}
+
+.review-status.curated-partial,
+.review-status.curated-unresolved {
+  color: #7a4a00;
+  background: #fff1ca;
+  border: 1px solid #f0cf82;
+}
+
+.review-status.candidate,
+.review-status.no-matching-posts,
+.review-status.cross-product,
+.review-status.not-actionable {
+  color: #52606b;
+  background: #eef2f5;
+  border: 1px solid #cbd5dd;
 }
 
 .detail-sidebar {
@@ -744,7 +771,9 @@ li + li {
 
 .ledger-row {
   display: grid;
-  grid-template-columns: minmax(220px, 1.4fr) minmax(150px, 0.65fr) minmax(70px, 0.25fr) minmax(115px, 0.45fr) minmax(180px, 0.85fr);
+  grid-template-columns:
+    minmax(220px, 1.35fr) minmax(150px, 0.6fr) minmax(70px, 0.25fr) minmax(115px, 0.42fr)
+    minmax(140px, 0.48fr) minmax(150px, 0.65fr);
   gap: 12px;
   align-items: center;
   min-height: 35px;
@@ -813,7 +842,7 @@ li + li {
   }
 
   .ledger-row {
-    min-width: 900px;
+    min-width: 1060px;
   }
 }
 
