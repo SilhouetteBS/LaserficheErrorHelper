@@ -5879,5 +5879,334 @@
     "noMatch": false,
     "query": "7876 Invalid field value was inputted for the field type",
     "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7880",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "The specified location is in use.",
+    "noMatch": false,
+    "query": "7880 The specified location is in use",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7881",
+    "links": [],
+    "message": "The specified location doesn't exist.",
+    "noMatch": true,
+    "query": "7881 The specified location doesn't exist",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7882",
+    "links": [
+      {
+        "title": "Web Administration Console. When running the Web Administration Console 9.2 for the first time",
+        "url": "https://answers.laserfiche.com/questions/66000/Web-Administration-Console-When-running-the-Web-Administration-Console-92--for-the-first-time"
+      }
+    ],
+    "message": "The specified cycle definition does not exist.",
+    "noMatch": false,
+    "query": "7882 The specified cycle definition does not exist",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7883",
+    "links": [],
+    "message": "The specified cycle definition already exists.",
+    "noMatch": true,
+    "query": "7883 The specified cycle definition already exists",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7884",
+    "links": [
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "The specified cycle does not exist.",
+    "noMatch": false,
+    "query": "7884 The specified cycle does not exist",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7885",
+    "links": [
+      {
+        "title": "Checkbox Field : \"All values must start with a letter\"",
+        "url": "https://answers.laserfiche.com/questions/178802/Checkbox-Field--All-values-must-start-with-a-letter"
+      }
+    ],
+    "message": "The specified cycle already exists.",
+    "noMatch": false,
+    "query": "7885 The specified cycle already exists",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7886",
+    "links": [
+      {
+        "title": "Unknown breaking bug on form submission",
+        "url": "https://answers.laserfiche.com/questions/232735/Unknown-breaking-bug-on-form-submission"
+      }
+    ],
+    "message": "The specified cycle definition cannot be deleted because it is currently in use.",
+    "noMatch": false,
+    "query": "7886 The specified cycle definition cannot be deleted because it is currently in use",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7887",
+    "links": [],
+    "message": "Failed to open record folder.",
+    "noMatch": true,
+    "query": "7887 Failed to open record folder",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7888",
+    "links": [
+      {
+        "title": "Save as Draft and Database Lookup Question",
+        "url": "https://answers.laserfiche.com/questions/78684/Save-as-Draft-and-Database-Lookup-Question"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "Failed to place or remove a hold on the record folder.",
+    "noMatch": false,
+    "query": "7888 Failed to place or remove a hold on the record folder",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7889",
+    "links": [],
+    "message": "Failed to cutoff or uncutoff a record folder.",
+    "noMatch": true,
+    "query": "7889 Failed to cutoff or uncutoff a record folder",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7926",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "Entry is under hold.",
+    "noMatch": false,
+    "query": "7926 Entry is under hold",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7927",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "Duplicate retention schedule name.",
+    "noMatch": false,
+    "query": "7927 Duplicate retention schedule name",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7928",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "The retention schedule is in use, and may not be deleted or modified.",
+    "noMatch": false,
+    "query": "7928 The retention schedule is in use, and may not be deleted or modified",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7929",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "The record folder has been cut off, and filing date may not be deleted.",
+    "noMatch": false,
+    "query": "7929 The record folder has been cut off, and filing date may not be deleted",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7930",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "The filing date cannot be after the creation date.",
+    "noMatch": false,
+    "query": "7930 The filing date cannot be after the creation date",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7931",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      },
+      {
+        "title": "Laserfiche 11 Audit Trail Install Error",
+        "url": "https://answers.laserfiche.com/questions/209630/Laserfiche-11-Audit-Trail-Install-Error"
+      }
+    ],
+    "message": "The specified period does not contain any cycles.",
+    "noMatch": false,
+    "query": "7931 The specified period does not contain any cycles",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7932",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "The specified transfer is in use and cannot be deleted.",
+    "noMatch": false,
+    "query": "7932 The specified transfer is in use and cannot be deleted",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7933",
+    "links": [
+      {
+        "title": "SQL error - 'PRIMARY' filegroup is full.",
+        "url": "https://answers.laserfiche.com/questions/137952/SQL-error--PRIMARY-filegroup-is-full"
+      },
+      {
+        "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+        "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client"
+      },
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "Record must be superseded before final disposition action can occur.",
+    "noMatch": false,
+    "query": "7933 Record must be superseded before final disposition action can occur",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7934",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "Retention schedule with requires superseded requirement must have no hold, transfer, or post-cutoff trigger.",
+    "noMatch": false,
+    "query": "7934 Retention schedule with requires superseded requirement must have no hold, transfer, or post-cutoff trigger",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7935",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "Retention schedule cannot use itself as an alternate schedule for a post-cutoff trigger.",
+    "noMatch": false,
+    "query": "7935 Retention schedule cannot use itself as an alternate schedule for a post-cutoff trigger",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7936",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      },
+      {
+        "title": "DocumentProcessor OCREngine Unknown Error and Permissions",
+        "url": "https://answers.laserfiche.com/questions/89055/DocumentProcessor-OCREngine-Unknown-Error-and-Permissions"
+      },
+      {
+        "title": "Workflow terminating by failure of sending mail",
+        "url": "https://answers.laserfiche.com/questions/72425/Workflow-terminating-by-failure-of-sending-mail"
+      }
+    ],
+    "message": "Retention schedule cannot have an alternate schedule if it is already used as an alternate schedule itself.",
+    "noMatch": false,
+    "query": "7936 Retention schedule cannot have an alternate schedule if it is already used as an alternate schedule itself",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7937",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "The specified event does not exist.",
+    "noMatch": false,
+    "query": "7937 The specified event does not exist",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7938",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "This link type cannot be removed or renamed due to DOD 5015.2 compliance requirements.",
+    "noMatch": false,
+    "query": "7938 This link type cannot be removed or renamed due to DOD 5015.2 compliance requirements",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7939",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "This event cannot be deleted because it is in use.",
+    "noMatch": false,
+    "query": "7939 This event cannot be deleted because it is in use",
+    "searchedAt": "2026-06-27"
+  },
+  {
+    "code": "7940",
+    "links": [
+      {
+        "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+        "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted"
+      }
+    ],
+    "message": "The field data specified does not match all field data constraint requirements.",
+    "noMatch": false,
+    "query": "7940 The field data specified does not match all field data constraint requirements",
+    "searchedAt": "2026-06-27"
   }
 ]
