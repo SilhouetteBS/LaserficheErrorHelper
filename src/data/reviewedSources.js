@@ -3959,4 +3959,2564 @@ export const reviewedSources = [
     extractedErrorCodes: ["0xC00503EA", "9128"],
     reviewStatus: "curated-unresolved",
   },
+  {
+    id: "answers-124617-lff9303-valueexceedscharacterlimit",
+    title: "Character limit on Multiline field is not working",
+    url: "https://answers.laserfiche.com/questions/124617/Character-limit-on-Multiline-field-is-not-working",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 12"],
+    extractedErrorCodes: ["LFF9303-ValueExceedsCharacterLimit", "LFF9312-ErrorOccuredDuringFormsValidation"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-128117-501",
+    title: "Forms error 501",
+    url: "https://answers.laserfiche.com/questions/128117/Forms-error-501",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 9", "Version 12"],
+    extractedErrorCodes: ["501"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-206599-0xc0042335",
+    title: "Cant Check Access Rights for Users from Our Main Identity Provider",
+    url: "https://answers.laserfiche.com/questions/206599/Cant-Check-Access-Rights-for-Users-from-Our-Main-Identity-Provider",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Directory Server", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11"],
+    extractedErrorCodes: ["0xc0042335"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-185978-lff3602-unsupportedsqlversion",
+    title: "Connecting Forms 11 to Azure SQL",
+    url: "https://answers.laserfiche.com/questions/185978/Connecting-Forms-11-to-Azure-SQL",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Directory Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["LFF3602-UnsupportedSQLVersion"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-95599-0458-wf0",
+    title: "Workflow Error 0458-WF0",
+    url: "https://answers.laserfiche.com/questions/95599/Workflow-Error-0458WF0",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Directory Server", "Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["0458-WF0", "0458"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-186747-lff3007-invalidlfdscredential",
+    title: "Forms System Administrator user",
+    url: "https://answers.laserfiche.com/questions/186747/Forms-System-Administrator-user",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Directory Server", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["LFF3007-InvalidLFDSCredential"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-101883-0xc0042332",
+    title: "Error Code: 9010 Error Message: The user account name or password is incorrect. [9010]",
+    url: "https://answers.laserfiche.com/questions/101883/Error-Code-9010-Error-Message-The-user-account-name-or-password-is-incorrect-9010",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Directory Server", "Laserfiche Server/Repository Server", "Version 10", "Version 11"],
+    extractedErrorCodes: ["0xc0042332", "0x80042332"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-116634-2032",
+    title: "Client getting error 2032 in License Manager 8.3.1",
+    url: "https://answers.laserfiche.com/questions/116634/Client-getting-error-2032-in-License-Manager-831",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Directory Server", "Version 9"],
+    extractedErrorCodes: ["2032"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-199802-0x8007052e",
+    title: "The username or password is incorrect '",
+    url: "https://answers.laserfiche.com/questions/199802/The-username-or-password-is-incorrect-",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Directory Server", "Version 10"],
+    extractedErrorCodes: ["0x8007052E", "0x80041770"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-145450-01000",
+    title: "Audit Trail Configuration & TLS 1.2",
+    url: "https://answers.laserfiche.com/questions/145450/Audit-Trail-Configuration--TLS-12",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Audit Trail"],
+    extractedErrorCodes: ["01000"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-212484-lff9910",
+    title: "Forms reporting Audit Trail version too low LFF9910",
+    url: "https://answers.laserfiche.com/questions/212484/Forms-reporting-Audit-Trail-version-too-low-LFF9910",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 11", "Version 12", "Audit Trail"],
+    extractedErrorCodes: ["LFF9910", "LFF9910-AuditTrailVersionTooLow"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-113350-2627",
+    title: "SQL Errors in Audit Trail",
+    url: "https://answers.laserfiche.com/questions/113350/SQL-Errors-in-Audit-Trail",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Audit Trail"],
+    extractedErrorCodes: ["2627", "515"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-89533-22008",
+    title: "Audit Trails Reporting shows ERROR [22008] ... Datetime field overflow",
+    url: "https://answers.laserfiche.com/questions/89533/Audit-Trails-Reporting-shows-ERROR-22008--Datetime-field-overflow",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Audit Trail"],
+    extractedErrorCodes: ["22008"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-154199-23000",
+    title: "Audit Trail Not Loading Audit Data for Reporting",
+    url: "https://answers.laserfiche.com/questions/154199/Audit-Trail-Not-Loading-Audit-Data-for-Reporting",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 11", "Audit Trail"],
+    extractedErrorCodes: ["23000", "01000"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-114968-0x80040300",
+    title: "Upgrading Windows Client Error",
+    url: "https://answers.laserfiche.com/questions/114968/Upgrading-Windows-Client-Error",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 10", "Connector"],
+    extractedErrorCodes: ["0x80040300"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-171068-lff2106-invaliddatasent",
+    title: "Can the timeout period for submitting a specific form be removed?",
+    url: "https://answers.laserfiche.com/questions/171068/Can-the-timeout-period-for-submitting-a-specific-form-be-removed",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Directory Server", "Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["LFF2106-InvalidDataSent"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-102933-lff5010-notfullnameduser",
+    title: "Setting up Forms user authentication - \"not a read/write named user.\"",
+    url: "https://answers.laserfiche.com/questions/102933/Setting-up-Forms-user-authentication--not-a-readwrite-named-user",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Directory Server", "Laserfiche Server/Repository Server", "Version 9", "Version 10"],
+    extractedErrorCodes: ["LFF5010-NotFullNamedUser"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-112608-lff2016-invaliddatasent",
+    title: "Manage session timeout in Forms",
+    url: "https://answers.laserfiche.com/questions/112608/Manage-session-timeout-in-Forms",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Directory Server", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11"],
+    extractedErrorCodes: ["LFF2016-InvalidDataSent"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-202067-lff3007-invalidlfdscredential",
+    title: "Error when configuring Forms to use STS",
+    url: "https://answers.laserfiche.com/questions/202067/Error-when-configuring-Forms-to-use-STS",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Directory Server", "Version 10", "Version 11"],
+    extractedErrorCodes: ["LFF3007-InvalidLFDSCredential"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-124388-0x8004031d",
+    title: "Unable to successfully verify the product license regstration with the Laserfiche license or directory server. Error: The license is now stale.",
+    url: "https://answers.laserfiche.com/questions/124388/Unable-to-successfully-verify-the-product-license-regstration-with-the-Laserfiche-license-or-directory-server-Error-The-license-is-now-stale",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Directory Server", "Version 10"],
+    extractedErrorCodes: ["0x8004031d"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-186348-0x80131937",
+    title: "LF Discussions Support for TLS 1.2",
+    url: "https://answers.laserfiche.com/questions/186348/LF-Discussions-Support-for-TLS-12",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Discussions"],
+    extractedErrorCodes: ["0x80131937"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-93382-lff347-invalidanswersurl",
+    title: "Certificate error for Dev environment connecting Forms & SocialBPM",
+    url: "https://answers.laserfiche.com/questions/93382/Certificate-error-for-Dev-environment-connecting-Forms--SocialBPM",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Discussions", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["LFF347-InvalidAnswersUrl"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-98129-lff347-invalidanswersurl",
+    title: "LFF347-InvalidAnswersUrl when try to connect Forms with Discussions (VARKIT)",
+    url: "https://answers.laserfiche.com/questions/98129/LFF347InvalidAnswersUrl-when-try-to-connect-Forms-with-Discussions-VARKIT",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Discussions"],
+    extractedErrorCodes: ["LFF347-InvalidAnswersUrl"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-147268-lff2106-invaliddatasent",
+    title: "Forms public form timeout",
+    url: "https://answers.laserfiche.com/questions/147268/Forms-public-form-timeout",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 11", "Version 12", "Discussions"],
+    extractedErrorCodes: ["LFF2106-InvalidDataSent"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-117870-0751-wf0",
+    title: "dcc job is impeded",
+    url: "https://answers.laserfiche.com/questions/117870/dcc-job-is-impeded",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Distributed Computing Cluster", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0751-WF0"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-61602-0x800401a5",
+    title: "OCR engine update with newer toolkit?",
+    url: "https://answers.laserfiche.com/questions/61602/OCR-engine-update-with-newer-toolkit",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Version 9", "Distributed Computing Cluster"],
+    extractedErrorCodes: ["0x800401A5"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-232192-0x800706ba",
+    title: "ClientAutomationTools Page Generation",
+    url: "https://answers.laserfiche.com/questions/232192/ClientAutomationTools-Page-Generation",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Distributed Computing Cluster", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0x800706BA"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-174811-0724-wf1",
+    title: "Configuring Distributed Computing Cluster Scheduler",
+    url: "https://answers.laserfiche.com/questions/174811/Configuring-Distributed-Computing-Cluster-Scheduler",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Version 10", "Distributed Computing Cluster"],
+    extractedErrorCodes: ["0724-WF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-163652-0x800706ba",
+    title: "Quick Fields Agent Session Errors - RPC server is unavailable - BPINTERFACES81Lib.IBPEngineEx",
+    url: "https://answers.laserfiche.com/questions/163652/Quick-Fields-Agent-Session-Errors--RPC-server-is-unavailable--BPINTERFACES81LibIBPEngineEx",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Distributed Computing Cluster"],
+    extractedErrorCodes: ["0x800706BA"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-86613-1067",
+    title: "minimum NTFS permissions for Forms Routing Service",
+    url: "https://answers.laserfiche.com/questions/86613/minimum-NTFS-permissions-for-Forms-Routing-Service",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 9"],
+    extractedErrorCodes: ["1067"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-181174-lff3005-unabletoconnecttolfserver",
+    title: "Feature Request: Task Error Handlers for Forms",
+    url: "https://answers.laserfiche.com/questions/181174/Feature-Request-Task-Error-Handlers-for-Forms",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Directory Server", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["LFF3005-UnableToConnectToLFServer"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-207219-lff4112-pdfnetworkerror",
+    title: "The PDF generator was unable to contact the Laserfiche Forms server. Please ensure your SSL settings are correct.",
+    url: "https://answers.laserfiche.com/questions/207219/The-PDF-generator-was-unable-to-contact-the-Laserfiche-Forms-server-Please-ensure-your-SSL-settings-are-correct",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF4112-PdfNetworkError"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-127258-10061",
+    title: "The requested service (IRoutingEngineService) may not be running.",
+    url: "https://answers.laserfiche.com/questions/127258/The-requested-service-IRoutingEngineService-may-not-be-running",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 9", "Version 10", "Version 11"],
+    extractedErrorCodes: ["10061"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-132881-lff9408-paymentauthenticationerror",
+    title: "Set up Braintree for the first time",
+    url: "https://answers.laserfiche.com/questions/132881/Set-up-Braintree-for-the-first-time",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["LFF9408-PaymentAuthenticationError"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-161231-1921",
+    title: "Product: Laserfiche Forms -- Error 1921. Service 'Laserfiche Forms Routing Service' (Laserfiche Forms Routing Service) could not be stopped. Verify that you have sufficient privileges to stop system services.",
+    url: "https://answers.laserfiche.com/questions/161231/Product-Laserfiche-Forms--Error-1921-Service-Laserfiche-Forms-Routing-Service-Laserfiche-Forms-Routing-Service-could-not-be-stopped--Verify-that-you-have-sufficient-privileges-to-stop-system-services",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["1921"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-180377-lff708-submissiondataisinvalid",
+    title: "Forms - The submission data does not match the current variables assigned to this process.",
+    url: "https://answers.laserfiche.com/questions/180377/Forms--The-submission-data-does-not-match-the-current-variables-assigned-to-this-process",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 9", "Version 10", "Version 11"],
+    extractedErrorCodes: ["LFF708-SubmissionDataIsInvalid"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-96900-0xc00423ac",
+    title: "laserfiche error 9132 when create index",
+    url: "https://answers.laserfiche.com/questions/96900/laserfiche-error-9132-when-create-index",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 11", "Full Text Search"],
+    extractedErrorCodes: ["0xc00423ac"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-69237-0x80041929",
+    title: "Unknown display engine error. [6608]",
+    url: "https://answers.laserfiche.com/questions/69237/Unknown-display-engine-error-6608",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Import Agent"],
+    extractedErrorCodes: ["0x80041929"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-56755-0x80041929",
+    title: "Import Agent and .lst files",
+    url: "https://answers.laserfiche.com/questions/56755/Import-Agent-and-lst-files",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 11", "Import Agent"],
+    extractedErrorCodes: ["0x80041929"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-150358-0x80004003",
+    title: "LF Email Archiver: Could not get document information, Invalid Pointer [6000:0x80004003]",
+    url: "https://answers.laserfiche.com/questions/150358/LF-Email-Archiver-Could-not-get-document-information-Invalid-Pointer-60000x80004003",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 10", "Import Agent"],
+    extractedErrorCodes: ["0x80004003", "0x80040205"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-168993-0103-wf6",
+    title: "workflow won't retrieve fields from xml file",
+    url: "https://answers.laserfiche.com/questions/168993/workflow-wont-retrieve-fields-from-xml-file",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Import Agent"],
+    extractedErrorCodes: ["0103-WF6"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-221999-0x88982f07",
+    title: "pdf import fails using XML in Import Agent",
+    url: "https://answers.laserfiche.com/questions/221999/pdf-import-fails-using-XML-in-Import-Agent",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Import Agent", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0x88982F07"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-141996-0xc0042533",
+    title: "Upgraded from 9.2 to 10.3 about 3 hours ago, but still can't log in error 9523",
+    url: "https://answers.laserfiche.com/questions/141996/Upgraded-from-92-to-103-about-3-hours-ago-but-still-cant-log-in-error-9523",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Laserfiche Installer"],
+    extractedErrorCodes: ["0xc0042533"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-55838-0xc0042330",
+    title: "Failed to load annotations. This image cannot be modified. General database error. [9008] - after upgrade from 8.3.2 to 9.1.1",
+    url: "https://answers.laserfiche.com/questions/55838/Failed-to-load-annotations-This-image-cannot-be-modified-General-database-error-9008--after-upgrade-from-832-to-911",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Version 9", "Version 12", "Laserfiche Installer"],
+    extractedErrorCodes: ["0xc0042330"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-147707-0x5aac406e",
+    title: "mfc140u.dll is missing",
+    url: "https://answers.laserfiche.com/questions/147707/mfc140udll-is-missing",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 10", "Laserfiche Installer"],
+    extractedErrorCodes: ["0x5aac406e", "0x5a4b127e", "0xc0000135", "0x0009d4e2"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-229114-0559-wf1",
+    title: "language pack on Laserfiche 12",
+    url: "https://answers.laserfiche.com/questions/229114/language-pack-on-Laserfiche-12",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Version 12", "Laserfiche Installer"],
+    extractedErrorCodes: ["0559-WF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-71186-0x8004100e",
+    title: "Unable to Create or Register repositories on only one OS instance",
+    url: "https://answers.laserfiche.com/questions/71186/Unable-to-Create-or-Register-repositories-on-only-one-OS-instance",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 12"],
+    extractedErrorCodes: ["0x8004100E", "0x80041003"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-91154-0xc0042341",
+    title: "error reading repository information 9025",
+    url: "https://answers.laserfiche.com/questions/91154/error-reading-repository-information-9025",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9"],
+    extractedErrorCodes: ["0xc0042341", "0x80042341"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-52154-183",
+    title: "LF service fails to start error 183",
+    url: "https://answers.laserfiche.com/questions/52154/LF-service-fails-to-start-error-183",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["183"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-70939-0xc0042530",
+    title: "no license has been allocated for this user",
+    url: "https://answers.laserfiche.com/questions/70939/no-license-has-been-allocated-for-this-user",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 11"],
+    extractedErrorCodes: ["0xc0042530", "0x80042530"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-86499-1067",
+    title: "Laserfiche Server Service Error 1067",
+    url: "https://answers.laserfiche.com/questions/86499/Laserfiche-Server-Service-Error-1067",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Directory Server", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["1067"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-168571-1069",
+    title: "error 1069 no se puede iniciar el servicos Laserfiche server",
+    url: "https://answers.laserfiche.com/questions/168571/error-1069-no-se-puede-iniciar-el-servicos-Laserfiche-server",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["1069"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-193270-1910",
+    title: "Laserfiche Server connection failure ( Workflows Will Not run ) Error code [1910]",
+    url: "https://answers.laserfiche.com/questions/193270/Laserfiche-Server-connection-failure--Workflows-Will-Not-run--Error-code-1910",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11"],
+    extractedErrorCodes: ["1910"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-84150-1068",
+    title: "Error 1068: the dependency service or group failed to start when try to start LF server service.",
+    url: "https://answers.laserfiche.com/questions/84150/Error-1068-the-dependency-service-or-group-failed-to-start-when-try-to-start-LF-server-service",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["1068"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-164764-0x93601cf3",
+    title: "Error 9523 upgrading from 9.21 to 10.4",
+    url: "https://answers.laserfiche.com/questions/164764/Error-9523-upgrading-from-921-to-104",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11"],
+    extractedErrorCodes: ["0x93601cf3", "0x9b601cf3"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-70395-0x8004100e",
+    title: "error creating a new laserfiche repository in rio",
+    url: "https://answers.laserfiche.com/questions/70395/error-creating-a-new-laserfiche-repository-in-rio",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9"],
+    extractedErrorCodes: ["0x8004100E"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-135662-0xc0042536",
+    title: "TLS 1.2 with Weblink",
+    url: "https://answers.laserfiche.com/questions/135662/TLS-12-with-Weblink",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0xc0042536", "0x80042536"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-95403-0xc0042354",
+    title: "Invalid Volume Path (9044)",
+    url: "https://answers.laserfiche.com/questions/95403/Invalid-Volume-Path-9044",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["0xc0042354"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-55623-111",
+    title: "Laserfiche Mobile - Opening a LF Document Link Through an Email",
+    url: "https://answers.laserfiche.com/questions/55623/Laserfiche-Mobile--Opening-a-LF-Document-Link-Through-an-Email",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Mobile"],
+    extractedErrorCodes: ["111"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-231291-0x800a01a8",
+    title: "Exception from HRESULT: 0x800A01A8",
+    url: "https://answers.laserfiche.com/questions/231291/Exception-from-HRESULT--0x800A01A8",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 9", "Version 12", "Office Integration"],
+    extractedErrorCodes: ["0x800A01A8"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-76270-0x54efddd9",
+    title: "Laserfiche Client (32-bit) has stopped working",
+    url: "https://answers.laserfiche.com/questions/76270/Laserfiche-Client-32bit-has-stopped-working",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Version 11", "Version 12", "Office Integration"],
+    extractedErrorCodes: ["0x54efddd9", "0x54e33ed6", "0xc0000005", "0x000cce0c", "0x51b50f28", "0x56cf9fcf", "0x541c1f8e", "0x0000e780"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-53971-0224-wf1",
+    title: "Workflow Web 9.1.1 Upgrade - Error when searching for workflows",
+    url: "https://answers.laserfiche.com/questions/53971/Workflow-Web-911-Upgrade--Error-when-searching-for-workflows",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Web Client", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Version 12", "Office Integration"],
+    extractedErrorCodes: ["0224-WF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-47940-0x4b9c08e8",
+    title: "Missing Laserfiche tag in Excel",
+    url: "https://answers.laserfiche.com/questions/47940/Missing-Laserfiche-tag-in-Excel",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Version 11", "Office Integration"],
+    extractedErrorCodes: ["0x4b9c08e8", "0x57e2061a", "0x0011fd82"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-72376-0106-qf1",
+    title: "Quick Fields Agent was not found in the license. [0106-QF1]",
+    url: "https://answers.laserfiche.com/questions/72376/Quick-Fields-Agent-was-not-found-in-the-license-0106QF1",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Directory Server", "Version 9", "Quick Fields"],
+    extractedErrorCodes: ["0106-QF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-236412-0x800706ba",
+    title: "Laserfiche and Quickfields version 10.4 Type=\"COMException\" Message=\"The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)\"",
+    url: "https://answers.laserfiche.com/questions/236412/Laserfiche-and-Quickfields-version-104-TypeCOMException-MessageThe-RPC-server-is-unavailable-Exception-from-HRESULT-0x800706BA",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 10", "Version 11", "Version 12", "Quick Fields"],
+    extractedErrorCodes: ["0x800706BA"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-71315-0x4fd6279d",
+    title: "Quick fields Agent hanged",
+    url: "https://answers.laserfiche.com/questions/71315/Quick-fields-Agent-hanged",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Version 9", "Version 10", "Version 11", "Version 12", "Quick Fields"],
+    extractedErrorCodes: ["0x4fd6279d", "0x4e211319", "0xe0434f4d", "0x0000b9bc", "0x52b4cc05", "0x53b485c4", "0xc0000005", "0x00051d5a"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-144899-0106-qf1",
+    title: "LF Cloud - Quick Fields Agent was not found in the license.",
+    url: "https://answers.laserfiche.com/questions/144899/LF-Cloud--Quick-Fields-Agent-was-not-found-in-the-license",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Quick Fields", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0106-QF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-106350-0x52016528",
+    title: "scanconnect crashing",
+    url: "https://answers.laserfiche.com/questions/106350/scanconnect-crashing",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Version 9", "Version 10", "Quick Fields"],
+    extractedErrorCodes: ["0x52016528", "0x57b7e09e", "0xc0000374", "0x000d9841", "0x590d342b", "0x5915f8e8", "0x000ce8fb"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-69289-0828-qf1",
+    title: "QF Agent XML EoF error - How to determine XML file referred to?",
+    url: "https://answers.laserfiche.com/questions/69289/QF-Agent-XML-EoF-error--How-to-determine-XML-file-referred-to",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Version 12", "Quick Fields"],
+    extractedErrorCodes: ["0828-QF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-195538-0x80040312",
+    title: "Action not permitted by server to set Records Management Filing Date",
+    url: "https://answers.laserfiche.com/questions/195538/Action-not-permitted-by-server-to-set-Records-Management-Filing-Date",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Records Management"],
+    extractedErrorCodes: ["0x80040312"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-60114-0xc004237d",
+    title: "Search for all pages that have not been redacted?",
+    url: "https://answers.laserfiche.com/questions/60114/Search-for-all-pages-that-have-not-been-redacted-",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Records Management", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0xc004237d"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-193021-9559",
+    title: "Web Client- Redact Document in Record Series getting this error 9559",
+    url: "https://answers.laserfiche.com/questions/193021/Web-Client-Redact-Document-in-Record-Series-getting-this-error-9559",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Version 10", "Records Management"],
+    extractedErrorCodes: ["9559"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-62125-0xc004233b",
+    title: "record series setup utility issues/questions",
+    url: "https://answers.laserfiche.com/questions/62125/record-series-setup-utility-issuesquestions",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Records Management"],
+    extractedErrorCodes: ["0xC004233B"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-111870-0x0000070c",
+    title: "When using Snapshot to print into Laserfiche Client, no pages are generated",
+    url: "https://answers.laserfiche.com/questions/111870/When-using-Snapshot-to-print-into-Laserfiche-Client-no-pages-are-generated",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Snapshot", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0x0000070c"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-112195-0x0000070c",
+    title: "Printer settings could not be saved",
+    url: "https://answers.laserfiche.com/questions/112195/Printer-settings-could-not-be-saved",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Version 12", "Snapshot"],
+    extractedErrorCodes: ["0x0000070c"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-82785-0x55c15ff7",
+    title: "Error using Snapshot on pc 32 bits",
+    url: "https://answers.laserfiche.com/questions/82785/Error-using-Snapshot-on-pc-32-bits",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Snapshot"],
+    extractedErrorCodes: ["0x55c15ff7", "0x521ea91c", "0xc0000374", "0x000c3873"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-173858-719",
+    title: "Workflow Error 719 - Only 20 Collection or Table Fields Can Be Retrieved At One TIme",
+    url: "https://answers.laserfiche.com/questions/173858/Workflow-Error-719--Only-20-Collection-or-Table-Fields-Can-Be-Retrieved-At-One-TIme",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Version 10"],
+    extractedErrorCodes: ["719"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-136118-0xc0000374",
+    title: "Can you replicate my issue?",
+    url: "https://answers.laserfiche.com/questions/136118/Can-you-replicate-my-issue",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["0xc0000374"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-144982-0x57899b8a",
+    title: "WebLinkControls.WLConnectionManager.GetConnectionByVdirAndRepoName(String vdirName",
+    url: "https://answers.laserfiche.com/questions/144982/WebLinkControlsWLConnectionManagerGetConnectionByVdirAndRepoNameString-vdirName",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Directory Server", "Version 10", "Version 11", "WebLink"],
+    extractedErrorCodes: ["0x57899b8a", "0x5b1a1651"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-203666-0xc0042330",
+    title: "Error trying to redact a document",
+    url: "https://answers.laserfiche.com/questions/203666/Error-trying-to-redact-a-document",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Version 12", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0xc0042330"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-142815-0x80004002",
+    title: "Error when uploading large PDF files",
+    url: "https://answers.laserfiche.com/questions/142815/Error-when-uploading-large-PDF-files",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80004002"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-123236-0xc000006d",
+    title: "Event 4625 for LF SPN",
+    url: "https://answers.laserfiche.com/questions/123236/Event-4625-for-LF-SPN",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Directory Server", "Version 9", "Version 10", "Audit Trail"],
+    extractedErrorCodes: ["0xC000006D"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-78720-0x8007007e",
+    title: "Laserfiche Connector - Working with Window Title and URL",
+    url: "https://answers.laserfiche.com/questions/78720/Laserfiche-Connector--Working-with-Window-Title-and-URL",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Version 11", "Version 12", "Connector"],
+    extractedErrorCodes: ["0x8007007E"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-141652-0x5ae91f02",
+    title: "Connector 10.3 Hotfix - Crashing",
+    url: "https://answers.laserfiche.com/questions/141652/Connector-103-Hotfix--Crashing",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 10", "Version 11", "Connector"],
+    extractedErrorCodes: ["0x5ae91f02", "0x6369e29f", "0x5abdad60", "0x5add228d", "0xc0000005"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-187262-0x800706be",
+    title: "Client Automation Search in Cloud",
+    url: "https://answers.laserfiche.com/questions/187262/Client-Automation-Search-in-Cloud",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Connector"],
+    extractedErrorCodes: ["0x800706BE"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-110954-lff2106-invaliddatasent",
+    title: "Invalid Form Data was sent t the server",
+    url: "https://answers.laserfiche.com/questions/110954/Invalid-Form-Data-was-sent-t-the-server",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Directory Server", "Laserfiche Server/Repository Server", "Version 10", "Version 11"],
+    extractedErrorCodes: ["LFF2106-InvalidDataSent"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-165484-lff2106-invaliddatasent",
+    title: "[LFF2106-InvalidDataSent] - Which field or variable was the problem?",
+    url: "https://answers.laserfiche.com/questions/165484/LFF2106InvalidDataSent--Which-field-or-variable-was-the-problem",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Directory Server", "Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["LFF2106-InvalidDataSent"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-130811-0x00005011",
+    title: "Directory Server System.Runtime.InteropServices.COMException (0x00005011)",
+    url: "https://answers.laserfiche.com/questions/130811/Directory-Server-SystemRuntimeInteropServicesCOMException-0x00005011",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Directory Server", "Version 10"],
+    extractedErrorCodes: ["0x00005011"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-179049-0x80005000",
+    title: "Errors in LFDS log after AD Sync",
+    url: "https://answers.laserfiche.com/questions/179049/Errors-in-LFDS-log-after-AD-Sync",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Directory Server", "Version 9", "Version 10"],
+    extractedErrorCodes: ["0x80005000"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-80388-http-443",
+    title: "RIO 9.2.1 - Configure a master license SSL/TLS error",
+    url: "https://answers.laserfiche.com/questions/80388/RIO-921--Configure-a-master-license-SSLTLS-error",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Directory Server", "Version 9"],
+    extractedErrorCodes: ["http 443"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-99945-0458-wf0",
+    title: "Rio upgrade from 9.2 to 10",
+    url: "https://answers.laserfiche.com/questions/99945/Rio-upgrade-from-92-to-10",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Directory Server", "Laserfiche Server/Repository Server", "Version 9", "Version 10"],
+    extractedErrorCodes: ["0458-WF0"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-230410-400",
+    title: "LFF706-Unable To TriggerRouting",
+    url: "https://answers.laserfiche.com/questions/230410/LFF706Unable-To-TriggerRouting",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Directory Server", "Version 9", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["400"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-132502-lff4112-pdfnetworkerror",
+    title: "HTTP Status Code: 500",
+    url: "https://answers.laserfiche.com/questions/132502/HTTP-Status-Code-500",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["LFF4112-PdfNetworkError"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-59871-08004",
+    title: "Forms SQL Database",
+    url: "https://answers.laserfiche.com/questions/59871/Forms-SQL-Database",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["08004"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-95197-lff4112-pdfnetworkerror",
+    title: "Laserfiche Forms was unable to generate a PDF or TIFF.",
+    url: "https://answers.laserfiche.com/questions/95197/Laserfiche-Forms-was-unable-to-generate-a-PDF-or-TIFF",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["LFF4112-PdfNetworkError"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-210154-10061",
+    title: "The requested service 'IAutoTrigger' may not be running. [LFF3004-UnableToOpenServiceProxy]",
+    url: "https://answers.laserfiche.com/questions/210154/The-requested-service-IAutoTrigger-may-not-be-running-LFF3004UnableToOpenServiceProxy",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 11"],
+    extractedErrorCodes: ["10061"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-193269-lff2104-invalidrequestsubmissionexists",
+    title: "Rogue Form Terminating Daily",
+    url: "https://answers.laserfiche.com/questions/193269/Rogue-Form-Terminating-Daily",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 9", "Version 10", "Version 11"],
+    extractedErrorCodes: ["LFF2104-InvalidRequestSubmissionExists"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-219156-0x800703e3",
+    title: "Laserfiche Forms encountered an internal error LFF500-InternalError when clickin on Reports tab",
+    url: "https://answers.laserfiche.com/questions/219156/Laserfiche-Forms-encountered-an-internal-error-LFF500InternalError-when-clickin-on-Reports-tab",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0x800703E3"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-169848-lff3016-invalidtimerconfiguration",
+    title: "Multiple Time Catch Events Triggered after 10.4 Forms update",
+    url: "https://answers.laserfiche.com/questions/169848/Multiple-Time-Catch-Events-Triggered-after-104-Forms-update",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 12"],
+    extractedErrorCodes: ["LFF3016-InvalidTimerConfiguration"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-159369-0x5a55ed59",
+    title: "Import Agent .net runtime error",
+    url: "https://answers.laserfiche.com/questions/159369/Import-Agent-net-runtime-error",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 10", "Import Agent"],
+    extractedErrorCodes: ["0x5a55ed59", "0x5c92f34f"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-154732-1603",
+    title: "Silent Laserfiche Client Deployment Failing",
+    url: "https://answers.laserfiche.com/questions/154732/Silent-Laserfiche-Client-Deployment-Failing",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 10", "Version 12", "Laserfiche Installer"],
+    extractedErrorCodes: ["1603"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-50176-2044",
+    title: "Rio License Manager Error 2044 The licensing database has been disabled",
+    url: "https://answers.laserfiche.com/questions/50176/Rio-License-Manager-Error-2044-The-licensing-database-has-been-disabled",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 11", "Laserfiche Installer"],
+    extractedErrorCodes: ["2044"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-65242-1904",
+    title: "Error 1904 LFImageEnable80.dll failed to register",
+    url: "https://answers.laserfiche.com/questions/65242/Error-1904-LFImageEnable80dll-failed-to-register",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Installer", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["1904"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-61935-0x80041a40",
+    title: "Could not create required control. [6720] on opening client",
+    url: "https://answers.laserfiche.com/questions/61935/Could-not-create-required-control-6720-on-opening-client",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Version 9", "Version 10", "Laserfiche Installer"],
+    extractedErrorCodes: ["0x80041a40"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-89486-2753",
+    title: "Need to solve error 2753",
+    url: "https://answers.laserfiche.com/questions/89486/Need-to-solve-error-2753",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Laserfiche Installer"],
+    extractedErrorCodes: ["2753"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-48198-2021",
+    title: "Error 2021? Is there any information on this error out there.",
+    url: "https://answers.laserfiche.com/questions/48198/Error-2021-Is-there-any-information-on-this-error-out-there",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9"],
+    extractedErrorCodes: ["2021"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-123761-0xc0042536",
+    title: "Repository cannot be mounted because it is being mounted or unmounted [9526]",
+    url: "https://answers.laserfiche.com/questions/123761/Repository-cannot-be-mounted-because-it-is-being-mounted-or-unmounted-9526",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["0xc0042536", "0x80042536"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-54696-0xc0042507",
+    title: "Getting the message \"Unknown error [9479:0xc0042507]\"",
+    url: "https://answers.laserfiche.com/questions/54696/Getting-the-message-Unknown-error--94790xc0042507",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0xc0042507"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-180224-12175",
+    title: "Internal SSL Error is not enough information",
+    url: "https://answers.laserfiche.com/questions/180224/Internal-SSL-Error-is-not-enough-information",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Version 10", "Laserfiche Server/Repository Server"],
+    extractedErrorCodes: ["12175"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-54349-0x80040190",
+    title: "The OCR engine is not licensed.",
+    url: "https://answers.laserfiche.com/questions/54349/The-OCR-engine-is-not-licensed",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0x80040190"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-168040-lff5428",
+    title: "error-LFF5428",
+    url: "https://answers.laserfiche.com/questions/168040/errorLFF5428",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["LFF5428", "LFF5428-ErrorAuthenticateSTR"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-55002-22018",
+    title: "ODBC Data Source Administrator",
+    url: "https://answers.laserfiche.com/questions/55002/ODBC-Data-Source-Administrator",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Version 9", "Version 10", "Version 12", "Quick Fields"],
+    extractedErrorCodes: ["22018"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-108813-0222-bp0",
+    title: "Last Page Identification - Page Process",
+    url: "https://answers.laserfiche.com/questions/108813/Last-Page-Identification--Page-Process",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 9", "Quick Fields"],
+    extractedErrorCodes: ["0222-BP0"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-187580-0x800706ba",
+    title: "QF Error",
+    url: "https://answers.laserfiche.com/questions/187580/QF-Error",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Quick Fields", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0x800706BA"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-163526-9559",
+    title: "Workflow Can Make Changes to Records Folder that Has Been Cutoff",
+    url: "https://answers.laserfiche.com/questions/163526/Workflow-Can-Make-Changes-to-Records-Folder-that-Has-Been-Cutoff",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Version 10", "Records Management"],
+    extractedErrorCodes: ["9559"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-199761-lff340-taskalreadycanceled",
+    title: "Forms-Gateway Activity Suspends \"Object reference not set to an instance of an object\" then terminates",
+    url: "https://answers.laserfiche.com/questions/199761/FormsGateway-Activity-Suspends-Object-reference-not-set-to-an-instance-of-an-object-then-terminates",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 11", "Snapshot"],
+    extractedErrorCodes: ["LFF340-TaskAlreadyCanceled"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-148168-0x0000007e",
+    title: "No se pudo iniciar el despliegue de los metadatos. No se pudo crear el control obligatorio. [6720:0x0000007e]",
+    url: "https://answers.laserfiche.com/questions/148168/No-se-pudo-iniciar-el-despliegue-de-los-metadatos-No-se-pudo-crear-el-control-obligatorio-67200x0000007e",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Version 10", "Version 11", "Snapshot"],
+    extractedErrorCodes: ["0x0000007e"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-187941-400",
+    title: "File uploaded does not appear in the reports",
+    url: "https://answers.laserfiche.com/questions/187941/File-uploaded-does-not-appear-in-the-reports",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 12", "Snapshot"],
+    extractedErrorCodes: ["400"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-95980-0x80005000",
+    title: "Find User Activity Can't Find a Specific User",
+    url: "https://answers.laserfiche.com/questions/95980/Find-User-Activity-Cant-Find-a-Specific-User",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Version 9"],
+    extractedErrorCodes: ["0x80005000"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-97863-0212-wf1",
+    title: "Workflow database question",
+    url: "https://answers.laserfiche.com/questions/97863/Workflow-database-question",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Version 9"],
+    extractedErrorCodes: ["0212-WF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-70556-10061",
+    title: "Workflow subscriber unable to Connect to the Workflow Server",
+    url: "https://answers.laserfiche.com/questions/70556/Workflow-subscriber-unable-to-Connect-to-the-Workflow-Server",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Version 9"],
+    extractedErrorCodes: ["10061"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-162396-0x80040310",
+    title: "Laserfiche slow/freezes when trying to combine or delete a document",
+    url: "https://answers.laserfiche.com/questions/162396/Laserfiche-slowfreezes-when-trying-to-combine-or-delete-a-document",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Version 10"],
+    extractedErrorCodes: ["0x80040310"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-221326-lff3005-unabletoconnecttolfserver",
+    title: "Unable to connect to the Laserfiche Server; Access denied. [9013] [LFF3005-UnableToConnectToLFServer]",
+    url: "https://answers.laserfiche.com/questions/221326/Unable-to-connect-to-the-Laserfiche-Server-Access-denied-9013-LFF3005UnableToConnectToLFServer",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Web Client", "Laserfiche Server/Repository Server", "Version 11"],
+    extractedErrorCodes: ["LFF3005-UnableToConnectToLFServer"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-205359-0x57899b8a",
+    title: "Welink App Pool crashing continuously",
+    url: "https://answers.laserfiche.com/questions/205359/Welink-App-Pool-crashing-continuously",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Web Client", "Version 10", "Version 11", "Version 12", "WebLink"],
+    extractedErrorCodes: ["0x57899b8a", "0x6274ba21", "0xc00000fd"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-219615-0xcfdb13d8",
+    title: "Weblink is crashing after windows patching",
+    url: "https://answers.laserfiche.com/questions/219615/Weblink-is-crashing-after-windows-patching",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Version 10", "Version 11", "WebLink"],
+    extractedErrorCodes: ["0xcfdb13d8", "0xfb111856", "0xc0000374"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-81330-0x800704cd",
+    title: "Checked selections not showing up on confirmation page, or in Emailed .pdf",
+    url: "https://answers.laserfiche.com/questions/81330/Checked-selections-not-showing-up-on-confirmation-page-or-in-Emailed-pdf",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Version 9", "Version 10", "Version 12", "WebLink"],
+    extractedErrorCodes: ["0x800704CD"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-122922-0x54ebd105",
+    title: "OCR Failure occurs on some pages of document",
+    url: "https://answers.laserfiche.com/questions/122922/OCR-Failure-occurs-on-some-pages-of-document",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x54ebd105", "0x5915f8e8", "0xc0000374", "0x000ce8fb"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-184693-0x80040310",
+    title: "\"Exception: 0x80040310 (Operation timed out.)",
+    url: "https://answers.laserfiche.com/questions/184693/Exception-0x80040310--Operation-timed-out",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Version 12", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80040310"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-120661-2106",
+    title: "Rio 9.2.1 Import error 2106",
+    url: "https://answers.laserfiche.com/questions/120661/Rio-921-Import-error-2106",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["2106"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-113968-0xc0042332",
+    title: "client 9.1.1 not letting me login from any other station",
+    url: "https://answers.laserfiche.com/questions/113968/client-911-not-letting-me-login-from-any-other-station",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0xc0042332", "0x80042332"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-168428-lff5021-notvalidlfdslicense",
+    title: "DMZ Forms config throwing licensing error",
+    url: "https://answers.laserfiche.com/questions/168428/DMZ-Forms-config-throwing-licensing-error",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Directory Server", "Version 9", "Version 10"],
+    extractedErrorCodes: ["LFF5021-NotValidLfdsLicense"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-185663-0xc0042332",
+    title: "The user account name or password is incorrect after network password change",
+    url: "https://answers.laserfiche.com/questions/185663/The-user-account-name-or-password-is-incorrect-after-network-password-change",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Directory Server", "Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["0xc0042332", "0x80042332"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-160174-0x80005000",
+    title: "Laserfiche Account Migration Tool",
+    url: "https://answers.laserfiche.com/questions/160174/Laserfiche-Account-Migration-Tool",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Directory Server", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0x80005000"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-200818-1064",
+    title: "Error 1064: An exception occurred in the service when handling the control request.",
+    url: "https://answers.laserfiche.com/questions/200818/Error-1064-An-exception-occurred-in-the-service-when-handling-the-control-request",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Directory Server", "Version 10", "Version 11"],
+    extractedErrorCodes: ["1064"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-83509-0x80042335",
+    title: "Getting a Permission Denied 9013 - RIO - Windows Accounts.",
+    url: "https://answers.laserfiche.com/questions/83509/Getting-a-Permission-Denied-9013--RIO--Windows-Accounts",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Directory Server", "Version 9", "Version 10"],
+    extractedErrorCodes: ["0x80042335"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-233323-0xc0042334",
+    title: "Repository Trustee Not Found [9012]",
+    url: "https://answers.laserfiche.com/questions/233323/Repository-Trustee-Not-Found-9012",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Directory Server", "Laserfiche Server/Repository Server", "Version 10", "Version 12"],
+    extractedErrorCodes: ["0xc0042334"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-231119-522",
+    title: "Forms Portal Lagging, Timing Out, and Not Loading Pages",
+    url: "https://answers.laserfiche.com/questions/231119/Forms-Portal-Lagging-Timing-Out-and-Not-Loading-Pages",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Directory Server", "Version 11", "Version 12"],
+    extractedErrorCodes: ["522"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-118342-1722",
+    title: "Forms 10.2 32 bit ODBC connection",
+    url: "https://answers.laserfiche.com/questions/118342/Forms-102-32-bit-ODBC-connection",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Version 9", "Version 10", "Version 11"],
+    extractedErrorCodes: ["1722"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-66314-01000",
+    title: "LF Forms and Workflow query \"Linked SQL or MySQL Server\" possible at all ?",
+    url: "https://answers.laserfiche.com/questions/66314/LF-Forms-and-Workflow-query-Linked-SQL-or-MySQL-Server-possible-at-all-",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["01000"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-141444-lff337-notablestoredprocedureassigned",
+    title: "LFF2400-DataSourceConnectionError - Connecting Oracle ODBC Connection with Forms 10.3.1",
+    url: "https://answers.laserfiche.com/questions/141444/LFF2400DataSourceConnectionError--Connecting-Oracle-ODBC-Connection-with-Forms-1031",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 11"],
+    extractedErrorCodes: ["LFF337-NoTableStoredProcedureAssigned"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-233207-10502",
+    title: "Forms App Admin Event log error 10502 - UnexpectedErrorErrorAdmin",
+    url: "https://answers.laserfiche.com/questions/233207/Forms-App-Admin-Event-log-error-10502--UnexpectedErrorErrorAdmin",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 9", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["10502"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-107649-lff4101-failedtouploadfile",
+    title: "Receiving this error Error uploading. [LFF4101-FailedToUploadFile] any ideas what it could be?",
+    url: "https://answers.laserfiche.com/questions/107649/Receiving-this-error-Error-uploading-LFF4101FailedToUploadFile-any-ideas-what-it-could-be",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["LFF4101-FailedToUploadFile"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-156166-lff4120-erroroccurredduringdownload",
+    title: "Forms Portal: Insufficient rights to BPInstancesExport.ashx",
+    url: "https://answers.laserfiche.com/questions/156166/Forms-Portal-Insufficient-rights-to-BPInstancesExportashx",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 9", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["LFF4120-ErrorOccurredDuringDownload"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-148489-0x80040310",
+    title: "Operation Timed Out. [784] Error",
+    url: "https://answers.laserfiche.com/questions/148489/Operation-Timed-Out-784-Error",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Version 11", "Version 12", "Laserfiche Installer"],
+    extractedErrorCodes: ["0x80040310"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-53229-0645-wf1",
+    title: "Laserfiche Workflow 9.1 License Error 0645-WF1",
+    url: "https://answers.laserfiche.com/questions/53229/Laserfiche-Workflow-91-License-Error-0645WF1",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Laserfiche Installer"],
+    extractedErrorCodes: ["0645-WF1", "0644-WF1", "0645"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-128966-1923",
+    title: "Error 1923. Service \"Laserfiche Server\"could not be installed. Verify that you have sufficient privileges to instalall system devices",
+    url: "https://answers.laserfiche.com/questions/128966/Error-1923-Service-Laserfiche-Servercould-not-be-installed-Verify-that-you-have-sufficient-privileges-to-instalall-system-devices",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["1923"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-114085-0458-wf0",
+    title: "Connection validation failed. Error: 'Specified argument was out of the range of valid values. Parameter name: value'. [0458-WF0]",
+    url: "https://answers.laserfiche.com/questions/114085/Connection-validation-failed-Error-Specified-argument-was-out-of-the-range-of-valid-values-Parameter-name-value-0458WF0",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10"],
+    extractedErrorCodes: ["0458-WF0"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-69715-2044",
+    title: "VM Server move",
+    url: "https://answers.laserfiche.com/questions/69715/VM-Server-move",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["2044"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-60589-0xc0042530",
+    title: "9520 error",
+    url: "https://answers.laserfiche.com/questions/60589/9520-error",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9"],
+    extractedErrorCodes: ["0xc0042530", "0x80042530"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-175852-0xc0042330",
+    title: "Getting database error when trying to login to Laserfiche",
+    url: "https://answers.laserfiche.com/questions/175852/Getting-database-error-when-trying-to-login-to-Laserfiche",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["0xc0042330", "0x80042330"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-105228-0xc0042483",
+    title: "The Laserfiche Server was unable to log an audit event because it exceeded the maximum record size allowed",
+    url: "https://answers.laserfiche.com/questions/105228/The-Laserfiche-Server-was-unable-to-log-an-audit-event-because-it-exceeded-the-maximum-record-size-allowed",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9"],
+    extractedErrorCodes: ["0xc0042483"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-63336-0x80040556",
+    title: "Internal SSL error [1366] when attempting to attach a repository from the client using SSL.",
+    url: "https://answers.laserfiche.com/questions/63336/Internal-SSL-error-1366-when-attempting-to-attach-a-repository-from-the-client-using-SSL",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9"],
+    extractedErrorCodes: ["0x80040556"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-53212-0xc005041a",
+    title: "Exportar e Importar Portafolios",
+    url: "https://answers.laserfiche.com/questions/53212/Exportar-e-Importar-Portafolios",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10"],
+    extractedErrorCodes: ["0xC005041A"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-118435-0xc005041b",
+    title: "\"There was an error adding the word locations of a page to the briefcase\"",
+    url: "https://answers.laserfiche.com/questions/118435/There-was-an-error-adding-the-word-locations-of-a-page-to-the-briefcase",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 11"],
+    extractedErrorCodes: ["0xC005041B"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-227401-0645-wf1",
+    title: "Error: [0645-WF1] The workflow service is not licensed.",
+    url: "https://answers.laserfiche.com/questions/227401/Error-0645WF1-The-workflow-service-is-not-licensed",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Directory Server", "Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["0645-WF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-79896-0xc005041a",
+    title: "RA Breifcase export",
+    url: "https://answers.laserfiche.com/questions/79896/RA-Breifcase-export",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9"],
+    extractedErrorCodes: ["0xC005041A"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-144581-0x80070050",
+    title: "Briefcase Importation",
+    url: "https://answers.laserfiche.com/questions/144581/Briefcase-Importation",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["0x80070050", "0x80090322", "0xC0050400"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-55579-0x80004003",
+    title: "System.NullReferenceException: Invalid pointer",
+    url: "https://answers.laserfiche.com/questions/55579/SystemNullReferenceException-Invalid-pointer",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10"],
+    extractedErrorCodes: ["0x80004003", "0x00004003"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-63195-0x80040300",
+    title: "Unknown error with no error code while opening a specific document in LF client 9.1.1",
+    url: "https://answers.laserfiche.com/questions/63195/Unknown-error-with-no-error-code-while-opening-a-specific-document-in-LF-client-911",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 11", "Version 12", "Laserfiche Server/Repository Server"],
+    extractedErrorCodes: ["0x80040300"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-178830-lff2106-invaliddatasent",
+    title: "Forms has encountered a problem. Invalid data sent to server",
+    url: "https://answers.laserfiche.com/questions/178830/Forms-has-encountered-a-problem-Invalid-data-sent-to-server",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Mobile"],
+    extractedErrorCodes: ["LFF2106-InvalidDataSent"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-126513-lff5017-licensevalidationnosuccess",
+    title: "Forms Configuration Failed to Load",
+    url: "https://answers.laserfiche.com/questions/126513/Forms-Configuration-Failed-to-Load",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Web Client", "Directory Server", "Version 9", "Version 10", "Mobile"],
+    extractedErrorCodes: ["LFF5017-LicenseValidationNoSuccess"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-229243-lff2006-emailtestfailed",
+    title: "The test email failed because: Authentication unsuccessful [LFF2006-EmailTestFailed]",
+    url: "https://answers.laserfiche.com/questions/229243/The-test-email-failed-because-Authentication-unsuccessful-LFF2006EmailTestFailed",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Version 11", "Version 12", "Mobile"],
+    extractedErrorCodes: ["LFF2006-EmailTestFailed"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-168174-0224-bp1",
+    title: "Quick Fields - process type 'X' is not licensed for use [0224-BP1]",
+    url: "https://answers.laserfiche.com/questions/168174/Quick-Fields--process-type-X-is-not-licensed-for-use-0224BP1",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Directory Server", "Version 9", "Version 10", "Version 12", "Quick Fields"],
+    extractedErrorCodes: ["0224-BP1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-157486-0967-bp0",
+    title: "QF Scan Engine Timeout",
+    url: "https://answers.laserfiche.com/questions/157486/QF-Scan-Engine-Timeout",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Quick Fields", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0967-BP0", "0967"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-123033-128",
+    title: "Barcode Scan Errors - Invalid Characters, Randomly Occurring",
+    url: "https://answers.laserfiche.com/questions/123033/Barcode-Scan-Errors--Invalid-Characters-Randomly-Occurring",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Quick Fields", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["128"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-190226-lff337-notableorstoredprocedureassigned",
+    title: "[LFF337-NoTableorStoredProcedureAssigned] -- again",
+    url: "https://answers.laserfiche.com/questions/190226/LFF337NoTableorStoredProcedureAssigned--again",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 9", "Version 10", "Version 12", "Quick Fields"],
+    extractedErrorCodes: ["LFF337-NoTableorStoredProcedureAssigned"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-212309-10061",
+    title: "Problem Passing a token from form to workflow",
+    url: "https://answers.laserfiche.com/questions/212309/Problem-Passing-a-token-from-form-to-workflow",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Version 10", "Version 11"],
+    extractedErrorCodes: ["10061"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-88653-10061",
+    title: "Could not connect to Laserfiche Server in Workflow",
+    url: "https://answers.laserfiche.com/questions/88653/Could-not-connect-to-Laserfiche-Server-in-Workflow",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 12"],
+    extractedErrorCodes: ["10061"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-101467-0xc0000142",
+    title: "Memory Leaks or Resource Issues with Workflow 9.2.0.167",
+    url: "https://answers.laserfiche.com/questions/101467/Memory-Leaks-or-Resource-Issues-with-Workflow-920167",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Version 9", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0xc0000142"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-61622-0287-wf0",
+    title: "Workflow \"Read XML\" to process an XML file in a windows folder",
+    url: "https://answers.laserfiche.com/questions/61622/Workflow-Read-XML-to-process-an-XML-file-in-a-windows-folder",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9"],
+    extractedErrorCodes: ["0287-WF0"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-85099-0x80070542",
+    title: "ASP.Net Service - Impersonation Issues",
+    url: "https://answers.laserfiche.com/questions/85099/ASPNet-Service--Impersonation-Issues-",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 9"],
+    extractedErrorCodes: ["0x80070542"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-50201-0xc004234d",
+    title: "Error 9037 occurs from time to time. Restart services any everything is fine.",
+    url: "https://answers.laserfiche.com/questions/50201/Error-9037-occurs-from-time-to-time-Restart-services-any-everything-is-fine",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 12"],
+    extractedErrorCodes: ["0xc004234d", "0x8004234d"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-116360-lff2111-requestvalidationexception",
+    title: "Does Laserfiche detect and block potential SQL Injection?",
+    url: "https://answers.laserfiche.com/questions/116360/Does-Laserfiche-detect-and-block-potential-SQL-Injection",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Web Client", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "WebLink"],
+    extractedErrorCodes: ["LFF2111-RequestValidationException"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-82369-10060",
+    title: "weblink 9.0.1 (SP1) Cannot configure email server",
+    url: "https://answers.laserfiche.com/questions/82369/weblink-901-SP1-Cannot-configure-email-server",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "WebLink"],
+    extractedErrorCodes: ["10060"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-185273-0x80004003",
+    title: "invalid Pointer 60000x80004003 - When sharing a previous version via Desktop Client",
+    url: "https://answers.laserfiche.com/questions/185273/invalid-Pointer-60000x80004003--When-sharing-a-previous-version-via-Desktop-Client",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Version 11", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80004003"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-108166-0x52fdcbab",
+    title: "Laserfiche Client Crashes after trying to save document",
+    url: "https://answers.laserfiche.com/questions/108166/Laserfiche-Client-Crashes-after-trying-to-save-document",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Version 11", "Version 12", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x52fdcbab", "0xc0000005", "0x0008f5bc"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-139217-0xc00cee2c",
+    title: "LFE file change in 10.3?",
+    url: "https://answers.laserfiche.com/questions/139217/LFE-file-change-in-103",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0xc00cee2c"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-171980-9569",
+    title: "9569 error",
+    url: "https://answers.laserfiche.com/questions/171980/9569-error",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Version 12", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["9569"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-159902-0x80004002",
+    title: "Unable to cast COM object of type 'System.__ComObject' to interface type 'LFSO102Lib.LFDatabase'.",
+    url: "https://answers.laserfiche.com/questions/159902/Unable-to-cast-COM-object-of-type-SystemComObject-to-interface-type-LFSO102LibLFDatabase",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80004002"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-127763-0xc0042329",
+    title: "Entry Not Found - 9001 Error - Attempting to open or view metadata on entry in search results",
+    url: "https://answers.laserfiche.com/questions/127763/Entry-Not-Found--9001-Error--Attempting-to-open-or-view-metadata-on-entry-in-search-results",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0xc0042329"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-80805-0x800736b1",
+    title: "Operation timed out while trying to connect to laserfiche From C#",
+    url: "https://answers.laserfiche.com/questions/80805/Operation-timed-out-while-trying-to-connect-to-laserfiche-From-C",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x800736B1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-52198-340",
+    title: "Error preparing page for OCR / [340]",
+    url: "https://answers.laserfiche.com/questions/52198/Error-preparing-page-for-OCR---340",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Version 11", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["340"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-227906-0x80040310",
+    title: "Failed to initialize metadata display - Error Code 784",
+    url: "https://answers.laserfiche.com/questions/227906/Failed-to-initialize-metadata-display--Error-Code-784",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Web Client", "Laserfiche Server/Repository Server", "Version 9", "Version 11", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80040310"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-154204-lff3002-invalidlfdsdatabasename",
+    title: "The Laserfiche Directory Service Database name is invalid. [LFF3002-InvalidLFDSDatabaseName]",
+    url: "https://answers.laserfiche.com/questions/154204/The-Laserfiche-Directory-Service-Database-name-is-invalid-LFF3002InvalidLFDSDatabaseName",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Directory Server", "Version 10", "Version 11"],
+    extractedErrorCodes: ["LFF3002-InvalidLFDSDatabaseName"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-225549-0645-wf1",
+    title: "Laserfiche Workflow 12 - Workflow Service is Not Licensed Error",
+    url: "https://answers.laserfiche.com/questions/225549/Laserfiche-Workflow-12--Workflow-Service-is-Not-Licensed-Error",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Directory Server", "Laserfiche Server/Repository Server", "Version 12"],
+    extractedErrorCodes: ["0645-WF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-230222-lff4101-failedtouploadfile",
+    title: "Unable to upload / attach files to Laserfiche Forms Error LFF4101-FailedtoUploadFile, and [LFF502-UnexpectedError] in the Events Log",
+    url: "https://answers.laserfiche.com/questions/230222/Unable-to-upload--attach-files-to-Laserfiche-Forms-Error-LFF4101FailedtoUploadFile-and-LFF502UnexpectedError-in-the-Events-Log",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF4101-FailedtoUploadFile"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-212224-lff5208-wfexecutionerror",
+    title: "Workflow Web Service Remote server returned an error: (400) Bad Request when trying to test Laserfiche Forms connection",
+    url: "https://answers.laserfiche.com/questions/212224/Workflow-Web-Service-Remote-server-returned-an-error-400-Bad-Request-when-trying-to-test-Laserfiche-Forms-connection",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Version 9", "Version 10", "Version 11"],
+    extractedErrorCodes: ["LFF5208-WFExecutionError"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-140795-lff1013-invaliddatevalue",
+    title: "Forms fails to submit with an invalid date error.",
+    url: "https://answers.laserfiche.com/questions/140795/Forms-fails-to-submit-with-an-invalid-date-error",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["LFF1013-InvalidDateValue"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-113595-lff4112-pdfnetworkerror",
+    title: "Uploading Resumes",
+    url: "https://answers.laserfiche.com/questions/113595/Uploading-Resumes",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["LFF4112-PdfNetworkError", "200"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-200565-lff2609-failtogenerateprocessimage",
+    title: "An error occurred while generating the process image.",
+    url: "https://answers.laserfiche.com/questions/200565/An-error-occurred-while-generating-the-process-image",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 11"],
+    extractedErrorCodes: ["LFF2609-FailToGenerateProcessImage"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-183998-lff4112-pdfnetworkerror",
+    title: "Forms server replied: Forbidden on Archive to Repository",
+    url: "https://answers.laserfiche.com/questions/183998/Forms-server-replied-Forbidden-on-Archive-to-Repository",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["LFF4112-PdfNetworkError", "202"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-197437-0454-wf1",
+    title: "Get files from external directory",
+    url: "https://answers.laserfiche.com/questions/197437/Get-files-from-external-directory",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 11", "Import Agent"],
+    extractedErrorCodes: ["0454-WF1", "0454"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-97143-lff5413-noactualparticipantsassignedfortask",
+    title: "Invoke Forms Process",
+    url: "https://answers.laserfiche.com/questions/97143/Invoke-Forms-Process",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Version 11"],
+    extractedErrorCodes: ["LFF5413-NoActualParticipantsAssignedForTask"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-123201-lff9300-valuerequired",
+    title: "Can my form upload a file associated with an User Task?",
+    url: "https://answers.laserfiche.com/questions/123201/Can-my-form-upload-a-file-associated-with-an-User-Task",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 12"],
+    extractedErrorCodes: ["LFF9300-ValueRequired", "LFF9312-ErrorOccuredDuringFormsValidation"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-175641-lff4120-erroroccurredduringdownload",
+    title: "Forms > Custom Report > Error occurred during download",
+    url: "https://answers.laserfiche.com/questions/175641/Forms--Custom-Report--Error-occurred-during-download",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 12"],
+    extractedErrorCodes: ["LFF4120-ErrorOccurredDuringDownload"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-165238-lff2002-emailapprovalserverconnection",
+    title: "Direct Approval config settings",
+    url: "https://answers.laserfiche.com/questions/165238/Direct-Approval-config-settings",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF2002-EmailApprovalServerConnection"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-98045-0x80080005",
+    title: "Server execution failed - LF Client",
+    url: "https://answers.laserfiche.com/questions/98045/Server-execution-failed--LF-Client",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Version 11", "Laserfiche Installer"],
+    extractedErrorCodes: ["0x80080005"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-120295-0x800706be",
+    title: "ScanConnect Crash",
+    url: "https://answers.laserfiche.com/questions/120295/ScanConnect-Crash",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Version 10", "Laserfiche Installer"],
+    extractedErrorCodes: ["0x800706BE"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-105153-0588-wf1",
+    title: "Issue publishing workflows with custom activities using 3rd party libraries",
+    url: "https://answers.laserfiche.com/questions/105153/Issue-publishing-workflows-with-custom-activities-using-3rd-party-libraries",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Version 9", "Version 10", "Version 12", "Laserfiche Installer"],
+    extractedErrorCodes: ["0588-WF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-157087-0x8007007e",
+    title: "Retrieving the COM class factory for component with CLSID {474A00CF-8B0F-4656-A5AC-B450549172B8} failed due to the following error: 8007007e The specified module could not be found. (Exception from HRESULT: 0x8007007E).",
+    url: "https://answers.laserfiche.com/questions/157087/Retrieving-the-COM-class-factory-for-component-with-CLSID-474A00CF8B0F4656A5ACB450549172B8-failed-due-to-the-following-error-8007007e-The-specified-module-could-not-be-found-Exception-from-HRESULT-0x8007007E",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Laserfiche Installer"],
+    extractedErrorCodes: ["0x8007007E"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-78127-0757-wf0",
+    title: "Connecting Forms to Workflow Web Services and Retrieve Forms Content",
+    url: "https://answers.laserfiche.com/questions/78127/Connecting-Forms-to-Workflow-Web-Services-and-Retrieve-Forms-Content",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Web Client", "Laserfiche Server/Repository Server", "Version 9", "Laserfiche Installer"],
+    extractedErrorCodes: ["0757-WF0"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-128570-0x80029c4a",
+    title: "Error code 6000 (library\\DLL) & Error code 0 / MAPI_E_FAILURE when trying to email out of Laserfiche",
+    url: "https://answers.laserfiche.com/questions/128570/Error-code-6000-libraryDLL--Error-code-0--MAPIEFAILURE-when-trying-to-email-out-of-Laserfiche",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 10", "Laserfiche Installer"],
+    extractedErrorCodes: ["0x80029c4a", "0x80070057"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-66767-0103-wf6",
+    title: "Form fields are not populating in Laserfiche template",
+    url: "https://answers.laserfiche.com/questions/66767/Form-fields-are-not-populating-in-Laserfiche-template",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 12", "Laserfiche Installer"],
+    extractedErrorCodes: ["0103-WF6"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-154382-0x80004002",
+    title: "Unable to cast COM object of type 'System.__ComObject' to interface type 'LFSO80Lib.LFDocument'.",
+    url: "https://answers.laserfiche.com/questions/154382/Unable-to-cast-COM-object-of-type-SystemComObject-to-interface-type-LFSO80LibLFDocument",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0x80004002"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-137619-0x80040304",
+    title: "Can't get connection",
+    url: "https://answers.laserfiche.com/questions/137619/Cant-get-connection",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["0x80040304"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-189493-0299-wf1",
+    title: "Using the \"Move Entry\" task does not move the entry into an existing folder.",
+    url: "https://answers.laserfiche.com/questions/189493/Using-the-Move-Entry-task-does-not-move-the-entry-into-an-existing-folder",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0299-WF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-182333-0xc0042330",
+    title: "How to configure Laserfiche (server) to NOT be db_owner - least privileges",
+    url: "https://answers.laserfiche.com/questions/182333/How-to-configure-Laserfiche-server-to-NOT-be-dbowner--least-privileges",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0xc0042330", "0x80042330"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-85125-0x80070003",
+    title: "The system cannot find the path specified. [6000:0x80070003]",
+    url: "https://answers.laserfiche.com/questions/85125/The-system-cannot-find-the-path-specified-60000x80070003",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9"],
+    extractedErrorCodes: ["0x80070003"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-63587-0636-wf1",
+    title: "Unable to Register Repository in Workflow Repository Manager",
+    url: "https://answers.laserfiche.com/questions/63587/Unable-to-Register-Repository-in-Workflow-Repository-Manager",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0636-WF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-148403-0x8007052e",
+    title: "Client login using Active Directory with wrong credentials generate Unknown error. [6000] - possible bug",
+    url: "https://answers.laserfiche.com/questions/148403/Client-login-using-Active-Directory-with-wrong-credentials-generate-Unknown-error-6000--possible-bug",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["0x8007052E"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-215577-0xc0042339",
+    title: "Bad field value when entering a number into a number field",
+    url: "https://answers.laserfiche.com/questions/215577/Bad-field-value-when-entering-a-number-into-a-number-field",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 11"],
+    extractedErrorCodes: ["0xc0042339"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-109167-0213-bp1",
+    title: "QF 10 / failed to delete document",
+    url: "https://answers.laserfiche.com/questions/109167/QF-10--failed-to-delete-document",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 10", "Quick Fields"],
+    extractedErrorCodes: ["0213-BP1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-68962-0287-wf0",
+    title: "Append two or more electronic files in the same mail using workflow?",
+    url: "https://answers.laserfiche.com/questions/68962/Append-two-or-more-electronic-files-in-the-same-mail-using-workflow",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 12"],
+    extractedErrorCodes: ["0287-WF0"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-149002-10061",
+    title: "No connection could be made because the target machine actively refused it",
+    url: "https://answers.laserfiche.com/questions/149002/No-connection-could-be-made-because-the-target-machine-actively-refused-it",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 10", "Version 12"],
+    extractedErrorCodes: ["10061"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-211572-0x5cf95718",
+    title: "The Workflow service won't start",
+    url: "https://answers.laserfiche.com/questions/211572/The-Workflow-service-wont-start",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 12"],
+    extractedErrorCodes: ["0x5cf95718", "0x64253b4c"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-175517-http-502",
+    title: "Web Access: Generate Email JSON Error",
+    url: "https://answers.laserfiche.com/questions/175517/Web-Access-Generate-Email-JSON-Error",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["HTTP 502"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-94789-12039",
+    title: "WebAccess unknown error 12039 Timeout condition was detected.",
+    url: "https://answers.laserfiche.com/questions/94789/WebAccess-unknown-error-12039-Timeout-condition-was-detected",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["12039"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-164969-lff380-validatenostep",
+    title: "Approval buttons on form not showing",
+    url: "https://answers.laserfiche.com/questions/164969/Approval-buttons-on-form-not-showing",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Web Client", "Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["LFF380-ValidateNoStep"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-125774-0x80004003",
+    title: "occasionally encounter error when copying document from desktop to Laserfiche Client",
+    url: "https://answers.laserfiche.com/questions/125774/occasionally-encounter-error-when-copying-document-from-desktop-to-Laserfiche-Client",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80004003", "0x80090322"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-99479-0x80029c4a",
+    title: "Trying to email for LF Client results in Error Code : 6000",
+    url: "https://answers.laserfiche.com/questions/99479/Trying-to-email-for-LF-Client-results-in-Error-Code--6000",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80029c4a"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-128430-0x80029c4a",
+    title: "Error Code: 0 MAPI_E_FAILURE",
+    url: "https://answers.laserfiche.com/questions/128430/Error-Code-0-MAPIEFAILURE",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 10", "Version 11", "Version 12", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80029c4a"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-130765-0x80040197",
+    title: "Error 407 OCR license check failed",
+    url: "https://answers.laserfiche.com/questions/130765/Error-407-OCR-license-check-failed",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80040197", "407"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-79648-0xc0042330",
+    title: "Migration to new volume - Database error",
+    url: "https://answers.laserfiche.com/questions/79648/Migration-to-new-volume--Database-error",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Version 12", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0xc0042330"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-141775-0x00000001",
+    title: "Error Code: 6410 Error Message: Error opening file. (Incorrect function.)",
+    url: "https://answers.laserfiche.com/questions/141775/Error-Code-6410-Error-Message-Error-opening-file--Incorrect-function",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x00000001"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-98411-0x80040310",
+    title: "Operation timed out error message on bulk import",
+    url: "https://answers.laserfiche.com/questions/98411/Operation-timed-out-error-message-on-bulk-import",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Windows Client/Desktop Client", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0x80040310"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-154717-0x80040310",
+    title: "empower 2019 BeachCity repository not opening",
+    url: "https://answers.laserfiche.com/questions/154717/empower-2019-BeachCity-repository-not-opening",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80040310"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-226557-0xc0042354",
+    title: "Laserfiche Volumes",
+    url: "https://answers.laserfiche.com/questions/226557/Laserfiche-Volumes",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 11", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0xc0042354"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-214328-lff2103-processdeleted",
+    title: "Forms/Config \"The process associated with the page you are trying to view has been deleted [LFF2103-ProcessDeleted]\"",
+    url: "https://answers.laserfiche.com/questions/214328/FormsConfig-The-process-associated-with-the-page-you-are-trying-to-view-has-been-deleted-LFF2103ProcessDeleted",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["LFF2103-ProcessDeleted"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-182413-lff4112-pdfnetworkerror",
+    title: "Forms v 10.4.4.444 Error Message",
+    url: "https://answers.laserfiche.com/questions/182413/Forms-v-1044444-Error-Message",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 10", "Version 12", "Laserfiche Installer"],
+    extractedErrorCodes: ["LFF4112-PdfNetworkError"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-170902-lff2007-emailsubmissionfailure1",
+    title: "Forms Email Task",
+    url: "https://answers.laserfiche.com/questions/170902/Forms-Email-Task",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10", "Version 11", "Laserfiche Installer"],
+    extractedErrorCodes: ["LFF2007-EmailSubmissionFailure1", "LFF5017-LicenseValidationNoSuccess"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-141909-lff0337",
+    title: "LFF0337 error",
+    url: "https://answers.laserfiche.com/questions/141909/LFF0337-error",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 9", "Version 10", "Laserfiche Installer"],
+    extractedErrorCodes: ["LFF0337", "LFF1006-InvalidArgumentCount"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-185977-0742-wf1",
+    title: "Workflow Enhanced Security",
+    url: "https://answers.laserfiche.com/questions/185977/Workflow-Enhanced-Security",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Laserfiche Server/Repository Server", "Version 10", "Version 12", "Laserfiche Installer"],
+    extractedErrorCodes: ["0742-WF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-89750-0x80131620",
+    title: "Laserfiche import freeze",
+    url: "https://answers.laserfiche.com/questions/89750/Laserfiche-import-freeze",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Laserfiche Installer"],
+    extractedErrorCodes: ["0x80131620"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-208509-0587-wf1",
+    title: "Hold/Delay/Suspend a workflow until a document is generated",
+    url: "https://answers.laserfiche.com/questions/208509/HoldDelaySuspend-a-workflow-until-a-document-is-generated",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["0587-WF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-54638-22018",
+    title: "Quick Fields Session Field Lookup",
+    url: "https://answers.laserfiche.com/questions/54638/Quick-Fields-Session-Field-Lookup",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Quick Fields", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["22018"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-71009-128",
+    title: "How to force Quick Fields to assign a template when barcode scanning has failed",
+    url: "https://answers.laserfiche.com/questions/71009/How-to-force-Quick-Fields-to-assign-a-template-when-barcode-scanning-has-failed",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Version 9", "Quick Fields"],
+    extractedErrorCodes: ["128"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-103484-0xc0042363",
+    title: "terminate workflow delete document",
+    url: "https://answers.laserfiche.com/questions/103484/terminate-workflow-delete-document",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Version 10"],
+    extractedErrorCodes: ["0xc0042363"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-144196-0339-wf1",
+    title: "Error: The user account name or password is incorrect.",
+    url: "https://answers.laserfiche.com/questions/144196/Error-The-user-account-name-or-password-is-incorrect",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["0339-WF1"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-147300-0x800a03ec",
+    title: "Error viewing Excel from a URL link in Forms custom HTML to Web Access",
+    url: "https://answers.laserfiche.com/questions/147300/Error-viewing-Excel-from-a-URL-link-in-Forms-custom-HTML-to-Web-Access",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Web Client", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0x800A03EC"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-127037-0x80042335",
+    title: "Laserfiche client didn't ask my password and return error 9013",
+    url: "https://answers.laserfiche.com/questions/127037/Laserfiche-client-didnt-ask-my-password-and-return-error-9013",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80042335"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-174910-0x5e30b158",
+    title: "OCR crash",
+    url: "https://answers.laserfiche.com/questions/174910/OCR-crash",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 10", "Version 11", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x5e30b158", "0xf0fb96d7", "0xc06d007e", "0x00122552", "0x5cdf1ea5", "0x51671cfe", "0x001143d2"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-67882-0x80040310",
+    title: "Can we set the timeout limit for the client connection to server ?",
+    url: "https://answers.laserfiche.com/questions/67882/Can-we-set-the-timeout-limit-for-the-client-connection-to-server-",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Windows Client/Desktop Client", "Version 10", "Version 11", "Version 12"],
+    extractedErrorCodes: ["0x80040310"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-143095-0x80004003",
+    title: "Invalid Pointer [6000:0x80004003] (Invalid Pointer )",
+    url: "https://answers.laserfiche.com/questions/143095/Invalid-Pointer-60000x80004003-Invalid-Pointer-",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80004003"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-82628-0xc0042335",
+    title: "Unable to register Laserfiche server in Administration console",
+    url: "https://answers.laserfiche.com/questions/82628/Unable-to-register-Laserfiche-server-in-Administration-console-",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0xc0042335"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-82889-0x80070483",
+    title: "'Generate Pages' command for jpeg files gets error \"No application is associated with the specified file for this operation. [6000:0x80070483] [6000]\"",
+    url: "https://answers.laserfiche.com/questions/82889/Generate-Pages-command-for-jpeg-files-gets-error-No-application-is-associated-with-the-specified-file-for-this-operation-60000x80070483-6000",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 11", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80070483"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-114704-0x8009030e",
+    title: "No credentials are available in the security package",
+    url: "https://answers.laserfiche.com/questions/114704/No-credentials-are-available-in-the-security-package",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Version 12", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x8009030e"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-83628-0x80020006",
+    title: "SDK 9.2 Unknown name. (Exception from HRESULT: 0x80020006 (DISP_E_UNKNOWNNAME))",
+    url: "https://answers.laserfiche.com/questions/83628/SDK-92-Unknown-name-Exception-from-HRESULT-0x80020006-DISPEUNKNOWNNAME",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80020006"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-150152-0x54880652",
+    title: "LF Client crashing on win10 when saving/closing doc with ‘open’ text box annotation",
+    url: "https://answers.laserfiche.com/questions/150152/LF-Client-crashing-on-win10-when-savingclosing-doc-with-%E2%80%98open%E2%80%99-text-box-annotation",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Version 11", "Version 12", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x54880652", "0x5098858e", "0xc0000409", "0x000a326c"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-111668-0x57e478b1",
+    title: "PhotoDocs 10.1.1.320 crashes after getting error PD20-161",
+    url: "https://answers.laserfiche.com/questions/111668/PhotoDocs-1011320-crashes-after-getting-error-PD20161",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x57e478b1", "0x57f7bb79", "0xc00000fd", "0x0002df76"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-122540-0x80004002",
+    title: "Application error due to \"No such interface supported\"",
+    url: "https://answers.laserfiche.com/questions/122540/Application-error-due-to-No-such-interface-supported",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80004002"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-107433-0x80131700",
+    title: "Unknown Error 0x80131700",
+    url: "https://answers.laserfiche.com/questions/107433/Unknown-Error-0x80131700",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Version 9", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80131700"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-55615-499",
+    title: "Error Message: Unknown error. [499Invalid class string] (Invalid class string)",
+    url: "https://answers.laserfiche.com/questions/55615/Error-Message-Unknown-error-499Invalid-class-string-Invalid-class-string",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["499"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-111405-0x54efddd9",
+    title: "Laserfiche Client Crashes when opening documents",
+    url: "https://answers.laserfiche.com/questions/111405/Laserfiche-Client-Crashes-when-opening-documents",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x54efddd9", "0x56cc16f5", "0xc0000005", "0x00049f83"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-112558-0x56cf9fcf",
+    title: "MSVCR110.dll error when searching - Avante 9.2.1.673",
+    url: "https://answers.laserfiche.com/questions/112558/MSVCR110dll-error-when-searching--Avante-921673",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Version 11", "Version 12", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x56cf9fcf", "0x5098858e", "0xc0000005", "0x00012194"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-95148-0x80070057",
+    title: "ERROR: A \"The parameter is incorrect. \"",
+    url: "https://answers.laserfiche.com/questions/95148/ERROR-A-The-parameter-is-incorrect-",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80070057"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-86494-0x80131600",
+    title: "Error generating pages Unknown error [6000:0x80131600] [6000]",
+    url: "https://answers.laserfiche.com/questions/86494/Error-generating-pages-Unknown-error-60000x80131600-6000",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
+    extractedErrorCodes: ["0x80131600"],
+    reviewStatus: "curated-unresolved"
+  }
 ];

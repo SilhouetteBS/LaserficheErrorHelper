@@ -11079,6 +11079,5382 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "forms-lff9303-valueexceedscharacterlimit-character-limit-on-multiline-field-is-not-working",
+    code: "LFF9303-ValueExceedsCharacterLimit / LFF9312-ErrorOccuredDuringFormsValidation",
+    message: "Character limit on Multiline field is not working",
+    product: "Forms",
+    versions: ["Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF9303-ValueExceedsCharacterLimit / LFF9312-ErrorOccuredDuringFormsValidation in the reviewed Answers source \"Character limit on Multiline field is not working\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF9303-ValueExceedsCharacterLimit / LFF9312-ErrorOccuredDuringFormsValidation.", "Character limit on Multiline field is not working"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF9303-ValueExceedsCharacterLimit / LFF9312-ErrorOccuredDuringFormsValidation; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Character limit on Multiline field is not working",
+        url: "https://answers.laserfiche.com/questions/124617/Character-limit-on-Multiline-field-is-not-working",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF9303-ValueExceedsCharacterLimit / LFF9312-ErrorOccuredDuringFormsValidation."
+      }
+    ]
+  },
+  {
+    id: "forms-501-forms-error-501",
+    code: "501",
+    message: "Forms error 501",
+    product: "Forms",
+    versions: ["Version 9", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report 501 in the reviewed Answers source \"Forms error 501\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 501.", "Forms error 501"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for 501; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms error 501",
+        url: "https://answers.laserfiche.com/questions/128117/Forms-error-501",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 501."
+      }
+    ]
+  },
+  {
+    id: "web-client-0xc0042335-cant-check-access-rights-for-users-from-our-main-identity-provider",
+    code: "0xc0042335",
+    message: "Cant Check Access Rights for Users from Our Main Identity Provider",
+    product: "Web Client",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Web Client can report 0xc0042335 in the reviewed Answers source \"Cant Check Access Rights for Users from Our Main Identity Provider\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042335.", "Cant Check Access Rights for Users from Our Main Identity Provider"],
+    likelyFixes: ["Check IIS logs, browser console/network details, and Web Client application logs for the request that emitted the code.", "Verify authentication, application pool, Web Client configuration, and repository connectivity for the affected user path.", "Use the linked Answers source as the starting point for 0xc0042335; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Cant Check Access Rights for Users from Our Main Identity Provider",
+        url: "https://answers.laserfiche.com/questions/206599/Cant-Check-Access-Rights-for-Users-from-Our-Main-Identity-Provider",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042335."
+      }
+    ]
+  },
+  {
+    id: "directory-server-lff3602-unsupportedsqlversion-connecting-forms-11-to-azure-sql",
+    code: "LFF3602-UnsupportedSQLVersion",
+    message: "Connecting Forms 11 to Azure SQL",
+    product: "Directory Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report LFF3602-UnsupportedSQLVersion in the reviewed Answers source \"Connecting Forms 11 to Azure SQL\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF3602-UnsupportedSQLVersion.", "Connecting Forms 11 to Azure SQL"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for LFF3602-UnsupportedSQLVersion; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Connecting Forms 11 to Azure SQL",
+        url: "https://answers.laserfiche.com/questions/185978/Connecting-Forms-11-to-Azure-SQL",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF3602-UnsupportedSQLVersion."
+      }
+    ]
+  },
+  {
+    id: "directory-server-0458-wf0-workflow-error-0458-wf0",
+    code: "0458-WF0 / 0458",
+    message: "Workflow Error 0458-WF0",
+    product: "Directory Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report 0458-WF0 / 0458 in the reviewed Answers source \"Workflow Error 0458-WF0\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0458-WF0 / 0458.", "Workflow Error 0458-WF0"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for 0458-WF0 / 0458; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Workflow Error 0458-WF0",
+        url: "https://answers.laserfiche.com/questions/95599/Workflow-Error-0458WF0",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0458-WF0 / 0458."
+      }
+    ]
+  },
+  {
+    id: "directory-server-lff3007-invalidlfdscredential-forms-system-administrator-user",
+    code: "LFF3007-InvalidLFDSCredential",
+    message: "Forms System Administrator user",
+    product: "Directory Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report LFF3007-InvalidLFDSCredential in the reviewed Answers source \"Forms System Administrator user\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF3007-InvalidLFDSCredential.", "Forms System Administrator user"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for LFF3007-InvalidLFDSCredential; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms System Administrator user",
+        url: "https://answers.laserfiche.com/questions/186747/Forms-System-Administrator-user",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF3007-InvalidLFDSCredential."
+      }
+    ]
+  },
+  {
+    id: "directory-server-0xc0042332-error-code-9010-error-message-the-user-account-name-or-password-is",
+    code: "0xc0042332 / 0x80042332",
+    message: "Error Code: 9010 Error Message: The user account name or password is incorrect. [9010]",
+    product: "Directory Server",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report 0xc0042332 / 0x80042332 in the reviewed Answers source \"Error Code: 9010 Error Message: The user account name or password is incorrect. [9010]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042332 / 0x80042332.", "Error Code: 9010 Error Message: The user account name or password is incorrect. [9010]"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for 0xc0042332 / 0x80042332; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error Code: 9010 Error Message: The user account name or password is incorrect. [9010]",
+        url: "https://answers.laserfiche.com/questions/101883/Error-Code-9010-Error-Message-The-user-account-name-or-password-is-incorrect-9010",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042332 / 0x80042332."
+      }
+    ]
+  },
+  {
+    id: "directory-server-2032-client-getting-error-2032-in-license-manager-8-3-1",
+    code: "2032",
+    message: "Client getting error 2032 in License Manager 8.3.1",
+    product: "Directory Server",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report 2032 in the reviewed Answers source \"Client getting error 2032 in License Manager 8.3.1\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 2032.", "Client getting error 2032 in License Manager 8.3.1"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for 2032; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Client getting error 2032 in License Manager 8.3.1",
+        url: "https://answers.laserfiche.com/questions/116634/Client-getting-error-2032-in-License-Manager-831",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 2032."
+      }
+    ]
+  },
+  {
+    id: "directory-server-0x8007052e-the-username-or-password-is-incorrect",
+    code: "0x8007052E / 0x80041770",
+    message: "The username or password is incorrect '",
+    product: "Directory Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report 0x8007052E / 0x80041770 in the reviewed Answers source \"The username or password is incorrect '\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x8007052E / 0x80041770.", "The username or password is incorrect '"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for 0x8007052E / 0x80041770; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "The username or password is incorrect '",
+        url: "https://answers.laserfiche.com/questions/199802/The-username-or-password-is-incorrect-",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x8007052E / 0x80041770."
+      }
+    ]
+  },
+  {
+    id: "audit-trail-01000-audit-trail-configuration-tls-1-2",
+    code: "01000",
+    message: "Audit Trail Configuration & TLS 1.2",
+    product: "Audit Trail",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Audit Trail can report 01000 in the reviewed Answers source \"Audit Trail Configuration & TLS 1.2\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 01000.", "Audit Trail Configuration & TLS 1.2"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 01000; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Audit Trail Configuration & TLS 1.2",
+        url: "https://answers.laserfiche.com/questions/145450/Audit-Trail-Configuration--TLS-12",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 01000."
+      }
+    ]
+  },
+  {
+    id: "audit-trail-lff9910-forms-reporting-audit-trail-version-too-low-lff9910",
+    code: "LFF9910 / LFF9910-AuditTrailVersionTooLow",
+    message: "Forms reporting Audit Trail version too low LFF9910",
+    product: "Audit Trail",
+    versions: ["Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Audit Trail can report LFF9910 / LFF9910-AuditTrailVersionTooLow in the reviewed Answers source \"Forms reporting Audit Trail version too low LFF9910\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF9910 / LFF9910-AuditTrailVersionTooLow.", "Forms reporting Audit Trail version too low LFF9910"],
+    likelyFixes: ["Use the linked Answers source as the starting point for LFF9910 / LFF9910-AuditTrailVersionTooLow; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms reporting Audit Trail version too low LFF9910",
+        url: "https://answers.laserfiche.com/questions/212484/Forms-reporting-Audit-Trail-version-too-low-LFF9910",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF9910 / LFF9910-AuditTrailVersionTooLow."
+      }
+    ]
+  },
+  {
+    id: "audit-trail-2627-sql-errors-in-audit-trail",
+    code: "2627 / 515",
+    message: "SQL Errors in Audit Trail",
+    product: "Audit Trail",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Audit Trail can report 2627 / 515 in the reviewed Answers source \"SQL Errors in Audit Trail\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 2627 / 515.", "SQL Errors in Audit Trail"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 2627 / 515; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "SQL Errors in Audit Trail",
+        url: "https://answers.laserfiche.com/questions/113350/SQL-Errors-in-Audit-Trail",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 2627 / 515."
+      }
+    ]
+  },
+  {
+    id: "audit-trail-22008-audit-trails-reporting-shows-error-22008-datetime-field-overflow",
+    code: "22008",
+    message: "Audit Trails Reporting shows ERROR [22008] ... Datetime field overflow",
+    product: "Audit Trail",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Audit Trail can report 22008 in the reviewed Answers source \"Audit Trails Reporting shows ERROR [22008] ... Datetime field overflow\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 22008.", "Audit Trails Reporting shows ERROR [22008] ... Datetime field overflow"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 22008; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Audit Trails Reporting shows ERROR [22008] ... Datetime field overflow",
+        url: "https://answers.laserfiche.com/questions/89533/Audit-Trails-Reporting-shows-ERROR-22008--Datetime-field-overflow",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 22008."
+      }
+    ]
+  },
+  {
+    id: "audit-trail-23000-audit-trail-not-loading-audit-data-for-reporting",
+    code: "23000 / 01000",
+    message: "Audit Trail Not Loading Audit Data for Reporting",
+    product: "Audit Trail",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Audit Trail can report 23000 / 01000 in the reviewed Answers source \"Audit Trail Not Loading Audit Data for Reporting\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 23000 / 01000.", "Audit Trail Not Loading Audit Data for Reporting"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 23000 / 01000; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Audit Trail Not Loading Audit Data for Reporting",
+        url: "https://answers.laserfiche.com/questions/154199/Audit-Trail-Not-Loading-Audit-Data-for-Reporting",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 23000 / 01000."
+      }
+    ]
+  },
+  {
+    id: "connector-0x80040300-upgrading-windows-client-error",
+    code: "0x80040300",
+    message: "Upgrading Windows Client Error",
+    product: "Connector",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Connector can report 0x80040300 in the reviewed Answers source \"Upgrading Windows Client Error\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80040300.", "Upgrading Windows Client Error"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80040300; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Upgrading Windows Client Error",
+        url: "https://answers.laserfiche.com/questions/114968/Upgrading-Windows-Client-Error",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80040300."
+      }
+    ]
+  },
+  {
+    id: "directory-server-lff2106-invaliddatasent-can-the-timeout-period-for-submitting-a-specific-form",
+    code: "LFF2106-InvalidDataSent",
+    message: "Can the timeout period for submitting a specific form be removed?",
+    product: "Directory Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report LFF2106-InvalidDataSent in the reviewed Answers source \"Can the timeout period for submitting a specific form be removed?\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF2106-InvalidDataSent.", "Can the timeout period for submitting a specific form be removed?"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for LFF2106-InvalidDataSent; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Can the timeout period for submitting a specific form be removed?",
+        url: "https://answers.laserfiche.com/questions/171068/Can-the-timeout-period-for-submitting-a-specific-form-be-removed",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF2106-InvalidDataSent."
+      }
+    ]
+  },
+  {
+    id: "directory-server-lff5010-notfullnameduser-setting-up-forms-user-authentication-not-a-read-write",
+    code: "LFF5010-NotFullNamedUser",
+    message: "Setting up Forms user authentication - \"not a read/write named user.\"",
+    product: "Directory Server",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report LFF5010-NotFullNamedUser in the reviewed Answers source \"Setting up Forms user authentication - \"not a read/write named user.\"\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF5010-NotFullNamedUser.", "Setting up Forms user authentication - \"not a read/write named user.\""],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for LFF5010-NotFullNamedUser; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Setting up Forms user authentication - \"not a read/write named user.\"",
+        url: "https://answers.laserfiche.com/questions/102933/Setting-up-Forms-user-authentication--not-a-readwrite-named-user",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF5010-NotFullNamedUser."
+      }
+    ]
+  },
+  {
+    id: "directory-server-lff2016-invaliddatasent-manage-session-timeout-in-forms",
+    code: "LFF2016-InvalidDataSent",
+    message: "Manage session timeout in Forms",
+    product: "Directory Server",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report LFF2016-InvalidDataSent in the reviewed Answers source \"Manage session timeout in Forms\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF2016-InvalidDataSent.", "Manage session timeout in Forms"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for LFF2016-InvalidDataSent; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Manage session timeout in Forms",
+        url: "https://answers.laserfiche.com/questions/112608/Manage-session-timeout-in-Forms",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF2016-InvalidDataSent."
+      }
+    ]
+  },
+  {
+    id: "directory-server-lff3007-invalidlfdscredential-error-when-configuring-forms-to-use-sts",
+    code: "LFF3007-InvalidLFDSCredential",
+    message: "Error when configuring Forms to use STS",
+    product: "Directory Server",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report LFF3007-InvalidLFDSCredential in the reviewed Answers source \"Error when configuring Forms to use STS\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF3007-InvalidLFDSCredential.", "Error when configuring Forms to use STS"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for LFF3007-InvalidLFDSCredential; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error when configuring Forms to use STS",
+        url: "https://answers.laserfiche.com/questions/202067/Error-when-configuring-Forms-to-use-STS",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF3007-InvalidLFDSCredential."
+      }
+    ]
+  },
+  {
+    id: "directory-server-0x8004031d-unable-to-successfully-verify-the-product-license-regstration-with",
+    code: "0x8004031d",
+    message: "Unable to successfully verify the product license regstration with the Laserfiche license or directory server. Error: The license is now stale.",
+    product: "Directory Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report 0x8004031d in the reviewed Answers source \"Unable to successfully verify the product license regstration with the Laserfiche license or directory server. Error: The license is now stale.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x8004031d.", "Unable to successfully verify the product license regstration with the Laserfiche license or directory server. Error: The license is now stale."],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for 0x8004031d; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Unable to successfully verify the product license regstration with the Laserfiche license or directory server. Error: The license is now stale.",
+        url: "https://answers.laserfiche.com/questions/124388/Unable-to-successfully-verify-the-product-license-regstration-with-the-Laserfiche-license-or-directory-server-Error-The-license-is-now-stale",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x8004031d."
+      }
+    ]
+  },
+  {
+    id: "discussions-0x80131937-lf-discussions-support-for-tls-1-2",
+    code: "0x80131937",
+    message: "LF Discussions Support for TLS 1.2",
+    product: "Discussions",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Discussions can report 0x80131937 in the reviewed Answers source \"LF Discussions Support for TLS 1.2\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80131937.", "LF Discussions Support for TLS 1.2"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80131937; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LF Discussions Support for TLS 1.2",
+        url: "https://answers.laserfiche.com/questions/186348/LF-Discussions-Support-for-TLS-12",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80131937."
+      }
+    ]
+  },
+  {
+    id: "discussions-lff347-invalidanswersurl-certificate-error-for-dev-environment-connecting-forms-soc",
+    code: "LFF347-InvalidAnswersUrl",
+    message: "Certificate error for Dev environment connecting Forms & SocialBPM",
+    product: "Discussions",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Discussions can report LFF347-InvalidAnswersUrl in the reviewed Answers source \"Certificate error for Dev environment connecting Forms & SocialBPM\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF347-InvalidAnswersUrl.", "Certificate error for Dev environment connecting Forms & SocialBPM"],
+    likelyFixes: ["Use the linked Answers source as the starting point for LFF347-InvalidAnswersUrl; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Certificate error for Dev environment connecting Forms & SocialBPM",
+        url: "https://answers.laserfiche.com/questions/93382/Certificate-error-for-Dev-environment-connecting-Forms--SocialBPM",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF347-InvalidAnswersUrl."
+      }
+    ]
+  },
+  {
+    id: "discussions-lff347-invalidanswersurl-lff347-invalidanswersurl-when-try-to-connect-forms-with-di",
+    code: "LFF347-InvalidAnswersUrl",
+    message: "LFF347-InvalidAnswersUrl when try to connect Forms with Discussions (VARKIT)",
+    product: "Discussions",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Discussions can report LFF347-InvalidAnswersUrl in the reviewed Answers source \"LFF347-InvalidAnswersUrl when try to connect Forms with Discussions (VARKIT)\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF347-InvalidAnswersUrl.", "LFF347-InvalidAnswersUrl when try to connect Forms with Discussions (VARKIT)"],
+    likelyFixes: ["Use the linked Answers source as the starting point for LFF347-InvalidAnswersUrl; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LFF347-InvalidAnswersUrl when try to connect Forms with Discussions (VARKIT)",
+        url: "https://answers.laserfiche.com/questions/98129/LFF347InvalidAnswersUrl-when-try-to-connect-Forms-with-Discussions-VARKIT",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF347-InvalidAnswersUrl."
+      }
+    ]
+  },
+  {
+    id: "discussions-lff2106-invaliddatasent-forms-public-form-timeout",
+    code: "LFF2106-InvalidDataSent",
+    message: "Forms public form timeout",
+    product: "Discussions",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Discussions can report LFF2106-InvalidDataSent in the reviewed Answers source \"Forms public form timeout\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF2106-InvalidDataSent.", "Forms public form timeout"],
+    likelyFixes: ["Use the linked Answers source as the starting point for LFF2106-InvalidDataSent; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms public form timeout",
+        url: "https://answers.laserfiche.com/questions/147268/Forms-public-form-timeout",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF2106-InvalidDataSent."
+      }
+    ]
+  },
+  {
+    id: "distributed-computing-cluster-0751-wf0-dcc-job-is-impeded",
+    code: "0751-WF0",
+    message: "dcc job is impeded",
+    product: "Distributed Computing Cluster",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Distributed Computing Cluster can report 0751-WF0 in the reviewed Answers source \"dcc job is impeded\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0751-WF0.", "dcc job is impeded"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0751-WF0; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "dcc job is impeded",
+        url: "https://answers.laserfiche.com/questions/117870/dcc-job-is-impeded",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0751-WF0."
+      }
+    ]
+  },
+  {
+    id: "distributed-computing-cluster-0x800401a5-ocr-engine-update-with-newer-toolkit",
+    code: "0x800401A5",
+    message: "OCR engine update with newer toolkit?",
+    product: "Distributed Computing Cluster",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Distributed Computing Cluster can report 0x800401A5 in the reviewed Answers source \"OCR engine update with newer toolkit?\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x800401A5.", "OCR engine update with newer toolkit?"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x800401A5; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "OCR engine update with newer toolkit?",
+        url: "https://answers.laserfiche.com/questions/61602/OCR-engine-update-with-newer-toolkit",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x800401A5."
+      }
+    ]
+  },
+  {
+    id: "distributed-computing-cluster-0x800706ba-clientautomationtools-page-generation",
+    code: "0x800706BA",
+    message: "ClientAutomationTools Page Generation",
+    product: "Distributed Computing Cluster",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Distributed Computing Cluster can report 0x800706BA in the reviewed Answers source \"ClientAutomationTools Page Generation\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x800706BA.", "ClientAutomationTools Page Generation"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x800706BA; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "ClientAutomationTools Page Generation",
+        url: "https://answers.laserfiche.com/questions/232192/ClientAutomationTools-Page-Generation",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x800706BA."
+      }
+    ]
+  },
+  {
+    id: "distributed-computing-cluster-0724-wf1-configuring-distributed-computing-cluster-scheduler",
+    code: "0724-WF1",
+    message: "Configuring Distributed Computing Cluster Scheduler",
+    product: "Distributed Computing Cluster",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Distributed Computing Cluster can report 0724-WF1 in the reviewed Answers source \"Configuring Distributed Computing Cluster Scheduler\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0724-WF1.", "Configuring Distributed Computing Cluster Scheduler"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0724-WF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Configuring Distributed Computing Cluster Scheduler",
+        url: "https://answers.laserfiche.com/questions/174811/Configuring-Distributed-Computing-Cluster-Scheduler",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0724-WF1."
+      }
+    ]
+  },
+  {
+    id: "distributed-computing-cluster-0x800706ba-quick-fields-agent-session-errors-rpc-server-is-unavai",
+    code: "0x800706BA",
+    message: "Quick Fields Agent Session Errors - RPC server is unavailable - BPINTERFACES81Lib.IBPEngineEx",
+    product: "Distributed Computing Cluster",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Distributed Computing Cluster can report 0x800706BA in the reviewed Answers source \"Quick Fields Agent Session Errors - RPC server is unavailable - BPINTERFACES81Lib.IBPEngineEx\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x800706BA.", "Quick Fields Agent Session Errors - RPC server is unavailable - BPINTERFACES81Lib.IBPEngineEx"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x800706BA; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Quick Fields Agent Session Errors - RPC server is unavailable - BPINTERFACES81Lib.IBPEngineEx",
+        url: "https://answers.laserfiche.com/questions/163652/Quick-Fields-Agent-Session-Errors--RPC-server-is-unavailable--BPINTERFACES81LibIBPEngineEx",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x800706BA."
+      }
+    ]
+  },
+  {
+    id: "forms-1067-minimum-ntfs-permissions-for-forms-routing-service",
+    code: "1067",
+    message: "minimum NTFS permissions for Forms Routing Service",
+    product: "Forms",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report 1067 in the reviewed Answers source \"minimum NTFS permissions for Forms Routing Service\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 1067.", "minimum NTFS permissions for Forms Routing Service"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for 1067; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "minimum NTFS permissions for Forms Routing Service",
+        url: "https://answers.laserfiche.com/questions/86613/minimum-NTFS-permissions-for-Forms-Routing-Service",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 1067."
+      }
+    ]
+  },
+  {
+    id: "forms-lff3005-unabletoconnecttolfserver-feature-request-task-error-handlers-for-forms",
+    code: "LFF3005-UnableToConnectToLFServer",
+    message: "Feature Request: Task Error Handlers for Forms",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF3005-UnableToConnectToLFServer in the reviewed Answers source \"Feature Request: Task Error Handlers for Forms\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF3005-UnableToConnectToLFServer.", "Feature Request: Task Error Handlers for Forms"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF3005-UnableToConnectToLFServer; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Feature Request: Task Error Handlers for Forms",
+        url: "https://answers.laserfiche.com/questions/181174/Feature-Request-Task-Error-Handlers-for-Forms",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF3005-UnableToConnectToLFServer."
+      }
+    ]
+  },
+  {
+    id: "forms-lff4112-pdfnetworkerror-the-pdf-generator-was-unable-to-contact-the-laserfiche-forms-serv",
+    code: "LFF4112-PdfNetworkError",
+    message: "The PDF generator was unable to contact the Laserfiche Forms server. Please ensure your SSL settings are correct.",
+    product: "Forms",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF4112-PdfNetworkError in the reviewed Answers source \"The PDF generator was unable to contact the Laserfiche Forms server. Please ensure your SSL settings are correct.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF4112-PdfNetworkError.", "The PDF generator was unable to contact the Laserfiche Forms server. Please ensure your SSL settings are correct."],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF4112-PdfNetworkError; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "The PDF generator was unable to contact the Laserfiche Forms server. Please ensure your SSL settings are correct.",
+        url: "https://answers.laserfiche.com/questions/207219/The-PDF-generator-was-unable-to-contact-the-Laserfiche-Forms-server-Please-ensure-your-SSL-settings-are-correct",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF4112-PdfNetworkError."
+      }
+    ]
+  },
+  {
+    id: "forms-10061-the-requested-service-iroutingengineservice-may-not-be-running",
+    code: "10061",
+    message: "The requested service (IRoutingEngineService) may not be running.",
+    product: "Forms",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report 10061 in the reviewed Answers source \"The requested service (IRoutingEngineService) may not be running.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 10061.", "The requested service (IRoutingEngineService) may not be running."],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for 10061; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "The requested service (IRoutingEngineService) may not be running.",
+        url: "https://answers.laserfiche.com/questions/127258/The-requested-service-IRoutingEngineService-may-not-be-running",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 10061."
+      }
+    ]
+  },
+  {
+    id: "forms-lff9408-paymentauthenticationerror-set-up-braintree-for-the-first-time",
+    code: "LFF9408-PaymentAuthenticationError",
+    message: "Set up Braintree for the first time",
+    product: "Forms",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF9408-PaymentAuthenticationError in the reviewed Answers source \"Set up Braintree for the first time\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF9408-PaymentAuthenticationError.", "Set up Braintree for the first time"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF9408-PaymentAuthenticationError; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Set up Braintree for the first time",
+        url: "https://answers.laserfiche.com/questions/132881/Set-up-Braintree-for-the-first-time",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF9408-PaymentAuthenticationError."
+      }
+    ]
+  },
+  {
+    id: "forms-1921-product-laserfiche-forms-error-1921-service-laserfiche-forms-routing-service-laserfi",
+    code: "1921",
+    message: "Product: Laserfiche Forms -- Error 1921. Service 'Laserfiche Forms Routing Service' (Laserfiche Forms Routing Service) could not be stopped. Verify that you have sufficient privileges to stop system services.",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report 1921 in the reviewed Answers source \"Product: Laserfiche Forms -- Error 1921. Service 'Laserfiche Forms Routing Service' (Laserfiche Forms Routing Service) could not be stopped. Verify that you have sufficient privileges to stop system services.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 1921.", "Product: Laserfiche Forms -- Error 1921. Service 'Laserfiche Forms Routing Service' (Laserfiche Forms Routing Service) could not be stopped. Verify that you have sufficient privileges to stop system services."],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for 1921; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Product: Laserfiche Forms -- Error 1921. Service 'Laserfiche Forms Routing Service' (Laserfiche Forms Routing Service) could not be stopped. Verify that you have sufficient privileges to stop system services.",
+        url: "https://answers.laserfiche.com/questions/161231/Product-Laserfiche-Forms--Error-1921-Service-Laserfiche-Forms-Routing-Service-Laserfiche-Forms-Routing-Service-could-not-be-stopped--Verify-that-you-have-sufficient-privileges-to-stop-system-services",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 1921."
+      }
+    ]
+  },
+  {
+    id: "forms-lff708-submissiondataisinvalid-forms-the-submission-data-does-not-match-the-current-varia",
+    code: "LFF708-SubmissionDataIsInvalid",
+    message: "Forms - The submission data does not match the current variables assigned to this process.",
+    product: "Forms",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF708-SubmissionDataIsInvalid in the reviewed Answers source \"Forms - The submission data does not match the current variables assigned to this process.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF708-SubmissionDataIsInvalid.", "Forms - The submission data does not match the current variables assigned to this process."],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF708-SubmissionDataIsInvalid; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms - The submission data does not match the current variables assigned to this process.",
+        url: "https://answers.laserfiche.com/questions/180377/Forms--The-submission-data-does-not-match-the-current-variables-assigned-to-this-process",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF708-SubmissionDataIsInvalid."
+      }
+    ]
+  },
+  {
+    id: "full-text-search-0xc00423ac-laserfiche-error-9132-when-create-index",
+    code: "0xc00423ac",
+    message: "laserfiche error 9132 when create index",
+    product: "Full Text Search",
+    versions: ["Version 9", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Full Text Search can report 0xc00423ac in the reviewed Answers source \"laserfiche error 9132 when create index\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc00423ac.", "laserfiche error 9132 when create index"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc00423ac; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "laserfiche error 9132 when create index",
+        url: "https://answers.laserfiche.com/questions/96900/laserfiche-error-9132-when-create-index",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc00423ac."
+      }
+    ]
+  },
+  {
+    id: "import-agent-0x80041929-unknown-display-engine-error-6608",
+    code: "0x80041929",
+    message: "Unknown display engine error. [6608]",
+    product: "Import Agent",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Import Agent can report 0x80041929 in the reviewed Answers source \"Unknown display engine error. [6608]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80041929.", "Unknown display engine error. [6608]"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80041929; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Unknown display engine error. [6608]",
+        url: "https://answers.laserfiche.com/questions/69237/Unknown-display-engine-error-6608",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80041929."
+      }
+    ]
+  },
+  {
+    id: "import-agent-0x80041929-import-agent-and-lst-files",
+    code: "0x80041929",
+    message: "Import Agent and .lst files",
+    product: "Import Agent",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Import Agent can report 0x80041929 in the reviewed Answers source \"Import Agent and .lst files\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80041929.", "Import Agent and .lst files"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80041929; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Import Agent and .lst files",
+        url: "https://answers.laserfiche.com/questions/56755/Import-Agent-and-lst-files",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80041929."
+      }
+    ]
+  },
+  {
+    id: "import-agent-0x80004003-lf-email-archiver-could-not-get-document-information-invalid-pointer-60",
+    code: "0x80004003 / 0x80040205",
+    message: "LF Email Archiver: Could not get document information, Invalid Pointer [6000:0x80004003]",
+    product: "Import Agent",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Import Agent can report 0x80004003 / 0x80040205 in the reviewed Answers source \"LF Email Archiver: Could not get document information, Invalid Pointer [6000:0x80004003]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80004003 / 0x80040205.", "LF Email Archiver: Could not get document information, Invalid Pointer [6000:0x80004003]"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80004003 / 0x80040205; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LF Email Archiver: Could not get document information, Invalid Pointer [6000:0x80004003]",
+        url: "https://answers.laserfiche.com/questions/150358/LF-Email-Archiver-Could-not-get-document-information-Invalid-Pointer-60000x80004003",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80004003 / 0x80040205."
+      }
+    ]
+  },
+  {
+    id: "import-agent-0103-wf6-workflow-won-t-retrieve-fields-from-xml-file",
+    code: "0103-WF6",
+    message: "workflow won't retrieve fields from xml file",
+    product: "Import Agent",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Import Agent can report 0103-WF6 in the reviewed Answers source \"workflow won't retrieve fields from xml file\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0103-WF6.", "workflow won't retrieve fields from xml file"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0103-WF6; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "workflow won't retrieve fields from xml file",
+        url: "https://answers.laserfiche.com/questions/168993/workflow-wont-retrieve-fields-from-xml-file",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0103-WF6."
+      }
+    ]
+  },
+  {
+    id: "import-agent-0x88982f07-pdf-import-fails-using-xml-in-import-agent",
+    code: "0x88982F07",
+    message: "pdf import fails using XML in Import Agent",
+    product: "Import Agent",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Import Agent can report 0x88982F07 in the reviewed Answers source \"pdf import fails using XML in Import Agent\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x88982F07.", "pdf import fails using XML in Import Agent"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x88982F07; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "pdf import fails using XML in Import Agent",
+        url: "https://answers.laserfiche.com/questions/221999/pdf-import-fails-using-XML-in-Import-Agent",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x88982F07."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0xc0042533-upgraded-from-9-2-to-10-3-about-3-hours-ago-but-still-can-t-log",
+    code: "0xc0042533",
+    message: "Upgraded from 9.2 to 10.3 about 3 hours ago, but still can't log in error 9523",
+    product: "Laserfiche Installer",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0xc0042533 in the reviewed Answers source \"Upgraded from 9.2 to 10.3 about 3 hours ago, but still can't log in error 9523\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042533.", "Upgraded from 9.2 to 10.3 about 3 hours ago, but still can't log in error 9523"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042533; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Upgraded from 9.2 to 10.3 about 3 hours ago, but still can't log in error 9523",
+        url: "https://answers.laserfiche.com/questions/141996/Upgraded-from-92-to-103-about-3-hours-ago-but-still-cant-log-in-error-9523",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042533."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0xc0042330-failed-to-load-annotations-this-image-cannot-be-modified-genera",
+    code: "0xc0042330",
+    message: "Failed to load annotations. This image cannot be modified. General database error. [9008] - after upgrade from 8.3.2 to 9.1.1",
+    product: "Laserfiche Installer",
+    versions: ["Version 9", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0xc0042330 in the reviewed Answers source \"Failed to load annotations. This image cannot be modified. General database error. [9008] - after upgrade from 8.3.2 to 9.1.1\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042330.", "Failed to load annotations. This image cannot be modified. General database error. [9008] - after upgrade from 8.3.2 to 9.1.1"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042330; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Failed to load annotations. This image cannot be modified. General database error. [9008] - after upgrade from 8.3.2 to 9.1.1",
+        url: "https://answers.laserfiche.com/questions/55838/Failed-to-load-annotations-This-image-cannot-be-modified-General-database-error-9008--after-upgrade-from-832-to-911",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042330."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0x5aac406e-mfc140u-dll-is-missing",
+    code: "0x5aac406e / 0x5a4b127e / 0xc0000135 / 0x0009d4e2",
+    message: "mfc140u.dll is missing",
+    product: "Laserfiche Installer",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0x5aac406e / 0x5a4b127e / 0xc0000135 / 0x0009d4e2 in the reviewed Answers source \"mfc140u.dll is missing\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x5aac406e / 0x5a4b127e / 0xc0000135 / 0x0009d4e2.", "mfc140u.dll is missing"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x5aac406e / 0x5a4b127e / 0xc0000135 / 0x0009d4e2; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "mfc140u.dll is missing",
+        url: "https://answers.laserfiche.com/questions/147707/mfc140udll-is-missing",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x5aac406e / 0x5a4b127e / 0xc0000135 / 0x0009d4e2."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0559-wf1-language-pack-on-laserfiche-12",
+    code: "0559-WF1",
+    message: "language pack on Laserfiche 12",
+    product: "Laserfiche Installer",
+    versions: ["Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0559-WF1 in the reviewed Answers source \"language pack on Laserfiche 12\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0559-WF1.", "language pack on Laserfiche 12"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0559-WF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "language pack on Laserfiche 12",
+        url: "https://answers.laserfiche.com/questions/229114/language-pack-on-Laserfiche-12",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0559-WF1."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0x8004100e-unable-to-create-or-register-repositories-on-onl",
+    code: "0x8004100E / 0x80041003",
+    message: "Unable to Create or Register repositories on only one OS instance",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0x8004100E / 0x80041003 in the reviewed Answers source \"Unable to Create or Register repositories on only one OS instance\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x8004100E / 0x80041003.", "Unable to Create or Register repositories on only one OS instance"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x8004100E / 0x80041003; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Unable to Create or Register repositories on only one OS instance",
+        url: "https://answers.laserfiche.com/questions/71186/Unable-to-Create-or-Register-repositories-on-only-one-OS-instance",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x8004100E / 0x80041003."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0xc0042341-error-reading-repository-information-9025",
+    code: "0xc0042341 / 0x80042341",
+    message: "error reading repository information 9025",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0xc0042341 / 0x80042341 in the reviewed Answers source \"error reading repository information 9025\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042341 / 0x80042341.", "error reading repository information 9025"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042341 / 0x80042341; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "error reading repository information 9025",
+        url: "https://answers.laserfiche.com/questions/91154/error-reading-repository-information-9025",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042341 / 0x80042341."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-183-lf-service-fails-to-start-error-183",
+    code: "183",
+    message: "LF service fails to start error 183",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 183 in the reviewed Answers source \"LF service fails to start error 183\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 183.", "LF service fails to start error 183"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 183; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LF service fails to start error 183",
+        url: "https://answers.laserfiche.com/questions/52154/LF-service-fails-to-start-error-183",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 183."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0xc0042530-no-license-has-been-allocated-for-this-user",
+    code: "0xc0042530 / 0x80042530",
+    message: "no license has been allocated for this user",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0xc0042530 / 0x80042530 in the reviewed Answers source \"no license has been allocated for this user\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042530 / 0x80042530.", "no license has been allocated for this user"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042530 / 0x80042530; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "no license has been allocated for this user",
+        url: "https://answers.laserfiche.com/questions/70939/no-license-has-been-allocated-for-this-user",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042530 / 0x80042530."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-1067-laserfiche-server-service-error-1067",
+    code: "1067",
+    message: "Laserfiche Server Service Error 1067",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 1067 in the reviewed Answers source \"Laserfiche Server Service Error 1067\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 1067.", "Laserfiche Server Service Error 1067"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 1067; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche Server Service Error 1067",
+        url: "https://answers.laserfiche.com/questions/86499/Laserfiche-Server-Service-Error-1067",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 1067."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-1069-error-1069-no-se-puede-iniciar-el-servicos-laserfiche",
+    code: "1069",
+    message: "error 1069 no se puede iniciar el servicos Laserfiche server",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 1069 in the reviewed Answers source \"error 1069 no se puede iniciar el servicos Laserfiche server\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 1069.", "error 1069 no se puede iniciar el servicos Laserfiche server"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 1069; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "error 1069 no se puede iniciar el servicos Laserfiche server",
+        url: "https://answers.laserfiche.com/questions/168571/error-1069-no-se-puede-iniciar-el-servicos-Laserfiche-server",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 1069."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-1910-laserfiche-server-connection-failure-workflows-will-no",
+    code: "1910",
+    message: "Laserfiche Server connection failure ( Workflows Will Not run ) Error code [1910]",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 1910 in the reviewed Answers source \"Laserfiche Server connection failure ( Workflows Will Not run ) Error code [1910]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 1910.", "Laserfiche Server connection failure ( Workflows Will Not run ) Error code [1910]"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 1910; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche Server connection failure ( Workflows Will Not run ) Error code [1910]",
+        url: "https://answers.laserfiche.com/questions/193270/Laserfiche-Server-connection-failure--Workflows-Will-Not-run--Error-code-1910",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 1910."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-1068-error-1068-the-dependency-service-or-group-failed-to-s",
+    code: "1068",
+    message: "Error 1068: the dependency service or group failed to start when try to start LF server service.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 1068 in the reviewed Answers source \"Error 1068: the dependency service or group failed to start when try to start LF server service.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 1068.", "Error 1068: the dependency service or group failed to start when try to start LF server service."],
+    likelyFixes: ["Use the linked Answers source as the starting point for 1068; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error 1068: the dependency service or group failed to start when try to start LF server service.",
+        url: "https://answers.laserfiche.com/questions/84150/Error-1068-the-dependency-service-or-group-failed-to-start-when-try-to-start-LF-server-service",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 1068."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0x93601cf3-error-9523-upgrading-from-9-21-to-10-4",
+    code: "0x93601cf3 / 0x9b601cf3",
+    message: "Error 9523 upgrading from 9.21 to 10.4",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0x93601cf3 / 0x9b601cf3 in the reviewed Answers source \"Error 9523 upgrading from 9.21 to 10.4\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x93601cf3 / 0x9b601cf3.", "Error 9523 upgrading from 9.21 to 10.4"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x93601cf3 / 0x9b601cf3; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error 9523 upgrading from 9.21 to 10.4",
+        url: "https://answers.laserfiche.com/questions/164764/Error-9523-upgrading-from-921-to-104",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x93601cf3 / 0x9b601cf3."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0x8004100e-error-creating-a-new-laserfiche-repository-in-ri",
+    code: "0x8004100E",
+    message: "error creating a new laserfiche repository in rio",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0x8004100E in the reviewed Answers source \"error creating a new laserfiche repository in rio\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x8004100E.", "error creating a new laserfiche repository in rio"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x8004100E; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "error creating a new laserfiche repository in rio",
+        url: "https://answers.laserfiche.com/questions/70395/error-creating-a-new-laserfiche-repository-in-rio",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x8004100E."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0xc0042536-tls-1-2-with-weblink",
+    code: "0xc0042536 / 0x80042536",
+    message: "TLS 1.2 with Weblink",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0xc0042536 / 0x80042536 in the reviewed Answers source \"TLS 1.2 with Weblink\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042536 / 0x80042536.", "TLS 1.2 with Weblink"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042536 / 0x80042536; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "TLS 1.2 with Weblink",
+        url: "https://answers.laserfiche.com/questions/135662/TLS-12-with-Weblink",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042536 / 0x80042536."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0xc0042354-invalid-volume-path-9044",
+    code: "0xc0042354",
+    message: "Invalid Volume Path (9044)",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0xc0042354 in the reviewed Answers source \"Invalid Volume Path (9044)\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042354.", "Invalid Volume Path (9044)"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042354; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Invalid Volume Path (9044)",
+        url: "https://answers.laserfiche.com/questions/95403/Invalid-Volume-Path-9044",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042354."
+      }
+    ]
+  },
+  {
+    id: "mobile-111-laserfiche-mobile-opening-a-lf-document-link-through-an-email",
+    code: "111",
+    message: "Laserfiche Mobile - Opening a LF Document Link Through an Email",
+    product: "Mobile",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Mobile can report 111 in the reviewed Answers source \"Laserfiche Mobile - Opening a LF Document Link Through an Email\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 111.", "Laserfiche Mobile - Opening a LF Document Link Through an Email"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 111; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche Mobile - Opening a LF Document Link Through an Email",
+        url: "https://answers.laserfiche.com/questions/55623/Laserfiche-Mobile--Opening-a-LF-Document-Link-Through-an-Email",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 111."
+      }
+    ]
+  },
+  {
+    id: "office-integration-0x800a01a8-exception-from-hresult-0x800a01a8",
+    code: "0x800A01A8",
+    message: "Exception from HRESULT: 0x800A01A8",
+    product: "Office Integration",
+    versions: ["Version 9", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Office Integration can report 0x800A01A8 in the reviewed Answers source \"Exception from HRESULT: 0x800A01A8\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x800A01A8.", "Exception from HRESULT: 0x800A01A8"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x800A01A8; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Exception from HRESULT: 0x800A01A8",
+        url: "https://answers.laserfiche.com/questions/231291/Exception-from-HRESULT--0x800A01A8",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x800A01A8."
+      }
+    ]
+  },
+  {
+    id: "office-integration-0x54efddd9-laserfiche-client-32-bit-has-stopped-working",
+    code: "0x54efddd9 / 0x54e33ed6 / 0xc0000005 / 0x000cce0c / 0x51b50f28 / 0x56cf9fcf / 0x541c1f8e / 0x0000e780",
+    message: "Laserfiche Client (32-bit) has stopped working",
+    product: "Office Integration",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Office Integration can report 0x54efddd9 / 0x54e33ed6 / 0xc0000005 / 0x000cce0c / 0x51b50f28 / 0x56cf9fcf / 0x541c1f8e / 0x0000e780 in the reviewed Answers source \"Laserfiche Client (32-bit) has stopped working\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x54efddd9 / 0x54e33ed6 / 0xc0000005 / 0x000cce0c / 0x51b50f28 / 0x56cf9fcf / 0x541c1f8e / 0x0000e780.", "Laserfiche Client (32-bit) has stopped working"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x54efddd9 / 0x54e33ed6 / 0xc0000005 / 0x000cce0c / 0x51b50f28 / 0x56cf9fcf / 0x541c1f8e / 0x0000e780; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche Client (32-bit) has stopped working",
+        url: "https://answers.laserfiche.com/questions/76270/Laserfiche-Client-32bit-has-stopped-working",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x54efddd9 / 0x54e33ed6 / 0xc0000005 / 0x000cce0c / 0x51b50f28 / 0x56cf9fcf / 0x541c1f8e / 0x0000e780."
+      }
+    ]
+  },
+  {
+    id: "office-integration-0224-wf1-workflow-web-9-1-1-upgrade-error-when-searching-for-workflows",
+    code: "0224-WF1",
+    message: "Workflow Web 9.1.1 Upgrade - Error when searching for workflows",
+    product: "Office Integration",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Office Integration can report 0224-WF1 in the reviewed Answers source \"Workflow Web 9.1.1 Upgrade - Error when searching for workflows\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0224-WF1.", "Workflow Web 9.1.1 Upgrade - Error when searching for workflows"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0224-WF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Workflow Web 9.1.1 Upgrade - Error when searching for workflows",
+        url: "https://answers.laserfiche.com/questions/53971/Workflow-Web-911-Upgrade--Error-when-searching-for-workflows",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0224-WF1."
+      }
+    ]
+  },
+  {
+    id: "office-integration-0x4b9c08e8-missing-laserfiche-tag-in-excel",
+    code: "0x4b9c08e8 / 0x57e2061a / 0x0011fd82",
+    message: "Missing Laserfiche tag in Excel",
+    product: "Office Integration",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Office Integration can report 0x4b9c08e8 / 0x57e2061a / 0x0011fd82 in the reviewed Answers source \"Missing Laserfiche tag in Excel\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x4b9c08e8 / 0x57e2061a / 0x0011fd82.", "Missing Laserfiche tag in Excel"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x4b9c08e8 / 0x57e2061a / 0x0011fd82; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Missing Laserfiche tag in Excel",
+        url: "https://answers.laserfiche.com/questions/47940/Missing-Laserfiche-tag-in-Excel",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x4b9c08e8 / 0x57e2061a / 0x0011fd82."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-0106-qf1-quick-fields-agent-was-not-found-in-the-license-0106-qf1",
+    code: "0106-QF1",
+    message: "Quick Fields Agent was not found in the license. [0106-QF1]",
+    product: "Quick Fields",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 0106-QF1 in the reviewed Answers source \"Quick Fields Agent was not found in the license. [0106-QF1]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0106-QF1.", "Quick Fields Agent was not found in the license. [0106-QF1]"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0106-QF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Quick Fields Agent was not found in the license. [0106-QF1]",
+        url: "https://answers.laserfiche.com/questions/72376/Quick-Fields-Agent-was-not-found-in-the-license-0106QF1",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0106-QF1."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-0x800706ba-laserfiche-and-quickfields-version-10-4-type-comexception-message-the-r",
+    code: "0x800706BA",
+    message: "Laserfiche and Quickfields version 10.4 Type=\"COMException\" Message=\"The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)\"",
+    product: "Quick Fields",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 0x800706BA in the reviewed Answers source \"Laserfiche and Quickfields version 10.4 Type=\"COMException\" Message=\"The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)\"\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x800706BA.", "Laserfiche and Quickfields version 10.4 Type=\"COMException\" Message=\"The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)\""],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x800706BA; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche and Quickfields version 10.4 Type=\"COMException\" Message=\"The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)\"",
+        url: "https://answers.laserfiche.com/questions/236412/Laserfiche-and-Quickfields-version-104-TypeCOMException-MessageThe-RPC-server-is-unavailable-Exception-from-HRESULT-0x800706BA",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x800706BA."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-0x4fd6279d-quick-fields-agent-hanged",
+    code: "0x4fd6279d / 0x4e211319 / 0xe0434f4d / 0x0000b9bc / 0x52b4cc05 / 0x53b485c4 / 0xc0000005 / 0x00051d5a",
+    message: "Quick fields Agent hanged",
+    product: "Quick Fields",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 0x4fd6279d / 0x4e211319 / 0xe0434f4d / 0x0000b9bc / 0x52b4cc05 / 0x53b485c4 / 0xc0000005 / 0x00051d5a in the reviewed Answers source \"Quick fields Agent hanged\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x4fd6279d / 0x4e211319 / 0xe0434f4d / 0x0000b9bc / 0x52b4cc05 / 0x53b485c4 / 0xc0000005 / 0x00051d5a.", "Quick fields Agent hanged"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x4fd6279d / 0x4e211319 / 0xe0434f4d / 0x0000b9bc / 0x52b4cc05 / 0x53b485c4 / 0xc0000005 / 0x00051d5a; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Quick fields Agent hanged",
+        url: "https://answers.laserfiche.com/questions/71315/Quick-fields-Agent-hanged",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x4fd6279d / 0x4e211319 / 0xe0434f4d / 0x0000b9bc / 0x52b4cc05 / 0x53b485c4 / 0xc0000005 / 0x00051d5a."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-0106-qf1-lf-cloud-quick-fields-agent-was-not-found-in-the-license",
+    code: "0106-QF1",
+    message: "LF Cloud - Quick Fields Agent was not found in the license.",
+    product: "Quick Fields",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 0106-QF1 in the reviewed Answers source \"LF Cloud - Quick Fields Agent was not found in the license.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0106-QF1.", "LF Cloud - Quick Fields Agent was not found in the license."],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0106-QF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LF Cloud - Quick Fields Agent was not found in the license.",
+        url: "https://answers.laserfiche.com/questions/144899/LF-Cloud--Quick-Fields-Agent-was-not-found-in-the-license",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0106-QF1."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-0x52016528-scanconnect-crashing",
+    code: "0x52016528 / 0x57b7e09e / 0xc0000374 / 0x000d9841 / 0x590d342b / 0x5915f8e8 / 0x000ce8fb",
+    message: "scanconnect crashing",
+    product: "Quick Fields",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 0x52016528 / 0x57b7e09e / 0xc0000374 / 0x000d9841 / 0x590d342b / 0x5915f8e8 / 0x000ce8fb in the reviewed Answers source \"scanconnect crashing\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x52016528 / 0x57b7e09e / 0xc0000374 / 0x000d9841 / 0x590d342b / 0x5915f8e8 / 0x000ce8fb.", "scanconnect crashing"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x52016528 / 0x57b7e09e / 0xc0000374 / 0x000d9841 / 0x590d342b / 0x5915f8e8 / 0x000ce8fb; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "scanconnect crashing",
+        url: "https://answers.laserfiche.com/questions/106350/scanconnect-crashing",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x52016528 / 0x57b7e09e / 0xc0000374 / 0x000d9841 / 0x590d342b / 0x5915f8e8 / 0x000ce8fb."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-0828-qf1-qf-agent-xml-eof-error-how-to-determine-xml-file-referred-to",
+    code: "0828-QF1",
+    message: "QF Agent XML EoF error - How to determine XML file referred to?",
+    product: "Quick Fields",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 0828-QF1 in the reviewed Answers source \"QF Agent XML EoF error - How to determine XML file referred to?\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0828-QF1.", "QF Agent XML EoF error - How to determine XML file referred to?"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0828-QF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "QF Agent XML EoF error - How to determine XML file referred to?",
+        url: "https://answers.laserfiche.com/questions/69289/QF-Agent-XML-EoF-error--How-to-determine-XML-file-referred-to",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0828-QF1."
+      }
+    ]
+  },
+  {
+    id: "records-management-0x80040312-action-not-permitted-by-server-to-set-records-management-filing-d",
+    code: "0x80040312",
+    message: "Action not permitted by server to set Records Management Filing Date",
+    product: "Records Management",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Records Management can report 0x80040312 in the reviewed Answers source \"Action not permitted by server to set Records Management Filing Date\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80040312.", "Action not permitted by server to set Records Management Filing Date"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80040312; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Action not permitted by server to set Records Management Filing Date",
+        url: "https://answers.laserfiche.com/questions/195538/Action-not-permitted-by-server-to-set-Records-Management-Filing-Date",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80040312."
+      }
+    ]
+  },
+  {
+    id: "records-management-0xc004237d-search-for-all-pages-that-have-not-been-redacted",
+    code: "0xc004237d",
+    message: "Search for all pages that have not been redacted?",
+    product: "Records Management",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Records Management can report 0xc004237d in the reviewed Answers source \"Search for all pages that have not been redacted?\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc004237d.", "Search for all pages that have not been redacted?"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc004237d; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Search for all pages that have not been redacted?",
+        url: "https://answers.laserfiche.com/questions/60114/Search-for-all-pages-that-have-not-been-redacted-",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc004237d."
+      }
+    ]
+  },
+  {
+    id: "records-management-9559-web-client-redact-document-in-record-series-getting-this-error-9559",
+    code: "9559",
+    message: "Web Client- Redact Document in Record Series getting this error 9559",
+    product: "Records Management",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Records Management can report 9559 in the reviewed Answers source \"Web Client- Redact Document in Record Series getting this error 9559\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 9559.", "Web Client- Redact Document in Record Series getting this error 9559"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 9559; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Web Client- Redact Document in Record Series getting this error 9559",
+        url: "https://answers.laserfiche.com/questions/193021/Web-Client-Redact-Document-in-Record-Series-getting-this-error-9559",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 9559."
+      }
+    ]
+  },
+  {
+    id: "records-management-0xc004233b-record-series-setup-utility-issues-questions",
+    code: "0xC004233B",
+    message: "record series setup utility issues/questions",
+    product: "Records Management",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Records Management can report 0xC004233B in the reviewed Answers source \"record series setup utility issues/questions\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xC004233B.", "record series setup utility issues/questions"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xC004233B; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "record series setup utility issues/questions",
+        url: "https://answers.laserfiche.com/questions/62125/record-series-setup-utility-issuesquestions",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xC004233B."
+      }
+    ]
+  },
+  {
+    id: "snapshot-0x0000070c-when-using-snapshot-to-print-into-laserfiche-client-no-pages-are-generated",
+    code: "0x0000070c",
+    message: "When using Snapshot to print into Laserfiche Client, no pages are generated",
+    product: "Snapshot",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Snapshot can report 0x0000070c in the reviewed Answers source \"When using Snapshot to print into Laserfiche Client, no pages are generated\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x0000070c.", "When using Snapshot to print into Laserfiche Client, no pages are generated"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x0000070c; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "When using Snapshot to print into Laserfiche Client, no pages are generated",
+        url: "https://answers.laserfiche.com/questions/111870/When-using-Snapshot-to-print-into-Laserfiche-Client-no-pages-are-generated",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x0000070c."
+      }
+    ]
+  },
+  {
+    id: "snapshot-0x0000070c-printer-settings-could-not-be-saved",
+    code: "0x0000070c",
+    message: "Printer settings could not be saved",
+    product: "Snapshot",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Snapshot can report 0x0000070c in the reviewed Answers source \"Printer settings could not be saved\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x0000070c.", "Printer settings could not be saved"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x0000070c; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Printer settings could not be saved",
+        url: "https://answers.laserfiche.com/questions/112195/Printer-settings-could-not-be-saved",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x0000070c."
+      }
+    ]
+  },
+  {
+    id: "snapshot-0x55c15ff7-error-using-snapshot-on-pc-32-bits",
+    code: "0x55c15ff7 / 0x521ea91c / 0xc0000374 / 0x000c3873",
+    message: "Error using Snapshot on pc 32 bits",
+    product: "Snapshot",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Snapshot can report 0x55c15ff7 / 0x521ea91c / 0xc0000374 / 0x000c3873 in the reviewed Answers source \"Error using Snapshot on pc 32 bits\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x55c15ff7 / 0x521ea91c / 0xc0000374 / 0x000c3873.", "Error using Snapshot on pc 32 bits"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x55c15ff7 / 0x521ea91c / 0xc0000374 / 0x000c3873; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error using Snapshot on pc 32 bits",
+        url: "https://answers.laserfiche.com/questions/82785/Error-using-Snapshot-on-pc-32-bits",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x55c15ff7 / 0x521ea91c / 0xc0000374 / 0x000c3873."
+      }
+    ]
+  },
+  {
+    id: "workflow-719-workflow-error-719-only-20-collection-or-table-fields-can-be-retrieved-at-one-time",
+    code: "719",
+    message: "Workflow Error 719 - Only 20 Collection or Table Fields Can Be Retrieved At One TIme",
+    product: "Workflow",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Workflow can report 719 in the reviewed Answers source \"Workflow Error 719 - Only 20 Collection or Table Fields Can Be Retrieved At One TIme\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 719.", "Workflow Error 719 - Only 20 Collection or Table Fields Can Be Retrieved At One TIme"],
+    likelyFixes: ["Review Workflow Designer validation output and Workflow Server logs for the activity or service call that emitted the code.", "Check connection profiles, service account permissions, repository connectivity, and recently changed workflow definitions.", "Use the linked Answers source as the starting point for 719; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Workflow Error 719 - Only 20 Collection or Table Fields Can Be Retrieved At One TIme",
+        url: "https://answers.laserfiche.com/questions/173858/Workflow-Error-719--Only-20-Collection-or-Table-Fields-Can-Be-Retrieved-At-One-TIme",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 719."
+      }
+    ]
+  },
+  {
+    id: "web-client-0xc0000374-can-you-replicate-my-issue",
+    code: "0xc0000374",
+    message: "Can you replicate my issue?",
+    product: "Web Client",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Web Client can report 0xc0000374 in the reviewed Answers source \"Can you replicate my issue?\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0000374.", "Can you replicate my issue?"],
+    likelyFixes: ["Check IIS logs, browser console/network details, and Web Client application logs for the request that emitted the code.", "Verify authentication, application pool, Web Client configuration, and repository connectivity for the affected user path.", "Use the linked Answers source as the starting point for 0xc0000374; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Can you replicate my issue?",
+        url: "https://answers.laserfiche.com/questions/136118/Can-you-replicate-my-issue",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0000374."
+      }
+    ]
+  },
+  {
+    id: "weblink-0x57899b8a-weblinkcontrols-wlconnectionmanager-getconnectionbyvdirandreponame-string-vd",
+    code: "0x57899b8a / 0x5b1a1651",
+    message: "WebLinkControls.WLConnectionManager.GetConnectionByVdirAndRepoName(String vdirName",
+    product: "WebLink",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "WebLink can report 0x57899b8a / 0x5b1a1651 in the reviewed Answers source \"WebLinkControls.WLConnectionManager.GetConnectionByVdirAndRepoName(String vdirName\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x57899b8a / 0x5b1a1651.", "WebLinkControls.WLConnectionManager.GetConnectionByVdirAndRepoName(String vdirName"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x57899b8a / 0x5b1a1651; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "WebLinkControls.WLConnectionManager.GetConnectionByVdirAndRepoName(String vdirName",
+        url: "https://answers.laserfiche.com/questions/144982/WebLinkControlsWLConnectionManagerGetConnectionByVdirAndRepoNameString-vdirName",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x57899b8a / 0x5b1a1651."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0xc0042330-error-trying-to-redact-a-document",
+    code: "0xc0042330",
+    message: "Error trying to redact a document",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0xc0042330 in the reviewed Answers source \"Error trying to redact a document\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042330.", "Error trying to redact a document"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042330; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error trying to redact a document",
+        url: "https://answers.laserfiche.com/questions/203666/Error-trying-to-redact-a-document",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042330."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80004002-error-when-uploading-large-pdf-files",
+    code: "0x80004002",
+    message: "Error when uploading large PDF files",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80004002 in the reviewed Answers source \"Error when uploading large PDF files\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80004002.", "Error when uploading large PDF files"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80004002; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error when uploading large PDF files",
+        url: "https://answers.laserfiche.com/questions/142815/Error-when-uploading-large-PDF-files",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80004002."
+      }
+    ]
+  },
+  {
+    id: "audit-trail-0xc000006d-event-4625-for-lf-spn",
+    code: "0xC000006D",
+    message: "Event 4625 for LF SPN",
+    product: "Audit Trail",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Audit Trail can report 0xC000006D in the reviewed Answers source \"Event 4625 for LF SPN\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xC000006D.", "Event 4625 for LF SPN"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xC000006D; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Event 4625 for LF SPN",
+        url: "https://answers.laserfiche.com/questions/123236/Event-4625-for-LF-SPN",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xC000006D."
+      }
+    ]
+  },
+  {
+    id: "connector-0x8007007e-laserfiche-connector-working-with-window-title-and-url",
+    code: "0x8007007E",
+    message: "Laserfiche Connector - Working with Window Title and URL",
+    product: "Connector",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Connector can report 0x8007007E in the reviewed Answers source \"Laserfiche Connector - Working with Window Title and URL\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x8007007E.", "Laserfiche Connector - Working with Window Title and URL"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x8007007E; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche Connector - Working with Window Title and URL",
+        url: "https://answers.laserfiche.com/questions/78720/Laserfiche-Connector--Working-with-Window-Title-and-URL",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x8007007E."
+      }
+    ]
+  },
+  {
+    id: "connector-0x5ae91f02-connector-10-3-hotfix-crashing",
+    code: "0x5ae91f02 / 0x6369e29f / 0x5abdad60 / 0x5add228d / 0xc0000005",
+    message: "Connector 10.3 Hotfix - Crashing",
+    product: "Connector",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Connector can report 0x5ae91f02 / 0x6369e29f / 0x5abdad60 / 0x5add228d / 0xc0000005 in the reviewed Answers source \"Connector 10.3 Hotfix - Crashing\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x5ae91f02 / 0x6369e29f / 0x5abdad60 / 0x5add228d / 0xc0000005.", "Connector 10.3 Hotfix - Crashing"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x5ae91f02 / 0x6369e29f / 0x5abdad60 / 0x5add228d / 0xc0000005; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Connector 10.3 Hotfix - Crashing",
+        url: "https://answers.laserfiche.com/questions/141652/Connector-103-Hotfix--Crashing",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x5ae91f02 / 0x6369e29f / 0x5abdad60 / 0x5add228d / 0xc0000005."
+      }
+    ]
+  },
+  {
+    id: "connector-0x800706be-client-automation-search-in-cloud",
+    code: "0x800706BE",
+    message: "Client Automation Search in Cloud",
+    product: "Connector",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Connector can report 0x800706BE in the reviewed Answers source \"Client Automation Search in Cloud\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x800706BE.", "Client Automation Search in Cloud"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x800706BE; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Client Automation Search in Cloud",
+        url: "https://answers.laserfiche.com/questions/187262/Client-Automation-Search-in-Cloud",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x800706BE."
+      }
+    ]
+  },
+  {
+    id: "directory-server-lff2106-invaliddatasent-invalid-form-data-was-sent-t-the-server",
+    code: "LFF2106-InvalidDataSent",
+    message: "Invalid Form Data was sent t the server",
+    product: "Directory Server",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report LFF2106-InvalidDataSent in the reviewed Answers source \"Invalid Form Data was sent t the server\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF2106-InvalidDataSent.", "Invalid Form Data was sent t the server"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for LFF2106-InvalidDataSent; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Invalid Form Data was sent t the server",
+        url: "https://answers.laserfiche.com/questions/110954/Invalid-Form-Data-was-sent-t-the-server",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF2106-InvalidDataSent."
+      }
+    ]
+  },
+  {
+    id: "directory-server-lff2106-invaliddatasent-lff2106-invaliddatasent-which-field-or-variable-was-th",
+    code: "LFF2106-InvalidDataSent",
+    message: "[LFF2106-InvalidDataSent] - Which field or variable was the problem?",
+    product: "Directory Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report LFF2106-InvalidDataSent in the reviewed Answers source \"[LFF2106-InvalidDataSent] - Which field or variable was the problem?\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF2106-InvalidDataSent.", "[LFF2106-InvalidDataSent] - Which field or variable was the problem?"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for LFF2106-InvalidDataSent; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "[LFF2106-InvalidDataSent] - Which field or variable was the problem?",
+        url: "https://answers.laserfiche.com/questions/165484/LFF2106InvalidDataSent--Which-field-or-variable-was-the-problem",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF2106-InvalidDataSent."
+      }
+    ]
+  },
+  {
+    id: "directory-server-0x00005011-directory-server-system-runtime-interopservices-comexception-0x0000",
+    code: "0x00005011",
+    message: "Directory Server System.Runtime.InteropServices.COMException (0x00005011)",
+    product: "Directory Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report 0x00005011 in the reviewed Answers source \"Directory Server System.Runtime.InteropServices.COMException (0x00005011)\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x00005011.", "Directory Server System.Runtime.InteropServices.COMException (0x00005011)"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for 0x00005011; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Directory Server System.Runtime.InteropServices.COMException (0x00005011)",
+        url: "https://answers.laserfiche.com/questions/130811/Directory-Server-SystemRuntimeInteropServicesCOMException-0x00005011",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x00005011."
+      }
+    ]
+  },
+  {
+    id: "directory-server-0x80005000-errors-in-lfds-log-after-ad-sync",
+    code: "0x80005000",
+    message: "Errors in LFDS log after AD Sync",
+    product: "Directory Server",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report 0x80005000 in the reviewed Answers source \"Errors in LFDS log after AD Sync\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80005000.", "Errors in LFDS log after AD Sync"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for 0x80005000; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Errors in LFDS log after AD Sync",
+        url: "https://answers.laserfiche.com/questions/179049/Errors-in-LFDS-log-after-AD-Sync",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80005000."
+      }
+    ]
+  },
+  {
+    id: "directory-server-http-443-rio-9-2-1-configure-a-master-license-ssl-tls-error",
+    code: "http 443",
+    message: "RIO 9.2.1 - Configure a master license SSL/TLS error",
+    product: "Directory Server",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report http 443 in the reviewed Answers source \"RIO 9.2.1 - Configure a master license SSL/TLS error\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports http 443.", "RIO 9.2.1 - Configure a master license SSL/TLS error"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for http 443; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "RIO 9.2.1 - Configure a master license SSL/TLS error",
+        url: "https://answers.laserfiche.com/questions/80388/RIO-921--Configure-a-master-license-SSLTLS-error",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for http 443."
+      }
+    ]
+  },
+  {
+    id: "directory-server-0458-wf0-rio-upgrade-from-9-2-to-10",
+    code: "0458-WF0",
+    message: "Rio upgrade from 9.2 to 10",
+    product: "Directory Server",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report 0458-WF0 in the reviewed Answers source \"Rio upgrade from 9.2 to 10\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0458-WF0.", "Rio upgrade from 9.2 to 10"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for 0458-WF0; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Rio upgrade from 9.2 to 10",
+        url: "https://answers.laserfiche.com/questions/99945/Rio-upgrade-from-92-to-10",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0458-WF0."
+      }
+    ]
+  },
+  {
+    id: "forms-400-lff706-unable-to-triggerrouting",
+    code: "400",
+    message: "LFF706-Unable To TriggerRouting",
+    product: "Forms",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report 400 in the reviewed Answers source \"LFF706-Unable To TriggerRouting\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 400.", "LFF706-Unable To TriggerRouting"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for 400; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LFF706-Unable To TriggerRouting",
+        url: "https://answers.laserfiche.com/questions/230410/LFF706Unable-To-TriggerRouting",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 400."
+      }
+    ]
+  },
+  {
+    id: "forms-lff4112-pdfnetworkerror-http-status-code-500",
+    code: "LFF4112-PdfNetworkError",
+    message: "HTTP Status Code: 500",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF4112-PdfNetworkError in the reviewed Answers source \"HTTP Status Code: 500\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF4112-PdfNetworkError.", "HTTP Status Code: 500"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF4112-PdfNetworkError; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "HTTP Status Code: 500",
+        url: "https://answers.laserfiche.com/questions/132502/HTTP-Status-Code-500",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF4112-PdfNetworkError."
+      }
+    ]
+  },
+  {
+    id: "forms-08004-forms-sql-database",
+    code: "08004",
+    message: "Forms SQL Database",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report 08004 in the reviewed Answers source \"Forms SQL Database\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 08004.", "Forms SQL Database"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for 08004; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms SQL Database",
+        url: "https://answers.laserfiche.com/questions/59871/Forms-SQL-Database",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 08004."
+      }
+    ]
+  },
+  {
+    id: "forms-lff4112-pdfnetworkerror-laserfiche-forms-was-unable-to-generate-a-pdf-or-tiff",
+    code: "LFF4112-PdfNetworkError",
+    message: "Laserfiche Forms was unable to generate a PDF or TIFF.",
+    product: "Forms",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF4112-PdfNetworkError in the reviewed Answers source \"Laserfiche Forms was unable to generate a PDF or TIFF.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF4112-PdfNetworkError.", "Laserfiche Forms was unable to generate a PDF or TIFF."],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF4112-PdfNetworkError; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche Forms was unable to generate a PDF or TIFF.",
+        url: "https://answers.laserfiche.com/questions/95197/Laserfiche-Forms-was-unable-to-generate-a-PDF-or-TIFF",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF4112-PdfNetworkError."
+      }
+    ]
+  },
+  {
+    id: "forms-10061-the-requested-service-iautotrigger-may-not-be-running-lff3004-unabletoopenservicepr",
+    code: "10061",
+    message: "The requested service 'IAutoTrigger' may not be running. [LFF3004-UnableToOpenServiceProxy]",
+    product: "Forms",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report 10061 in the reviewed Answers source \"The requested service 'IAutoTrigger' may not be running. [LFF3004-UnableToOpenServiceProxy]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 10061.", "The requested service 'IAutoTrigger' may not be running. [LFF3004-UnableToOpenServiceProxy]"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for 10061; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "The requested service 'IAutoTrigger' may not be running. [LFF3004-UnableToOpenServiceProxy]",
+        url: "https://answers.laserfiche.com/questions/210154/The-requested-service-IAutoTrigger-may-not-be-running-LFF3004UnableToOpenServiceProxy",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 10061."
+      }
+    ]
+  },
+  {
+    id: "forms-lff2104-invalidrequestsubmissionexists-rogue-form-terminating-daily",
+    code: "LFF2104-InvalidRequestSubmissionExists",
+    message: "Rogue Form Terminating Daily",
+    product: "Forms",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF2104-InvalidRequestSubmissionExists in the reviewed Answers source \"Rogue Form Terminating Daily\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF2104-InvalidRequestSubmissionExists.", "Rogue Form Terminating Daily"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF2104-InvalidRequestSubmissionExists; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Rogue Form Terminating Daily",
+        url: "https://answers.laserfiche.com/questions/193269/Rogue-Form-Terminating-Daily",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF2104-InvalidRequestSubmissionExists."
+      }
+    ]
+  },
+  {
+    id: "forms-0x800703e3-laserfiche-forms-encountered-an-internal-error-lff500-internalerror-when-click",
+    code: "0x800703E3",
+    message: "Laserfiche Forms encountered an internal error LFF500-InternalError when clickin on Reports tab",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report 0x800703E3 in the reviewed Answers source \"Laserfiche Forms encountered an internal error LFF500-InternalError when clickin on Reports tab\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x800703E3.", "Laserfiche Forms encountered an internal error LFF500-InternalError when clickin on Reports tab"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for 0x800703E3; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche Forms encountered an internal error LFF500-InternalError when clickin on Reports tab",
+        url: "https://answers.laserfiche.com/questions/219156/Laserfiche-Forms-encountered-an-internal-error-LFF500InternalError-when-clickin-on-Reports-tab",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x800703E3."
+      }
+    ]
+  },
+  {
+    id: "forms-lff3016-invalidtimerconfiguration-multiple-time-catch-events-triggered-after-10-4-forms-u",
+    code: "LFF3016-InvalidTimerConfiguration",
+    message: "Multiple Time Catch Events Triggered after 10.4 Forms update",
+    product: "Forms",
+    versions: ["Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF3016-InvalidTimerConfiguration in the reviewed Answers source \"Multiple Time Catch Events Triggered after 10.4 Forms update\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF3016-InvalidTimerConfiguration.", "Multiple Time Catch Events Triggered after 10.4 Forms update"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF3016-InvalidTimerConfiguration; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Multiple Time Catch Events Triggered after 10.4 Forms update",
+        url: "https://answers.laserfiche.com/questions/169848/Multiple-Time-Catch-Events-Triggered-after-104-Forms-update",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF3016-InvalidTimerConfiguration."
+      }
+    ]
+  },
+  {
+    id: "import-agent-0x5a55ed59-import-agent-net-runtime-error",
+    code: "0x5a55ed59 / 0x5c92f34f",
+    message: "Import Agent .net runtime error",
+    product: "Import Agent",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Import Agent can report 0x5a55ed59 / 0x5c92f34f in the reviewed Answers source \"Import Agent .net runtime error\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x5a55ed59 / 0x5c92f34f.", "Import Agent .net runtime error"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x5a55ed59 / 0x5c92f34f; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Import Agent .net runtime error",
+        url: "https://answers.laserfiche.com/questions/159369/Import-Agent-net-runtime-error",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x5a55ed59 / 0x5c92f34f."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-1603-silent-laserfiche-client-deployment-failing",
+    code: "1603",
+    message: "Silent Laserfiche Client Deployment Failing",
+    product: "Laserfiche Installer",
+    versions: ["Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 1603 in the reviewed Answers source \"Silent Laserfiche Client Deployment Failing\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 1603.", "Silent Laserfiche Client Deployment Failing"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 1603; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Silent Laserfiche Client Deployment Failing",
+        url: "https://answers.laserfiche.com/questions/154732/Silent-Laserfiche-Client-Deployment-Failing",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 1603."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-2044-rio-license-manager-error-2044-the-licensing-database-has-been-disabl",
+    code: "2044",
+    message: "Rio License Manager Error 2044 The licensing database has been disabled",
+    product: "Laserfiche Installer",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 2044 in the reviewed Answers source \"Rio License Manager Error 2044 The licensing database has been disabled\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 2044.", "Rio License Manager Error 2044 The licensing database has been disabled"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 2044; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Rio License Manager Error 2044 The licensing database has been disabled",
+        url: "https://answers.laserfiche.com/questions/50176/Rio-License-Manager-Error-2044-The-licensing-database-has-been-disabled",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 2044."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-1904-error-1904-lfimageenable80-dll-failed-to-register",
+    code: "1904",
+    message: "Error 1904 LFImageEnable80.dll failed to register",
+    product: "Laserfiche Installer",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 1904 in the reviewed Answers source \"Error 1904 LFImageEnable80.dll failed to register\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 1904.", "Error 1904 LFImageEnable80.dll failed to register"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 1904; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error 1904 LFImageEnable80.dll failed to register",
+        url: "https://answers.laserfiche.com/questions/65242/Error-1904-LFImageEnable80dll-failed-to-register",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 1904."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0x80041a40-could-not-create-required-control-6720-on-opening-client",
+    code: "0x80041a40",
+    message: "Could not create required control. [6720] on opening client",
+    product: "Laserfiche Installer",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0x80041a40 in the reviewed Answers source \"Could not create required control. [6720] on opening client\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80041a40.", "Could not create required control. [6720] on opening client"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80041a40; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Could not create required control. [6720] on opening client",
+        url: "https://answers.laserfiche.com/questions/61935/Could-not-create-required-control-6720-on-opening-client",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80041a40."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-2753-need-to-solve-error-2753",
+    code: "2753",
+    message: "Need to solve error 2753",
+    product: "Laserfiche Installer",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 2753 in the reviewed Answers source \"Need to solve error 2753\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 2753.", "Need to solve error 2753"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 2753; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Need to solve error 2753",
+        url: "https://answers.laserfiche.com/questions/89486/Need-to-solve-error-2753",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 2753."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-2021-error-2021-is-there-any-information-on-this-error-out",
+    code: "2021",
+    message: "Error 2021? Is there any information on this error out there.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 2021 in the reviewed Answers source \"Error 2021? Is there any information on this error out there.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 2021.", "Error 2021? Is there any information on this error out there."],
+    likelyFixes: ["Use the linked Answers source as the starting point for 2021; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error 2021? Is there any information on this error out there.",
+        url: "https://answers.laserfiche.com/questions/48198/Error-2021-Is-there-any-information-on-this-error-out-there",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 2021."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0xc0042536-repository-cannot-be-mounted-because-it-is-being",
+    code: "0xc0042536 / 0x80042536",
+    message: "Repository cannot be mounted because it is being mounted or unmounted [9526]",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0xc0042536 / 0x80042536 in the reviewed Answers source \"Repository cannot be mounted because it is being mounted or unmounted [9526]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042536 / 0x80042536.", "Repository cannot be mounted because it is being mounted or unmounted [9526]"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042536 / 0x80042536; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Repository cannot be mounted because it is being mounted or unmounted [9526]",
+        url: "https://answers.laserfiche.com/questions/123761/Repository-cannot-be-mounted-because-it-is-being-mounted-or-unmounted-9526",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042536 / 0x80042536."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0xc0042507-getting-the-message-unknown-error-9479-0xc004250",
+    code: "0xc0042507",
+    message: "Getting the message \"Unknown error [9479:0xc0042507]\"",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0xc0042507 in the reviewed Answers source \"Getting the message \"Unknown error [9479:0xc0042507]\"\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042507.", "Getting the message \"Unknown error [9479:0xc0042507]\""],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042507; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Getting the message \"Unknown error [9479:0xc0042507]\"",
+        url: "https://answers.laserfiche.com/questions/54696/Getting-the-message-Unknown-error--94790xc0042507",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042507."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-12175-internal-ssl-error-is-not-enough-information",
+    code: "12175",
+    message: "Internal SSL Error is not enough information",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 12175 in the reviewed Answers source \"Internal SSL Error is not enough information\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 12175.", "Internal SSL Error is not enough information"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 12175; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Internal SSL Error is not enough information",
+        url: "https://answers.laserfiche.com/questions/180224/Internal-SSL-Error-is-not-enough-information",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 12175."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0x80040190-the-ocr-engine-is-not-licensed",
+    code: "0x80040190",
+    message: "The OCR engine is not licensed.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0x80040190 in the reviewed Answers source \"The OCR engine is not licensed.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80040190.", "The OCR engine is not licensed."],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80040190; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "The OCR engine is not licensed.",
+        url: "https://answers.laserfiche.com/questions/54349/The-OCR-engine-is-not-licensed",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80040190."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-lff5428-error-lff5428",
+    code: "LFF5428 / LFF5428-ErrorAuthenticateSTR",
+    message: "error-LFF5428",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report LFF5428 / LFF5428-ErrorAuthenticateSTR in the reviewed Answers source \"error-LFF5428\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF5428 / LFF5428-ErrorAuthenticateSTR.", "error-LFF5428"],
+    likelyFixes: ["Use the linked Answers source as the starting point for LFF5428 / LFF5428-ErrorAuthenticateSTR; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "error-LFF5428",
+        url: "https://answers.laserfiche.com/questions/168040/errorLFF5428",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF5428 / LFF5428-ErrorAuthenticateSTR."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-22018-odbc-data-source-administrator",
+    code: "22018",
+    message: "ODBC Data Source Administrator",
+    product: "Quick Fields",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 22018 in the reviewed Answers source \"ODBC Data Source Administrator\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 22018.", "ODBC Data Source Administrator"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 22018; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "ODBC Data Source Administrator",
+        url: "https://answers.laserfiche.com/questions/55002/ODBC-Data-Source-Administrator",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 22018."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-0222-bp0-last-page-identification-page-process",
+    code: "0222-BP0",
+    message: "Last Page Identification - Page Process",
+    product: "Quick Fields",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 0222-BP0 in the reviewed Answers source \"Last Page Identification - Page Process\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0222-BP0.", "Last Page Identification - Page Process"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0222-BP0; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Last Page Identification - Page Process",
+        url: "https://answers.laserfiche.com/questions/108813/Last-Page-Identification--Page-Process",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0222-BP0."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-0x800706ba-qf-error",
+    code: "0x800706BA",
+    message: "QF Error",
+    product: "Quick Fields",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 0x800706BA in the reviewed Answers source \"QF Error\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x800706BA.", "QF Error"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x800706BA; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "QF Error",
+        url: "https://answers.laserfiche.com/questions/187580/QF-Error",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x800706BA."
+      }
+    ]
+  },
+  {
+    id: "records-management-9559-workflow-can-make-changes-to-records-folder-that-has-been-cutoff",
+    code: "9559",
+    message: "Workflow Can Make Changes to Records Folder that Has Been Cutoff",
+    product: "Records Management",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Records Management can report 9559 in the reviewed Answers source \"Workflow Can Make Changes to Records Folder that Has Been Cutoff\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 9559.", "Workflow Can Make Changes to Records Folder that Has Been Cutoff"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 9559; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Workflow Can Make Changes to Records Folder that Has Been Cutoff",
+        url: "https://answers.laserfiche.com/questions/163526/Workflow-Can-Make-Changes-to-Records-Folder-that-Has-Been-Cutoff",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 9559."
+      }
+    ]
+  },
+  {
+    id: "snapshot-lff340-taskalreadycanceled-forms-gateway-activity-suspends-object-reference-not-set-to",
+    code: "LFF340-TaskAlreadyCanceled",
+    message: "Forms-Gateway Activity Suspends \"Object reference not set to an instance of an object\" then terminates",
+    product: "Snapshot",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Snapshot can report LFF340-TaskAlreadyCanceled in the reviewed Answers source \"Forms-Gateway Activity Suspends \"Object reference not set to an instance of an object\" then terminates\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF340-TaskAlreadyCanceled.", "Forms-Gateway Activity Suspends \"Object reference not set to an instance of an object\" then terminates"],
+    likelyFixes: ["Use the linked Answers source as the starting point for LFF340-TaskAlreadyCanceled; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms-Gateway Activity Suspends \"Object reference not set to an instance of an object\" then terminates",
+        url: "https://answers.laserfiche.com/questions/199761/FormsGateway-Activity-Suspends-Object-reference-not-set-to-an-instance-of-an-object-then-terminates",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF340-TaskAlreadyCanceled."
+      }
+    ]
+  },
+  {
+    id: "snapshot-0x0000007e-no-se-pudo-iniciar-el-despliegue-de-los-metadatos-no-se-pudo-crear-el-contr",
+    code: "0x0000007e",
+    message: "No se pudo iniciar el despliegue de los metadatos. No se pudo crear el control obligatorio. [6720:0x0000007e]",
+    product: "Snapshot",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Snapshot can report 0x0000007e in the reviewed Answers source \"No se pudo iniciar el despliegue de los metadatos. No se pudo crear el control obligatorio. [6720:0x0000007e]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x0000007e.", "No se pudo iniciar el despliegue de los metadatos. No se pudo crear el control obligatorio. [6720:0x0000007e]"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x0000007e; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "No se pudo iniciar el despliegue de los metadatos. No se pudo crear el control obligatorio. [6720:0x0000007e]",
+        url: "https://answers.laserfiche.com/questions/148168/No-se-pudo-iniciar-el-despliegue-de-los-metadatos-No-se-pudo-crear-el-control-obligatorio-67200x0000007e",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x0000007e."
+      }
+    ]
+  },
+  {
+    id: "snapshot-400-file-uploaded-does-not-appear-in-the-reports",
+    code: "400",
+    message: "File uploaded does not appear in the reports",
+    product: "Snapshot",
+    versions: ["Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Snapshot can report 400 in the reviewed Answers source \"File uploaded does not appear in the reports\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 400.", "File uploaded does not appear in the reports"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 400; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "File uploaded does not appear in the reports",
+        url: "https://answers.laserfiche.com/questions/187941/File-uploaded-does-not-appear-in-the-reports",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 400."
+      }
+    ]
+  },
+  {
+    id: "workflow-0x80005000-find-user-activity-can-t-find-a-specific-user",
+    code: "0x80005000",
+    message: "Find User Activity Can't Find a Specific User",
+    product: "Workflow",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Workflow can report 0x80005000 in the reviewed Answers source \"Find User Activity Can't Find a Specific User\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80005000.", "Find User Activity Can't Find a Specific User"],
+    likelyFixes: ["Review Workflow Designer validation output and Workflow Server logs for the activity or service call that emitted the code.", "Check connection profiles, service account permissions, repository connectivity, and recently changed workflow definitions.", "Use the linked Answers source as the starting point for 0x80005000; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Find User Activity Can't Find a Specific User",
+        url: "https://answers.laserfiche.com/questions/95980/Find-User-Activity-Cant-Find-a-Specific-User",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80005000."
+      }
+    ]
+  },
+  {
+    id: "workflow-0212-wf1-workflow-database-question",
+    code: "0212-WF1",
+    message: "Workflow database question",
+    product: "Workflow",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Workflow can report 0212-WF1 in the reviewed Answers source \"Workflow database question\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0212-WF1.", "Workflow database question"],
+    likelyFixes: ["Review Workflow Designer validation output and Workflow Server logs for the activity or service call that emitted the code.", "Check connection profiles, service account permissions, repository connectivity, and recently changed workflow definitions.", "Use the linked Answers source as the starting point for 0212-WF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Workflow database question",
+        url: "https://answers.laserfiche.com/questions/97863/Workflow-database-question",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0212-WF1."
+      }
+    ]
+  },
+  {
+    id: "workflow-10061-workflow-subscriber-unable-to-connect-to-the-workflow-server",
+    code: "10061",
+    message: "Workflow subscriber unable to Connect to the Workflow Server",
+    product: "Workflow",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Workflow can report 10061 in the reviewed Answers source \"Workflow subscriber unable to Connect to the Workflow Server\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 10061.", "Workflow subscriber unable to Connect to the Workflow Server"],
+    likelyFixes: ["Review Workflow Designer validation output and Workflow Server logs for the activity or service call that emitted the code.", "Check connection profiles, service account permissions, repository connectivity, and recently changed workflow definitions.", "Use the linked Answers source as the starting point for 10061; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Workflow subscriber unable to Connect to the Workflow Server",
+        url: "https://answers.laserfiche.com/questions/70556/Workflow-subscriber-unable-to-Connect-to-the-Workflow-Server",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 10061."
+      }
+    ]
+  },
+  {
+    id: "web-client-0x80040310-laserfiche-slow-freezes-when-trying-to-combine-or-delete-a-document",
+    code: "0x80040310",
+    message: "Laserfiche slow/freezes when trying to combine or delete a document",
+    product: "Web Client",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Web Client can report 0x80040310 in the reviewed Answers source \"Laserfiche slow/freezes when trying to combine or delete a document\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80040310.", "Laserfiche slow/freezes when trying to combine or delete a document"],
+    likelyFixes: ["Check IIS logs, browser console/network details, and Web Client application logs for the request that emitted the code.", "Verify authentication, application pool, Web Client configuration, and repository connectivity for the affected user path.", "Use the linked Answers source as the starting point for 0x80040310; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche slow/freezes when trying to combine or delete a document",
+        url: "https://answers.laserfiche.com/questions/162396/Laserfiche-slowfreezes-when-trying-to-combine-or-delete-a-document",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80040310."
+      }
+    ]
+  },
+  {
+    id: "web-client-lff3005-unabletoconnecttolfserver-unable-to-connect-to-the-laserfiche-server-access",
+    code: "LFF3005-UnableToConnectToLFServer",
+    message: "Unable to connect to the Laserfiche Server; Access denied. [9013] [LFF3005-UnableToConnectToLFServer]",
+    product: "Web Client",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Web Client can report LFF3005-UnableToConnectToLFServer in the reviewed Answers source \"Unable to connect to the Laserfiche Server; Access denied. [9013] [LFF3005-UnableToConnectToLFServer]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF3005-UnableToConnectToLFServer.", "Unable to connect to the Laserfiche Server; Access denied. [9013] [LFF3005-UnableToConnectToLFServer]"],
+    likelyFixes: ["Check IIS logs, browser console/network details, and Web Client application logs for the request that emitted the code.", "Verify authentication, application pool, Web Client configuration, and repository connectivity for the affected user path.", "Use the linked Answers source as the starting point for LFF3005-UnableToConnectToLFServer; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Unable to connect to the Laserfiche Server; Access denied. [9013] [LFF3005-UnableToConnectToLFServer]",
+        url: "https://answers.laserfiche.com/questions/221326/Unable-to-connect-to-the-Laserfiche-Server-Access-denied-9013-LFF3005UnableToConnectToLFServer",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF3005-UnableToConnectToLFServer."
+      }
+    ]
+  },
+  {
+    id: "weblink-0x57899b8a-welink-app-pool-crashing-continuously",
+    code: "0x57899b8a / 0x6274ba21 / 0xc00000fd",
+    message: "Welink App Pool crashing continuously",
+    product: "WebLink",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "WebLink can report 0x57899b8a / 0x6274ba21 / 0xc00000fd in the reviewed Answers source \"Welink App Pool crashing continuously\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x57899b8a / 0x6274ba21 / 0xc00000fd.", "Welink App Pool crashing continuously"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x57899b8a / 0x6274ba21 / 0xc00000fd; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Welink App Pool crashing continuously",
+        url: "https://answers.laserfiche.com/questions/205359/Welink-App-Pool-crashing-continuously",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x57899b8a / 0x6274ba21 / 0xc00000fd."
+      }
+    ]
+  },
+  {
+    id: "weblink-0xcfdb13d8-weblink-is-crashing-after-windows-patching",
+    code: "0xcfdb13d8 / 0xfb111856 / 0xc0000374",
+    message: "Weblink is crashing after windows patching",
+    product: "WebLink",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "WebLink can report 0xcfdb13d8 / 0xfb111856 / 0xc0000374 in the reviewed Answers source \"Weblink is crashing after windows patching\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xcfdb13d8 / 0xfb111856 / 0xc0000374.", "Weblink is crashing after windows patching"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xcfdb13d8 / 0xfb111856 / 0xc0000374; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Weblink is crashing after windows patching",
+        url: "https://answers.laserfiche.com/questions/219615/Weblink-is-crashing-after-windows-patching",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xcfdb13d8 / 0xfb111856 / 0xc0000374."
+      }
+    ]
+  },
+  {
+    id: "weblink-0x800704cd-checked-selections-not-showing-up-on-confirmation-page-or-in-emailed-pdf",
+    code: "0x800704CD",
+    message: "Checked selections not showing up on confirmation page, or in Emailed .pdf",
+    product: "WebLink",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "WebLink can report 0x800704CD in the reviewed Answers source \"Checked selections not showing up on confirmation page, or in Emailed .pdf\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x800704CD.", "Checked selections not showing up on confirmation page, or in Emailed .pdf"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x800704CD; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Checked selections not showing up on confirmation page, or in Emailed .pdf",
+        url: "https://answers.laserfiche.com/questions/81330/Checked-selections-not-showing-up-on-confirmation-page-or-in-Emailed-pdf",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x800704CD."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x54ebd105-ocr-failure-occurs-on-some-pages-of-document",
+    code: "0x54ebd105 / 0x5915f8e8 / 0xc0000374 / 0x000ce8fb",
+    message: "OCR Failure occurs on some pages of document",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x54ebd105 / 0x5915f8e8 / 0xc0000374 / 0x000ce8fb in the reviewed Answers source \"OCR Failure occurs on some pages of document\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x54ebd105 / 0x5915f8e8 / 0xc0000374 / 0x000ce8fb.", "OCR Failure occurs on some pages of document"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x54ebd105 / 0x5915f8e8 / 0xc0000374 / 0x000ce8fb; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "OCR Failure occurs on some pages of document",
+        url: "https://answers.laserfiche.com/questions/122922/OCR-Failure-occurs-on-some-pages-of-document",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x54ebd105 / 0x5915f8e8 / 0xc0000374 / 0x000ce8fb."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80040310-exception-0x80040310-operation-timed-out",
+    code: "0x80040310",
+    message: "\"Exception: 0x80040310 (Operation timed out.)",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80040310 in the reviewed Answers source \"\"Exception: 0x80040310 (Operation timed out.)\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80040310.", "\"Exception: 0x80040310 (Operation timed out.)"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80040310; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "\"Exception: 0x80040310 (Operation timed out.)",
+        url: "https://answers.laserfiche.com/questions/184693/Exception-0x80040310--Operation-timed-out",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80040310."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-2106-rio-9-2-1-import-error-2106",
+    code: "2106",
+    message: "Rio 9.2.1 Import error 2106",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 2106 in the reviewed Answers source \"Rio 9.2.1 Import error 2106\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 2106.", "Rio 9.2.1 Import error 2106"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 2106; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Rio 9.2.1 Import error 2106",
+        url: "https://answers.laserfiche.com/questions/120661/Rio-921-Import-error-2106",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 2106."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0xc0042332-client-9-1-1-not-letting-me-login-from-any-other-stati",
+    code: "0xc0042332 / 0x80042332",
+    message: "client 9.1.1 not letting me login from any other station",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0xc0042332 / 0x80042332 in the reviewed Answers source \"client 9.1.1 not letting me login from any other station\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042332 / 0x80042332.", "client 9.1.1 not letting me login from any other station"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042332 / 0x80042332; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "client 9.1.1 not letting me login from any other station",
+        url: "https://answers.laserfiche.com/questions/113968/client-911-not-letting-me-login-from-any-other-station",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042332 / 0x80042332."
+      }
+    ]
+  },
+  {
+    id: "directory-server-lff5021-notvalidlfdslicense-dmz-forms-config-throwing-licensing-error",
+    code: "LFF5021-NotValidLfdsLicense",
+    message: "DMZ Forms config throwing licensing error",
+    product: "Directory Server",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report LFF5021-NotValidLfdsLicense in the reviewed Answers source \"DMZ Forms config throwing licensing error\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF5021-NotValidLfdsLicense.", "DMZ Forms config throwing licensing error"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for LFF5021-NotValidLfdsLicense; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "DMZ Forms config throwing licensing error",
+        url: "https://answers.laserfiche.com/questions/168428/DMZ-Forms-config-throwing-licensing-error",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF5021-NotValidLfdsLicense."
+      }
+    ]
+  },
+  {
+    id: "directory-server-0xc0042332-the-user-account-name-or-password-is-incorrect-after-network-passwo",
+    code: "0xc0042332 / 0x80042332",
+    message: "The user account name or password is incorrect after network password change",
+    product: "Directory Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report 0xc0042332 / 0x80042332 in the reviewed Answers source \"The user account name or password is incorrect after network password change\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042332 / 0x80042332.", "The user account name or password is incorrect after network password change"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for 0xc0042332 / 0x80042332; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "The user account name or password is incorrect after network password change",
+        url: "https://answers.laserfiche.com/questions/185663/The-user-account-name-or-password-is-incorrect-after-network-password-change",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042332 / 0x80042332."
+      }
+    ]
+  },
+  {
+    id: "directory-server-0x80005000-laserfiche-account-migration-tool",
+    code: "0x80005000",
+    message: "Laserfiche Account Migration Tool",
+    product: "Directory Server",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report 0x80005000 in the reviewed Answers source \"Laserfiche Account Migration Tool\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80005000.", "Laserfiche Account Migration Tool"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for 0x80005000; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche Account Migration Tool",
+        url: "https://answers.laserfiche.com/questions/160174/Laserfiche-Account-Migration-Tool",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80005000."
+      }
+    ]
+  },
+  {
+    id: "directory-server-1064-error-1064-an-exception-occurred-in-the-service-when-handling-the-control",
+    code: "1064",
+    message: "Error 1064: An exception occurred in the service when handling the control request.",
+    product: "Directory Server",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report 1064 in the reviewed Answers source \"Error 1064: An exception occurred in the service when handling the control request.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 1064.", "Error 1064: An exception occurred in the service when handling the control request."],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for 1064; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error 1064: An exception occurred in the service when handling the control request.",
+        url: "https://answers.laserfiche.com/questions/200818/Error-1064-An-exception-occurred-in-the-service-when-handling-the-control-request",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 1064."
+      }
+    ]
+  },
+  {
+    id: "directory-server-0x80042335-getting-a-permission-denied-9013-rio-windows-accounts",
+    code: "0x80042335",
+    message: "Getting a Permission Denied 9013 - RIO - Windows Accounts.",
+    product: "Directory Server",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report 0x80042335 in the reviewed Answers source \"Getting a Permission Denied 9013 - RIO - Windows Accounts.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80042335.", "Getting a Permission Denied 9013 - RIO - Windows Accounts."],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for 0x80042335; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Getting a Permission Denied 9013 - RIO - Windows Accounts.",
+        url: "https://answers.laserfiche.com/questions/83509/Getting-a-Permission-Denied-9013--RIO--Windows-Accounts",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80042335."
+      }
+    ]
+  },
+  {
+    id: "directory-server-0xc0042334-repository-trustee-not-found-9012",
+    code: "0xc0042334",
+    message: "Repository Trustee Not Found [9012]",
+    product: "Directory Server",
+    versions: ["Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report 0xc0042334 in the reviewed Answers source \"Repository Trustee Not Found [9012]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042334.", "Repository Trustee Not Found [9012]"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for 0xc0042334; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Repository Trustee Not Found [9012]",
+        url: "https://answers.laserfiche.com/questions/233323/Repository-Trustee-Not-Found-9012",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042334."
+      }
+    ]
+  },
+  {
+    id: "forms-522-forms-portal-lagging-timing-out-and-not-loading-pages",
+    code: "522",
+    message: "Forms Portal Lagging, Timing Out, and Not Loading Pages",
+    product: "Forms",
+    versions: ["Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report 522 in the reviewed Answers source \"Forms Portal Lagging, Timing Out, and Not Loading Pages\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 522.", "Forms Portal Lagging, Timing Out, and Not Loading Pages"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for 522; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms Portal Lagging, Timing Out, and Not Loading Pages",
+        url: "https://answers.laserfiche.com/questions/231119/Forms-Portal-Lagging-Timing-Out-and-Not-Loading-Pages",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 522."
+      }
+    ]
+  },
+  {
+    id: "forms-1722-forms-10-2-32-bit-odbc-connection",
+    code: "1722",
+    message: "Forms 10.2 32 bit ODBC connection",
+    product: "Forms",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report 1722 in the reviewed Answers source \"Forms 10.2 32 bit ODBC connection\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 1722.", "Forms 10.2 32 bit ODBC connection"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for 1722; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms 10.2 32 bit ODBC connection",
+        url: "https://answers.laserfiche.com/questions/118342/Forms-102-32-bit-ODBC-connection",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 1722."
+      }
+    ]
+  },
+  {
+    id: "forms-01000-lf-forms-and-workflow-query-linked-sql-or-mysql-server-possible-at-all",
+    code: "01000",
+    message: "LF Forms and Workflow query \"Linked SQL or MySQL Server\" possible at all ?",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report 01000 in the reviewed Answers source \"LF Forms and Workflow query \"Linked SQL or MySQL Server\" possible at all ?\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 01000.", "LF Forms and Workflow query \"Linked SQL or MySQL Server\" possible at all ?"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for 01000; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LF Forms and Workflow query \"Linked SQL or MySQL Server\" possible at all ?",
+        url: "https://answers.laserfiche.com/questions/66314/LF-Forms-and-Workflow-query-Linked-SQL-or-MySQL-Server-possible-at-all-",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 01000."
+      }
+    ]
+  },
+  {
+    id: "forms-lff337-notablestoredprocedureassigned-lff2400-datasourceconnectionerror-connecting-oracle",
+    code: "LFF337-NoTableStoredProcedureAssigned",
+    message: "LFF2400-DataSourceConnectionError - Connecting Oracle ODBC Connection with Forms 10.3.1",
+    product: "Forms",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF337-NoTableStoredProcedureAssigned in the reviewed Answers source \"LFF2400-DataSourceConnectionError - Connecting Oracle ODBC Connection with Forms 10.3.1\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF337-NoTableStoredProcedureAssigned.", "LFF2400-DataSourceConnectionError - Connecting Oracle ODBC Connection with Forms 10.3.1"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF337-NoTableStoredProcedureAssigned; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LFF2400-DataSourceConnectionError - Connecting Oracle ODBC Connection with Forms 10.3.1",
+        url: "https://answers.laserfiche.com/questions/141444/LFF2400DataSourceConnectionError--Connecting-Oracle-ODBC-Connection-with-Forms-1031",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF337-NoTableStoredProcedureAssigned."
+      }
+    ]
+  },
+  {
+    id: "forms-10502-forms-app-admin-event-log-error-10502-unexpectederrorerroradmin",
+    code: "10502",
+    message: "Forms App Admin Event log error 10502 - UnexpectedErrorErrorAdmin",
+    product: "Forms",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report 10502 in the reviewed Answers source \"Forms App Admin Event log error 10502 - UnexpectedErrorErrorAdmin\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 10502.", "Forms App Admin Event log error 10502 - UnexpectedErrorErrorAdmin"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for 10502; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms App Admin Event log error 10502 - UnexpectedErrorErrorAdmin",
+        url: "https://answers.laserfiche.com/questions/233207/Forms-App-Admin-Event-log-error-10502--UnexpectedErrorErrorAdmin",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 10502."
+      }
+    ]
+  },
+  {
+    id: "forms-lff4101-failedtouploadfile-receiving-this-error-error-uploading-lff4101-failedtouploadfil",
+    code: "LFF4101-FailedToUploadFile",
+    message: "Receiving this error Error uploading. [LFF4101-FailedToUploadFile] any ideas what it could be?",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF4101-FailedToUploadFile in the reviewed Answers source \"Receiving this error Error uploading. [LFF4101-FailedToUploadFile] any ideas what it could be?\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF4101-FailedToUploadFile.", "Receiving this error Error uploading. [LFF4101-FailedToUploadFile] any ideas what it could be?"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF4101-FailedToUploadFile; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Receiving this error Error uploading. [LFF4101-FailedToUploadFile] any ideas what it could be?",
+        url: "https://answers.laserfiche.com/questions/107649/Receiving-this-error-Error-uploading-LFF4101FailedToUploadFile-any-ideas-what-it-could-be",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF4101-FailedToUploadFile."
+      }
+    ]
+  },
+  {
+    id: "forms-lff4120-erroroccurredduringdownload-forms-portal-insufficient-rights-to-bpinstancesexport",
+    code: "LFF4120-ErrorOccurredDuringDownload",
+    message: "Forms Portal: Insufficient rights to BPInstancesExport.ashx",
+    product: "Forms",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF4120-ErrorOccurredDuringDownload in the reviewed Answers source \"Forms Portal: Insufficient rights to BPInstancesExport.ashx\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF4120-ErrorOccurredDuringDownload.", "Forms Portal: Insufficient rights to BPInstancesExport.ashx"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF4120-ErrorOccurredDuringDownload; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms Portal: Insufficient rights to BPInstancesExport.ashx",
+        url: "https://answers.laserfiche.com/questions/156166/Forms-Portal-Insufficient-rights-to-BPInstancesExportashx",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF4120-ErrorOccurredDuringDownload."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0x80040310-operation-timed-out-784-error",
+    code: "0x80040310",
+    message: "Operation Timed Out. [784] Error",
+    product: "Laserfiche Installer",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0x80040310 in the reviewed Answers source \"Operation Timed Out. [784] Error\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80040310.", "Operation Timed Out. [784] Error"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80040310; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Operation Timed Out. [784] Error",
+        url: "https://answers.laserfiche.com/questions/148489/Operation-Timed-Out-784-Error",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80040310."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0645-wf1-laserfiche-workflow-9-1-license-error-0645-wf1",
+    code: "0645-WF1 / 0644-WF1 / 0645",
+    message: "Laserfiche Workflow 9.1 License Error 0645-WF1",
+    product: "Laserfiche Installer",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0645-WF1 / 0644-WF1 / 0645 in the reviewed Answers source \"Laserfiche Workflow 9.1 License Error 0645-WF1\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0645-WF1 / 0644-WF1 / 0645.", "Laserfiche Workflow 9.1 License Error 0645-WF1"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0645-WF1 / 0644-WF1 / 0645; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche Workflow 9.1 License Error 0645-WF1",
+        url: "https://answers.laserfiche.com/questions/53229/Laserfiche-Workflow-91-License-Error-0645WF1",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0645-WF1 / 0644-WF1 / 0645."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-1923-error-1923-service-laserfiche-server-could-not-be-inst",
+    code: "1923",
+    message: "Error 1923. Service \"Laserfiche Server\"could not be installed. Verify that you have sufficient privileges to instalall system devices",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 1923 in the reviewed Answers source \"Error 1923. Service \"Laserfiche Server\"could not be installed. Verify that you have sufficient privileges to instalall system devices\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 1923.", "Error 1923. Service \"Laserfiche Server\"could not be installed. Verify that you have sufficient privileges to instalall system devices"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 1923; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error 1923. Service \"Laserfiche Server\"could not be installed. Verify that you have sufficient privileges to instalall system devices",
+        url: "https://answers.laserfiche.com/questions/128966/Error-1923-Service-Laserfiche-Servercould-not-be-installed-Verify-that-you-have-sufficient-privileges-to-instalall-system-devices",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 1923."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0458-wf0-connection-validation-failed-error-specified-argum",
+    code: "0458-WF0",
+    message: "Connection validation failed. Error: 'Specified argument was out of the range of valid values. Parameter name: value'. [0458-WF0]",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0458-WF0 in the reviewed Answers source \"Connection validation failed. Error: 'Specified argument was out of the range of valid values. Parameter name: value'. [0458-WF0]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0458-WF0.", "Connection validation failed. Error: 'Specified argument was out of the range of valid values. Parameter name: value'. [0458-WF0]"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0458-WF0; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Connection validation failed. Error: 'Specified argument was out of the range of valid values. Parameter name: value'. [0458-WF0]",
+        url: "https://answers.laserfiche.com/questions/114085/Connection-validation-failed-Error-Specified-argument-was-out-of-the-range-of-valid-values-Parameter-name-value-0458WF0",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0458-WF0."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-2044-vm-server-move",
+    code: "2044",
+    message: "VM Server move",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 2044 in the reviewed Answers source \"VM Server move\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 2044.", "VM Server move"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 2044; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "VM Server move",
+        url: "https://answers.laserfiche.com/questions/69715/VM-Server-move",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 2044."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0xc0042530-9520-error",
+    code: "0xc0042530 / 0x80042530",
+    message: "9520 error",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0xc0042530 / 0x80042530 in the reviewed Answers source \"9520 error\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042530 / 0x80042530.", "9520 error"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042530 / 0x80042530; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "9520 error",
+        url: "https://answers.laserfiche.com/questions/60589/9520-error",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042530 / 0x80042530."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0xc0042330-getting-database-error-when-trying-to-login-to-l",
+    code: "0xc0042330 / 0x80042330",
+    message: "Getting database error when trying to login to Laserfiche",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0xc0042330 / 0x80042330 in the reviewed Answers source \"Getting database error when trying to login to Laserfiche\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042330 / 0x80042330.", "Getting database error when trying to login to Laserfiche"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042330 / 0x80042330; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Getting database error when trying to login to Laserfiche",
+        url: "https://answers.laserfiche.com/questions/175852/Getting-database-error-when-trying-to-login-to-Laserfiche",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042330 / 0x80042330."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0xc0042483-the-laserfiche-server-was-unable-to-log-an-audit",
+    code: "0xc0042483",
+    message: "The Laserfiche Server was unable to log an audit event because it exceeded the maximum record size allowed",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0xc0042483 in the reviewed Answers source \"The Laserfiche Server was unable to log an audit event because it exceeded the maximum record size allowed\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042483.", "The Laserfiche Server was unable to log an audit event because it exceeded the maximum record size allowed"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042483; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "The Laserfiche Server was unable to log an audit event because it exceeded the maximum record size allowed",
+        url: "https://answers.laserfiche.com/questions/105228/The-Laserfiche-Server-was-unable-to-log-an-audit-event-because-it-exceeded-the-maximum-record-size-allowed",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042483."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0x80040556-internal-ssl-error-1366-when-attempting-to-attac",
+    code: "0x80040556",
+    message: "Internal SSL error [1366] when attempting to attach a repository from the client using SSL.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0x80040556 in the reviewed Answers source \"Internal SSL error [1366] when attempting to attach a repository from the client using SSL.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80040556.", "Internal SSL error [1366] when attempting to attach a repository from the client using SSL."],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80040556; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Internal SSL error [1366] when attempting to attach a repository from the client using SSL.",
+        url: "https://answers.laserfiche.com/questions/63336/Internal-SSL-error-1366-when-attempting-to-attach-a-repository-from-the-client-using-SSL",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80040556."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0xc005041a-exportar-e-importar-portafolios",
+    code: "0xC005041A",
+    message: "Exportar e Importar Portafolios",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0xC005041A in the reviewed Answers source \"Exportar e Importar Portafolios\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xC005041A.", "Exportar e Importar Portafolios"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xC005041A; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Exportar e Importar Portafolios",
+        url: "https://answers.laserfiche.com/questions/53212/Exportar-e-Importar-Portafolios",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xC005041A."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0xc005041b-there-was-an-error-adding-the-word-locations-of",
+    code: "0xC005041B",
+    message: "\"There was an error adding the word locations of a page to the briefcase\"",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0xC005041B in the reviewed Answers source \"\"There was an error adding the word locations of a page to the briefcase\"\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xC005041B.", "\"There was an error adding the word locations of a page to the briefcase\""],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xC005041B; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "\"There was an error adding the word locations of a page to the briefcase\"",
+        url: "https://answers.laserfiche.com/questions/118435/There-was-an-error-adding-the-word-locations-of-a-page-to-the-briefcase",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xC005041B."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0645-wf1-error-0645-wf1-the-workflow-service-is-not-license",
+    code: "0645-WF1",
+    message: "Error: [0645-WF1] The workflow service is not licensed.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0645-WF1 in the reviewed Answers source \"Error: [0645-WF1] The workflow service is not licensed.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0645-WF1.", "Error: [0645-WF1] The workflow service is not licensed."],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0645-WF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error: [0645-WF1] The workflow service is not licensed.",
+        url: "https://answers.laserfiche.com/questions/227401/Error-0645WF1-The-workflow-service-is-not-licensed",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0645-WF1."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0xc005041a-ra-breifcase-export",
+    code: "0xC005041A",
+    message: "RA Breifcase export",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0xC005041A in the reviewed Answers source \"RA Breifcase export\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xC005041A.", "RA Breifcase export"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xC005041A; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "RA Breifcase export",
+        url: "https://answers.laserfiche.com/questions/79896/RA-Breifcase-export",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xC005041A."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0x80070050-briefcase-importation",
+    code: "0x80070050 / 0x80090322 / 0xC0050400",
+    message: "Briefcase Importation",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0x80070050 / 0x80090322 / 0xC0050400 in the reviewed Answers source \"Briefcase Importation\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80070050 / 0x80090322 / 0xC0050400.", "Briefcase Importation"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80070050 / 0x80090322 / 0xC0050400; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Briefcase Importation",
+        url: "https://answers.laserfiche.com/questions/144581/Briefcase-Importation",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80070050 / 0x80090322 / 0xC0050400."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0x80004003-system-nullreferenceexception-invalid-pointer",
+    code: "0x80004003 / 0x00004003",
+    message: "System.NullReferenceException: Invalid pointer",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0x80004003 / 0x00004003 in the reviewed Answers source \"System.NullReferenceException: Invalid pointer\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80004003 / 0x00004003.", "System.NullReferenceException: Invalid pointer"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80004003 / 0x00004003; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "System.NullReferenceException: Invalid pointer",
+        url: "https://answers.laserfiche.com/questions/55579/SystemNullReferenceException-Invalid-pointer",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80004003 / 0x00004003."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0x80040300-unknown-error-with-no-error-code-while-opening-a",
+    code: "0x80040300",
+    message: "Unknown error with no error code while opening a specific document in LF client 9.1.1",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0x80040300 in the reviewed Answers source \"Unknown error with no error code while opening a specific document in LF client 9.1.1\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80040300.", "Unknown error with no error code while opening a specific document in LF client 9.1.1"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80040300; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Unknown error with no error code while opening a specific document in LF client 9.1.1",
+        url: "https://answers.laserfiche.com/questions/63195/Unknown-error-with-no-error-code-while-opening-a-specific-document-in-LF-client-911",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80040300."
+      }
+    ]
+  },
+  {
+    id: "mobile-lff2106-invaliddatasent-forms-has-encountered-a-problem-invalid-data-sent-to-server",
+    code: "LFF2106-InvalidDataSent",
+    message: "Forms has encountered a problem. Invalid data sent to server",
+    product: "Mobile",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Mobile can report LFF2106-InvalidDataSent in the reviewed Answers source \"Forms has encountered a problem. Invalid data sent to server\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF2106-InvalidDataSent.", "Forms has encountered a problem. Invalid data sent to server"],
+    likelyFixes: ["Use the linked Answers source as the starting point for LFF2106-InvalidDataSent; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms has encountered a problem. Invalid data sent to server",
+        url: "https://answers.laserfiche.com/questions/178830/Forms-has-encountered-a-problem-Invalid-data-sent-to-server",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF2106-InvalidDataSent."
+      }
+    ]
+  },
+  {
+    id: "mobile-lff5017-licensevalidationnosuccess-forms-configuration-failed-to-load",
+    code: "LFF5017-LicenseValidationNoSuccess",
+    message: "Forms Configuration Failed to Load",
+    product: "Mobile",
+    versions: ["Version 9", "Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Mobile can report LFF5017-LicenseValidationNoSuccess in the reviewed Answers source \"Forms Configuration Failed to Load\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF5017-LicenseValidationNoSuccess.", "Forms Configuration Failed to Load"],
+    likelyFixes: ["Use the linked Answers source as the starting point for LFF5017-LicenseValidationNoSuccess; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Forms Configuration Failed to Load",
+        url: "https://answers.laserfiche.com/questions/126513/Forms-Configuration-Failed-to-Load",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF5017-LicenseValidationNoSuccess."
+      }
+    ]
+  },
+  {
+    id: "mobile-lff2006-emailtestfailed-the-test-email-failed-because-authentication-unsuccessful-lff200",
+    code: "LFF2006-EmailTestFailed",
+    message: "The test email failed because: Authentication unsuccessful [LFF2006-EmailTestFailed]",
+    product: "Mobile",
+    versions: ["Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Mobile can report LFF2006-EmailTestFailed in the reviewed Answers source \"The test email failed because: Authentication unsuccessful [LFF2006-EmailTestFailed]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF2006-EmailTestFailed.", "The test email failed because: Authentication unsuccessful [LFF2006-EmailTestFailed]"],
+    likelyFixes: ["Use the linked Answers source as the starting point for LFF2006-EmailTestFailed; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "The test email failed because: Authentication unsuccessful [LFF2006-EmailTestFailed]",
+        url: "https://answers.laserfiche.com/questions/229243/The-test-email-failed-because-Authentication-unsuccessful-LFF2006EmailTestFailed",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF2006-EmailTestFailed."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-0224-bp1-quick-fields-process-type-x-is-not-licensed-for-use-0224-bp1",
+    code: "0224-BP1",
+    message: "Quick Fields - process type 'X' is not licensed for use [0224-BP1]",
+    product: "Quick Fields",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 0224-BP1 in the reviewed Answers source \"Quick Fields - process type 'X' is not licensed for use [0224-BP1]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0224-BP1.", "Quick Fields - process type 'X' is not licensed for use [0224-BP1]"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0224-BP1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Quick Fields - process type 'X' is not licensed for use [0224-BP1]",
+        url: "https://answers.laserfiche.com/questions/168174/Quick-Fields--process-type-X-is-not-licensed-for-use-0224BP1",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0224-BP1."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-0967-bp0-qf-scan-engine-timeout",
+    code: "0967-BP0 / 0967",
+    message: "QF Scan Engine Timeout",
+    product: "Quick Fields",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 0967-BP0 / 0967 in the reviewed Answers source \"QF Scan Engine Timeout\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0967-BP0 / 0967.", "QF Scan Engine Timeout"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0967-BP0 / 0967; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "QF Scan Engine Timeout",
+        url: "https://answers.laserfiche.com/questions/157486/QF-Scan-Engine-Timeout",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0967-BP0 / 0967."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-128-barcode-scan-errors-invalid-characters-randomly-occurring",
+    code: "128",
+    message: "Barcode Scan Errors - Invalid Characters, Randomly Occurring",
+    product: "Quick Fields",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 128 in the reviewed Answers source \"Barcode Scan Errors - Invalid Characters, Randomly Occurring\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 128.", "Barcode Scan Errors - Invalid Characters, Randomly Occurring"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 128; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Barcode Scan Errors - Invalid Characters, Randomly Occurring",
+        url: "https://answers.laserfiche.com/questions/123033/Barcode-Scan-Errors--Invalid-Characters-Randomly-Occurring",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 128."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-lff337-notableorstoredprocedureassigned-lff337-notableorstoredprocedureassigned-ag",
+    code: "LFF337-NoTableorStoredProcedureAssigned",
+    message: "[LFF337-NoTableorStoredProcedureAssigned] -- again",
+    product: "Quick Fields",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report LFF337-NoTableorStoredProcedureAssigned in the reviewed Answers source \"[LFF337-NoTableorStoredProcedureAssigned] -- again\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF337-NoTableorStoredProcedureAssigned.", "[LFF337-NoTableorStoredProcedureAssigned] -- again"],
+    likelyFixes: ["Use the linked Answers source as the starting point for LFF337-NoTableorStoredProcedureAssigned; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "[LFF337-NoTableorStoredProcedureAssigned] -- again",
+        url: "https://answers.laserfiche.com/questions/190226/LFF337NoTableorStoredProcedureAssigned--again",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF337-NoTableorStoredProcedureAssigned."
+      }
+    ]
+  },
+  {
+    id: "workflow-10061-problem-passing-a-token-from-form-to-workflow",
+    code: "10061",
+    message: "Problem Passing a token from form to workflow",
+    product: "Workflow",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Workflow can report 10061 in the reviewed Answers source \"Problem Passing a token from form to workflow\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 10061.", "Problem Passing a token from form to workflow"],
+    likelyFixes: ["Review Workflow Designer validation output and Workflow Server logs for the activity or service call that emitted the code.", "Check connection profiles, service account permissions, repository connectivity, and recently changed workflow definitions.", "Use the linked Answers source as the starting point for 10061; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Problem Passing a token from form to workflow",
+        url: "https://answers.laserfiche.com/questions/212309/Problem-Passing-a-token-from-form-to-workflow",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 10061."
+      }
+    ]
+  },
+  {
+    id: "workflow-10061-could-not-connect-to-laserfiche-server-in-workflow",
+    code: "10061",
+    message: "Could not connect to Laserfiche Server in Workflow",
+    product: "Workflow",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Workflow can report 10061 in the reviewed Answers source \"Could not connect to Laserfiche Server in Workflow\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 10061.", "Could not connect to Laserfiche Server in Workflow"],
+    likelyFixes: ["Review Workflow Designer validation output and Workflow Server logs for the activity or service call that emitted the code.", "Check connection profiles, service account permissions, repository connectivity, and recently changed workflow definitions.", "Use the linked Answers source as the starting point for 10061; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Could not connect to Laserfiche Server in Workflow",
+        url: "https://answers.laserfiche.com/questions/88653/Could-not-connect-to-Laserfiche-Server-in-Workflow",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 10061."
+      }
+    ]
+  },
+  {
+    id: "workflow-0xc0000142-memory-leaks-or-resource-issues-with-workflow-9-2-0-167",
+    code: "0xc0000142",
+    message: "Memory Leaks or Resource Issues with Workflow 9.2.0.167",
+    product: "Workflow",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Workflow can report 0xc0000142 in the reviewed Answers source \"Memory Leaks or Resource Issues with Workflow 9.2.0.167\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0000142.", "Memory Leaks or Resource Issues with Workflow 9.2.0.167"],
+    likelyFixes: ["Review Workflow Designer validation output and Workflow Server logs for the activity or service call that emitted the code.", "Check connection profiles, service account permissions, repository connectivity, and recently changed workflow definitions.", "Use the linked Answers source as the starting point for 0xc0000142; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Memory Leaks or Resource Issues with Workflow 9.2.0.167",
+        url: "https://answers.laserfiche.com/questions/101467/Memory-Leaks-or-Resource-Issues-with-Workflow-920167",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0000142."
+      }
+    ]
+  },
+  {
+    id: "workflow-0287-wf0-workflow-read-xml-to-process-an-xml-file-in-a-windows-folder",
+    code: "0287-WF0",
+    message: "Workflow \"Read XML\" to process an XML file in a windows folder",
+    product: "Workflow",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Workflow can report 0287-WF0 in the reviewed Answers source \"Workflow \"Read XML\" to process an XML file in a windows folder\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0287-WF0.", "Workflow \"Read XML\" to process an XML file in a windows folder"],
+    likelyFixes: ["Review Workflow Designer validation output and Workflow Server logs for the activity or service call that emitted the code.", "Check connection profiles, service account permissions, repository connectivity, and recently changed workflow definitions.", "Use the linked Answers source as the starting point for 0287-WF0; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Workflow \"Read XML\" to process an XML file in a windows folder",
+        url: "https://answers.laserfiche.com/questions/61622/Workflow-Read-XML-to-process-an-XML-file-in-a-windows-folder",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0287-WF0."
+      }
+    ]
+  },
+  {
+    id: "web-client-0x80070542-asp-net-service-impersonation-issues",
+    code: "0x80070542",
+    message: "ASP.Net Service - Impersonation Issues",
+    product: "Web Client",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Web Client can report 0x80070542 in the reviewed Answers source \"ASP.Net Service - Impersonation Issues\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80070542.", "ASP.Net Service - Impersonation Issues"],
+    likelyFixes: ["Check IIS logs, browser console/network details, and Web Client application logs for the request that emitted the code.", "Verify authentication, application pool, Web Client configuration, and repository connectivity for the affected user path.", "Use the linked Answers source as the starting point for 0x80070542; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "ASP.Net Service - Impersonation Issues",
+        url: "https://answers.laserfiche.com/questions/85099/ASPNet-Service--Impersonation-Issues-",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80070542."
+      }
+    ]
+  },
+  {
+    id: "web-client-0xc004234d-error-9037-occurs-from-time-to-time-restart-services-any-everything-is-fi",
+    code: "0xc004234d / 0x8004234d",
+    message: "Error 9037 occurs from time to time. Restart services any everything is fine.",
+    product: "Web Client",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Web Client can report 0xc004234d / 0x8004234d in the reviewed Answers source \"Error 9037 occurs from time to time. Restart services any everything is fine.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc004234d / 0x8004234d.", "Error 9037 occurs from time to time. Restart services any everything is fine."],
+    likelyFixes: ["Check IIS logs, browser console/network details, and Web Client application logs for the request that emitted the code.", "Verify authentication, application pool, Web Client configuration, and repository connectivity for the affected user path.", "Use the linked Answers source as the starting point for 0xc004234d / 0x8004234d; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error 9037 occurs from time to time. Restart services any everything is fine.",
+        url: "https://answers.laserfiche.com/questions/50201/Error-9037-occurs-from-time-to-time-Restart-services-any-everything-is-fine",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc004234d / 0x8004234d."
+      }
+    ]
+  },
+  {
+    id: "weblink-lff2111-requestvalidationexception-does-laserfiche-detect-and-block-potential-sql-injec",
+    code: "LFF2111-RequestValidationException",
+    message: "Does Laserfiche detect and block potential SQL Injection?",
+    product: "WebLink",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "WebLink can report LFF2111-RequestValidationException in the reviewed Answers source \"Does Laserfiche detect and block potential SQL Injection?\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF2111-RequestValidationException.", "Does Laserfiche detect and block potential SQL Injection?"],
+    likelyFixes: ["Use the linked Answers source as the starting point for LFF2111-RequestValidationException; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Does Laserfiche detect and block potential SQL Injection?",
+        url: "https://answers.laserfiche.com/questions/116360/Does-Laserfiche-detect-and-block-potential-SQL-Injection",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF2111-RequestValidationException."
+      }
+    ]
+  },
+  {
+    id: "weblink-10060-weblink-9-0-1-sp1-cannot-configure-email-server",
+    code: "10060",
+    message: "weblink 9.0.1 (SP1) Cannot configure email server",
+    product: "WebLink",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "WebLink can report 10060 in the reviewed Answers source \"weblink 9.0.1 (SP1) Cannot configure email server\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 10060.", "weblink 9.0.1 (SP1) Cannot configure email server"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 10060; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "weblink 9.0.1 (SP1) Cannot configure email server",
+        url: "https://answers.laserfiche.com/questions/82369/weblink-901-SP1-Cannot-configure-email-server",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 10060."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80004003-invalid-pointer-60000x80004003-when-sharing-a-previous",
+    code: "0x80004003",
+    message: "invalid Pointer 60000x80004003 - When sharing a previous version via Desktop Client",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80004003 in the reviewed Answers source \"invalid Pointer 60000x80004003 - When sharing a previous version via Desktop Client\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80004003.", "invalid Pointer 60000x80004003 - When sharing a previous version via Desktop Client"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80004003; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "invalid Pointer 60000x80004003 - When sharing a previous version via Desktop Client",
+        url: "https://answers.laserfiche.com/questions/185273/invalid-Pointer-60000x80004003--When-sharing-a-previous-version-via-Desktop-Client",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80004003."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x52fdcbab-laserfiche-client-crashes-after-trying-to-save-documen",
+    code: "0x52fdcbab / 0xc0000005 / 0x0008f5bc",
+    message: "Laserfiche Client Crashes after trying to save document",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x52fdcbab / 0xc0000005 / 0x0008f5bc in the reviewed Answers source \"Laserfiche Client Crashes after trying to save document\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x52fdcbab / 0xc0000005 / 0x0008f5bc.", "Laserfiche Client Crashes after trying to save document"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x52fdcbab / 0xc0000005 / 0x0008f5bc; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche Client Crashes after trying to save document",
+        url: "https://answers.laserfiche.com/questions/108166/Laserfiche-Client-Crashes-after-trying-to-save-document",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x52fdcbab / 0xc0000005 / 0x0008f5bc."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0xc00cee2c-lfe-file-change-in-10-3",
+    code: "0xc00cee2c",
+    message: "LFE file change in 10.3?",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0xc00cee2c in the reviewed Answers source \"LFE file change in 10.3?\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc00cee2c.", "LFE file change in 10.3?"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc00cee2c; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LFE file change in 10.3?",
+        url: "https://answers.laserfiche.com/questions/139217/LFE-file-change-in-103",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc00cee2c."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-9569-9569-error",
+    code: "9569",
+    message: "9569 error",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 9569 in the reviewed Answers source \"9569 error\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 9569.", "9569 error"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 9569; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "9569 error",
+        url: "https://answers.laserfiche.com/questions/171980/9569-error",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 9569."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80004002-unable-to-cast-com-object-of-type-system-comobject-to",
+    code: "0x80004002",
+    message: "Unable to cast COM object of type 'System.__ComObject' to interface type 'LFSO102Lib.LFDatabase'.",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80004002 in the reviewed Answers source \"Unable to cast COM object of type 'System.__ComObject' to interface type 'LFSO102Lib.LFDatabase'.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80004002.", "Unable to cast COM object of type 'System.__ComObject' to interface type 'LFSO102Lib.LFDatabase'."],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80004002; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Unable to cast COM object of type 'System.__ComObject' to interface type 'LFSO102Lib.LFDatabase'.",
+        url: "https://answers.laserfiche.com/questions/159902/Unable-to-cast-COM-object-of-type-SystemComObject-to-interface-type-LFSO102LibLFDatabase",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80004002."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0xc0042329-entry-not-found-9001-error-attempting-to-open-or-view",
+    code: "0xc0042329",
+    message: "Entry Not Found - 9001 Error - Attempting to open or view metadata on entry in search results",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0xc0042329 in the reviewed Answers source \"Entry Not Found - 9001 Error - Attempting to open or view metadata on entry in search results\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042329.", "Entry Not Found - 9001 Error - Attempting to open or view metadata on entry in search results"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042329; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Entry Not Found - 9001 Error - Attempting to open or view metadata on entry in search results",
+        url: "https://answers.laserfiche.com/questions/127763/Entry-Not-Found--9001-Error--Attempting-to-open-or-view-metadata-on-entry-in-search-results",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042329."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x800736b1-operation-timed-out-while-trying-to-connect-to-laserfi",
+    code: "0x800736B1",
+    message: "Operation timed out while trying to connect to laserfiche From C#",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x800736B1 in the reviewed Answers source \"Operation timed out while trying to connect to laserfiche From C#\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x800736B1.", "Operation timed out while trying to connect to laserfiche From C#"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x800736B1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Operation timed out while trying to connect to laserfiche From C#",
+        url: "https://answers.laserfiche.com/questions/80805/Operation-timed-out-while-trying-to-connect-to-laserfiche-From-C",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x800736B1."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-340-error-preparing-page-for-ocr-340",
+    code: "340",
+    message: "Error preparing page for OCR / [340]",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 340 in the reviewed Answers source \"Error preparing page for OCR / [340]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 340.", "Error preparing page for OCR / [340]"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 340; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error preparing page for OCR / [340]",
+        url: "https://answers.laserfiche.com/questions/52198/Error-preparing-page-for-OCR---340",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 340."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80040310-failed-to-initialize-metadata-display-error-code-784",
+    code: "0x80040310",
+    message: "Failed to initialize metadata display - Error Code 784",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80040310 in the reviewed Answers source \"Failed to initialize metadata display - Error Code 784\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80040310.", "Failed to initialize metadata display - Error Code 784"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80040310; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Failed to initialize metadata display - Error Code 784",
+        url: "https://answers.laserfiche.com/questions/227906/Failed-to-initialize-metadata-display--Error-Code-784",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80040310."
+      }
+    ]
+  },
+  {
+    id: "directory-server-lff3002-invalidlfdsdatabasename-the-laserfiche-directory-service-database-name",
+    code: "LFF3002-InvalidLFDSDatabaseName",
+    message: "The Laserfiche Directory Service Database name is invalid. [LFF3002-InvalidLFDSDatabaseName]",
+    product: "Directory Server",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report LFF3002-InvalidLFDSDatabaseName in the reviewed Answers source \"The Laserfiche Directory Service Database name is invalid. [LFF3002-InvalidLFDSDatabaseName]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF3002-InvalidLFDSDatabaseName.", "The Laserfiche Directory Service Database name is invalid. [LFF3002-InvalidLFDSDatabaseName]"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for LFF3002-InvalidLFDSDatabaseName; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "The Laserfiche Directory Service Database name is invalid. [LFF3002-InvalidLFDSDatabaseName]",
+        url: "https://answers.laserfiche.com/questions/154204/The-Laserfiche-Directory-Service-Database-name-is-invalid-LFF3002InvalidLFDSDatabaseName",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF3002-InvalidLFDSDatabaseName."
+      }
+    ]
+  },
+  {
+    id: "directory-server-0645-wf1-laserfiche-workflow-12-workflow-service-is-not-licensed-error",
+    code: "0645-WF1",
+    message: "Laserfiche Workflow 12 - Workflow Service is Not Licensed Error",
+    product: "Directory Server",
+    versions: ["Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Directory Server can report 0645-WF1 in the reviewed Answers source \"Laserfiche Workflow 12 - Workflow Service is Not Licensed Error\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0645-WF1.", "Laserfiche Workflow 12 - Workflow Service is Not Licensed Error"],
+    likelyFixes: ["Review LFDS logs, licensing configuration, identity provider settings, and repository registration details at the failure timestamp.", "Verify service account permissions, directory connectivity, certificates, and LFDS/repository reachability.", "Use the linked Answers source as the starting point for 0645-WF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche Workflow 12 - Workflow Service is Not Licensed Error",
+        url: "https://answers.laserfiche.com/questions/225549/Laserfiche-Workflow-12--Workflow-Service-is-Not-Licensed-Error",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0645-WF1."
+      }
+    ]
+  },
+  {
+    id: "forms-lff4101-failedtouploadfile-unable-to-upload-attach-files-to-laserfiche-forms-error-lff410",
+    code: "LFF4101-FailedtoUploadFile",
+    message: "Unable to upload / attach files to Laserfiche Forms Error LFF4101-FailedtoUploadFile, and [LFF502-UnexpectedError] in the Events Log",
+    product: "Forms",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF4101-FailedtoUploadFile in the reviewed Answers source \"Unable to upload / attach files to Laserfiche Forms Error LFF4101-FailedtoUploadFile, and [LFF502-UnexpectedError] in the Events Log\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF4101-FailedtoUploadFile.", "Unable to upload / attach files to Laserfiche Forms Error LFF4101-FailedtoUploadFile, and [LFF502-UnexpectedError] in the Events Log"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF4101-FailedtoUploadFile; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Unable to upload / attach files to Laserfiche Forms Error LFF4101-FailedtoUploadFile, and [LFF502-UnexpectedError] in the Events Log",
+        url: "https://answers.laserfiche.com/questions/230222/Unable-to-upload--attach-files-to-Laserfiche-Forms-Error-LFF4101FailedtoUploadFile-and-LFF502UnexpectedError-in-the-Events-Log",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF4101-FailedtoUploadFile."
+      }
+    ]
+  },
+  {
+    id: "forms-lff5208-wfexecutionerror-workflow-web-service-remote-server-returned-an-error-400-bad-req",
+    code: "LFF5208-WFExecutionError",
+    message: "Workflow Web Service Remote server returned an error: (400) Bad Request when trying to test Laserfiche Forms connection",
+    product: "Forms",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF5208-WFExecutionError in the reviewed Answers source \"Workflow Web Service Remote server returned an error: (400) Bad Request when trying to test Laserfiche Forms connection\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF5208-WFExecutionError.", "Workflow Web Service Remote server returned an error: (400) Bad Request when trying to test Laserfiche Forms connection"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF5208-WFExecutionError; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Workflow Web Service Remote server returned an error: (400) Bad Request when trying to test Laserfiche Forms connection",
+        url: "https://answers.laserfiche.com/questions/212224/Workflow-Web-Service-Remote-server-returned-an-error-400-Bad-Request-when-trying-to-test-Laserfiche-Forms-connection",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF5208-WFExecutionError."
+      }
+    ]
+  },
+  {
+    id: "forms-lff1013-invaliddatevalue-forms-fails-to-submit-with-an-invalid-date-error",
+    code: "LFF1013-InvalidDateValue",
+    message: "Forms fails to submit with an invalid date error.",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF1013-InvalidDateValue in the reviewed Answers source \"Forms fails to submit with an invalid date error.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF1013-InvalidDateValue.", "Forms fails to submit with an invalid date error."],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF1013-InvalidDateValue; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms fails to submit with an invalid date error.",
+        url: "https://answers.laserfiche.com/questions/140795/Forms-fails-to-submit-with-an-invalid-date-error",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF1013-InvalidDateValue."
+      }
+    ]
+  },
+  {
+    id: "forms-lff4112-pdfnetworkerror-uploading-resumes",
+    code: "LFF4112-PdfNetworkError / 200",
+    message: "Uploading Resumes",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF4112-PdfNetworkError / 200 in the reviewed Answers source \"Uploading Resumes\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF4112-PdfNetworkError / 200.", "Uploading Resumes"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF4112-PdfNetworkError / 200; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Uploading Resumes",
+        url: "https://answers.laserfiche.com/questions/113595/Uploading-Resumes",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF4112-PdfNetworkError / 200."
+      }
+    ]
+  },
+  {
+    id: "forms-lff2609-failtogenerateprocessimage-an-error-occurred-while-generating-the-process-image",
+    code: "LFF2609-FailToGenerateProcessImage",
+    message: "An error occurred while generating the process image.",
+    product: "Forms",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF2609-FailToGenerateProcessImage in the reviewed Answers source \"An error occurred while generating the process image.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF2609-FailToGenerateProcessImage.", "An error occurred while generating the process image."],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF2609-FailToGenerateProcessImage; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "An error occurred while generating the process image.",
+        url: "https://answers.laserfiche.com/questions/200565/An-error-occurred-while-generating-the-process-image",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF2609-FailToGenerateProcessImage."
+      }
+    ]
+  },
+  {
+    id: "forms-lff4112-pdfnetworkerror-forms-server-replied-forbidden-on-archive-to-repository",
+    code: "LFF4112-PdfNetworkError / 202",
+    message: "Forms server replied: Forbidden on Archive to Repository",
+    product: "Forms",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF4112-PdfNetworkError / 202 in the reviewed Answers source \"Forms server replied: Forbidden on Archive to Repository\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF4112-PdfNetworkError / 202.", "Forms server replied: Forbidden on Archive to Repository"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF4112-PdfNetworkError / 202; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms server replied: Forbidden on Archive to Repository",
+        url: "https://answers.laserfiche.com/questions/183998/Forms-server-replied-Forbidden-on-Archive-to-Repository",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF4112-PdfNetworkError / 202."
+      }
+    ]
+  },
+  {
+    id: "import-agent-0454-wf1-get-files-from-external-directory",
+    code: "0454-WF1 / 0454",
+    message: "Get files from external directory",
+    product: "Import Agent",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Import Agent can report 0454-WF1 / 0454 in the reviewed Answers source \"Get files from external directory\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0454-WF1 / 0454.", "Get files from external directory"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0454-WF1 / 0454; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Get files from external directory",
+        url: "https://answers.laserfiche.com/questions/197437/Get-files-from-external-directory",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0454-WF1 / 0454."
+      }
+    ]
+  },
+  {
+    id: "forms-lff5413-noactualparticipantsassignedfortask-invoke-forms-process",
+    code: "LFF5413-NoActualParticipantsAssignedForTask",
+    message: "Invoke Forms Process",
+    product: "Forms",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF5413-NoActualParticipantsAssignedForTask in the reviewed Answers source \"Invoke Forms Process\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF5413-NoActualParticipantsAssignedForTask.", "Invoke Forms Process"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF5413-NoActualParticipantsAssignedForTask; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Invoke Forms Process",
+        url: "https://answers.laserfiche.com/questions/97143/Invoke-Forms-Process",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF5413-NoActualParticipantsAssignedForTask."
+      }
+    ]
+  },
+  {
+    id: "forms-lff9300-valuerequired-can-my-form-upload-a-file-associated-with-an-user-task",
+    code: "LFF9300-ValueRequired / LFF9312-ErrorOccuredDuringFormsValidation",
+    message: "Can my form upload a file associated with an User Task?",
+    product: "Forms",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF9300-ValueRequired / LFF9312-ErrorOccuredDuringFormsValidation in the reviewed Answers source \"Can my form upload a file associated with an User Task?\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF9300-ValueRequired / LFF9312-ErrorOccuredDuringFormsValidation.", "Can my form upload a file associated with an User Task?"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF9300-ValueRequired / LFF9312-ErrorOccuredDuringFormsValidation; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Can my form upload a file associated with an User Task?",
+        url: "https://answers.laserfiche.com/questions/123201/Can-my-form-upload-a-file-associated-with-an-User-Task",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF9300-ValueRequired / LFF9312-ErrorOccuredDuringFormsValidation."
+      }
+    ]
+  },
+  {
+    id: "forms-lff4120-erroroccurredduringdownload-forms-custom-report-error-occurred-during-download",
+    code: "LFF4120-ErrorOccurredDuringDownload",
+    message: "Forms > Custom Report > Error occurred during download",
+    product: "Forms",
+    versions: ["Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF4120-ErrorOccurredDuringDownload in the reviewed Answers source \"Forms > Custom Report > Error occurred during download\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF4120-ErrorOccurredDuringDownload.", "Forms > Custom Report > Error occurred during download"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF4120-ErrorOccurredDuringDownload; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms > Custom Report > Error occurred during download",
+        url: "https://answers.laserfiche.com/questions/175641/Forms--Custom-Report--Error-occurred-during-download",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF4120-ErrorOccurredDuringDownload."
+      }
+    ]
+  },
+  {
+    id: "forms-lff2002-emailapprovalserverconnection-direct-approval-config-settings",
+    code: "LFF2002-EmailApprovalServerConnection",
+    message: "Direct Approval config settings",
+    product: "Forms",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF2002-EmailApprovalServerConnection in the reviewed Answers source \"Direct Approval config settings\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF2002-EmailApprovalServerConnection.", "Direct Approval config settings"],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF2002-EmailApprovalServerConnection; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Direct Approval config settings",
+        url: "https://answers.laserfiche.com/questions/165238/Direct-Approval-config-settings",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF2002-EmailApprovalServerConnection."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0x80080005-server-execution-failed-lf-client",
+    code: "0x80080005",
+    message: "Server execution failed - LF Client",
+    product: "Laserfiche Installer",
+    versions: ["Version 9", "Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0x80080005 in the reviewed Answers source \"Server execution failed - LF Client\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80080005.", "Server execution failed - LF Client"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80080005; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Server execution failed - LF Client",
+        url: "https://answers.laserfiche.com/questions/98045/Server-execution-failed--LF-Client",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80080005."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0x800706be-scanconnect-crash",
+    code: "0x800706BE",
+    message: "ScanConnect Crash",
+    product: "Laserfiche Installer",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0x800706BE in the reviewed Answers source \"ScanConnect Crash\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x800706BE.", "ScanConnect Crash"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x800706BE; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "ScanConnect Crash",
+        url: "https://answers.laserfiche.com/questions/120295/ScanConnect-Crash",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x800706BE."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0588-wf1-issue-publishing-workflows-with-custom-activities-using-3rd-party",
+    code: "0588-WF1",
+    message: "Issue publishing workflows with custom activities using 3rd party libraries",
+    product: "Laserfiche Installer",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0588-WF1 in the reviewed Answers source \"Issue publishing workflows with custom activities using 3rd party libraries\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0588-WF1.", "Issue publishing workflows with custom activities using 3rd party libraries"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0588-WF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Issue publishing workflows with custom activities using 3rd party libraries",
+        url: "https://answers.laserfiche.com/questions/105153/Issue-publishing-workflows-with-custom-activities-using-3rd-party-libraries",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0588-WF1."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0x8007007e-retrieving-the-com-class-factory-for-component-with-clsid-474a0",
+    code: "0x8007007E",
+    message: "Retrieving the COM class factory for component with CLSID {474A00CF-8B0F-4656-A5AC-B450549172B8} failed due to the following error: 8007007e The specified module could not be found. (Exception from HRESULT: 0x8007007E).",
+    product: "Laserfiche Installer",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0x8007007E in the reviewed Answers source \"Retrieving the COM class factory for component with CLSID {474A00CF-8B0F-4656-A5AC-B450549172B8} failed due to the following error: 8007007e The specified module could not be found. (Exception from HRESULT: 0x8007007E).\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x8007007E.", "Retrieving the COM class factory for component with CLSID {474A00CF-8B0F-4656-A5AC-B450549172B8} failed due to the following error: 8007007e The specified module could not be found. (Exception from HRESULT: 0x8007007E)."],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x8007007E; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Retrieving the COM class factory for component with CLSID {474A00CF-8B0F-4656-A5AC-B450549172B8} failed due to the following error: 8007007e The specified module could not be found. (Exception from HRESULT: 0x8007007E).",
+        url: "https://answers.laserfiche.com/questions/157087/Retrieving-the-COM-class-factory-for-component-with-CLSID-474A00CF8B0F4656A5ACB450549172B8-failed-due-to-the-following-error-8007007e-The-specified-module-could-not-be-found-Exception-from-HRESULT-0x8007007E",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x8007007E."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0757-wf0-connecting-forms-to-workflow-web-services-and-retrieve-forms-cont",
+    code: "0757-WF0",
+    message: "Connecting Forms to Workflow Web Services and Retrieve Forms Content",
+    product: "Laserfiche Installer",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0757-WF0 in the reviewed Answers source \"Connecting Forms to Workflow Web Services and Retrieve Forms Content\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0757-WF0.", "Connecting Forms to Workflow Web Services and Retrieve Forms Content"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0757-WF0; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Connecting Forms to Workflow Web Services and Retrieve Forms Content",
+        url: "https://answers.laserfiche.com/questions/78127/Connecting-Forms-to-Workflow-Web-Services-and-Retrieve-Forms-Content",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0757-WF0."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0x80029c4a-error-code-6000-library-dll-error-code-0-mapi-e-failure-when-tr",
+    code: "0x80029c4a / 0x80070057",
+    message: "Error code 6000 (library\\DLL) & Error code 0 / MAPI_E_FAILURE when trying to email out of Laserfiche",
+    product: "Laserfiche Installer",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0x80029c4a / 0x80070057 in the reviewed Answers source \"Error code 6000 (library\\DLL) & Error code 0 / MAPI_E_FAILURE when trying to email out of Laserfiche\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80029c4a / 0x80070057.", "Error code 6000 (library\\DLL) & Error code 0 / MAPI_E_FAILURE when trying to email out of Laserfiche"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80029c4a / 0x80070057; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error code 6000 (library\\DLL) & Error code 0 / MAPI_E_FAILURE when trying to email out of Laserfiche",
+        url: "https://answers.laserfiche.com/questions/128570/Error-code-6000-libraryDLL--Error-code-0--MAPIEFAILURE-when-trying-to-email-out-of-Laserfiche",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80029c4a / 0x80070057."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0103-wf6-form-fields-are-not-populating-in-laserfiche-template",
+    code: "0103-WF6",
+    message: "Form fields are not populating in Laserfiche template",
+    product: "Laserfiche Installer",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0103-WF6 in the reviewed Answers source \"Form fields are not populating in Laserfiche template\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0103-WF6.", "Form fields are not populating in Laserfiche template"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0103-WF6; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Form fields are not populating in Laserfiche template",
+        url: "https://answers.laserfiche.com/questions/66767/Form-fields-are-not-populating-in-Laserfiche-template",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0103-WF6."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0x80004002-unable-to-cast-com-object-of-type-system-comobje",
+    code: "0x80004002",
+    message: "Unable to cast COM object of type 'System.__ComObject' to interface type 'LFSO80Lib.LFDocument'.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0x80004002 in the reviewed Answers source \"Unable to cast COM object of type 'System.__ComObject' to interface type 'LFSO80Lib.LFDocument'.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80004002.", "Unable to cast COM object of type 'System.__ComObject' to interface type 'LFSO80Lib.LFDocument'."],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80004002; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Unable to cast COM object of type 'System.__ComObject' to interface type 'LFSO80Lib.LFDocument'.",
+        url: "https://answers.laserfiche.com/questions/154382/Unable-to-cast-COM-object-of-type-SystemComObject-to-interface-type-LFSO80LibLFDocument",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80004002."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0x80040304-can-t-get-connection",
+    code: "0x80040304",
+    message: "Can't get connection",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0x80040304 in the reviewed Answers source \"Can't get connection\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80040304.", "Can't get connection"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80040304; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Can't get connection",
+        url: "https://answers.laserfiche.com/questions/137619/Cant-get-connection",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80040304."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0299-wf1-using-the-move-entry-task-does-not-move-the-entry",
+    code: "0299-WF1",
+    message: "Using the \"Move Entry\" task does not move the entry into an existing folder.",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0299-WF1 in the reviewed Answers source \"Using the \"Move Entry\" task does not move the entry into an existing folder.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0299-WF1.", "Using the \"Move Entry\" task does not move the entry into an existing folder."],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0299-WF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Using the \"Move Entry\" task does not move the entry into an existing folder.",
+        url: "https://answers.laserfiche.com/questions/189493/Using-the-Move-Entry-task-does-not-move-the-entry-into-an-existing-folder",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0299-WF1."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0xc0042330-how-to-configure-laserfiche-server-to-not-be-db",
+    code: "0xc0042330 / 0x80042330",
+    message: "How to configure Laserfiche (server) to NOT be db_owner - least privileges",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0xc0042330 / 0x80042330 in the reviewed Answers source \"How to configure Laserfiche (server) to NOT be db_owner - least privileges\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042330 / 0x80042330.", "How to configure Laserfiche (server) to NOT be db_owner - least privileges"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042330 / 0x80042330; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "How to configure Laserfiche (server) to NOT be db_owner - least privileges",
+        url: "https://answers.laserfiche.com/questions/182333/How-to-configure-Laserfiche-server-to-NOT-be-dbowner--least-privileges",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042330 / 0x80042330."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0x80070003-the-system-cannot-find-the-path-specified-6000-0",
+    code: "0x80070003",
+    message: "The system cannot find the path specified. [6000:0x80070003]",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0x80070003 in the reviewed Answers source \"The system cannot find the path specified. [6000:0x80070003]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80070003.", "The system cannot find the path specified. [6000:0x80070003]"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80070003; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "The system cannot find the path specified. [6000:0x80070003]",
+        url: "https://answers.laserfiche.com/questions/85125/The-system-cannot-find-the-path-specified-60000x80070003",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80070003."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0636-wf1-unable-to-register-repository-in-workflow-reposito",
+    code: "0636-WF1",
+    message: "Unable to Register Repository in Workflow Repository Manager",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0636-WF1 in the reviewed Answers source \"Unable to Register Repository in Workflow Repository Manager\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0636-WF1.", "Unable to Register Repository in Workflow Repository Manager"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0636-WF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Unable to Register Repository in Workflow Repository Manager",
+        url: "https://answers.laserfiche.com/questions/63587/Unable-to-Register-Repository-in-Workflow-Repository-Manager",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0636-WF1."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0x8007052e-client-login-using-active-directory-with-wrong-c",
+    code: "0x8007052E",
+    message: "Client login using Active Directory with wrong credentials generate Unknown error. [6000] - possible bug",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0x8007052E in the reviewed Answers source \"Client login using Active Directory with wrong credentials generate Unknown error. [6000] - possible bug\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x8007052E.", "Client login using Active Directory with wrong credentials generate Unknown error. [6000] - possible bug"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x8007052E; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Client login using Active Directory with wrong credentials generate Unknown error. [6000] - possible bug",
+        url: "https://answers.laserfiche.com/questions/148403/Client-login-using-Active-Directory-with-wrong-credentials-generate-Unknown-error-6000--possible-bug",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x8007052E."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0xc0042339-bad-field-value-when-entering-a-number-into-a-nu",
+    code: "0xc0042339",
+    message: "Bad field value when entering a number into a number field",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 9", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0xc0042339 in the reviewed Answers source \"Bad field value when entering a number into a number field\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042339.", "Bad field value when entering a number into a number field"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042339; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Bad field value when entering a number into a number field",
+        url: "https://answers.laserfiche.com/questions/215577/Bad-field-value-when-entering-a-number-into-a-number-field",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042339."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-0213-bp1-qf-10-failed-to-delete-document",
+    code: "0213-BP1",
+    message: "QF 10 / failed to delete document",
+    product: "Quick Fields",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 0213-BP1 in the reviewed Answers source \"QF 10 / failed to delete document\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0213-BP1.", "QF 10 / failed to delete document"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0213-BP1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "QF 10 / failed to delete document",
+        url: "https://answers.laserfiche.com/questions/109167/QF-10--failed-to-delete-document",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0213-BP1."
+      }
+    ]
+  },
+  {
+    id: "workflow-0287-wf0-append-two-or-more-electronic-files-in-the-same-mail-using-workflow",
+    code: "0287-WF0",
+    message: "Append two or more electronic files in the same mail using workflow?",
+    product: "Workflow",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Workflow can report 0287-WF0 in the reviewed Answers source \"Append two or more electronic files in the same mail using workflow?\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0287-WF0.", "Append two or more electronic files in the same mail using workflow?"],
+    likelyFixes: ["Review Workflow Designer validation output and Workflow Server logs for the activity or service call that emitted the code.", "Check connection profiles, service account permissions, repository connectivity, and recently changed workflow definitions.", "Use the linked Answers source as the starting point for 0287-WF0; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Append two or more electronic files in the same mail using workflow?",
+        url: "https://answers.laserfiche.com/questions/68962/Append-two-or-more-electronic-files-in-the-same-mail-using-workflow",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0287-WF0."
+      }
+    ]
+  },
+  {
+    id: "workflow-10061-no-connection-could-be-made-because-the-target-machine-actively-refused-it",
+    code: "10061",
+    message: "No connection could be made because the target machine actively refused it",
+    product: "Workflow",
+    versions: ["Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Workflow can report 10061 in the reviewed Answers source \"No connection could be made because the target machine actively refused it\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 10061.", "No connection could be made because the target machine actively refused it"],
+    likelyFixes: ["Review Workflow Designer validation output and Workflow Server logs for the activity or service call that emitted the code.", "Check connection profiles, service account permissions, repository connectivity, and recently changed workflow definitions.", "Use the linked Answers source as the starting point for 10061; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "No connection could be made because the target machine actively refused it",
+        url: "https://answers.laserfiche.com/questions/149002/No-connection-could-be-made-because-the-target-machine-actively-refused-it",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 10061."
+      }
+    ]
+  },
+  {
+    id: "workflow-0x5cf95718-the-workflow-service-won-t-start",
+    code: "0x5cf95718 / 0x64253b4c",
+    message: "The Workflow service won't start",
+    product: "Workflow",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Workflow can report 0x5cf95718 / 0x64253b4c in the reviewed Answers source \"The Workflow service won't start\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x5cf95718 / 0x64253b4c.", "The Workflow service won't start"],
+    likelyFixes: ["Review Workflow Designer validation output and Workflow Server logs for the activity or service call that emitted the code.", "Check connection profiles, service account permissions, repository connectivity, and recently changed workflow definitions.", "Use the linked Answers source as the starting point for 0x5cf95718 / 0x64253b4c; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "The Workflow service won't start",
+        url: "https://answers.laserfiche.com/questions/211572/The-Workflow-service-wont-start",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x5cf95718 / 0x64253b4c."
+      }
+    ]
+  },
+  {
+    id: "web-client-http-502-web-access-generate-email-json-error",
+    code: "HTTP 502",
+    message: "Web Access: Generate Email JSON Error",
+    product: "Web Client",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Web Client can report HTTP 502 in the reviewed Answers source \"Web Access: Generate Email JSON Error\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports HTTP 502.", "Web Access: Generate Email JSON Error"],
+    likelyFixes: ["Check IIS logs, browser console/network details, and Web Client application logs for the request that emitted the code.", "Verify authentication, application pool, Web Client configuration, and repository connectivity for the affected user path.", "Use the linked Answers source as the starting point for HTTP 502; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Web Access: Generate Email JSON Error",
+        url: "https://answers.laserfiche.com/questions/175517/Web-Access-Generate-Email-JSON-Error",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for HTTP 502."
+      }
+    ]
+  },
+  {
+    id: "web-client-12039-webaccess-unknown-error-12039-timeout-condition-was-detected",
+    code: "12039",
+    message: "WebAccess unknown error 12039 Timeout condition was detected.",
+    product: "Web Client",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Web Client can report 12039 in the reviewed Answers source \"WebAccess unknown error 12039 Timeout condition was detected.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 12039.", "WebAccess unknown error 12039 Timeout condition was detected."],
+    likelyFixes: ["Check IIS logs, browser console/network details, and Web Client application logs for the request that emitted the code.", "Verify authentication, application pool, Web Client configuration, and repository connectivity for the affected user path.", "Use the linked Answers source as the starting point for 12039; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "WebAccess unknown error 12039 Timeout condition was detected.",
+        url: "https://answers.laserfiche.com/questions/94789/WebAccess-unknown-error-12039-Timeout-condition-was-detected",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 12039."
+      }
+    ]
+  },
+  {
+    id: "web-client-lff380-validatenostep-approval-buttons-on-form-not-showing",
+    code: "LFF380-ValidateNoStep",
+    message: "Approval buttons on form not showing",
+    product: "Web Client",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Web Client can report LFF380-ValidateNoStep in the reviewed Answers source \"Approval buttons on form not showing\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF380-ValidateNoStep.", "Approval buttons on form not showing"],
+    likelyFixes: ["Check IIS logs, browser console/network details, and Web Client application logs for the request that emitted the code.", "Verify authentication, application pool, Web Client configuration, and repository connectivity for the affected user path.", "Use the linked Answers source as the starting point for LFF380-ValidateNoStep; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Approval buttons on form not showing",
+        url: "https://answers.laserfiche.com/questions/164969/Approval-buttons-on-form-not-showing",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF380-ValidateNoStep."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80004003-occasionally-encounter-error-when-copying-document-fro",
+    code: "0x80004003 / 0x80090322",
+    message: "occasionally encounter error when copying document from desktop to Laserfiche Client",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80004003 / 0x80090322 in the reviewed Answers source \"occasionally encounter error when copying document from desktop to Laserfiche Client\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80004003 / 0x80090322.", "occasionally encounter error when copying document from desktop to Laserfiche Client"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80004003 / 0x80090322; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "occasionally encounter error when copying document from desktop to Laserfiche Client",
+        url: "https://answers.laserfiche.com/questions/125774/occasionally-encounter-error-when-copying-document-from-desktop-to-Laserfiche-Client",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80004003 / 0x80090322."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80029c4a-trying-to-email-for-lf-client-results-in-error-code-60",
+    code: "0x80029c4a",
+    message: "Trying to email for LF Client results in Error Code : 6000",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80029c4a in the reviewed Answers source \"Trying to email for LF Client results in Error Code : 6000\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80029c4a.", "Trying to email for LF Client results in Error Code : 6000"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80029c4a; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Trying to email for LF Client results in Error Code : 6000",
+        url: "https://answers.laserfiche.com/questions/99479/Trying-to-email-for-LF-Client-results-in-Error-Code--6000",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80029c4a."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80029c4a-error-code-0-mapi-e-failure",
+    code: "0x80029c4a",
+    message: "Error Code: 0 MAPI_E_FAILURE",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80029c4a in the reviewed Answers source \"Error Code: 0 MAPI_E_FAILURE\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80029c4a.", "Error Code: 0 MAPI_E_FAILURE"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80029c4a; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error Code: 0 MAPI_E_FAILURE",
+        url: "https://answers.laserfiche.com/questions/128430/Error-Code-0-MAPIEFAILURE",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80029c4a."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80040197-error-407-ocr-license-check-failed",
+    code: "0x80040197 / 407",
+    message: "Error 407 OCR license check failed",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80040197 / 407 in the reviewed Answers source \"Error 407 OCR license check failed\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80040197 / 407.", "Error 407 OCR license check failed"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80040197 / 407; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error 407 OCR license check failed",
+        url: "https://answers.laserfiche.com/questions/130765/Error-407-OCR-license-check-failed",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80040197 / 407."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0xc0042330-migration-to-new-volume-database-error",
+    code: "0xc0042330",
+    message: "Migration to new volume - Database error",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0xc0042330 in the reviewed Answers source \"Migration to new volume - Database error\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042330.", "Migration to new volume - Database error"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042330; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Migration to new volume - Database error",
+        url: "https://answers.laserfiche.com/questions/79648/Migration-to-new-volume--Database-error",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042330."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x00000001-error-code-6410-error-message-error-opening-file-incor",
+    code: "0x00000001",
+    message: "Error Code: 6410 Error Message: Error opening file. (Incorrect function.)",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x00000001 in the reviewed Answers source \"Error Code: 6410 Error Message: Error opening file. (Incorrect function.)\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x00000001.", "Error Code: 6410 Error Message: Error opening file. (Incorrect function.)"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x00000001; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error Code: 6410 Error Message: Error opening file. (Incorrect function.)",
+        url: "https://answers.laserfiche.com/questions/141775/Error-Code-6410-Error-Message-Error-opening-file--Incorrect-function",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x00000001."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80040310-operation-timed-out-error-message-on-bulk-import",
+    code: "0x80040310",
+    message: "Operation timed out error message on bulk import",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80040310 in the reviewed Answers source \"Operation timed out error message on bulk import\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80040310.", "Operation timed out error message on bulk import"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80040310; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Operation timed out error message on bulk import",
+        url: "https://answers.laserfiche.com/questions/98411/Operation-timed-out-error-message-on-bulk-import",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80040310."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80040310-empower-2019-beachcity-repository-not-opening",
+    code: "0x80040310",
+    message: "empower 2019 BeachCity repository not opening",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80040310 in the reviewed Answers source \"empower 2019 BeachCity repository not opening\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80040310.", "empower 2019 BeachCity repository not opening"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80040310; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "empower 2019 BeachCity repository not opening",
+        url: "https://answers.laserfiche.com/questions/154717/empower-2019-BeachCity-repository-not-opening",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80040310."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0xc0042354-laserfiche-volumes",
+    code: "0xc0042354",
+    message: "Laserfiche Volumes",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 11"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0xc0042354 in the reviewed Answers source \"Laserfiche Volumes\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042354.", "Laserfiche Volumes"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042354; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Laserfiche Volumes",
+        url: "https://answers.laserfiche.com/questions/226557/Laserfiche-Volumes",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042354."
+      }
+    ]
+  },
+  {
+    id: "forms-lff2103-processdeleted-forms-config-the-process-associated-with-the-page-you-are-trying-t",
+    code: "LFF2103-ProcessDeleted",
+    message: "Forms/Config \"The process associated with the page you are trying to view has been deleted [LFF2103-ProcessDeleted]\"",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Forms can report LFF2103-ProcessDeleted in the reviewed Answers source \"Forms/Config \"The process associated with the page you are trying to view has been deleted [LFF2103-ProcessDeleted]\"\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF2103-ProcessDeleted.", "Forms/Config \"The process associated with the page you are trying to view has been deleted [LFF2103-ProcessDeleted]\""],
+    likelyFixes: ["Review the Forms event logs using the business process ID, instance ID, URL, and HTTP status from the error details.", "Check recent process design, service task, lookup, routing, licensing, attachment, and repository-connection changes.", "Use the linked Answers source as the starting point for LFF2103-ProcessDeleted; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms/Config \"The process associated with the page you are trying to view has been deleted [LFF2103-ProcessDeleted]\"",
+        url: "https://answers.laserfiche.com/questions/214328/FormsConfig-The-process-associated-with-the-page-you-are-trying-to-view-has-been-deleted-LFF2103ProcessDeleted",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF2103-ProcessDeleted."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-lff4112-pdfnetworkerror-forms-v-10-4-4-444-error-message",
+    code: "LFF4112-PdfNetworkError",
+    message: "Forms v 10.4.4.444 Error Message",
+    product: "Laserfiche Installer",
+    versions: ["Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report LFF4112-PdfNetworkError in the reviewed Answers source \"Forms v 10.4.4.444 Error Message\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF4112-PdfNetworkError.", "Forms v 10.4.4.444 Error Message"],
+    likelyFixes: ["Use the linked Answers source as the starting point for LFF4112-PdfNetworkError; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms v 10.4.4.444 Error Message",
+        url: "https://answers.laserfiche.com/questions/182413/Forms-v-1044444-Error-Message",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF4112-PdfNetworkError."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-lff2007-emailsubmissionfailure1-forms-email-task",
+    code: "LFF2007-EmailSubmissionFailure1 / LFF5017-LicenseValidationNoSuccess",
+    message: "Forms Email Task",
+    product: "Laserfiche Installer",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report LFF2007-EmailSubmissionFailure1 / LFF5017-LicenseValidationNoSuccess in the reviewed Answers source \"Forms Email Task\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF2007-EmailSubmissionFailure1 / LFF5017-LicenseValidationNoSuccess.", "Forms Email Task"],
+    likelyFixes: ["Use the linked Answers source as the starting point for LFF2007-EmailSubmissionFailure1 / LFF5017-LicenseValidationNoSuccess; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Forms Email Task",
+        url: "https://answers.laserfiche.com/questions/170902/Forms-Email-Task",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF2007-EmailSubmissionFailure1 / LFF5017-LicenseValidationNoSuccess."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-lff0337-lff0337-error",
+    code: "LFF0337 / LFF1006-InvalidArgumentCount",
+    message: "LFF0337 error",
+    product: "Laserfiche Installer",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report LFF0337 / LFF1006-InvalidArgumentCount in the reviewed Answers source \"LFF0337 error\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports LFF0337 / LFF1006-InvalidArgumentCount.", "LFF0337 error"],
+    likelyFixes: ["Use the linked Answers source as the starting point for LFF0337 / LFF1006-InvalidArgumentCount; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LFF0337 error",
+        url: "https://answers.laserfiche.com/questions/141909/LFF0337-error",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for LFF0337 / LFF1006-InvalidArgumentCount."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0742-wf1-workflow-enhanced-security",
+    code: "0742-WF1",
+    message: "Workflow Enhanced Security",
+    product: "Laserfiche Installer",
+    versions: ["Version 10", "Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0742-WF1 in the reviewed Answers source \"Workflow Enhanced Security\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0742-WF1.", "Workflow Enhanced Security"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0742-WF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Workflow Enhanced Security",
+        url: "https://answers.laserfiche.com/questions/185977/Workflow-Enhanced-Security",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0742-WF1."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-installer-0x80131620-laserfiche-import-freeze",
+    code: "0x80131620",
+    message: "Laserfiche import freeze",
+    product: "Laserfiche Installer",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Installer can report 0x80131620 in the reviewed Answers source \"Laserfiche import freeze\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80131620.", "Laserfiche import freeze"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80131620; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche import freeze",
+        url: "https://answers.laserfiche.com/questions/89750/Laserfiche-import-freeze",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80131620."
+      }
+    ]
+  },
+  {
+    id: "laserfiche-server-repository-server-0587-wf1-hold-delay-suspend-a-workflow-until-a-document-is",
+    code: "0587-WF1",
+    message: "Hold/Delay/Suspend a workflow until a document is generated",
+    product: "Laserfiche Server/Repository Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Laserfiche Server/Repository Server can report 0587-WF1 in the reviewed Answers source \"Hold/Delay/Suspend a workflow until a document is generated\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0587-WF1.", "Hold/Delay/Suspend a workflow until a document is generated"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0587-WF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Hold/Delay/Suspend a workflow until a document is generated",
+        url: "https://answers.laserfiche.com/questions/208509/HoldDelaySuspend-a-workflow-until-a-document-is-generated",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0587-WF1."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-22018-quick-fields-session-field-lookup",
+    code: "22018",
+    message: "Quick Fields Session Field Lookup",
+    product: "Quick Fields",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 22018 in the reviewed Answers source \"Quick Fields Session Field Lookup\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 22018.", "Quick Fields Session Field Lookup"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 22018; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Quick Fields Session Field Lookup",
+        url: "https://answers.laserfiche.com/questions/54638/Quick-Fields-Session-Field-Lookup",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 22018."
+      }
+    ]
+  },
+  {
+    id: "quick-fields-128-how-to-force-quick-fields-to-assign-a-template-when-barcode-scanning-has-faile",
+    code: "128",
+    message: "How to force Quick Fields to assign a template when barcode scanning has failed",
+    product: "Quick Fields",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Quick Fields can report 128 in the reviewed Answers source \"How to force Quick Fields to assign a template when barcode scanning has failed\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 128.", "How to force Quick Fields to assign a template when barcode scanning has failed"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 128; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "How to force Quick Fields to assign a template when barcode scanning has failed",
+        url: "https://answers.laserfiche.com/questions/71009/How-to-force-Quick-Fields-to-assign-a-template-when-barcode-scanning-has-failed",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 128."
+      }
+    ]
+  },
+  {
+    id: "workflow-0xc0042363-terminate-workflow-delete-document",
+    code: "0xc0042363",
+    message: "terminate workflow delete document",
+    product: "Workflow",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Workflow can report 0xc0042363 in the reviewed Answers source \"terminate workflow delete document\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042363.", "terminate workflow delete document"],
+    likelyFixes: ["Review Workflow Designer validation output and Workflow Server logs for the activity or service call that emitted the code.", "Check connection profiles, service account permissions, repository connectivity, and recently changed workflow definitions.", "Use the linked Answers source as the starting point for 0xc0042363; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "terminate workflow delete document",
+        url: "https://answers.laserfiche.com/questions/103484/terminate-workflow-delete-document",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042363."
+      }
+    ]
+  },
+  {
+    id: "workflow-0339-wf1-error-the-user-account-name-or-password-is-incorrect",
+    code: "0339-WF1",
+    message: "Error: The user account name or password is incorrect.",
+    product: "Workflow",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Workflow can report 0339-WF1 in the reviewed Answers source \"Error: The user account name or password is incorrect.\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0339-WF1.", "Error: The user account name or password is incorrect."],
+    likelyFixes: ["Review Workflow Designer validation output and Workflow Server logs for the activity or service call that emitted the code.", "Check connection profiles, service account permissions, repository connectivity, and recently changed workflow definitions.", "Use the linked Answers source as the starting point for 0339-WF1; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error: The user account name or password is incorrect.",
+        url: "https://answers.laserfiche.com/questions/144196/Error-The-user-account-name-or-password-is-incorrect",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0339-WF1."
+      }
+    ]
+  },
+  {
+    id: "web-client-0x800a03ec-error-viewing-excel-from-a-url-link-in-forms-custom-html-to-web-access",
+    code: "0x800A03EC",
+    message: "Error viewing Excel from a URL link in Forms custom HTML to Web Access",
+    product: "Web Client",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Web Client can report 0x800A03EC in the reviewed Answers source \"Error viewing Excel from a URL link in Forms custom HTML to Web Access\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x800A03EC.", "Error viewing Excel from a URL link in Forms custom HTML to Web Access"],
+    likelyFixes: ["Check IIS logs, browser console/network details, and Web Client application logs for the request that emitted the code.", "Verify authentication, application pool, Web Client configuration, and repository connectivity for the affected user path.", "Use the linked Answers source as the starting point for 0x800A03EC; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error viewing Excel from a URL link in Forms custom HTML to Web Access",
+        url: "https://answers.laserfiche.com/questions/147300/Error-viewing-Excel-from-a-URL-link-in-Forms-custom-HTML-to-Web-Access",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x800A03EC."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80042335-laserfiche-client-didn-t-ask-my-password-and-return-er",
+    code: "0x80042335",
+    message: "Laserfiche client didn't ask my password and return error 9013",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80042335 in the reviewed Answers source \"Laserfiche client didn't ask my password and return error 9013\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80042335.", "Laserfiche client didn't ask my password and return error 9013"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80042335; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche client didn't ask my password and return error 9013",
+        url: "https://answers.laserfiche.com/questions/127037/Laserfiche-client-didnt-ask-my-password-and-return-error-9013",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80042335."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x5e30b158-ocr-crash",
+    code: "0x5e30b158 / 0xf0fb96d7 / 0xc06d007e / 0x00122552 / 0x5cdf1ea5 / 0x51671cfe / 0x001143d2",
+    message: "OCR crash",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 10", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x5e30b158 / 0xf0fb96d7 / 0xc06d007e / 0x00122552 / 0x5cdf1ea5 / 0x51671cfe / 0x001143d2 in the reviewed Answers source \"OCR crash\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x5e30b158 / 0xf0fb96d7 / 0xc06d007e / 0x00122552 / 0x5cdf1ea5 / 0x51671cfe / 0x001143d2.", "OCR crash"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x5e30b158 / 0xf0fb96d7 / 0xc06d007e / 0x00122552 / 0x5cdf1ea5 / 0x51671cfe / 0x001143d2; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "OCR crash",
+        url: "https://answers.laserfiche.com/questions/174910/OCR-crash",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x5e30b158 / 0xf0fb96d7 / 0xc06d007e / 0x00122552 / 0x5cdf1ea5 / 0x51671cfe / 0x001143d2."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80040310-can-we-set-the-timeout-limit-for-the-client-connection",
+    code: "0x80040310",
+    message: "Can we set the timeout limit for the client connection to server ?",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80040310 in the reviewed Answers source \"Can we set the timeout limit for the client connection to server ?\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80040310.", "Can we set the timeout limit for the client connection to server ?"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80040310; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Can we set the timeout limit for the client connection to server ?",
+        url: "https://answers.laserfiche.com/questions/67882/Can-we-set-the-timeout-limit-for-the-client-connection-to-server-",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80040310."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80004003-invalid-pointer-6000-0x80004003-invalid-pointer",
+    code: "0x80004003",
+    message: "Invalid Pointer [6000:0x80004003] (Invalid Pointer )",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80004003 in the reviewed Answers source \"Invalid Pointer [6000:0x80004003] (Invalid Pointer )\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80004003.", "Invalid Pointer [6000:0x80004003] (Invalid Pointer )"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80004003; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Invalid Pointer [6000:0x80004003] (Invalid Pointer )",
+        url: "https://answers.laserfiche.com/questions/143095/Invalid-Pointer-60000x80004003-Invalid-Pointer-",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80004003."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0xc0042335-unable-to-register-laserfiche-server-in-administration",
+    code: "0xc0042335",
+    message: "Unable to register Laserfiche server in Administration console",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0xc0042335 in the reviewed Answers source \"Unable to register Laserfiche server in Administration console\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0xc0042335.", "Unable to register Laserfiche server in Administration console"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0xc0042335; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Unable to register Laserfiche server in Administration console",
+        url: "https://answers.laserfiche.com/questions/82628/Unable-to-register-Laserfiche-server-in-Administration-console-",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0xc0042335."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80070483-generate-pages-command-for-jpeg-files-gets-error-no-ap",
+    code: "0x80070483",
+    message: "'Generate Pages' command for jpeg files gets error \"No application is associated with the specified file for this operation. [6000:0x80070483] [6000]\"",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80070483 in the reviewed Answers source \"'Generate Pages' command for jpeg files gets error \"No application is associated with the specified file for this operation. [6000:0x80070483] [6000]\"\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80070483.", "'Generate Pages' command for jpeg files gets error \"No application is associated with the specified file for this operation. [6000:0x80070483] [6000]\""],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80070483; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "'Generate Pages' command for jpeg files gets error \"No application is associated with the specified file for this operation. [6000:0x80070483] [6000]\"",
+        url: "https://answers.laserfiche.com/questions/82889/Generate-Pages-command-for-jpeg-files-gets-error-No-application-is-associated-with-the-specified-file-for-this-operation-60000x80070483-6000",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80070483."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x8009030e-no-credentials-are-available-in-the-security-package",
+    code: "0x8009030e",
+    message: "No credentials are available in the security package",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x8009030e in the reviewed Answers source \"No credentials are available in the security package\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x8009030e.", "No credentials are available in the security package"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x8009030e; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "No credentials are available in the security package",
+        url: "https://answers.laserfiche.com/questions/114704/No-credentials-are-available-in-the-security-package",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x8009030e."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80020006-sdk-9-2-unknown-name-exception-from-hresult-0x80020006",
+    code: "0x80020006",
+    message: "SDK 9.2 Unknown name. (Exception from HRESULT: 0x80020006 (DISP_E_UNKNOWNNAME))",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80020006 in the reviewed Answers source \"SDK 9.2 Unknown name. (Exception from HRESULT: 0x80020006 (DISP_E_UNKNOWNNAME))\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80020006.", "SDK 9.2 Unknown name. (Exception from HRESULT: 0x80020006 (DISP_E_UNKNOWNNAME))"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80020006; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "SDK 9.2 Unknown name. (Exception from HRESULT: 0x80020006 (DISP_E_UNKNOWNNAME))",
+        url: "https://answers.laserfiche.com/questions/83628/SDK-92-Unknown-name-Exception-from-HRESULT-0x80020006-DISPEUNKNOWNNAME",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80020006."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x54880652-lf-client-crashing-on-win10-when-saving-closing-doc-wi",
+    code: "0x54880652 / 0x5098858e / 0xc0000409 / 0x000a326c",
+    message: "LF Client crashing on win10 when saving/closing doc with ‘open’ text box annotation",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x54880652 / 0x5098858e / 0xc0000409 / 0x000a326c in the reviewed Answers source \"LF Client crashing on win10 when saving/closing doc with ‘open’ text box annotation\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x54880652 / 0x5098858e / 0xc0000409 / 0x000a326c.", "LF Client crashing on win10 when saving/closing doc with ‘open’ text box annotation"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x54880652 / 0x5098858e / 0xc0000409 / 0x000a326c; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LF Client crashing on win10 when saving/closing doc with ‘open’ text box annotation",
+        url: "https://answers.laserfiche.com/questions/150152/LF-Client-crashing-on-win10-when-savingclosing-doc-with-%E2%80%98open%E2%80%99-text-box-annotation",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x54880652 / 0x5098858e / 0xc0000409 / 0x000a326c."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x57e478b1-photodocs-10-1-1-320-crashes-after-getting-error-pd20",
+    code: "0x57e478b1 / 0x57f7bb79 / 0xc00000fd / 0x0002df76",
+    message: "PhotoDocs 10.1.1.320 crashes after getting error PD20-161",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x57e478b1 / 0x57f7bb79 / 0xc00000fd / 0x0002df76 in the reviewed Answers source \"PhotoDocs 10.1.1.320 crashes after getting error PD20-161\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x57e478b1 / 0x57f7bb79 / 0xc00000fd / 0x0002df76.", "PhotoDocs 10.1.1.320 crashes after getting error PD20-161"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x57e478b1 / 0x57f7bb79 / 0xc00000fd / 0x0002df76; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "PhotoDocs 10.1.1.320 crashes after getting error PD20-161",
+        url: "https://answers.laserfiche.com/questions/111668/PhotoDocs-1011320-crashes-after-getting-error-PD20161",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x57e478b1 / 0x57f7bb79 / 0xc00000fd / 0x0002df76."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80004002-application-error-due-to-no-such-interface-supported",
+    code: "0x80004002",
+    message: "Application error due to \"No such interface supported\"",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80004002 in the reviewed Answers source \"Application error due to \"No such interface supported\"\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80004002.", "Application error due to \"No such interface supported\""],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80004002; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Application error due to \"No such interface supported\"",
+        url: "https://answers.laserfiche.com/questions/122540/Application-error-due-to-No-such-interface-supported",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80004002."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80131700-unknown-error-0x80131700",
+    code: "0x80131700",
+    message: "Unknown Error 0x80131700",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80131700 in the reviewed Answers source \"Unknown Error 0x80131700\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80131700.", "Unknown Error 0x80131700"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80131700; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Unknown Error 0x80131700",
+        url: "https://answers.laserfiche.com/questions/107433/Unknown-Error-0x80131700",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80131700."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-499-error-message-unknown-error-499invalid-class-string-invalid-c",
+    code: "499",
+    message: "Error Message: Unknown error. [499Invalid class string] (Invalid class string)",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 499 in the reviewed Answers source \"Error Message: Unknown error. [499Invalid class string] (Invalid class string)\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 499.", "Error Message: Unknown error. [499Invalid class string] (Invalid class string)"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 499; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error Message: Unknown error. [499Invalid class string] (Invalid class string)",
+        url: "https://answers.laserfiche.com/questions/55615/Error-Message-Unknown-error-499Invalid-class-string-Invalid-class-string",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 499."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x54efddd9-laserfiche-client-crashes-when-opening-documents",
+    code: "0x54efddd9 / 0x56cc16f5 / 0xc0000005 / 0x00049f83",
+    message: "Laserfiche Client Crashes when opening documents",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x54efddd9 / 0x56cc16f5 / 0xc0000005 / 0x00049f83 in the reviewed Answers source \"Laserfiche Client Crashes when opening documents\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x54efddd9 / 0x56cc16f5 / 0xc0000005 / 0x00049f83.", "Laserfiche Client Crashes when opening documents"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x54efddd9 / 0x56cc16f5 / 0xc0000005 / 0x00049f83; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche Client Crashes when opening documents",
+        url: "https://answers.laserfiche.com/questions/111405/Laserfiche-Client-Crashes-when-opening-documents",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x54efddd9 / 0x56cc16f5 / 0xc0000005 / 0x00049f83."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x56cf9fcf-msvcr110-dll-error-when-searching-avante-9-2-1-673",
+    code: "0x56cf9fcf / 0x5098858e / 0xc0000005 / 0x00012194",
+    message: "MSVCR110.dll error when searching - Avante 9.2.1.673",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x56cf9fcf / 0x5098858e / 0xc0000005 / 0x00012194 in the reviewed Answers source \"MSVCR110.dll error when searching - Avante 9.2.1.673\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x56cf9fcf / 0x5098858e / 0xc0000005 / 0x00012194.", "MSVCR110.dll error when searching - Avante 9.2.1.673"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x56cf9fcf / 0x5098858e / 0xc0000005 / 0x00012194; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "MSVCR110.dll error when searching - Avante 9.2.1.673",
+        url: "https://answers.laserfiche.com/questions/112558/MSVCR110dll-error-when-searching--Avante-921673",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x56cf9fcf / 0x5098858e / 0xc0000005 / 0x00012194."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80070057-error-a-the-parameter-is-incorrect",
+    code: "0x80070057",
+    message: "ERROR: A \"The parameter is incorrect. \"",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80070057 in the reviewed Answers source \"ERROR: A \"The parameter is incorrect. \"\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80070057.", "ERROR: A \"The parameter is incorrect. \""],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80070057; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "ERROR: A \"The parameter is incorrect. \"",
+        url: "https://answers.laserfiche.com/questions/95148/ERROR-A-The-parameter-is-incorrect-",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80070057."
+      }
+    ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80131600-error-generating-pages-unknown-error-6000-0x80131600-6",
+    code: "0x80131600",
+    message: "Error generating pages Unknown error [6000:0x80131600] [6000]",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary: "Windows Client/Desktop Client can report 0x80131600 in the reviewed Answers source \"Error generating pages Unknown error [6000:0x80131600] [6000]\"; no single confirmed public fix has been isolated yet.",
+    symptoms: ["The reviewed source reports 0x80131600.", "Error generating pages Unknown error [6000:0x80131600] [6000]"],
+    likelyFixes: ["Use the linked Answers source as the starting point for 0x80131600; this entry is documented for discovery even though no universal fix is confirmed.", "Review the Laserfiche application logs, Windows Event Viewer, and the affected instance/request timestamp for the first underlying exception.", "Compare the failing user, server, repository, workflow, or form configuration against a known working path before changing production settings."],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error generating pages Unknown error [6000:0x80131600] [6000]",
+        url: "https://answers.laserfiche.com/questions/86494/Error-generating-pages-Unknown-error-60000x80131600-6000",
+        note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80131600."
+      }
+    ]
+  }
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
