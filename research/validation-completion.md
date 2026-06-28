@@ -1,13 +1,13 @@
 # Validation Completion
 
-Validation rows triaged: 1539
+Validation rows triaged: 1525
 Source-research backlog rows: 12
 
 ## Validation Status Summary
 
 | Validation status | Entries |
 | --- | --- |
-| official-doc-baseline | 1149 |
+| official-doc-baseline | 1135 |
 | reviewed-diagnostic | 378 |
 | source-research-needed | 12 |
 
@@ -19,7 +19,7 @@ Source-research backlog rows: 12
 | candidate-for-scenario-review | 12 |
 | keep-diagnostic-only | 63 |
 | needs-additional-source-research | 12 |
-| official-doc-baseline-only | 1149 |
+| official-doc-baseline-only | 1135 |
 | priority-source-review | 60 |
 
 ## Product Summary
@@ -39,7 +39,7 @@ Source-research backlog rows: 12
 | Full Text Search | 3 |
 | Import Agent | 12 |
 | Laserfiche Installer | 25 |
-| Laserfiche Server/Repository Server | 1024 |
+| Laserfiche Server/Repository Server | 1012 |
 | Mobile | 6 |
 | Office Integration | 7 |
 | Quick Fields | 17 |
@@ -47,7 +47,7 @@ Source-research backlog rows: 12
 | Snapshot | 7 |
 | Web Client | 38 |
 | WebLink | 13 |
-| Windows Client/Desktop Client | 209 |
+| Windows Client/Desktop Client | 207 |
 | Workflow | 27 |
 
 ## Rule

@@ -4,8 +4,8 @@ Generated: 2026-06-28
 
 ## Summary
 
-- Published entries: 1747
-- Reviewed sources: 708
+- Published entries: 1902
+- Reviewed sources: 921
 - Entries needing validation: 0
 - Entries with scenario variants: 15
 
@@ -14,8 +14,8 @@ Generated: 2026-06-28
 | Confidence | Entries |
 | --- | --- |
 | high | 64 |
-| low | 1508 |
-| medium | 175 |
+| low | 1494 |
+| medium | 344 |
 
 ## Fix Status Coverage
 
@@ -23,15 +23,15 @@ Generated: 2026-06-28
 | --- | --- |
 | diagnostic-only | 312 |
 | known-fix | 102 |
-| needs-review | 1149 |
+| needs-review | 1135 |
 | unresolved | 42 |
-| workaround | 142 |
+| workaround | 311 |
 
 ## Validation Triage Coverage
 
 | Validation status | Entries |
 | --- | --- |
-| official-doc-baseline | 1149 |
+| official-doc-baseline | 1135 |
 | reviewed-diagnostic | 378 |
 | source-research-needed | 12 |
 
@@ -69,8 +69,8 @@ Generated: 2026-06-28
 
 | Review status | Sources |
 | --- | --- |
-| cross-product | 3 |
-| curated | 203 |
+| cross-product | 65 |
+| curated | 353 |
 | curated-partial | 98 |
 | curated-unresolved | 399 |
 | no-matching-posts | 1 |
