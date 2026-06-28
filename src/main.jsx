@@ -3,7 +3,6 @@ import { createRoot } from "react-dom/client";
 import {
   AlertTriangle,
   BookOpen,
-  Bookmark,
   Check,
   ChevronDown,
   ChevronRight,
@@ -30,7 +29,6 @@ import { reviewedSources } from "./data/reviewedSources.js";
 import "./styles.css";
 
 const allOption = "All";
-const savedErrorsStorageKey = "lf-error-helper-saved-errors";
 
 function uniqueSorted(values) {
   return [allOption, ...Array.from(new Set(values.filter(Boolean))).sort()];
@@ -90,19 +88,6 @@ function filterOptionLabel(value, label) {
   if (label === "Fix Status") return "All Fix Statuses";
   if (label === "Source") return "All Sources";
   return value;
-}
-
-function readSavedErrorIds() {
-  try {
-    const parsed = JSON.parse(window.localStorage.getItem(savedErrorsStorageKey) ?? "[]");
-    return Array.isArray(parsed) ? parsed.filter((value) => typeof value === "string") : [];
-  } catch {
-    return [];
-  }
-}
-
-function writeSavedErrorIds(ids) {
-  window.localStorage.setItem(savedErrorsStorageKey, JSON.stringify(ids));
 }
 
 function initialSelectedErrorId() {
@@ -166,7 +151,6 @@ function App() {
   const [ledgerSource, setLedgerSource] = useState(allOption);
   const [collapsedGroups, setCollapsedGroups] = useState({});
   const [selectedId, setSelectedId] = useState(initialSelectedErrorId);
-  const [savedIds, setSavedIds] = useState(readSavedErrorIds);
   const [notification, setNotification] = useState("");
   const [isMoreFiltersOpen, setIsMoreFiltersOpen] = useState(false);
   const [infoDialog, setInfoDialog] = useState(null);
@@ -242,15 +226,6 @@ function App() {
   function selectEntry(entryId) {
     setSelectedId(entryId);
     setErrorUrl(entryId);
-  }
-
-  function toggleSavedEntry(entry) {
-    setSavedIds((current) => {
-      const next = current.includes(entry.id) ? current.filter((id) => id !== entry.id) : [...current, entry.id];
-      writeSavedErrorIds(next);
-      setNotification(current.includes(entry.id) ? `Removed ${entry.code} from saved errors.` : `Saved ${entry.code}.`);
-      return next;
-    });
   }
 
   async function shareEntry(entry) {
@@ -461,6 +436,7 @@ function App() {
                           <small>{entry.summary}</small>
                         </span>
                         <span className="result-badges">
+                          {entry.scenarios?.length > 0 && <span className="scenario-count">{entry.scenarios.length} scenarios</span>}
                           <FixStatusBadge value={fixStatusValue(entry)} />
                           <ConfidenceBadge value={entry.confidence} />
                         </span>
@@ -475,9 +451,7 @@ function App() {
         {selectedEntry && (
           <ErrorDetail
             entry={selectedEntry}
-            isSaved={savedIds.includes(selectedEntry.id)}
             onShare={shareEntry}
-            onToggleSave={toggleSavedEntry}
           />
         )}
       </section>
@@ -583,27 +557,19 @@ function SourceBadge({ sourceType }) {
   return <span className={`source-badge ${sourceType}`}>{labels[sourceType] ?? sourceType}</span>;
 }
 
-function ErrorDetail({ entry, isSaved, onShare, onToggleSave }) {
+function ErrorDetail({ entry, onShare }) {
   return (
     <article className="detail-pane">
       <div className="detail-main">
         <div className="detail-header">
           <div>
             <span className="selected-label">Selected error</span>
+            {entry.scenarios?.length > 0 && <span className="scenario-count detail-scenario-count">{entry.scenarios.length} scenarios</span>}
             <h2>
               {entry.code} <span>{entry.message}</span>
             </h2>
           </div>
           <div className="detail-actions">
-            <button
-              aria-pressed={isSaved}
-              className={isSaved ? "active" : ""}
-              onClick={() => onToggleSave(entry)}
-              type="button"
-            >
-              <Bookmark aria-hidden="true" fill={isSaved ? "currentColor" : "none"} size={17} />
-              {isSaved ? "Saved" : "Save"}
-            </button>
             <button onClick={() => onShare(entry)} type="button">
               <Share2 aria-hidden="true" size={17} />
               Share

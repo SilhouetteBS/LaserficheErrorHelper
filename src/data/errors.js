@@ -8755,12 +8755,42 @@ const curatedErrorEntries = [
       "Review firewall, proxy, or DMZ rules if timeout 10060 is present.",
       "Capture LFForms and routing logs before retrying the affected instance.",
     ],
+    scenarios: [
+      {
+        title: "Forms 11 upgrade with LFF3004 service proxy errors",
+        summary:
+          "A reviewed employee-associated Answers source ties LFF706 and LFF3004 after a Forms 11 upgrade to Forms service/routing connectivity after upgrade.",
+        versions: ["Version 11"],
+        symptoms: [
+          "Forms reports LFF706-UnableToTriggerRouting after upgrade.",
+          "The same environment may also report LFF3004-UnableToOpenServiceProxy.",
+        ],
+        causes: [
+          "Forms web and routing/service endpoints may not agree after the upgrade.",
+          "A Forms service or Workflow/Forms API endpoint may be unreachable from the server handling the request.",
+        ],
+        fixes: [
+          "Verify all Forms services are running after the upgrade.",
+          "Check Forms Configuration and service URLs for stale hostnames, ports, or protocol settings.",
+          "Review LFForms event logs around the failed route trigger before retrying the instance.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/197901/How-We-Solved-LFF706UnableToTriggerRouting-and-LFF3004UnableToOpenServiceProxy-After-Upgrading-to-Forms-11",
+        ],
+      },
+    ],
     sources: [
       {
         sourceType: "answers-community",
         title: "LFF706UnableToTriggerRouting",
         url: "https://answers.laserfiche.com/questions/159690/LFF706UnableToTriggerRouting",
         note: "Fresh-pass source for LFF706-UnableToTriggerRouting and timeout 10060.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "How We Solved LFF706-UnableToTriggerRouting and LFF3004-UnableToOpenServiceProxy After Upgrading to Forms 11",
+        url: "https://answers.laserfiche.com/questions/197901/How-We-Solved-LFF706UnableToTriggerRouting-and-LFF3004UnableToOpenServiceProxy-After-Upgrading-to-Forms-11",
+        note: "Promotion source for a Forms 11 upgrade scenario involving LFF706 and LFF3004.",
       },
     ],
   },
@@ -9917,6 +9947,186 @@ const curatedErrorEntries = [
         title: "Forms - Lookup failed to retrieve data from tables",
         url: "https://answers.laserfiche.com/questions/152748/Forms--Lookup-failed-to-retrieve-data-from-tables",
         note: "Fresh promotion source for LFF378 lookup failure diagnostics.",
+      },
+    ],
+  },
+  {
+    id: "forms-lff1018-calculation-submit",
+    code: "LFF1018",
+    message: "Error occurred during formula calculation.",
+    product: "Forms",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Forms can report LFF1018 during submission when a calculation or formula cannot be evaluated for the submitted data.",
+    symptoms: [
+      "Submitting a form fails with LFF1018.",
+      "The related details may include LFF1018-ErrorOccuredDuringFormulaCalculation or LFF502-UnexpectedError.",
+      "The failure occurs during a submit path that evaluates calculated fields.",
+    ],
+    likelyFixes: [
+      "Review calculated fields and formula rules that run during submission.",
+      "Check whether required inputs are blank, malformed, or changed by lookup/population rules before the calculation runs.",
+      "Use Forms event logs and the affected process instance to identify the specific formula that failed.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LFF1018 Error When Submitting Form with Calculation",
+        url: "https://answers.laserfiche.com/questions/175670/LFF1018-Error-When-Submitting-Form-with-Calculation",
+        note: "Promotion source for Forms calculation submission failures with LFF1018.",
+      },
+    ],
+  },
+  {
+    id: "forms-lff2000-email-submission-failure",
+    code: "LFF2000",
+    message: "Email submission failure.",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Forms email testing or submission can fail with LFF2000/LFF2007 when SMTP traffic is blocked or the mail server cannot accept the message.",
+    symptoms: [
+      "FormsConfig email settings test reports LFF2000 - EmailSubmissionFailure.",
+      "Email delivery works briefly or inconsistently, then fails again.",
+      "The related source mentions LFF2007-EmailSubmissionFailure1.",
+    ],
+    likelyFixes: [
+      "Verify SMTP host, port, TLS, authentication, and sender settings in FormsConfig.",
+      "Confirm the Forms server can reach the SMTP endpoint and that the network or ISP is not blocking the configured port.",
+      "If port 25 is blocked, use an allowed authenticated SMTP relay/submission port such as 587 when supported by the mail provider.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Any compatible/suggested email smtp servers",
+        url: "https://answers.laserfiche.com/questions/193632/Any-compatiblesuggested-email-smtp-servers",
+        note: "Promotion source for Forms SMTP failure LFF2000 and LFF2007.",
+      },
+    ],
+  },
+  {
+    id: "workflow-0544-wf0-designer-connection",
+    code: "0544-WF0",
+    message: "Workflow Designer connection or condition editor failure.",
+    product: "Workflow",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Workflow Designer can report 0544-WF0 when connecting to Workflow Server or opening parts of the Designer, with employee guidance pointing to connection-name and intermittent connectivity checks.",
+    symptoms: [
+      "Workflow Designer reports 0544-WF0.",
+      "The condition editor or other Designer areas may fail while other parts still work.",
+      "The issue may appear after a Workflow upgrade.",
+    ],
+    likelyFixes: [
+      "Try connecting to Workflow Server by fully qualified domain name instead of a short machine name.",
+      "Check whether the failure is intermittent and whether only specific Designer areas fail.",
+      "Review Workflow Server connectivity, DNS, and service status from the Designer workstation.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Workflow Designer Connection Fail Error:[0604-WFSO0]",
+        url: "https://answers.laserfiche.com/questions/49235/Workflow-Designer-Connection-Fail-Error0604WFSO0",
+        note: "Employee reply asks whether 0544-WF0 is intermittent and suggests testing FQDN connection behavior.",
+      },
+    ],
+  },
+  {
+    id: "workflow-0516-wf1-workflow-does-not-exist",
+    code: "0516-WF1",
+    message: "Workflow does not exist.",
+    product: "Workflow",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Workflow can report 0516-WF1 when a referenced workflow cannot be found by the running activity, schedule, or business-process integration.",
+    symptoms: [
+      "A workflow-related action reports workflow does not exist.",
+      "The code shown is 0516-WF1.",
+      "The failure may occur when one workflow or process references another workflow.",
+    ],
+    likelyFixes: [
+      "Confirm the referenced workflow still exists and is published on the target Workflow Server.",
+      "Re-select or republish the referenced workflow in the calling activity/process if it was renamed, moved, or replaced.",
+      "Check Workflow Server logs for the referenced workflow ID/name at the failure timestamp.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "0516-WF1",
+        url: "https://answers.laserfiche.com/questions/100656/0516WF1",
+        note: "Promotion source for Workflow does not exist [0516-WF1].",
+      },
+    ],
+  },
+  {
+    id: "web-client-remote-server-error-401",
+    code: "401",
+    message: "Remote server returned unauthorized.",
+    product: "Web Client",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Web Client or related web integrations can report Remote Server Error 401 when authentication to a backend service is rejected.",
+    symptoms: [
+      "The web application reports Remote Server Error 401.",
+      "The issue is tied to Web Client or web integration authentication.",
+      "Users may be unable to complete the affected web action despite reaching the site.",
+    ],
+    likelyFixes: [
+      "Verify IIS authentication settings for the Web Client application and any backend service it calls.",
+      "Check service account, delegation, SPN, and Windows authentication settings if integrated authentication is involved.",
+      "Compare failing and working users or browsers, then collect Web Client/IIS logs for the 401 request path.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Remote Server Error 401",
+        url: "https://answers.laserfiche.com/questions/161990/Remote-Server-Error-401",
+        note: "Promotion source for Web Client Remote Server Error 401.",
+      },
+    ],
+  },
+  {
+    id: "web-client-web-scanning-not-loading",
+    code: "WEB-SCANNING-NOT-LOADING",
+    message: "Web Scanning does not load.",
+    product: "Web Client",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Web Scanning can fail to load from Web Access/Web Client, with employee guidance focusing on browser context, extension/plugin requirements, and embedding behavior.",
+    symptoms: [
+      "Web Scanning does not load from the web client.",
+      "The environment uses Web Access 9.2 and Web Scanning 9.2.",
+      "The issue may vary by browser or whether Web Access is embedded in an iframe.",
+    ],
+    likelyFixes: [
+      "Confirm the user has the required browser extension or Web Scanning component installed and enabled.",
+      "Test Web Access outside any iframe or embedded portal context.",
+      "Collect browser version, Web Access/Web Scanning version, and browser console details before escalating.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "lf web scanning not loading",
+        url: "https://answers.laserfiche.com/questions/91103/lf-web-scanning-not-loading",
+        note: "Employee reply asks about iframe use and required Chrome extension context for Web Scanning.",
       },
     ],
   },

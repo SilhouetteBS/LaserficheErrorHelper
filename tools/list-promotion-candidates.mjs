@@ -2,7 +2,7 @@ import fs from "node:fs";
 import { errorEntries } from "../src/data/errors.js";
 import { reviewedSources } from "../src/data/reviewedSources.js";
 
-const [, , productArg = "", limitArg = "80"] = process.argv;
+const [, , productArg = "", limitArg = "80", formatArg = "detail"] = process.argv;
 const limit = Number.parseInt(limitArg, 10) || 80;
 const rows = JSON.parse(fs.readFileSync("research/product-discovery-results.json", "utf8"));
 const reviewedUrls = new Set(reviewedSources.map((source) => normalizeUrl(source.url)));
@@ -39,12 +39,27 @@ const summary = candidates.reduce((acc, row) => {
 
 console.log(JSON.stringify({ filters: { product: productArg || "All", limit }, summary }, null, 2));
 
-for (const row of candidates.slice(0, limit)) {
-  console.log("");
-  console.log(`${row.promotionScore} | ${row.product} | ${row.sourceType} | ${row.extractedErrorCodes.join(", ")}`);
-  console.log(row.title);
-  console.log(row.url);
-  console.log(row.snippet);
+if (formatArg === "checklist") {
+  const grouped = Map.groupBy(candidates.slice(0, limit), (row) => row.product);
+
+  for (const [product, rows] of grouped) {
+    console.log("");
+    console.log(`## ${product}`);
+    for (const row of rows) {
+      const codes = row.unpromotedCodes.length ? row.unpromotedCodes : row.extractedErrorCodes;
+      console.log(`- [ ] ${codes.join(", ")} | ${sourceLabel(row.sourceType)} | score ${row.promotionScore}`);
+      console.log(`  ${row.title}`);
+      console.log(`  ${row.url}`);
+    }
+  }
+} else {
+  for (const row of candidates.slice(0, limit)) {
+    console.log("");
+    console.log(`${row.promotionScore} | ${row.product} | ${row.sourceType} | ${row.extractedErrorCodes.join(", ")}`);
+    console.log(row.title);
+    console.log(row.url);
+    console.log(row.snippet);
+  }
 }
 
 function scoreCandidate(row) {
@@ -71,4 +86,10 @@ function normalizeUrl(value) {
 
 function normalizeCode(value) {
   return String(value).toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+function sourceLabel(value) {
+  if (/employee/i.test(value)) return "Laserfiche employee";
+  if (/confirmed/i.test(value)) return "Community confirmed";
+  return "Community";
 }

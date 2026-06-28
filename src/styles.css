@@ -664,7 +664,8 @@ li + li {
 .confidence,
 .fix-status,
 .review-status,
-.source-badge {
+.source-badge,
+.scenario-count {
   display: inline-flex;
   align-items: center;
   min-height: 23px;
@@ -674,6 +675,17 @@ li + li {
   font-weight: 850;
   text-transform: uppercase;
   white-space: nowrap;
+}
+
+.scenario-count {
+  color: #064a5a;
+  background: #e3f4f7;
+  border: 1px solid #a7d8df;
+}
+
+.detail-scenario-count {
+  margin-left: 8px;
+  vertical-align: top;
 }
 
 .confidence.high {
