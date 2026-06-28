@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import {
   AlertTriangle,
@@ -30,6 +30,7 @@ import { reviewedSources } from "./data/reviewedSources.js";
 import "./styles.css";
 
 const allOption = "All";
+const savedErrorsStorageKey = "lf-error-helper-saved-errors";
 
 function uniqueSorted(values) {
   return [allOption, ...Array.from(new Set(values.filter(Boolean))).sort()];
@@ -91,6 +92,56 @@ function filterOptionLabel(value, label) {
   return value;
 }
 
+function readSavedErrorIds() {
+  try {
+    const parsed = JSON.parse(window.localStorage.getItem(savedErrorsStorageKey) ?? "[]");
+    return Array.isArray(parsed) ? parsed.filter((value) => typeof value === "string") : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeSavedErrorIds(ids) {
+  window.localStorage.setItem(savedErrorsStorageKey, JSON.stringify(ids));
+}
+
+function initialSelectedErrorId() {
+  const url = new URL(window.location.href);
+  const requestedId = url.searchParams.get("error");
+  return errorEntries.some((entry) => entry.id === requestedId) ? requestedId : errorEntries[0]?.id;
+}
+
+function setErrorUrl(entryId) {
+  const url = new URL(window.location.href);
+  url.searchParams.set("error", entryId);
+  url.hash = "";
+  window.history.replaceState({}, "", url);
+}
+
+function errorShareUrl(entryId) {
+  const url = new URL(window.location.href);
+  url.searchParams.set("error", entryId);
+  url.hash = "";
+  return url.toString();
+}
+
+async function copyToClipboard(text) {
+  if (navigator.clipboard && window.isSecureContext) {
+    await navigator.clipboard.writeText(text);
+    return;
+  }
+
+  const textArea = document.createElement("textarea");
+  textArea.value = text;
+  textArea.setAttribute("readonly", "");
+  textArea.style.position = "fixed";
+  textArea.style.left = "-9999px";
+  document.body.append(textArea);
+  textArea.select();
+  document.execCommand("copy");
+  textArea.remove();
+}
+
 function reviewStatusLabel(value) {
   const labels = {
     curated: "Curated",
@@ -114,9 +165,17 @@ function App() {
   const [sortBy, setSortBy] = useState("relevance");
   const [ledgerSource, setLedgerSource] = useState(allOption);
   const [collapsedGroups, setCollapsedGroups] = useState({});
-  const [selectedId, setSelectedId] = useState(errorEntries[0]?.id);
+  const [selectedId, setSelectedId] = useState(initialSelectedErrorId);
+  const [savedIds, setSavedIds] = useState(readSavedErrorIds);
+  const [notification, setNotification] = useState("");
   const [isMoreFiltersOpen, setIsMoreFiltersOpen] = useState(false);
   const [infoDialog, setInfoDialog] = useState(null);
+
+  useEffect(() => {
+    if (!notification) return undefined;
+    const timeout = window.setTimeout(() => setNotification(""), 2600);
+    return () => window.clearTimeout(timeout);
+  }, [notification]);
 
   const filters = useMemo(
     () => ({
@@ -179,6 +238,26 @@ function App() {
 
   const selectedEntry =
     filteredEntries.find((entry) => entry.id === selectedId) ?? filteredEntries[0] ?? errorEntries[0];
+
+  function selectEntry(entryId) {
+    setSelectedId(entryId);
+    setErrorUrl(entryId);
+  }
+
+  function toggleSavedEntry(entry) {
+    setSavedIds((current) => {
+      const next = current.includes(entry.id) ? current.filter((id) => id !== entry.id) : [...current, entry.id];
+      writeSavedErrorIds(next);
+      setNotification(current.includes(entry.id) ? `Removed ${entry.code} from saved errors.` : `Saved ${entry.code}.`);
+      return next;
+    });
+  }
+
+  async function shareEntry(entry) {
+    const shareUrl = errorShareUrl(entry.id);
+    await copyToClipboard(shareUrl);
+    setNotification(`Copied link for ${entry.code}.`);
+  }
 
   const groupedEntries = useMemo(() => {
     return filteredEntries.reduce((groups, entry) => {
@@ -373,7 +452,7 @@ function App() {
                       <button
                         className={`result-row ${selectedEntry?.id === entry.id ? "selected" : ""}`}
                         key={entry.id}
-                        onClick={() => setSelectedId(entry.id)}
+                        onClick={() => selectEntry(entry.id)}
                         type="button"
                       >
                         <span className="code">{entry.code}</span>
@@ -393,7 +472,14 @@ function App() {
           )}
         </aside>
 
-        {selectedEntry && <ErrorDetail entry={selectedEntry} />}
+        {selectedEntry && (
+          <ErrorDetail
+            entry={selectedEntry}
+            isSaved={savedIds.includes(selectedEntry.id)}
+            onShare={shareEntry}
+            onToggleSave={toggleSavedEntry}
+          />
+        )}
       </section>
 
       <section className="ledger-panel" aria-label="Reviewed source ledger">
@@ -442,6 +528,9 @@ function App() {
       </section>
       </main>
       {infoDialog && <InfoDialog type={infoDialog} onClose={() => setInfoDialog(null)} />}
+      <div className={`toast ${notification ? "visible" : ""}`} role="status" aria-live="polite">
+        {notification}
+      </div>
     </>
   );
 }
@@ -494,7 +583,7 @@ function SourceBadge({ sourceType }) {
   return <span className={`source-badge ${sourceType}`}>{labels[sourceType] ?? sourceType}</span>;
 }
 
-function ErrorDetail({ entry }) {
+function ErrorDetail({ entry, isSaved, onShare, onToggleSave }) {
   return (
     <article className="detail-pane">
       <div className="detail-main">
@@ -506,11 +595,16 @@ function ErrorDetail({ entry }) {
             </h2>
           </div>
           <div className="detail-actions">
-            <button type="button">
-              <Bookmark aria-hidden="true" size={17} />
-              Save
+            <button
+              aria-pressed={isSaved}
+              className={isSaved ? "active" : ""}
+              onClick={() => onToggleSave(entry)}
+              type="button"
+            >
+              <Bookmark aria-hidden="true" fill={isSaved ? "currentColor" : "none"} size={17} />
+              {isSaved ? "Saved" : "Save"}
             </button>
-            <button type="button">
+            <button onClick={() => onShare(entry)} type="button">
               <Share2 aria-hidden="true" size={17} />
               Share
             </button>
