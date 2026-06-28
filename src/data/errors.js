@@ -7140,6 +7140,239 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "connector-docusign-web-import-405",
+    code: "DOCUSIGN-WIS-405",
+    message: "HTTP 405 when opening DocuSign Web Import Services endpoint.",
+    product: "Connector",
+    versions: ["Version 11"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "DocuSign Web Import Services can return HTTP 405 when the IIS endpoint or method handling is misconfigured; Laserfiche employee guidance points to IIS logs and IIS 405 troubleshooting.",
+    symptoms: [
+      "Opening /DocuSignConnectService/ReceivePDF returns HTTP ERROR 405.",
+      "DocuSign logs only show that the endpoint cannot be reached.",
+      "The server is internet-accessible or in a DMZ but the import-service endpoint still fails.",
+    ],
+    likelyFixes: [
+      "Review IIS logs for the exact method, substatus, and module returning 405.",
+      "Confirm the Web Import Services endpoint is installed under the expected IIS application and supports the DocuSign callback method.",
+      "Verify public URL, SSL certificate, and firewall rules from DocuSign to the service.",
+      "Apply updated files or guidance from Support if the installed service package is outdated.",
+    ],
+    notes:
+      "The thread concerns DocuSign Web Import Services rather than the desktop Connector runtime, but it was discovered from Connector research.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "405 Error when installing DocuSign Web Import Services",
+        url: "https://answers.laserfiche.com/questions/222130/405-Error-when-installing-DocuSign-Web-Import-Services",
+        note: "Miruna Babatie from Laserfiche identifies 405 as an IIS configuration error and recommends IIS logs.",
+      },
+    ],
+  },
+  {
+    id: "connector-9013-import-content-rights",
+    code: "9013",
+    message: "Access denied when Connector inserts document content.",
+    product: "Connector",
+    versions: ["Version 10", "Version 12"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Connector can create a document shell but fail with 9013 when adding the file content if the user lacks modify-content or volume access rights.",
+    symptoms: [
+      "Connector reports Multistatus response. Access denied. [9013].",
+      "The document briefly appears locked in Laserfiche, then disappears after Connector fails.",
+      "The same user may be able to create metadata in the target folder outside Connector.",
+    ],
+    likelyFixes: [
+      "Confirm the Connector user has Modify Contents rights, not only Create Documents or field/template rights.",
+      "Check volume access rights for the volume Connector imports into.",
+      "Confirm the Connector profile imports to the expected folder and volume.",
+      "Use effective rights or Audit Trail to identify the denied repository operation.",
+    ],
+    notes:
+      "Version 12 is included because 9013 is in the official current error listing; the reviewed Connector thread is Version 10-era.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9013 as Access Denied.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Access Denied error when inserting using Connector",
+        url: "https://answers.laserfiche.com/questions/175659/Access-Denied-error-when-inserting-using-Connector",
+        note: "Justin Pava from Laserfiche explains Connector creates the document shell first, then adds content, so modify-content and volume rights matter.",
+      },
+    ],
+  },
+  {
+    id: "connector-control-value-invalid",
+    code: "CONNECTOR-CONTROL-VALUE-INVALID",
+    message: "Writing the value to the target application control failed because the value is not valid.",
+    product: "Connector",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Connector write-to-application profiles can fail when the selected analysis/write method cannot set a value into the target application control.",
+    symptoms: [
+      "Testing a Connector profile reports that writing the token value to the control failed because the value is not valid.",
+      "The profile reads a field value from an open Laserfiche document and writes it to another program.",
+      "The affected target application/control may need a different Connector analysis method.",
+    ],
+    likelyFixes: [
+      "Try alternate target application analysis methods, including JavaScript where supported.",
+      "Confirm the value being written matches what the target control accepts.",
+      "Collect screenshots and target application details for Support or a product enhancement request when the control is unsupported.",
+    ],
+    notes:
+      "The public thread has Laserfiche employee follow-up but no final confirmed fix.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Connector Profile Error - Writing the value to the control token failed because the value is not valid",
+        url: "https://answers.laserfiche.com/questions/181928/Connector-Profile-Error--Writing-the-value-to-the-control-token-name-failed-because-the-value-is-not-valid",
+        note: "Laserfiche employee replies ask about the target application and analysis method and note similar requests may guide future support.",
+      },
+    ],
+  },
+  {
+    id: "connector-pdf-import-method-not-found-102",
+    code: "CONNECTOR-PDF-IMPORT-METHOD-NOT-FOUND",
+    message: "Method not found: PdfExtractor.ImportPDFStream while importing PDFs.",
+    product: "Connector",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Connector 10.2.0.400 could fail to import PDFs with a PdfExtractor.ImportPDFStream method-not-found error; Laserfiche released a hotfix in KB1013833.",
+    symptoms: [
+      "Connector imports RTF files but fails to import PDFs.",
+      "The error says Method not found: Void Laserfiche.PdfServices.PdfExtractor.ImportPDFStream.",
+      "Importing the same PDF through the Windows Client works.",
+    ],
+    likelyFixes: [
+      "Install the Laserfiche Connector 10.2 hotfix from KB1013833.",
+      "Confirm the matching Windows Client components are installed on the Connector workstation.",
+      "Retest PDF import through the same Connector profile after patching.",
+    ],
+    notes:
+      "Laserfiche confirmed the released Connector 10.2 issue and posted the hotfix reference.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Laserfiche Connector 10.2 Error Importing PDF",
+        url: "https://answers.laserfiche.com/questions/115601/Laserfiche-Connector-102-Error-Importing-PDF",
+        note: "Jie Zhang confirms a released Connector 10.2 issue; Qinmei Zou says the hotfix is available in KB1013833.",
+      },
+    ],
+  },
+  {
+    id: "connector-i18n-dll-missing",
+    code: "CONNECTOR-I18N-MISSING",
+    message: "Could not load Laserfiche.i18n.dll or one of its dependencies.",
+    product: "Connector",
+    versions: ["Version 12"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Connector can fail for one workstation/user when the local Connector runtime is missing Laserfiche.i18n.dll or another dependency.",
+    symptoms: [
+      "One user can run a Connector profile but another user receives a Laserfiche.i18n.dll load error.",
+      "Connector profile location and Edge shortcut parameters appear identical.",
+      "The error occurs on the machine where the runtime dependency is missing or damaged.",
+    ],
+    likelyFixes: [
+      "Repair the Connector runtime installation on the failing workstation.",
+      "If repair does not restore the dependency, reinstall Connector.",
+      "Compare installed Connector runtime versions and local file paths with a working workstation.",
+    ],
+    notes:
+      "Employee guidance identifies Laserfiche.i18n.dll as a needed local dependency file.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Laserfiche Connector error Could not load file or assembly Laserfiche.i18n.dll",
+        url: "https://answers.laserfiche.com/questions/232345/Laserfiche-Connector-error-Could-not-load-file-or-assembly-Laserfichei18ndll-or-one-of-its-dependencies",
+        note: "Justin Pava from Laserfiche recommends repairing the Connector runtime installation on the affected machine.",
+      },
+    ],
+  },
+  {
+    id: "connector-profile-delete-0x78",
+    code: "0x78",
+    message: "You do not have the security setting required to access the Connector profile.",
+    product: "Connector",
+    versions: ["Version 9"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Connector profile deletion can fail with 0x78 when UAC blocks profile access or the profile is saved under the all-users ProgramData profile folder.",
+    symptoms: [
+      "Deleting a Connector profile reports that the user does not have the security setting required to access the profile.",
+      "The error code is 0x78.",
+      "The user may be a local administrator but UAC is enabled.",
+    ],
+    likelyFixes: [
+      "Run LFC.exe as administrator and retry deleting the profile.",
+      "Look under C:\\ProgramData\\Laserfiche\\Connector\\Profiles for all-users profiles.",
+      "Search by profile name if the profile is not visible in the expected folder.",
+      "Delete the stale profile file and reinstall Connector only if profile cleanup does not work.",
+    ],
+    notes:
+      "The requester confirmed finding and deleting the profile in ProgramData resolved the issue.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "LF Connector error 0x78",
+        url: "https://answers.laserfiche.com/questions/77302/LF-Connector-error-0x78",
+        note: "Jie Zhang from Laserfiche points to UAC and C:\\ProgramData\\Laserfiche\\Connector\\Profiles; requester confirmed profile deletion worked.",
+      },
+    ],
+  },
+  {
+    id: "ricoh-connector-accented-field-name",
+    code: "RICOH-CONNECTOR-ACCENTED-FIELD",
+    message: "Failed to communicate with Laserfiche Server when scanning TIFF/JPG with templates.",
+    product: "Connector",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Ricoh Connector can fail to scan TIFF or JPG documents with templates when template field names include accented characters.",
+    symptoms: [
+      "Ricoh Connector can browse repositories and print documents.",
+      "Scanning with a template to TIFF or JPG reports Failed to communicate with Laserfiche Server.",
+      "PDF scans or TIFF/JPG scans without a template work.",
+    ],
+    likelyFixes: [
+      "Check target template field names for accented or special characters.",
+      "Rename fields to plain ASCII equivalents, for example Cedula instead of Cedula with an accent.",
+      "Retest TIFF/JPG scanning with the same template after renaming fields.",
+    ],
+    notes:
+      "The requester confirmed the accented field name caused the Ricoh Connector failure.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LF Ricoh Connector Failed to communicate with Laserfiche Server",
+        url: "https://answers.laserfiche.com/questions/103715/LF-Ricoh-Connector-Failed-to-communicate-with-Laserfiche-Server",
+        note: "Requester confirms Ricoh Connector did not handle accented field names correctly for TIFF/JPG template scans.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));

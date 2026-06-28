@@ -655,7 +655,9 @@
     "snippet": "405 Error when installing DocuSign Web Import Services I'm using: https://doc. laserfiche .com/ laserfiche .documentation/11/userguide/en-us/Subsystems/client_wa/Content/WebImportServices/InstallingImportWebServices.htm... posted by Michelle Suryadi 631 Aug 20, 2024 updated by Michelle Suryadi 631 Sep 13, 2024 12 replies · 595 views · 0 0 · Laserfiche Integrations",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as DocuSign Web Import Services IIS 405 diagnostic."
   },
   {
     "product": "Connector",
@@ -667,7 +669,9 @@
     "snippet": "Access Denied error when inserting using Connector having. I can use the Connector profile to insert, but when the user tries, he gets the error below. His rights to the Laserfiche destination ... Total: 1 of 1 file failed to import.... posted by John Pulman 105 Jul 22, 2020 updated by Justin Pava 7761 Jul 23, 2020 3 replies · 501 views · 0 0 · Connector",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Connector 9013 modify-content/volume rights issue."
   },
   {
     "product": "Connector",
@@ -678,11 +682,13 @@
     "snippet": "Connector Profile Error - Writing the value to the control \"%(token name)\" failed because the value is not valid trying to get information from LF Windows Client, retrieve a field value from opened Laserfiche document, and write it to another program. Each time I ... We are using 10.2 LF client and 10.3 LF connector . Thank you very much!... posted by Onur Tuncelli 86 Dec 9, 2020 updated by Qinmei Zou 766 Mar 15, 2021 15 replies · 705 views · 0 0 · Connector Laserfiche How To Robotic Process Aut",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "queries": [
       "Connector \"failed\" Laserfiche",
       "Connector profile error Laserfiche"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as unresolved Connector target-control value issue."
   },
   {
     "product": "Connector",
@@ -694,7 +700,9 @@
     "snippet": "Error after LF9.2 Sp1 Client update OfficePlugin.UI.LogInDialog.BeforeLogin() at Laserfiche .OfficePlugin.UI.ConnectorProxy.LogInDelegate(IOPConnector connector ) at Laserfiche .OfficePlugin.UI.ConnectorProxy.ExecuteOperation(String rawMethod, Object[] args, Boolean& autoReconnect ...... posted by Vincent Kelly 78 Jan 16, 2015 updated by Shaun Deprez 113 Mar 18, 2015 3 replies · 663 views · 0 0 · Laserfiche Version 9 Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed as Office Integration/Windows Client COM 800700c1 after Client update, not Connector."
   },
   {
     "product": "Connector",
@@ -706,7 +714,9 @@
     "snippet": "Laserfiche Connector 10.2 Error Importing PDF the latest version of the Connector (10.2.0.400) and it's not possible import PDF's documents into Laserfiche , however other documents like ... PdfExtractor.ImportPDFStream(System.IO.Stream, Laserfiche .RepositoryAccess.DocumentInfo)'. Total: 1 of 1 file failed to import. Is there any Hot-fix to solve this issue ...... posted by Amir Padilla 27 Feb 20, 2017 updated by Qinmei Zou 766 Feb 24, 2017 5 replies · 523 views · 0 0 · Connector Version 10 Int",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Connector 10.2 PDF import hotfix issue."
   },
   {
     "product": "Connector",
@@ -718,7 +728,9 @@
     "snippet": "Laserfiche Connector error \"Could not load file or assembly 'Laserfiche.i18n.dll' or one of its dependencies\" successfully able to use a Laserfiche Connector profile . Another user receives the following error using the same profile . Everything I've looked at are the ...... posted by Penny Lancor 9 Oct 22, 2025 updated by Justin Pava 7761 Oct 22, 2025 1 reply · 297 views · 0 0 · Connector",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Connector runtime missing dependency repair."
   },
   {
     "product": "Connector",
@@ -729,11 +741,13 @@
     "snippet": "LF Connector error 0x78 setting required to access the profile error code 0x78\" note that my users profile is admin on the machine... any idea or support on this ...... posted by Hisham Serry 13 May 17, 2015 updated by Hisham Serry 13 May 25, 2015 4 replies · 578 views · 0 0 · Connector",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "Connector \"error code\" Laserfiche",
       "Connector profile error Laserfiche"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Connector profile access/UAC ProgramData issue."
   },
   {
     "product": "Connector",
@@ -745,7 +759,9 @@
     "snippet": "LF Ricoh Connector: \"Failed to communicate with Laserfiche Server\" are trying to use the LF Ricoh Connector . The app works fine while browsing repository and printing documents, but we have an issue when trying ... The app display this error: \" Failed to communicate with Laserfiche Server\", and this only happens when selected file format is JPG or TIFF, and it ...... posted by Gonzalo Cedrés 2 Aug 19, 2016 updated by Gonzalo Cedrés 2 Aug 24, 2016 1 reply · 468 views · 0 0 · Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Ricoh Connector accented field-name issue."
   },
   {
     "product": "Connector",
@@ -757,7 +773,9 @@
     "snippet": "Server connectivity issue || Tasks Unavailable in Laserfiche SQL Server: The underlying provider failed on Open.. [LFF18-EntityFrameworkInaccessible] Details: URL: /Forms/Home/Reports Error: EntityFrameworkInaccessible Date: 10/29/2022 5:56:23 ... Name: Stack Trace: Caught exception: Laserfiche .Forms.CommonUtils.Exceptions.LFFormsException Message: Entity Framework returned the following error when trying to communicate with SQL Server: ... posted by Kaumudi Mishra 0 Oct 31, 2022 updated by Mir",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed as Forms SQL EntityFrameworkInaccessible issue, not Connector."
   },
   {
     "product": "Connector",
@@ -769,7 +787,9 @@
     "snippet": "Server connectivity issue || Tasks Unavailable in Laserfiche SQL Server: The underlying provider failed on Open.. [LFF18-EntityFrameworkInaccessible] Details: URL: /Forms/Home/Reports Error: EntityFrameworkInaccessible Date: 10/29/2022 5:56:23 ... Name: Stack Trace: Caught exception: Laserfiche .Forms.CommonUtils.Exceptions.LFFormsException Message: Entity Framework returned the following error when trying to communicate with SQL Server: ... posted by Kaumudi Mishra 0 Oct 31, 2022 updated by Mir",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed as Forms SQL EntityFrameworkInaccessible issue, not Connector."
   },
   {
     "product": "Directory Server",
