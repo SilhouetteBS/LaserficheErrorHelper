@@ -4,29 +4,29 @@ Generated: 2026-06-28
 
 ## Summary
 
-- Published helper entries: 1740
-- Reviewed source ledger rows: 692
+- Published helper entries: 1747
+- Reviewed source ledger rows: 708
 - Discovery rows tracked: 3931
-- Remaining candidate rows: 286
+- Remaining candidate rows: 236
 
 ## Fix Status Coverage
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 311 |
-| known-fix | 99 |
+| diagnostic-only | 312 |
+| known-fix | 102 |
 | needs-review | 1149 |
 | unresolved | 42 |
-| workaround | 139 |
+| workaround | 142 |
 
 ## Source Ledger Review Status
 
 | Review status | Sources |
 | --- | --- |
 | cross-product | 3 |
-| curated | 193 |
-| curated-partial | 95 |
-| curated-unresolved | 396 |
+| curated | 203 |
+| curated-partial | 98 |
+| curated-unresolved | 399 |
 | no-matching-posts | 1 |
 | not-actionable | 4 |
 
@@ -34,9 +34,9 @@ Generated: 2026-06-28
 
 | Source type | Sources |
 | --- | --- |
-| answers-community | 82 |
-| answers-community-confirmed | 337 |
-| answers-laserfiche-employee | 256 |
+| answers-community | 84 |
+| answers-community-confirmed | 347 |
+| answers-laserfiche-employee | 260 |
 | answers-search | 1 |
 | official-docs | 16 |
 
@@ -54,7 +54,7 @@ Generated: 2026-06-28
 | Discussions | 5 | 4 |
 | Distributed Computing Cluster | 9 | 4 |
 | Federated Search | 4 | 0 |
-| Forms | 79 | 66 |
+| Forms | 81 | 41 |
 | Full Text Search | 16 | 3 |
 | Import Agent | 23 | 2 |
 | Laserfiche Installer | 31 | 30 |
@@ -68,14 +68,13 @@ Generated: 2026-06-28
 | WebLink | 22 | 5 |
 | Webtools Agent | 0 | 0 |
 | Windows Client/Desktop Client | 218 | 19 |
-| Workflow | 47 | 35 |
+| Workflow | 52 | 10 |
 
 ## Next Batch Targets
 
 | Product | Remaining candidates |
 | --- | --- |
-| Forms | 66 |
-| Workflow | 35 |
+| Forms | 41 |
 | Laserfiche Installer | 30 |
 | Laserfiche Server/Repository Server | 30 |
 | Directory Server | 27 |
@@ -83,5 +82,6 @@ Generated: 2026-06-28
 | Web Client | 18 |
 | Snapshot | 17 |
 | Mobile | 10 |
+| Workflow | 10 |
 | Audit Trail | 5 |
 

@@ -17039,6 +17039,20 @@
       "validationNote": "Priority source was reviewed by the curation pass; remaining evidence is diagnostic or scenario-limited."
     },
     {
+      "id": "workflow-9051-email-activity-export",
+      "code": "9051",
+      "product": "Workflow",
+      "message": "The specified operation is not recognized during a Workflow email activity.",
+      "confidence": "medium",
+      "fixStatus": "diagnostic-only",
+      "bestSourceType": "answers-laserfiche-employee",
+      "sourceCount": 1,
+      "scenarioCount": 0,
+      "validationDisposition": "priority-source-review",
+      "validationStatus": "reviewed-diagnostic",
+      "validationNote": "Priority source was reviewed by the curation pass; remaining evidence is diagnostic or scenario-limited."
+    },
+    {
       "id": "workflow-2147467259-not-responsive",
       "code": "2147467259",
       "product": "Workflow",
@@ -17872,11 +17886,11 @@
       "confidence": "low",
       "fixStatus": "workaround",
       "bestSourceType": "answers-community-confirmed",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "scenarioCount": 0,
-      "validationDisposition": "keep-diagnostic-only",
+      "validationDisposition": "candidate-for-scenario-review",
       "validationStatus": "reviewed-diagnostic",
-      "validationNote": "Reviewed as a diagnostic-only entry; keep visible without implying a confirmed fix."
+      "validationNote": "Scenario review was completed or the captured sources did not support distinct source-backed scenarios."
     },
     {
       "id": "forms-lff324-lf-server-not-configured",

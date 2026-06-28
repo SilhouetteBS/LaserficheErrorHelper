@@ -2,9 +2,9 @@
   "summary": {
     "passPath": "research/source-research-pass-2026-06-28-5.json",
     "officialSourceAugmentations": 10,
-    "reviewedCandidateAugmentations": 39,
+    "reviewedCandidateAugmentations": 55,
     "entriesWithOfficialAugmentations": 10,
-    "entriesWithReviewedCandidateAugmentations": 17,
+    "entriesWithReviewedCandidateAugmentations": 27,
     "entriesWithAnswersCandidates": 0,
     "answersCandidates": 0,
     "answersPriorityCandidates": 0
@@ -126,6 +126,12 @@
         "title": "The call to Laserfiche Workflow API was not successful",
         "url": "https://answers.laserfiche.com/questions/139087/The-call-to-Laserfiche-Workflow-API-was-not-successful",
         "note": "Priority candidate reviewed. The thread documents Forms giving up after 30 seconds and a support-provided OperationTimeout registry workaround for Workflow Server."
+      },
+      {
+        "sourceType": "answers-community",
+        "title": "Forms Error Log",
+        "url": "https://answers.laserfiche.com/questions/166472/Forms-Error-Log",
+        "note": "Reviewed candidate accepted as diagnostic. LFF5203 reported that Forms could not create a connection to Workflow Server localhost; service restarts got some submissions moving while further investigation continued."
       }
     ],
     "api-server-upload-conflict-409": [
@@ -180,6 +186,12 @@
         "title": "IPushNotificationService May Not Be Running",
         "url": "https://answers.laserfiche.com/questions/163841/IPushNotificationService-May-Not-Be-Running",
         "note": "Reviewed candidate accepted. Staff guidance is to verify or restart the Laserfiche Notification Master Service, inspect LFNotificationService logs, and check SSL/TLS binding, URL ACL, and DMZ Hub/Master routing for notification traffic."
+      },
+      {
+        "sourceType": "answers-community-confirmed",
+        "title": "Configuring the Notification Service for real-time updates on the Tasks page",
+        "url": "https://answers.laserfiche.com/questions/181633/Configuring-the-Notification-Service-for-realtime-updates-on-the-Tasks-page",
+        "note": "Reviewed candidate accepted. Real-time task updates began working after changing the Forms Notification Hub URL from localhost to the machine name and restarting Forms services."
       }
     ],
     "forms-lff9320-validation-aggregate": [
@@ -302,6 +314,30 @@
         "title": "Error LFF502 UnexpectedError After Upgrading Forms to Version 11 Update 3",
         "url": "https://answers.laserfiche.com/questions/205804/Error-LFF502UnexpectedError-After-Upgrading-Forms-to-Version-11-Update-3",
         "note": "Reviewed candidate accepted. Laserfiche employee replies identify a Forms 11 Update 3 regression when a form id matches a theme id, provide a SQL workaround after database backup, and point to hotfix KB1014419."
+      },
+      {
+        "sourceType": "answers-community-confirmed",
+        "title": "Errors Processing Workflow from Public Submission",
+        "url": "https://answers.laserfiche.com/questions/212893/Errors-Processing-Workflow-from-Public-Submission",
+        "note": "Reviewed candidate accepted. LFF502 during high-volume public Forms submissions was tied to Workflow service task and routing/concurrency issues; the requester reported no recurrence after resolving the identified issues."
+      },
+      {
+        "sourceType": "answers-laserfiche-employee",
+        "title": "Workflow Service Task Returning: The remote server returned an error: (401) Unauthorized.",
+        "url": "https://answers.laserfiche.com/questions/101605/Workflow-Service-Task-Returning-The-remote-server-returned-an-error-401-Unauthorized",
+        "note": "Reviewed candidate accepted. Laserfiche employee guidance points to Forms/Workflow authentication configuration when a Workflow service task suspends with LFF502 and an inner HTTP 401 Unauthorized response."
+      },
+      {
+        "sourceType": "answers-community",
+        "title": "Forms Task Suspended \"The server is not operational\"",
+        "url": "https://answers.laserfiche.com/questions/187125/Forms-Task-Suspended-The-server-is-not-operational",
+        "note": "Reviewed candidate accepted as diagnostic. LFF502 with The server is not operational was investigated against new domain controllers and LDAP changes."
+      },
+      {
+        "sourceType": "answers-community-confirmed",
+        "title": "Forms 10 LFF502-UnexpectedError",
+        "url": "https://answers.laserfiche.com/questions/111001/Forms-10-LFF502UnexpectedError",
+        "note": "Reviewed candidate accepted. The requester resolved Forms 10.1 LFF502 on submission by deleting and recreating the form's date fields."
       }
     ],
     "windows-client-desktop-client-0x80070050-export-display-engine": [
@@ -358,6 +394,86 @@
         "title": "Client 10.4.1 crashes when opening PDF",
         "url": "https://answers.laserfiche.com/questions/181371/Client-1041-crashes-when-opening-PDF",
         "note": "Reviewed candidate accepted. Laserfiche employee reply identifies a known issue reported to Adobe, LF bug 282441, when opening PDFs externally with Acrobat causes Client crashes."
+      }
+    ],
+    "forms-sql-create-database-permission-42000": [
+      {
+        "sourceType": "answers-community-confirmed",
+        "title": "Error 42000: Permission Denied in database 'master'",
+        "url": "https://answers.laserfiche.com/questions/77677/Error-42000-Permission-Denied-in-database-master",
+        "note": "Reviewed candidate accepted. Error 42000: Permission Denied in database 'master' was promoted from the Forms/Workflow candidate batch."
+      }
+    ],
+    "forms-reports-download-error-500": [
+      {
+        "sourceType": "answers-community-confirmed",
+        "title": "[Forms] Reports: Error occurred during download (Error 500) - Solution Inside",
+        "url": "https://answers.laserfiche.com/questions/180800/Forms-Reports-Error-occurred-during-download-Error-500--Solution-Inside",
+        "note": "Reviewed candidate accepted. [Forms] Reports: Error occurred during download (Error 500) - Solution Inside was promoted from the Forms/Workflow candidate batch."
+      }
+    ],
+    "forms-http-500-21-extensionless-url-handler": [
+      {
+        "sourceType": "answers-community-confirmed",
+        "title": "500.21 error when running Laserfiche Forms",
+        "url": "https://answers.laserfiche.com/questions/60155/50021-error-when-running-Laserfiche-Forms",
+        "note": "Reviewed candidate accepted. 500.21 error when running Laserfiche Forms was promoted from the Forms/Workflow candidate batch."
+      }
+    ],
+    "forms-workflow-web-service-http-500": [
+      {
+        "sourceType": "answers-laserfiche-employee",
+        "title": "Workflow Server - The remote server returned an error 500",
+        "url": "https://answers.laserfiche.com/questions/87148/Workflow-Server--The-remote-server-returned-an-error-500",
+        "note": "Reviewed candidate accepted. Workflow Server - The remote server returned an error 500 was promoted from the Forms/Workflow candidate batch."
+      }
+    ],
+    "forms-lff308-page-expired": [
+      {
+        "sourceType": "answers-community-confirmed",
+        "title": "unable to view submission after submitting a form",
+        "url": "https://answers.laserfiche.com/questions/80166/unable-to-view-submission-after-submitting-a-form",
+        "note": "Reviewed candidate accepted. Restarting a crashed Forms Routing Service resolved LFF308/PageExpired behavior and allowed queued submissions to come through."
+      }
+    ],
+    "forms-lff5206-wf-api-access-denied": [
+      {
+        "sourceType": "answers-laserfiche-employee",
+        "title": "Forms Workflow Connection Test is improperly reporting success",
+        "url": "https://answers.laserfiche.com/questions/180798/Forms-Workflow-Connection-Test-is-improperly-reporting-success",
+        "note": "Reviewed candidate accepted. Laserfiche employee guidance explains that Forms Test Connection is one-way and Workflow-to-Forms connectivity must be tested from Workflow; address mismatch can lead to LFF5206."
+      }
+    ],
+    "workflow-subscriber-9010-incorrect-credentials": [
+      {
+        "sourceType": "answers-community-confirmed",
+        "title": "Workflow Subscriber error 9010",
+        "url": "https://answers.laserfiche.com/questions/57237/Workflow-Subscriber-error-9010",
+        "note": "Reviewed candidate accepted. Workflow Subscriber error 9010 was promoted from the Forms/Workflow candidate batch."
+      }
+    ],
+    "workflow-9051-email-activity-export": [
+      {
+        "sourceType": "answers-laserfiche-employee",
+        "title": "Error 9051 on Email Activity in Workflow",
+        "url": "https://answers.laserfiche.com/questions/153873/Error-9051-on-Email-Activity-in-Workflow",
+        "note": "Reviewed candidate accepted. Error 9051 on Email Activity in Workflow was promoted from the Forms/Workflow candidate batch."
+      }
+    ],
+    "workflow-9000-record-series-move-entry": [
+      {
+        "sourceType": "answers-community-confirmed",
+        "title": "Workflow Error [9000]",
+        "url": "https://answers.laserfiche.com/questions/135957/Workflow-Error-9000",
+        "note": "Reviewed candidate accepted. Workflow Error [9000] was promoted from the Forms/Workflow candidate batch."
+      }
+    ],
+    "workflow-0411-wf0-publish-object-reference": [
+      {
+        "sourceType": "answers-community-confirmed",
+        "title": "Failed to publish workflow: Object reference not set to an instance of an object. [0411-WF0]",
+        "url": "https://answers.laserfiche.com/questions/236900/Failed-to-publish-workflow-MMECMChecksPosted-Object-reference-not-set-to-an-instance-of-an-object-0411WF0",
+        "note": "Reviewed candidate accepted. Failed to publish workflow: Object reference not set to an instance of an object. [0411-WF0] was promoted from the Forms/Workflow candidate batch."
       }
     ]
   },
