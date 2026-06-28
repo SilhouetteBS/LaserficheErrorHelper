@@ -9,9 +9,8 @@ Batches: 31
 | Disposition | Candidates |
 | --- | --- |
 | candidate-for-fix-upgrade | 244 |
-| candidate-for-scenario-review | 3 |
-| keep-diagnostic-only | 63 |
-| needs-additional-source-research | 29 |
+| keep-diagnostic-only | 64 |
+| needs-additional-source-research | 31 |
 | official-doc-baseline-only | 1151 |
 | priority-source-review | 58 |
 
@@ -77,12 +76,11 @@ Batches: 31
 | 28 | 50 | candidate-for-fix-upgrade (49) | Laserfiche Server/Repository Server (21) |
 | 29 | 50 | candidate-for-fix-upgrade (44) | Windows Client/Desktop Client (24) |
 | 30 | 50 | candidate-for-fix-upgrade (26) | Workflow (19) |
-| 31 | 48 | needs-additional-source-research (26) | Web Client (22) |
+| 31 | 48 | needs-additional-source-research (28) | Web Client (22) |
 
 ## Next Steps by Disposition
 
 - candidate-for-fix-upgrade: Review the confirmed community source and promote only if the fix is clearly confirmed for the product/version.
-- candidate-for-scenario-review: Check whether multiple sources describe distinct causes or fixes and add scenarios if supported.
 - keep-diagnostic-only: Keep visible as diagnostic-only until a stronger source is found.
 - needs-additional-source-research: Search Laserfiche Answers and official docs for a source-backed fix.
 - official-doc-baseline-only: Keep as needs-review unless a Laserfiche Answers or help-doc source provides actionable remediation.

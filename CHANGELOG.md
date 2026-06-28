@@ -2,6 +2,7 @@
 
 ## 2026-06-28
 
+- Added scenario variants for the remaining scenario-review entries and made priority-source curation merge-safe.
 - Added community-confirmed fix curation for the next validation batches.
 - Reviewed 138 priority-source validation candidates and added 86 conservative fix-status overrides.
 - Added `npm run curation:priority` plus an auditable priority-source curation report.

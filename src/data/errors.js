@@ -8667,6 +8667,51 @@ const curatedErrorEntries = [
       "Check SSL bindings, service account identity, and load-balancer routing for notification-service traffic.",
       "Collect Forms and notification service logs because the reviewed public threads do not include a confirmed universal fix.",
     ],
+    scenarios: [
+      {
+        title: "Secondary or load-balanced Forms server notification outage",
+        summary:
+          "One reviewed thread documents LFF8100 in a secondary-server or load-balanced Forms real-time notification path.",
+        versions: ["Version 10", "Version 11"],
+        symptoms: [
+          "Real-time notifications do not work on a secondary Forms server.",
+          "The error includes LFF8100-NotificationServerConnectionDown or an HTTP 500 around notification service calls.",
+        ],
+        causes: [
+          "Notification-service traffic may not be reaching the expected Forms server in the load-balanced path.",
+          "The notification service may be stopped or unreachable on the server handling the request.",
+        ],
+        fixes: [
+          "Verify the Forms Notification Service is running on each expected Forms server.",
+          "Check load-balancer routing and health checks for notification-service endpoints.",
+          "Compare Forms and notification service logs on the primary and secondary servers at the same timestamp.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/206208/Forms-Real-Time-Notifications-Not-Working-on-Secondary-Server-in-LB",
+        ],
+      },
+      {
+        title: "SSL notification service account configuration",
+        summary:
+          "A related reviewed thread points to SSL and local service-account configuration for the Forms notification service.",
+        versions: ["Version 10", "Version 11"],
+        symptoms: [
+          "Forms notification service configuration is unclear when SSL is enabled.",
+          "Notification-service connectivity fails after SSL or service-account changes.",
+        ],
+        causes: [
+          "The notification service account, certificate binding, or SSL endpoint may not match the Forms configuration.",
+        ],
+        fixes: [
+          "Confirm the service account identity used by the notification service.",
+          "Verify SSL bindings and certificate trust from the Forms server to the notification-service endpoint.",
+          "Review Forms notification service logs after applying SSL or account changes.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/181768/Configuring-Notification-Service-When-Using-SSL--What-is-my-local-service-account-name",
+        ],
+      },
+    ],
     notes: "Fresh Answers pass item; published as unresolved documentation pending deeper source review.",
     sources: [
       {
@@ -8814,6 +8859,50 @@ const curatedErrorEntries = [
       "Verify Workflow Server is reachable from Forms and that the configured Workflow connection still points to the correct server.",
       "Check Workflow API/service logs and Forms service-task logs at the same timestamp.",
       "Review upgrade compatibility and republish/reselect the affected Workflow service task before opening Support.",
+    ],
+    scenarios: [
+      {
+        title: "Workflow API failure after a 10.2.1 upgrade",
+        summary:
+          "One reviewed thread documents LFF5203 after upgrading to Laserfiche 10.2.1.",
+        versions: ["Version 10"],
+        symptoms: [
+          "Forms reports that the call to Laserfiche Workflow API was not successful after upgrade.",
+          "The details include LFF5203-WFServerApiFault.",
+        ],
+        causes: [
+          "The Forms-to-Workflow connection may still point to an old endpoint or incompatible service state after upgrade.",
+        ],
+        fixes: [
+          "Verify Workflow Server is reachable from the Forms server after the upgrade.",
+          "Review Forms and Workflow service configuration for stale hostnames, ports, or service URLs.",
+          "Check Forms and Workflow logs at the same timestamp before rerunning affected tasks.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/132137/After-upgrade-to-1021-Error-The-call-to-Laserfiche-Workflow-API-was-not-successful",
+        ],
+      },
+      {
+        title: "Forms Workflow service task suspension",
+        summary:
+          "A related reviewed thread documents a Forms Workflow activity instance suspending with LFF5203.",
+        versions: ["Version 10"],
+        symptoms: [
+          "A Forms Workflow service task suspends.",
+          "The error includes an invocation exception and LFF5203-WFServerApiFault.",
+        ],
+        causes: [
+          "The selected Workflow service task may not be callable from Forms, or the Workflow API call may fail during task execution.",
+        ],
+        fixes: [
+          "Reselect or republish the affected Workflow service task, then retest with a controlled Forms submission.",
+          "Verify the Forms server can reach Workflow Server and that the workflow is published and available.",
+          "Review Forms service-task logs and Workflow API logs for the same failed instance.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/199426/Forms-WF-Activity-Instance-Suspends-with-error-The-call-to-Laserfiche-Workflow-API-was-not-successful-Exception-has-been-thrown-by-the-target-of-an-invocation-LFF5203WFServerApiFault",
+        ],
+      },
     ],
     sources: [
       {
@@ -9450,6 +9539,48 @@ const curatedErrorEntries = [
       "Verify the API route, repository id, task id, and base URL against the API Server Swagger page.",
       "Confirm the request is targeting the self-hosted API version supported by the installed API Server.",
       "Check API Server logs to distinguish an invalid endpoint from an authorization or repository lookup failure.",
+    ],
+    scenarios: [
+      {
+        title: "Search task request returns 404 from a web request rule",
+        summary:
+          "One reviewed thread documents a web request rule calling a Laserfiche API search task endpoint and receiving 404 Not Found.",
+        versions: ["Version 11", "Version 12"],
+        symptoms: [
+          "A workflow or web request rule calls a Laserfiche API search task endpoint.",
+          "The API response is HTTP 404 Not Found.",
+        ],
+        causes: [
+          "The search task route, task id, repository id, or base API URL may not match the API Server route expected by the installed version.",
+        ],
+        fixes: [
+          "Compare the request URL with the API Server Swagger route for search task retrieval.",
+          "Verify the repository id and task id are current and belong to the same API Server environment.",
+          "Check API Server logs to confirm whether the route is missing or the task lookup failed.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/220463/Calling-Laserfiche-API-Through-Web-Request-Rule--Search-Task-404-Not-Found",
+        ],
+      },
+      {
+        title: "General Laserfiche API 404 signature",
+        summary:
+          "A related reviewed thread captures a broader Laserfiche API 404 signature that may have a different endpoint or routing cause.",
+        versions: ["Version 11", "Version 12"],
+        symptoms: [
+          "A Laserfiche API request returns HTTP 404.",
+          "The failing request is not necessarily limited to search task retrieval.",
+        ],
+        causes: [
+          "The request may target an incorrect API base URL, route, or version-specific endpoint.",
+        ],
+        fixes: [
+          "Confirm the API base URL and route against Swagger for the installed self-hosted API Server.",
+          "Retest the same call directly from Swagger or a REST client to isolate application URL construction issues.",
+          "Review API Server logs for the failing request path.",
+        ],
+        sourceUrls: ["https://answers.laserfiche.com/questions/213690/laserficheapi-404"],
+      },
     ],
     sources: [
       {

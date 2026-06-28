@@ -2,6 +2,7 @@
 
 Priority-source candidates reviewed: 138
 Fix-status overrides applied: 86
+Total override entries after merge: 118
 
 ## Decision Summary
 

@@ -349,9 +349,8 @@
       "count": 50,
       "dispositions": {
         "candidate-for-fix-upgrade": 26,
-        "keep-diagnostic-only": 21,
-        "needs-additional-source-research": 2,
-        "candidate-for-scenario-review": 1
+        "keep-diagnostic-only": 22,
+        "needs-additional-source-research": 2
       },
       "products": {
         "Windows Client/Desktop Client": 13,
@@ -366,8 +365,7 @@
       "count": 48,
       "dispositions": {
         "keep-diagnostic-only": 20,
-        "needs-additional-source-research": 26,
-        "candidate-for-scenario-review": 2
+        "needs-additional-source-research": 28
       },
       "products": {
         "Directory Server": 5,
@@ -22641,9 +22639,9 @@
       "fixStatus": "diagnostic-only",
       "bestSourceType": "answers-community",
       "sourceCount": 2,
-      "scenarioCount": 0,
-      "disposition": "candidate-for-scenario-review",
-      "nextStep": "Check whether multiple sources describe distinct causes or fixes and add scenarios if supported."
+      "scenarioCount": 2,
+      "disposition": "keep-diagnostic-only",
+      "nextStep": "Keep visible as diagnostic-only until a stronger source is found."
     },
     {
       "batch": 30,
@@ -23031,9 +23029,9 @@
       "fixStatus": "unresolved",
       "bestSourceType": "answers-community",
       "sourceCount": 2,
-      "scenarioCount": 0,
-      "disposition": "candidate-for-scenario-review",
-      "nextStep": "Check whether multiple sources describe distinct causes or fixes and add scenarios if supported."
+      "scenarioCount": 2,
+      "disposition": "needs-additional-source-research",
+      "nextStep": "Search Laserfiche Answers and official docs for a source-backed fix."
     },
     {
       "batch": 31,
@@ -23601,9 +23599,9 @@
       "fixStatus": "unresolved",
       "bestSourceType": "answers-community",
       "sourceCount": 2,
-      "scenarioCount": 0,
-      "disposition": "candidate-for-scenario-review",
-      "nextStep": "Check whether multiple sources describe distinct causes or fixes and add scenarios if supported."
+      "scenarioCount": 2,
+      "disposition": "needs-additional-source-research",
+      "nextStep": "Search Laserfiche Answers and official docs for a source-backed fix."
     }
   ]
 }

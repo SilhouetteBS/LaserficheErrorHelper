@@ -7,7 +7,7 @@ Generated: 2026-06-28
 - Published entries: 1737
 - Reviewed sources: 652
 - Entries needing validation: 1548
-- Entries with scenario variants: 3
+- Entries with scenario variants: 6
 
 ## Confidence Coverage
 

@@ -1,6 +1,7 @@
 import fs from "node:fs";
 
 import { baseErrorEntries } from "../src/data/errors.js";
+import { curationOverrides as existingOverrides } from "../src/data/curationOverrides.js";
 
 const candidatesPath = "research/priority-source-review-candidates.json";
 const reportPath = "research/priority-source-curation.md";
@@ -148,12 +149,27 @@ const candidateExport = candidates.map((entry) => ({
   notes: entry.notes ?? "",
 }));
 
+const mergedOverrides = {
+  ...existingOverrides,
+  ...Object.fromEntries(
+    overrides.map((decision) => [
+      decision.id,
+      {
+        fixStatus: decision.fixStatus,
+        curationNote: decision.reason,
+      },
+    ]),
+  ),
+};
+
 const overrideLines = [
   "export const curationOverrides = {",
-  ...overrides.map(
-    (decision) =>
-      `  ${JSON.stringify(decision.id)}: { fixStatus: ${JSON.stringify(decision.fixStatus)}, curationNote: ${JSON.stringify(decision.reason)} },`,
-  ),
+  ...Object.entries(mergedOverrides)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(
+      ([id, override]) =>
+        `  ${JSON.stringify(id)}: { fixStatus: ${JSON.stringify(override.fixStatus)}, curationNote: ${JSON.stringify(override.curationNote)} },`,
+    ),
   "};",
   "",
 ];
@@ -166,6 +182,7 @@ const report = [
   "",
   `Priority-source candidates reviewed: ${decisions.length}`,
   `Fix-status overrides applied: ${overrides.length}`,
+  `Total override entries after merge: ${Object.keys(mergedOverrides).length}`,
   "",
   "## Decision Summary",
   "",
