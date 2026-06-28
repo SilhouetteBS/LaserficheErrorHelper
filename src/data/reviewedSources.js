@@ -6748,5 +6748,175 @@ export const reviewedSources = [
     productTags: ["Workflow", "Forms", "Version 10"],
     extractedErrorCodes: ["0735-WF1", "LFF5203"],
     reviewStatus: "curated"
+  },
+  {
+    id: "answers-157246-forms-lff502-field-rights",
+    title: "Bad Field Value Access Denied - Troubleshooting Help",
+    url: "https://answers.laserfiche.com/questions/157246/Bad-Field-Value-Access-Denied--Troubleshooting-Help",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502", "9010"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-109337-forms-workflow-service-lff502",
+    title: "Forms Workflow Service stopped working",
+    url: "https://answers.laserfiche.com/questions/109337/Forms-Workflow-Service-stopped-working",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Workflow", "Version 10"],
+    extractedErrorCodes: ["LFF502", "0x80004005"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-157069-forms-lff502-app-pool",
+    title: "LFF502 - Unexpected Error on Forms Submission",
+    url: "https://answers.laserfiche.com/questions/157069/LFF502--Unexpected-Error-on-Forms-Submission",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-104123-forms-lff502-blank-variable",
+    title: "An unexpected error has occurred",
+    url: "https://answers.laserfiche.com/questions/104123/An-unexpected-error-has-occurred",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-117502-forms-lff502-null-date-format",
+    title: "LFF502 Unexpected error after 10.2 upgrade",
+    url: "https://answers.laserfiche.com/questions/117502/LFF502UnexpectedError-Unexpected-error-after-102-upgrade",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-115409-forms-lff502-ie-hotfix",
+    title: "Error on LF Forms using Internet Explorer",
+    url: "https://answers.laserfiche.com/questions/115409/Error-on-LF-Forms-using-Internet-Explorer",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-115076-forms-lff502-saxon",
+    title: "Forms - Ocurrio un error inesperado LFF502",
+    url: "https://answers.laserfiche.com/questions/115076/Forms--Ocurri-un-error-inesperado-LFF502UnexpectedError",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-97875-forms-lff502-terminated",
+    title: "Forms terminated",
+    url: "https://answers.laserfiche.com/questions/97875/Forms-terminated",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-203584-forms-lff502-field-multiplicity",
+    title: "LFF502 Unexpected Error - Unknown field multiplicity",
+    url: "https://answers.laserfiche.com/questions/203584/LFF502Unexpected-Error--Unknown-field-multiplicity",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-205804-forms-lff502-theme-id",
+    title: "Error LFF502 UnexpectedError After Upgrading Forms to Version 11 Update 3",
+    url: "https://answers.laserfiche.com/questions/205804/Error-LFF502UnexpectedError-After-Upgrading-Forms-to-Version-11-Update-3",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 11"],
+    extractedErrorCodes: ["LFF502"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-113868-client-export-0x80070050",
+    title: "exporting data from 8.2.0.636",
+    url: "https://answers.laserfiche.com/questions/113868/exporting-data-from-820636",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Windows Client/Desktop Client", "Version 9"],
+    extractedErrorCodes: ["6608", "0x80070050"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-119420-client-briefcase-6568",
+    title: "Error 6568 when pasting in briefcase",
+    url: "https://answers.laserfiche.com/questions/119420/Error-6568-when-pasting-in-briefcase",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Windows Client/Desktop Client", "Version 9"],
+    extractedErrorCodes: ["6568"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-49760-client-0x80004002-91-server",
+    title: "9.0.2 and 9.0.1 Laserfiche Client throwing errors connecting to 9.1 repository",
+    url: "https://answers.laserfiche.com/questions/49760/902-and-901-Laserfiche-Client-throwing-errors-connecting-to-91-repository",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Windows Client/Desktop Client", "Laserfiche Server/Repository Server", "Version 9"],
+    extractedErrorCodes: ["6000", "0x80004002"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-48181-lf-server-9037-license-file",
+    title: "I got a 9037 error invalid session after upgrade from Laserfiche 8.1",
+    url: "https://answers.laserfiche.com/questions/48181/I-got-a-9037-error-invalid-session-after-upgrade-from-lasserfiche-81-How-can-I-fix-it",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Windows Client/Desktop Client", "Version 9"],
+    extractedErrorCodes: ["9037"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-109572-lf-server-9526-sql-services",
+    title: "The repository cannot be mounted at the current time because it is being mounted or unmounted",
+    url: "https://answers.laserfiche.com/questions/109572/The-repository-cannot-be-mounted-at-the-current-time-because-it-is-being-mounted-or-umounted-Please-wait-until-the-current-operation-completes-9526",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["9526", "784"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-120217-client-page-crash",
+    title: "lf crashing when viewing document at certain page",
+    url: "https://answers.laserfiche.com/questions/120217/lf-crashing-when-viewing-document-at-certain-page",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Windows Client/Desktop Client", "Version 10"],
+    extractedErrorCodes: ["0x5876f4ad", "0x5862fabe", "0xc0000005", "0x001fcf46"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-181371-client-pdf-acrobat-crash",
+    title: "Client 10.4.1 crashes when opening PDF",
+    url: "https://answers.laserfiche.com/questions/181371/Client-1041-crashes-when-opening-PDF",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Windows Client/Desktop Client", "Version 10", "Version 11"],
+    extractedErrorCodes: ["0x5cdf1ea5", "0xd49544eb", "0xc0000005", "0x0003e935"],
+    reviewStatus: "curated"
   }
 ];

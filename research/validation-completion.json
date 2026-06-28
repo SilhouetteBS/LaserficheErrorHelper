@@ -6833,20 +6833,6 @@
       "validationNote": "Official documentation baseline entry; no public Answers fix has been attached yet."
     },
     {
-      "id": "lf-server-9037-invalid-session",
-      "code": "9037",
-      "product": "Laserfiche Server/Repository Server",
-      "message": "Invalid Session",
-      "confidence": "low",
-      "fixStatus": "needs-review",
-      "bestSourceType": "official-docs",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "official-doc-baseline-only",
-      "validationStatus": "official-doc-baseline",
-      "validationNote": "Official documentation baseline entry; no public Answers fix has been attached yet."
-    },
-    {
       "id": "official-lf12-9038-invalid-handle",
       "code": "9038",
       "product": "Laserfiche Server/Repository Server",
@@ -15849,20 +15835,6 @@
       "validationNote": "Official documentation baseline entry; no public Answers fix has been attached yet."
     },
     {
-      "id": "official-lf12-6568-the-volume-could-not-be-found",
-      "code": "6568",
-      "product": "Windows Client/Desktop Client",
-      "message": "The volume could not be found.",
-      "confidence": "low",
-      "fixStatus": "needs-review",
-      "bestSourceType": "official-docs",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "official-doc-baseline-only",
-      "validationStatus": "official-doc-baseline",
-      "validationNote": "Official documentation baseline entry; no public Answers fix has been attached yet."
-    },
-    {
       "id": "official-lf12-6571-could-not-find-the-specified-template",
       "code": "6571",
       "product": "Windows Client/Desktop Client",
@@ -16535,20 +16507,6 @@
       "validationNote": "Priority source was reviewed by the curation pass; remaining evidence is diagnostic or scenario-limited."
     },
     {
-      "id": "forms-lff502-unexpected-error",
-      "code": "LFF502",
-      "product": "Forms",
-      "message": "Laserfiche Forms has encountered a problem. Unexpected error.",
-      "confidence": "low",
-      "fixStatus": "workaround",
-      "bestSourceType": "answers-laserfiche-employee",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "priority-source-review",
-      "validationStatus": "reviewed-diagnostic",
-      "validationNote": "Priority source was reviewed by the curation pass; remaining evidence is diagnostic or scenario-limited."
-    },
-    {
       "id": "forms-lff706-unable-to-trigger-routing",
       "code": "LFF706",
       "product": "Forms",
@@ -16931,6 +16889,34 @@
       "code": "WEBLINK-PAGE1",
       "product": "WebLink",
       "message": "WebLink Page1.aspx error after a single search result.",
+      "confidence": "medium",
+      "fixStatus": "diagnostic-only",
+      "bestSourceType": "answers-laserfiche-employee",
+      "sourceCount": 1,
+      "scenarioCount": 0,
+      "validationDisposition": "priority-source-review",
+      "validationStatus": "reviewed-diagnostic",
+      "validationNote": "Priority source was reviewed by the curation pass; remaining evidence is diagnostic or scenario-limited."
+    },
+    {
+      "id": "windows-client-desktop-client-0x5cdf1ea5-pdf-acrobat-crash",
+      "code": "0x5cdf1ea5 / 0xd49544eb / 0xc0000005 / 0x0003e935",
+      "product": "Windows Client/Desktop Client",
+      "message": "Laserfiche Client crashes when opening PDFs with Adobe Acrobat.",
+      "confidence": "medium",
+      "fixStatus": "diagnostic-only",
+      "bestSourceType": "answers-laserfiche-employee",
+      "sourceCount": 1,
+      "scenarioCount": 1,
+      "validationDisposition": "priority-source-review",
+      "validationStatus": "reviewed-diagnostic",
+      "validationNote": "Priority source was reviewed by the curation pass; remaining evidence is diagnostic or scenario-limited."
+    },
+    {
+      "id": "windows-client-desktop-client-0x5876f4ad-specific-page-crash",
+      "code": "0x5876f4ad / 0x5862fabe / 0xc0000005 / 0x001fcf46",
+      "product": "Windows Client/Desktop Client",
+      "message": "Laserfiche Client crashes when viewing a specific document page.",
       "confidence": "medium",
       "fixStatus": "diagnostic-only",
       "bestSourceType": "answers-laserfiche-employee",
@@ -20235,20 +20221,6 @@
       "code": "0x54880652 / 0x5098858e / 0xc0000409 / 0x000a326c",
       "product": "Windows Client/Desktop Client",
       "message": "LF Client crashing on win10 when saving/closing doc with ‘open’ text box annotation",
-      "confidence": "low",
-      "fixStatus": "diagnostic-only",
-      "bestSourceType": "answers-community-confirmed",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "candidate-for-fix-upgrade",
-      "validationStatus": "reviewed-diagnostic",
-      "validationNote": "Community-confirmed source was reviewed by the curation pass; no stronger fix should be promoted without additional source evidence."
-    },
-    {
-      "id": "windows-client-desktop-client-0x80004002-application-error-due-to-no-such-interface-supported",
-      "code": "0x80004002",
-      "product": "Windows Client/Desktop Client",
-      "message": "Application error due to \"No such interface supported\"",
       "confidence": "low",
       "fixStatus": "diagnostic-only",
       "bestSourceType": "answers-community-confirmed",

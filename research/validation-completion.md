@@ -1,13 +1,13 @@
 # Validation Completion
 
-Validation rows triaged: 1540
+Validation rows triaged: 1538
 Source-research backlog rows: 12
 
 ## Validation Status Summary
 
 | Validation status | Entries |
 | --- | --- |
-| official-doc-baseline | 1151 |
+| official-doc-baseline | 1149 |
 | reviewed-diagnostic | 377 |
 | source-research-needed | 12 |
 
@@ -15,12 +15,12 @@ Source-research backlog rows: 12
 
 | Disposition | Entries |
 | --- | --- |
-| candidate-for-fix-upgrade | 244 |
+| candidate-for-fix-upgrade | 243 |
 | candidate-for-scenario-review | 11 |
 | keep-diagnostic-only | 64 |
 | needs-additional-source-research | 12 |
-| official-doc-baseline-only | 1151 |
-| priority-source-review | 58 |
+| official-doc-baseline-only | 1149 |
+| priority-source-review | 59 |
 
 ## Product Summary
 
@@ -35,11 +35,11 @@ Source-research backlog rows: 12
 | Discussions | 4 |
 | Distributed Computing Cluster | 6 |
 | Federated Search | 1 |
-| Forms | 59 |
+| Forms | 58 |
 | Full Text Search | 3 |
 | Import Agent | 12 |
 | Laserfiche Installer | 25 |
-| Laserfiche Server/Repository Server | 1025 |
+| Laserfiche Server/Repository Server | 1024 |
 | Mobile | 6 |
 | Office Integration | 7 |
 | Quick Fields | 17 |

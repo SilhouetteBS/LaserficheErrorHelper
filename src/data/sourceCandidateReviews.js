@@ -252,9 +252,383 @@ export const sourceCandidateReviews = {
     productTags: ["Workflow", "Forms", "Version 10"],
     extractedErrorCodes: ["0735-WF1", "LFF5203"],
   },
+  "https://answers.laserfiche.com/questions/157246/Bad-Field-Value-Access-Denied--Troubleshooting-Help": {
+    entryId: "forms-lff502-unexpected-error",
+    disposition: "accepted-fix",
+    sourceType: "answers-community-confirmed",
+    title: "Bad Field Value Access Denied - Troubleshooting Help",
+    note:
+      "Reviewed candidate accepted. The requester confirmed Forms LFF502/field access failures were resolved by adding the Everyone group back to field permissions.",
+    reviewStatus: "curated",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502", "9010"],
+  },
+  "https://answers.laserfiche.com/questions/109337/Forms-Workflow-Service-stopped-working": {
+    entryId: "forms-lff502-unexpected-error",
+    disposition: "accepted-diagnostic",
+    sourceType: "answers-community-confirmed",
+    title: "Forms Workflow Service stopped working",
+    note:
+      "Reviewed candidate accepted. The thread ties LFF502 to Workflow service HTTP 500/endpoint failures and later confirms that excessive CPU or RAM usage can prevent Laserfiche applications from communicating.",
+    reviewStatus: "curated",
+    productTags: ["Forms", "Workflow", "Version 10"],
+    extractedErrorCodes: ["LFF502", "0x80004005"],
+  },
+  "https://answers.laserfiche.com/questions/157069/LFF502--Unexpected-Error-on-Forms-Submission": {
+    entryId: "forms-lff502-unexpected-error",
+    disposition: "accepted-fix",
+    sourceType: "answers-community-confirmed",
+    title: "LFF502 - Unexpected Error on Forms Submission",
+    note:
+      "Reviewed candidate accepted. Multiple users confirmed recycling the Forms application pool resolved LFF502 on form submission.",
+    reviewStatus: "curated",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502"],
+  },
+  "https://answers.laserfiche.com/questions/104123/An-unexpected-error-has-occurred": {
+    entryId: "forms-lff502-unexpected-error",
+    disposition: "accepted-fix",
+    sourceType: "answers-community-confirmed",
+    title: "An unexpected error has occurred",
+    note:
+      "Reviewed candidate accepted. The requester confirmed LFF502 with invalid expanded name was caused by a Forms field variable with no name.",
+    reviewStatus: "curated",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502"],
+  },
+  "https://answers.laserfiche.com/questions/117502/LFF502UnexpectedError-Unexpected-error-after-102-upgrade": {
+    entryId: "forms-lff502-unexpected-error",
+    disposition: "accepted-fix",
+    sourceType: "answers-laserfiche-employee",
+    title: "LFF502 Unexpected error after 10.2 upgrade",
+    note:
+      "Reviewed candidate accepted. Laserfiche employee replies identify null date-field formats after a Forms 10.2 upgrade and provide SQL to locate and update affected cf_fields rows; the requester confirmed the fix.",
+    reviewStatus: "curated",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502"],
+  },
+  "https://answers.laserfiche.com/questions/115409/Error-on-LF-Forms-using-Internet-Explorer": {
+    entryId: "forms-lff502-unexpected-error",
+    disposition: "accepted-fix",
+    sourceType: "answers-community-confirmed",
+    title: "Error on LF Forms using Internet Explorer",
+    note:
+      "Reviewed candidate accepted. The requester confirmed Forms 10.2 hotfix KB1013831 resolved LFF502 submissions from Internet Explorer.",
+    reviewStatus: "curated",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502"],
+  },
+  "https://answers.laserfiche.com/questions/115076/Forms--Ocurri-un-error-inesperado-LFF502UnexpectedError": {
+    entryId: "forms-lff502-unexpected-error",
+    disposition: "accepted-diagnostic",
+    sourceType: "answers-laserfiche-employee",
+    title: "Forms - Ocurrio un error inesperado LFF502",
+    note:
+      "Reviewed candidate accepted. A Laserfiche employee ties LFF502 routing save failures to a missing Saxon-HE dependency and recommends reinstalling Saxon-HE from the Forms installer Support folder.",
+    reviewStatus: "curated",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502"],
+  },
+  "https://answers.laserfiche.com/questions/97875/Forms-terminated": {
+    entryId: "forms-lff502-unexpected-error",
+    disposition: "accepted-diagnostic",
+    sourceType: "answers-laserfiche-employee",
+    title: "Forms terminated",
+    note:
+      "Reviewed candidate accepted. Laserfiche employee replies identify a known Forms 10.0 issue where user tasks can terminate with LFF502 and say an upcoming 10.0 update would address it.",
+    reviewStatus: "curated",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502"],
+  },
+  "https://answers.laserfiche.com/questions/203584/LFF502Unexpected-Error--Unknown-field-multiplicity": {
+    entryId: "forms-lff502-unexpected-error",
+    disposition: "accepted-diagnostic",
+    sourceType: "answers-laserfiche-employee",
+    title: "LFF502 Unexpected Error - Unknown field multiplicity",
+    note:
+      "Reviewed candidate accepted. A Laserfiche employee explains that Unknown field multiplicity can occur when a field outside a collection/table is submitted as if it were inside a collection/table, indicating possible form corruption.",
+    reviewStatus: "curated",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF502"],
+  },
+  "https://answers.laserfiche.com/questions/205804/Error-LFF502UnexpectedError-After-Upgrading-Forms-to-Version-11-Update-3": {
+    entryId: "forms-lff502-unexpected-error",
+    disposition: "accepted-fix",
+    sourceType: "answers-laserfiche-employee",
+    title: "Error LFF502 UnexpectedError After Upgrading Forms to Version 11 Update 3",
+    note:
+      "Reviewed candidate accepted. Laserfiche employee replies identify a Forms 11 Update 3 regression when a form id matches a theme id, provide a SQL workaround after database backup, and point to hotfix KB1014419.",
+    reviewStatus: "curated",
+    productTags: ["Forms", "Version 11"],
+    extractedErrorCodes: ["LFF502"],
+  },
+  "https://answers.laserfiche.com/questions/113868/exporting-data-from-820636": {
+    entryId: "windows-client-desktop-client-0x80070050-export-display-engine",
+    disposition: "accepted-fix",
+    sourceType: "answers-laserfiche-employee",
+    title: "exporting data from 8.2.0.636",
+    note:
+      "Reviewed candidate accepted. Laserfiche employee reply says export issues with some TIFF Group IV images should be resolved by upgrading to at least Laserfiche 9.2.",
+    reviewStatus: "curated",
+    productTags: ["Windows Client/Desktop Client", "Version 9"],
+    extractedErrorCodes: ["6608", "0x80070050"],
+  },
+  "https://answers.laserfiche.com/questions/119420/Error-6568-when-pasting-in-briefcase": {
+    entryId: "windows-client-desktop-client-6568-briefcase-volume",
+    disposition: "accepted-fix",
+    sourceType: "answers-community-confirmed",
+    title: "Error 6568 when pasting in briefcase",
+    note:
+      "Reviewed candidate accepted. The requester confirmed detaching and reattaching the repository resolved 6568 Volume cannot be found when pasting a briefcase.",
+    reviewStatus: "curated",
+    productTags: ["Windows Client/Desktop Client", "Version 9"],
+    extractedErrorCodes: ["6568"],
+  },
+  "https://answers.laserfiche.com/questions/49760/902-and-901-Laserfiche-Client-throwing-errors-connecting-to-91-repository": {
+    entryId: "windows-client-desktop-client-0x80004002-application-error-due-to-no-such-interface-supported",
+    disposition: "accepted-fix",
+    sourceType: "answers-laserfiche-employee",
+    title: "9.0.2 and 9.0.1 Laserfiche Client throwing errors connecting to 9.1 repository",
+    note:
+      "Reviewed candidate accepted. Laserfiche employee replies identify a 9.0 Client timing issue exposed by 9.1 Server changes; upgrade clients to 9.1 or disable Business Processes with the EnableBusinessProcesses setting if BPs are not used.",
+    reviewStatus: "curated",
+    productTags: ["Windows Client/Desktop Client", "Laserfiche Server/Repository Server", "Version 9"],
+    extractedErrorCodes: ["6000", "0x80004002"],
+  },
+  "https://answers.laserfiche.com/questions/48181/I-got-a-9037-error-invalid-session-after-upgrade-from-lasserfiche-81-How-can-I-fix-it": {
+    entryId: "lf-server-9037-invalid-session",
+    disposition: "accepted-fix",
+    sourceType: "answers-community-confirmed",
+    title: "I got a 9037 error invalid session after upgrade from Laserfiche 8.1",
+    note:
+      "Reviewed candidate accepted. The requester confirmed moving the generated license file into the server folder and restarting the Laserfiche service resolved 9037 after upgrade.",
+    reviewStatus: "curated",
+    productTags: ["Laserfiche Server/Repository Server", "Windows Client/Desktop Client", "Version 9"],
+    extractedErrorCodes: ["9037"],
+  },
+  "https://answers.laserfiche.com/questions/109572/The-repository-cannot-be-mounted-at-the-current-time-because-it-is-being-mounted-or-umounted-Please-wait-until-the-current-operation-completes-9526": {
+    entryId: "lf-server-9526-repository-mounting-unmounting",
+    disposition: "accepted-fix",
+    sourceType: "answers-community-confirmed",
+    title: "The repository cannot be mounted at the current time because it is being mounted or unmounted",
+    note:
+      "Reviewed candidate accepted. The requester found SQL services were not running due to a login issue, and another reply confirmed restarting the Laserfiche Service cleared 9526.",
+    reviewStatus: "curated",
+    productTags: ["Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["9526", "784"],
+  },
+  "https://answers.laserfiche.com/questions/120217/lf-crashing-when-viewing-document-at-certain-page": {
+    entryId: "windows-client-desktop-client-0x5876f4ad-specific-page-crash",
+    disposition: "accepted-diagnostic",
+    sourceType: "answers-laserfiche-employee",
+    title: "lf crashing when viewing document at certain page",
+    note:
+      "Reviewed candidate accepted as diagnostic. Laserfiche employee guidance says to open a support case with a briefcase or crash dump, narrow whether the image, thumbnail, annotations, or text cause the crash, and enable LFSO tracing.",
+    reviewStatus: "curated",
+    productTags: ["Windows Client/Desktop Client", "Version 10"],
+    extractedErrorCodes: ["0x5876f4ad", "0x5862fabe", "0xc0000005", "0x001fcf46"],
+  },
+  "https://answers.laserfiche.com/questions/181371/Client-1041-crashes-when-opening-PDF": {
+    entryId: "windows-client-desktop-client-0x5cdf1ea5-pdf-acrobat-crash",
+    disposition: "accepted-diagnostic",
+    sourceType: "answers-laserfiche-employee",
+    title: "Client 10.4.1 crashes when opening PDF",
+    note:
+      "Reviewed candidate accepted. Laserfiche employee reply identifies a known issue reported to Adobe, LF bug 282441, when opening PDFs externally with Acrobat causes Client crashes.",
+    reviewStatus: "curated",
+    productTags: ["Windows Client/Desktop Client", "Version 10", "Version 11"],
+    extractedErrorCodes: ["0x5cdf1ea5", "0xd49544eb", "0xc0000005", "0x0003e935"],
+  },
 };
 
 export const sourceCandidatePromotions = {
+  "forms-lff502-unexpected-error": {
+    fixStatus: "workaround",
+    confidence: "medium",
+    curationNote:
+      "Reviewed LFF502 cluster added multiple confirmed scenario branches. LFF502 remains a broad wrapper; use the LFForms event inner exception to choose the branch.",
+    likelyFixes: [
+      "Start with Applications and Services Logs > LFForms and identify the inner exception before applying any fix.",
+      "If LFF502 appears after a form submission and the stack references SubmissionCache/Thanks, recycle the Forms application pool and retest.",
+      "If the stack references invalid expanded name, check for fields or variables with blank names.",
+      "If the stack references null date format after a Forms 10.2 upgrade, review date fields with null format and apply the Laserfiche-provided hotfix or database correction through support change control.",
+      "If the stack references Forms 11 Update 3 theme casting, apply the Forms 11 Update 3 hotfix or use the documented theme_id workaround only after backing up the Forms database.",
+    ],
+    scenarios: [
+      {
+        title: "Forms application pool cache causes LFF502 on submission",
+        summary: "A reviewed Forms thread had multiple confirmations that recycling the Forms application pool cleared LFF502 on submission.",
+        versions: ["Version 10"],
+        symptoms: ["A form submission returns LFF502-UnexpectedError.", "The workflow or downstream work may still start or complete."],
+        causes: ["Forms application pool state or cached submission state may be stale."],
+        fixes: ["Recycle the Forms application pool.", "Retest the affected process and monitor LFForms logs for recurrence."],
+        sourceUrls: ["https://answers.laserfiche.com/questions/157069/LFF502--Unexpected-Error-on-Forms-Submission"],
+      },
+      {
+        title: "Blank variable name creates invalid XML element name",
+        summary: "A reviewed thread confirmed LFF502 with invalid expanded name was caused by a Forms field variable with no name.",
+        versions: ["Version 10"],
+        symptoms: ["Submission fails with LFF502.", "LFForms logs include invalid expanded name or VariableXMLGenerator."],
+        causes: ["A field or variable in the process has a blank name."],
+        fixes: ["Inspect all forms and process variables for blank variable names.", "Assign valid variable names and republish the process."],
+        sourceUrls: ["https://answers.laserfiche.com/questions/104123/An-unexpected-error-has-occurred"],
+      },
+      {
+        title: "Null date format after Forms 10.2 upgrade",
+        summary:
+          "Laserfiche employee replies identify null date field formats after a Forms 10.2 upgrade and provide SQL to locate and repair affected rows.",
+        versions: ["Version 10"],
+        symptoms: ["Approval-task submission fails after upgrading to Forms 10.2.", "LFForms logs reference CheckIsDateTimeFormat or a null date format."],
+        causes: ["One or more date fields have a null format in the Forms database."],
+        fixes: [
+          "Check for Forms 10.2 hotfix coverage first.",
+          "Use the employee-provided SQL only through normal database backup and change-control procedures.",
+          "Set affected date-field formats such as MM/dd/yyyy, then retest the process.",
+        ],
+        sourceUrls: ["https://answers.laserfiche.com/questions/117502/LFF502UnexpectedError-Unexpected-error-after-102-upgrade"],
+      },
+      {
+        title: "Forms 11 Update 3 form id matches theme id regression",
+        summary:
+          "A reviewed Forms 11 Update 3 thread documents LFF502 when a form id matches a theme id; Laserfiche released hotfix KB1014419.",
+        versions: ["Version 11"],
+        symptoms: ["A task form closes or preview fails after upgrading to Forms 11 Update 3.", "LFForms logs include InvalidCastException involving cf_forms and cf_theme."],
+        causes: ["A Forms 11 Update 3 regression occurs when cf_forms.form_id equals cf_theme.id."],
+        fixes: [
+          "Apply Laserfiche Forms 11 Update 3 hotfix KB1014419 or later.",
+          "As a short-term workaround, duplicate the affected form and reassign tasks to the duplicate.",
+          "Only use the employee-provided theme_id SQL workaround after backing up the Forms database.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/205804/Error-LFF502UnexpectedError-After-Upgrading-Forms-to-Version-11-Update-3",
+        ],
+      },
+    ],
+  },
+  "windows-client-desktop-client-0x80070050-export-display-engine": {
+    fixStatus: "known-fix",
+    confidence: "medium",
+    curationNote:
+      "Reviewed Answers candidate confirmed Laserfiche Client 8.2 export/display-engine failures with some TIFF Group IV images were resolved in later versions.",
+    likelyFixes: [
+      "For Laserfiche Client 8.2 export failures with unknown display engine error 6608 and 0x80070050, upgrade the Client to at least version 9.2.",
+      "If upgrade is not immediately possible, isolate whether the failure is tied to specific TIFF Group IV images before attempting bulk export.",
+    ],
+    scenarios: [
+      {
+        title: "Laserfiche Client 8.2 export fails on some TIFF Group IV images",
+        summary:
+          "A Laserfiche employee reply states that export issues with some TIFF Group IV images should be resolved in Laserfiche 9.2.",
+        versions: ["Version 9"],
+        symptoms: ["Exporting images reports unknown display engine error 6608 with 0x80070050.", "The failure can occur for folders or repository export attempts."],
+        causes: ["Older Client export/display code has known issues with some TIFF Group IV images."],
+        fixes: ["Upgrade the Laserfiche Client to at least version 9.2.", "Retest export of the affected folder or images."],
+        sourceUrls: ["https://answers.laserfiche.com/questions/113868/exporting-data-from-820636"],
+      },
+    ],
+  },
+  "windows-client-desktop-client-6568-briefcase-volume": {
+    fixStatus: "workaround",
+    confidence: "medium",
+    curationNote:
+      "Reviewed Answers candidate confirmed detaching and reattaching the repository can resolve briefcase paste error 6568.",
+    likelyFixes: [
+      "If pasting a briefcase returns 6568 Volume cannot be found, detach and reattach the repository in the Client, then retry.",
+      "Also verify the target folder import volume settings if detaching and reattaching does not resolve the issue.",
+    ],
+    scenarios: [
+      {
+        title: "Briefcase paste reports Volume cannot be found",
+        summary: "A reviewed thread confirmed error 6568 was cleared by detaching and reattaching the repository.",
+        versions: ["Version 9"],
+        symptoms: ["Pasting a briefcase into the Client fails with error 6568.", "The same user may reproduce the issue from another workstation."],
+        causes: ["The Client/repository attachment state may be stale or inconsistent."],
+        fixes: ["Detach the repository.", "Reattach the repository and retry pasting the briefcase."],
+        sourceUrls: ["https://answers.laserfiche.com/questions/119420/Error-6568-when-pasting-in-briefcase"],
+      },
+    ],
+  },
+  "windows-client-desktop-client-0x80004002-application-error-due-to-no-such-interface-supported": {
+    fixStatus: "known-fix",
+    confidence: "medium",
+    curationNote:
+      "Reviewed Answers candidate added Laserfiche employee confirmation of a 9.0 Client timing issue when connecting to a 9.1 Server.",
+    likelyFixes: [
+      "Upgrade affected 9.0.1 or 9.0.2 Clients to the 9.1 Client or later when connecting to a 9.1+ Server.",
+      "If users do not use Business Processes and cannot upgrade immediately, set [Settings]EnableBusinessProcesses to No as the employee-described workaround.",
+    ],
+    scenarios: [
+      {
+        title: "Laserfiche 9.0 Client connects to 9.1 Server and fails loading Business Processes",
+        summary:
+          "Laserfiche employee replies identify a 9.0 Client timing issue exposed by 9.1 Server changes; upgrading the Client resolves it.",
+        versions: ["Version 9"],
+        symptoms: ["The 9.0.1 or 9.0.2 Client fails when connecting to a 9.1 repository.", "The error includes 6000:0x80004002 and ISecurityGroupProvider."],
+        causes: ["A 9.0 Client bug is exposed by 9.1 Server Business Process changes."],
+        fixes: [
+          "Upgrade affected Clients to version 9.1 or later.",
+          "If Business Processes are not used, set the [Settings]EnableBusinessProcesses attribute to No as a temporary workaround.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/49760/902-and-901-Laserfiche-Client-throwing-errors-connecting-to-91-repository",
+        ],
+      },
+    ],
+  },
+  "lf-server-9037-invalid-session": {
+    fixStatus: "workaround",
+    confidence: "medium",
+    curationNote:
+      "Reviewed Answers candidate confirmed a post-upgrade 9037 case resolved by moving the generated license file into the server folder and restarting Laserfiche Server.",
+    likelyFixes: [
+      "After an upgrade, verify the generated license file is in the expected Laserfiche Server folder, not left on the server desktop or another temporary location.",
+      "Restart the Laserfiche Server service after correcting the license-file location.",
+    ],
+  },
+  "lf-server-9526-repository-mounting-unmounting": {
+    fixStatus: "workaround",
+    confidence: "medium",
+    curationNote:
+      "Reviewed Answers candidate added a confirmed server-side SQL-services branch for 9526/784 access failures.",
+    likelyFixes: [
+      "If 9526 appears with operation timeout 784 and the Laserfiche services are running, verify SQL Server services and SQL service account login state.",
+      "Restart the Laserfiche Server service after SQL connectivity is restored.",
+    ],
+  },
+  "windows-client-desktop-client-0x5876f4ad-specific-page-crash": {
+    fixStatus: "diagnostic-only",
+    confidence: "medium",
+    curationNote:
+      "Reviewed Answers candidate added Laserfiche employee diagnostic guidance for Client crashes tied to one document page.",
+    likelyFixes: [
+      "If the Client crashes on a specific page, open a support case and provide a briefcase or crash dump where permitted.",
+      "Narrow the cause by testing whether deleting annotations, text, preceding pages, or viewing the image file outside Laserfiche changes the behavior.",
+      "Enable LFSO tracing to capture the operation sequence immediately before the crash.",
+    ],
+  },
+  "windows-client-desktop-client-0x5cdf1ea5-pdf-acrobat-crash": {
+    fixStatus: "diagnostic-only",
+    confidence: "medium",
+    curationNote:
+      "Reviewed Answers candidate identified a known Client/Adobe Acrobat PDF-opening crash reported as Laserfiche bug 282441.",
+    likelyFixes: [
+      "If the Client crashes only when PDFs open externally in Acrobat, test opening PDFs inside the Client instead.",
+      "Check Laserfiche and Adobe updates for the known Acrobat-related issue referenced as LF bug 282441.",
+      "Collect crash details and Adobe/Laserfiche versions before opening a support case.",
+    ],
+    scenarios: [
+      {
+        title: "Client crashes when PDF is configured to open in Acrobat",
+        summary:
+          "A Laserfiche employee reply identifies this as a known issue reported to Adobe when opening PDFs externally with Acrobat.",
+        versions: ["Version 10", "Version 11"],
+        symptoms: ["Opening a PDF in the Client works when configured to open inside the Client.", "The Client crashes when configured to open the PDF with Acrobat."],
+        causes: ["A known Laserfiche/Adobe interaction can crash LF.exe when launching PDFs in Acrobat."],
+        fixes: ["Use in-Client PDF opening as a workaround.", "Check for Laserfiche and Adobe updates related to LF bug 282441."],
+        sourceUrls: ["https://answers.laserfiche.com/questions/181371/Client-1041-crashes-when-opening-PDF"],
+      },
+    ],
+  },
   "api-server-upload-conflict-409": {
     fixStatus: "workaround",
     confidence: "medium",

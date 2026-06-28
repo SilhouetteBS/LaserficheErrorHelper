@@ -16589,6 +16589,122 @@ const curatedErrorEntries = [
         note: "Auto-promoted diagnostic entry from the remaining Answers candidate queue for 0x80131600."
       }
     ]
+  },
+  {
+    id: "windows-client-desktop-client-0x80070050-export-display-engine",
+    code: "6608 / 0x80070050",
+    message: "Unknown display engine error when exporting images.",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Laserfiche Client 8.2 can fail exporting some images with unknown display engine error 6608 and 0x80070050; the reviewed employee reply says the issue should be resolved in 9.2.",
+    symptoms: [
+      "Exporting images from Laserfiche Client 8.2 fails with unknown display engine error 6608.",
+      "The technical error includes 0x80070050.",
+    ],
+    likelyFixes: [
+      "Upgrade the Laserfiche Client to at least version 9.2.",
+      "If upgrade is not immediately possible, isolate whether specific TIFF Group IV images trigger the export failure.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "exporting data from 8.2.0.636",
+        url: "https://answers.laserfiche.com/questions/113868/exporting-data-from-820636",
+        note: "Laserfiche employee reply says issues with exporting some TIFF Group IV images should be resolved in 9.2.",
+      },
+    ],
+  },
+  {
+    id: "windows-client-desktop-client-6568-briefcase-volume",
+    code: "6568",
+    message: "The volume could not be found when pasting a briefcase.",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-28",
+    summary:
+      "The Client can report 6568 Volume cannot be found when pasting a briefcase. A reviewed thread confirmed detaching and reattaching the repository resolved the issue.",
+    symptoms: [
+      "Pasting a briefcase fails with error 6568.",
+      "The same user may reproduce the problem from another workstation.",
+    ],
+    likelyFixes: [
+      "Detach and reattach the repository in the Laserfiche Client, then retry the briefcase paste.",
+      "If the issue persists, verify the target folder import volume settings.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Error 6568 when pasting in briefcase",
+        url: "https://answers.laserfiche.com/questions/119420/Error-6568-when-pasting-in-briefcase",
+        note: "Requester confirmed detaching and reattaching the repository resolved 6568 when pasting a briefcase.",
+      },
+    ],
+  },
+  {
+    id: "windows-client-desktop-client-0x5876f4ad-specific-page-crash",
+    code: "0x5876f4ad / 0x5862fabe / 0xc0000005 / 0x001fcf46",
+    message: "Laserfiche Client crashes when viewing a specific document page.",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Laserfiche Client 10.2 can crash when viewing a specific document page. Reviewed employee guidance focuses on collecting a briefcase or crash dump and isolating whether the page image, annotations, text, or thumbnail is involved.",
+    symptoms: [
+      "LF.exe freezes or crashes when scrolling to a specific page thumbnail.",
+      "The crash is reproducible for one document and multiple users.",
+      "Windows Event Viewer references LF.exe, LFSO102.dll, and exception code 0xc0000005.",
+    ],
+    likelyFixes: [
+      "Open a support case and provide a briefcase containing the affected document where permitted.",
+      "If document access cannot be shared, collect a crash dump and enable LFSO tracing as directed by support.",
+      "Narrow the failure by testing whether deleting annotations, page text, or preceding pages changes the crash behavior.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "lf crashing when viewing document at certain page",
+        url: "https://answers.laserfiche.com/questions/120217/lf-crashing-when-viewing-document-at-certain-page",
+        note: "Laserfiche employee reply recommends opening a support case, providing a briefcase or crash dump, narrowing image/annotation/text causes, and enabling LFSO tracing.",
+      },
+    ],
+  },
+  {
+    id: "windows-client-desktop-client-0x5cdf1ea5-pdf-acrobat-crash",
+    code: "0x5cdf1ea5 / 0xd49544eb / 0xc0000005 / 0x0003e935",
+    message: "Laserfiche Client crashes when opening PDFs with Adobe Acrobat.",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 10", "Version 11"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Laserfiche Client can crash when PDFs are configured to open externally with Adobe Acrobat. A reviewed Laserfiche employee reply identifies it as a known issue reported to Adobe under LF bug 282441.",
+    symptoms: [
+      "PDFs open successfully when configured to open in the Laserfiche Client.",
+      "LF.exe crashes when PDFs are configured to open with Acrobat.",
+      "Windows Event Viewer references LF.exe, ntdll.dll, and exception code 0xc0000005.",
+    ],
+    likelyFixes: [
+      "Configure PDFs to open in the Laserfiche Client as a workaround.",
+      "Check Laserfiche and Adobe updates for the known issue referenced as LF bug 282441.",
+      "Collect Client, Acrobat, and Windows crash details before opening a support case.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Client 10.4.1 crashes when opening PDF",
+        url: "https://answers.laserfiche.com/questions/181371/Client-1041-crashes-when-opening-PDF",
+        note: "Laserfiche employee reply identifies this as a known issue reported to Adobe, LF bug 282441.",
+      },
+    ],
   }
 ];
 

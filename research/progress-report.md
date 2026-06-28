@@ -4,27 +4,27 @@ Generated: 2026-06-28
 
 ## Summary
 
-- Published helper entries: 1737
-- Reviewed source ledger rows: 675
-- Discovery rows tracked: 3905
+- Published helper entries: 1740
+- Reviewed source ledger rows: 692
+- Discovery rows tracked: 3931
 - Remaining candidate rows: 286
 
 ## Fix Status Coverage
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 310 |
-| known-fix | 98 |
-| needs-review | 1151 |
+| diagnostic-only | 311 |
+| known-fix | 99 |
+| needs-review | 1149 |
 | unresolved | 42 |
-| workaround | 136 |
+| workaround | 139 |
 
 ## Source Ledger Review Status
 
 | Review status | Sources |
 | --- | --- |
 | cross-product | 3 |
-| curated | 176 |
+| curated | 193 |
 | curated-partial | 95 |
 | curated-unresolved | 396 |
 | no-matching-posts | 1 |
@@ -35,8 +35,8 @@ Generated: 2026-06-28
 | Source type | Sources |
 | --- | --- |
 | answers-community | 82 |
-| answers-community-confirmed | 329 |
-| answers-laserfiche-employee | 247 |
+| answers-community-confirmed | 337 |
+| answers-laserfiche-employee | 256 |
 | answers-search | 1 |
 | official-docs | 16 |
 
@@ -67,7 +67,7 @@ Generated: 2026-06-28
 | Web Client | 44 | 18 |
 | WebLink | 22 | 5 |
 | Webtools Agent | 0 | 0 |
-| Windows Client/Desktop Client | 215 | 19 |
+| Windows Client/Desktop Client | 218 | 19 |
 | Workflow | 47 | 35 |
 
 ## Next Batch Targets
