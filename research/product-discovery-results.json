@@ -2300,7 +2300,9 @@
     "snippet": "\"Network failure\" error when trying to fill out a form on LF Mobile are able to browse the repository on LF Mobile , but when they go to \"Fill out a form\" on the sidebar, it tries to load ... t any issues there. Only LF Mobile gives this error message. LF Mobile service is installed on the same machine as the Forms server, and ...... posted by Ege Ersoz 1864 May 24, 2015 updated by Barna Zajzon 316 Jun 5, 2015 5 replies · 963 views · 0 0 · Mobile Forms",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Mobile Forms network failure diagnostics around Forms URL/case and HTTP reachability."
   },
   {
     "product": "Mobile",
@@ -2312,7 +2314,9 @@
     "snippet": "Internal SSL error [1366] when trying to log into repository using mobile app try to log into the repository from an android phone using the LF Mobile app. I have an SSL cert installed and I know it ... 9.1.1.545 version on the LF server, mobile / web access version 9.1.1.256.... posted by Chris Clifton 34 Oct 16, 2014 updated by Raymond Cruz 2783 Oct 17, 2014 3 replies · 2528 views · 0 0 · Mobile",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Mobile-specific 1366 virtual-directory/path mismatch issue."
   },
   {
     "product": "Mobile",
@@ -2336,7 +2340,9 @@
     "snippet": "Cannot access Laserfiche Mobile 9.0 home (start) page (Windows 8.1 IIS 8.5) these documents exist within the Laserfiche mobile virtual directory folder C:\\Program Files\\ Laserfiche\\Mobile \\Web Files, although I do not know how significant this ... enabled Directory Browsing for the Laserfiche Mobile virtual directory. The Laserfiche Mobile virtual directory has Anonymous Authenticaton and Windows Authentication both enabled, within all other ...... posted by John Theophilus 50 Nov 18, 2013 updat",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Mobile 403.14 /mobile versus /mobile/Configuration.aspx issue."
   },
   {
     "product": "Mobile",
@@ -2347,11 +2353,13 @@
     "snippet": "Cannot Access Laserfiche Mobile with Windows Account I am trying to access laserfiche through mobile but to no avail. The LF server is 9.1.1.486 whereas the mobile server is ...... posted by Mark Ludenyo 82 Feb 18, 2015 updated by Shule Wong 603 Mar 16, 2015 3 replies · 1083 views · 0 0 · Mobile",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-partial",
     "queries": [
       "Mobile \"error code\" Laserfiche",
       "Laserfiche Mobile \"login\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Mobile Windows-auth 9010/Laserfiche Authentication Service diagnostics."
   },
   {
     "product": "Mobile",
@@ -2362,12 +2370,14 @@
     "snippet": "Error signing in to repository. The user login or password is incorrect get into the server from Mobile app on Android. Getting that Error even though I've verified the Trustee name and password are correct. Getting ... LFDS. Service Call=GetUnsignedTokenEx; LFDS error code =0... posted by Chase Ayers 258 Jan 26, 2016 updated by Brian Heavener 39 May 23, 2018 11 replies · 2166 views · 0 0 · Mobile",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "Mobile \"error code\" Laserfiche",
       "Laserfiche Mobile \"login\" error",
       "Laserfiche Mobile \"repository\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Mobile 10 domain configuration login issue fixed by Update 1 / issue 137879; duplicate LFDS row uses same source."
   },
   {
     "product": "Mobile",
@@ -2379,7 +2389,9 @@
     "snippet": "Internal SSL error [1366] when trying to log into repository using mobile app try to log into the repository from an android phone using the LF Mobile app. I have an SSL cert installed and I know it ... 9.1.1.545 version on the LF server, mobile / web access version 9.1.1.256.... posted by Chris Clifton 34 Oct 16, 2014 updated by Raymond Cruz 2783 Oct 17, 2014 3 replies · 2528 views · 0 0 · Mobile",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Mobile-specific 1366 virtual-directory/path mismatch issue."
   },
   {
     "product": "Mobile",
@@ -2391,7 +2403,9 @@
     "snippet": "Laserfiche Mobile Certificate Error and Android. The version of Laserfiche Server is Version 10, as is the Mobile Server install. The certificate I am utilizing in IIS is a ... URL to log into the mobile app on iOS and Android produces the following error : The certificate for this server is invalid. You might be ...... posted by Matt Stewart 5 Mar 22, 2016 updated by Tyler Kendrick 9 Nov 4, 2019 9 replies · 1034 views · 0 0 · Mobile",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Mobile certificate trust/HTTPS endpoint diagnostics."
   },
   {
     "product": "Mobile",
@@ -2427,7 +2441,9 @@
     "snippet": "Error signing in to repository. The user login or password is incorrect get into the server from Mobile app on Android. Getting that Error even though I've verified the Trustee name and password are correct. Getting ... LFDS. Service Call=GetUnsignedTokenEx; LFDS error code =0... posted by Chase Ayers 258 Jan 26, 2016 updated by Brian Heavener 39 May 23, 2018 11 replies · 2166 views · 0 0 · Mobile",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Mobile 10 domain configuration login issue fixed by Update 1 / issue 137879; duplicate LFDS row uses same source."
   },
   {
     "product": "Mobile",
@@ -2439,7 +2455,9 @@
     "snippet": "LFMobile Server v10.3- Error Unable to connect to Forms server v10.3 10 pro machine . I installed LF server, Workflow, Forms and Mobile App. I did not configure Mobile App and I did not install web access ... a Web Browser with a Login screen. In my Iphone, LF Mobile App http://122.102.80.234/ mobile works and I able to access ...... posted by David Merry 129 Jan 30, 2018 updated by Javier antillon 34 Aug 5, 2018 3 replies · 1018 views · 0 0 · Forms Mobile Version 10 Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Mobile 10.3 Forms server remote connectivity issue."
   },
   {
     "product": "Mobile",
@@ -2450,11 +2468,13 @@
     "snippet": "Mobile - database not found, baffled selecting to login to the Repository in the LF Mobile app I get a message \"Database Not Found, Please Check the Name of the Database ... t use a database. The mobile config and event logs are showing no errors .... posted by Chad Saar 3975 Apr 9, 2020 updated by Hui Ren 114 Apr 15, 2020 7 replies · 637 views · 0 0 · Mobile",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-partial",
     "queries": [
       "Laserfiche Mobile \"login\" error",
       "Laserfiche Mobile \"repository\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Mobile repository configuration/database-not-found diagnostics."
   },
   {
     "product": "Mobile",

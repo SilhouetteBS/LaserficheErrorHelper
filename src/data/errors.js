@@ -7580,6 +7580,275 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "mobile-forms-network-failure-url",
+    code: "MOBILE-NETWORK-FAILURE-FORMS",
+    message: "Network failure when opening Fill out a form in Laserfiche Mobile.",
+    product: "Mobile",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche Mobile can show a generic Network failure message when it cannot communicate with the configured Forms server. Laserfiche employee replies point first to the Forms URL in Mobile Configuration, including exact casing.",
+    symptoms: [
+      "Users can browse the repository in Mobile.",
+      "Opening Fill out a form waits for about a minute, then reports Network failure.",
+      "The Forms site is reachable in a browser, but Mobile fails to reach it.",
+    ],
+    likelyFixes: [
+      "Verify the Forms URL in the Laserfiche Mobile Configuration page.",
+      "Match the Forms application path casing exactly, for example /Forms if the web application is named Forms.",
+      "Test whether pending tasks and history also fail, or only starting a new form.",
+      "Collect Mobile, Forms, and Windows application/system event logs if the URL is correct.",
+    ],
+    notes:
+      "Laserfiche called this a generic mobile HTTP client network error; the public thread does not include a final confirmed fix.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "\"Network failure\" error when trying to fill out a form on LF Mobile",
+        url: "https://answers.laserfiche.com/questions/77760/Network-failure-error-when-trying-to-fill-out-a-form-on-LF-Mobile",
+        note: "Laserfiche employee replies recommend checking the Forms URL and case sensitivity, then opening Support with version and event-log details.",
+      },
+    ],
+  },
+  {
+    id: "mobile-1366-wrong-mobile-virtual-directory",
+    code: "1366",
+    message: "Internal SSL error when logging into a repository from the Mobile app.",
+    product: "Mobile",
+    versions: ["Version 9", "Version 12"],
+    confidence: "medium",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Mobile app login can return 1366 when the Mobile virtual directory or installed path is wrong, even if Web Access works over SSL.",
+    symptoms: [
+      "The Mobile app reports Internal SSL error [1366].",
+      "The certificate common name appears to match the entered URL.",
+      "Web Access works, but Mobile uses a different virtual directory or physical path.",
+    ],
+    likelyFixes: [
+      "Use the Mobile-specific URL, typically https://server/mobile, not the Web Access URL.",
+      "Check IIS virtual directories for both Web Access and Mobile.",
+      "Confirm the Mobile virtual directory physical path points to the correct Mobile installation files.",
+      "Repair or correct the Mobile IIS application path if it was installed to a different drive/location than Web Access.",
+    ],
+    notes:
+      "Version 12 is included because 1366 is in the official current error listing; the Mobile-specific thread is Version 9-era.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 1366 as Internal SSL error.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Internal SSL error [1366] when trying to log into repository using mobile app",
+        url: "https://answers.laserfiche.com/questions/65502/Internal-SSL-error-1366-when-trying-to-log-into-repository-using-mobile-app",
+        note: "Laserfiche employee guidance to check Mobile/Web Access virtual directories led to the requester finding the Mobile path mismatch.",
+      },
+    ],
+  },
+  {
+    id: "mobile-40314-configuration-page-url",
+    code: "403.14",
+    message: "HTTP Error 403.14 when browsing to /mobile.",
+    product: "Mobile",
+    versions: ["Version 9"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Browsing directly to the Mobile virtual directory can show IIS 403.14 because /mobile is not the configuration page; use /mobile/Configuration.aspx instead.",
+    symptoms: [
+      "After installing Mobile 9, browsing to http://server/mobile shows HTTP Error 403.14.",
+      "IIS says directory browsing is not enabled or a default document is not configured.",
+      "The administrator is trying to reach the Mobile configuration page.",
+    ],
+    likelyFixes: [
+      "Browse to http://server/mobile/Configuration.aspx.",
+      "Use the Windows Start screen/menu shortcut for Laserfiche Mobile Server Configuration.",
+      "Do not enable directory browsing solely to make /mobile list content.",
+    ],
+    notes:
+      "Laserfiche confirmed that /mobile returning 403.14 can be normal for a correctly configured Mobile installation.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Cannot access Laserfiche Mobile 9.0 home (start) page (Windows 8.1 IIS 8.5)",
+        url: "https://answers.laserfiche.com/questions/47126/Cannot-access-Laserfiche-Mobile-90-home-start-page-Windows-81-IIS-85",
+        note: "Brianna Blanchard from Laserfiche explains that the configuration page is /mobile/Configuration.aspx, not /mobile.",
+      },
+    ],
+  },
+  {
+    id: "mobile-windows-auth-lfauth-service-9010",
+    code: "9010",
+    message: "The user account or password is incorrect when using Windows authentication in Mobile.",
+    product: "Mobile",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Mobile Windows authentication can report 9010 incorrect credentials when Mobile cannot connect to the Laserfiche Authentication Service endpoint on localhost:8188.",
+    symptoms: [
+      "Repository users can sign in, but Windows users receive user account or password is incorrect.",
+      "Event logs show Mobile cannot connect to net.tcp://localhost:8188/lfauth.",
+      "The TCP error is 10061 connection actively refused.",
+    ],
+    likelyFixes: [
+      "Confirm Windows authentication is enabled in the Mobile Configuration page.",
+      "Start or repair the Laserfiche Authentication Service 9.2 on the Mobile server.",
+      "If Mobile, Web Access, and Laserfiche Server are split across servers, confirm Kerberos is configured correctly.",
+      "Retest with domain\\username after the authentication service is reachable.",
+    ],
+    notes:
+      "The public thread has Laserfiche diagnostic guidance but no final requester confirmation.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Cannot Access Laserfiche Mobile with Windows Account",
+        url: "https://answers.laserfiche.com/questions/71683/Cannot-Access-Laserfiche-Mobile-with-Windows-Account",
+        note: "Laserfiche replies point to Windows authentication settings, Kerberos context, and confirming the Laserfiche Authentication Service is running.",
+      },
+    ],
+  },
+  {
+    id: "mobile-10-domain-config-login-incorrect",
+    code: "MOBILE-LOGIN-INCORRECT",
+    message: "The user login or password is incorrect for repository users in Mobile 10.",
+    product: "Mobile",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Mobile Server 10 had a bug where a configured domain could be prepended to repository-user logins, causing incorrect-login errors; Laserfiche said Update 1 fixed issue 137879.",
+    symptoms: [
+      "Android Mobile reports the user login or password is incorrect even though credentials were verified.",
+      "Event Viewer may show LFS received an unexpected error from LFDS, GetUnsignedTokenEx, LFDS error code 0.",
+      "Removing SSL or the configured domain may allow login as a workaround.",
+    ],
+    likelyFixes: [
+      "Install Laserfiche Mobile Server 10 Update 1 or later.",
+      "For an immediate workaround, remove the domain from Mobile Configuration and have Windows users enter domain\\username manually.",
+      "Do not enable SSL in repository configuration unless SSL is actually configured end to end.",
+      "Avoid entering a domain suffix when the repository server name is already fully qualified.",
+    ],
+    notes:
+      "Laserfiche employee replies identify the Mobile 10 domain-prepending bug and the Update 1 fix.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error signing in to repository. The user login or password is incorrect",
+        url: "https://answers.laserfiche.com/questions/90577/Error-signing-in-to-repository--The-user-login-or-password-is-incorrect",
+        note: "Laserfiche identifies the Mobile Server 10 domain configuration issue and says Update 1 addressed issue 137879.",
+      },
+    ],
+  },
+  {
+    id: "mobile-certificate-invalid-trust",
+    code: "MOBILE-CERTIFICATE-INVALID",
+    message: "The certificate for this server is invalid in the Mobile app.",
+    product: "Mobile",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Mobile can reject an HTTPS endpoint when the device does not trust the issuing root certificate or when the certificate does not match the Mobile endpoint.",
+    symptoms: [
+      "iOS or Android reports that the certificate for the server is invalid.",
+      "The warning repeats after accepting, preventing login.",
+      "Other web applications on the same server may appear to use HTTPS successfully.",
+    ],
+    likelyFixes: [
+      "Inspect the certificate chain on the Mobile endpoint from a browser.",
+      "If the certificate was generated internally, install or distribute the trusted root certificate to mobile devices.",
+      "For external or BYOD devices, use a publicly trusted certificate whose subject/SAN matches the Mobile URL.",
+      "Confirm whether Mobile, repository, and Forms URLs are all configured consistently for HTTPS.",
+    ],
+    notes:
+      "The thread contains Laserfiche troubleshooting guidance but no public final resolution.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Laserfiche Mobile Certificate Error",
+        url: "https://answers.laserfiche.com/questions/94673/Laserfiche-Mobile-Certificate-Error",
+        note: "Laserfiche employee replies discuss internal root certificates, trusted device stores, and checking Mobile/Forms/repository HTTPS configuration.",
+      },
+    ],
+  },
+  {
+    id: "mobile-forms-server-unable-connect",
+    code: "MOBILE-FORMS-REMOTE-SERVER",
+    message: "Unable to connect to the Forms server from Mobile Server.",
+    product: "Mobile",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Mobile Server 10.3 can access the repository while Forms integration reports that it cannot connect to the Laserfiche Forms server or remote server.",
+    symptoms: [
+      "The Mobile app can access the repository.",
+      "Mobile Configuration warns that it cannot connect to the Laserfiche Forms server.",
+      "The Forms URL opens in a browser, but Mobile reports Error signing in to the Forms URL or Unable connect to Remote Server.",
+    ],
+    likelyFixes: [
+      "Install and configure Web Client before importing settings into Mobile Server Configuration.",
+      "Use the exact Forms base URL that the Mobile server can reach from the server side.",
+      "Check firewall, DNS, and proxy routing from the Mobile server to the Forms server, not only from a workstation browser.",
+      "If the issue persists, open Support with Mobile, Forms, Web Client, and IIS logs.",
+    ],
+    notes:
+      "The public thread includes community reports and a partial workaround, but no Laserfiche employee-confirmed root cause.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "LFMobile Server v10.3- Error Unable to connect to Forms server v10.3",
+        url: "https://answers.laserfiche.com/questions/134754/LFMobile-Server-v103-Error--Unable-to-connect-to-Forms-server-v103",
+        note: "Thread documents Mobile 10.3 Forms connectivity errors and community troubleshooting around Web Client/imported configuration.",
+      },
+    ],
+  },
+  {
+    id: "mobile-database-not-found-repository-config",
+    code: "MOBILE-DATABASE-NOT-FOUND",
+    message: "Database Not Found, Please Check the Name of the Database.",
+    product: "Mobile",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "In Mobile, Database Not Found usually refers to the Laserfiche repository reference, not a SQL database on the device.",
+    symptoms: [
+      "Selecting a repository in the Mobile app returns Database Not Found, Please Check the Name of the Database.",
+      "Mobile configuration and event logs may not show an obvious SQL database error.",
+      "Web Client access may work while Mobile fails.",
+    ],
+    likelyFixes: [
+      "Check the repository configuration in the Laserfiche Mobile Configuration page.",
+      "Confirm the repository name, repository ID/reference, and server address match the repository users select in Mobile.",
+      "Test from the same network path used by the mobile device.",
+      "Open Support when repository configuration looks correct but Mobile still cannot resolve the repository.",
+    ],
+    notes:
+      "Laserfiche employee guidance clarifies that the message is likely using database as an internal reference to repository.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Mobile - database not found, baffled",
+        url: "https://answers.laserfiche.com/questions/171969/Mobile--database-not-found-baffled",
+        note: "Samuel Carson from Laserfiche explains that database likely means repository and recommends checking Mobile repository configuration.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
