@@ -177,6 +177,11 @@ function App() {
     }, {});
   }, [filteredEntries]);
 
+  const sortedGroupedEntries = useMemo(
+    () => Object.entries(groupedEntries).sort(([productA], [productB]) => productA.localeCompare(productB)),
+    [groupedEntries],
+  );
+
   const displayedReviewedSources = reviewedSources.filter(
     (sourceItem) => ledgerSource === allOption || sourceItem.sourceType === ledgerSource,
   );
@@ -289,7 +294,7 @@ function App() {
               <p>No curated entries match the current filters.</p>
             </div>
           ) : (
-            Object.entries(groupedEntries).map(([groupProduct, entries]) => {
+            sortedGroupedEntries.map(([groupProduct, entries]) => {
               const isCollapsed = collapsedGroups[groupProduct] ?? true;
 
               return (

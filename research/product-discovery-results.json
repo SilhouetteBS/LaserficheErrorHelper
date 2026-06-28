@@ -533,7 +533,7 @@
     "snippet": "How can Audit Trail show a 9010 error from Workflow without it being logged as an activity error? from an activity normally. Yet Audit Trail shows many 9010 errors happening all day long for the user configured for Workflow Repository connections from User ... Find Entry). If that activity could not login, it would fail and post to the log files. No activity errors since 3/8 Constant Logs ...... posted by Chad Saar 3975 Mar 11, 2021 updated by Miruna Babatie 41329 Mar 12, 2021 7 replies · 494 vi",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "cross-product"
+    "status": "curated"
   },
   {
     "product": "Audit Trail",
@@ -3812,7 +3812,7 @@
     "title": "Metadata disappears and error 9066 on populated fields",
     "url": "https://answers.laserfiche.com/questions/112995/Metadata-disappears-and-error-9066-on-populated-fields",
     "snippet": "Metadata disappears and error 9066 on populated fields",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -3838,7 +3838,7 @@
     "title": "Checking for errors in Workflow",
     "url": "https://answers.laserfiche.com/questions/97943/Checking-for-errors-in-Workflow",
     "snippet": "Checking for errors in Workflow",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -3851,7 +3851,7 @@
     "title": "Date column invalid format error: The data assigned to field 'Student DOB' is not valid. 9017",
     "url": "https://answers.laserfiche.com/questions/231597/Date-column-invalid-format-error-The-data-assigned-to-field-Student-DOB-is-not-valid-9017",
     "snippet": "Date column invalid format error: The data assigned to field 'Student DOB' is not valid. 9017",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -3865,7 +3865,7 @@
     "snippet": "Error sending HTTP request to server the SDK. However, when the workflow runs we get a \" Error sending HTTP request to the server\" error and are not sure why. The workflow ... can be run when the workflow scripting activity is performed. ''' Public Class Script1 Inherits RAScriptClass100 Protected Overrides Sub Execute() ... posted by Chris Ayre 1692 Jun 13, 2018 updated by Chris Cartrett 1173 Apr 22, 2022 14 replies · 1848 views · 1 0 · SDK",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Workflow",
@@ -3877,7 +3877,7 @@
     "snippet": "Error- \"No entry was specified\" am trying \"Assign Field Values\" activity in the workflow and it keeps throwing following error - \"No Entry was specified\". I have this workflow kick off ...... posted by Manish Jain 14 Mar 26, 2015 updated by Chad Saar 3975 Jun 15, 2021 17 replies · 2247 views · 0 0 · Workflow Forms",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial"
   },
   {
     "product": "Workflow",
@@ -3888,7 +3888,7 @@
     "title": "Failed to publish workflow Error code [0232-WF1] [0411-WF0]",
     "url": "https://answers.laserfiche.com/questions/111213/Failed-to-publish-workflow-Error-code-0232WF1-0411WF0",
     "snippet": "Failed to publish workflow Error code [0232-WF1] [0411-WF0]",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -3902,7 +3902,7 @@
     "snippet": "Failure of briefcase is not a critical error.. updated document(X) from one repository (A) to another repository (B). The workflow deletes the document(X) from repository (B) if it exists and then ... the document/folder permissions ion repository (B) so as to generate an error my workflow breaks as expected. If I delete a file from a ...... posted by Mark Bridson 24 Jun 6, 2019 updated by Jason Smith 15886 Jun 6, 2019 1 reply · 375 views · 0 0 · Workflow",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial"
   },
   {
     "product": "Workflow",
@@ -3914,7 +3914,7 @@
     "snippet": "How can Audit Trail show a 9010 error from Workflow without it being logged as an activity error? means invalid username or password. Workflow Current Error Logs are clean, which would show a login failure from an activity normally. Yet Audit Trail shows ... for the user configured for Workflow Repository connections from User agent Laserfiche Workflow LFRA. Laserfiche Workflow LFRA is the Laserfiche Workflow Service right? That service ...... posted by Chad Saar 3975 Mar 11, 2021 updated by Mir",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Workflow",
@@ -3925,7 +3925,7 @@
     "title": "How can I write an error code to the Messages tab and terminate workflow from a custom C# script",
     "url": "https://answers.laserfiche.com/questions/56967/How-can-I-write-an-error-code-to-the-Messages-tab-and-terminate-workflow-from-a-custom-C-script",
     "snippet": "How can I write an error code to the Messages tab and terminate workflow from a custom C# script",
-    "status": "candidate",
+    "status": "not-actionable",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -3939,7 +3939,7 @@
     "snippet": "Invalid character was found in the mail header: '<' Today I found 6 workflows that had terminated due to the above. That message is displayed in the messages section of the workflow details. Here ... of hundreds of this particular workflow that have completed just fine. The successfully completed workflows are routing and emailing to the same guy - his address ...... posted by John Sympson 44 Mar 7, 2014 updated by Miruna Babatie 41329 Jun 29, 2015 11 replies · 2512 views · 0 0 · Workflow Versio",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial"
   },
   {
     "product": "Workflow",
@@ -3950,7 +3950,7 @@
     "title": "The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state",
     "url": "https://answers.laserfiche.com/questions/223668/The-communication-object-SystemServiceModelChannelsServiceChannel-cannot-be-used-for-communication-because-it-is-in-the-Faulted-state",
     "snippet": "The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -3964,7 +3964,7 @@
     "snippet": "Value cannot be null. Parameter name: collection as to what the above error means? I have a simple workflow that searches for documents and for each passes their name to a query ... finds.... But running the actual workflow fails. Testing:... posted by Chris Ayre 1692 Jan 24, 2018 updated by Chad Saar 3975 Aug 30, 2018 4 replies · 5730 views · 0 0 · Workflow",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Workflow",
@@ -3975,7 +3975,7 @@
     "title": "9017 Bad field value. [0265-WF10]",
     "url": "https://answers.laserfiche.com/questions/129280/9017-Bad-field-value-0265WF10",
     "snippet": "9017 Bad field value. [0265-WF10]",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -3988,7 +3988,7 @@
     "title": "Failed to invoke workflow 'WFName', the maximum invoke depth has been reached (32) [0700-WF10]",
     "url": "https://answers.laserfiche.com/questions/131228/Failed-to-invoke-workflow-WFName-the-maximum-invoke-depth-has-been-reached-32-0700WF10",
     "snippet": "Failed to invoke workflow 'WFName', the maximum invoke depth has been reached (32) [0700-WF10]",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -4001,7 +4001,7 @@
     "title": "Invoke Workflow - Workflow Activity does not exist 0516-WF10",
     "url": "https://answers.laserfiche.com/questions/160646/Invoke-Workflow--Workflow-Activity-does-not-exist-0516WF10",
     "snippet": "Invoke Workflow - Workflow Activity does not exist 0516-WF10",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -4027,7 +4027,7 @@
     "title": "Workflow Error Adding Days",
     "url": "https://answers.laserfiche.com/questions/216578/Workflow-Error-Adding-Days",
     "snippet": "Workflow Error Adding Days",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -4040,7 +4040,7 @@
     "title": "Workflow Event Viewer Error Event 100. Laserfiche Workflow Subscriber Timestamp off",
     "url": "https://answers.laserfiche.com/questions/91483/Workflow-Event-Viewer-Error-Event-100--Laserfiche-Workflow-Subscriber-Timestamp-off",
     "snippet": "Workflow Event Viewer Error Event 100. Laserfiche Workflow Subscriber Timestamp off",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -4081,7 +4081,7 @@
     "title": "workflow subscriber errors in event logs",
     "url": "https://answers.laserfiche.com/questions/50718/workflow-subscriber-errors-in-event-logs",
     "snippet": "workflow subscriber errors in event logs",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },

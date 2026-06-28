@@ -2932,6 +2932,12 @@ const curatedErrorEntries = [
         url: "https://answers.laserfiche.com/questions/57726/Workflow-Error-0700WF10-with-Invoke-Workflow-Activity",
         note: "Miruna Babatie from Laserfiche identifies the built-in 32-iteration invoke limit.",
       },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Failed to invoke workflow WFName the maximum invoke depth has been reached 32 0700WF10",
+        url: "https://answers.laserfiche.com/questions/131228/Failed-to-invoke-workflow-WFName-the-maximum-invoke-depth-has-been-reached-32-0700WF10",
+        note: "Miruna Babatie from Laserfiche warns that raising the server-wide maximum invoke depth should be handled through Support because it can mask infinite loops.",
+      },
     ],
   },
   {
@@ -5355,6 +5361,300 @@ const curatedErrorEntries = [
         title: "When running a session in Quick Fields user gets LF error 9013",
         url: "https://answers.laserfiche.com/questions/99835/When-running-a-session-in-Quick-Fields-user-gets-LF-error-9013",
         note: "Miruna Babatie from Laserfiche explains Agent uses the service user for Windows Authentication; requester fixed the issue by changing the document class to Laserfiche Authentication.",
+      },
+    ],
+  },
+  {
+    id: "workflow-sdk-script-http-request-server",
+    code: "WORKFLOW-HTTP-REQUEST-SDKSCRIPT",
+    message: "Error sending HTTP request to server from a Workflow SDK script.",
+    product: "Workflow",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "A Workflow SDK script can fail with Error sending HTTP request to server when the script inherits an older Repository Access base class that does not match the Workflow Server repository access version.",
+    symptoms: [
+      "A Workflow script activity fails while deleting or changing an electronic document.",
+      "The activity error says Error sending HTTP request to server.",
+      "The script inherits a RAScriptClass version such as RAScriptClass100 while the server expects a newer version.",
+    ],
+    likelyFixes: [
+      "Use an SDK Script activity instead of a general Script activity when accessing Laserfiche so Workflow manages the repository connection.",
+      "Confirm the generated Inherits RAScriptClass### value matches the Workflow Server Repository Access version.",
+      "If the script was carried forward from an older version, recreate or update the SDK Script activity so the base class is regenerated correctly.",
+      "Review the activity errors log for the full stack trace if the message persists.",
+    ],
+    notes:
+      "The reviewed support case was resolved by changing the inherited Repository Access class from RAScriptClass100 to RAScriptClass102.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error sending HTTP request to server",
+        url: "https://answers.laserfiche.com/questions/143446/Error-sending-HTTP-request-to-server",
+        note: "Alexander Huang from Laserfiche reports the resolved fix; Miruna Babatie from Laserfiche explains why SDK Script activities should be used for Laserfiche access.",
+      },
+    ],
+  },
+  {
+    id: "workflow-forms-no-entry-specified",
+    code: "WORKFLOW-NO-ENTRY-SPECIFIED",
+    message: "No entry was specified.",
+    product: "Workflow",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "A Workflow launched directly from Forms has no Laserfiche starting entry unless the form first saves a document to the repository or the workflow is started by a repository event.",
+    symptoms: [
+      "Workflow reports No entry was specified after being invoked from Forms.",
+      "The workflow expects a starting entry, entry ID, or Read Forms Content context.",
+      "The issue may appear after publishing with mismatched Workflow Designer and Workflow Server versions.",
+    ],
+    likelyFixes: [
+      "If the workflow needs a Laserfiche document or folder, have Forms save the submission to Laserfiche first and let that repository event start Workflow.",
+      "Store the Forms instance ID or submission ID as field values on the saved document, then read those fields in Workflow.",
+      "In Read Forms Content, specify the saved instance/submission values in the advanced properties when needed.",
+      "Keep Workflow Designer and Workflow Server on compatible versions before republishing the workflow.",
+    ],
+    notes:
+      "Community follow-up reported a Designer/Server version mismatch workaround; Laserfiche employee replies clarify the starting-entry model for Forms-launched workflows.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error No entry was specified",
+        url: "https://answers.laserfiche.com/questions/74204/Error-No-entry-was-specified",
+        note: "Miruna Babatie from Laserfiche explains that Forms-started workflows do not automatically have a repository entry and recommends using the Forms save-to-repository path when an entry is required.",
+      },
+    ],
+  },
+  {
+    id: "workflow-briefcase-noncritical-warning",
+    code: "WORKFLOW-BRIEFCASE-NONCRITICAL",
+    message: "Briefcase transfer failure is not treated as a critical Workflow error.",
+    product: "Workflow",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow task error handling can classify some briefcase transfer failures as non-critical, so a Try-Catch or termination path may not run unless server error-handler settings or explicit verification steps are added.",
+    symptoms: [
+      "A briefcase activity fails but the workflow continues.",
+      "Expected critical-error handling does not trigger.",
+      "Administrators need a way to alert or terminate when the destination entry was not created.",
+    ],
+    likelyFixes: [
+      "Review Workflow Administration Console > Server Configuration > Task Error Handlers for the related activity error code.",
+      "Only change critical-error classification after considering other workflows that may use the same activity and code.",
+      "Add a Find Entry or other verification step after briefcase transfer to confirm the expected destination entry exists.",
+      "If the verification fails, send an alert and terminate the workflow explicitly.",
+    ],
+    notes:
+      "This is community guidance and should be tested carefully because changing task error handler behavior is server-wide for that activity/code combination.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Failure of briefcase is not a critical error",
+        url: "https://answers.laserfiche.com/questions/160215/Failure-of-briefcase-is-not-a-critical-error",
+        note: "Community guidance points to Task Error Handlers and recommends verifying the destination entry after transfer.",
+      },
+    ],
+  },
+  {
+    id: "workflow-invalid-mail-header-token",
+    code: "WORKFLOW-INVALID-MAIL-HEADER",
+    message: "Invalid character was found in the mail header.",
+    product: "Workflow",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow email activities can report an invalid mail header when a token used in the address, subject, or header-related field is missing or resolves unexpectedly at runtime.",
+    symptoms: [
+      "Workflow fails on an email activity with Invalid character was found in the mail header.",
+      "The error may include an unexpected character such as <.",
+      "The email activity uses tokens for recipients, subject, or other email fields.",
+    ],
+    likelyFixes: [
+      "Enable Track Tokens before the email activity and inspect the resolved token values.",
+      "Check whether any token used by the email activity does not exist in the running instance.",
+      "Republish the workflow so active instances use the current activity/token structure.",
+      "If the workflow waits before sending email, confirm that the token-producing activity ran in that same instance before the wait.",
+    ],
+    notes:
+      "Laserfiche employee follow-up describes a case where a token added before a wait did not exist in older waiting instances after republishing.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Invalid character was found in the mail header",
+        url: "https://answers.laserfiche.com/questions/52070/Invalid-character-was-found-in-the-mail-header-",
+        note: "Miruna Babatie from Laserfiche says a token that does not exist when the email activity runs can produce this header error; Matt Weaver recommends Track Tokens.",
+      },
+    ],
+  },
+  {
+    id: "workflow-servicechannel-faulted-0604-wfso0",
+    code: "0604-WFSO0",
+    message: "The communication object ServiceChannel cannot be used because it is in the Faulted state.",
+    product: "Workflow",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow Subscriber can log 0604-WFSO0 and a WCF ServiceChannel fault when it cannot communicate with Workflow Server, but the reviewed public thread does not include a confirmed root cause.",
+    symptoms: [
+      "Workflow Subscriber logs a WFSOException while communicating with Workflow Server.",
+      "The message includes ServiceChannel cannot be used for communication because it is in the Faulted state.",
+      "Errors may recur after the subscriber attempts to reconnect.",
+    ],
+    likelyFixes: [
+      "Review the full Workflow Server and Subscriber logs around the first failure, not only the repeated reconnect messages.",
+      "Check whether Workflow Server restarted, became unreachable, or logged a separate exception at the same time.",
+      "If the issue continues, open a Support case with the surrounding logs from both services.",
+    ],
+    notes:
+      "Laserfiche employee guidance says the rest of the logs are needed to determine what happened to Workflow Server; no public fix was posted.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "The communication object System.ServiceModel.Channels.ServiceChannel cannot be used because it is in the Faulted state",
+        url: "https://answers.laserfiche.com/questions/223668/The-communication-object-SystemServiceModelChannelsServiceChannel-cannot-be-used-for-communication-because-it-is-in-the-Faulted-state",
+        note: "Miruna Babatie from Laserfiche explains that Subscriber reconnect messages are secondary and the earlier Workflow Server logs are needed.",
+      },
+    ],
+  },
+  {
+    id: "workflow-query-data-null-collection",
+    code: "WORKFLOW-QUERYDATA-COLLECTION-NULL",
+    message: "Value cannot be null. Parameter name: collection.",
+    product: "Workflow",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow Query Data activity configuration can become corrupted enough to throw Value cannot be null, Parameter name: collection; recreating the activity has resolved the issue in community-confirmed cases.",
+    symptoms: [
+      "A Query Data activity fails with Value cannot be null. Parameter name: collection.",
+      "The workflow log references Workflow 10.2 or a Workflow Query Data activity.",
+      "The same query text may look valid in Designer.",
+    ],
+    likelyFixes: [
+      "Copy the SQL/query text and activity configuration details for reference.",
+      "Delete the affected Query Data activity from the workflow.",
+      "Add a new Query Data activity and re-enter the same configuration.",
+      "Republish and rerun the workflow instance.",
+    ],
+    notes:
+      "The public thread has Laserfiche employee diagnostic questions; the confirmed fix came from community users deleting and recreating the Query Data activity.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Value cannot be null Parameter name collection",
+        url: "https://answers.laserfiche.com/questions/134334/Value-cannot-be-null-Parameter-name-collection",
+        note: "Community users report that deleting and recreating the Query Data activity resolved the error.",
+      },
+    ],
+  },
+  {
+    id: "workflow-field-access-denied-9013",
+    code: "9013",
+    message: "Access denied while Workflow updates a field value.",
+    product: "Workflow",
+    versions: ["Version 11"],
+    confidence: "medium",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow can report 9013 Access denied while updating a date field when the Workflow connection profile user does not have rights to the target field.",
+    symptoms: [
+      "Workflow fails when adding days or writing a calculated date to a metadata field.",
+      "The activity log includes Access Denied [9013] and 0265-WF10.",
+      "Other repository operations may work under the same connection profile.",
+    ],
+    likelyFixes: [
+      "Identify the Workflow connection profile or service account used to update metadata.",
+      "Grant that account the necessary field-level rights for the target metadata field.",
+      "Rerun the workflow after confirming the account can manually update the same field.",
+    ],
+    notes: "The public confirmation comes from the requester, not a Laserfiche employee reply.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Workflow Error Adding Days",
+        url: "https://answers.laserfiche.com/questions/216578/Workflow-Error-Adding-Days",
+        note: "Requester confirmed the Workflow user lacked access to the field being updated.",
+      },
+    ],
+  },
+  {
+    id: "workflow-subscriber-797-server-connection",
+    code: "797",
+    message: "Workflow Subscriber could not connect to Laserfiche Server.",
+    product: "Workflow",
+    versions: ["Version 9", "Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow Subscriber Event ID 100 can include Laserfiche error 797 when Subscriber temporarily or continuously cannot connect to Laserfiche Server.",
+    symptoms: [
+      "Windows Event Viewer logs Workflow Subscriber Event ID 100.",
+      "The details say Could not connect to Laserfiche Server and include ErrorCode 797.",
+      "The message may repeat after Workflow Subscriber timestamp or connection warnings.",
+    ],
+    likelyFixes: [
+      "Check whether the Laserfiche Server service was down or restarted at the same time.",
+      "If the event is sporadic, verify Subscriber reconnects and later processes events successfully.",
+      "If the event is continuous, troubleshoot network connectivity between Workflow Subscriber and Laserfiche Server.",
+      "Review the full event message instead of relying on Event ID 100 alone.",
+    ],
+    notes:
+      "Laserfiche employee reply says the Event ID alone is not diagnostic; the embedded error message determines whether this is a transient reconnect or a server/network problem.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Workflow Event Viewer Error Event 100 Laserfiche Workflow Subscriber Timestamp off",
+        url: "https://answers.laserfiche.com/questions/91483/Workflow-Event-Viewer-Error-Event-100--Laserfiche-Workflow-Subscriber-Timestamp-off",
+        note: "Miruna Babatie from Laserfiche explains 797 means Subscriber lost connection to Laserfiche Server and will reconnect unless the failure is continuous.",
+      },
+    ],
+  },
+  {
+    id: "workflow-subscriber-9001-deleted-entry",
+    code: "9001",
+    message: "Workflow Subscriber cannot process an entry that no longer exists.",
+    product: "Workflow",
+    versions: ["Version 9", "Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Workflow Subscriber can log 9001 when a starting rule or wait condition is satisfied for an entry that is deleted before Subscriber processes the event.",
+    symptoms: [
+      "Workflow Subscriber logs LFSOException with ErrorCode 9001.",
+      "The stack includes LFDatabaseClass.GetEntryByID.",
+      "The error appears repeatedly in Event Viewer or subscriber_error.log for starting or waiting rules.",
+    ],
+    likelyFixes: [
+      "Review starting rules and wait conditions for broad triggers that create a large Subscriber backlog.",
+      "Check whether entries are being deleted shortly after satisfying a workflow condition.",
+      "If these errors are expected and harmless in the environment, treat them as diagnostics rather than failed workflow instances.",
+      "To stop all Subscriber errors from being written to the Windows Workflow event log, update the Subscriber config listener only after confirming that central log monitoring is handled elsewhere.",
+    ],
+    notes:
+      "Laserfiche employee reply says the condition is a real error, but it may be safely ignored when the deleted entry no longer matters; logging changes affect all Subscriber errors, not only 9001.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "workflow subscriber errors in event logs",
+        url: "https://answers.laserfiche.com/questions/50718/workflow-subscriber-errors-in-event-logs",
+        note: "Miruna Babatie from Laserfiche explains the deleted-entry timing cause and the limits of changing Subscriber error logging.",
       },
     ],
   },

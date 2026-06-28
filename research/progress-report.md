@@ -4,37 +4,37 @@ Generated: 2026-06-27
 
 ## Summary
 
-- Published helper entries: 1306
-- Reviewed source ledger rows: 188
+- Published helper entries: 1315
+- Reviewed source ledger rows: 199
 - Discovery rows tracked: 312
-- Remaining candidate rows: 167
+- Remaining candidate rows: 149
 
 ## Fix Status Coverage
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 77 |
-| known-fix | 33 |
+| diagnostic-only | 80 |
+| known-fix | 35 |
 | needs-review | 1162 |
-| unresolved | 20 |
-| workaround | 14 |
+| unresolved | 21 |
+| workaround | 17 |
 
 ## Source Ledger Review Status
 
 | Review status | Sources |
 | --- | --- |
-| curated | 106 |
-| curated-partial | 56 |
-| curated-unresolved | 25 |
+| curated | 109 |
+| curated-partial | 62 |
+| curated-unresolved | 27 |
 | no-matching-posts | 1 |
 
 ## Reviewed Source Types
 
 | Source type | Sources |
 | --- | --- |
-| answers-community | 8 |
-| answers-community-confirmed | 27 |
-| answers-laserfiche-employee | 136 |
+| answers-community | 10 |
+| answers-community-confirmed | 29 |
+| answers-laserfiche-employee | 143 |
 | answers-search | 1 |
 | official-docs | 16 |
 
@@ -66,13 +66,12 @@ Generated: 2026-06-27
 | WebLink | 16 | 0 |
 | Webtools Agent | 0 | 1 |
 | Windows Client/Desktop Client | 171 | 0 |
-| Workflow | 10 | 18 |
+| Workflow | 19 | 0 |
 
 ## Next Batch Targets
 
 | Product | Remaining candidates |
 | --- | --- |
-| Workflow | 18 |
 | Directory Server | 16 |
 | Web Client Scanning | 16 |
 | Laserfiche Installer | 15 |
@@ -82,4 +81,5 @@ Generated: 2026-06-27
 | Connector | 10 |
 | Records Management | 10 |
 | Import Agent | 9 |
+| API Server | 7 |
 
