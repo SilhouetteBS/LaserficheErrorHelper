@@ -5980,6 +5980,336 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "windows-client-scanning-cannot-store-field-data-92",
+    code: "SCANNING-CANNOT-STORE-FIELD-DATA",
+    message: "Cannot store field data while scanning with a template.",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche Scanning 9.2.0.343 could fail to store field data when using a specific template; the requester confirmed upgrading server and client to 9.2.1.562 resolved it.",
+    symptoms: [
+      "Scanning with a specific template returns Cannot store field data.",
+      "The same users can store documents without the template and assign the template afterward.",
+      "The issue appears after upgrading from Laserfiche 9.1 to 9.2.0.343.",
+    ],
+    likelyFixes: [
+      "Upgrade both Laserfiche Server and the Windows Client/Scanning components from 9.2.0.343 to 9.2.1.562 or later.",
+      "As a temporary workaround, store the document without the template and assign the template after storage.",
+      "Open a Support case if the same error persists on later 9.2 builds or only affects one template.",
+    ],
+    notes:
+      "A Laserfiche employee asked the requester to open a Support case; the requester later confirmed the server/client upgrade fixed the issue.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "cannot store field data error in 9.2",
+        url: "https://answers.laserfiche.com/questions/79050/cannot-store-field-data-error-in-92",
+        note: "Requester reports upgrading LF Server and client from 9.2.0.343 to 9.2.1.562 resolved the template scanning store error.",
+      },
+    ],
+  },
+  {
+    id: "web-client-ocr-queue-dcc-configuration",
+    code: "WEBCLIENT-OCR-QUEUE",
+    message: "Documents could not be sent to the OCR queue.",
+    product: "Web Client Scanning",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Web Client OCR depends on Distributed Computing Cluster rather than the local OCR engine used by the Windows Client, so OCR queue errors should be checked against Web Client/DCC configuration.",
+    symptoms: [
+      "Generating text through OCR in Web Client reports that documents could not be sent to the OCR queue.",
+      "OCR works from the Windows Client on the same document because that client can use a local OCR engine.",
+      "Repository permissions and document settings may appear correct.",
+    ],
+    likelyFixes: [
+      "Confirm Web Client is configured to use Distributed Computing Cluster for OCR.",
+      "Verify DCC services, workers, and OCR task routing are available from the Web Client server.",
+      "Compare Windows Client OCR success carefully because it does not prove the web OCR queue path is configured.",
+    ],
+    notes:
+      "The public thread provides employee diagnostic direction but no requester-confirmed final configuration change.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error Message - OCR Queue",
+        url: "https://answers.laserfiche.com/questions/172658/Error-Message--OCR-Queue",
+        note: "Laserfiche employee response explains that Web Access/Web Client OCR uses DCC while the Windows Client can OCR locally.",
+      },
+    ],
+  },
+  {
+    id: "windows-client-scanning-com-class-factory-ocr",
+    code: "80080005 / 0x80040154",
+    message: "COM class factory or Universal Capture class not registered while scanning.",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche Scanning 9.1.1 on Windows 7 x64 can throw COM class factory and class-not-registered errors when OCR or Universal Capture components are missing or need a known patch.",
+    symptoms: [
+      "Scanning returns Exception has been thrown by the target of an invocation.",
+      "Technical details include COM class factory failed with 80080005.",
+      "Basic mode may report a Universal Capture class-not-registered error 0x80040154.",
+    ],
+    likelyFixes: [
+      "Verify the Laserfiche OCR engine is installed on the scanning workstation.",
+      "Apply the Laserfiche Scanning/OCR patch referenced by the Laserfiche employee reply for the affected 9.1.1 environment.",
+      "If the issue is scanner-specific, test TWAIN/ISIS drivers and reproduce with a simple scan profile before opening Support.",
+    ],
+    notes:
+      "The selected guidance references Laserfiche KB articles for OCR engine installation and the Scanning issue; the public thread does not include a single universal root cause.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "LF 9.1.1 Scanning error on 64 bit Windows 7",
+        url: "https://answers.laserfiche.com/questions/97333/LF-911-Scanning-error-on-64-bit-Windows-7",
+        note: "Laserfiche employee guidance points to OCR installation and a related Scanning patch for the class factory/class-not-registered stack.",
+      },
+    ],
+  },
+  {
+    id: "web-client-scanning-keepalive-timeout",
+    code: "WEBSCAN-KEEPALIVE-TIMEOUT",
+    message: "Web Client Scanning KeepAlive timeout.",
+    product: "Web Client Scanning",
+    versions: ["Version 11"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Long Web Client Scanning sessions can repeatedly relaunch or timeout when KeepAlive calls take too long; Laserfiche employee replies point to cumulative Scanning and WebTools Agent patches.",
+    symptoms: [
+      "Users scanning for a long time from Web Client see timeout behavior or repeated Scanning relaunch prompts.",
+      "Signing out may not clear the condition, while rebooting the workstation sometimes does.",
+      "The behavior may be more visible with load-balanced Web Client instances.",
+    ],
+    likelyFixes: [
+      "Confirm the workstation has the latest Laserfiche Scanning patches for the installed major version.",
+      "Update WebTools Agent and Web Client components together using the latest available Laserfiche 11 installer package.",
+      "Check load balancer persistence/session affinity for Web Client if multiple Web Client instances are involved.",
+      "Collect Web Client, WebTools Agent, and Scanning logs if the timeout continues after patching.",
+    ],
+    notes:
+      "The thread includes employee guidance that timeout fixes were split across Scanning and WebTools Agent patches; exact build requirements depend on the installed Laserfiche 11 package.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Laserfiche Scanning timeout from web client",
+        url: "https://answers.laserfiche.com/questions/199349/Laserfiche-Scanning-timeout-from-web-client",
+        note: "Laserfiche employee response recommends the latest Scanning and WebTools Agent patches and calls out load-balanced Web Client behavior as a possible factor.",
+      },
+    ],
+  },
+  {
+    id: "import-agent-ocr-license-check-failed-1158",
+    code: "OCR-LICENSE-CHECK-FAILED / 1158",
+    message: "OCR license check failed, followed by Error reading file.",
+    product: "Import Agent",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Import Agent can move files to IAError after an OCR license check failure followed by error 1158; employee guidance points to image enhancement settings and the latest Import Agent hotfix.",
+    symptoms: [
+      "Import Agent logs OCR license check failed while OCRing a TIFF.",
+      "The next error says there was an error executing the file import task, Error reading file, 1158.",
+      "The scanned file is moved to the IAError folder but may import if moved back later.",
+    ],
+    likelyFixes: [
+      "Check whether Perform image enhancement is enabled for the Import Agent profile and test with it disabled.",
+      "Apply the latest Import Agent hotfix for the affected 9.x build.",
+      "Verify OCR licensing and OCR components on the Import Agent machine.",
+      "Open a Support case if the hotfix and image enhancement test do not resolve the failure.",
+    ],
+    notes:
+      "The reviewed thread is Import Agent-focused even though it was discovered from a scanning query.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "OCR License Check Failed",
+        url: "https://answers.laserfiche.com/questions/76951/OCR-License-Check-Failed",
+        note: "Laserfiche employee response recommends checking image enhancement and applying the latest Import Agent hotfix for the OCR license check failure.",
+      },
+    ],
+  },
+  {
+    id: "quick-fields-failed-to-load-image-qf9",
+    code: "QF-FAILED-TO-LOAD-IMAGE",
+    message: "Quick Fields failed to load image.",
+    product: "Quick Fields",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Quick Fields 9 can report failed to load image during scanning, page removal, OCR, or storing; reviewed threads point to a Quick Fields patch, scanner/image validity checks, and one workstation registry cleanup case.",
+    symptoms: [
+      "Quick Fields repeatedly displays Failed to load image.",
+      "Metadata may populate correctly while the image preview or store step fails.",
+      "The error may follow scanning, page removal, zone OCR, or a scanner feed problem.",
+    ],
+    likelyFixes: [
+      "Apply the latest Quick Fields 9 patch referenced by Laserfiche Support for failed-load-image issues.",
+      "Test whether the problem is scanner-specific by using another scan source or importing a known-good image.",
+      "Check for paper jams, double feeds, invalid images, and scanner driver issues before treating it as a repository problem.",
+      "If the issue is isolated to one workstation after reinstalling, review leftover Windows registration or profile state with Support.",
+    ],
+    notes:
+      "Two reviewed threads describe similar symptoms; one has employee patch guidance and the other ended with a workstation registry/state resolution.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "QF 9: failed to load image",
+        url: "https://answers.laserfiche.com/questions/74580/QF-9-failed-to-load-image",
+        note: "Laserfiche employee guidance points to applying a Quick Fields patch and checking scan source or invalid image conditions.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "multiple failed to load image message",
+        url: "https://answers.laserfiche.com/questions/105327/multiple-failed-to-load-image-message",
+        note: "Requester reports the resolution appeared tied to leftover Windows registry or machine state after reinstall attempts.",
+      },
+    ],
+  },
+  {
+    id: "quick-fields-permission-denied-store-document-class",
+    code: "QF-PERMISSION-DENIED-STORE",
+    message: "Permission denied when storing from Quick Fields.",
+    product: "Quick Fields",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Quick Fields can retrieve documents successfully through one repository connection but fail with Permission denied on Store All when the document class storage connection uses an account without sufficient rights.",
+    symptoms: [
+      "Quick Fields retrieves source documents with Laserfiche Capture Engine.",
+      "Clicking Store All returns Permission denied in the output pane.",
+      "The scanning/source connection and the storage/document class connection may use different Laserfiche logins.",
+    ],
+    likelyFixes: [
+      "Open the Quick Fields document class options and verify the repository connection profile used for storage.",
+      "Grant the storage user create-document rights in the destination folder and rights to set the target template/fields.",
+      "Migrate or update the document class connection profile if it is still using an old or insufficient account.",
+      "Retest Store All after confirming both source and destination repository permissions.",
+    ],
+    notes:
+      "Community replies identify separate Quick Fields repository logins and insufficient document class field/template permissions as the likely cause.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Permission denied was showed up on output screen when clicked store button.( Quickfield 9.0 )",
+        url: "https://answers.laserfiche.com/questions/76088/-Permission-denied-was-showed-up-on-output-screen-when-clicked-store-button-Quickfield-90-",
+        note: "Community guidance explains checking the document class repository connection profile and confirms insufficient metadata/field permissions can cause the store failure.",
+      },
+    ],
+  },
+  {
+    id: "web-client-scanning-metadata-template-fields-1021",
+    code: "WEBSCAN-METADATA-FIELDS",
+    message: "Web Client Scanning metadata error when scanning into existing documents.",
+    product: "Web Client Scanning",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Web Client 10.2 could fail when scanning pages into existing documents that have both a template and independent fields; Laserfiche confirmed the issue was fixed in Web Client 10.2.1.",
+    symptoms: [
+      "The error only occurs when scanning into an existing document from Web Client.",
+      "Affected documents contain both a template and independent fields.",
+      "Scanning into a separate file and merging later works as a workaround.",
+    ],
+    likelyFixes: [
+      "Upgrade Web Client to 10.2.1 or later.",
+      "Until upgraded, scan to a separate file and merge the pages into the existing document.",
+      "Confirm the failing document has both template fields and independent fields before applying this fix pattern.",
+    ],
+    notes:
+      "The fix is specific to the Web Client 10.2 scanning metadata bug confirmed by Laserfiche.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Scanning Error - Web Client & Metadata",
+        url: "https://answers.laserfiche.com/questions/118750/Scanning-Error--Web-Client--Metadata",
+        note: "Laserfiche employee response says the issue is fixed in Web Client 10.2.1.",
+      },
+    ],
+  },
+  {
+    id: "web-client-scanning-invalid-connection-tags",
+    code: "WEBSCAN-INVALID-CONNECTION",
+    message: "Invalid connection when launching Web Client Scanning.",
+    product: "Web Client Scanning",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Web Client Scanning 11 can fail at launch with repeated Invalid connection messages and a NullReferenceException while reading repository tags; the public thread has employee follow-up but no confirmed fix.",
+    symptoms: [
+      "Launching Basic or Standard Web Client Scanning returns Invalid connection several times.",
+      "Technical details include NullReferenceException in RetrieveAllTags or ScanSettings.ReadTags.",
+      "Reinstalling Scanning, WebTools Agent, Office Integration, and Visual C++ redistributables may not resolve it.",
+    ],
+    likelyFixes: [
+      "Check whether the latest Web Client, WebTools Agent, and Desktop Scanning updates are installed together.",
+      "Review repository tag configuration and whether the Web Client service can retrieve all tags.",
+      "Collect Web Client Scanning logs and open a Support case because no confirmed public fix was posted.",
+    ],
+    notes:
+      "This entry is intentionally unresolved so administrators can match the NullReferenceException/RetrieveAllTags stack.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Web Client Scanning gives Invalid connection error",
+        url: "https://answers.laserfiche.com/questions/212027/Web-Client-Scanning-gives-Invalid-connection-error",
+        note: "Thread includes Laserfiche employee follow-up for a Web Client 11 Update 7 scanning launch failure, but no confirmed final fix is public.",
+      },
+    ],
+  },
+  {
+    id: "web-client-scanning-temp-file-not-found",
+    code: "WEBSCAN-TEMP-FILE-NOT-FOUND",
+    message: "Could not find file in the Laserfiche Scanning temp folder.",
+    product: "Web Client Scanning",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Web Client Scanning can intermittently report that a temporary TIFF file under AppData\\Local\\Temp\\Laserfiche Scanning cannot be found; the reviewed thread has no public replies.",
+    symptoms: [
+      "Users scanning through Web Access/Web Client see Could Not Find File.",
+      "The missing path points to C:\\Users\\username\\AppData\\Local\\Temp\\Laserfiche Scanning\\*.tif.",
+      "Restarting may temporarily clear the issue, and scanning can work before and after the failure.",
+    ],
+    likelyFixes: [
+      "Check antivirus, endpoint protection, or cleanup tools that may remove files from the Laserfiche Scanning temp folder.",
+      "Confirm the user can write to the local temp folder and that the path is not redirected or cleaned during scanning.",
+      "Collect Web Client Scanning logs and reproduce with a simple scan job because no confirmed public fix was posted.",
+    ],
+    notes:
+      "Published as unresolved because the temp-file path is a recognizable Web Client Scanning failure pattern.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Web Scan Error : Could Not Find File",
+        url: "https://answers.laserfiche.com/questions/183391/Web-Scan-Error--Could-Not-Find-File",
+        note: "Thread documents the intermittent AppData temp-file-not-found error but has no public replies.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));

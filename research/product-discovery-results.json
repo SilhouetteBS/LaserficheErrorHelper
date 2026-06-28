@@ -3067,11 +3067,13 @@
     "snippet": "10.2 Client crashes with \"The specified operation is not recognized. [9051]\" Viewer, the user clicks the Scan button to open the Laserfiche Scanning window. It loads without issue. 4. At this point, the user can either ... when the user closes the Laserfiche Scanning window - it closes properly, but the other two open windows (Search Results and Document Viewer) both crash simultaneously ...... posted by George Weihs 0 Mar 17, 2017 updated by Wendi Rosenzweig 56 Aug 8, 2017 7 replies · 1385 view",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "cross-product",
     "queries": [
       "Scanning \"error code\" Laserfiche",
       "Scanning \"store\" error Laserfiche"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Already curated under the official 9051 entry with Windows Client/Desktop Client context."
   },
   {
     "product": "Web Client Scanning",
@@ -3083,7 +3085,9 @@
     "snippet": "Laserfiche 9.1.1.546 Client Error Code 9063 Just upgraded to Laserfiche 9.1.1.546 Alt – down arrow to advance to the next document to verify for a member gives error. Only ... to advance to next document. Error Code : 9063 Error Message: The entry is locked and cannot be modified, or the object needs to be refreshed ...... posted by Kevin DeGroot 16 Aug 19, 2014 updated by Kevin DeGroot 16 Sep 9, 2014 7 replies · 1095 views · 0 0 · Installation and Upgrades Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Already curated under the official 9063 entry with Windows Client/Desktop Client context."
   },
   {
     "product": "Web Client Scanning",
@@ -3095,7 +3099,9 @@
     "snippet": "cannot store field data error in 9.2 template , all users get the error \"Cannot store field data....\" . It works fine if I downgrade them to LF 9.1, but 9.2 gives ...... posted by Kyle Olsen 26 Jun 16, 2015 updated by Kyle Olsen 26 Jul 9, 2015 2 replies · 516 views · 0 0 · Scanning Version 9 Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated under Windows Client/Desktop Client scanning metadata storage."
   },
   {
     "product": "Web Client Scanning",
@@ -3107,7 +3113,9 @@
     "snippet": "error 780 after server upgrade to 9.1.1.545 I had a client upgrade from LF 8.3.1 to 9.1.1.545 (both server and clients) over the weekend. They have found that ...... posted by Bert Warren 6065 Jul 7, 2014 updated by Bert Warren 6065 Jul 7, 2014 5 replies · 1565 views · 0 0 · Laserfiche Version 9",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Already curated under the official 780 Windows Client/Desktop Client entry."
   },
   {
     "product": "Web Client Scanning",
@@ -3119,7 +3127,9 @@
     "snippet": "Error Code: 6317 Permission Denied attached message when trying to scan using DataNOW Affinity. They can import just fine. They are a group of power users and already have more ... that the regular users can scan no problem, but the power users have to use the import process rather than the desktop scanners to directly ...... posted by Toyia Arvin 22 Oct 30, 2014 updated by Michael Horton 10 Feb 14, 2024 7 replies · 1450 views · 0 0 · Laserfiche Version 8 Capture Integrations Security",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "not-actionable",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; source is Version 8 DataNOW/Capture context and does not fit the v9-v12 scope."
   },
   {
     "product": "Web Client Scanning",
@@ -3131,7 +3141,9 @@
     "snippet": "Error Message - OCR Queue granted to the repository group: failed ,Generated text in Laserfiche Windows Client: passed ,Generated text on electronic file: passed ,Document settings for OCR were on ...... posted by Chikao Maeda 0 Apr 29, 2020 updated by Miruna Babatie 41329 May 5, 2020 4 replies · 520 views · 0 0 · Web Client Laserfiche Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Web Client OCR queue / DCC configuration guidance."
   },
   {
     "product": "Web Client Scanning",
@@ -3157,7 +3169,9 @@
     "snippet": "Laserfiche 9.1.1.546 Client Error Code 9063 Just upgraded to Laserfiche 9.1.1.546 Alt – down arrow to advance to the next document to verify for a member gives error. Only ... to advance to next document. Error Code : 9063 Error Message: The entry is locked and cannot be modified, or the object needs to be refreshed ...... posted by Kevin DeGroot 16 Aug 19, 2014 updated by Kevin DeGroot 16 Sep 9, 2014 7 replies · 1095 views · 0 0 · Installation and Upgrades Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Already curated under the official 9063 entry with Windows Client/Desktop Client context."
   },
   {
     "product": "Web Client Scanning",
@@ -3169,7 +3183,9 @@
     "snippet": "LF 9.1.1 Scanning error on 64 bit Windows 7 an invocation\" when trying to scan anything in Laserfiche 9.1.1 service pack 1. I have tried using the PaperStream IP (TWAIN) 1.30.0 ...... posted by Roger Langlois 5 May 5, 2016 updated by Luis Diego Valverde Barquero 65 Jun 7, 2016 7 replies · 1353 views · 0 0",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated under Windows Client/Desktop Client scanning COM/OCR errors."
   },
   {
     "product": "Web Client Scanning",
@@ -3181,7 +3197,9 @@
     "snippet": "Laserfiche Scanning timeout from web client users when they've been scanning for long periods of time from a web client session, or some combination of inactivity or signing out with ... required. Are there certain Forms / Web Client / LFDS session timeout parameters that we need to be sure are all in sync? Any suggestions for further ...... posted by Roberto Canales 77 Jun 3, 2022 updated by Emilee Shaheen 22 Oct 30, 2023 7 replies · 1220 views · 0 0 · Scanning Web Client",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Web Client Scanning KeepAlive timeout patch guidance."
   },
   {
     "product": "Web Client Scanning",
@@ -3193,7 +3211,9 @@
     "snippet": "multiple failed to load image message My customer is having a failed to load image message failure that is popping up numerous times. Scenario: The user scanned in 2 pages. Then ... are they continuously getting the failed to load image when scanning ? B. What are some steps to take besides a reinstall which has already been ...... posted by Corey Robert 90 Aug 31, 2016 updated by Corey Robert 90 Sep 2, 2016 4 replies · 718 views · 0 0 · Quick Fields Laserfiche Scanning",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated under Quick Fields failed-to-load-image."
   },
   {
     "product": "Web Client Scanning",
@@ -3205,7 +3225,9 @@
     "snippet": "OCR License Check Failed error OCRing the file \"X:\\ Scans \\201505110816.tif\" (OCR license check failed .) That error is immediately followed by this error: There was an error executing ... Error reading file.) (1158) The scanned file ends up in X:\\ Scans \\IAError\\. If I manually move the file back to the Scans folder, the ...... posted by Marlon Meiklejohn 5 May 11, 2015 updated by Marlon Meiklejohn 5 Nov 3, 2015 13 replies · 1356 views · 0 0 · Laserfiche Scanning Version 9",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated under Import Agent OCR license check / 1158."
   },
   {
     "product": "Web Client Scanning",
@@ -3217,7 +3239,9 @@
     "snippet": "Permission denied was showed up on output screen when clicked store button.( Quickfield 9.0 ) all documents from repository with LF capture engine scan source.But when I clicked store all button 'permission denied' was show up on output screen ... where to set permission to store documents into LF Repository. Please help.... posted by Bongkoch Ruangrat 146 Apr 28, 2015 updated by Maria Gorokhova 5 Jul 25, 2017 6 replies · 956 views · 0 0 · Quick Fields",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated under Quick Fields store permission denied."
   },
   {
     "product": "Web Client Scanning",
@@ -3229,7 +3253,9 @@
     "snippet": "QF 9: failed to load image We have a user that scans her documents, Page removal, zone OCR's, substitutions, etc. working. The metadata fields are populated but the image is ... store the documents. Error states, \" Failed to load image\". I've closed the application and reopened the session this morning and all was OK but ...... posted by Chris Dillon 111 Apr 2, 2015 updated by Alexander Huang 27494 Apr 2, 2015 3 replies · 968 views · 0 0 · Quick Fields Scanning",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated under Quick Fields failed-to-load-image."
   },
   {
     "product": "Web Client Scanning",
@@ -3240,11 +3266,13 @@
     "snippet": "Scanning Error - Web Client & Metadata the Windows Client. Click on [ store ] or [ store all] in the Laserfiche scanning window and the following error messages display: Output Log: Document Manager: Unsure ... file in web client and scan into it using laserfiche scanning - click on [ store all] Thank you in advance, Stephanie... posted by Stephanie Lodge 36 Apr 6, 2017 updated by Ryan Schooley 1699 May 17, 2017 4 replies · 641 views · 0 0 · Web Client Scanning Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "Web Client Scanning \"error\"",
       "Scanning \"store\" error Laserfiche"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Web Client 10.2 metadata/template scanning bug fixed in 10.2.1."
   },
   {
     "product": "Web Client Scanning",
@@ -3256,7 +3284,9 @@
     "snippet": "Web Client Scanning gives \"Invalid connection\" error found a solution to this error when launching the Scanning module for the Web Client ? We've got version 11 update 7 of the web ... ve removed and re-installed scanning, web tools, Office integration and the MS Visual C++ redistributables (both 2012 and 2015-2019).... posted by Kyle Knebel 230 Sep 21, 2023 updated by Shengyao Que 341 Sep 24, 2023 3 replies · 635 views · 0 0 · Web Client Version 11 Scanning",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as unresolved Web Client Scanning invalid connection / RetrieveAllTags stack."
   },
   {
     "product": "Web Client Scanning",
@@ -3268,7 +3298,9 @@
     "snippet": "Web Scan Error : Could Not Find File users that have gotten an error when using the web access scan tool. It says \"Could Not Find File in C:\\users\\username\\AppData\\Local ... the same user will be scanning fine before and after restarting if the error occurs. Tried to look it up real quick and am not ...... posted by Kyle West 44 Feb 2, 2021 0 replies · 355 views · 0 0 · Version 10 Web Client Scanning",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as unresolved Web Client Scanning temp-file-not-found pattern."
   },
   {
     "product": "Web Client Scanning",
