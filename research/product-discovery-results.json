@@ -70,11 +70,13 @@
     "snippet": "Administration Hub unable to connect to some servers on the same network for the group regarding the Administration Hub , for those that have experience with it. I recently completed an upgrade to LF12 in an environment that ... VMs, as well as the administration hub service and agent on the main app server, which doesn't help. Are there specific ports that need ...... posted by Justin Richardson 28 Jul 2, 2025 updated by Yankai Chen 29 Jul 4, 2025 2 replies · 849 views · 0 0 · Laserfiche Admini",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-partial",
     "queries": [
       "Administration Hub \"error\" Laserfiche",
       "Admin Hub \"error\" Laserfiche"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Administration Hub agent connectivity/log diagnostics."
   },
   {
     "product": "Administration Hub",
@@ -86,7 +88,9 @@
     "snippet": "Laserfiche 12 Installer - Error Selecting LFDS for Licensing But I'm getting an error in the installer when trying to configure it to do licensing from LFDS. I guess it's not completely ... t like it here. The error message says to check my LFDS configuration, but it isn't clear what part of the configuration it is ...... posted by Matthew Tingey 9658 May 3, 2025 updated by Matthew Tingey 9658 May 6, 2025 13 replies · 1498 views · 1 0 · Self-Hosted Version 12 Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as LFDS installer licensing connection certificate/XmlEndpointUtility fix; duplicate LFDS row uses same source."
   },
   {
     "product": "Administration Hub",
@@ -98,7 +102,9 @@
     "snippet": "Laserfiche 12 Installer - Error Selecting LFDS for Licensing But I'm getting an error in the installer when trying to configure it to do licensing from LFDS. I guess it's not completely ... t like it here. The error message says to check my LFDS configuration, but it isn't clear what part of the configuration it is ...... posted by Matthew Tingey 9658 May 3, 2025 updated by Matthew Tingey 9658 May 6, 2025 13 replies · 1498 views · 1 0 · Self-Hosted Version 12 Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as LFDS installer licensing connection certificate/XmlEndpointUtility fix; duplicate LFDS row uses same source."
   },
   {
     "product": "Administration Hub",
@@ -110,7 +116,9 @@
     "snippet": "Automated alerts Private Laserfiche Enterprise Admins with automated alerts for the Laserfiche software that traditionally hasn't supported them, like LF Server, Import Agent, and LFDS. The main purpose is to ... was hoping the new Admin Hub would have some functionality for this, but no dice. For some more info about how I'm doing it ...... posted by Pieter Nauta 1376 Dec 29, 2025 updated by Pieter Nauta 1376 Jan 5 4 replies · 31 views · 1 0 · Version 12 Administration",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "not-actionable",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; product feature discussion about alerting, not a specific end-user error."
   },
   {
     "product": "Administration Hub",
@@ -136,7 +144,9 @@
     "snippet": "Possible causes for LFF9906-AuditTrailTmeoutSendEventToATHub stops logging it. Log Name: Laserfiche -Forms-App/ Admin Source: Laserfiche -Forms-App Date: 6/8/2023 1:24:48 PM Event ID: 19906 Task ... 0x4000f00000000000 885734 Laserfiche -Forms-App/ Admin [redactedforthispost Sending audit events to Audit Trail Hub Service timed out with error code SendEventTimeOut. [LFF9906-AuditTrailTmeoutSendEventToATHub] Details ...... posted by Damon Meads 162 Jun 9, 2023 updated by Jiajun Hu 103 Feb 28, 2024",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; Forms/Audit Trail Hub timeout issue, not Administration Hub-specific."
   },
   {
     "product": "AI Service",
@@ -148,7 +158,9 @@
     "snippet": "Import Agent Error LongFile.OpenText(String path) at Laserfiche .ImportAgent. Service .ExecuteProfileImageFile.OCRImportImageFile(ExecutionContext context, DocumentInfo LFDoc, Int32 nPage, String imagePath, Boolean bOCR) ... Boolean bOCRImages, Boolean bIndexText) at Laserfiche .ImportAgent. Service .ExecuteProfileImageFile.CreateDocumentAndImportImageOrTextToPage(Session LFDatabase, String strLfFolder, String strDocName, Profile profile, ... posted by Zainab Mantri 54 Sep 4, 2018 updated by Bra",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed under AI Service candidate set; already curated as Import Agent hotfix issue."
   },
   {
     "product": "AI Service",
@@ -160,7 +172,9 @@
     "snippet": "PDF and IFilters - LFFTS Errors viewer I continually see the error :- The TextProvider process was terminated due to an unhandled exception when extracting text from a \"pdf\" document. Search catalog ... 2024.005.20414 but the error persists. What is the recommendation from Laserfiche on what PDF components need to be installed server side to resolve ...... posted by Chris Douglas 4991 Feb 21, 2025 updated by Bill Peyton 594 Jun 17, 2025 14 replies · 615 views · 1 0 · Laserfiche How To",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed under AI Service candidate set; Full Text Search/iFilter issue, not AI Service."
   },
   {
     "product": "API Server",
@@ -1068,7 +1082,9 @@
     "snippet": "Retrieving the COM class factory for component with CLSID {F2AA5ECF-C6DB-4792-B062-5D4B55DE263B} failed due to the following error: 800736b3 The referenced assembly is not installed on your system. (Exception from HRESULT: 0x800736B3). I try to configure my Laserfiche connection (server name + repository + login + password, ), the test is failed and I get this error . Retrieving the COM class ...... posted by Armando BENZAQUEN 4 Dec 9, 2015 updated by Armando BENZAQUEN 4 Dec 13, 2015 5 replies ·",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; Quick Fields COM component error, not Discussions-specific."
   },
   {
     "product": "Discussions",
@@ -1080,7 +1096,9 @@
     "snippet": "Does LFDS 10.3.1 Auto-Generate application licenses? 10.3.1 https://support. laserfiche .com/kb/1013976/release-notes-for- laserfiche -directory-server-10-3-1 & https://support. laserfiche .com/kb/1013977 ... also generate and replace the LF .LICX files on the registered LF servers? As without this functionality, the auto-renew seems a little pointless? Cheers ...... posted by Chris Douglas 4991 Oct 2, 2018 updated by Duncan Ashenhurst 346 Sep 11, 2023 11 replies · 882 views · 0 0 · Directory Se",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "not-actionable",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; LFDS licensing feature discussion, not a Discussions error/fix."
   },
   {
     "product": "Discussions",
@@ -1092,7 +1110,9 @@
     "snippet": "Retrieving the COM class factory for component with CLSID {F2AA5ECF-C6DB-4792-B062-5D4B55DE263B} failed due to the following error: 800736b3 The referenced assembly is not installed on your system. (Exception from HRESULT: 0x800736B3). I try to configure my Laserfiche connection (server name + repository + login + password, ), the test is failed and I get this error . Retrieving the COM class ...... posted by Armando BENZAQUEN 4 Dec 9, 2015 updated by Armando BENZAQUEN 4 Dec 13, 2015 5 replies ·",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; Quick Fields COM component error, not Discussions-specific."
   },
   {
     "product": "Discussions",
@@ -1104,7 +1124,9 @@
     "snippet": "Unable to configure discussions database I'm trying to configure Discussions 10.2 ,but I get this error , When trying by db_owner user I get this error When trying ...... posted by Mahmoud Ramzy 56 Mar 6, 2018 updated by Nicholas Wolfe 2 Apr 1, 2019 8 replies · 672 views · 0 0 · Discussions",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Discussions SQL FILESTREAM/database configuration workaround."
   },
   {
     "product": "Distributed Computing Cluster",
@@ -1116,7 +1138,9 @@
     "snippet": "DCC 11-\"Unable to connect to the remote server\" Error when adding worker machine and I get the following error message in the DCC Event viewer: \"Context Message: Timeout for job that cannot be run has been exceded. Timeout ... had no response. https://answers. laserfiche .com/questions/194282/DCCTimeout- Error Appreciate any feedback, Jeff Curtis... posted by Jeff Curtis 725 Dec 23, 2021 updated by Jeff Curtis 725 Jan 3, 2022 4 replies · 682 views · 0 0 · Distributed Computing Cluster Version 11",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as DCC 11 worker remote-server/endpoint connectivity diagnostic item."
   },
   {
     "product": "Distributed Computing Cluster",
@@ -1128,7 +1152,9 @@
     "snippet": "Error: Node with address X, could not be registered because it is registered to a Scheduler with address X. add worker to a DCC cluster and am recieving the error that the address is already assigned. Cluster is setup, using web admin console, with ...... posted by Michael Bostwick 5 Jul 10, 2014 updated by Matthew Kelly 559 Sep 2, 2014 1 reply · 770 views · 0 0 · Distributed Computing Cluster",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as DCC stale Scheduler config workaround."
   },
   {
     "product": "Distributed Computing Cluster",
@@ -1139,11 +1165,13 @@
     "snippet": "Error: OCR processing could not be performed by the Scheduler. - Distributed Computing I installed and configured distribute processing. There are three workers one of which doubles as the scheduler too (this is where Laserfiche Server, Web Access ... Access, when I enable the Laserfiche Distributed Computing Cluster in Web Access and enter either localhost or servername or serverip for the scheduler with port ...... posted by Karim Dibba 243 Jul 17, 2014 updated by Jeff Keys 0 Sep 25, 2014 4 re",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-partial",
     "queries": [
       "Distributed Computing Cluster \"error\" Laserfiche",
       "Distributed Computing Cluster \"OCR\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as DCC OCR Scheduler licensing/License Manager diagnostic item."
   },
   {
     "product": "Distributed Computing Cluster",
@@ -1155,7 +1183,9 @@
     "snippet": "job status failed Out of 148 jobs on my cluster , 138 show job status failed. Scary right? Except it's a boy who cried wolf. I only have one ... tasks and 0 with terminating errors . The worker machine doesn't show any errors in the dcc logs. What does job failed mean, if it ...... posted by Erik Jensen 958 Mar 14, 2018 updated by Erik Jensen 958 Mar 22, 2018 1 reply · 504 views · 0 0 · Distributed Computing Cluster",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as DCC failed-job search exclusion workaround."
   },
   {
     "product": "Distributed Computing Cluster",
@@ -1167,7 +1197,9 @@
     "snippet": "Please confirm: DCC error message \"failed job\" means? this post which refers to DCC and WebAccess. It indicates that the error message \"Failed\" might just mean that a single document like a blank ... things that can cause that error message. Is this only the case when using DCC with webaccess or for thick client too? https://answers. laserfiche ...... posted by Ben Mackinney 198 Jun 25, 2015 updated by Alexander Huang 27494 Jun 26, 2015 3 replies · 2579 views · 0 0 · Distributed Computing Cluste",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as DCC generic failed-job/event-log guidance."
   },
   {
     "product": "Federated Search",
@@ -1178,11 +1210,13 @@
     "snippet": "Federated Search 11: Installation Failed. The installation will be rolled back in the background. I saw some odd search -related errors in the event log on my LFFS server, so I tried reinstalling it. Upon reinstallation, it gave this ... to be able to use Federated Search again.... posted by Kevin Wells 1289 May 2, 2024 updated by Samuel Carson 9599 May 2, 2024 1 reply · 606 views · 0 0 · Laserfiche Search and Retrieval Self-Hosted How To Administration",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "queries": [
       "Federated Search \"error\" Laserfiche",
       "Federated Search \"failed\" Laserfiche"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Federated Search 11 install rollback diagnostic item; duplicate LFFS row uses same source."
   },
   {
     "product": "Federated Search",
@@ -1194,7 +1228,9 @@
     "snippet": "Federated Search Setup Error am setting up a new Federated Search server as part of a new client's LF install and am getting a strange error . The install ... issue. When I launch the Federated search admin page, I get the following error \"The search service has not been started, or the endpoint does ...... posted by Jason Beck 102 Feb 23, 2018 updated by Shengyao Que 341 Apr 10, 2019 19 replies · 1000 views · 0 0 · Laserfiche Search and Retrieval",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Federated Search endpoint/FQDN SSL workaround."
   },
   {
     "product": "Federated Search",
@@ -1206,7 +1242,9 @@
     "snippet": "Laserfiche Mobile SSL Error I have installed the Laserfiche Mobile Server on our internal development server and followed directions for setting SSL. I have installed the Laserfiche APP on ... Software including Server, Forms, WebAccess, Federated Search , so please let me know if this is not recommended. (Inside the network) Thanks in advance.... posted by Angela King 0 Apr 2, 2019 updated by Angela King 0 Apr 3, 2019 4 replies · 856 views · 0 0 · Version 10 Mobile",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; Mobile SSL/LFDSSTS configuration issue, not Federated Search-specific."
   },
   {
     "product": "Federated Search",
@@ -1218,7 +1256,9 @@
     "snippet": "The Laserfiche Directory Server address does not match the value specified in the license: the LFDSSTS url within the Federated Search administration, I receive this message: The Laserfiche Directory Server address does not match the value specified in the ...... posted by Josh Hall 37 Mar 29, 2017 updated by Brianna Blanchard 6302 Mar 29, 2017 1 reply · 1011 views · 0 0 · Directory Server",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Federated Search LFDSSTS license-name mismatch fix."
   },
   {
     "product": "Federated Search",
@@ -1229,11 +1269,13 @@
     "snippet": "Federated Search 11: Installation Failed. The installation will be rolled back in the background. I saw some odd search -related errors in the event log on my LFFS server, so I tried reinstalling it. Upon reinstallation, it gave this ... to be able to use Federated Search again.... posted by Kevin Wells 1289 May 2, 2024 updated by Samuel Carson 9599 May 2, 2024 1 reply · 606 views · 0 0 · Laserfiche Search and Retrieval Self-Hosted How To Administration",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "queries": [
       "Federated Search \"error\" Laserfiche",
       "Federated Search \"failed\" Laserfiche"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Federated Search 11 install rollback diagnostic item; duplicate LFFS row uses same source."
   },
   {
     "product": "Forms",
@@ -3090,7 +3132,9 @@
     "snippet": "Snapshot 10.2.1 referencing 1377 driver a few installations of the LF Client Suite 10.2.1 that there are errors in the event viewer under Applications & Services Logs > Microsoft ... Processor 1377 because EnumDatatypes failed. Error code 126. Module: LFSS1377ProNT.DLL. Please obtain and install a new version of the driver from the manufacturer (if ...... posted by Daniel Phair 758 Nov 21, 2017 0 replies · 519 views · 0 0 · Snapshot Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Snapshot 10.2.1 PrintService driver 126 unresolved event."
   },
   {
     "product": "Snapshot",
@@ -3102,7 +3146,9 @@
     "snippet": "error code: 6000 invalid stream to save a PDF into Laserfiche . Was there a resolution here? ... posted by Maria Sangronis 2 Nov 28, 2022 updated by Kara Kerpan 42 Mar 1, 2023 2 replies · 650 views · 0 0 · Workflow Laserfiche Version 11 Forms",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Snapshot/shared Snapshot 6000 Invalid stream workaround."
   },
   {
     "product": "Snapshot",
@@ -3128,7 +3174,9 @@
     "snippet": "LF Client 10.2 install failed at Commit System Changes- Windows Surface Pro X ARM64-based PC and I tried to install LF Client 10.2.1 on their Windows Surface Pro X ARM64-based PC and it fails each time at ...... posted by Jeff Curtis 725 Mar 13, 2020 updated by Javier Antillon 9 Oct 30, 2023 5 replies · 721 views · 0 0 · Laserfiche Version 10 Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; Windows Client/Installer ARM64 install issue, not Snapshot-specific."
   },
   {
     "product": "Snapshot",
@@ -3153,11 +3201,13 @@
     "snippet": "Receiving error on server the event log states: Printer Lf Snapshot 8 failed to initialize because a suitable Snapshot 8 Driver 1252 driver could not be found. The new ...... posted by Mark Mongan 0 Feb 23, 2018 0 replies · 438 views · 0 0 · Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "queries": [
       "Laserfiche Snapshot \"failed\"",
       "Laserfiche Snapshot \"printer\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Snapshot PrintService Event 319 / driver 1252 unresolved event."
   },
   {
     "product": "Snapshot",
@@ -3169,7 +3219,9 @@
     "snippet": "Snapshot error code translation I am getting an error in snapshot which just provides a number, 16. How do I translate? posted by Chad Saar 3975 Jul 22, 2024 updated by Justin Pava 7761 Jul 24, 2024 5 replies · 471 views · 0 0 · Snapshot",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Snapshot Internal error 16 diagnostic entry."
   },
   {
     "product": "Snapshot",
@@ -3181,7 +3233,9 @@
     "snippet": "User cannot save to Laserfiche via Snapshot from Sage 50 Payroll Professioanl V20 Morning, I have made the Laserfiche Snapshot a default printer and still no luck. The issue we are having is when we try and print ... posted by Alex Hall 0 Apr 9, 2014 updated by Gianfranco Pintus 106 Mar 2, 2016 6 replies · 805 views · 0 0 · Laserfiche Snapshot",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "not-actionable",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; issue details are attachment-based and public thread has no actionable fix."
   },
   {
     "product": "Web Client Scanning",
@@ -3904,11 +3958,13 @@
     "snippet": "\"this form is invisible\" error for Laserfiche Office Integration It's a temperamental beast is webtools . Support will be the best route ... posted by Ben Birns 1944 Feb 5 updated by Ben Birns 1944 Feb 6 8 replies · 181 views · 0 0 · Laserfiche Cloud",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "cross-product",
     "queries": [
       "Webtools Agent \"error\" Laserfiche",
       "Laserfiche Webtools \"failed\""
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed under Webtools Agent candidate set; already curated as Office Integration/Webtools cross-product invisible form issue."
   },
   {
     "product": "Workflow",

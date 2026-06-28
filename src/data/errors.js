@@ -8203,6 +8203,327 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "snapshot-internal-error-16-jpeg-output",
+    code: "SNAPSHOT-INTERNAL-16",
+    message: "Internal error 16 from Snapshot virtual printer output.",
+    product: "Snapshot",
+    versions: ["Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Snapshot internal error 16 appears to come from the third-party virtual printer driver and may indicate Snapshot cannot save JPEG output.",
+    symptoms: ["Snapshot shows only Internal error: 16.", "The error comes from the virtual printer component."],
+    likelyFixes: [
+      "Check free disk space and permissions for Snapshot output paths.",
+      "Review Snapshot output settings.",
+      "Uninstall and reinstall Snapshot with current user configuration and shared printer selected.",
+    ],
+    notes:
+      "Laserfiche employee guidance cites older internal support data and current third-party driver documentation, so treat this as diagnostic guidance.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Snapshot error code translation",
+        url: "https://answers.laserfiche.com/questions/221200/Snapshot-error-code-translation",
+        note: "Samuel Carson from Laserfiche explains likely Black Ice driver meaning and suggests checking output settings and reinstalling Snapshot.",
+      },
+    ],
+  },
+  {
+    id: "snapshot-shared-invalid-stream-6000",
+    code: "6000",
+    message: "Invalid stream when saving a PDF through a workflow/template form.",
+    product: "Snapshot",
+    versions: ["Version 11"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "A Version 11 drag-and-drop PDF workflow/template flow returned 6000 Invalid stream; community guidance pointed to installing Shared Snapshot.",
+    symptoms: ["Saving after entering template data returns Invalid stream.", "The request could not be performed because of an I/O device error."],
+    likelyFixes: [
+      "Install Shared Snapshot on the affected Laserfiche 11 environment.",
+      "Retest the same PDF drag-and-drop and save flow after installing Snapshot components.",
+    ],
+    notes: "The thread is community-confirmed but does not include Laserfiche employee validation.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "error code: 6000 invalid stream",
+        url: "https://answers.laserfiche.com/questions/204189/error-code-6000-invalid-stream",
+        note: "Community answer says Laserfiche 11 requires Shared Snapshot for this workflow.",
+      },
+    ],
+  },
+  {
+    id: "snapshot-driver-126-1377-printservice",
+    code: "126",
+    message: "Windows could not load print processor LFSnapshot Processor 1377.",
+    product: "Snapshot",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Snapshot 10.2.1 can log Windows PrintService driver load errors for LFSS1377ProNT.DLL or LFSS1377MonNT.DLL, but the public thread has no replies.",
+    symptoms: ["PrintService Admin log shows Error code 126.", "The module is LFSS1377ProNT.DLL or LFSS1377MonNT.DLL."],
+    likelyFixes: [
+      "Repair or reinstall Snapshot if printing behavior is affected.",
+      "Check whether the error is present on all Snapshot 10.2.1 machines and whether it correlates with actual print failures.",
+      "Collect Windows PrintService logs for Support if print operations crash.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Snapshot 10.2.1 referencing 1377 driver",
+        url: "https://answers.laserfiche.com/questions/131676/Snapshot-1021-referencing-1377-driver",
+        note: "Thread documents the event text but has no public replies.",
+      },
+    ],
+  },
+  {
+    id: "admin-hub-agent-connectivity-logs",
+    code: "ADMIN-HUB-AGENT-CONNECTIVITY",
+    message: "Administration Hub cannot connect to some servers with agents installed.",
+    product: "Administration Hub",
+    versions: ["Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Administration Hub can show duplicate host/FQDN machine entries or fail to connect to some servers even when the agent is installed.",
+    symptoms: ["Administration Hub lists duplicate machines by FQDN and short host name.", "Some servers with the Admin Hub Agent do not connect."],
+    likelyFixes: [
+      "Clean stale LFDS Applications > Machines entries that show no installed applications.",
+      "Review C:\\ProgramData\\Laserfiche\\AdminHub\\Logs\\AdminHubLog_Laserfiche.AdminHub.Agent.Host.log on affected agent machines.",
+      "Send agent logs to Support when the agent cannot connect.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Administration Hub unable to connect to some servers on the same network",
+        url: "https://answers.laserfiche.com/questions/230313/Administration-Hub-unable-to-connect-to-some-servers-on-the-same-network",
+        note: "Laserfiche employee points to the AdminHub agent host log for failed agent connections.",
+      },
+    ],
+  },
+  {
+    id: "dcc-stale-scheduler-config-worker-registration",
+    code: "DCC-STALE-SCHEDULER-CONFIG",
+    message: "Node cannot register because it is already registered to a Scheduler.",
+    product: "Distributed Computing Cluster",
+    versions: ["Version 9"],
+    confidence: "high",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "DCC worker registration can fail after a machine was previously installed as a Scheduler because stale Scheduler config files remain.",
+    symptoms: ["Adding a worker reports the node address is already registered to a Scheduler.", "The machine was originally set up as a Scheduler in error."],
+    likelyFixes: [
+      "Delete stale files in C:\\Program Files (x86)\\Laserfiche\\Distributed Computing Cluster\\Config.",
+      "Restart the DCC service through Services or Restart-Service LfDCC.",
+      "Re-add the worker after the stale Scheduler configuration is removed.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error: Node with address X, could not be registered because it is registered to a Scheduler with address X.",
+        url: "https://answers.laserfiche.com/questions/59220/Error-Node-with-address-X-could-not-be-registered-because-it-is-registered-to-a-Scheduler-with-address-X",
+        note: "Matthew Kelly from Laserfiche identifies the stale config bug and gives the config-folder workaround.",
+      },
+    ],
+  },
+  {
+    id: "dcc-worker-unable-connect-remote-server",
+    code: "DCC-WORKER-REMOTE-SERVER",
+    message: "Unable to connect to the remote server when adding a DCC worker.",
+    product: "Distributed Computing Cluster",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "DCC 11 can fail to add a worker with endpoint/remote-server errors on port 8108; the reviewed thread has Laserfiche employee follow-up but no public final resolution.",
+    symptoms: ["Adding a worker logs no endpoint listening at /Laserfiche/DistributedProcessing/INodeMetaData.", "The error says no connection could be made because the target machine actively refused port 8108."],
+    likelyFixes: [
+      "Confirm the worker and Scheduler services are running and listening on the configured DCC ports.",
+      "Verify hostname/FQDN resolution and firewall rules for port 8108 from the Scheduler to the worker.",
+      "Check whether DCC is running under a non-default service identity.",
+      "Open Support with DCC event logs when the endpoint and firewall look correct.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "DCC 11-\"Unable to connect to the remote server\" Error when adding worker machine",
+        url: "https://answers.laserfiche.com/questions/194380/DCC-11Unable-to-connect-to-the-remote-server-Error-when-adding--worker-machine",
+        note: "Samuel Carson from Laserfiche asks about DCC service identity and requests a Support case for continued investigation.",
+      },
+    ],
+  },
+  {
+    id: "dcc-ocr-processing-scheduler-license",
+    code: "DCC-OCR-SCHEDULER",
+    message: "OCR processing could not be performed by the Scheduler.",
+    product: "Distributed Computing Cluster",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "DCC/Web Access Scheduler test can fail with OCR processing could not be performed by the Scheduler; Laserfiche guidance starts with Scheduler licensing and DCC Admin event logs.",
+    symptoms: ["Testing the DCC Scheduler from Web Access returns OCR processing could not be performed by the Scheduler.", "Ports 8107 and 8108 may already be open."],
+    likelyFixes: [
+      "Check the DCC Admin event log on the Scheduler for licensing errors.",
+      "Confirm the Scheduler has a valid license.",
+      "Verify OCR works from Workflow and update License Manager if applicable.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error: OCR processing could not be performed by the Scheduler. - Distributed Computing",
+        url: "https://answers.laserfiche.com/questions/59626/Error-OCR-processing-could-not-be-performed-by-the-Scheduler--Distributed-Computing",
+        note: "Laserfiche employee asks to verify Scheduler licensing through DCC Admin event logs; later comment points to License Manager update KB1013437.",
+      },
+    ],
+  },
+  {
+    id: "dcc-job-failed-search-exclusions",
+    code: "DCC-JOB-FAILED",
+    message: "DCC job status failed even though many OCR tasks succeed.",
+    product: "Distributed Computing Cluster",
+    versions: ["Version 9", "Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "DCC job status failed can be generic and may reflect individual documents or pages that cannot be OCRed, not necessarily a fully failed batch.",
+    symptoms: ["Many DCC jobs show failed while worker task counts show successful tasks.", "Blank pages, cutoff records, huge images, or corrupt documents may trigger failures."],
+    likelyFixes: [
+      "Review DCC event logs to determine whether a failed status is legitimate.",
+      "Exclude cutoff records, very large images, corrupt documents, and known bad entry IDs from OCR searches.",
+      "Use advanced search syntax to narrow scheduled OCR jobs to processable documents.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Please confirm: DCC error message \"failed job\" means?",
+        url: "https://answers.laserfiche.com/questions/79593/Please-confirm-DCC-error-message-failed-job-means",
+        note: "Alexander Huang from Laserfiche says the failed message is generic and recommends checking DCC event logs.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "job status failed",
+        url: "https://answers.laserfiche.com/questions/138138/job-status-failed",
+        note: "Requester confirmed excluding cutoff records, very large pages, corrupt documents, and specific IDs allowed jobs to complete.",
+      },
+    ],
+  },
+  {
+    id: "federated-search-endpoint-mismatch",
+    code: "FEDERATED-SEARCH-ENDPOINT",
+    message: "The search service has not been started, or the endpoint does not match.",
+    product: "Federated Search",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Federated Search 10.3 setup can fail when the configured FederatedSearchApi endpoint uses localhost instead of the fully qualified domain name required by SSL/TLS.",
+    symptoms: ["Federated Search admin page reports the search service has not been started or the endpoint does not match.", "Services are running and LFDS activation succeeds."],
+    likelyFixes: [
+      "Bind a valid SSL certificate to port 443.",
+      "Replace https://localhost/FederatedSearchApi with https://FQDN/FederatedSearchApi in Federated Search web/service config files.",
+      "Restart FederatedSearch service and the FederatedSearch IIS app pools.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Federated Search Setup Error",
+        url: "https://answers.laserfiche.com/questions/136138/Federated-Search-Setup-Error",
+        note: "Yuhao Gu from Laserfiche identifies a Federated Search 10.3 issue and gives the FQDN endpoint workaround.",
+      },
+    ],
+  },
+  {
+    id: "federated-search-install-rollback",
+    code: "FEDERATED-SEARCH-INSTALL-FAILED",
+    message: "Federated Search installation failed and will be rolled back.",
+    product: "Federated Search",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Federated Search 11 installation can fail and roll back, but the reviewed public thread only has employee guidance to collect installer logs.",
+    symptoms: ["Reinstalling Federated Search 11 reports Installation Failed.", "Copying ISO files locally does not resolve the rollback."],
+    likelyFixes: [
+      "Run the EXE/MSI installer with logging enabled, for example -log <logDir> for the EXE.",
+      "Review the log for the failing installer step.",
+      "Open Support with the installation log when the rollback reproduces on a fresh VM.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Federated Search 11: Installation Failed. The installation will be rolled back in the background.",
+        url: "https://answers.laserfiche.com/questions/218835/Federated-Search-11-Installation-Failed-The-installation-will-be-rolled-back-in-the-background",
+        note: "Samuel Carson from Laserfiche recommends running the installer with logging to find the failing step.",
+      },
+    ],
+  },
+  {
+    id: "federated-search-lfdssts-license-name",
+    code: "LFDSSTS-LICENSE-NAME-MISMATCH",
+    message: "The Laserfiche Directory Server address does not match the value specified in the license.",
+    product: "Federated Search",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Federated Search LFDSSTS configuration can reject the LFDS address when it does not exactly match the LFDS machine name embedded in the Federated Search license.",
+    symptoms: ["Setting the LFDSSTS URL in Federated Search administration returns a license-address mismatch.", "The same message may appear in Directory Server configuration."],
+    likelyFixes: [
+      "Enter the LFDS server name exactly as shown in the Federated Search license file.",
+      "Pretty-print the .licx as XML or copy it to .xml to read the licensed server name.",
+      "Do not treat this as an SSL certificate mismatch unless the license name also matches.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "The Laserfiche Directory Server address does not match the value specified in the license:",
+        url: "https://answers.laserfiche.com/questions/118136/The-Laserfiche-Directory-Server-address-does-not-match-the-value-specified-in-the-license",
+        note: "Brianna Blanchard from Laserfiche explains the LFDS machine name must match the Federated Search license value.",
+      },
+    ],
+  },
+  {
+    id: "discussions-database-filestream-configuration",
+    code: "DISCUSSIONS-FILESTREAM",
+    message: "Unable to configure Discussions database.",
+    product: "Discussions",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Discussions database configuration can fail when SQL FILESTREAM was not enabled before starting the database configuration.",
+    symptoms: ["Discussions 10.2 database configuration fails for db_owner or sa.", "A later commenter references a path is not a legal form error."],
+    likelyFixes: [
+      "Enable SQL FILESTREAM according to the Laserfiche Discussions administration guide.",
+      "If configuration already failed, delete the partially created Discussions database and reconfigure after enabling FILESTREAM.",
+      "Collect the exact error and SQL configuration details for Support if a fresh configuration still fails.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Unable to configure discussions database",
+        url: "https://answers.laserfiche.com/questions/137631/Unable-to-configure-discussions-database",
+        note: "Thread points to enabling SQL FILESTREAM before configuring the Discussions database; requester later recommends recreating the database after enabling FILESTREAM.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
