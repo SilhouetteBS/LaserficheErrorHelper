@@ -6,12 +6,36 @@ const today = new Date().toISOString().slice(0, 10);
 const resultsPath = path.join("research", "product-discovery-results.json");
 const [, , productArg = "", targetArg = "25"] = process.argv;
 const requestedProduct = productArg.trim();
+const isAllProducts = !requestedProduct || requestedProduct.toLowerCase() === "all";
 const targetCount = Number.parseInt(targetArg, 10) || 25;
-const passSlug = requestedProduct ? `${slugify(requestedProduct)}-${targetCount}` : "all";
+const passSlug = isAllProducts ? `all-${targetCount}` : `${slugify(requestedProduct)}-${targetCount}`;
 const passPath = path.join("research", `answers-product-pass-${today}-${passSlug}.json`);
 
 const maxPagesPerQuery = targetCount > 25 ? 16 : 8;
+const requestTimeoutMs = 15000;
 const productSearches = [
+  {
+    product: "Administration Hub",
+    productTags: ["Administration Hub"],
+    queries: [
+      '"Administration Hub" error Laserfiche',
+      '"LFAH" error Laserfiche',
+      '"Laserfiche Administration Hub" "error"',
+      '"Administration Hub" "Directory Server"',
+      '"Administration Hub" "cannot connect"',
+    ],
+  },
+  {
+    product: "AI Service",
+    productTags: ["AI Service"],
+    queries: [
+      '"AI Service" error Laserfiche',
+      '"Laserfiche AI Service" error',
+      '"AI Service" "cannot connect" Laserfiche',
+      '"AI Service" "configuration" Laserfiche',
+      '"AI Service" "event log" Laserfiche',
+    ],
+  },
   {
     product: "API Server",
     productTags: ["API Server"],
@@ -23,6 +47,39 @@ const productSearches = [
       '"Laserfiche API" "token" error',
       '"Laserfiche API" "HTTP" error',
       '"Laserfiche API" "Access Denied"',
+    ],
+  },
+  {
+    product: "Audit Trail",
+    productTags: ["Audit Trail"],
+    queries: [
+      '"Audit Trail" error Laserfiche',
+      '"Laserfiche Audit Trail" "error"',
+      '"Audit Trail" "cannot connect" Laserfiche',
+      '"Audit Trail" "SQL" error',
+      '"Audit Trail" "event log" Laserfiche',
+    ],
+  },
+  {
+    product: "Common Dialog",
+    productTags: ["Common Dialog"],
+    queries: [
+      '"Common Dialog" error Laserfiche',
+      '"Common Dialog Errors" Laserfiche',
+      '"2500" "Common Dialog" Laserfiche',
+      '"2599" "Common Dialog" Laserfiche',
+      '"CommonDialog" error Laserfiche',
+    ],
+  },
+  {
+    product: "Connector",
+    productTags: ["Connector"],
+    queries: [
+      '"Connector" error Laserfiche',
+      '"Laserfiche Connector" "error"',
+      '"Connector" "capture profile" Laserfiche',
+      '"Connector" "token" error Laserfiche',
+      '"Connector" "cannot connect" Laserfiche',
     ],
   },
   {
@@ -42,6 +99,39 @@ const productSearches = [
     ],
   },
   {
+    product: "Discussions",
+    productTags: ["Discussions"],
+    queries: [
+      '"Discussions" error Laserfiche',
+      '"Laserfiche Discussions" "error"',
+      '"Discussions" "cannot connect" Laserfiche',
+      '"Discussions" "repository" error Laserfiche',
+      '"Discussions" "event log" Laserfiche',
+    ],
+  },
+  {
+    product: "Distributed Computing Cluster",
+    productTags: ["Distributed Computing Cluster"],
+    queries: [
+      '"Distributed Computing Cluster" error Laserfiche',
+      '"DCC" error Laserfiche',
+      '"Laserfiche DCC" "error"',
+      '"Distributed Computing Cluster" "worker" error',
+      '"DCC" "scheduler" error Laserfiche',
+    ],
+  },
+  {
+    product: "Federated Search",
+    productTags: ["Federated Search"],
+    queries: [
+      '"Federated Search" error Laserfiche',
+      '"Laserfiche Federated Search" "error"',
+      '"Federated Search" "Directory Server"',
+      '"Federated Search" "license" error Laserfiche',
+      '"Federated Search" "cannot connect" Laserfiche',
+    ],
+  },
+  {
     product: "Forms",
     productTags: ["Forms"],
     queries: [
@@ -50,6 +140,105 @@ const productSearches = [
       'Forms "routing service" error',
       'Forms "event log" error',
       'Forms "failed to generate" error',
+    ],
+  },
+  {
+    product: "Full Text Search",
+    productTags: ["Full Text Search"],
+    queries: [
+      '"Full Text Search" error Laserfiche',
+      '"Laserfiche Full Text Search" "error"',
+      '"LFFTS" error Laserfiche',
+      '"Full Text Search" "index" error Laserfiche',
+      '"Full Text Search" "catalog" error Laserfiche',
+    ],
+  },
+  {
+    product: "Import Agent",
+    productTags: ["Import Agent"],
+    queries: [
+      '"Import Agent" error Laserfiche',
+      '"Laserfiche Import Agent" "error"',
+      '"Import Agent" "profile" error Laserfiche',
+      '"Import Agent" "OCR" error Laserfiche',
+      '"Import Agent" "repository" error Laserfiche',
+    ],
+  },
+  {
+    product: "Laserfiche Installer",
+    productTags: ["Laserfiche Installer"],
+    queries: [
+      '"Laserfiche Installer" error',
+      '"Laserfiche" "installation" "error"',
+      '"Laserfiche" "installer" "failed"',
+      '"Laserfiche" "setup" "error"',
+      '"Laserfiche" "prerequisite" "error"',
+    ],
+  },
+  {
+    product: "Laserfiche Server/Repository Server",
+    productTags: ["Laserfiche Server/Repository Server"],
+    queries: [
+      '"Laserfiche Server" error',
+      '"Repository Server" error Laserfiche',
+      '"LFServer" error Laserfiche',
+      '"Laserfiche Server" "repository" error',
+      '"Laserfiche Server" "cannot connect"',
+    ],
+  },
+  {
+    product: "Mobile",
+    productTags: ["Mobile"],
+    queries: [
+      '"Mobile" error Laserfiche',
+      '"Laserfiche Mobile" "error"',
+      '"Mobile Server" error Laserfiche',
+      '"Laserfiche Mobile" "Directory Server"',
+      '"Laserfiche Mobile" "cannot connect"',
+    ],
+  },
+  {
+    product: "Office Integration",
+    productTags: ["Office Integration"],
+    queries: [
+      '"Office Integration" error Laserfiche',
+      '"Laserfiche Office Integration" "error"',
+      '"Laserfiche Office Plugin" error',
+      '"Office Integration" "Word" error Laserfiche',
+      '"Office Integration" "Outlook" error Laserfiche',
+    ],
+  },
+  {
+    product: "Quick Fields",
+    productTags: ["Quick Fields"],
+    queries: [
+      '"Quick Fields" error Laserfiche',
+      '"Laserfiche Quick Fields" "error"',
+      '"Quick Fields" "session" error',
+      '"Quick Fields" "scan" error Laserfiche',
+      '"Quick Fields" "OCR" error Laserfiche',
+    ],
+  },
+  {
+    product: "Records Management",
+    productTags: ["Records Management"],
+    queries: [
+      '"Records Management" error Laserfiche',
+      '"Laserfiche Records Management" "error"',
+      '"Records Management" "cutoff" error',
+      '"Records Management" "retention" error',
+      '"Records Management" "record series" error',
+    ],
+  },
+  {
+    product: "Snapshot",
+    productTags: ["Snapshot"],
+    queries: [
+      '"Snapshot" error Laserfiche',
+      '"Laserfiche Snapshot" "error"',
+      '"Snapshot" "printer" error Laserfiche',
+      '"Snapshot" "PDF" error Laserfiche',
+      '"Snapshot" "cannot connect" Laserfiche',
     ],
   },
   {
@@ -79,11 +268,44 @@ const productSearches = [
       '"Web Client" "Unknown internal error"',
     ],
   },
+  {
+    product: "WebLink",
+    productTags: ["WebLink"],
+    queries: [
+      '"WebLink" error Laserfiche',
+      '"Laserfiche WebLink" "error"',
+      '"WebLink" "repository" error Laserfiche',
+      '"WebLink" "HTTP Error" Laserfiche',
+      '"WebLink" "cannot connect" Laserfiche',
+    ],
+  },
+  {
+    product: "Webtools Agent",
+    productTags: ["Webtools Agent"],
+    queries: [
+      '"Webtools Agent" error Laserfiche',
+      '"Laserfiche Webtools Agent" "error"',
+      '"Webtools" "agent" "cannot connect" Laserfiche',
+      '"Webtools Agent" "event log" Laserfiche',
+      '"Webtools Agent" "repository" error Laserfiche',
+    ],
+  },
+  {
+    product: "Windows Client/Desktop Client",
+    productTags: ["Windows Client/Desktop Client"],
+    queries: [
+      '"Windows Client" error Laserfiche',
+      '"Desktop Client" error Laserfiche',
+      '"Laserfiche Client" "error"',
+      '"Laserfiche Client" "repository" error',
+      '"Laserfiche Client" "cannot connect"',
+    ],
+  },
 ];
 
-const selectedSearches = requestedProduct
-  ? productSearches.filter((search) => search.product.toLowerCase() === requestedProduct.toLowerCase())
-  : productSearches;
+const selectedSearches = isAllProducts
+  ? productSearches
+  : productSearches.filter((search) => search.product.toLowerCase() === requestedProduct.toLowerCase());
 
 if (selectedSearches.length === 0) {
   throw new Error(`Unknown product "${requestedProduct}". Known products: ${productSearches.map((search) => search.product).join(", ")}`);
@@ -102,10 +324,17 @@ for (const search of selectedSearches) {
   const collected = [];
   const seenThisProduct = new Set();
 
+  console.log(`Starting ${search.product} (${targetCount} requested)`);
   for (const query of search.queries) {
     for (let page = 1; page <= maxPagesPerQuery && collected.length < targetCount; page += 1) {
       const searchUrl = answersSearchUrl(query, page);
-      const html = await fetchText(searchUrl);
+      let html = "";
+      try {
+        html = await fetchText(searchUrl);
+      } catch (error) {
+        console.warn(`Skipping search page for ${search.product}: ${searchUrl} (${error.message})`);
+        continue;
+      }
       const candidates = extractSearchCandidates(html);
 
       for (const candidate of candidates) {
@@ -113,7 +342,13 @@ for (const search of selectedSearches) {
         if (existingUrls.has(url) || seenThisProduct.has(url)) continue;
 
         seenThisProduct.add(url);
-        const detail = await fetchQuestionDetail(url);
+        let detail;
+        try {
+          detail = await fetchQuestionDetail(url);
+        } catch (error) {
+          console.warn(`Skipping detail for ${search.product}: ${url} (${error.message})`);
+          continue;
+        }
         const row = {
           product: search.product,
           query,
@@ -151,10 +386,22 @@ for (const search of selectedSearches) {
       status,
     })),
   });
+  writeOutputs();
+  console.log(`Finished ${search.product}: ${collected.length}/${targetCount}`);
 }
 
-if (newRows.length > 0) {
+writeOutputs();
+
+console.log(`Added ${newRows.length} new Answers candidates.`);
+for (const product of passSummary) {
+  console.log(`${product.product}: ${product.collected}/${product.requested}`);
+}
+console.log(passPath);
+
+function writeOutputs() {
+  if (newRows.length > 0) {
   existingResults.push(...newRows);
+  newRows.length = 0;
   fs.writeFileSync(resultsPath, `${JSON.stringify(existingResults, null, 2)}\n`);
 }
 
@@ -170,12 +417,7 @@ fs.writeFileSync(
     2,
   )}\n`,
 );
-
-console.log(`Added ${newRows.length} new Answers candidates.`);
-for (const product of passSummary) {
-  console.log(`${product.product}: ${product.collected}/${product.requested}`);
 }
-console.log(passPath);
 
 function answersSearchUrl(query, page) {
   const params = new URLSearchParams({ q: query, page: String(page) });
@@ -217,12 +459,15 @@ async function fetchQuestionDetail(url) {
 }
 
 async function fetchText(url) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), requestTimeoutMs);
   const response = await fetch(url, {
+    signal: controller.signal,
     headers: {
       "user-agent":
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36",
     },
-  });
+  }).finally(() => clearTimeout(timeout));
   if (!response.ok) {
     throw new Error(`${response.status} while fetching ${url}`);
   }
