@@ -46,6 +46,8 @@ Run `npm run quality` to generate `research/quality-report.md`. Use the report t
 
 Run `npm run validation:batches` to triage the full validation queue in batches of 50. The generated ledger records each candidate, its batch, a disposition, and the next review step. Treat the ledger as a planning artifact: it proves every candidate was triaged, but it does not by itself justify promoting a fix.
 
+Run `npm run curation:priority` after refreshing validation batches to review priority-source candidates. The command writes `research/priority-source-curation.md`, exports the source candidate set, and updates `src/data/curationOverrides.js` with conservative fix-status promotions.
+
 ## Product-Specific Discovery
 
 The official Version 12 server-code pass is tracked separately in `research/answers-search-results.json` and `research/answers-reviewed-summary.json`.

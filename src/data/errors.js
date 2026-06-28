@@ -1,4 +1,5 @@
 import { officialDocumentationErrorEntries } from "./officialDocumentationErrors.js";
+import { curationOverrides } from "./curationOverrides.js";
 
 export const sourcePriority = {
   "official-docs": 1,
@@ -16459,7 +16460,22 @@ const curatedErrorEntries = [
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
 
-export const errorEntries = [
+function applyCurationOverride(entry) {
+  const override = curationOverrides[entry.id];
+  if (!override) return entry;
+
+  return {
+    ...entry,
+    fixStatus: override.fixStatus ?? entry.fixStatus,
+    notes: [entry.notes, override.curationNote && `Priority source curation: ${override.curationNote}`]
+      .filter(Boolean)
+      .join(" "),
+  };
+}
+
+export const baseErrorEntries = [
   ...curatedErrorEntries,
   ...officialDocumentationErrorEntries.filter((entry) => !curatedCodes.has(entry.code)),
 ].sort((a, b) => a.code.localeCompare(b.code, undefined, { numeric: true }) || a.id.localeCompare(b.id));
+
+export const errorEntries = baseErrorEntries.map(applyCurationOverride);

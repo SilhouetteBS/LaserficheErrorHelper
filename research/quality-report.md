@@ -6,7 +6,7 @@ Generated: 2026-06-28
 
 - Published entries: 1737
 - Reviewed sources: 652
-- Entries needing validation: 1634
+- Entries needing validation: 1554
 - Entries with scenario variants: 3
 
 ## Confidence Coverage
@@ -21,41 +21,41 @@ Generated: 2026-06-28
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 429 |
-| known-fix | 61 |
+| diagnostic-only | 342 |
+| known-fix | 89 |
 | needs-review | 1151 |
 | unresolved | 50 |
-| workaround | 46 |
+| workaround | 105 |
 
 ## Validation Queue by Product
 
 | Product | Needs validation |
 | --- | --- |
-| Administration Hub | 3 |
+| Administration Hub | 2 |
 | AI Service | 0 |
-| API Server | 9 |
-| Audit Trail | 12 |
+| API Server | 8 |
+| Audit Trail | 7 |
 | Common Dialog | 9 |
-| Connector | 6 |
-| Directory Server | 45 |
+| Connector | 5 |
+| Directory Server | 44 |
 | Discussions | 4 |
-| Distributed Computing Cluster | 7 |
+| Distributed Computing Cluster | 6 |
 | Federated Search | 1 |
-| Forms | 74 |
-| Full Text Search | 6 |
+| Forms | 64 |
+| Full Text Search | 3 |
 | Import Agent | 12 |
-| Laserfiche Installer | 26 |
-| Laserfiche Server/Repository Server | 1063 |
-| Mobile | 10 |
-| Office Integration | 9 |
-| Quick Fields | 18 |
+| Laserfiche Installer | 25 |
+| Laserfiche Server/Repository Server | 1028 |
+| Mobile | 6 |
+| Office Integration | 7 |
+| Quick Fields | 17 |
 | Records Management | 8 |
-| Snapshot | 8 |
-| Web Client | 41 |
-| WebLink | 16 |
+| Snapshot | 7 |
+| Web Client | 39 |
+| WebLink | 14 |
 | Webtools Agent | 0 |
-| Windows Client/Desktop Client | 212 |
-| Workflow | 35 |
+| Windows Client/Desktop Client | 210 |
+| Workflow | 28 |
 
 ## Reviewed Source Status
 

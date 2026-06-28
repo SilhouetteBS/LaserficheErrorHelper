@@ -7,10 +7,12 @@ Use this checklist when publishing a public update to the GitHub Pages helper.
 1. Run `npm run lint:data`.
 2. Run `npm run quality` and review `research/quality-report.md`.
 3. Run `npm run validation:batches` when validation coverage changed.
-4. Run `npm run progress` when research coverage changed.
-5. Run `npm run build`.
-6. Run `npm run render:check`.
-7. Review `git diff --stat` and confirm only intended files changed.
+4. Run `npm run curation:priority` when priority-source entries should be re-evaluated.
+5. Run `npm run quality` and `npm run validation:batches` again if curation changed fix statuses.
+6. Run `npm run progress` when research coverage changed.
+7. Run `npm run build`.
+8. Run `npm run render:check`.
+9. Review `git diff --stat` and confirm only intended files changed.
 
 ## Version Notes
 

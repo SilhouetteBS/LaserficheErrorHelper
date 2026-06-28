@@ -2,6 +2,8 @@
 
 ## 2026-06-28
 
+- Reviewed 138 priority-source validation candidates and added 86 conservative fix-status overrides.
+- Added `npm run curation:priority` plus an auditable priority-source curation report.
 - Added a full validation batch ledger for all 1,634 validation candidates in 50-entry batches.
 - Added `npm run validation:batches` to regenerate the batch JSON and markdown reports.
 - Added FicheBait branding, logo, color palette, and ICO favicon.
