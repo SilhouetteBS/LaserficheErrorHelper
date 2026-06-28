@@ -7093,5 +7093,511 @@
     ],
     "extractedErrorCodes": [],
     "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 1,
+    "signature": "Laserfice API - ImportDocumentAsync",
+    "signatureType": "message-text",
+    "title": "Laserfice API - ImportDocumentAsync",
+    "url": "https://answers.laserfiche.com/questions/213572/Laserfice-API--ImportDocumentAsync",
+    "snippet": "November 20, 2023 Subscribe Subscribed asked on November 19, 2023 Hi, I am using this command to upload a document, and in my UAT Environment it works, but since I have installed the API onto my Live server, I get this error. &nbsp; Do I need to configure anything on the API for it work work? &nbsp; This is the error I Get in Live &nbsp; await client.EntriesClient.ImportDocumentAsync(RepoID, parentEntryId, fName, autoRename: true, electronicDocument: electronicDocument, request: request); &nbsp; Many thanks 0 0 Po",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Laserfiche Server/Repository Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 1,
+    "signature": "Access Token Expiration Limit (Self-Hosted Laserfiche API Server)",
+    "signatureType": "message-text",
+    "title": "Access Token Expiration Limit (Self-Hosted Laserfiche API Server)",
+    "url": "https://answers.laserfiche.com/questions/205127/Access-Token-Expiration-Limit-SelfHosted-Laserfiche-API-Server",
+    "snippet": "egards, Matt Andrew of Metasystems Inc. 0 0 Post Link replied on April 26, 2024 I believe adding a&nbsp;parameterless constructor to the&nbsp; FileParameter&nbsp; class of V1 (Self-hosted) from your side may resolve the error below. I&nbsp;am getting this error while implementing a wrapper against self-hosted API V1.&nbsp; I am trying to create a new Restful API that takes FileParameter as one field of the view model class during Model Binding.&nbsp; &nbsp; System.NotSupportedException: Deserialization of types wit",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 1,
+    "signature": "How to get the on prem self hosted Laserfiche API to accept a file larger than 100MB",
+    "signatureType": "message-text",
+    "title": "How to get the on prem self hosted Laserfiche API to accept a file larger than 100MB",
+    "url": "https://answers.laserfiche.com/questions/209881/How-to-get-the-on-prem-self-hosted-Laserfiche-API-to-accept-a-file-larger-than-100MB",
+    "snippet": "29, 2023 Subscribe Subscribed asked on June 26, 2023 I have installed the on-prem version of the Laserfiche API and it is working well. When I tried&nbsp;to create an entry with a file size larger than 100MB I got a 413 error. I was able to get past that error by editing the web.config file and increasing the&nbsp;maxAllowedContentLength as mentioned in this post:&nbsp; https://answers.laserfiche.com/questions/184791/The-request-failed-with-HTTP-status-413-Request-Entirty-Too-Large-error-received-when-scanning-in-W",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Web Client"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 1,
+    "signature": "repoid - API Server",
+    "signatureType": "message-text",
+    "title": "repoid - API Server",
+    "url": "https://answers.laserfiche.com/questions/210675/repoid--API-Server",
+    "snippet": "API requests. 0 0 Post Link replied on July 31, 2023 I do what you tell me but it doesn't say access denied, I do the installation and configuration steps in the appsettings.json file but it doesn't make the connection. error.PNG (32.03 KB) | Download 0 0 Post Link replied on August 1, 2023 Hi, could you please check if the&nbsp;\"LaserficheServerName\" has been set in the appsettings.json file. This value should be the fully qualified domain name of your Laserfiche Server in your network. For more information about",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Laserfiche Server/Repository Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 1,
+    "signature": "409",
+    "signatureType": "error-code",
+    "title": "Uploading a file self hosted",
+    "url": "https://answers.laserfiche.com/questions/212472/Uploading-a-file-self-hosted",
+    "snippet": "023 Subscribe Subscribed asked on October 11, 2023 • Show version history I'm trying to automate some bulk uploads to our self hosted install. The file I'm uploading via swagger is a 65 byte file It uploads with a error 409 but it gives back the error. { \"operations\": { \"entryCreate\": { \"entryId\": 556124, \"exceptions\": [] }, \"setEdoc\": { \"exceptions\": [] }, \"setTemplate\": { \"template\": null, \"exceptions\": [ { \"errorCode\": 9066, \"errorClass\": \"extraErrorException\", \"statusCode\": 409, \"operationId\": \"6de271ffa78344ce",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Laserfiche Server/Repository Server",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "409"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 1,
+    "signature": "How do I download a document using API?",
+    "signatureType": "message-text",
+    "title": "How do I download a document using API?",
+    "url": "https://answers.laserfiche.com/questions/213845/How-do-I-download-a-document-using-API",
+    "snippet": ", but I hope to have more clarity soon. 0 0 Post Link replied on April 26, 2024 I believe adding a&nbsp;parameterless constructor to the&nbsp; FileParameter&nbsp; class of V1 (Self-hosted) from your side may resolve the error below. I&nbsp;am getting this error while implementing a wrapper against self-hosted API V1.&nbsp; I am trying to create a new Restful API that takes FileParameter as one field of the view model class during Model Binding.&nbsp; &nbsp; System.NotSupportedException: Deserialization of types wit",
+    "sourceType": "Answers candidate - Laserfiche employee",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Detail page text indicates a Laserfiche-associated reply may be present; review before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 1,
+    "signature": "LaserficheCcloud API Access Denied Issue",
+    "signatureType": "message-text",
+    "title": "LaserficheCcloud API Access Denied Issue",
+    "url": "https://answers.laserfiche.com/questions/225134/LaserficheCcloud-API-Access-Denied-Issue",
+    "snippet": "as per the API Documentation from creating applications, getting client ID and secrets, finally added service principle account in LF repository but still getting the access denied issue cannot get customer details. the error is given below. It would be helpfull If you could show me how to setup or any demo video. In laserfiche cloud api the error is given below { \"type\": \"accessDenied\", \"title\": \"Failed to get customer info.\", \"status\": 401, \"instance\": \"/repository/v2/Repositories/r-00026e84262c/Entries/1/Folder/",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 1,
+    "signature": "Updating .NET and .NET Core",
+    "signatureType": "message-text",
+    "title": "Updating .NET and .NET Core",
+    "url": "https://answers.laserfiche.com/questions/226561/Updating-NET-and-NET-Core",
+    "snippet": "ble to find what may be a workaround for this. The *runtimeconfig.json file located in the install directory can be modified to force dotnet 8. We tried this and are at least able to connect to the site without a dotnet error. Unsure if we will run into issues while sending calls but wanted to share in case anyone else comes across this post.&nbsp; LFRepositoryAPI_Directory.png (286.27 KB) | Download dotnet_update.png (30.66 KB) | Download 1 0 Post Link replied on June 2, 2025 I did verify that John, solution to&nb",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 2,
+    "signature": "Does Laserfiche Forms has an API",
+    "signatureType": "message-text",
+    "title": "Does Laserfiche Forms has an API",
+    "url": "https://answers.laserfiche.com/questions/203576/Does-Laserfiche-Forms-has-an-API",
+    "snippet": "} type MSTeams struct { Width string `json:\"width\"` } func main() { client := &http.Client{} oldCookieData, err := os.ReadFile(`\\\\path\\ToCookieStorage\\CookieString.txt`) if err != nil { sendTeamsNotification(client, err.Error()) return } pw, err := playwright.Run() if err != nil { sendTeamsNotification(client, err.Error()) return } launchOptions := playwright.BrowserTypeLaunchOptions{ Headless: playwright.Bool(false), } browser, err := pw.Chromium.Launch(launchOptions) if err != nil { sendTeamsNotification(client,",
+    "sourceType": "Answers candidate - Laserfiche employee",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Laserfiche Server/Repository Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Detail page text indicates a Laserfiche-associated reply may be present; review before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 2,
+    "signature": "Calling Laserfiche API Through Web Request Rule - Search Task 404 Not Found",
+    "signatureType": "message-text",
+    "title": "Calling Laserfiche API Through Web Request Rule - Search Task 404 Not Found",
+    "url": "https://answers.laserfiche.com/questions/220463/Calling-Laserfiche-API-Through-Web-Request-Rule--Search-Task-404-Not-Found",
+    "snippet": "returns a location URL (ex:&nbsp; https://api.laserfiche.ca/repository/v2/Repositories/r-0001/Tasks?taskIds=9e18b8b2-5486-41dc-99e7-69bf34f524f6 ) and in this URL it actually says: &nbsp; {\"type\":\"accessDenied\",\"title\":\"Error: Invalid or expired access token.\",\"status\":401,\"instance\":\"/repository/v2/Repositories/r-0001/Tasks\",\"operationId\":\"478c3c68079b435fa28749a2e344df72\",\"errorSource\":\"Api Server\",\"errorCode\":201,\"traceId\":\"00-e4013d8c132147dd521435a9cb3d43e4-66466f83a9298503-00\"} So it's actually failing but in",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 2,
+    "signature": "Getting an error when attempting to list the contents of a folder on a Self hosted API",
+    "signatureType": "message-text",
+    "title": "Getting an error when attempting to list the contents of a folder on a Self hosted API",
+    "url": "https://answers.laserfiche.com/questions/221836/Getting-an-error-when-attempting-to-list-the-contents-of-a-folder-on-a-Self-hosted-API",
+    "snippet": "Getting an error when attempting to list the contents of a folder on a Self hosted API - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Getting an error when attempting to list the contents of a folder on a Self hosted",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Version 9",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 2,
+    "signature": "Laserfiche API - 429 Too Many Requests",
+    "signatureType": "message-text",
+    "title": "Laserfiche API - 429 Too Many Requests",
+    "url": "https://answers.laserfiche.com/questions/235760/Laserfiche-API--429-Too-Many-Requests",
+    "snippet": "wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Laserfiche API - 429 Too Many Requests Laserfiche API Updated March 17 Subscribe Subscribed asked on March 17 I am getting this error when using the API. When checking my plan I see I have 50,000 calls per month while my usage shows 0 although we are making calls successfully. Am I looking at the wrong spot? &nbsp; 0 0 Post Link Answer SELECTED ANSWER replied on March 17 There are different limits over various time periods a",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 2,
+    "signature": "Can the Self Hosted Laserfiche API download images?",
+    "signatureType": "message-text",
+    "title": "Can the Self Hosted Laserfiche API download images?",
+    "url": "https://answers.laserfiche.com/questions/204006/Can-the-Self-Hosted-Laserfiche-API-download-images",
+    "snippet": "erfiche API installed. It is working great. I am able to use the API to download Electronic Documents from the repository fine func (c *Client) DownloadEntry(ctx context.Context, downloadOpts DownloadEntryOpts) ([]byte, error) { rangeHeader := map[string]string{} if downloadOpts.DownloadChunk { rangeHeader[\"Range\"] = fmt.Sprintf(\"bytes=%d-%d\", downloadOpts.Start, downloadOpts.End) } resp, err := c.restyClient.R(). SetContext(ctx). SetAuthToken(c.AccessToken). SetHeaders(rangeHeader). SetPathParams(map[string]string",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Laserfiche Server/Repository Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 2,
+    "signature": "on-prem API search syntax",
+    "signatureType": "message-text",
+    "title": "on-prem API search syntax",
+    "url": "https://answers.laserfiche.com/questions/223944/onprem-API-search-syntax",
+    "snippet": "September 19, 2024 Subscribe Subscribed asked on September 19, 2024 • Show version history Hello Everyone. I'm trying to do a very simple search with my API server in the swagger playground. I'm totally confused by the error I'm getting. This is what I'm trying to do.&nbsp; &nbsp; curl -X 'POST' \\ 'http://localhost/LFRepositoryAPI/v1/Repositories/devaccountingdev/Searches' \\ -H 'accept: application/json' \\ -H 'Authorization: Bearer HIDDEN' \\ -H 'Content-Type: application/json' \\ -d '{ \"searchCommand\": \"({[Purchase",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Web Client",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 2,
+    "signature": "API Server swagger Unauthorized",
+    "signatureType": "message-text",
+    "title": "API Server swagger Unauthorized",
+    "url": "https://answers.laserfiche.com/questions/206278/API-Server-swagger-Unauthorized",
+    "snippet": "the API Server swagger page we are following the steps: 1.- Using the Token api call to generate an access token 2.- Clicking the authorize button at the top right and supplying the access token but we get the following error &nbsp; &nbsp; &nbsp; Any thoughts? 0 0 Post Link Replies Sort by: Most popular Most popular Oldest to newest Newest to oldest replied on February 14, 2023 Hi, In step 1 when you&nbsp;used the Token api call to generate an access token, can you confirm that you've followed the steps in the guid",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "API Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 2,
+    "signature": "Web Request Rule - POST LF Cloud file to Web API",
+    "signatureType": "message-text",
+    "title": "Web Request Rule - POST LF Cloud file to Web API",
+    "url": "https://answers.laserfiche.com/questions/203084/Web-Request-Rule---POST-LF-Cloud-file-to-Web-API",
+    "snippet": "the local device's drive: So far, so good... it all looks ok. But after running the test - we get the following: Despite saying it was run successfully; the server response is a 500. Which is a generic 'Internal Server Error'. If we do the exact same thing in the target system's&nbsp;Swagger, with the exact same file, and exact same API Key - we can post to the exact same API Endpoint successfully. Working with the developers for the other system, they are unable to see any log or provide any response content. If",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 2,
+    "signature": "API Import timeout (500, unknown)",
+    "signatureType": "message-text",
+    "title": "API Import timeout (500, unknown)",
+    "url": "https://answers.laserfiche.com/questions/235341/API-Import-timeout-500-unknown",
+    "snippet": "&nbsp; &nbsp; \"keepPdfAfterImport\": true &nbsp; } &nbsp;&nbsp; &nbsp;I'll get a 500 response on a moderately sized sample file &nbsp;(~8mb, 200 page PDF): &nbsp;{ &nbsp; &nbsp; \"type\": \"unknown\", &nbsp; &nbsp; \"title\": \"Error: Import timed out.\", &nbsp; &nbsp; \"status\": 500, &nbsp; &nbsp; \"instance\": \"/repository/v2/Repositories/--removed--/Entries/--removed--/Folder/Import\", &nbsp; &nbsp; \"operationId\": \"--removed--\", &nbsp; &nbsp; \"errorSource\": \"Api Server\", &nbsp; &nbsp; \"errorCode\": 999, &nbsp; &nbsp; \"traceId",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Laserfiche Server/Repository Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 2,
+    "signature": "404",
+    "signatureType": "error-code",
+    "title": "laserficheapi 404",
+    "url": "https://answers.laserfiche.com/questions/213690/laserficheapi-404",
+    "snippet": "laserficheapi 404 - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question laserficheapi 404 Laserfiche API Updated November 22, 2023 Subscribe Subscribed asked on November 22, 2023 Hi when trying to post for a token in swagge",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "404"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"API Server\" error Laserfiche",
+    "page": 2,
+    "signature": "Laserfiche API for Cloud - Export document image",
+    "signatureType": "message-text",
+    "title": "Laserfiche API for Cloud - Export document image",
+    "url": "https://answers.laserfiche.com/questions/195329/Laserfiche-API-for-Cloud--Export-document-image",
+    "snippet": "ry 2, 2022 https://developer.laserfiche.com/guide_exporting-documents.html How do I export a document that is imported as an image? Export of pdf and doc works, but for documents that are a tif, the content is empty, no errors in the API call. 1 0 Post Link Answer SELECTED ANSWER replied on February 2, 2022 Correct, authentication for v2-alpha and later will use an OAuth access token. Depending on your application type you have to register a service/web or SPA web app on the developer console and follow the steps f",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"Laserfiche API\" \"self-hosted\" error",
+    "page": 1,
+    "signature": "Error: No connection could be made to the Laserfiche repository. Self-Hosted Laserfiche API",
+    "signatureType": "message-text",
+    "title": "Error: No connection could be made to the Laserfiche repository. Self-Hosted Laserfiche API",
+    "url": "https://answers.laserfiche.com/questions/212213/Error-No-connection-could-be-made-to-the-Laserfiche-repository-SelfHosted-Laserfiche-API",
+    "snippet": "Error: No connection could be made to the Laserfiche repository. Self-Hosted Laserfiche API - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Error: No connection could be made to the Laserfiche repository. Self-Hosted",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Laserfiche Server/Repository Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"Laserfiche API\" \"self-hosted\" error",
+    "page": 1,
+    "signature": "\"GUID should contain 32 digits with 4 dashes\" when trying to upload a document with self-hosted API",
+    "signatureType": "message-text",
+    "title": "\"GUID should contain 32 digits with 4 dashes\" when trying to upload a document with self-hosted API",
+    "url": "https://answers.laserfiche.com/questions/213985/GUID-should-contain-32-digits-with-4-dashes-when-trying-to-upload-a-document-with-selfhosted-API",
+    "snippet": "ribe Subscribed asked on December 6, 2023 I am attempting to upload a pdf document to our Laserfiche repository via the self-hosted API. specifically:&nbsp;POST.../Entries/{Parent ID}/{document name} returns a 203 (full error below) I can see that it Does create a file in the appropriate repository and directory, with the appropriate name and metadata from my request body, however, when I&nbsp;try to view it, it says \"this document contains no pages\" under Image, and \"this document does not contain an electronic fi",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"Laserfiche API\" \"self-hosted\" error",
+    "page": 1,
+    "signature": "How to filter API call to just Documents in a Folder?",
+    "signatureType": "message-text",
+    "title": "How to filter API call to just Documents in a Folder?",
+    "url": "https://answers.laserfiche.com/questions/220245/How-to-filter-API-call-to-just-Documents-in-a-Folder",
+    "snippet": "e tags on your post, and yes, you are correct.&nbsp; But the same applies for v1 on Self-Hosted and the guide for that is here . replied on June 13, 2024 I have tried using \"entryType\", but no matter what I enter I get \"Error: Invalid Request\". What is the correct format to enter it in the $Select field? 0 0 Post Link replied on June 13, 2024 You are correct, V1 is still the latest for SH, I missed the tags on your post. Actually, you'd have to filter the results yourself as $select just determines which properties",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Laserfiche Server/Repository Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"Laserfiche API\" \"self-hosted\" error",
+    "page": 2,
+    "signature": "Check out the April Cloud Release!",
+    "signatureType": "message-text",
+    "title": "Check out the April Cloud Release!",
+    "url": "https://answers.laserfiche.com/questions/208326/Check-out-the-April-Cloud-Release",
+    "snippet": "ng with the Laserfiche API from Java applications have&nbsp;been improved with a version 2 release that includes: New functions for exporting documents to a stream Automatically refreshing expired access tokens Improved error handling and retry on transient errors Function parameter classes to improve code readability Async APIs replaced with blocking APIs &nbsp; The libraries are open source and the implementations and sample projects are&nbsp; available on GitHub. &nbsp; Direct Share Updates Direct share has been",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Laserfiche Server/Repository Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"Laserfiche API\" \"self-hosted\" error",
+    "page": 2,
+    "signature": "Laserfiche 11 :API v1 How to import an electronic document file.",
+    "signatureType": "message-text",
+    "title": "Laserfiche 11 :API v1 How to import an electronic document file.",
+    "url": "https://answers.laserfiche.com/questions/232497/Laserfiche-11-API-v1-How-to-import-an-electronic-document-file",
+    "snippet": "is is the call: https://localhost/v1/Repositories/ICESP/Entries/3690332/Arquivo?autoRename=true 0 0 Post Link Replies Sort by: Most popular Most popular Oldest to newest Newest to oldest replied on October 29, 2025 What error are you receiving from the API? Even though you're importing a TIFF or PDF document it is still technically an edoc until it hits Laserfiche. You just need to make sure you're using the correct multipart/form-data content type for your request body and attaching the binary of the document with",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "API Server",
+    "query": "\"Laserfiche API\" \"self-hosted\" error",
+    "page": 2,
+    "signature": "authenticate via browser loop",
+    "signatureType": "message-text",
+    "title": "authenticate via browser loop",
+    "url": "https://answers.laserfiche.com/questions/215534/authenticate-via-browser-loop",
+    "snippet": "ituation?&nbsp; Are you using Laserfiche Cloud or Self-Hosted?&nbsp; When you say you are trying to connect to the API through the \"browser\", do you mean our Swagger playground?&nbsp; Are you experiencing authentication errors when connecting?&nbsp; The more details you can provide the better. &nbsp; Thanks, Andrew&nbsp; 0 0 Post Link replied on February 6, 2024 • Show version history I'm on Laserfiche Cloud When I attempt to connect through Integrator.io or Postman, I get a window that asks me to log in. When I do",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "API Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
   }
 ]

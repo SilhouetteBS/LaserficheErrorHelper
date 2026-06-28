@@ -13,6 +13,19 @@ const passPath = path.join("research", `answers-product-pass-${today}-${passSlug
 const maxPagesPerQuery = targetCount > 25 ? 16 : 8;
 const productSearches = [
   {
+    product: "API Server",
+    productTags: ["API Server"],
+    queries: [
+      '"API Server" error Laserfiche',
+      '"Laserfiche API" "self-hosted" error',
+      '"LFRepositoryAPI" error',
+      '"repositoryAPI" error Laserfiche',
+      '"Laserfiche API" "token" error',
+      '"Laserfiche API" "HTTP" error',
+      '"Laserfiche API" "Access Denied"',
+    ],
+  },
+  {
     product: "Forms",
     productTags: ["Forms"],
     queries: [
