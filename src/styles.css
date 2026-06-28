@@ -103,6 +103,16 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  border: 0;
+  color: inherit;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.utility-link:hover,
+.utility-link:focus-visible {
+  color: var(--link);
 }
 
 .app-shell {
@@ -192,11 +202,43 @@ a {
   cursor: pointer;
 }
 
+.more-filters.active {
+  border-color: var(--accent);
+  color: var(--accent-dark);
+  background: var(--accent-soft);
+}
+
 .reset-button {
   border-color: transparent;
   color: var(--link);
   background: transparent;
   font-weight: 650;
+}
+
+.advanced-filters {
+  display: grid;
+  grid-template-columns: minmax(220px, 1.4fr) repeat(3, minmax(160px, 0.8fr));
+  gap: 14px;
+  align-items: end;
+  margin-top: 12px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+}
+
+.advanced-filter-summary {
+  align-self: center;
+}
+
+.advanced-filter-summary h2 {
+  font-size: 0.95rem;
+}
+
+.advanced-filter-summary p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 0.86rem;
 }
 
 .workspace {
@@ -819,6 +861,72 @@ li + li {
   white-space: nowrap;
 }
 
+.dialog-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px;
+  background: rgba(18, 25, 35, 0.42);
+}
+
+.info-dialog {
+  width: min(560px, 100%);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  box-shadow: 0 18px 48px rgba(18, 25, 35, 0.22);
+}
+
+.dialog-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 15px 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.dialog-heading h2 {
+  font-size: 1.02rem;
+}
+
+.dialog-heading button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--muted);
+  background: var(--surface);
+  cursor: pointer;
+}
+
+.dialog-heading button:hover,
+.dialog-heading button:focus-visible {
+  color: var(--text);
+  border-color: var(--line-strong);
+}
+
+.dialog-content {
+  display: grid;
+  gap: 12px;
+  padding: 16px 18px 18px;
+}
+
+.dialog-content p {
+  margin: 0;
+  color: #26313c;
+}
+
+.dialog-content ol {
+  color: #26313c;
+}
+
 @media (max-width: 1180px) {
   .topbar-inner,
   .ledger-heading {
@@ -832,6 +940,10 @@ li + li {
   }
 
   .toolbar {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .advanced-filters {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -861,6 +973,7 @@ li + li {
   }
 
   .toolbar,
+  .advanced-filters,
   .meta-strip {
     grid-template-columns: 1fr;
   }

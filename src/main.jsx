@@ -17,6 +17,7 @@ import {
   Search,
   Share2,
   ShieldCheck,
+  X,
 } from "lucide-react";
 import {
   errorEntries,
@@ -114,6 +115,8 @@ function App() {
   const [ledgerSource, setLedgerSource] = useState(allOption);
   const [collapsedGroups, setCollapsedGroups] = useState({});
   const [selectedId, setSelectedId] = useState(errorEntries[0]?.id);
+  const [isMoreFiltersOpen, setIsMoreFiltersOpen] = useState(false);
+  const [infoDialog, setInfoDialog] = useState(null);
 
   const filters = useMemo(
     () => ({
@@ -197,14 +200,14 @@ function App() {
           <nav className="top-actions" aria-label="Utility links">
             <span>Sources updated Jun 27, 2026</span>
             <RefreshCw aria-hidden="true" size={16} />
-            <span className="utility-link">
+            <button className="utility-link" onClick={() => setInfoDialog("how")} type="button">
               <HelpCircle aria-hidden="true" size={16} />
               How it works
-            </span>
-            <span className="utility-link">
+            </button>
+            <button className="utility-link" onClick={() => setInfoDialog("about")} type="button">
               <Info aria-hidden="true" size={16} />
               About
-            </span>
+            </button>
           </nav>
         </div>
       </header>
@@ -221,7 +224,7 @@ function App() {
             />
             {query && (
               <button aria-label="Clear search" className="clear-search" onClick={() => setQuery("")} type="button">
-                ×
+                <X aria-hidden="true" size={19} />
               </button>
             )}
           </label>
@@ -247,7 +250,13 @@ function App() {
             options={filters.fixStatuses}
             formatOption={fixStatusLabel}
           />
-          <button className="more-filters" type="button">
+          <button
+            aria-controls="advanced-filters"
+            aria-expanded={isMoreFiltersOpen}
+            className={`more-filters ${isMoreFiltersOpen ? "active" : ""}`}
+            onClick={() => setIsMoreFiltersOpen((current) => !current)}
+            type="button"
+          >
             <Filter aria-hidden="true" size={17} />
             More Filters
           </button>
@@ -262,12 +271,45 @@ function App() {
               setFixStatus(allOption);
               setSortBy("relevance");
               setLedgerSource(allOption);
+              setIsMoreFiltersOpen(false);
             }}
             type="button"
           >
             Reset
           </button>
         </section>
+
+        {isMoreFiltersOpen && (
+          <section className="advanced-filters" id="advanced-filters" aria-label="More filters">
+            <div className="advanced-filter-summary">
+              <h2>More Filters</h2>
+              <p>Use these filters to narrow results by fix maturity or reviewed-source ledger type.</p>
+            </div>
+            <FilterSelect
+              label="Fix Status"
+              value={fixStatus}
+              onChange={setFixStatus}
+              options={filters.fixStatuses}
+              formatOption={fixStatusLabel}
+            />
+            <FilterSelect
+              label="Reviewed Ledger Source"
+              value={ledgerSource}
+              onChange={setLedgerSource}
+              options={filters.sources}
+              formatOption={sourceTypeLabel}
+            />
+            <label className="filter-control">
+              <span>Result Sort</span>
+              <select value={sortBy} onChange={(event) => setSortBy(event.target.value)}>
+                <option value="relevance">Relevance</option>
+                <option value="code">Error code</option>
+                <option value="confidence">Confidence</option>
+                <option value="product">Product</option>
+              </select>
+            </label>
+          </section>
+        )}
 
       <section className="workspace">
         <aside className="results-pane" aria-label="Error results">
@@ -391,6 +433,7 @@ function App() {
         </div>
       </section>
       </main>
+      {infoDialog && <InfoDialog type={infoDialog} onClose={() => setInfoDialog(null)} />}
     </>
   );
 }
@@ -593,4 +636,54 @@ function DetailSection({ title, children }) {
   );
 }
 
+function InfoDialog({ type, onClose }) {
+  const isHow = type === "how";
+
+  return (
+    <div className="dialog-backdrop" role="presentation" onMouseDown={onClose}>
+      <section
+        aria-labelledby="info-dialog-title"
+        aria-modal="true"
+        className="info-dialog"
+        onMouseDown={(event) => event.stopPropagation()}
+        role="dialog"
+      >
+        <div className="dialog-heading">
+          <h2 id="info-dialog-title">{isHow ? "How It Works" : "About"}</h2>
+          <button aria-label="Close dialog" onClick={onClose} type="button">
+            <X aria-hidden="true" size={17} />
+          </button>
+        </div>
+        {isHow ? (
+          <div className="dialog-content">
+            <p>
+              Search and filters narrow a curated list of Laserfiche self-hosted errors from official
+              documentation and reviewed Answers posts.
+            </p>
+            <ol>
+              <li>Official documentation establishes the baseline error code and product context.</li>
+              <li>Answers posts add scenario-specific symptoms, fixes, and version notes.</li>
+              <li>Laserfiche employee replies are prioritized above community-only guidance.</li>
+              <li>Unresolved entries stay visible when they document an error but no confirmed fix exists yet.</li>
+            </ol>
+          </div>
+        ) : (
+          <div className="dialog-content">
+            <p>
+              This helper is a self-hosted Laserfiche troubleshooting index for administrators and support
+              teams. It is intended to speed up triage, not replace Laserfiche Support or environment-specific
+              validation.
+            </p>
+            <p>
+              Each entry links back to its reviewed sources so users can inspect the original documentation or
+              Answers thread before changing a production system.
+            </p>
+          </div>
+        )}
+      </section>
+    </div>
+  );
+}
+
 createRoot(document.getElementById("root")).render(<App />);
+
