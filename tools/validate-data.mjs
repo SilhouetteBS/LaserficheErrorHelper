@@ -6,6 +6,7 @@ const reviewedUrls = new Set(reviewedSources.map((source) => source.url));
 const validProducts = new Set(productOptions);
 const validVersions = new Set(versionOptions);
 const validFixStatuses = new Set(["known-fix", "workaround", "diagnostic-only", "unresolved", "needs-review"]);
+const validValidationStatuses = new Set(["official-doc-baseline", "reviewed-diagnostic", "source-research-needed"]);
 const sortedProducts = [...productOptions].sort((a, b) => a.localeCompare(b));
 
 if (productOptions.some((product, index) => product !== sortedProducts[index])) {
@@ -21,6 +22,9 @@ for (const entry of errorEntries) {
   }
   if (entry.fixStatus && !validFixStatuses.has(entry.fixStatus)) {
     errors.push(`${entry.id} uses unknown fix status ${entry.fixStatus}`);
+  }
+  if (entry.validationStatus && !validValidationStatuses.has(entry.validationStatus)) {
+    errors.push(`${entry.id} uses unknown validation status ${entry.validationStatus}`);
   }
   if (!validProducts.has(entry.product)) {
     errors.push(`${entry.id} uses unknown product ${entry.product}`);

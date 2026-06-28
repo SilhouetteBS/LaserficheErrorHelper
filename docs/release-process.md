@@ -9,11 +9,12 @@ Use this checklist when publishing a public update to the GitHub Pages helper.
 3. Run `npm run validation:batches` when validation coverage changed.
 4. Run `npm run curation:priority` when priority-source entries should be re-evaluated.
 5. Run `npm run curation:community` when community-confirmed candidates should be re-evaluated.
-6. Run `npm run quality` and `npm run validation:batches` again if curation changed fix statuses.
-7. Run `npm run progress` when research coverage changed.
-8. Run `npm run build`.
-9. Run `npm run render:check`.
-10. Review `git diff --stat` and confirm only intended files changed.
+6. Run `npm run validation:complete` when validation batches are being closed out.
+7. Run `npm run quality` and `npm run validation:batches` again if curation or validation triage changed.
+8. Run `npm run progress` when research coverage changed.
+9. Run `npm run build`.
+10. Run `npm run render:check`.
+11. Review `git diff --stat` and confirm only intended files changed.
 
 ## Version Notes
 

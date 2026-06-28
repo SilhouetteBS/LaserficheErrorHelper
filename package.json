@@ -15,6 +15,7 @@
     "validation:batches": "node tools/generate-validation-batches.mjs 50",
     "curation:priority": "node tools/generate-priority-source-curation.mjs",
     "curation:community": "node tools/generate-community-fix-curation.mjs",
+    "validation:complete": "node tools/complete-validation-batches.mjs",
     "lint:data": "node tools/validate-data.mjs",
     "render:check": "node tools/render-check.mjs"
   },

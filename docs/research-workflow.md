@@ -50,6 +50,8 @@ Run `npm run curation:priority` after refreshing validation batches to review pr
 
 Run `npm run curation:community` after priority curation to review `Answers - Community Confirmed` candidates. This pass is lower priority than employee-source review and promotes only when the captured notes explicitly support a fix, workaround, or accepted remediation.
 
+Run `npm run validation:complete` when the current validation batches have been triaged. This records whether each row is an official-doc baseline, reviewed diagnostic entry, or still needs source research, then moves unresolved research needs into `research/source-research-backlog.md`.
+
 ## Product-Specific Discovery
 
 The official Version 12 server-code pass is tracked separately in `research/answers-search-results.json` and `research/answers-reviewed-summary.json`.

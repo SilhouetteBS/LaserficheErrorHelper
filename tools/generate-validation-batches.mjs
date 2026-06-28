@@ -13,6 +13,7 @@ function fixStatusValue(entry) {
 }
 
 function needsValidation(entry) {
+  if (entry.validationStatus) return false;
   return entry.confidence === "low" || ["diagnostic-only", "unresolved", "needs-review"].includes(fixStatusValue(entry));
 }
 
@@ -100,6 +101,7 @@ const batchRows = Object.entries(countBy(rows, (row) => row.batch))
 
 const byDisposition = countBy(rows, (row) => row.disposition);
 const byProduct = countBy(rows, (row) => row.product);
+const nextStepRows = Object.keys(byDisposition).sort().flatMap((key) => [`- ${key}: ${nextStep(key)}`]);
 
 const report = [
   "# Validation Batch Ledger",
@@ -135,9 +137,7 @@ const report = [
   "",
   "## Next Steps by Disposition",
   "",
-  ...Object.keys(byDisposition)
-    .sort()
-    .flatMap((key) => [`- ${key}: ${nextStep(key)}`]),
+  ...(nextStepRows.length > 0 ? nextStepRows : ["No active validation candidates remain."]),
   "",
 ];
 

@@ -18,6 +18,7 @@ npm run quality
 npm run validation:batches
 npm run curation:priority
 npm run curation:community
+npm run validation:complete
 npm run build
 npm run render:check
 npm run dev
@@ -30,6 +31,7 @@ npm run dev
 - `npm run validation:batches` updates `research/validation-batches.md` and `research/validation-batches.json` in batches of 50.
 - `npm run curation:priority` reviews priority-source candidates and updates `src/data/curationOverrides.js`.
 - `npm run curation:community` reviews community-confirmed fix candidates and merges additional conservative overrides.
+- `npm run validation:complete` records triage outcomes for the current validation batches and writes the source-research backlog.
 - Low-confidence or diagnostic-only entries should stay visible, but fixes should not be promoted without source-backed evidence.
 - Repeated causes or fixes for the same code should be captured as scenarios on the existing entry instead of creating duplicate entries.
 

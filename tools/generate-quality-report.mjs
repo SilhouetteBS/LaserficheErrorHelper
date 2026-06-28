@@ -63,12 +63,17 @@ function reviewScore(entry) {
 }
 
 const needsValidation = errorEntries
-  .filter((entry) => entry.confidence === "low" || ["diagnostic-only", "unresolved", "needs-review"].includes(fixStatusValue(entry)))
+  .filter(
+    (entry) =>
+      !entry.validationStatus &&
+      (entry.confidence === "low" || ["diagnostic-only", "unresolved", "needs-review"].includes(fixStatusValue(entry))),
+  )
   .sort((a, b) => reviewScore(b) - reviewScore(a) || a.product.localeCompare(b.product) || a.code.localeCompare(b.code, undefined, { numeric: true }));
 
 const byProduct = countBy(needsValidation, (entry) => entry.product);
 const byFixStatus = countBy(errorEntries, fixStatusValue);
 const byConfidence = countBy(errorEntries, (entry) => entry.confidence);
+const byValidationStatus = countBy(errorEntries.filter((entry) => entry.validationStatus), (entry) => entry.validationStatus);
 const sourceReviewStatus = countBy(reviewedSources, (source) => source.reviewStatus);
 
 const report = [
@@ -95,6 +100,13 @@ const report = [
   table(
     ["Fix status", "Entries"],
     Object.entries(byFixStatus).sort(([a], [b]) => a.localeCompare(b)).map(([status, count]) => [status, count]),
+  ),
+  "",
+  "## Validation Triage Coverage",
+  "",
+  table(
+    ["Validation status", "Entries"],
+    Object.entries(byValidationStatus).sort(([a], [b]) => a.localeCompare(b)).map(([status, count]) => [status, count]),
   ),
   "",
   "## Validation Queue by Product",
