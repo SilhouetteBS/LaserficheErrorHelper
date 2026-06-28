@@ -3238,7 +3238,7 @@
     "notes": "Reviewed; issue details are attachment-based and public thread has no actionable fix."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Scanning \"error code\" Laserfiche",
     "signature": "\"The process cannot access the file because it is being used by another process\" error when importing documents using Import Agent",
     "signatureType": "message-text",
@@ -3252,7 +3252,7 @@
     "notes": "Reviewed and promoted to published helper entry."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Web Client Scanning \"error\"",
     "signature": "9013",
     "signatureType": "product-code",
@@ -3266,7 +3266,7 @@
     "notes": "Reviewed and published as unresolved documentation."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "signature": "9039",
     "signatureType": "product-code",
     "title": "Multistatus response.[9039] Using Web Scan URL shortcut",
@@ -3283,7 +3283,7 @@
     "notes": "Reviewed and published as unresolved documentation."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "signature": "9051",
     "signatureType": "product-code",
     "title": "10.2 Client crashes with \"The specified operation is not recognized. [9051]\"",
@@ -3300,7 +3300,7 @@
     "notes": "Already curated under the official 9051 entry with Windows Client/Desktop Client context."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Scanning \"error code\" Laserfiche",
     "signature": "9063",
     "signatureType": "numeric-code",
@@ -3314,7 +3314,7 @@
     "notes": "Already curated under the official 9063 entry with Windows Client/Desktop Client context."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Scanning \"store\" error Laserfiche",
     "signature": "cannot store field data error in 9.2",
     "signatureType": "message-text",
@@ -3328,7 +3328,7 @@
     "notes": "Curated under Windows Client/Desktop Client scanning metadata storage."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Scanning \"error code\" Laserfiche",
     "signature": "error 780 after server upgrade to 9.1.1.545",
     "signatureType": "message-text",
@@ -3342,7 +3342,7 @@
     "notes": "Already curated under the official 780 Windows Client/Desktop Client entry."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Scanning \"error code\" Laserfiche",
     "signature": "Error Code: 6317 Permission Denied",
     "signatureType": "message-text",
@@ -3356,7 +3356,7 @@
     "notes": "Reviewed; source is Version 8 DataNOW/Capture context and does not fit the v9-v12 scope."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Scanning \"failed\" Laserfiche",
     "signature": "Error Message - OCR Queue",
     "signatureType": "message-text",
@@ -3370,7 +3370,7 @@
     "notes": "Curated as Web Client OCR queue / DCC configuration guidance."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Scanning \"failed\" Laserfiche",
     "signature": "Failed to Load Image ScanConnect Only",
     "signatureType": "message-text",
@@ -3384,7 +3384,7 @@
     "notes": "Reviewed and promoted as workaround guidance."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Scanning \"error code\" Laserfiche",
     "signature": "Laserfiche 9.1.1.546 Client Error Code 9063",
     "signatureType": "message-text",
@@ -3398,7 +3398,7 @@
     "notes": "Already curated under the official 9063 entry with Windows Client/Desktop Client context."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Scanning \"failed\" Laserfiche",
     "signature": "LF 9.1.1 Scanning error on 64 bit Windows 7",
     "signatureType": "message-text",
@@ -3412,7 +3412,7 @@
     "notes": "Curated under Windows Client/Desktop Client scanning COM/OCR errors."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Web Client Scanning \"error\"",
     "signature": "LFDS",
     "signatureType": "product-code",
@@ -3426,7 +3426,7 @@
     "notes": "Curated as Web Client Scanning KeepAlive timeout patch guidance."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Scanning \"failed\" Laserfiche",
     "signature": "multiple failed to load image message",
     "signatureType": "message-text",
@@ -3440,7 +3440,7 @@
     "notes": "Curated under Quick Fields failed-to-load-image."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Scanning \"failed\" Laserfiche",
     "signature": "OCR License Check Failed",
     "signatureType": "message-text",
@@ -3454,7 +3454,7 @@
     "notes": "Curated under Import Agent OCR license check / 1158."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Scanning \"store\" error Laserfiche",
     "signature": "Permission denied was showed up on output screen when clicked store button.( Quickfield 9.0 )",
     "signatureType": "message-text",
@@ -3468,7 +3468,7 @@
     "notes": "Curated under Quick Fields store permission denied."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Scanning \"failed\" Laserfiche",
     "signature": "QF 9: failed to load image",
     "signatureType": "message-text",
@@ -3482,7 +3482,7 @@
     "notes": "Curated under Quick Fields failed-to-load-image."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "signature": "Scanning Error - Web Client & Metadata",
     "signatureType": "message-text",
     "title": "Scanning Error - Web Client & Metadata",
@@ -3499,7 +3499,7 @@
     "notes": "Curated as Web Client 10.2 metadata/template scanning bug fixed in 10.2.1."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Web Client Scanning \"error\"",
     "signature": "Web Client Scanning gives \"Invalid connection\" error",
     "signatureType": "message-text",
@@ -3513,7 +3513,7 @@
     "notes": "Curated as unresolved Web Client Scanning invalid connection / RetrieveAllTags stack."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Web Client Scanning \"error\"",
     "signature": "Web Scan Error : Could Not Find File",
     "signatureType": "message-text",
@@ -3527,7 +3527,7 @@
     "notes": "Curated as unresolved Web Client Scanning temp-file-not-found pattern."
   },
   {
-    "product": "Web Client Scanning",
+    "product": "Web Client",
     "query": "Web Client Scanning \"error\"",
     "signature": "Web Scanning - Access Denied Error [9013]",
     "signatureType": "message-text",
@@ -4356,5 +4356,1663 @@
     "status": "curated",
     "reviewedDate": "2026-06-27",
     "notes": "Reviewed and promoted to published helper entry."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"LFF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-discussion24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Discussion</span> </span>",
+    "signatureType": "message-text",
+    "title": "Feedback on version 102",
+    "url": "https://answers.laserfiche.com/questions/114376/Feedback-on-version-102",
+    "snippet": "low.&nbsp; &nbsp; I wanted to check if anyone else experienced any of the following -&nbsp; &nbsp; 1. In a couple of processes, some forms became corrupt. Is a user tried to open their task, they received \"An unexpected error has occurred - LFF 502\" I could not make changes to the process while this particular form was part of it. I would receive the same error when saving the process. If I tried to copy the form I received the same error. Yet the form would actually be copied regardless. In the end, I don't know h",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"LFF\" error",
+    "page": 1,
+    "signature": "42000",
+    "signatureType": "error-code",
+    "title": "Error 42000 Permission Denied in database master",
+    "url": "https://answers.laserfiche.com/questions/77677/Error-42000-Permission-Denied-in-database-master",
+    "snippet": "Error 42000: Permission Denied in database 'master' - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Error 42000: Permission Denied in database 'master' Forms Updated May 24, 2018 Subscribe Subscribed asked on May 21,",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "42000"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"LFF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Suspended Email Task on Forms processes",
+    "url": "https://answers.laserfiche.com/questions/226767/Suspended-Email-Task-on-Forms-processes",
+    "snippet": "get these for the following [LFF-2007 EmailSubmissionFailure1] message.&nbsp; It sends the suspended task&nbsp;message&nbsp;but also resolves itself once I go to the Forms Monitor page to locate the process that was in error. It appears to be a Timeout issue and was wondering if anyone else gets these? And how to resolve Not getting these? it is more annoying than actually causing a failure. &nbsp; EXAMPLE: (it is not process specific, but more Email Task specific on any given process) Details: URL:&nbsp; Error: E",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"LFF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Lookup data is missing in subsequent tasks",
+    "url": "https://answers.laserfiche.com/questions/122945/Lookup-data-is-missing-in-subsequent-tasks",
+    "snippet": "serfiche-forms-10-2-1-update-1- to check details 0 0 Post Link replied on July 5, 2017 Good day, &nbsp; This update seems to have sorted out one issue and caused another. Now fields using SUM(Table.Column) data gives an error of Invalid Formula expression [ LFF 1000] when submitting if the field is Read Only.&nbsp; If I remove the Read Only option, it submits.&nbsp; &nbsp; Regards Ian 0 0 Post Link replied on July 6, 2017 Sorry for the new issue but I could not reproduce it on my server. Can you create a new post&n",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"LFF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "The resource name cannot contain the character",
+    "url": "https://answers.laserfiche.com/questions/225589/The-resource-name-cannot-contain-the-character-",
+    "snippet": "ion Marketplace Updated December 4, 2024 Subscribe Subscribed asked on December 4, 2024 I am trying to import the \"CSS/JavaScript/Formula Examples\" Forms process into my Laserfiche Cloud environment, and it gives me the error message \"The resource name cannot contain the character '/'\". I was able to import the \"CSS/JavaScript/Formula Examples 2\" process successfully, so I'm not sure why it doesn't like the other one. 0 0 Post Link Replies Sort by: Most popular Most popular Oldest to newest Newest to oldest replied",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"LFF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "email notification for suspended states",
+    "url": "https://answers.laserfiche.com/questions/115644/email-notification-for-suspended-states",
+    "snippet": "ain.bp_instance_id WHERE &nbsp;&nbsp; &nbsp;(worker.[status] >= 9 AND (main.[status] = 4 OR main.[status] = 1)) &nbsp;&nbsp; &nbsp;OR (worker.[status] >= 7 AND main.[status] = 4) IF @@ROWCOUNT > 0 --only send message if errors exist BEGIN --Delare variable to house xml and html DECLARE @xml NVARCHAR(MAX) DECLARE @body NVARCHAR(MAX) SET @xml = CAST(( SELECT ISNULL([bp_instance_id],' ') AS 'td','' ,[instance_id] AS 'td','' ,[bp_name] AS 'td','' ,[title] AS 'td','' ,[start_date] AS 'td','' ,[lastacted_date] AS 'td' FR",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"LFF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Rows in a Table",
+    "url": "https://answers.laserfiche.com/questions/94008/Rows-in-a-Table",
+    "snippet": "ariable. Is something like this possible through js? Alternatively, I've been reviewing js code on here that would 1) count the number of table rows and then 2) validate them against my acctcount variable and display an error message if the result is !=. I'm open to all suggestions!&nbsp; Thanks, Melissa 1 0 Post Link Replies Sort by: Most popular Most popular Oldest to newest Newest to oldest replied on March 14, 2016 Hi there, Can you show an example using a form screenshot? 0 0 Post Link replied on March 15, 201",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"submission failed\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-announcement24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Announcement</span> </span>",
+    "signatureType": "message-text",
+    "title": "Now available with Laserfiche Forms 1044 set action history security recover form submission data and more",
+    "url": "https://answers.laserfiche.com/questions/174516/Now-available-with-Laserfiche-Forms-1044--set-action-history-security-recover-form-submission-data-and-more",
+    "snippet": "nbsp; Better enforce security and privacy policies with expanded options to hide action history from process participants Recover form data: &nbsp;Eliminate refilling out a form from scratch in the event of a submission error Connect Forms to multiple Workflow servers: &nbsp;Enable more efficient completion of processes by distributing Workflow loads across multiple Workflow servers Set storage location for form file attachments: &nbsp;More effectively manage the size of the Forms database by storing form file atta",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"submission failed\" error",
+    "page": 1,
+    "signature": "LFF9303-ValueExceedsCharacterLimit",
+    "signatureType": "error-code",
+    "title": "Character limit on Multiline field is not working",
+    "url": "https://answers.laserfiche.com/questions/124617/Character-limit-on-Multiline-field-is-not-working",
+    "snippet": "g full width of sensor (oversampled from 5.1K footage) &nbsp; ERROR IN EVENT VIEWER: Errors encountered during forms submission: <br>Field Name: Notes, Position: 12, Error: This value exceeds the given character limit. [LFF9303-ValueExceedsCharacterLimit] [LFF9312-ErrorOccuredDuringFormsValidation]<br> You can click the back button on the browser to correct and resubmit the form. [LFF9320-FormsValidationAggregateException] Details: URL: /Forms/Form/Submit Error: FormsValidationAggregateException Date: 20/07/2017 14",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Version 10",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFF9303-ValueExceedsCharacterLimit",
+      "LFF9312-ErrorOccuredDuringFormsValidation",
+      "LFF9320-FormsValidationAggregateException"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"submission failed\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Regex with Apostrophes Failing",
+    "url": "https://answers.laserfiche.com/questions/143831/Regex-with-Apostrophes-Failing",
+    "snippet": "Eacute;&Iacute;&Oacute;&Uacute;&aacute;&eacute;&iacute;&oacute;&uacute;a-z0-9]$ &nbsp; &nbsp; This seems to work correctly on the form itself but whenever I include an apostrophe in my data the submission fails with the error shown below. I could circumvent this issue by using custom javascript to validate but where possible I would like to make use of the backend validation. Does anyone have a suggestion on how to fix this? Is there any problems with my regex itself? &nbsp; Atm I'm guessing it's something to do wi",
+    "sourceType": "Answers candidate - Laserfiche employee",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Detail page text indicates a Laserfiche-associated reply may be present; review before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"submission failed\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-discussion24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Discussion</span> </span>",
+    "signatureType": "message-text",
+    "title": "Sharing Code Bypass Required Fields on Form Reject in Layout Designer",
+    "url": "https://answers.laserfiche.com/questions/235830/Sharing-Code-Bypass-Required-Fields-on-Form-Reject-in-Layout-Designer",
+    "snippet": "bsp; If I am only populating reqFields when hitting Reject, and the first submission attempt is not Reject, then when I try to pass the empty reqFields array to the&nbsp;LFForm.validateFields function, there is a syntax error and the whole thing locks up.&nbsp; It cannot identify the field id from the empty array.&nbsp; This doesn't happen with the loop I was using, because the loop runs zero times with the empty array and it never tries to call the&nbsp;LFForm.validateFields.&nbsp; So although the theory is sound",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"routing service\" error",
+    "page": 1,
+    "signature": "LFF8100-NotificationServerConnectionDown",
+    "signatureType": "error-code",
+    "title": "Forms Real Time Notifications Not Working on Secondary Server in LB",
+    "url": "https://answers.laserfiche.com/questions/206208/Forms-Real-Time-Notifications-Not-Working-on-Secondary-Server-in-LB",
+    "snippet": "r occurs in the browser. On Server2 there are errors in Laserfiche\\Forms\\App\\Operational log that says \"A connection to the notification server could not be made. Notifications and real-time updates have been disabled. [LFF8100-NotificationServerConnectionDown]\". Since the error is being recorded on Server2, does that mean that the 8181 traffic is not being redirected correctly to Server1? 0 0 Post Link replied on February 13, 2023 On the Primary Forms Server (Server1) I changed the Notification Hub Service and Not",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFF8100-NotificationServerConnectionDown",
+      "HTTP 500"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"routing service\" error",
+    "page": 1,
+    "signature": "LFF8100-NotificationServerConnectionDown",
+    "signatureType": "error-code",
+    "title": "Configuring Notification Service When Using SSL What is my local service account name",
+    "url": "https://answers.laserfiche.com/questions/181768/Configuring-Notification-Service-When-Using-SSL--What-is-my-local-service-account-name",
+    "snippet": "service. Now when I visit my forms page, using SSL, and the correct certificate name, I get this error. A connection to the notification server could not be made. Notifications and real-time updates have been disabled. [LFF8100-NotificationServerConnectionDown] I can't get this thing to work with our without SSL. The crazy thing is, I only have one configuration field which is essentially asking for the Machine name because the installer can't pick this up automatically. There is nothing more I can do to force it t",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms"
+    ],
+    "extractedErrorCodes": [
+      "LFF8100-NotificationServerConnectionDown"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"routing service\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-discussion24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Discussion</span> </span>",
+    "signatureType": "message-text",
+    "title": "Feature Request Forms Load Balancing",
+    "url": "https://answers.laserfiche.com/questions/158704/Feature-Request-Forms-Load-Balancing",
+    "snippet": "ng Service use for memory or CPU? We want to upgrade to version 11, but have run into an issue with one of our primary prices during testing. So far we have not been able to find the field that is causing the unexpected error, so we might have to stay in 10 until the mystery can be solved.&nbsp; 0 0 Post Link replied on November 4, 2022 Can you provide more details about the issue you ran into? What is the actual error message? It is an error for Forms 11 ? 0 0 Post Link replied on November 4, 2022 This is the erro",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"routing service\" error",
+    "page": 1,
+    "signature": "LFF3004-UnableToOpenServiceProxy",
+    "signatureType": "error-code",
+    "title": "The requested service ILicensingService may not be running",
+    "url": "https://answers.laserfiche.com/questions/135953/The-requested-service-ILicensingService-may-not-be-running",
+    "snippet": "nt from 10.2.1 to 10.3 and everything went fine until we upgraded Forms and attempted to access their FormsConfig page. We receive the following error:&nbsp;The requested service (ILicensingService) may not be running. [LFF3004-UnableToOpenServiceProxy] I verified that the Forms Routing Service was started. I tried stopping the service and restarting it. I attempted to change the login information for the service. I redid the license manually. I even tried using different browsers and nothing seemed to work. &nbsp;",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Directory Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFF3004-UnableToOpenServiceProxy"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"routing service\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Feature request Poll RoutingError on idle not just on startup",
+    "url": "https://answers.laserfiche.com/questions/180520/Feature-request-Poll-RoutingError-on-idle-not-just-on-startup",
+    "snippet": "Feature request: Poll RoutingError on idle, not just on startup - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Feature request: Poll RoutingError on idle, not just on startup Forms Version 10 Updated September 23, 20",
+    "sourceType": "Answers candidate - Laserfiche employee",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Detail page text indicates a Laserfiche-associated reply may be present; review before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"routing service\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Form Submission with no trace of submitted form",
+    "url": "https://answers.laserfiche.com/questions/113018/Form-Submission-with-no-trace-of-submitted-form",
+    "snippet": "ewed at this time is displayed. &nbsp; &nbsp;I have looked through the event viewer in the Windows Logs - Application and System, &nbsp;I also looked through the Applications and Services Logs - LFForms with no trace of errors or warnings. I cannot find the document in the repository. I can find no trace of the submission. Any suggestions where else to look for cause. &nbsp; Attached is screenshot of thank you page. &nbsp; &nbsp; &nbsp; adams online listing.JPG (42.02 KB) | Download 0 0 Post Link Replies Sort by: M",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Laserfiche Server/Repository Server",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"routing service\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-discussion24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Discussion</span> </span>",
+    "signatureType": "message-text",
+    "title": "Forms Unlocking tasks in queue to be processed viewing the queue",
+    "url": "https://answers.laserfiche.com/questions/179977/Forms--Unlocking-tasks-in-queue-to-be-processed-viewing-the-queue",
+    "snippet": "'t&nbsp;been&nbsp;processed. We waited 15&nbsp;minutes&nbsp;and it was still showing this message. Verified other tasks were going through executed after these tasks were submitted. Checked the Forms events logs for any errors and it was clean. Restarted the routing service responsible for processing these actions. Eventually we had to re-assign the tasks which causes them to be started over, in order to unlock them. Is there a better way to unlock these or view the queue so we can see what is wrong? What is odd is",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"routing service\" error",
+    "page": 1,
+    "signature": "LFF501-RoutingEngineDown",
+    "signatureType": "error-code",
+    "title": "Forms Portal DMZ server not actually saving Forms when someone submits them",
+    "url": "https://answers.laserfiche.com/questions/168026/Forms-Portal-DMZ-server-not-actually-saving-Forms-when-someone-submits-them",
+    "snippet": "very form submitted since yesterday is just non-existent. &nbsp; The event viewer error that seems to happen anytime a form is submitted: Could not connect to the Laserfiche Routing Service. The service is not running. [LFF501-RoutingEngineDown] Details: URL: Error: RoutingEngineDown Date: 12/20/2019 11:31:55 AM (Pacific Standard Time) HTTP Status Code: 500 Business Process ID: 0 Business Process Name: Stack Trace: Caught exception: Laserfiche.Forms.CommonUtils.Exceptions.LFFormsException Message: Could not connect",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Directory Server",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFF501-RoutingEngineDown"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"routing service\" error",
+    "page": 1,
+    "signature": "LFF706-UnableToTriggerRouting",
+    "signatureType": "error-code",
+    "title": "LFF706UnableToTriggerRouting",
+    "url": "https://answers.laserfiche.com/questions/159690/LFF706UnableToTriggerRouting",
+    "snippet": "[LFF706-UnableToTriggerRouting] - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question [LFF706-UnableToTriggerRouting] Forms Updated December 9, 2022 Subscribe Subscribed asked on May 23, 2019 Hello, On a customer's Forms Se",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFF706-UnableToTriggerRouting",
+      "10060"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"routing service\" error",
+    "page": 1,
+    "signature": "LFF501-RoutingEngineDown",
+    "signatureType": "error-code",
+    "title": "Forms error 501",
+    "url": "https://answers.laserfiche.com/questions/128117/Forms-error-501",
+    "snippet": "ribed asked on September 27, 2017 This error seems to be spreading to more forms even though Windows shows the service is running: [501]: Could not connect to the Laserfiche Routing Service. The service is not running. [LFF501-RoutingEngineDown] &nbsp; Details: URL: Error: RoutingEngineDown Date: 9/27/2017 12:59:29 PM (Central Standard Time) HTTP Status Code: 500 Business Process ID: 0 Business Process Name: &nbsp; Stack Trace: Caught exception: Laserfiche.Forms.CommonUtils.Exceptions.LFFormsException Message: Coul",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFF501-RoutingEngineDown",
+      "501"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"routing service\" error",
+    "page": 1,
+    "signature": "LFF502-UnexpectedError",
+    "signatureType": "error-code",
+    "title": "Errors Processing Workflow from Public Submission",
+    "url": "https://answers.laserfiche.com/questions/212893/Errors-Processing-Workflow-from-Public-Submission",
+    "snippet": "cessing and review.&nbsp; So it's a pretty simple process - but the hiccup is specifically calling the Workflow. The event logs around the time of the error looks like this on the DMZ: An unexpected error has occurred. [LFF502-UnexpectedError] Details: URL: Error: UnexpectedError Date: 10/30/2023 9:40:42 AM (Mountain Standard Time) HTTP Status Code: 500 Business Process ID: 0 Stack Trace: Caught exception: Laserfiche.Forms.CommonUtils.Exceptions.LFFormsException Message: An unexpected error has occurred. [LFF502-Un",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFF502-UnexpectedError"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"routing service\" error",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Initiate a workflow from a DMZ server",
+    "url": "https://answers.laserfiche.com/questions/157979/Initiate-a-workflow-from-a-DMZ-server",
+    "snippet": "s other than the WF server. However, since our public forms portal server is in DMZ, it is not connected to Active Directory system.&nbsp; https://answers.laserfiche.com/questions/49235/Workflow-Designer-Connection-Fail-Error0604WFSO0#49247 &nbsp; Would there be a way to manually set the user account when connecting from machines other than WF server? Or is there any other way to make this connection work? &nbsp; Error message:&nbsp; [SocketExceptio (0x2746) : An existing connection was forcibly closed by remote ho",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"routing service\" error",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Laserfiche Forms Routing Service keeps breaking",
+    "url": "https://answers.laserfiche.com/questions/73010/Laserfiche-Forms-Routing-Service-keeps-breaking",
+    "snippet": "vancing the Business Process Modeler to the next approval step. What causes the Routing service to break and how can we fix it without having to restart it manually? Thank you for your help Below is the full text of the error: Message: An error occurred while executing the command definition. See the inner exception for details. Stack trace: at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior) at System.Data.Entity.Core.",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Forms",
+    "query": "Forms \"routing service\" error",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Forms Portal in DMZ to the Forms Internal",
+    "url": "https://answers.laserfiche.com/questions/96361/Forms-Portal-in-DMZ-to-the-Forms-Internal",
+    "snippet": "nents set up? I'm wondering the following: 1. At setup, how do I configure the DMZ Forms Portal - I know I point to the primary forms server, but do I configure the rest of the settings? (Currently getting access denied errors on 'User authentication' tab)&nbsp;If I disable the Forms Routing Service on the DMZ as Ling says to, I get a proxy error. Do I configure first then disable the service? 2. The DMZ would host the Business Process, would it just host the Form and not have any steps involved in the Process desi",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Web Client",
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Error when trying to launch a business process directly from LF Client",
+    "url": "https://answers.laserfiche.com/questions/109429/Error-when-trying-to-launch-a-business-process-directly-from-LF-Client",
+    "snippet": "Error when trying to launch a business process directly from LF Client - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Error when trying to launch a business process directly from LF Client Laserfiche Workflow Version",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 1,
+    "signature": "LFF502-UnexpectedError",
+    "signatureType": "error-code",
+    "title": "Workflow How to test a workflow definition that is launched by a Forms service task",
+    "url": "https://answers.laserfiche.com/questions/186851/Workflow-How-to-test-a-workflow-definition-that-is-launched-by-a-Forms-service-task",
+    "snippet": "I have verified that the forms configuration page has the correct workflow server saved I have verified that the workflow server has its web service for the correct forms server saved An unexpected error has occurred. [LFF502-UnexpectedError] Details: URL: Error: UnexpectedError Date: 5/6/2021 9:20:06 AM (Central Standard Time) HTTP Status Code: 500 Business Process ID: 138 Instance ID: 8160 Business Process Name: Sandbox Stack Trace: Caught exception: Laserfiche.Forms.CommonUtils.Exceptions.LFFormsException Messa",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFF502-UnexpectedError"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Workflow Designer Connecting to WF Server as WF Default Connection profile and getting errorswarning when trying to validate a WF",
+    "url": "https://answers.laserfiche.com/questions/177291/Workflow-Designer-Connecting-to-WF-Server-as-WF-Default-Connection-profile-and-getting-errorswarning-when-trying-to-validate-a-WF",
+    "snippet": "Workflow Designer- Connecting to WF Server as WF Default Connection profile and getting errors/warning when trying to validate a WF - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Workflow Designer- Connecting to WF S",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Email Error Terminating WF The operation has timed out",
+    "url": "https://answers.laserfiche.com/questions/73054/Email-Error-Terminating-WF-The-operation-has-timed-out",
+    "snippet": "Email Error Terminating WF: The operation has timed out. - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Email Error Terminating WF: The operation has timed out. Workflow Laserfiche Version 9 Updated March 12, 2015 Su",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "An error occurred communicating with the workflow server View error log for more details",
+    "url": "https://answers.laserfiche.com/questions/81973/An-error-occurred-communicating-with-the-workflow-server-View-error-log-for-more-details",
+    "snippet": "An error occurred communicating with the workflow server. View error log for more details. - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question An error occurred communicating with the workflow server. View error log for m",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Best practice for moving a production 902 Avante Workflow and LF server to a new 92 server on new hardware",
+    "url": "https://answers.laserfiche.com/questions/67080/Best-practice-for-moving-a-production-902-Avante-Workflow-and-LF-server-to-a-new-92-server-on-new-hardware",
+    "snippet": "mber 13, 2014 Did you check both versions of the .Net config file? 0 0 Post Link replied on November 14, 2014 as per http://forums.asp.net/t/1693277.aspx?+DbProviderFactories+section+can+only+appear+once+per+config+file+error &nbsp; yes. the 4.x file had the error listed in it so I corrected it as per the article but even after reboot the symptom is the same. Have support case #163967 open. No resolution yet. 0 0 Post Link replied on November 14, 2014 I had to search for all instances of machine.config files across",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 9",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 1,
+    "signature": "LFF5203-WFServerApiFault",
+    "signatureType": "error-code",
+    "title": "After upgrade to 1021 Error The call to Laserfiche Workflow API was not successful",
+    "url": "https://answers.laserfiche.com/questions/132137/After-upgrade-to-1021-Error-The-call-to-Laserfiche-Workflow-API-was-not-successful",
+    "snippet": "ge on start Workflow step and the workflow doesn't start.&nbsp; In the event viewer we get these errors: 1. [5203]: The call to Laserfiche Workflow API was not successful. (Value was invalid. Parameter name: sddlForm). [LFF5203-WFServerApiFault] Details: URL:&nbsp; Error: WFServerApiFault Date: 12/3/2017 7:33:24 PM (Arab Standard Time) HTTP Status Code: 500 Business Process ID: 1 Instance ID: 5 Business Process Name: test wf call Stack Trace: Caught exception: Laserfiche.Forms.CommonUtils.Exceptions.LFFormsExceptio",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Laserfiche Server/Repository Server",
+      "Version 10",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFF5203-WFServerApiFault",
+      "LFF502-UnexpectedError"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 1,
+    "signature": "0735-WF1",
+    "signatureType": "error-code",
+    "title": "Workflow Appears as Business Process",
+    "url": "https://answers.laserfiche.com/questions/95166/Workflow-Appears-as-Business-Process",
+    "snippet": "1, 2016 Can you open the details button in the message and copy the stack trace to the thread? 0 0 Post Link replied on March 31, 2016 Copied below: Error Code: 0 Error Message: The workflow must be a business process. [0735-WF1] ------------ Technical Details: ------------ LF.exe (9.2.0.343): &nbsp; &nbsp; Call Stack: (Current) &nbsp; &nbsp; &nbsp; &nbsp; LaunchBusinessProcess &nbsp; &nbsp; &nbsp; &nbsp; CStartBusinessProcessDialog::OnStartBusinessProcess &nbsp; &nbsp; &nbsp; &nbsp; CFolderListCtrl::OnBusinessProc",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 9",
+      "Version 10",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "0735-WF1",
+      "0516-WF1"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Workflow wont start",
+    "url": "https://answers.laserfiche.com/questions/104091/Workflow-wont-start",
+    "snippet": "be Subscribed asked on August 26, 2016 My client is having an issue where in their forms process they have a workflow starting. The wf is spelled correctly but once it gets to the step, the wf does not run. There are no errors for forms or wf and forms believes the process completes. I am going to check the connection properties with forms, but I wanted to see if there was another issue at hand. They are on forms and workflow 10. Thanks! 0 0 Post Link Replies Sort by: Most popular Most popular Oldest to newest Newe",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Custom workflow Activity",
+    "url": "https://answers.laserfiche.com/questions/64147/Custom-workflow-Activity",
+    "snippet": "ribe Subscribed Question Custom workflow Activity SDK Workflow Updated October 21, 2014 Subscribe Subscribed asked on September 29, 2014 Greetings, I am attempting to create a custom activity. I am getting the following error when I try to add the activity to the Workflow admin under custom activities. &nbsp; From previous problems I know this has to do with the targeted platform I am using. Here is my configuration Platform is set to 64 bit after opening a \"LaserFiche Custom Activity Template\". I have selected a s",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 1,
+    "signature": "0472-WF1",
+    "signatureType": "error-code",
+    "title": "Workflow Will Not Start",
+    "url": "https://answers.laserfiche.com/questions/58730/Workflow-Will-Not-Start",
+    "snippet": "ges checked and with time frame set to This week. &nbsp; There was one error from yesterday morning. &nbsp;I had pressed the green &nbsp;button to Run the Current Workflow and it ran but Terminated with Entry Not Found [0472-WF1]....expected result. &nbsp; &nbsp; Regards.... Dennis &nbsp; &nbsp; &nbsp; 0 0 Post Link replied on June 27, 2014 So the search you ran indicates that the Workflow never triggered? &nbsp;If you run a search you should see the Workflow that ran. &nbsp;Even if it errors it tells you that it a",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Laserfiche Server/Repository Server"
+    ],
+    "extractedErrorCodes": [
+      "0472-WF1"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "FormsWFEmail User Task",
+    "url": "https://answers.laserfiche.com/questions/187681/FormsWFEmail-User-Task",
+    "snippet": "rt by: Most popular Most popular Oldest to newest Newest to oldest replied on June 1, 2021 Is the email sent by Workflow or by Forms? 0 0 Post Link replied on June 1, 2021 Hello Miruna, Workflow We noticed the following errors in the LFNotificationService logs, at the time we tested the WF process to generate the Email/Calendar Invite process-&nbsp;\"The format of the URI could not be determined\" Not sure if this would be related or not. Thanks, Jeff Curtis 0 0 Post Link replied on June 2, 2021 It's not related. The",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Basic Query in Workflow 91 erroring out",
+    "url": "https://answers.laserfiche.com/questions/50778/Basic-Query-in-Workflow-91-erroring-out",
+    "snippet": "Basic Query in Workflow 9.1 erroring out - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Basic Query in Workflow 9.1 erroring out Workflow Updated July 28, 2016 Subscribe Subscribed asked on February 17, 2014 • Show v",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "does not contain a definition for calling a mapping to another application",
+    "url": "https://answers.laserfiche.com/questions/162348/does-not-contain-a-definition-for-calling-a-mapping-to-another-application",
+    "snippet": "another application Workflow Version 9 Updated July 26, 2019 Subscribe Subscribed asked on July 25, 2019 • Show version history 9.2 Workflow, not sure if the devs changed anything, but it was working.&nbsp; Here is the error.&nbsp; Does this look familiar to anyone? &nbsp; We can see the below error in Workflow error log &nbsp; &nbsp; <ExceptionType>Laserfiche.Workflow.ComponentModel.Compiler.CompileResult+CompileError, Laserfiche.Workflow.Designer.Base, Version=8.3.0.0, Culture=neutral, PublicKeyToken=d8428ff9263",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 2,
+    "signature": "348",
+    "signatureType": "error-code",
+    "title": "WorkflowPublishing WF getting Error 348",
+    "url": "https://answers.laserfiche.com/questions/181478/WorkflowPublishing-WF-getting-Error-348",
+    "snippet": "Workflow-Publishing WF getting Error 348 - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Discussion Subscribe Subscribed Discussion Workflow-Publishing WF getting Error 348 Workflow Version 10 Updated December 4, 2020 Subscribe Subscribed posted on Novembe",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "348"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 2,
+    "signature": "0512-WF1",
+    "signatureType": "error-code",
+    "title": "The service ISearchService could not be found 0512WF1",
+    "url": "https://answers.laserfiche.com/questions/83131/The-service-ISearchService-could-not-be-found-0512WF1",
+    "snippet": "The service 'ISearchService' could not be found. [0512-WF1] - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question The service 'ISearchService' could not be found. [0512-WF1] Workflow Updated March 23, 2017 Subscribe Subscri",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow"
+    ],
+    "extractedErrorCodes": [
+      "0512-WF1"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "File Not Found ExceptionInvalid Operation Exception",
+    "url": "https://answers.laserfiche.com/questions/202418/File-Not-Found-ExceptionInvalid-Operation-Exception",
+    "snippet": "load it here. < > Question Subscribe Subscribed Question File Not Found Exception\\Invalid Operation Exception Workflow SDK Updated September 22, 2022 Subscribe Subscribed asked on September 21, 2022 I have two different error messages, the first concerns the Assembly Reference that cannot be loaded, and the second concerns one of the WFs with a Script activity that are stuck in a waiting state. There are hundreds of these in log. Restarting the WF services does seem to resolve this error, however,&nbsp; this happen",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Script Activity REST requests return null",
+    "url": "https://answers.laserfiche.com/questions/153547/Script-Activity-REST-requests-return-null",
+    "snippet": "ransaction() method works perfectly fine in VisualStudio but will not work through Workflow. &nbsp; In VS the \"response\" variable in line 101 is a JSON array. In Workflow it is null, so the foreach in line 103 throws an error: &nbsp; Object reference not set to an instance of an object. ---Stack Trace--- &nbsp; &nbsp;at WorkflowActivity.Scripting.Script.Program.authTransaction() &nbsp; &nbsp;at WorkflowActivity.Scripting.Script.Program.Main(String[] args) &nbsp; &nbsp;at WorkflowActivity.Scripting.ScriptBase.Execut",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Any idea of how to search for a record in MS Sql database based on a token value",
+    "url": "https://answers.laserfiche.com/questions/107889/Any-idea-of-how-to-search-for-a-record-in-MS-Sql-database-based-on-a-token-value",
+    "snippet": "e data has been successfully saved in the database before the WF moves forward. My idea is, it needs to make a search in the database based on the token value and if it find it then the WF Moves forward else it gives an error message. Any idea of how i can do this part of my WF 0 0 Post Link Replies Sort by: Most popular Most popular Oldest to newest Newest to oldest replied on September 29, 2016 • Show version history Hi Iqbal, You can use Query Data activity &nbsp;&nbsp; then search the value token in the table &",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "The type initializer for SystemServiceModelChannelsMsmq threw an exception",
+    "url": "https://answers.laserfiche.com/questions/77853/The-type-initializer-for-SystemServiceModelChannelsMsmq-threw-an-exception",
+    "snippet": "ew an exception. Workflow SDK Updated February 3, 2022 Subscribe Subscribed asked on May 27, 2015 If you don't have Message Queueing installed on the computer where you are running your LF WF SDK code, you will get this error \"The type initializer for 'System.ServiceModel.Channels.Msmq' threw an exception.\" at workflow.StartWorkflow (....) function .... So make sure that you have msmq installed at the system running your code. 3 0 Post Link Replies Sort by: Most popular Most popular Oldest to newest Newest to oldes",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "doctype is an upexpected token The expected token is DOCTYPE Line 3 Position 3",
+    "url": "https://answers.laserfiche.com/questions/86383/doctype-is-an-upexpected-token--The-expected-token-is-DOCTYPE--Line-3--Position-3",
+    "snippet": "ubscribe Subscribed Question 'doctype' is an upexpected token. The expected token is 'DOCTYPE'. Line 3, Position 3. Workflow Forms Updated November 5, 2015 Subscribe Subscribed asked on November 4, 2015 I'm getting this error in Workflow when I attempt to setup a Web Service (via the WF Admin Console). &nbsp;I create a new Web Service, Type = Laserfiche Forms, URL = \" http://[IPADDRESS]/forms\". &nbsp; I click Test URL, and I receiving the error stating \"'doctype' is an upexpected token. &nbsp;The expected token is",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Laserfiche Server/Repository Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "unable to find requested net data provider when configuring WF server at 911",
+    "url": "https://answers.laserfiche.com/questions/51324/unable-to-find-requested-net-data-provider-when-configuring-WF-server-at--911",
+    "snippet": "uary 26, 2014 I think your bottom right screenshot is going to help us resolve this issue. &nbsp; Can you check this http://forums.asp.net/t/1693277.aspx?+DbProviderFactories+section+can+only+appear+once+per+config+file+error article to see if it resolves this issue. &nbsp; The article content is to: &nbsp; Check these two files on the machine (start with the 4.0 version first). C : \\Windows\\Microsoft . NET\\Framework\\v 4.0 . 30319 \\Config\\Machine . Config C : \\Windows\\Microsoft . NET\\Framework\\v 2.0 . 50727 \\CONFIG",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 2,
+    "signature": "LFF5203-WFServerApiFault",
+    "signatureType": "error-code",
+    "title": "Forms WF Activity Instance Suspends with error The call to Laserfiche Workflow API was not successful Exception has been thrown by the target of an invocation LFF5203WFServerApiFault",
+    "url": "https://answers.laserfiche.com/questions/199426/Forms-WF-Activity-Instance-Suspends-with-error-The-call-to-Laserfiche-Workflow-API-was-not-successful-Exception-has-been-thrown-by-the-target-of-an-invocation-LFF5203WFServerApiFault",
+    "snippet": "Forms- WF Activity Instance Suspends with error: The call to Laserfiche Workflow API was not successful. (Exception has been thrown by the target of an invocation.). [LFF5203-WFServerApiFault] - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscr",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Version 9",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFF5203-WFServerApiFault"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 2,
+    "signature": "0104-WF6",
+    "signatureType": "error-code",
+    "title": "Laserfiche Workflow Export Error",
+    "url": "https://answers.laserfiche.com/questions/116850/Laserfiche-Workflow-Export-Error",
+    "snippet": "age LaserficheRio10.1.0.151 had LF WF 10.0 version. I subsequently upgraded LF Server to 10.1.0.254 where as workflow remained at 10.0.0.259. &nbsp; Diagnostics Data: The argument 'Id' was outside of the allowed range. [0104-WF6] Parameter name: Id Actual value was -1. ---Stack Trace--- &nbsp; &nbsp;at Laserfiche.Workflow.Objects.Options.ExternalOptionsBase`1.GetItem(Int32 objectId, Boolean throwIfNotFound) &nbsp; &nbsp;at Laserfiche.Workflow.Designer.Wfi.LinkedObjects.LinkedServerObjectSerializer`1.WriteXml(Import",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "0104-WF6"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Workflow",
+    "query": "Workflow \"WF\" error",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Sending email to distribution groups WF 10",
+    "url": "https://answers.laserfiche.com/questions/112235/Sending-email-to-distribution-groups-WF-10",
+    "snippet": "mail server. The work-around for this was to separate individual email with \" ; \" but to be able to control things from the back end we wanted to do a distribution group but the email does not get sent and it returns an error that the email address is invalid.&nbsp;Is this a bug on this version for them to be able to only use MS Exchange to work? &nbsp; &nbsp; 0 0 Post Link Replies Sort by: Most popular Most popular Oldest to newest Newest to oldest replied on December 12, 2016 Workflow does not try to resolve emai",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 10",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Search for Folder with Template Field Value",
+    "url": "https://answers.laserfiche.com/questions/233580/Search-for-Folder-with-Template-Field-Value",
+    "snippet": "15 I was pulled away for some other tasks. I changed ID to NUM so as not to confuse with the Laserfiche entry ID. Maruna's reply was the closest to an answer. I tried this on a different repository but kept receiving an error: {LF:Name=\"*\",Type=F} &&nbsp;{LF:LOOKIN=\"Employee-Payroll\\INACTIVE_Employees\\\",&nbsp; Subfolders=Y} & {[Employee Folder]:[Last Name]=\"SMITH\"} After looking through other posts, I changed the first ampersand to a dash: {LF:Name=\"*\",Type=F} - {LF:LOOKIN=\"Employee-Payroll\\INACTIVE_Employees\\\",&nb",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Web Client",
+      "Laserfiche Server/Repository Server",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Office Plugin A connection to Laserfiche web client cannot be made Refresh Laserfiche web client and try again",
+    "url": "https://answers.laserfiche.com/questions/211816/Office-Plugin--A-connection-to-Laserfiche-web-client-cannot-be-made-Refresh-Laserfiche-web-client-and-try-again",
+    "snippet": "ents are version&nbsp;11 (11.0.2304.16).&nbsp; My production environment works when I attempt to edit a document with MS Office.&nbsp; In my development environment when I attempt to edit a document, I get the following error: A connection to Laserfiche web client cannot be made. Refresh Laserfiche web client and try again. The magic number in GZip header is not correct. Make sure you are passing in a GZip stream. &nbsp; &nbsp;at Laserfiche.OfficePlugin.Common.DocModel.OPArtifactFactory.FromURL(IWin32Window hwnd, W",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Web Access 10 Import Services",
+    "url": "https://answers.laserfiche.com/questions/87612/Web-Access-10--Import-Services",
+    "snippet": "unts. The Google API Console is available at https://console.developers.google.com . 0 0 Post Link Replies Sort by: Most popular Most popular Oldest to newest Newest to oldest replied on August 1, 2018 The Access Denied error may be caused by not enabling required APIs in Google. Please check the app you registered in Google. There should have at least 2 APIs enabled:&nbsp; Google+ API&nbsp; and &nbsp;Drive API. 2 0 Post Link replied on April 4, 2016 Hi Ege, I'm getting an access error. Can you help out here or wou",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "View document in Word and Document Preview On Web Client getting ssl error",
+    "url": "https://answers.laserfiche.com/questions/169019/View-document-in-Word-and-Document-Preview-On-Web-Client-getting-ssl-error",
+    "snippet": "View document in Word and Document Preview On Web Client getting ssl error - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question View document in Word and Document Preview On Web Client getting ssl error Web Client Laserfic",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Web Client",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Checking in PDF Web Client Error",
+    "url": "https://answers.laserfiche.com/questions/138827/Checking-in-PDF--Web-Client-Error",
+    "snippet": "Checking in PDF - Web Client Error - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Checking in PDF - Web Client Error Laserfiche Updated April 5, 2018 Subscribe Subscribed asked on March 29, 2018 • Show version histor",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Intermittent Unknown internal error 9036 on laserfiche web client",
+    "url": "https://answers.laserfiche.com/questions/157313/Intermittent--Unknown-internal-error-9036-on-laserfiche-web-client",
+    "snippet": "Intermittent - Unknown internal error. [9036] on laserfiche web client - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Intermittent - Unknown internal error. [9036] on laserfiche web client Laserfiche Version 10 Web C",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Web Client 11 Customer getting The Laserfiche 110 web server has encountered a an error and could complete your request error",
+    "url": "https://answers.laserfiche.com/questions/197795/Web-Client-11-Customer-getting-The-Laserfiche-110-web-server-has-encountered-a-an-error-and-could-complete-your-request-error",
+    "snippet": "Web Client 11- Customer getting \"The Laserfiche 11.0 web server has encountered a an error and could complete your request\" error - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Web Client 11- Customer getting \"The La",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Access Denied 9013 error after Laserfiche 12 upgrade of web client",
+    "url": "https://answers.laserfiche.com/questions/232169/Access-Denied-9013-error-after-Laserfiche-12-upgrade-of-web-client",
+    "snippet": "Access Denied [9013] error after Laserfiche 12 upgrade of web client - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Access Denied [9013] error after Laserfiche 12 upgrade of web client Web Client Version 12 Installat",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "web client new repository connection error sending http request to server",
+    "url": "https://answers.laserfiche.com/questions/181820/web-client-new-repository-connection-error-sending-http-request-to-server",
+    "snippet": "web client new repository connection error sending http request to server - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question web client new repository connection error sending http request to server Web Client Version 10",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 1,
+    "signature": "6720",
+    "signatureType": "error-code",
+    "title": "error 6720 when importing PDF",
+    "url": "https://answers.laserfiche.com/questions/108214/error-6720-when-importing-PDF",
+    "snippet": "error 6720 when importing PDF - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question error 6720 when importing PDF Laserfiche Updated October 5, 2016 Subscribe Subscribed asked on October 4, 2016 • Show version history I hav",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "6720"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Unable to locate server servernameon the network",
+    "url": "https://answers.laserfiche.com/questions/162412/Unable-to-locate-server-servernameon-the-network",
+    "snippet": "I've checked the SSL/TLS installation guide , but the only documentation about the connection between a repository server and Web Access server just says to enable the checkbox. The picture below shows that there is no error when SSL is disabled, and the error when SSL is enabled. &nbsp; Here are the errors from the event log: Log Name: Laserfiche-WebClient-Server/Operational Source: Laserfiche-WebClient-Server Date: 7/26/2019 1:26:01 PM Event ID: 1 Task Category: AdministrativeMessage Level: Information Keywords:",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Web Client",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 1,
+    "signature": "<i id=\"rootIcon\" class=\"icon-discussion24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Discussion</span> </span>",
+    "signatureType": "message-text",
+    "title": "Web Client Configuration Not Opening After Upgrading To 1021",
+    "url": "https://answers.laserfiche.com/questions/123069/Web-Client-Configuration-Not-Opening-After-Upgrading-To-1021",
+    "snippet": "Web Access.JPG (27.54 KB) | Download 0 0 Post Link Comments 11 Follow-Ups 0 Sort by: Newest to oldest Newest to oldest Most popular Oldest to newest replied on December 16, 2021 Hi, Did anyone find a resolution for this error? I am having the same issue. &nbsp; Mark 0 0 Post Link replied on October 20, 2017 What was the resolution to this issue? 0 0 Post Link View 4 previous replies replied on October 24, 2017 Hi Simon. Since nobody could assist I had to rebuild the pc 0 0 Post Link replied on October 24, 2017 Hi D",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Error Reading HTTP Response Body web client all browsers",
+    "url": "https://answers.laserfiche.com/questions/153895/Error-Reading-HTTP-Response-Body--web-client-all-browsers",
+    "snippet": "'Error Reading HTTP Response Body' - web client, all browsers - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question 'Error Reading HTTP Response Body' - web client, all browsers Web Client Laserfiche Version 10 Updated Apri",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 2,
+    "signature": "401",
+    "signatureType": "error-code",
+    "title": "Remote Server Error 401",
+    "url": "https://answers.laserfiche.com/questions/161990/Remote-Server-Error-401",
+    "snippet": "Remote Server Error 401 - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Remote Server Error 401 Version 10 Updated September 4, 2019 Subscribe Subscribed asked on July 17, 2019 • Show version history Anyone familiar w",
+    "sourceType": "Answers candidate - Laserfiche employee",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "401"
+    ],
+    "notes": "Fresh Answers pass candidate. Detail page text indicates a Laserfiche-associated reply may be present; review before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Client recently switched to subscription license Login error only for laserfiche web access",
+    "url": "https://answers.laserfiche.com/questions/179472/Client-recently-switched-to-subscription-license--Login-error-only-for-laserfiche-web-access",
+    "snippet": "Client recently switched to subscription license - Login error only for laserfiche web access - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Client recently switched to subscription license - Login error only for las",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Web Client",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 2,
+    "signature": "0x8009033E",
+    "signatureType": "error-code",
+    "title": "LF Web Client SmartCard Authentication Issue",
+    "url": "https://answers.laserfiche.com/questions/161443/LF-Web-Client--SmartCard-Authentication-Issue",
+    "snippet": "on is supported, isn't it? &nbsp; Does anyone has any thought/workaround&nbsp;?&nbsp; &nbsp; See bellow the full error message :&nbsp; Error Code: 6000&nbsp; Error Message: Smartcard logon is required and was not used. (0x8009033E)&nbsp; Unknown error. [6000]&nbsp; ------------ Technical Details: ------------&nbsp; LF.exe (10.4.0.311):&nbsp; Call Stack: (Exception)&nbsp; CLoginDialog::AttemptLogin&nbsp; CLoginDialog::LoginToServer&nbsp; CLoginView::LoginHandler&nbsp; Call Stack: (Current)&nbsp; CLoginDialog::LoginT",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Directory Server",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "0x8009033E",
+      "0x80041770"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "a connection to the Laserfiche web client cannot be made",
+    "url": "https://answers.laserfiche.com/questions/129201/a-connection-to-the-Laserfiche-web-client-cannot-be-made",
+    "snippet": "of what is being blocked though, no idea what this app does other than \"saves to Laserfiche\". 0 0 Post Link replied on October 23, 2017 Hi Chad, Could you please enable logging for office integration and get the details error so that we can check it? 0 0 Post Link replied on October 24, 2017 Where are the logging options? 0 0 Post Link replied on October 24, 2017 Hi Chad, Please follow the steps to enable logging options of Office integration. https://www.laserfiche.com/support/webhelp/Laserfiche/9.2/en-US/UserGuid",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 2,
+    "signature": "6000",
+    "signatureType": "error-code",
+    "title": "Multiple errors generating report from Desktop Client LF 102",
+    "url": "https://answers.laserfiche.com/questions/116203/Multiple-errors-generating-report-from-Desktop-Client-LF-102",
+    "snippet": "ds from my Search Results (Web Client Export) to show up in the Excel file. I then tried generating a report again from the LF Desktop Client using the Excel option.&nbsp; This was even worse because I got an Error Code 6000 and no resulting file (LF Client error). So my questions are: How to fix the Error Code 6000 when downloading an Excel file in LF Desktop Client 10.2? How to get all the fields downloaded in a csv file when downloading a file in LF Desktop Client 10.2? 3-1-17 LF client source.PNG (141.75 KB) |",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Web Client",
+      "Version 10",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "6000"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 2,
+    "signature": "0x800700C1",
+    "signatureType": "error-code",
+    "title": "Error at the First time installation of LF web access forms",
+    "url": "https://answers.laserfiche.com/questions/129148/Error-at-the-First-time-installation-of-LF-web-access-forms",
+    "snippet": "ur configuration file appropriately. &nbsp; Parser Error Message: &nbsp; Could not load file or assembly 'LfLicenseReader.dll' or one of its dependencies. &nbsp;is not a valid Win32 application. (Exception from HRESULT: 0x800700C1) Source Error: &nbsp; &nbsp; Line 41: <assemblies> Line 42: <add assembly=\"Laserfiche.RepositoryAccess, Version=10.0.0.0, Culture=neutral, PublicKeyToken=3f98b3eaee6c16a6\" /> Line 43: <add assembly=\"LfLicenseReader, Version=10.0.0.1, Culture=neutral, PublicKeyToken=607dd73ee2bd1c00\" /> Li",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Web Client",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "0x800700C1",
+      "0x80004005"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Connection with Office timed out",
+    "url": "https://answers.laserfiche.com/questions/168023/Connection-with-Office-timed-out",
+    "snippet": "uestion Connection with Office timed out Web Client Version 10 Laserfiche Integrations Updated December 31, 2019 Subscribe Subscribed asked on December 20, 2019 We have few users that&nbsp;sporadically get the following error when opening office files from the laserfiche web client (we are on LF version 10.4, have office 2010, and have the office integration/scanning components install on these machines): Has any one else experienced this error? Or any idea why the connection with office would time out? This occurs",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Error after upgrading to Laserfiche 11 with Update 1 LF is not defined when using URL from Generated Laserfiche Web Client URLs",
+    "url": "https://answers.laserfiche.com/questions/187179/Error-after-upgrading-to-Laserfiche-11-with-Update-1-LF-is-not-defined--when-using-URL-from-Generated-Laserfiche-Web-Client-URLs",
+    "snippet": "Error after upgrading to Laserfiche 11 with Update 1: \"LF is not defined\" - when using URL from Generated Laserfiche Web Client URLs - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Error after upgrading to Laserfiche",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Web Client",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "Enabling MFA for LFDS UsersGet UsernamePW incorrect when testing with Web Client",
+    "url": "https://answers.laserfiche.com/questions/196733/Enabling-MFA-for-LFDS-UsersGet-UsernamePW-incorrect-when-testing-with-Web-Client",
+    "snippet": "the&nbsp;MFA inherited behavior for Laserfiche User off\" User gets&nbsp;Username/PW incorrect when testing the login with the Web Client. When I look in Directory Server->Server->Operational logs I see the following MFA error: Error of type 'Laserfiche.LicenseManager.InvalidMfaConfigurationException' while trying to issue a token. &nbsp;Laserfiche.LicenseManager.InvalidMfaConfigurationException: Exception of type 'Laserfiche.LicenseManager.InvalidMfaConfigurationException' was thrown. The user is a LFDS user, not W",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 2,
+    "signature": "0x8007000d",
+    "signatureType": "error-code",
+    "title": "is web access 102 compatible with windows server 2016",
+    "url": "https://answers.laserfiche.com/questions/122385/is-web-access-102-compatible-with-windows-server-2016",
+    "snippet": "id. Detailed Error Information: Module&nbsp;&nbsp; &nbsp; &nbsp; IIS Web Core Notification&nbsp;&nbsp; &nbsp; &nbsp; BeginRequest Handler&nbsp;&nbsp; &nbsp; &nbsp; Not yet determined Error Code&nbsp;&nbsp; &nbsp; &nbsp; 0x8007000d Config Error&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; Config File&nbsp;&nbsp; &nbsp; &nbsp; \\\\?\\C:\\Program Files\\Laserfiche\\Web Access\\Web Files\\web.config Requested URL&nbsp;&nbsp; &nbsp; &nbsp; http://localhost:80/laserfiche/configuration/configuration.aspx Physical Path&nbsp;&nbsp; &nbsp; &nbsp",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "0x8007000d",
+      "HTTP Error 500.19",
+      "500"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 2,
+    "signature": "0xc0042335",
+    "signatureType": "error-code",
+    "title": "Cant Check Access Rights for Users from Our Main Identity Provider",
+    "url": "https://answers.laserfiche.com/questions/206599/Cant-Check-Access-Rights-for-Users-from-Our-Main-Identity-Provider",
+    "snippet": "-- LFSO: Call Stack: (Exception) LFSession::ProcessResponse LFSession::SendRequest (XCALCACCESS /+LF/entry/1) CLFEffectiveRights::CreateForDispatch ILFEntryImpl::get_EffectiveRightsByTrustee Additional Details: HRESULT: 0xc0042335 (LFSession::ProcessResponse, lfsession.cpp:3901) (LFSO/10.4.2.85) LF.exe (10.4.2.247): Call Stack: (Current) CEffectiveRightsTab::OnBnClickedBtnChooseTrustee Additional Details: Exception: 0xc0042335 [9013] (Permission denied.) (CEffectiveRightsTab::OnBnClickedBtnChooseTrustee at effectiv",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "0xc0042335"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Web Client",
+    "query": "\"Web Client\" error Laserfiche",
+    "page": 2,
+    "signature": "<i id=\"rootIcon\" class=\"icon-question24 large32 pull-left post-icon\"></i> <span> <span id=\"rootPostType\">Question</span> </span>",
+    "signatureType": "message-text",
+    "title": "WebAccessCustomActionsCustomActionsCreateWorkflowInstance",
+    "url": "https://answers.laserfiche.com/questions/237017/WebAccessCustomActionsCustomActionsCreateWorkflowInstance",
+    "snippet": "27 Subscribe Subscribed asked on May 27 • Show version history After upgrading from Laserfiche 11 to Laserfiche 12 , our custom Web Client action button that previously triggered a workflow now fails with the following error: Error: System.Net.WebException: The remote server returned an error: (401) Unauthorized. at System.Net.HttpWebRequest.GetResponse() at WebAccessCustomActions.CustomActions.CreateWorkflowInstance(String json, String workflowServer) at WebAccessCustomActions.CustomActions.InvokeWorkflow(String",
+    "sourceType": "Answers candidate - Laserfiche employee",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Web Client",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Detail page text indicates a Laserfiche-associated reply may be present; review before promotion."
   }
 ]

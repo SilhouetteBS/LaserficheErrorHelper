@@ -64,7 +64,7 @@ Generated: 2026-06-27
 | Quick Fields | 15 | 0 |
 | Records Management | 6 | 0 |
 | Snapshot | 3 | 0 |
-| Web Client Scanning | 8 | 0 |
+| Web Client | 8 | 0 |
 | WebLink | 16 | 0 |
 | Webtools Agent | 0 | 0 |
 | Windows Client/Desktop Client | 173 | 0 |
