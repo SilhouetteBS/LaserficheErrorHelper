@@ -6669,6 +6669,316 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "full-text-search-9493-swap-tag-corrupted",
+    code: "9493",
+    message: "The search catalog failed to start. The catalog settings are mis-configured.",
+    product: "Full Text Search",
+    versions: ["Version 9"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "A storage or server crash can leave a Full Text Search catalog unable to start with SWAP tag corrupted and 9493; Laserfiche employee guidance is to remove the catalog registration and rebuild from clean index files.",
+    symptoms: [
+      "LFFTS Event Viewer logs say the search catalog failed to start.",
+      "A related event says SWAP tag corrupted.",
+      "Administration Console Indexing Properties returns 9493 and cannot display the catalog settings.",
+    ],
+    likelyFixes: [
+      "Back up the registry before making changes.",
+      "Stop the Laserfiche Full Text Search and Indexing service.",
+      "Delete the registry key for the affected catalog under HKEY_LOCAL_MACHINE\\SOFTWARE\\Laserfiche\\LFFTS\\Database.",
+      "Delete the old catalog index files, usually from the SEARCH folder under the repository path.",
+      "Restart LFFTS, create a new catalog, and reindex the repository.",
+    ],
+    notes:
+      "This is an employee-confirmed registry and index-file rebuild path for a catalog that cannot be removed through Administration Console.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Search Catalog Failed to Start - SWAP Tag Corrupted",
+        url: "https://answers.laserfiche.com/questions/55622/Search-Catalog-Failed-to-Start--SWAP-Tag-Corrupted",
+        note: "Alexander Huang from Laserfiche recommends deleting the affected catalog registry key, deleting old index files, and recreating the catalog.",
+      },
+    ],
+  },
+  {
+    id: "audit-trail-fts-invalid-catalog-status",
+    code: "LFFTS-INVALID-CATALOG-STATUS",
+    message: "Failed to retrieve audit data because the Audit Trail search catalog has invalid status.",
+    product: "Audit Trail",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "After upgrading Audit Trail 11, searches can fail when the underlying Audit Trail Full Text Search catalog is stopped or has invalid catalog status; Laserfiche recommends recreating the Audit Trail catalog.",
+    symptoms: [
+      "Audit Trail search reports Failed to retrieve audit data and shows an OperationID.",
+      "Event or stack traces include STR_WARN_LFFTS_FAILED_SEARCH.",
+      "The stack mentions Invalid catalog status for the LfAudit search catalog.",
+    ],
+    likelyFixes: [
+      "Open the Audit Trail configuration interface and delete/recreate the Audit Trail search catalog.",
+      "Allow Audit Trail to repopulate the catalog from in-scope Laserfiche Server or Forms audit data.",
+      "Check LFFTS warnings first when Audit Trail has no direct Event Viewer error for the OperationID.",
+    ],
+    notes:
+      "Although the visible product is Audit Trail, employee replies identify the failure as an LFFTS catalog-status problem.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error When Searching Audit Trail After Upgrading to 11.0.2306.3549",
+        url: "https://answers.laserfiche.com/questions/216591/Error-When-Searching-Audit-Trail-After-Upgrading-to-11023063549",
+        note: "Samuel Carson from Laserfiche says the stack is LFFTS-side invalid catalog status and recommends deleting/recreating the Audit Trail catalog.",
+      },
+    ],
+  },
+  {
+    id: "full-text-search-event172-invalid-catalog-status",
+    code: "C00080A9 / 9421",
+    message: "There was an error sending an HTTP request to LFFTS.",
+    product: "Full Text Search",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Repository event ID 172 can report HTTP 500 from LFFTS with invalid catalog status when search index files are on a DFS share or otherwise locked.",
+    symptoms: [
+      "Repository server logs repeated Event Viewer errors for HTTP requests to LFFTS.",
+      "The message includes Invalid catalog status for the operation for the search catalog.",
+      "Administration Console may show Invalid Search Catalog Status 9421.",
+    ],
+    likelyFixes: [
+      "Detach and reattach the search catalog as a temporary recovery step.",
+      "Move search index files off DFS or other storage that locks index files.",
+      "Point the search index to a non-DFS drive and reindex if catalog status continues to flip.",
+    ],
+    notes:
+      "This entry is community-confirmed. The reviewed thread has no Laserfiche employee response.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Event Viewer Error clarification ID:172",
+        url: "https://answers.laserfiche.com/questions/161571/Event-Viewer-Error-clarification-ID172",
+        note: "Community reply ties the invalid catalog status to search files stored on DFS and recommends moving the index files to non-DFS storage.",
+      },
+    ],
+  },
+  {
+    id: "full-text-search-9498-session-reset",
+    code: "9498",
+    message: "Failed to find the full-text search session. The connection to the search engine might have been reset.",
+    product: "Full Text Search",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Search can fail with 9498 when the client loses or cannot find its Full Text Search session; the public thread has only community suggestions to check or rebuild the search index.",
+    symptoms: [
+      "Client search fails with 9498.",
+      "The message says the connection to the search engine might have been reset.",
+      "Changing SearchDeleteTime did not resolve the reviewed case.",
+    ],
+    likelyFixes: [
+      "Check whether the Laserfiche Full Text Search service is stable and reachable.",
+      "Review catalog status in Administration Console.",
+      "Regenerate the search index files if the catalog appears corrupt or unstable.",
+      "Open a Support case if 9498 repeats because no public employee-confirmed fix was posted.",
+    ],
+    notes:
+      "Published as unresolved because the thread lacks a confirmed final fix or Laserfiche employee response.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Laserfiche Error 9498",
+        url: "https://answers.laserfiche.com/questions/80739/Laserfiche-Error-9498",
+        note: "Community replies suggest checking or regenerating search index files; the requester did not post a confirmed resolution.",
+      },
+    ],
+  },
+  {
+    id: "full-text-search-7801-crash-readonly",
+    code: "7801",
+    message: "General failure in the search engine while catalog switches to read-only.",
+    product: "Full Text Search",
+    versions: ["Version 9", "Version 10", "Version 12"],
+    confidence: "medium",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "LFFTS can crash during optimization or hit corrupt index data, then restart the catalog in read-only mode with 7801; reviewed guidance points to Support dump review or deleting and rebuilding the search index.",
+    symptoms: [
+      "LFFTS writes dump files and logs fatal errors during optimization.",
+      "Logs include Search catalog idx err: 7801.",
+      "The catalog is switched to read-only mode and indexing stops.",
+      "Workflow or other processes that rely on indexing may fail while the catalog is read-only.",
+    ],
+    likelyFixes: [
+      "If dump files are created, open a Support case and attach the .MDMP and .XML files named in the event log.",
+      "Delete the search index and reindex the repository when corruption is confirmed.",
+      "Upgrade from older 9.x builds when Support indicates the issue is fixed or mitigated in later versions.",
+      "Exclude search index files from backup or antivirus processes that may lock or corrupt IDX files.",
+    ],
+    notes:
+      "Version 12 is included because 7801 is in the official current error listing; the reviewed crash/read-only threads are older 9.x/10.x environments.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 7801 as General failure in the search engine.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "LFFTS Crashing and setting repository in read only mode.",
+        url: "https://answers.laserfiche.com/questions/113278/LFFTS-Crashing-and-setting-repository-in-read-only-mode",
+        note: "Laserfiche employee responses request LFFTS dump files and later report the end user deleted the search index and reindexed the repository.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Prop tree failed to get record.",
+        url: "https://answers.laserfiche.com/questions/117309/Prop-tree-failed-to-get-record",
+        note: "Miruna Babatie from Laserfiche explains LFFTS may only fail when it reaches a corrupted part of the catalog and recommends regenerating the catalog.",
+      },
+    ],
+  },
+  {
+    id: "full-text-search-memory-usage-config-cap",
+    code: "LFFTS-MEMORY-USAGE",
+    message: "LFFTS uses most available server memory.",
+    product: "Full Text Search",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "LFFTS may use all available memory for performance, even when no searches or queued indexing tasks are visible; Laserfiche guidance is to use the Search Engine Configuration Utility to cap memory when other services share the server.",
+    symptoms: [
+      "LFFTS process memory grows to several gigabytes while queues show no active work.",
+      "Server memory pressure can prevent users from accessing Laserfiche.",
+      "Restarting the service or server temporarily clears memory use.",
+    ],
+    likelyFixes: [
+      "Run the Search Engine Configuration Utility and review showmem output.",
+      "Set an LFFTS memory cap appropriate for the server and other services running on it.",
+      "Confirm the exact LFFTS.exe build when asking Support to review abnormal memory behavior.",
+      "If memory remains uncontrolled or the catalog becomes read-only, investigate indexing/catalog corruption separately.",
+    ],
+    notes:
+      "Employee guidance says high memory use can be expected behavior, but later community replies suggest some environments still needed deeper indexing/catalog troubleshooting.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "LFFTS Memory Usage",
+        url: "https://answers.laserfiche.com/questions/139331/LFFTS-Memory-Usage",
+        note: "Yiping Chi from Laserfiche explains LFFTS memory management and recommends using the config utility to cap memory when other services need RAM.",
+      },
+    ],
+  },
+  {
+    id: "full-text-search-max-pages-lfword",
+    code: "LFFTS-MAX-PAGES",
+    message: "Reached max pages in page system for lfword.idx.",
+    product: "Full Text Search",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "LFFTS can crash with Reached max pages in page system for lfword.idx when the dictionary file reaches its supported page limit; Laserfiche employee guidance is to increase DictionaryFileExpansionOption.",
+    symptoms: [
+      "LFFTS logs Reached max pages in page system for lfword.idx.",
+      "A related error says Required invalid page 4294967293 in page system.",
+      "The LFFTS service crashes.",
+    ],
+    likelyFixes: [
+      "Stop the Laserfiche Full Text Indexing and Search service.",
+      "In HKEY_LOCAL_MACHINE\\SOFTWARE\\Laserfiche\\LFFTS\\Config, set DictionaryFileExpansionOption to a multiplier such as 4.",
+      "Restart the Laserfiche Full Text Indexing and Search service.",
+      "Open a Support case when the environment is new or the error seems unrelated to catalog size.",
+    ],
+    notes:
+      "The employee reply clarifies that pages refer to pages in lfword.idx, not repository document pages.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "LFFTS: Reached max pages in page system",
+        url: "https://answers.laserfiche.com/questions/197162/LFFTS-Reached-max-pages-in-page-system",
+        note: "Alexander Huang from Laserfiche explains DictionaryFileExpansionOption and the lfword.idx page limit.",
+      },
+    ],
+  },
+  {
+    id: "full-text-search-index-mirror-not-supported",
+    code: "LFFTS-INDEX-MIRROR",
+    message: "Mirroring search index files is not a supported corruption failover strategy.",
+    product: "Full Text Search",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche does not provide a mirrored search-index copy that automatically takes over when index files become corrupt; LFFTS failover can switch between service instances but shares one set of index files.",
+    symptoms: [
+      "Administrators want a mirror index to reduce downtime when catalog state becomes unknown or corrupt.",
+      "Rebuilding the index is disruptive for large repositories.",
+      "LFFTS failover is available but does not protect against corrupt index files.",
+    ],
+    likelyFixes: [
+      "Use LFFTS failover for service-instance availability, understanding both instances share the same index files.",
+      "Do not rely on a replicated stale index copy unless Support has approved the architecture.",
+      "Increase Windows service shutdown timeout if service-control termination is contributing to index rollback events.",
+      "Plan index rebuild procedures and maintenance windows for corruption recovery.",
+    ],
+    notes:
+      "This is not an error code, but it documents a common recovery-design misconception for Full Text Search.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Mirror Laserfiche Search Index",
+        url: "https://answers.laserfiche.com/questions/59905/Mirror-Laserfiche-Search-Index",
+        note: "Laserfiche employee replies state mirrored index failover is not available, LFFTS failover shares index files, and LFFTS can roll back IDX files on restart.",
+      },
+    ],
+  },
+  {
+    id: "full-text-search-9491-readonly-optimization",
+    code: "9491",
+    message: "The search catalog is in read-only mode.",
+    product: "Full Text Search",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Full Text Search 10.3 can put a catalog into read-only mode with 9491 during optimization or text-provider failures; Laserfiche employee guidance points to disabling optimization, recreating the catalog, and checking IFilters/problematic file types.",
+    symptoms: [
+      "Administration Console reports 9491 and says full-text search is available but indexing and stop-word updating are disabled.",
+      "Event Viewer reports Failed to modify the read-only search catalog.",
+      "TextProvider warnings mention an unhandled exception while extracting text from Office documents such as xlsx.",
+    ],
+    likelyFixes: [
+      "Check for problematic IFilters or corrupted electronic documents named in TextProvider warnings.",
+      "Install a proper IFilter for the file type or add problematic extensions to the BlockedExtensions registry list.",
+      "For the known 10.3 issue, disable optimization using the Laserfiche-provided registry value, restart LFFTS, and recreate the catalog.",
+      "Upgrade to the next 10.3 release or later if the environment matches the known optimization issue.",
+      "Open Support if TRACE WordTree.cpp messages or read-only behavior continue after the workaround.",
+    ],
+    notes:
+      "Cangfei Xiang from Laserfiche says the issue would be resolved in the next 10.3 release and confirms the registry workaround approach.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Search Catalog Error 9491",
+        url: "https://answers.laserfiche.com/questions/134494/Search-Catalog-Error-9491",
+        note: "Cangfei Xiang from Laserfiche discusses the 10.3 optimization workaround and confirms the registry-key approach before recreating the catalog.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
