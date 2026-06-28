@@ -6310,6 +6310,365 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "installer-sidebyside-common-controls",
+    code: "INSTALLER-SIDEBYSIDE-COMMON-CONTROLS",
+    message: "SideBySide event for Laserfiche Server Setup.exe common controls.",
+    product: "Laserfiche Installer",
+    versions: ["Version 9", "Version 10"],
+    confidence: "medium",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche Server can log a Windows SideBySide common-controls conflict for Setup.exe; Laserfiche employee guidance says it can be ignored and was fixed for Version 10.",
+    symptoms: [
+      "Windows Application event log records a SideBySide error for Common Files\\Laserfiche\\Server\\Setup.exe.",
+      "The event mentions conflicting x64 and x86 Microsoft.Windows.Common-Controls manifests.",
+      "The event appears during normal server operation or after installation rather than as a current setup failure.",
+    ],
+    likelyFixes: [
+      "Do not treat this SideBySide event as the cause of unrelated Workflow or integration hangs.",
+      "If the environment is still on Laserfiche 9.x, document the event and focus troubleshooting on the actual failing process.",
+      "Upgrade to Version 10 or later if this benign event needs to be eliminated.",
+    ],
+    notes:
+      "Laserfiche employee replies explicitly say the event can be ignored and does not affect installation or normal server operation.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "SideBySide Error in Application event log",
+        url: "https://answers.laserfiche.com/questions/87873/SideBySide-Error-in-Application-event-log",
+        note: "Miruna Babatie from Laserfiche says the SideBySide event can be ignored and was fixed for Version 10.",
+      },
+    ],
+  },
+  {
+    id: "installer-client-0x643-install-state",
+    code: "0x00000643",
+    message: "Failed to install Laserfiche Client because installation state cannot be retrieved.",
+    product: "Laserfiche Installer",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche Client 9.1.1 installation can fail with 0x00000643 after a prior install/uninstall leaves Windows Installer state behind, especially if the original install was performed by another user.",
+    symptoms: [
+      "Client setup reports Unable to retrieve information about the installation state of Laserfiche Client.",
+      "The log says Failed to install Laserfiche Client (lf_en.msi). Error code: 0x00000643.",
+      "A previous Client install was removed but reinstall still fails.",
+    ],
+    likelyFixes: [
+      "Run the Microsoft Program Install and Uninstall troubleshooter to clean leftover Windows Installer state.",
+      "Reboot the workstation after cleanup before rerunning Laserfiche Client setup.",
+      "If cleanup does not resolve it, collect setup logs and open a Support case rather than continuing manual registry deletion.",
+    ],
+    notes:
+      "The reviewed case involved Windows XP and Laserfiche Client 9.1.1.548; use this as a Windows Installer state cleanup pattern, not as a version-specific patch.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Failed to install Laserfiche Client",
+        url: "https://answers.laserfiche.com/questions/69857/Failed-to-install-Laserfiche-Client",
+        note: "Alexander Huang from Laserfiche recommends Microsoft's install/uninstall cleanup utility for residual install state.",
+      },
+    ],
+  },
+  {
+    id: "installer-log-file-open-error",
+    code: "INSTALLER-LOG-FILE-OPEN",
+    message: "Error opening installation log file.",
+    product: "Laserfiche Installer",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche Scanning setup can surface the Windows Installer error opening installation log file; Laserfiche employee guidance treats it as a Windows Installer/log path issue rather than a Laserfiche-specific installer defect.",
+    symptoms: [
+      "Laserfiche Scanning installer reports Error opening installation log file.",
+      "The issue appears while installing Cloud scanning components.",
+      "The error text asks to verify the specified log file location exists and is writable.",
+    ],
+    likelyFixes: [
+      "Run setup from a local path with a writable temp/log location.",
+      "Clear stale Windows Installer temp/log state and confirm the installing account has write access to the log folder.",
+      "Follow Microsoft guidance for Windows Installer error opening installation log file if Laserfiche setup logs do not start.",
+    ],
+    notes:
+      "The public thread points to Microsoft Windows Installer remediation and does not include Laserfiche-specific steps.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Cloud scanning installation throws Error opening installation log file.",
+        url: "https://answers.laserfiche.com/questions/163490/Cloud-scanning-installation-throws-Error-opening-installation-log-file",
+        note: "Robert Strickland from Laserfiche says this is a Windows Installer error, not a Laserfiche-specific installer issue.",
+      },
+    ],
+  },
+  {
+    id: "installer-1316-account-already-exists",
+    code: "1316",
+    message: "The specified account already exists.",
+    product: "Laserfiche Installer",
+    versions: ["Version 9", "Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche Client upgrades can fail with Windows Installer error 1316 when leftover installation state or mixed component versions remain after an uninstall.",
+    symptoms: [
+      "Installing Laserfiche Client 9.2 over an earlier 9.x client returns Error 1316. The specified account already exists.",
+      "The installer then reports that installation failed and will be rolled back.",
+      "Uninstalling from Programs and Features alone may not clear the condition.",
+    ],
+    likelyFixes: [
+      "Run the Microsoft Program Install and Uninstall cleanup utility first.",
+      "If cleanup is insufficient, remove leftover Laserfiche application folders and Laserfiche-related registry state using normal change-control precautions.",
+      "Reboot before rerunning the Laserfiche installer.",
+      "Check for mixed Laserfiche component versions, such as OCR at a newer build than the Client.",
+    ],
+    notes:
+      "The requester confirmed manual cleanup plus reboot fixed the Laserfiche 9.2 installation; a later community reply describes mixed 9.1/10.4.1 components as another trigger.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error 1316: The specified account already exists when installing LF 9.2",
+        url: "https://answers.laserfiche.com/questions/69676/Error-1316-The-specified-account-already-exists-when-installing-LF-92",
+        note: "Justin Pava from Laserfiche recommends Microsoft's installation cleanup utility; requester confirmed deeper cleanup and reboot resolved the install.",
+      },
+    ],
+  },
+  {
+    id: "installer-1935-icu-commit-0x800700c1",
+    code: "1935 / 1712 / 0x800700C1",
+    message: "Error while committing system changes during Windows Client installation.",
+    product: "Laserfiche Installer",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Windows Client 10.2.1 installation can fail while committing system changes with a Laserfiche.ICU assembly error; community replies suggest local installation media and elevated setup execution.",
+    symptoms: [
+      "Laserfiche Rio 10.2.1 module installation reports Error 1935.",
+      "The assembly details mention Laserfiche.ICU.Release and 0x800700C1.",
+      "After acknowledging the error, repeated 1712 errors appear and setup says rollback may not complete automatically.",
+    ],
+    likelyFixes: [
+      "Copy the Support, Client, and OCR folders from installation media to a local folder before running setup.",
+      "Run setup as administrator from the local folder.",
+      "If the issue persists on a clean workstation, collect setup logs and open a Support case because no employee-confirmed final fix was posted.",
+    ],
+    notes:
+      "The public thread has community workaround suggestions but no requester-confirmed or employee-confirmed final resolution.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Error while Committing System Changes during Windows Client 10.2.1 installation",
+        url: "https://answers.laserfiche.com/questions/129200/Error-while-Committing-System-Changes-during--Windows-Client-1021-installation",
+        note: "Community replies suggest copying installer folders locally and running setup with elevated rights for the 1935/1712 install failure.",
+      },
+    ],
+  },
+  {
+    id: "installer-lf10-lang-xml-missing",
+    code: "INSTALLER-LANG-XML-MISSING",
+    message: "Laserfiche 10 setup fails to launch because lang.xml is missing.",
+    product: "Laserfiche Installer",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche 10 setup can fail to launch when the Setup directory is missing lang.xml; Laserfiche employee guidance provides the missing language file workaround.",
+    symptoms: [
+      "Autorun or setup for Laserfiche 10 fails immediately during launch.",
+      "The installer media's Setup directory is missing lang.xml.",
+      "The problem appears before normal component selection or installation logs are useful.",
+    ],
+    likelyFixes: [
+      "Check whether lang.xml exists in the Setup directory shown by the installer error.",
+      "Restore lang.xml from known-good Laserfiche 10 installation media or the file provided by Support.",
+      "Re-extract or recopy the installation media if other setup files are missing.",
+    ],
+    notes:
+      "The reviewed thread does not include the exact screenshot text, but employee guidance centers on the missing lang.xml file.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error while launching LF 10 setup",
+        url: "https://answers.laserfiche.com/questions/101980/Error-while-launching-LF-10-setup",
+        note: "Justin Pava from Laserfiche asks whether lang.xml is present and provides a replacement file renamed from lang.txt.",
+      },
+    ],
+  },
+  {
+    id: "windows-client-text-extractor-load-failed",
+    code: "TEXT-EXTRACTOR-LOAD-FAILED",
+    message: "Failed to load Text Extractor.",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The Windows Client can fail to load the Text Extractor while OCR/text extraction works on another workstation; the public thread has diagnostic guidance but no confirmed fix.",
+    symptoms: [
+      "A workstation reports Failed to load Text Extractor.",
+      "The issue may affect all OCR/text extraction attempts on that workstation.",
+      "Another workstation with a similar Laserfiche installation may not reproduce the error.",
+    ],
+    likelyFixes: [
+      "Test the same document on another workstation to distinguish document-specific issues from local installation issues.",
+      "Compare OS, Laserfiche Client/OCR components, and installed text extraction components between working and failing machines.",
+      "Repair or reinstall the client/OCR components if the failure is isolated to one workstation.",
+      "Open a Support case with a sample document if the failure is document-specific.",
+    ],
+    notes:
+      "Published as unresolved because the employee reply provides useful diagnostic questions but no final public resolution.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Failed to Load Text Extractor",
+        url: "https://answers.laserfiche.com/questions/61140/Failed-to-Load-Text-Extractor",
+        note: "Alexander Huang from Laserfiche recommends isolating document-specific versus workstation-specific causes and opening Support with a reproducible sample.",
+      },
+    ],
+  },
+  {
+    id: "federated-search-endpoint-mismatch-103",
+    code: "FEDSEARCH-ENDPOINT-MISMATCH",
+    message: "The search service has not been started, or the endpoint does not match.",
+    product: "Federated Search",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Federated Search 10.3 admin can report that the search service has not started or the endpoint does not match when SSL/FQDN endpoint values remain set to localhost or a wildcard certificate name.",
+    symptoms: [
+      "Federated Search installs and activates, but the admin page reports the search service has not been started or the endpoint does not match.",
+      "Federated Search services are running.",
+      "Config files contain https://localhost/FederatedSearchApi or a wildcard host such as https://*.client.com.",
+    ],
+    likelyFixes: [
+      "Bind a valid SSL certificate on port 443 before changing endpoint values.",
+      "Stop the FederatedSearch service.",
+      "Restart the FederatedSearchAdminAppPool and FederatedSearchAppPool in IIS.",
+      "Replace localhost or wildcard endpoint values with the server FQDN in the SearchSite, AdminSite, SearchService, FederatedSearch.json, and ServiceContainer.json configuration files.",
+      "Start the FederatedSearch service and retest the admin page.",
+    ],
+    notes:
+      "The source calls this a Federated Search 10.3 issue and includes a requester confirmation for wildcard SSL endpoint replacement.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Federated Search Setup Error",
+        url: "https://answers.laserfiche.com/questions/136138/Federated-Search-Setup-Error",
+        note: "Yuhao Gu from Laserfiche provides the SSL/FQDN endpoint workaround; requester later confirms replacing wildcard endpoint values fixed repository add behavior.",
+      },
+    ],
+  },
+  {
+    id: "installer-lf11-rollback-generic",
+    code: "INSTALLER-ROLLBACK-FAILED",
+    message: "Installation failed and the system may not be able to roll back automatically.",
+    product: "Laserfiche Installer",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche 11 setup can fail with a generic rollback warning on a new workstation; the reviewed public thread has no replies, so this entry is for recognition and evidence gathering.",
+    symptoms: [
+      "Laserfiche 11 installer reports Installation failed.",
+      "A follow-up warning says the system may not be able to roll back the installation automatically.",
+      "The installer was downloaded locally and run by an administrator.",
+    ],
+    likelyFixes: [
+      "Rerun setup with logging enabled and capture the component MSI log that fails before the rollback warning.",
+      "Confirm the installer files are local, unblocked, and run elevated.",
+      "Check Windows Event Viewer and Programs and Features for partially installed Laserfiche components before retrying.",
+      "Open a Support case with setup logs because the public thread has no confirmed fix.",
+    ],
+    notes:
+      "This is intentionally unresolved; the generic rollback message by itself is not enough to identify the failing MSI component.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Installation Error: Installation failed. The system may not be able to roll back the installation automatically",
+        url: "https://answers.laserfiche.com/questions/224245/Installation-Error-Installation-failed-The-system-may-not-be-able-to-roll-back-the-installation-automatically",
+        note: "Thread documents the Laserfiche 11 rollback warning on a new computer but has no public replies.",
+      },
+    ],
+  },
+  {
+    id: "installer-aspnet45-server2016-prerequisite",
+    code: "ASPNET45-PREREQUISITE",
+    message: "ASP.NET 4.5 prerequisite is not detected on Windows Server 2016.",
+    product: "Laserfiche Installer",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche 10-era web component installers can fail prerequisite detection for ASP.NET 4.5 on Windows Server 2016, where ASP.NET is exposed through newer .NET/IIS feature names.",
+    symptoms: [
+      "Laserfiche web component setup asks for ASP.NET 4.5 on Windows Server 2016.",
+      "ASP.NET 4.6 is installed under .NET Framework features but setup still does not pass prerequisites.",
+      "The issue is reported while installing LFDS, Forms Essentials, or Web Client components.",
+    ],
+    likelyFixes: [
+      "Enable ASP.NET under the IIS Web Server > Application Development role services, not only under .NET Framework features.",
+      "On Server 2016/2019-style systems, run DISM from an elevated command prompt: dism /online /enable-feature /featurename:IIS-ASPNET45 /all.",
+      "After enabling IIS ASP.NET features, rerun the Laserfiche prerequisite check.",
+      "Avoid bypassing the prerequisite without enabling the IIS ASP.NET dependency because the site may fail with HTTP errors afterward.",
+    ],
+    notes:
+      "Laserfiche employee guidance identifies ASP.NET as a Windows/IIS feature on Server 2016; community replies confirm the DISM feature-enable command worked where checkbox-only approaches did not.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Unable to install ASP.NET 4.5 in Windows DataCenter 2016",
+        url: "https://answers.laserfiche.com/questions/114458/Unable-to-install-ASPNET-45-in-Windows-DataCenter-2016",
+        note: "Miruna Babatie from Laserfiche points to ASP.NET under Windows/IIS features; community replies confirm enabling IIS-ASPNET45 with DISM resolved prerequisite detection.",
+      },
+    ],
+  },
+  {
+    id: "workflow-sdk83-uninstall-prerequisite",
+    code: "WORKFLOW-SDK83-UNINSTALL",
+    message: "Uninstall Workflow SDK 8.3 Failed.",
+    product: "Workflow",
+    versions: ["Version 9"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "During a Workflow 8.3 to 9.2.1 upgrade, the prerequisite step can fail to uninstall Workflow SDK 8.3 until the SDK is repaired or reinstalled from the old media.",
+    symptoms: [
+      "Workflow 9.2.1 prerequisites report Uninstall Workflow SDK 8.3 Failed.",
+      "Workflow SDK 8.3 may have already been manually removed from Control Panel.",
+      "Running the wrong installer from the old media may only launch .NET Framework setup.",
+    ],
+    likelyFixes: [
+      "Locate the Workflow SDK 8.3 installer in the old media, usually under the x86 folder as WorkflowSDKSetup.msi.",
+      "Reinstall or repair Workflow SDK 8.3.",
+      "Rerun the Workflow 9.2.1 installer so its prerequisite handling can uninstall the SDK cleanly.",
+      "If the SDK still appears stuck in Add/Remove Programs, use the Microsoft install/uninstall cleanup utility as Laserfiche suggested.",
+    ],
+    notes:
+      "The requester confirmed reinstalling Workflow SDK 8.3 allowed the 9.2.1 install process to handle the upgrade without needing MS Fixit.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Uninstall Workflow SDK 8.3 Failed",
+        url: "https://answers.laserfiche.com/questions/73497/Uninstall-Workflow-SDK-83-Failed",
+        note: "Raymond Cruz and Miruna Babatie from Laserfiche guide the requester to reinstall Workflow SDK 8.3 from the correct x86 MSI before rerunning setup.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));

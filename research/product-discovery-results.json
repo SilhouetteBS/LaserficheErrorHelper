@@ -2007,7 +2007,9 @@
     "snippet": "\"SideBySide\" Error in Application event log to interface between QuickBooks and Laserfiche , and WorkFlow pulls data out and populate client files. There is an issue where the entire process hangs and ... program files (x86)\\common files\\ laserfiche \\Server\\ Setup .exe\". Error in manifest or policy file \"\" on line . A component version required by the application conflicts ...... posted by Caleb Chamberlain 19 Dec 2, 2015 updated by Caleb Chamberlain 19 May 19, 2016 10 replies · 4979 views · 0 0",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as benign Laserfiche Installer SideBySide common-controls event."
   },
   {
     "product": "Laserfiche Installer",
@@ -2018,11 +2020,13 @@
     "snippet": "Failed to install Laserfiche Client is unable to install the Laserfiche client 9.1.1.548. A normal install fails with error 'Unable to retrieve information about the installation state ... 1700] 09:40:54.697 Failed to install Laserfiche Client ( lf _en.msi). Error code: 0x00000643. The client machine is x86 and OS is XP ...... posted by Michel Dubé 51 Jan 21, 2015 updated by Alexander Huang 27494 Jan 26, 2015 3 replies · 2215 views · 0 0 · Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-partial",
     "queries": [
       "Laserfiche installation \"failed\"",
       "Laserfiche setup \"error\""
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Laserfiche Client installer 0x00000643 residual install-state cleanup."
   },
   {
     "product": "Laserfiche Installer",
@@ -2048,7 +2052,9 @@
     "snippet": "Laserfiche 11 Audit Trail Install Error Laserfiche 11 Audit Trail (v11.0.2210.3156) install fails with error code 2343: This is on Windows 2022 with IIS installed and running (v10 ...... posted by Barry Sword 4 Jun 14, 2023 updated by Barry Sword 4 Jun 15, 2023 4 replies · 633 views · 0 0 · Laserfiche Version 11 Audit Trail Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Already curated under Audit Trail install error 2343 with Installer tag."
   },
   {
     "product": "Laserfiche Installer",
@@ -2060,7 +2066,9 @@
     "snippet": "Cloud scanning installation throws Error opening installation log file. Cloud customer is trying to install LFScanning, they are geting the following error : Any ideas on how to fix this?... posted by Bert Warren 6065 Aug 22, 2019 updated by Robert Strickland 7546 Aug 22, 2019 1 reply · 472 views · 0 0 · Scanning Version 10 Installation and Upgrades Laserfiche Cloud",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Windows Installer log-file-open failure during Laserfiche Scanning setup."
   },
   {
     "product": "Laserfiche Installer",
@@ -2071,11 +2079,13 @@
     "snippet": "Error 1316: The specified account already exists when installing LF 9.2 9.2 over the top of LF 9.0.x. During the installation routine, I get the error message: \" Error 1316. The specified account already exists ... I receive a follow up error message: \" Installation failed. The installation will be rolled back in the background.\" I have tried uninstall LF 9.0 ...... posted by Justin Lasley 12 Jan 17, 2015 updated by Robert Wagner 6 Dec 30, 2019 3 replies · 47206 views · 1 0 · Laserfiche Installa",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "Laserfiche Installer \"error\"",
       "Laserfiche installation \"failed\""
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Laserfiche Installer 1316 leftover install-state cleanup."
   },
   {
     "product": "Laserfiche Installer",
@@ -2087,7 +2097,9 @@
     "snippet": "Error while Committing System Changes during Windows Client 10.2.1 installation I am getting the below error while installing any Laserfiche Rio 10.2.1 modules on a new PC running Windows 10 64-bit with ... OK, a series of same error 1:1712 occur then message Laserfiche Setup Installation failed. The system may not be able to roll back the ...... posted by Khanh Doan 15 Oct 18, 2017 updated by Kelvin Mean 0 Nov 22, 2023 5 replies · 1655 views · 1 0 · Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Installer 1935/1712 ICU commit failure with community workarounds."
   },
   {
     "product": "Laserfiche Installer",
@@ -2099,7 +2111,9 @@
     "snippet": "Error while launching LF 10 setup try to run the iso setup file i get this error : Can anyone help please? If the setup is not correct can anyone please give ...... posted by Ketsia Moonien 123 Jul 20, 2016 updated by Justin Pava 7761 Jul 21, 2016 3 replies · 489 views · 0 0 · Laserfiche Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Laserfiche 10 setup lang.xml missing launch failure."
   },
   {
     "product": "Laserfiche Installer",
@@ -2110,11 +2124,13 @@
     "snippet": "Failed to install Laserfiche Client is unable to install the Laserfiche client 9.1.1.548. A normal install fails with error 'Unable to retrieve information about the installation state ... 1700] 09:40:54.697 Failed to install Laserfiche Client ( lf _en.msi). Error code: 0x00000643. The client machine is x86 and OS is XP ...... posted by Michel Dubé 51 Jan 21, 2015 updated by Alexander Huang 27494 Jan 26, 2015 3 replies · 2215 views · 0 0 · Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-partial",
     "queries": [
       "Laserfiche installation \"failed\"",
       "Laserfiche setup \"error\""
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Laserfiche Client installer 0x00000643 residual install-state cleanup."
   },
   {
     "product": "Laserfiche Installer",
@@ -2126,7 +2142,9 @@
     "snippet": "Failed to Load Text Extractor My client is receiving the error \" Failed to load Text Extractor\". Has anyone else seen this error before? I don't find any references to it ...... posted by Brian Harvey 50 Aug 13, 2014 updated by Brian Harvey 50 Aug 25, 2014 2 replies · 702 views · 0 0 · Laserfiche Version 9 Version 8 Integrations Scanning",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated under Windows Client/Desktop Client text extractor failure, not Installer."
   },
   {
     "product": "Laserfiche Installer",
@@ -2138,7 +2156,9 @@
     "snippet": "Federated Search Setup Error of a new client's LF install and am getting a strange error . The install itself goes fine and activates against LFDS without issue. When ... page, I get the following error \"The search service has not been started, or the endpoint does not match. Please contact your administrator. \" I have ...... posted by Jason Beck 102 Feb 23, 2018 updated by Shengyao Que 341 Apr 10, 2019 19 replies · 1000 views · 0 0 · Laserfiche Search and Retrieval",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated under Federated Search endpoint mismatch setup issue."
   },
   {
     "product": "Laserfiche Installer",
@@ -2150,7 +2170,9 @@
     "snippet": "Installation Error: \"Installation failed. The system may not be able to roll back the installation automatically\" messages. I've downloaded the LF 11 installation file to the local computer to run, and the account I'm installing with has administrative privileges ...... posted by Kendra Rowe 4 Oct 3, 2024 0 replies · 556 views · 0 0 · Version 11 Laserfiche Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as unresolved Laserfiche 11 generic rollback warning."
   },
   {
     "product": "Laserfiche Installer",
@@ -2162,7 +2184,9 @@
     "snippet": "Laserfiche 11 Audit Trail Install Error Laserfiche 11 Audit Trail (v11.0.2210.3156) install fails with error code 2343: This is on Windows 2022 with IIS installed and running (v10 ...... posted by Barry Sword 4 Jun 14, 2023 updated by Barry Sword 4 Jun 15, 2023 4 replies · 633 views · 0 0 · Laserfiche Version 11 Audit Trail Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Already curated under Audit Trail install error 2343 with Installer tag."
   },
   {
     "product": "Laserfiche Installer",
@@ -2174,7 +2198,9 @@
     "snippet": "Federated Search Setup Error of a new client's LF install and am getting a strange error . The install itself goes fine and activates against LFDS without issue. When ... page, I get the following error \"The search service has not been started, or the endpoint does not match. Please contact your administrator. \" I have ...... posted by Jason Beck 102 Feb 23, 2018 updated by Shengyao Que 341 Apr 10, 2019 19 replies · 1000 views · 0 0 · Laserfiche Search and Retrieval",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated under Federated Search endpoint mismatch setup issue."
   },
   {
     "product": "Laserfiche Installer",
@@ -2186,7 +2212,9 @@
     "snippet": "Unable to install ASP.NET 4.5 in Windows DataCenter 2016 Has anyone done an install onto Windows Data Center 2016? I am having trouble finding a way to install the ASP.NET 4.5 prerequisite ...... posted by Steve Rogers 2 Jan 26, 2017 updated by Mike Vanhook 0 Sep 11, 2023 26 replies · 13315 views · 1 0 · Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as ASP.NET/IIS prerequisite detection guidance for Laserfiche web component installers."
   },
   {
     "product": "Laserfiche Installer",
@@ -2198,7 +2226,9 @@
     "snippet": "Uninstall Workflow SDK 8.3 Failed the Prerequisites I get the error message \"Uninstall Workflow SDK 8.3 Failed\". :( I went ahead and uninstalled the Workflow 8.3 manually from the ...... posted by Rudy Gireyev 20 Mar 17, 2015 updated by Rudy Gireyev 20 Mar 18, 2015 12 replies · 545 views · 0 0 · Workflow Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated under Workflow SDK 8.3 uninstall prerequisite issue."
   },
   {
     "product": "Laserfiche Installer",
