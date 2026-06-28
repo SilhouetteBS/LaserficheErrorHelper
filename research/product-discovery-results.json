@@ -2542,7 +2542,7 @@
     "snippet": "Quick Fields Agent Error : The license is missing. [0101-QF0] Laserfiche.QuickFields.AgentErrorLogger.WriteErrorToXml(Exception error , XmlWriter writer) at Laserfiche.QuickFields.AgentErrorLogger.WriteError(Exception error ) at Laserfiche.QuickFields.Program.WriteErrorMessage(BPApplication app, Exception error ) at ...... posted by Chase Ayers 258 Dec 30, 2015 updated by Alexander Huang 27494 Dec 31, 2015 11 replies · 1334 views · 0 0 · Quick Fields",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "Quick Fields \"session\" error",
       "Quick Fields \"OCR\" error"
@@ -2558,7 +2558,7 @@
     "snippet": "Can we get documentation for the activation error code 0109-QF0 0109 is \"License activation failed.\" Quick Fields does not have information on why. Given the timing of your post, it's likely the same issue ...... posted by Chad Saar 3975 Dec 22, 2025 updated by Chad Saar 3975 Jan 5 2 replies · 184 views · 0 0 · Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial"
   },
   {
     "product": "Quick Fields",
@@ -2570,7 +2570,7 @@
     "snippet": "Page Search Broken? get an error this time: Error Code : 784 Error Message: Operation timed out. [784] It seems to just time out. I had done an advanced ...... posted by Dave Covell 14 Apr 4, 2014 updated by Dave Covell 14 Apr 10, 2014 9 replies · 1002 views · 0 0 · Laserfiche Version 9",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product"
   },
   {
     "product": "Quick Fields",
@@ -2582,7 +2582,7 @@
     "snippet": "LF Cloud and Quick Fields Scanning or password is incorrect [9010] error when starting QF Scanning? I am trying to scan from a scanner to the Laserfiche Cloud repository. It doesn ... Do you have to run Quick Fields if you're just going to use Quick Fields Scanning? They're two different applications.... posted by Jasciel Becerril 188 Oct 20, 2025 updated by Jasciel Becerril 188 Oct 23, 2025 4 replies · 441 views · 0 0 · Quick Fields Scanning",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial"
   },
   {
     "product": "Quick Fields",
@@ -2594,7 +2594,7 @@
     "snippet": "QF Agent Admin Console: Scheduled Sessions throwing \"Permission Denied [9013]\" error then throws the \"Permissions Denied\" error . Sessions does not even run for 1 second and errors out: We have checked and the account (Windows) that ...... posted by Jeff Curtis 725 Feb 1, 2022 updated by Jeff Curtis 725 Feb 10, 2022 2 replies · 524 views · 0 0 · Quick Fields Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Quick Fields",
@@ -2606,7 +2606,7 @@
     "snippet": "An error has occurred. (statut HTTP 500) [QF1001] m trying to use Laserfiche Quick Fields Administration Console but I have the error below : \"An error has occurred. (statut HTTP 500) [QF1001]\" ... In Laserfiche Administration Guide, under \" Error Code Listing\", I dont have the error QF1001 Do you have an issue about this? Thanks in advance. Regards... posted by Olivier Baccino 489 Aug 25, 2017 updated by Olivier Baccino 489 Aug 29, 2017 2 replies · 724 views · 0 0 · Quick Fields",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Quick Fields",
@@ -2618,7 +2618,7 @@
     "snippet": "Can we get documentation for the activation error code 0109-QF0 0109 is \"License activation failed.\" Quick Fields does not have information on why. Given the timing of your post, it's likely the same issue ...... posted by Chad Saar 3975 Dec 22, 2025 updated by Chad Saar 3975 Jan 5 2 replies · 184 views · 0 0 · Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial"
   },
   {
     "product": "Quick Fields",
@@ -2630,7 +2630,7 @@
     "snippet": "An error has occurred. (statut HTTP 500) [QF1001] m trying to use Laserfiche Quick Fields Administration Console but I have the error below : \"An error has occurred. (statut HTTP 500) [QF1001]\" ... In Laserfiche Administration Guide, under \" Error Code Listing\", I dont have the error QF1001 Do you have an issue about this? Thanks in advance. Regards... posted by Olivier Baccino 489 Aug 25, 2017 updated by Olivier Baccino 489 Aug 29, 2017 2 replies · 724 views · 0 0 · Quick Fields",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Quick Fields",
@@ -2642,7 +2642,7 @@
     "snippet": "input/output error when storing in quickfields we are receiving an input/output error when trying to store from quick fields . Everything looks right on the template, it is pulling all of the ... given. Just says input/output error. quick fields version 8.0.2.347 LF 9.02... posted by Casey Miller 196 Oct 6, 2017 updated by Sue Anglim 231 Jan 9, 2020 3 replies · 791 views · 0 0 · Quick Fields",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Quick Fields",
@@ -2653,7 +2653,7 @@
     "snippet": "Log error configuraton on quickfields Is there anyway to see an error log from quickfields? posted by Edgar Raul Nuñez 0 Aug 5, 2019 updated by Edgar Raul Nuñez 0 Aug 6, 2019 2 replies · 631 views · 0 0 · Quick Fields",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-partial",
     "queries": [
       "Quick Fields \"scan\" error",
       "Quick Fields \"metadata\" error"
@@ -2669,7 +2669,7 @@
     "snippet": "QF Agent Admin Console: Scheduled Sessions throwing \"Permission Denied [9013]\" error then throws the \"Permissions Denied\" error . Sessions does not even run for 1 second and errors out: We have checked and the account (Windows) that ...... posted by Jeff Curtis 725 Feb 1, 2022 updated by Jeff Curtis 725 Feb 10, 2022 2 replies · 524 views · 0 0 · Quick Fields Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Quick Fields",
@@ -2681,7 +2681,7 @@
     "snippet": "qf agent with error 9013 The issue was that in the Quick Fields session, the configuration for unidentified documents was still using Windows Authentication. After that was changed to Laserfiche Authentication ...... posted by Valerie Sue Ping 58 Oct 17, 2014 updated by Alexander Huang 27494 Oct 29, 2014 4 replies · 1166 views · 0 0 · Quick Fields",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Quick Fields",
@@ -2692,7 +2692,7 @@
     "snippet": "Quick Field Agent Error - Unable to Cast COM Object it is doing but the error keeps popping up in Quick Fields Agent Admin Console. Error : Type=\"InvalidCastException\" Message=\"Unable to cast COM object of ... causing it. We are on Quick Fields Agent 11.0.... posted by Scott Kibby 11 Apr 3, 2023 updated by Caili Zhong 125 May 25, 2025 4 replies · 1129 views · 1 0 · Quick Fields",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "Quick Fields \"session\" error",
       "Quick Fields \"scan\" error"
@@ -2707,7 +2707,7 @@
     "snippet": "Quick Fields - \"Field Error\" Errors QF sessions will indicate an error assigning a field that is not accurate. Quick Fields Version: 10.3.0.81 Example #1: Field Error ...... posted by Stephanie Lodge 36 Jan 28, 2020 updated by Stephanie Lodge 36 Jan 28, 2020 2 replies · 451 views · 0 0 · Quick Fields",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-partial",
     "queries": [
       "Quick Fields \"session\" error",
       "Quick Fields \"OCR\" error"
@@ -2723,7 +2723,7 @@
     "snippet": "Quick Fields Agent Error I am getting an error when running QF sessions in Quick Fields Agent 10.0. When running directly in Quick Fields 10.1, there is ...... posted by Howard Shlom 70 Jan 5, 2018 updated by Howard Shlom 70 Jan 8, 2018 4 replies · 1089 views · 0 0 · Quick Fields",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Quick Fields",
@@ -2734,7 +2734,7 @@
     "snippet": "Quick Fields Agent Error : The license is missing. [0101-QF0] Laserfiche.QuickFields.AgentErrorLogger.WriteErrorToXml(Exception error , XmlWriter writer) at Laserfiche.QuickFields.AgentErrorLogger.WriteError(Exception error ) at Laserfiche.QuickFields.Program.WriteErrorMessage(BPApplication app, Exception error ) at ...... posted by Chase Ayers 258 Dec 30, 2015 updated by Alexander Huang 27494 Dec 31, 2015 11 replies · 1334 views · 0 0 · Quick Fields",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "Quick Fields \"session\" error",
       "Quick Fields \"OCR\" error"
@@ -2750,7 +2750,7 @@
     "snippet": "Upgraded to Quick Fields 9, now unable to view Quick Fields Session and receiving the following error, There is an unclosed literal string. User is receiving the following error when they attempt to open their Quick Fields session , System.Xml.XmlException: There is an unclosed literal string. Line ... provider) at Laserfiche.BatchProcessor.ComponentModel. Session .OnReadSessionXml(XmlReader reader, Version version, IServiceProvider provider) at Laserfiche.BatchProcessor.ComponentModel.BaseTreeI",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Quick Fields",
@@ -2761,7 +2761,7 @@
     "snippet": "When running a session in Quick Fields user get's LF error 9013 just started happening recently. The error tab in Quick Fields has the below information: -1073470667 at LFSO90Lib.LFConnectionClass.Create(LFDatabase ... posted by Charles Nelson 183 Jun 14, 2016 updated by Chris Blake 9 Oct 11, 2017 6 replies · 922 views · 0 0 · Laserfiche Quick Fields Version 9",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "Quick Fields \"session\" error",
       "Quick Fields \"metadata\" error"
