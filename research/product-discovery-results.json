@@ -2874,11 +2874,13 @@
     "snippet": "Records Destruction documents, we receive the following error: =================================================================== Error Code: 6000 Error Message: Invalid pointer Invalid pointer [6000:0x80004003] (Invalid pointer ) ------------ Technical Details: ------------ ... having to destroy all these records one at a time will take forever. Thanks, Robert.... posted by Robert Metcalfe 9 Apr 1, 2019 updated by Sandy Brennan 228 Jun 25, 2021 4 replies · 619 views · 0 0 · Records Management ",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "Records Management \"error code\"",
       "Records Management \"record folder\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Records Management 6000 Invalid pointer destruction workaround."
   },
   {
     "product": "Records Management",
@@ -2890,7 +2892,9 @@
     "snippet": "Records Management - Destroy folders not deleting having trouble getting rid of records management folders and documents. I have a brand new repository when I set the properties so the record is ... getting an invalid pointer error Error Code : 6000 Error Message: Invalid pointer Invalid pointer [6000:0x80004003] (Invalid pointer ) ------------ Technical Details: ------------ ... posted by Sandy Brennan 228 Sep 17, 2021 updated by Megan Gregor 0 Jun 8, 2023 1 reply · 524 views · 0 0 · Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as related Records Management 6000 destruction behavior with partial confirmation."
   },
   {
     "product": "Records Management",
@@ -2901,11 +2905,13 @@
     "snippet": "Error Access denied. [9013] might be associated with that record series. Error Code Details: Error Code : 9013 Error Message: \\R: Access denied. [9013] [9013] ------------ Technical Details: ------------ LFSO: Call Stack ...... posted by Pete Lake 6 Mar 9, 2015 updated by Cinnamon Varnell 6 Aug 6, 2015 7 replies · 3432 views · 0 0 · Records Management",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-partial",
     "queries": [
       "Records Management \"error code\"",
       "Records Management \"record folder\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Covered by product-specific Records Management 9013 access-denied diagnostic entry; duplicate signature rows use same source."
   },
   {
     "product": "Records Management",
@@ -2916,12 +2922,14 @@
     "snippet": "Error Message: The record or record folder cannot be uncutoff at this point. [9193] are getting the following error: Error Code : 9193 Error Message: The record or record folder cannot be uncutoff at this point. [9193] Is this due ...... posted by Jeff Curtis 725 Aug 26, 2019 0 replies · 468 views · 0 0 · Records Management",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "queries": [
       "Records Management \"error code\"",
       "Records Management \"cutoff\" error",
       "Records Management \"record folder\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as unresolved Records Management 9193 uncutoff error; duplicate signature rows use same source."
   },
   {
     "product": "Records Management",
@@ -2933,7 +2941,9 @@
     "snippet": "Changing cycle definitions is currently referenced by a records management object. [9196] Cannot delete or modify calendar cycle because it is currently in use. Question: How can I ...... posted by Demetris James 29 Feb 5, 2018 updated by Eric Bauman 253 Jan 23, 2020 4 replies · 489 views · 0 0 · Records Management",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Records Management 9196 cycle definition in-use workaround."
   },
   {
     "product": "Records Management",
@@ -2944,11 +2954,13 @@
     "snippet": "Receiving \"Filing date cannot be changed after cutoff\" on record that is not cutoff Trying to automate a record management process and I'm receiving the following error in the workflow When I try to execute a change to ... anybody understand the cause here? Error Code : 9234 Error Message: The filing date cannot be changed after cutoff or confirming a record transfer. [9234] ------------ Technical ...... posted by James Adamo 829 Jan 18, 2023 0 replies · 383 views · 0 0 · Workflow Laserfiche Rec",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "queries": [
       "Records Management \"error code\"",
       "Records Management \"cutoff\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as unresolved Records Management 9234 filing-date/cutoff error; duplicate signature rows use same source."
   },
   {
     "product": "Records Management",
@@ -2959,11 +2971,13 @@
     "snippet": "Error Access denied. [9013] might be associated with that record series. Error Code Details: Error Code : 9013 Error Message: \\R: Access denied. [9013] [9013] ------------ Technical Details: ------------ LFSO: Call Stack ...... posted by Pete Lake 6 Mar 9, 2015 updated by Cinnamon Varnell 6 Aug 6, 2015 7 replies · 3432 views · 0 0 · Records Management",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-partial",
     "queries": [
       "Records Management \"error code\"",
       "Records Management \"record folder\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Covered by product-specific Records Management 9013 access-denied diagnostic entry; duplicate signature rows use same source."
   },
   {
     "product": "Records Management",
@@ -2975,7 +2989,9 @@
     "snippet": "Error deleting a document after upgrade to 10.4.1 move, delete, or modify a record was blocked because the record is cutoff, in retention, has undergone final disposition, or the parent folder is closed ...... posted by Keith Hay 134 Jun 19, 2019 updated by John Edwards 2 Sep 3, 2020 6 replies · 629 views · 1 0 · Records Management",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Records Management 10.4.1 deletion bug 178876 fixed in 10.4.3."
   },
   {
     "product": "Records Management",
@@ -2986,12 +3002,14 @@
     "snippet": "Error Message: The record or record folder cannot be uncutoff at this point. [9193] are getting the following error: Error Code : 9193 Error Message: The record or record folder cannot be uncutoff at this point. [9193] Is this due ...... posted by Jeff Curtis 725 Aug 26, 2019 0 replies · 468 views · 0 0 · Records Management",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "queries": [
       "Records Management \"error code\"",
       "Records Management \"cutoff\" error",
       "Records Management \"record folder\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as unresolved Records Management 9193 uncutoff error; duplicate signature rows use same source."
   },
   {
     "product": "Records Management",
@@ -3002,11 +3020,13 @@
     "snippet": "Receiving \"Filing date cannot be changed after cutoff\" on record that is not cutoff Trying to automate a record management process and I'm receiving the following error in the workflow When I try to execute a change to ... anybody understand the cause here? Error Code : 9234 Error Message: The filing date cannot be changed after cutoff or confirming a record transfer. [9234] ------------ Technical ...... posted by James Adamo 829 Jan 18, 2023 0 replies · 383 views · 0 0 · Workflow Laserfiche Rec",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "queries": [
       "Records Management \"error code\"",
       "Records Management \"cutoff\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as unresolved Records Management 9234 filing-date/cutoff error; duplicate signature rows use same source."
   },
   {
     "product": "Snapshot",

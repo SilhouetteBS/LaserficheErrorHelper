@@ -4,29 +4,29 @@ Generated: 2026-06-27
 
 ## Summary
 
-- Published helper entries: 1362
-- Reviewed source ledger rows: 261
+- Published helper entries: 1364
+- Reviewed source ledger rows: 267
 - Discovery rows tracked: 312
-- Remaining candidate rows: 64
+- Remaining candidate rows: 54
 
 ## Fix Status Coverage
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 91 |
-| known-fix | 50 |
-| needs-review | 1158 |
-| unresolved | 30 |
-| workaround | 33 |
+| diagnostic-only | 92 |
+| known-fix | 51 |
+| needs-review | 1154 |
+| unresolved | 32 |
+| workaround | 35 |
 
 ## Source Ledger Review Status
 
 | Review status | Sources |
 | --- | --- |
 | cross-product | 2 |
-| curated | 131 |
-| curated-partial | 85 |
-| curated-unresolved | 39 |
+| curated | 134 |
+| curated-partial | 86 |
+| curated-unresolved | 41 |
 | no-matching-posts | 1 |
 | not-actionable | 3 |
 
@@ -34,9 +34,9 @@ Generated: 2026-06-27
 
 | Source type | Sources |
 | --- | --- |
-| answers-community | 19 |
-| answers-community-confirmed | 37 |
-| answers-laserfiche-employee | 188 |
+| answers-community | 21 |
+| answers-community-confirmed | 40 |
+| answers-laserfiche-employee | 189 |
 | answers-search | 1 |
 | official-docs | 16 |
 
@@ -58,16 +58,16 @@ Generated: 2026-06-27
 | Full Text Search | 15 | 0 |
 | Import Agent | 8 | 9 |
 | Laserfiche Installer | 8 | 0 |
-| Laserfiche Server/Repository Server | 1029 | 0 |
+| Laserfiche Server/Repository Server | 1026 | 0 |
 | Mobile | 1 | 10 |
 | Office Integration | 6 | 0 |
 | Quick Fields | 15 | 0 |
-| Records Management | 0 | 10 |
+| Records Management | 6 | 0 |
 | Snapshot | 0 | 6 |
 | Web Client Scanning | 8 | 0 |
 | WebLink | 16 | 0 |
 | Webtools Agent | 0 | 1 |
-| Windows Client/Desktop Client | 174 | 0 |
+| Windows Client/Desktop Client | 173 | 0 |
 | Workflow | 20 | 0 |
 
 ## Next Batch Targets
@@ -75,7 +75,6 @@ Generated: 2026-06-27
 | Product | Remaining candidates |
 | --- | --- |
 | Mobile | 10 |
-| Records Management | 10 |
 | Import Agent | 9 |
 | API Server | 7 |
 | Snapshot | 6 |
@@ -84,4 +83,5 @@ Generated: 2026-06-27
 | Federated Search | 5 |
 | Discussions | 4 |
 | AI Service | 2 |
+| Webtools Agent | 1 |
 

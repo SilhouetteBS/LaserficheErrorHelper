@@ -7373,6 +7373,213 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "records-destruction-6000-multiple-documents",
+    code: "6000",
+    message: "Invalid pointer while destroying multiple Records Management documents.",
+    product: "Records Management",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Records Management destruction can return 6000 Invalid pointer when attempting to destroy multiple individual records together. A confirmed requester resolution was to destroy a whole record folder or one individual record at a time.",
+    symptoms: [
+      "Destroying one document works, but selecting multiple documents for destruction returns Invalid pointer [6000:0x80004003].",
+      "The call stack includes CRMDestroyPropPage::OnBnClickedBtnDestroy or CEntryStatus::ApplyDisposition.",
+      "Records are otherwise due for destruction.",
+    ],
+    likelyFixes: [
+      "Destroy the entire record folder when all records in the folder are eligible for destruction.",
+      "If only some records should be preserved, place Records Management holds on the records to keep, then destroy the folder.",
+      "If destroying individual records, process one individual record at a time.",
+      "Confirm the records are cutoff and eligible for destruction before retrying.",
+    ],
+    notes:
+      "The public resolution came from the requester after Laserfiche instructions; no separate Laserfiche employee reply is visible in the thread.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Records Destruction",
+        url: "https://answers.laserfiche.com/questions/157311/Records-Destruction",
+        note: "Requester reports the resolved destruction pattern: folder-level destruction, one individual file, or holds for files that must be preserved.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Records Management - Destroy folders not deleting",
+        url: "https://answers.laserfiche.com/questions/191860/Records-Management--Destroy-folders-not-deleting",
+        note: "A later commenter saw the 6000 error while manually destroying records in 10.4.2 and found the record had been destroyed after closing the Records Management actions window.",
+      },
+    ],
+  },
+  {
+    id: "records-9013-delete-record-series-rights",
+    code: "9013",
+    message: "Access denied deleting a record series.",
+    product: "Records Management",
+    versions: ["Version 9", "Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Records Management deletion can return 9013 Access denied when the user lacks effective rights to one or more records or record folders inside the record series, even when the top-level series appears removable.",
+    symptoms: [
+      "Deleting a record series returns Access denied. [9013].",
+      "The user has administrative rights or checked security tags but the series still will not delete.",
+      "The case is specific to Records Management record series cleanup.",
+    ],
+    likelyFixes: [
+      "Check effective rights on every child record and record folder in the series, not only the parent series.",
+      "Try deleting individual records, then individual record folders, then the parent series to isolate the entry that denies deletion.",
+      "Review inherited rights and security tags on the child entries.",
+      "Open a Support case if rights look correct but deletion still returns 9013.",
+    ],
+    notes:
+      "Version 12 is included because 9013 is in the official current error listing; the reviewed Records Management thread is Version 9-era and has no public final resolution.",
+    sources: [
+      {
+        sourceType: "official-docs",
+        title: "Laserfiche 12 User Guide: Error Codes",
+        url: "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        note: "Lists 9013 as Access Denied.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error Access denied. [9013]",
+        url: "https://answers.laserfiche.com/questions/72907/Error-Access-denied-9013",
+        note: "Laserfiche employee replies ask about repository version and whether the user has rights to delete specific child records or record folders.",
+      },
+    ],
+  },
+  {
+    id: "records-9193-uncutoff-blocked",
+    code: "9193",
+    message: "The record or record folder cannot be uncutoff at this point.",
+    product: "Records Management",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "A Records Management thread documents 9193 when trying to uncutoff a folder that has already been cutoff, but it has no public replies or confirmed fix.",
+    symptoms: [
+      "Trying to uncutoff a cutoff folder returns 9193.",
+      "The user suspects retention state may be involved.",
+      "The public thread does not include a resolution.",
+    ],
+    likelyFixes: [
+      "Verify whether the record or record folder is in retention, has disposition activity, or is otherwise in a state that prevents uncutoff.",
+      "Review cutoff instructions, record folder status, and retention schedule state before attempting to reverse cutoff.",
+      "Escalate to Support when the record state does not explain the block.",
+    ],
+    notes:
+      "Included as an unresolved documented Records Management error so administrators can recognize the code and collect the right state details.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Error Message: The record or record folder cannot be uncutoff at this point. [9193]",
+        url: "https://answers.laserfiche.com/questions/163653/Error-Message-The-record-or-record-folder-cannot-be-uncutoff-at-this-point-9193",
+        note: "Thread documents the exact Records Management 9193 message but has no public replies.",
+      },
+    ],
+  },
+  {
+    id: "records-9196-cycle-definition-in-use",
+    code: "9196",
+    message: "Cannot delete or modify calendar cycle because it is currently in use.",
+    product: "Records Management",
+    versions: ["Version 9"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Records Management returns 9196 when a calendar cycle definition is still referenced by cutoff instructions or other records management objects.",
+    symptoms: [
+      "Changing a fiscal-year cycle definition returns 9196.",
+      "The message says the calendar cycle is currently referenced by a Records Management object.",
+      "Searching records and the recycle bin may not reveal the remaining reference.",
+    ],
+    likelyFixes: [
+      "Find cutoff instructions that reference the cycle definition.",
+      "Temporarily change the cutoff instruction period away from the fiscal-year cycle, then update the cycle definition.",
+      "Alternatively create a new cycle definition and move cutoff instructions to it.",
+      "After correcting the cycle, restore the intended cutoff-instruction references.",
+    ],
+    notes:
+      "Community replies provide the workaround and a later commenter confirmed the specific cutoff-instruction period dependency.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Changing cycle definitions",
+        url: "https://answers.laserfiche.com/questions/135036/Changing-cycle-definitions",
+        note: "Community answer points to cutoff instructions; later commenter confirmed changing the cutoff instruction period allowed the cycle update.",
+      },
+    ],
+  },
+  {
+    id: "records-9234-filing-date-after-cutoff",
+    code: "9234",
+    message: "The filing date cannot be changed after cutoff or confirming a record transfer.",
+    product: "Records Management",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "A Version 10 Records Management and Workflow scenario documents 9234 when changing a filing date, even though the requester believed the record was not cutoff. The public thread has no replies.",
+    symptoms: [
+      "Workflow receives 9234 while trying to change a filing date.",
+      "Changing the filing date from the desktop client returns a similar error.",
+      "The record appears not to be cutoff to the requester.",
+    ],
+    likelyFixes: [
+      "Verify the record, parent record folder, transfer state, and cutoff state directly in Records Management.",
+      "Check whether a prior cutoff, transfer confirmation, or inherited record-folder state blocks filing-date changes.",
+      "Collect the full LFSO stack and record status details for Support if the UI state appears inconsistent.",
+    ],
+    notes:
+      "This is intentionally documented without a confirmed fix because the public Answers thread contains no replies.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Receiving \"Filing date cannot be changed after cutoff\" on record that is not cutoff",
+        url: "https://answers.laserfiche.com/questions/205479/Receiving-Filing-date-cannot-be-changed-after-cutoff-on-record-that-is-not-cutoff",
+        note: "Thread documents the Version 10 Workflow/Records Management 9234 stack with no public response.",
+      },
+    ],
+  },
+  {
+    id: "records-delete-after-1041-bug-178876",
+    code: "RECORDS-DELETE-CUTOFF-BLOCKED",
+    message: "A request to move, delete, or modify a record was blocked after upgrading to 10.4.1.",
+    product: "Records Management",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche 10.4.1 could incorrectly block record deletion with a cutoff/retention/final-disposition message; Laserfiche identified it as bug 178876 and said it was fixed in 10.4.3.",
+    symptoms: [
+      "After upgrading to 10.4.1, deleting a duplicate document in a record folder is blocked.",
+      "The message says the record is cutoff, in retention, has undergone final disposition, or the parent folder is closed.",
+      "The user has effective delete rights and the visible record state does not appear to match the block.",
+    ],
+    likelyFixes: [
+      "Upgrade Laserfiche to 10.4.3 or later.",
+      "Reference bug ID 178876 when working with Support.",
+      "Before upgrading, verify the document is not permanent, cutoff, in retention, under final disposition, or in a closed parent folder.",
+    ],
+    notes:
+      "Laserfiche employee confirmation gives this entry higher confidence than the other Records Management Answers-only items.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error deleting a document after upgrade to 10.4.1",
+        url: "https://answers.laserfiche.com/questions/160811/Error-deleting-a-document-after-upgrade-to-1041",
+        note: "Miruna Babatie from Laserfiche identifies bug 178876 and says it was fixed in Laserfiche 10.4.3.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
