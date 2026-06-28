@@ -4,10 +4,13 @@ import { reviewedSources } from "../src/data/reviewedSources.js";
 
 const today = new Date().toISOString().slice(0, 10);
 const resultsPath = path.join("research", "product-discovery-results.json");
-const passPath = path.join("research", `answers-product-pass-${today}.json`);
+const [, , productArg = "", targetArg = "25"] = process.argv;
+const requestedProduct = productArg.trim();
+const targetCount = Number.parseInt(targetArg, 10) || 25;
+const passSlug = requestedProduct ? `${slugify(requestedProduct)}-${targetCount}` : "all";
+const passPath = path.join("research", `answers-product-pass-${today}-${passSlug}.json`);
 
-const targetCount = 25;
-const maxPagesPerQuery = 8;
+const maxPagesPerQuery = targetCount > 25 ? 16 : 8;
 const productSearches = [
   {
     product: "Forms",
@@ -40,9 +43,22 @@ const productSearches = [
       '"Web Client" "HTTP Error" Laserfiche',
       '"Web Client" "repository" error',
       '"Web Client" "scanning" error',
+      '"Web Access" "HTTP Error" Laserfiche',
+      '"Web Access" repository error',
+      '"Web Scanning" error Laserfiche',
+      '"Web Client" "Access Denied" Laserfiche',
+      '"Web Client" "Unknown internal error"',
     ],
   },
 ];
+
+const selectedSearches = requestedProduct
+  ? productSearches.filter((search) => search.product.toLowerCase() === requestedProduct.toLowerCase())
+  : productSearches;
+
+if (selectedSearches.length === 0) {
+  throw new Error(`Unknown product "${requestedProduct}". Known products: ${productSearches.map((search) => search.product).join(", ")}`);
+}
 
 const existingResults = JSON.parse(fs.readFileSync(resultsPath, "utf8"));
 const existingUrls = new Set([
@@ -53,7 +69,7 @@ const existingUrls = new Set([
 const newRows = [];
 const passSummary = [];
 
-for (const search of productSearches) {
+for (const search of selectedSearches) {
   const collected = [];
   const seenThisProduct = new Set();
 
@@ -279,4 +295,8 @@ function normalizeUrl(value) {
   url.search = "";
   url.hash = "";
   return url.toString();
+}
+
+function slugify(value) {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }

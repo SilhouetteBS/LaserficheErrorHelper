@@ -2,8 +2,8 @@ import fs from "node:fs";
 
 const files = [
   "research/product-discovery-results.json",
-  "research/answers-product-pass-2026-06-28.json",
   "research/product-discovery-queue.json",
+  ...fs.readdirSync("research").filter((name) => /^answers-product-pass-.*\.json$/.test(name)).map((name) => `research/${name}`),
 ];
 
 for (const file of files) {
