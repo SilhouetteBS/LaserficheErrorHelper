@@ -339,7 +339,7 @@
     "snippet": "Audit Trail: Error EDBCC SHRINKDATABASE &red application: error - 2015/03/31 00:07:21 - Laserfiche Audit Service (0) - n/a \"The description for Event ID ( 0 ) in Source ( Laserfiche ... the event: An error occurred: ERROR [42000] [Microsoft][SQL Native Client][SQL Server] Could not adjust the space allocation for file 'LASERFICHE'. ERROR [01000] [Microsoft ...... posted by Claudio Crescentini 0 Apr 1, 2015 updated by Justin Pava 7761 Apr 2, 2015 1 reply · 546 views · 0 0 · Audit Trail",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved"
   },
   {
     "product": "Audit Trail",
@@ -365,7 +365,7 @@
     "snippet": "Audit Trail using Native Client 10.0 but SQL has Native Client 11.0 11.0 not supported by Audit Trail? ERROR [08001] [Microsoft][SQL Server Native Client 10.0]Named Pipes Provider: Could not open a connection to ...... posted by Chase Ayers 258 Oct 27, 2015 updated by Ashley Hutchison 292 Oct 29, 2015 1 reply · 669 views · 0 0",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial"
   },
   {
     "product": "Audit Trail",
@@ -377,7 +377,7 @@
     "snippet": "Laserfiche 11 Audit Trail Install Error Laserfiche 11 Audit Trail (v11.0.2210.3156) install fails with error code 2343: This is on Windows 2022 with IIS installed and running (v10 ...... posted by Barry Sword 4 Jun 14, 2023 updated by Barry Sword 4 Jun 15, 2023 4 replies · 633 views · 0 0 · Laserfiche Version 11 Audit Trail Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Audit Trail",
@@ -389,7 +389,7 @@
     "snippet": "audit trail database increasing answers.laserfiche.com/questions?q= audit+trail +database+increasing I checked eventvwr and i see error : An error occurred: ERROR [40001] [Microsoft][ SQL Native Client ... PurgeUnwanted(EventsDeleted callback) I see error logs for this up until i stopped Audit Trail Services.... posted by Levi Caigoy 67 Apr 16, 2015 updated by Miruna Babatie 41329 Apr 17, 2015 6 replies · 749 views · 0 0 · Audit Trail",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial"
   },
   {
     "product": "Audit Trail",
@@ -401,7 +401,7 @@
     "snippet": "Audit Trail: Error EDBCC SHRINKDATABASE &red application: error - 2015/03/31 00:07:21 - Laserfiche Audit Service (0) - n/a \"The description for Event ID ( 0 ) in Source ( Laserfiche ... the event: An error occurred: ERROR [42000] [Microsoft][SQL Native Client][SQL Server] Could not adjust the space allocation for file 'LASERFICHE'. ERROR [01000] [Microsoft ...... posted by Claudio Crescentini 0 Apr 1, 2015 updated by Justin Pava 7761 Apr 2, 2015 1 reply · 546 views · 0 0 · Audit Trail",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved"
   },
   {
     "product": "Audit Trail",
@@ -413,7 +413,7 @@
     "snippet": "Access Denied [9013] /laserfiche/DocumentService.ashx/GetSecurity I would consider enabling Audit Trail logging for failed attempts if not already in place, then running an audit report with a \"Succeeded = False\" filter ...... posted by Blake Smith 18822 May 16, 2022 updated by Samuel Carson 9599 May 17, 2022 8 replies · 497 views · 0 0 · Web Client Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product"
   },
   {
     "product": "Audit Trail",
@@ -425,7 +425,7 @@
     "snippet": "Error Code 9451 the desktop client gives me error code 9451: The search catalog could not be created or it failed to start. Please check the Windows Application ...... posted by Louis Cao 0 Sep 30, 2015 updated by Louis Cao 0 Sep 30, 2015 4 replies · 485 views · 0 0 · Laserfiche Audit Trail Version 9 Search and Retrieval",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product"
   },
   {
     "product": "Audit Trail",
@@ -437,7 +437,7 @@
     "snippet": "Access Denied [9013] /laserfiche/DocumentService.ashx/GetSecurity I would consider enabling Audit Trail logging for failed attempts if not already in place, then running an audit report with a \"Succeeded = False\" filter ...... posted by Blake Smith 18822 May 16, 2022 updated by Samuel Carson 9599 May 17, 2022 8 replies · 497 views · 0 0 · Web Client Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product"
   },
   {
     "product": "Audit Trail",
@@ -449,7 +449,7 @@
     "snippet": "Audit Trail Error - Value cannot be null. Parameter name: source having a strange issue in Audit Trail 11.0.0.2013. All of a sudden, and for no reason that we can see, our Audit ... just a message \"No Saved Report \". Going to the Audit Trail Reporting main screen or trying to save a new report pops up a very ...... posted by Stephane Labossiere 61 Jan 11, 2023 updated by Stephane Labossiere 61 Jan 12, 2023 2 replies · 828 views · 0 0 · Audit Trail Version 11 Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Audit Trail",
@@ -461,7 +461,7 @@
     "snippet": "Audit Trail Export via Powershell Failing: Access Denied export the contents of an audit trail log (V11 and V12) using the Powershell script referenced in the documentation: Laserfiche Audit Trail 11 Frequently Asked ...... posted by Bill Peyton 594 Jan 16, 2025 updated by Bill Peyton 594 Mar 26, 2025 4 replies · 743 views · 0 0 · Audit Trail",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Audit Trail",
@@ -473,7 +473,7 @@
     "snippet": "Audit trail problem resulting in 9237 error for end users We keep getting a \" could not enable audit log\" error . Does anyone else have any experience with this or know how to fix it? posted by Mario Zogbo 0 Aug 11, 2015 updated by Alfonso Gonzalez 0 Aug 7, 2017 7 replies · 1692 views · 0 0",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial"
   },
   {
     "product": "Audit Trail",
@@ -485,7 +485,7 @@
     "snippet": "Audit Trail: Error EDBCC SHRINKDATABASE &red application: error - 2015/03/31 00:07:21 - Laserfiche Audit Service (0) - n/a \"The description for Event ID ( 0 ) in Source ( Laserfiche ... the event: An error occurred: ERROR [42000] [Microsoft][SQL Native Client][SQL Server] Could not adjust the space allocation for file 'LASERFICHE'. ERROR [01000] [Microsoft ...... posted by Claudio Crescentini 0 Apr 1, 2015 updated by Justin Pava 7761 Apr 2, 2015 1 reply · 546 views · 0 0 · Audit Trail",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved"
   },
   {
     "product": "Audit Trail",
@@ -497,7 +497,7 @@
     "snippet": "Error 1053: The Service did not respond o the start request of the installer it could not start the Laserfiche and LFFTS service. The Audit Trail service starts correctly. All 3 services are using the same ... LFFTS services it gives the error \"Windows could not start the Laserfiche Server service on Local Computer. Error 1053: The service did not respond to ...... posted by Blake Smith 18822 Dec 1, 2016 updated by Alexander Huang 27494 Dec 2, 2016 5 replies · 34534 views · 1 0 · Laserfiche Admi",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product"
   },
   {
     "product": "Audit Trail",
@@ -509,7 +509,7 @@
     "snippet": "Error Code 9451 the desktop client gives me error code 9451: The search catalog could not be created or it failed to start. Please check the Windows Application ...... posted by Louis Cao 0 Sep 30, 2015 updated by Louis Cao 0 Sep 30, 2015 4 replies · 485 views · 0 0 · Laserfiche Audit Trail Version 9 Search and Retrieval",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product"
   },
   {
     "product": "Audit Trail",
@@ -521,7 +521,7 @@
     "snippet": "Error while configuring Audit Trail tab I am having this error shown on the picture below: Can anyone help please as I have correctly entered all the information required for ...... posted by Ketsia Moonien 123 May 23, 2016 updated by Ketsia Moonien 123 May 23, 2016 2 replies · 440 views · 0 0 · Audit Trail",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial"
   },
   {
     "product": "Audit Trail",
@@ -533,7 +533,7 @@
     "snippet": "How can Audit Trail show a 9010 error from Workflow without it being logged as an activity error? from an activity normally. Yet Audit Trail shows many 9010 errors happening all day long for the user configured for Workflow Repository connections from User ... Find Entry). If that activity could not login, it would fail and post to the log files. No activity errors since 3/8 Constant Logs ...... posted by Chad Saar 3975 Mar 11, 2021 updated by Miruna Babatie 41329 Mar 12, 2021 7 replies · 494 vi",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product"
   },
   {
     "product": "Audit Trail",
@@ -545,7 +545,7 @@
     "snippet": "Laserfiche 11 Audit Trail Install Error Laserfiche 11 Audit Trail (v11.0.2210.3156) install fails with error code 2343: This is on Windows 2022 with IIS installed and running (v10 ...... posted by Barry Sword 4 Jun 14, 2023 updated by Barry Sword 4 Jun 15, 2023 4 replies · 633 views · 0 0 · Laserfiche Version 11 Audit Trail Installation and Upgrades",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Audit Trail",
@@ -557,7 +557,7 @@
     "snippet": "Possible causes for LFF9906-AuditTrailTmeoutSendEventToATHub Description: Sending audit events to Audit Trail Hub Service timed out with error code SendEventTimeOut. [LFF9906-AuditTrailTmeoutSendEventToATHub] Details: URL: Error: AuditTrailTmeoutSendEventToATHub Date: 6/8 ... Message: Sending audit events to Audit Trail Hub Service timed out with error code SendEventTimeOut. [LFF9906-AuditTrailTmeoutSendEventToATHub] Event Xml: 19906 0 2 45628 0 ...... posted by Damon Meads 162 Jun 9, 2023 updat",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product"
   },
   {
     "product": "Audit Trail",
@@ -569,7 +569,7 @@
     "snippet": "Recurring LFForms Audit Trail Error (LFF9906-AuditTrailTmeoutSendEventToATHub) stating: Sending audit events to Audit Trail Hub Service timed out with error code OnFlyEventTimeOut. [LFF9906-AuditTrailTmeoutSendEventToATHub] Full message example: Sending audit events to ... Message: Sending audit events to Audit Trail Hub Service timed out with error code OnFlyEventTimeOut. [LFF9906-AuditTrailTmeoutSendEventToATHub] Anyone have any suggestions on how to ...... posted by Matthew Tingey 9658 Aug 22",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product"
   },
   {
     "product": "Audit Trail",
@@ -581,7 +581,7 @@
     "snippet": "Recurring LFForms Audit Trail Error (LFF9906-AuditTrailTmeoutSendEventToATHub) stating: Sending audit events to Audit Trail Hub Service timed out with error code OnFlyEventTimeOut. [LFF9906-AuditTrailTmeoutSendEventToATHub] Full message example: Sending audit events to ... Message: Sending audit events to Audit Trail Hub Service timed out with error code OnFlyEventTimeOut. [LFF9906-AuditTrailTmeoutSendEventToATHub] Anyone have any suggestions on how to ...... posted by Matthew Tingey 9658 Aug 22",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product"
   },
   {
     "product": "Audit Trail",
@@ -593,7 +593,7 @@
     "snippet": "Error 1053: The Service did not respond o the start request of the installer it could not start the Laserfiche and LFFTS service. The Audit Trail service starts correctly. All 3 services are using the same ... LFFTS services it gives the error \"Windows could not start the Laserfiche Server service on Local Computer. Error 1053: The service did not respond to ...... posted by Blake Smith 18822 Dec 1, 2016 updated by Alexander Huang 27494 Dec 2, 2016 5 replies · 34534 views · 1 0 · Laserfiche Admi",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product"
   },
   {
     "product": "Audit Trail",
@@ -605,7 +605,7 @@
     "snippet": "Recurring LFForms Audit Trail Error (LFF9906-AuditTrailTmeoutSendEventToATHub) stating: Sending audit events to Audit Trail Hub Service timed out with error code OnFlyEventTimeOut. [LFF9906-AuditTrailTmeoutSendEventToATHub] Full message example: Sending audit events to ... Message: Sending audit events to Audit Trail Hub Service timed out with error code OnFlyEventTimeOut. [LFF9906-AuditTrailTmeoutSendEventToATHub] Anyone have any suggestions on how to ...... posted by Matthew Tingey 9658 Aug 22",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product"
   },
   {
     "product": "Audit Trail",
@@ -617,7 +617,7 @@
     "snippet": "Several Database Connection error on LF Server and a Web Server for Audit Trail and Web Access. Audit Trail uses same database server as LF server. We are receiving below error messages ...... posted by Sweety Ramjunum 121 Sep 10, 2014 updated by Chad Saar 951 Oct 24, 2014 7 replies · 2956 views · 0 0 · Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product"
   },
   {
     "product": "Audit Trail",
@@ -629,7 +629,7 @@
     "snippet": "There was an error while applying your changes. at WebAuditConfig.ConfigurationService.AddSearchableData(RangeType type, Object[] parameters) at WebAuditConfig.ConfigurationService.AddRepositoryWizardData(RepositoryWizardInfo repositoryWizardInfo) Receiving the above error when trying to Configure Repository for Audit Trail . Got the above error from the Event Viewer...any ideas? Running everything locally ...... posted by Daryl Foxhoven 329 May 15, 2014 updated by Javier antillon 34 Jun 15, 201",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial"
   },
   {
     "product": "Audit Trail",
