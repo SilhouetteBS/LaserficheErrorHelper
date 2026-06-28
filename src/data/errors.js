@@ -701,11 +701,13 @@ const curatedErrorEntries = [
       "Confirm the password is correct and case-sensitive.",
       "Synchronize Windows system clocks between Laserfiche Server and the domain controller.",
       "For Laserfiche 10 Rio environments, review the referenced Laserfiche update path for this condition.",
+      "If this appears after moving to LFDS/Rio in Version 10 and Windows users cannot log in while repository named users can, apply Laserfiche Directory Server 10 Update 1 or a later maintenance build.",
       "If Import Agent shows the error, review Import Agent's username/password troubleshooting guidance.",
       "If Windows Authentication and Directory Server are involved, verify the LFDS service logon account and grant it sufficient SQL Server rights when SQL uses Windows authentication.",
       "Restart Laserfiche Server to force a Directory Server user sync if recent named-user changes have not propagated.",
     ],
-    notes: "The LFDS service-account fix came from a Laserfiche employee follow-up after a support ticket.",
+    notes:
+      "The LFDS service-account fix came from a Laserfiche employee follow-up after a support ticket; the LFDS 10 Update 1 path applies to a narrower Rio/LFDS Windows-authentication scenario.",
     sources: [
       {
         sourceType: "official-docs",
@@ -718,6 +720,12 @@ const curatedErrorEntries = [
         title: "The user account or password is incorrect. [9010] with Windows Authentication",
         url: "https://answers.laserfiche.com/questions/108568/The-user-account-or-password-is-incorrect-9010-error-occurs-when-logging-into-a-repository-with-Windows-Authentication",
         note: "Laserfiche employee reports the issue was fixed by changing the LFDS service logon account and granting SQL rights.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "LF Server 10 cannot connect with LFDS",
+        url: "https://answers.laserfiche.com/questions/88453/LF-Server-10-cannot-connect-with-LFDS",
+        note: "James Newton from Laserfiche says LFDS 10 Update 1 fixed a Rio/LFDS issue where Windows users received 9010 while repository named users could still log in.",
       },
     ],
   },
@@ -954,6 +962,7 @@ const curatedErrorEntries = [
     ],
     likelyFixes: [
       "Confirm server licensing and whether the Laserfiche Server hardware fingerprint or license state changed.",
+      "If this follows a License Manager to LFDS migration, verify LFDS can reach its SQL database so Laserfiche Server can read the migrated named users.",
       "Collect Directory Server operational/admin/operations event logs and the LFDS executable version/build before opening support.",
       "Try unassigning and reassigning the named-user license if the account appears licensed but still cannot log in.",
       "Check whether the issue is fixed by updating to Laserfiche 10.1 or later when the environment is still on early 10.0 builds.",
@@ -981,6 +990,12 @@ const curatedErrorEntries = [
         url: "https://answers.laserfiche.com/questions/93619/Error-9030-on-Named-User",
         note:
           "Users reported success after license reassignment, automatic logout tuning, and later Laserfiche 10.1 behavior.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "The user has not been allocated a name user license, or the maximum number of sessions that this server instance is licensed for has been reached. [9030]",
+        url: "https://answers.laserfiche.com/questions/69010/The-user-has-not-been-allocated-a-name-user-license-or-the-maximum-number-of-sessions-that-this-server-instance-is-licensed-for-has-been-reached-9030",
+        note: "Miruna Babatie from Laserfiche explains that Laserfiche Server could not read migrated users because LFDS could not contact its SQL database.",
       },
     ],
   },
@@ -2237,6 +2252,7 @@ const curatedErrorEntries = [
     likelyFixes: [
       "Verify the Laserfiche Server can reach LFDS on the configured host and ports.",
       "Review LFDS identity-provider settings, especially service-account querying across trusted domains.",
+      "For effective-rights failures across domains, verify domain trusts, the LFDS host/domain move, service accounts, and whether the LFDS service can query the required domains.",
       "If only one user is affected, recreate or repair the affected user record as a diagnostic step.",
       "Open a support case when LFDS connectivity and identity-provider settings look correct but the error persists.",
     ],
@@ -2260,6 +2276,12 @@ const curatedErrorEntries = [
         title: "Cannot connect to the Laserfiche Directory Server. [9528]",
         url: "https://answers.laserfiche.com/questions/181608/Cannot-connect-to-the-Laserfiche-Directory-Server-9528",
         note: "Community follow-up reports recreating the affected user resolved one Version 10 sign-in case.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Cannot View Effective Rights; Directory Server Error",
+        url: "https://answers.laserfiche.com/questions/146237/Cannot-View-Effective-Rights-Directory-Server-Error",
+        note: "Brianna Blanchard from Laserfiche says cross-domain LFDS placement is supported with correct trusts and recommends Support review the domains, service accounts, and full versions.",
       },
     ],
   },
@@ -4181,6 +4203,7 @@ const curatedErrorEntries = [
     likelyFixes: [
       "Verify LFDS application pool identities have the required SQL database access.",
       "Test with a normal AD service account that has SQL access to isolate gMSA or permission issues.",
+      "If only one new LFDS group fails, delete and recreate that group in LFDS and retest in Administration Console and Web Client Administration.",
       "Retest adding the LFDS group/user after correcting SQL access.",
     ],
     notes: "The selected answer is community-confirmed; a related Laserfiche employee reply suggests testing whether the issue affects one group or all groups.",
@@ -4190,6 +4213,12 @@ const curatedErrorEntries = [
         title: "Adding LFDS Group/User to Repository - Error 9357",
         url: "https://answers.laserfiche.com/questions/215118/Adding-LFDS-GroupUser-to-Repository--Error-9357",
         note: "Requester reports the app pool user lacked SQL database access to perform the lookup.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "LF 11 Admin Console Error: LDAP query could not be completed. [9357] when querying LFDS Users/Groups",
+        url: "https://answers.laserfiche.com/questions/206964/LF-11-Admin-Console-Error-LDAP-query-could-not-be-completed-9357-when-querying-LFDS-UsersGroups",
+        note: "Samuel Carson from Laserfiche suggests determining whether the error affects only the new group or all LFDS groups, then recreating the group and testing Web Client Administration.",
       },
     ],
   },
@@ -5655,6 +5684,299 @@ const curatedErrorEntries = [
         title: "workflow subscriber errors in event logs",
         url: "https://answers.laserfiche.com/questions/50718/workflow-subscriber-errors-in-event-logs",
         note: "Miruna Babatie from Laserfiche explains the deleted-entry timing cause and the limits of changing Subscriber error logging.",
+      },
+    ],
+  },
+  {
+    id: "directory-server-ldap-credential-invalid",
+    code: "LFDS-LDAP-CREDENTIAL-INVALID",
+    message: "The supplied credential is invalid when saving or using an LFDS LDAP connection.",
+    product: "Directory Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Directory Server can reject LDAP credentials even when Administration Console can use the same username and password; the reviewed discussion did not publish a final root cause.",
+    symptoms: [
+      "Directory Server reports The supplied credential is invalid for an LDAP server connection.",
+      "Administration Console can connect to the LDAP server with the same credentials.",
+      "The Directory Server configuration may save successfully, but adding users still fails.",
+    ],
+    likelyFixes: [
+      "Collect Directory Server event logs and a screen recording of the failing save/search path.",
+      "Compare the LDAP method, host, port, SSL/TLS, and credential format used by Directory Server with the working Administration Console path.",
+      "Open a Support case if no event-log detail is written, because the public thread has no confirmed fix.",
+    ],
+    notes:
+      "Laserfiche employee replies say the applications likely use different LDAP methods/libraries and recommend Support review when logs do not expose the cause.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Directory Server - False Error on LDAP Connection?",
+        url: "https://answers.laserfiche.com/questions/190818/Directory-Server---False-Error-on-LDAP-Connection",
+        note: "Samuel Carson from Laserfiche asks for event-log stack details; Chase Hill recommends a Support case when the error has no useful log detail.",
+      },
+    ],
+  },
+  {
+    id: "directory-server-lfds3-cannot-get-user-information",
+    code: "LFDS3",
+    message: "Cannot get user information.",
+    product: "Directory Server",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "LFDS 10.1 can fail to open a user with LFDS3/Cannot get user information when synced AD properties reference an object that no longer exists, such as an obsolete manager SID.",
+    symptoms: [
+      "Opening a specific LFDS user returns LFDS3 or Cannot get user information.",
+      "The event log includes System.DirectoryServices.DirectoryServicesCOMException: There is no such object on the server.",
+      "The user may still consume a license but cannot be opened to remove or inspect it.",
+    ],
+    likelyFixes: [
+      "Check whether the affected AD account has stale linked properties, such as a manager account that no longer exists.",
+      "Correct the stale AD property and run LFDS synchronization again.",
+      "Keep LFDS user synchronization on a regular schedule so removed AD objects are reflected in LFDS.",
+      "If direct database inspection is needed, involve Support because the public workaround referenced LFDS database tables.",
+    ],
+    notes:
+      "The requester identified incorrect manager SIDs in LFDS data; Brianna Blanchard from Laserfiche filed bug 148908 for the LFDS project.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Directory Server 10.1, LFDS3, Cannot get user information",
+        url: "https://answers.laserfiche.com/questions/105795/Directory-Server-101-LFDS3-Cannot-get-user-information",
+        note: "Requester traced the issue to stale manager SIDs for AD accounts; Laserfiche acknowledged it as LFDS bug 148908.",
+      },
+    ],
+  },
+  {
+    id: "directory-server-8333-0000208d-no-object",
+    code: "8333 / 0000208D",
+    message: "NameErr NO_OBJECT while Forms or LFDS synchronizes users.",
+    product: "Directory Server",
+    versions: ["Version 11"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "LFDS operational logs can show ExtendedErrorCode 8333 / 0000208D when an LDAP object referenced during Forms synchronization no longer exists or was renamed.",
+    symptoms: [
+      "Forms user synchronization makes no user changes.",
+      "LFDS operational trace logs Event ID 28 with ExtendedErrorCode 8333 and ExtendedErrorMessage 0000208D.",
+      "The stack includes System.DirectoryServices.DirectoryServicesCOMException: There is no such object on the server.",
+    ],
+    likelyFixes: [
+      "Look for AD or LDAP OUs, groups, or users that were imported into LFDS and then deleted or renamed.",
+      "Review LFDS synchronization configuration and Forms user authentication settings for references to removed directory objects.",
+      "Open a Support case with full LFDS operational logs when the error does not include the missing distinguished name.",
+    ],
+    notes:
+      "The reviewed thread has employee guidance to open Support plus community analysis that the LDAP object reference may be missing or renamed; no confirmed universal fix was posted.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "ExtendedErrorCode: 8333 ExtendedErrorMessage: 0000208D When Syncing Users in Forms",
+        url: "https://answers.laserfiche.com/questions/201653/ExtendedErrorCode-8333-ExtendedErrorMessage-0000208D-When-Syncing-Users-in-Forms",
+        note: "Thread ties the LFDS Event ID 28 error to a missing LDAP object during Forms synchronization, but no confirmed final fix is posted.",
+      },
+    ],
+  },
+  {
+    id: "directory-server-lmo28-identity-provider-missing",
+    code: "LMO28",
+    message: "SQL foreign key error while creating or opening a Directory Server licensing site.",
+    product: "Directory Server",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Directory Server 10 can report LMO28 with a directory_objects_providers_fk SQL constraint error when the licensing-site database exists but the default identity provider was not created.",
+    symptoms: [
+      "Creating or opening a Directory Server licensing site fails with A SQL error has occurred.",
+      "The INSERT statement conflicted with FOREIGN KEY constraint directory_objects_providers_fk.",
+      "The conflict references dbo.identity_providers and the code LMO28.",
+    ],
+    likelyFixes: [
+      "Confirm the SQL Server service pack/build and whether this is a new Directory Server database or an existing database.",
+      "Check the identity_providers table to see whether a default identity provider row exists.",
+      "Open a Support case with event logs to determine why automatic identity-provider creation failed.",
+      "Only with Support guidance, create the missing default identity provider record and then verify it has the expected ID.",
+    ],
+    notes:
+      "Laserfiche employee guidance includes a SQL workaround, but this helper intentionally frames database writes as Support-guided recovery rather than routine troubleshooting.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Getting an error when creating Directory Server licensing site",
+        url: "https://answers.laserfiche.com/questions/87354/Getting-an-error-when-creating-Directory-Server-licensing-site",
+        note: "Brianna Blanchard from Laserfiche suspects failed default identity-provider creation and provides a manual SQL workaround while requesting Support evidence.",
+      },
+    ],
+  },
+  {
+    id: "forms-lff3022-invalid-lfds-ad-domain",
+    code: "LFF3022 / InvalidLfdsADDomain",
+    message: "An invalid dn syntax has been specified during Forms user sync.",
+    product: "Forms",
+    versions: ["Version 11", "Version 12"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Forms user synchronization can fail with LFF3022/InvalidLfdsADDomain when LFDS returns an account that Forms treats as a Windows group but AD lookup fails because of invalid DN syntax or problematic account data.",
+    symptoms: [
+      "Forms user sync logs An invalid dn syntax has been specified.",
+      "The message includes LFF3022-InvalidLfdsADDomain and GetUserDescendantsInAD.",
+      "The environment may primarily use SAML users/groups, but Forms still attempts an AD group lookup.",
+    ],
+    likelyFixes: [
+      "Review LFDS groups allowed for Forms and verify whether any returned account is typed as a Windows group.",
+      "Check affected AD accounts for unusual escaped characters in name or CN fields, such as an unexpected backslash.",
+      "Provide Forms sync event logs plus Forms authentication and LFDS group configuration screenshots to Support.",
+      "Ask Support whether the related hotfix mentioned in the source applies to the installed Forms/LFDS build.",
+    ],
+    notes:
+      "The source includes employee diagnostic guidance, a community-confirmed account-data workaround, and a later note that Support provided a hotfix planned for a Laserfiche 12 2026H1 release.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "LF Forms User Sync error - An invalid dn syntax has been specified",
+        url: "https://answers.laserfiche.com/questions/199725/LF-Forms-User-Sync-error--An-invalid-dn-syntax-has-been-specified",
+        note: "Xiuhong Xiang from Laserfiche points to LFDS-returned account type issues; community replies identify escaped-character account data and a Support hotfix path.",
+      },
+    ],
+  },
+  {
+    id: "directory-server-lfds19-cross-domain-search",
+    code: "LFDS19",
+    message: "No user found when adding a user to Directory Server.",
+    product: "Directory Server",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Directory Server can return LFDS19/No user found for cross-domain user searches even when Administration Console can find the same user with the same apparent account.",
+    symptoms: [
+      "Searching for a user in LFDS returns No user found. (LFDS19).",
+      "The user is in a different domain.",
+      "Administration Console can find and add the user.",
+    ],
+    likelyFixes: [
+      "Confirm which Windows identity is logged in to LFDS and whether that identity can query the target domain.",
+      "Check whether an Access Denied prompt should appear for cross-domain searches but is not appearing.",
+      "Collect Directory Server event logs and open a Support case if cross-domain search returns no useful diagnostics.",
+    ],
+    notes:
+      "Laserfiche employee guidance explains that AD searches are performed with the logged-in user's Windows credentials impersonated by the service user; the public thread has no final fix.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "LFDS19 error when trying to add user into Laserfiche Directory Server",
+        url: "https://answers.laserfiche.com/questions/73935/LFDS19-error-when-trying-to-add-user-into-Laserfiche-Directory-Server",
+        note: "Brianna Blanchard from Laserfiche explains the credential model for AD searches and asks about missing Access Denied prompting.",
+      },
+    ],
+  },
+  {
+    id: "directory-server-8335-lookup-nested-group-membership",
+    code: "8335 / 0000208F",
+    message: "Invalid DN syntax during LookupNestedGroupMembership.",
+    product: "Directory Server",
+    versions: ["Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche Server can log an unexpected LFDS error for LookupNestedGroupMembership while LFDS logs ExtendedErrorCode 8335 / 0000208F invalid DN syntax during AD group membership lookup.",
+    symptoms: [
+      "ContentRepository-Service/Admin logs Event ID 144: LFS received an unrecognized or unexpected error from LFDS.",
+      "The LFDS operational log at the same time shows ExtendedErrorCode 8335 and ExtendedErrorMessage 0000208F.",
+      "The stack includes QueryADGroupMembership and LookupNestedGroupMembership.",
+    ],
+    likelyFixes: [
+      "Check whether the Active Directory identity provider service account can query the affected user and group membership.",
+      "Run LFDS interactively as an administrator for a controlled test to isolate service-account permissions.",
+      "Set an explicit service account for the Active Directory identity provider in LFDS.",
+      "Set the identity provider host to a specific domain controller when domain-controller discovery or DN handling appears to be part of the failure.",
+    ],
+    notes:
+      "The source includes a SQL update for setting the default identity-provider host when the UI cannot edit it; use that only with appropriate change control or Support guidance.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "LFS received an unrecognized or unexpected error from LFDS. Service Call=LookupNestedGroupMembership",
+        url: "https://answers.laserfiche.com/questions/233325/LFS-received-an-unrecognized-or-unexpected-error-from-LFDS-Service-CallLookupNestedGroupMembership",
+        note: "Ting Sang from Laserfiche points to AD IdP service-account permission and domain-controller host settings as troubleshooting steps.",
+      },
+    ],
+  },
+  {
+    id: "mobile-lfds-wcf-handshake-dmz",
+    code: "LFDS-WCF-HANDSHAKE",
+    message: "Mobile cannot configure Directory Server access from a DMZ server.",
+    product: "Mobile",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche Mobile Server in a DMZ can fail Directory Server configuration because LFDS WCF endpoint security defaults to Kerberos/NTLM or uses an SPN that does not fit the DMZ authentication path.",
+    symptoms: [
+      "Mobile access can add repositories or Forms but Directory Server settings fail.",
+      "The Mobile server is outside the AD domain or in a DMZ.",
+      "LDAPS to internal AD may test successfully, but LFDS configuration still fails.",
+    ],
+    likelyFixes: [
+      "Treat the error as Mobile Server to LFDS communication first, not just AD/LDAPS connectivity.",
+      "Review LFDS web.config WCF endpoint security settings for Kerberos/NTLM assumptions.",
+      "Check SPN configuration if Windows authentication is expected across the boundary.",
+      "Open a Support case for endpoint-security changes because this depends on the network and authentication design.",
+    ],
+    notes:
+      "Laserfiche employee reply says LFMS uses the endpoints presented by LFDS and recommends Support for detailed endpoint-security troubleshooting.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Unable to configure Mobile Access",
+        url: "https://answers.laserfiche.com/questions/105833/Unable-to-configure-Mobile-Access",
+        note: "Barna Zajzon from Laserfiche identifies an LFMS-to-LFDS WCF handshake/security settings issue in a DMZ scenario.",
+      },
+    ],
+  },
+  {
+    id: "directory-server-windows-auth-0xc0000064",
+    code: "0xC0000064",
+    message: "Windows Authentication validation says the account does not exist.",
+    product: "Directory Server",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "LFDS Windows Authentication can surface Windows security audit error 0xC0000064, which indicates the account name being validated was not found, often because the wrong domain is being used.",
+    symptoms: [
+      "Windows security logs show MICROSOFT_AUTHENTICATION_PACKAGE_V1_0 and Error Code 0xC0000064.",
+      "The user believes the account exists and has previously accessed LFDS.",
+      "Restarting LFDS, IIS, or Netlogon does not resolve the authentication failure.",
+    ],
+    likelyFixes: [
+      "Check whether multiple domains or trusts are involved and whether LFDS is validating against the wrong domain.",
+      "Verify the exact username format being submitted, including domain prefix or UPN.",
+      "Review domain controller/security logs to confirm which domain rejected the account lookup.",
+    ],
+    notes:
+      "The public thread has Laserfiche employee diagnostic guidance but no confirmed final fix from the requester.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Windows Authentication error accessing LFDS",
+        url: "https://answers.laserfiche.com/questions/139289/Windows-Authentication-error-accessing-LFDS",
+        note: "Brian McKeever from Laserfiche explains 0xC0000064 means the user does not exist and suggests checking for wrong-domain authentication.",
       },
     ],
   },

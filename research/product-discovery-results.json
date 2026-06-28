@@ -780,7 +780,7 @@
     "title": "The user has not been allocated a name user license, or the maximum number of sessions that this server instance is licensed for has been reached. [9030]",
     "url": "https://answers.laserfiche.com/questions/69010/The-user-has-not-been-allocated-a-name-user-license-or-the-maximum-number-of-sessions-that-this-server-instance-is-licensed-for-has-been-reached-9030",
     "snippet": "The user has not been allocated a name user license, or the maximum number of sessions that this server instance is licensed for has been reached. [9030]",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -793,7 +793,7 @@
     "title": "LF 11 Admin Console Error: \"LDAP query could not be completed. [9357]\" when querying LFDS Users/Groups",
     "url": "https://answers.laserfiche.com/questions/206964/LF-11-Admin-Console-Error-LDAP-query-could-not-be-completed-9357-when-querying-LFDS-UsersGroups",
     "snippet": "LF 11 Admin Console Error: \"LDAP query could not be completed. [9357]\" when querying LFDS Users/Groups",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -818,7 +818,7 @@
     "title": "Cannot connect to Laserfiche Directory Server [9528]",
     "url": "https://answers.laserfiche.com/questions/169393/Cannot-connect-to-Laserfiche-Directory-Server-9528",
     "snippet": "Cannot connect to Laserfiche Directory Server [9528]",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
     "notes": "",
     "queries": [
@@ -848,7 +848,7 @@
     "title": "Cannot View Effective Rights; Directory Server Error",
     "url": "https://answers.laserfiche.com/questions/146237/Cannot-View-Effective-Rights-Directory-Server-Error",
     "snippet": "Cannot View Effective Rights; Directory Server Error",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -861,7 +861,7 @@
     "title": "Directory Server - False Error on LDAP Connection?",
     "url": "https://answers.laserfiche.com/questions/190818/Directory-Server---False-Error-on-LDAP-Connection",
     "snippet": "Directory Server - False Error on LDAP Connection?",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -874,7 +874,7 @@
     "title": "Directory Server 10.1, LFDS3, Cannot get user information",
     "url": "https://answers.laserfiche.com/questions/105795/Directory-Server-101-LFDS3-Cannot-get-user-information",
     "snippet": "Directory Server 10.1, LFDS3, Cannot get user information",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -887,7 +887,7 @@
     "title": "ExtendedErrorCode: 8333 ExtendedErrorMessage: 0000208D When Syncing Users in Forms",
     "url": "https://answers.laserfiche.com/questions/201653/ExtendedErrorCode-8333-ExtendedErrorMessage-0000208D-When-Syncing-Users-in-Forms",
     "snippet": "ExtendedErrorCode: 8333 ExtendedErrorMessage: 0000208D When Syncing Users in Forms",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -913,7 +913,7 @@
     "title": "Getting an error when creating Directory Server licensing site",
     "url": "https://answers.laserfiche.com/questions/87354/Getting-an-error-when-creating-Directory-Server-licensing-site",
     "snippet": "Getting an error when creating Directory Server licensing site",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -926,7 +926,7 @@
     "title": "LF Forms User Sync error - An invalid dn syntax has been specified",
     "url": "https://answers.laserfiche.com/questions/199725/LF-Forms-User-Sync-error--An-invalid-dn-syntax-has-been-specified",
     "snippet": "LF Forms User Sync error - An invalid dn syntax has been specified",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -938,7 +938,7 @@
     "title": "LF Server 10 cannot connect with LFDS",
     "url": "https://answers.laserfiche.com/questions/88453/LF-Server-10-cannot-connect-with-LFDS",
     "snippet": "LF Server 10 cannot connect with LFDS",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
     "notes": "",
     "queries": [
@@ -955,7 +955,7 @@
     "title": "LFDS19 error when trying to add user into Laserfiche Directory Server",
     "url": "https://answers.laserfiche.com/questions/73935/LFDS19-error-when-trying-to-add-user-into-Laserfiche-Directory-Server",
     "snippet": "LFDS19 error when trying to add user into Laserfiche Directory Server",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -968,7 +968,7 @@
     "title": "LFS received an unrecognized or unexpected error from LFDS. Service Call=LookupNestedGroupMembership",
     "url": "https://answers.laserfiche.com/questions/233325/LFS-received-an-unrecognized-or-unexpected-error-from-LFDS-Service-CallLookupNestedGroupMembership",
     "snippet": "LFS received an unrecognized or unexpected error from LFDS. Service Call=LookupNestedGroupMembership",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -981,7 +981,7 @@
     "title": "Unable to configure Mobile Access",
     "url": "https://answers.laserfiche.com/questions/105833/Unable-to-configure-Mobile-Access",
     "snippet": "Unable to configure Mobile Access",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -994,7 +994,7 @@
     "title": "Upgraded to 10.3 - Now LFDS login gives \"Received an invalid or untrusted SAML token\" error",
     "url": "https://answers.laserfiche.com/questions/132814/Upgraded-to-103--Now-LFDS-login-gives-Received-an-invalid-or-untrusted-SAML-token-error",
     "snippet": "Upgraded to 10.3 - Now LFDS login gives \"Received an invalid or untrusted SAML token\" error",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -1007,7 +1007,7 @@
     "title": "LF 11 Admin Console Error: \"LDAP query could not be completed. [9357]\" when querying LFDS Users/Groups",
     "url": "https://answers.laserfiche.com/questions/206964/LF-11-Admin-Console-Error-LDAP-query-could-not-be-completed-9357-when-querying-LFDS-UsersGroups",
     "snippet": "LF 11 Admin Console Error: \"LDAP query could not be completed. [9357]\" when querying LFDS Users/Groups",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -1020,7 +1020,7 @@
     "title": "Windows Authentication error accessing LFDS",
     "url": "https://answers.laserfiche.com/questions/139289/Windows-Authentication-error-accessing-LFDS",
     "snippet": "Windows Authentication error accessing LFDS",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
     "notes": ""
   },
@@ -2248,7 +2248,7 @@
     "snippet": "LF Server 10 cannot connect with LFDS performed an upgrade of the LF server to version 10. After the upgrade, the Admin Console 10 would not allow access using Windows Authentication. It ... using windows authentication. Thank you! Error Code : 9010 Error Message: The user account name or password is incorrect. [9010] ------------ Technical Details: ------------ LFSO: ... posted by Kevin Adams 88 Dec 14, 2015 updated by James Newton 2778 Jul 18, 2016 40 replies · 11678 views · 0 0 · Laserfiche D",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Mobile",
@@ -2327,7 +2327,7 @@
     "snippet": "LF Server 10 cannot connect with LFDS performed an upgrade of the LF server to version 10. After the upgrade, the Admin Console 10 would not allow access using Windows Authentication. It ... using windows authentication. Thank you! Error Code : 9010 Error Message: The user account name or password is incorrect. [9010] ------------ Technical Details: ------------ LFSO: ... posted by Kevin Adams 88 Dec 14, 2015 updated by James Newton 2778 Jul 18, 2016 40 replies · 11678 views · 0 0 · Laserfiche D",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Mobile",
@@ -2339,7 +2339,7 @@
     "snippet": "LF Server 10 cannot connect with LFDS performed an upgrade of the LF server to version 10. After the upgrade, the Admin Console 10 would not allow access using Windows Authentication. It ... using windows authentication. Thank you! Error Code : 9010 Error Message: The user account name or password is incorrect. [9010] ------------ Technical Details: ------------ LFSO: ... posted by Kevin Adams 88 Dec 14, 2015 updated by James Newton 2778 Jul 18, 2016 40 replies · 11678 views · 0 0 · Laserfiche D",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated"
   },
   {
     "product": "Mobile",
@@ -2389,7 +2389,7 @@
     "snippet": "Unable to configure Mobile Access I am trying to configure mobile access so that users can access LF repositories when they are on the move and can't login to ... to authenticate users accessing the / mobile URL from the internet. Mobile users will enter their internal active directory username and password to authenticate and access ...... posted by Adarsh Doyizode 153 Sep 12, 2016 updated by Barna Zajzon 316 Sep 12, 2016 1 reply · 1183 views · 0 0 · Mobile Directory Server",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-partial",
     "queries": [
       "Laserfiche Mobile \"login\" error",
       "Laserfiche Mobile \"repository\" error"
@@ -3448,7 +3448,7 @@
     "snippet": "Upgraded to 10.3 - Now LFDS login gives \"Received an invalid or untrusted SAML token\" error when encountering this error in Weblink . Relicensed LFS and was good to go. ... posted by Ege Ersoz 1864 Dec 14, 2017 updated by Blake Smith 18822 Jun 4, 2025 6 replies · 1528 views · 0 0 · Laserfiche Directory Server",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "cross-product",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
     "notes": "Reviewed as a WebLink candidate; better tracked under Directory Server or repository-server authentication rather than WebLink."
   },
@@ -3546,7 +3546,7 @@
     "snippet": "Upgraded to 10.3 - Now LFDS login gives \"Received an invalid or untrusted SAML token\" error when encountering this error in Weblink . Relicensed LFS and was good to go. ... posted by Ege Ersoz 1864 Dec 14, 2017 updated by Blake Smith 18822 Jun 4, 2025 6 replies · 1528 views · 0 0 · Laserfiche Directory Server",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "cross-product",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
     "notes": "Reviewed as a WebLink candidate; better tracked under Directory Server or repository-server authentication rather than WebLink."
   },
