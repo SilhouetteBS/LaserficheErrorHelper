@@ -6,7 +6,7 @@ Generated: 2026-06-28
 
 - Published entries: 1737
 - Reviewed sources: 652
-- Entries needing validation: 1554
+- Entries needing validation: 1548
 - Entries with scenario variants: 3
 
 ## Confidence Coverage
@@ -21,11 +21,11 @@ Generated: 2026-06-28
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 342 |
-| known-fix | 89 |
+| diagnostic-only | 310 |
+| known-fix | 98 |
 | needs-review | 1151 |
 | unresolved | 50 |
-| workaround | 105 |
+| workaround | 128 |
 
 ## Validation Queue by Product
 
@@ -41,11 +41,11 @@ Generated: 2026-06-28
 | Discussions | 4 |
 | Distributed Computing Cluster | 6 |
 | Federated Search | 1 |
-| Forms | 64 |
+| Forms | 62 |
 | Full Text Search | 3 |
 | Import Agent | 12 |
 | Laserfiche Installer | 25 |
-| Laserfiche Server/Repository Server | 1028 |
+| Laserfiche Server/Repository Server | 1025 |
 | Mobile | 6 |
 | Office Integration | 7 |
 | Quick Fields | 17 |
@@ -54,7 +54,7 @@ Generated: 2026-06-28
 | Web Client | 39 |
 | WebLink | 14 |
 | Webtools Agent | 0 |
-| Windows Client/Desktop Client | 210 |
+| Windows Client/Desktop Client | 209 |
 | Workflow | 28 |
 
 ## Reviewed Source Status

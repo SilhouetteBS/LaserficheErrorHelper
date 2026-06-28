@@ -13,11 +13,11 @@ Generated: 2026-06-28
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 342 |
-| known-fix | 89 |
+| diagnostic-only | 310 |
+| known-fix | 98 |
 | needs-review | 1151 |
 | unresolved | 50 |
-| workaround | 105 |
+| workaround | 128 |
 
 ## Source Ledger Review Status
 

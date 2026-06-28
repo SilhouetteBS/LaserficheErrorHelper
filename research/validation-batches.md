@@ -1,16 +1,16 @@
 # Validation Batch Ledger
 
 Batch size: 50
-Candidates triaged: 1554
-Batches: 32
+Candidates triaged: 1548
+Batches: 31
 
 ## Disposition Summary
 
 | Disposition | Candidates |
 | --- | --- |
-| candidate-for-fix-upgrade | 276 |
+| candidate-for-fix-upgrade | 244 |
 | candidate-for-scenario-review | 3 |
-| keep-diagnostic-only | 37 |
+| keep-diagnostic-only | 63 |
 | needs-additional-source-research | 29 |
 | official-doc-baseline-only | 1151 |
 | priority-source-review | 58 |
@@ -28,11 +28,11 @@ Batches: 32
 | Discussions | 4 |
 | Distributed Computing Cluster | 6 |
 | Federated Search | 1 |
-| Forms | 64 |
+| Forms | 62 |
 | Full Text Search | 3 |
 | Import Agent | 12 |
 | Laserfiche Installer | 25 |
-| Laserfiche Server/Repository Server | 1028 |
+| Laserfiche Server/Repository Server | 1025 |
 | Mobile | 6 |
 | Office Integration | 7 |
 | Quick Fields | 17 |
@@ -40,7 +40,7 @@ Batches: 32
 | Snapshot | 7 |
 | Web Client | 39 |
 | WebLink | 14 |
-| Windows Client/Desktop Client | 210 |
+| Windows Client/Desktop Client | 209 |
 | Workflow | 28 |
 
 ## Batches
@@ -49,36 +49,35 @@ Batches: 32
 | --- | --- | --- | --- |
 | 1 | 50 | official-doc-baseline-only (48) | Laserfiche Server/Repository Server (41) |
 | 2 | 50 | official-doc-baseline-only (50) | Laserfiche Server/Repository Server (50) |
-| 3 | 50 | official-doc-baseline-only (48) | Laserfiche Server/Repository Server (50) |
+| 3 | 50 | official-doc-baseline-only (49) | Laserfiche Server/Repository Server (50) |
 | 4 | 50 | official-doc-baseline-only (50) | Laserfiche Server/Repository Server (50) |
 | 5 | 50 | official-doc-baseline-only (50) | Laserfiche Server/Repository Server (50) |
 | 6 | 50 | official-doc-baseline-only (50) | Laserfiche Server/Repository Server (50) |
 | 7 | 50 | official-doc-baseline-only (50) | Laserfiche Server/Repository Server (50) |
 | 8 | 50 | official-doc-baseline-only (50) | Laserfiche Server/Repository Server (50) |
 | 9 | 50 | official-doc-baseline-only (50) | Laserfiche Server/Repository Server (50) |
-| 10 | 50 | official-doc-baseline-only (47) | Laserfiche Server/Repository Server (50) |
+| 10 | 50 | official-doc-baseline-only (48) | Laserfiche Server/Repository Server (50) |
 | 11 | 50 | official-doc-baseline-only (49) | Laserfiche Server/Repository Server (50) |
 | 12 | 50 | official-doc-baseline-only (50) | Laserfiche Server/Repository Server (50) |
 | 13 | 50 | official-doc-baseline-only (50) | Laserfiche Server/Repository Server (50) |
 | 14 | 50 | official-doc-baseline-only (50) | Laserfiche Server/Repository Server (50) |
 | 15 | 50 | official-doc-baseline-only (50) | Laserfiche Server/Repository Server (50) |
 | 16 | 50 | official-doc-baseline-only (50) | Laserfiche Server/Repository Server (50) |
-| 17 | 50 | official-doc-baseline-only (49) | Laserfiche Server/Repository Server (50) |
+| 17 | 50 | official-doc-baseline-only (50) | Laserfiche Server/Repository Server (50) |
 | 18 | 50 | official-doc-baseline-only (50) | Laserfiche Server/Repository Server (50) |
 | 19 | 50 | official-doc-baseline-only (48) | Laserfiche Server/Repository Server (50) |
-| 20 | 50 | official-doc-baseline-only (49) | Laserfiche Server/Repository Server (45) |
+| 20 | 50 | official-doc-baseline-only (49) | Laserfiche Server/Repository Server (42) |
 | 21 | 50 | official-doc-baseline-only (50) | Windows Client/Desktop Client (50) |
 | 22 | 50 | official-doc-baseline-only (50) | Windows Client/Desktop Client (50) |
 | 23 | 50 | official-doc-baseline-only (50) | Windows Client/Desktop Client (50) |
-| 24 | 50 | priority-source-review (36) | Windows Client/Desktop Client (14) |
-| 25 | 50 | candidate-for-fix-upgrade (37) | Directory Server (26) |
-| 26 | 50 | candidate-for-fix-upgrade (50) | Forms (42) |
-| 27 | 50 | candidate-for-fix-upgrade (50) | Laserfiche Installer (20) |
-| 28 | 50 | candidate-for-fix-upgrade (49) | Laserfiche Server/Repository Server (27) |
-| 29 | 50 | candidate-for-fix-upgrade (49) | Windows Client/Desktop Client (18) |
-| 30 | 50 | candidate-for-fix-upgrade (37) | Windows Client/Desktop Client (19) |
-| 31 | 50 | needs-additional-source-research (25) | Web Client (22) |
-| 32 | 4 | keep-diagnostic-only (2) | Workflow (4) |
+| 24 | 50 | priority-source-review (40) | Windows Client/Desktop Client (10) |
+| 25 | 50 | candidate-for-fix-upgrade (40) | Directory Server (26) |
+| 26 | 50 | candidate-for-fix-upgrade (37) | Forms (46) |
+| 27 | 50 | candidate-for-fix-upgrade (48) | Laserfiche Installer (20) |
+| 28 | 50 | candidate-for-fix-upgrade (49) | Laserfiche Server/Repository Server (21) |
+| 29 | 50 | candidate-for-fix-upgrade (44) | Windows Client/Desktop Client (24) |
+| 30 | 50 | candidate-for-fix-upgrade (26) | Workflow (19) |
+| 31 | 48 | needs-additional-source-research (26) | Web Client (22) |
 
 ## Next Steps by Disposition
 

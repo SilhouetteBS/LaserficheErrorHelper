@@ -48,6 +48,8 @@ Run `npm run validation:batches` to triage the full validation queue in batches 
 
 Run `npm run curation:priority` after refreshing validation batches to review priority-source candidates. The command writes `research/priority-source-curation.md`, exports the source candidate set, and updates `src/data/curationOverrides.js` with conservative fix-status promotions.
 
+Run `npm run curation:community` after priority curation to review `Answers - Community Confirmed` candidates. This pass is lower priority than employee-source review and promotes only when the captured notes explicitly support a fix, workaround, or accepted remediation.
+
 ## Product-Specific Discovery
 
 The official Version 12 server-code pass is tracked separately in `research/answers-search-results.json` and `research/answers-reviewed-summary.json`.
