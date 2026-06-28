@@ -41,6 +41,25 @@ for (const entry of errorEntries) {
       errors.push(`${entry.id} source ${source.url} is not in the reviewed-source ledger`);
     }
   }
+  for (const [index, scenario] of (entry.scenarios ?? []).entries()) {
+    const scenarioLabel = `${entry.id} scenario ${index + 1}`;
+    if (!scenario.title) {
+      errors.push(`${scenarioLabel} is missing title`);
+    }
+    if (!Array.isArray(scenario.fixes) || scenario.fixes.length === 0) {
+      errors.push(`${scenarioLabel} must include at least one fix or next step`);
+    }
+    for (const version of scenario.versions ?? []) {
+      if (!validVersions.has(version)) {
+        errors.push(`${scenarioLabel} uses unknown version ${version}`);
+      }
+    }
+    for (const url of scenario.sourceUrls ?? []) {
+      if (!entry.sources.some((source) => source.url === url)) {
+        errors.push(`${scenarioLabel} source ${url} is not listed on the parent entry`);
+      }
+    }
+  }
 }
 
 if (errors.length > 0) {

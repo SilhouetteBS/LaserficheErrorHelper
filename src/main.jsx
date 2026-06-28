@@ -150,6 +150,14 @@ function App() {
             ...entry.symptoms,
             ...entry.likelyFixes,
             ...entry.versions,
+            ...(entry.scenarios ?? []).flatMap((scenario) => [
+              scenario.title,
+              scenario.summary,
+              ...(scenario.versions ?? []),
+              ...(scenario.symptoms ?? []),
+              ...(scenario.causes ?? []),
+              ...(scenario.fixes ?? []),
+            ]),
             fixStatusLabel(fixStatusValue(entry)),
             ...entry.sources.map((item) => item.title),
           ].join(" "),
@@ -544,6 +552,52 @@ function ErrorDetail({ entry }) {
           </ol>
         </DetailSection>
 
+        {entry.scenarios?.length > 0 && (
+          <DetailSection title="Possible Scenarios">
+            <div className="scenario-list">
+              {entry.scenarios.map((scenario) => (
+                <section className="scenario-card" key={scenario.title}>
+                  <div className="scenario-heading">
+                    <div>
+                      <h4>{scenario.title}</h4>
+                      {scenario.summary && <p>{scenario.summary}</p>}
+                    </div>
+                    {scenario.versions?.length > 0 && (
+                      <span className="scenario-versions">{scenario.versions.join(", ")}</span>
+                    )}
+                  </div>
+                  <ScenarioList title="Symptoms" items={scenario.symptoms} />
+                  <ScenarioList title="Likely Causes" items={scenario.causes} />
+                  <ScenarioList title="Fixes / Next Steps" items={scenario.fixes} ordered />
+                  {scenario.sourceUrls?.length > 0 && (
+                    <div className="scenario-sources">
+                      <strong>Scenario sources</strong>
+                      <ul>
+                        {scenario.sourceUrls.map((url) => {
+                          const sourceItem = entry.sources.find((source) => source.url === url);
+                          return (
+                            <li key={url}>
+                              {sourceItem ? (
+                                <a href={url} rel="noreferrer" target="_blank">
+                                  {sourceItem.title}
+                                </a>
+                              ) : (
+                                <a href={url} rel="noreferrer" target="_blank">
+                                  {url}
+                                </a>
+                              )}
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  )}
+                </section>
+              ))}
+            </div>
+          </DetailSection>
+        )}
+
         <div className="notice inline-notice">
           <ShieldCheck aria-hidden="true" size={18} />
           <p>Validate guidance in a test or maintenance window before changing production systems.</p>
@@ -633,6 +687,23 @@ function DetailSection({ title, children }) {
       </div>
       {children}
     </section>
+  );
+}
+
+function ScenarioList({ title, items = [], ordered = false }) {
+  if (!items.length) return null;
+
+  const ListTag = ordered ? "ol" : "ul";
+
+  return (
+    <div className="scenario-block">
+      <strong>{title}</strong>
+      <ListTag>
+        {items.map((item) => (
+          <li key={item}>{item}</li>
+        ))}
+      </ListTag>
+    </div>
   );
 }
 

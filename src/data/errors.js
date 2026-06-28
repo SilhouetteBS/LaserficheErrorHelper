@@ -111,6 +111,78 @@ const curatedErrorEntries = [
       "Verify the electronic document exists on the repository volume, can be opened from the server filesystem, and the volume disk is not full.",
       "Temporarily test without antivirus or add exclusions for Laserfiche files, folders, executables, and processes.",
     ],
+    scenarios: [
+      {
+        title: "Office files fail across a VPN or firewall path",
+        summary: "A Laserfiche employee tied one 780 case to network equipment blocking large responses or file types.",
+        versions: ["Version 10", "Version 12"],
+        symptoms: [
+          "Office documents fail to open or download when users connect across a VPN or firewall path.",
+          "Other files or local-network access may work normally.",
+        ],
+        causes: [
+          "Firewall or VPN rules may allow the connection but block larger Laserfiche responses or specific file types.",
+        ],
+        fixes: [
+          "Confirm Laserfiche traffic is allowed on the ports in use, commonly 80 or 443 for the reported environment.",
+          "Review firewall inspection, size limits, and file-type rules for Office documents and large responses.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/101400/Microsoft-Office-Files-on-VPN-have-Error-780-No-response-received-from-the-server",
+        ],
+      },
+      {
+        title: "Laserfiche 9.1.1 SP1 client/server connection issue",
+        summary: "A Laserfiche employee referenced the re-released Laserfiche 9.1.1 Service Pack 1 for one upgrade-related 780 case.",
+        versions: ["Version 9"],
+        symptoms: [
+          "Error 780 appears after upgrading the Laserfiche Server environment to Laserfiche 9.1.1.545.",
+        ],
+        causes: ["The reviewed thread points to a Laserfiche 9.1.1 SP1 client/server connection issue."],
+        fixes: [
+          "Review the re-released Laserfiche 9.1.1 Service Pack 1 guidance referenced by Laserfiche.",
+          "Confirm client and server patch levels match the corrected service pack guidance before deeper troubleshooting.",
+        ],
+        sourceUrls: ["https://answers.laserfiche.com/questions/59045/error-780-after-server-upgrade-to-911545"],
+      },
+      {
+        title: "Repository volume or electronic document problem",
+        summary: "A Laserfiche employee recommended verifying that the affected electronic document exists and opens from the repository volume.",
+        versions: ["Version 10", "Version 12"],
+        symptoms: [
+          "Assigning a template or opening a specific PDF/document returns No response received from the server. [780].",
+          "The problem may be limited to certain repository entries or files.",
+        ],
+        causes: [
+          "The electronic document may be missing, inaccessible, corrupt, or stored on a volume with filesystem or capacity issues.",
+        ],
+        fixes: [
+          "Verify the electronic document exists at the expected repository volume path.",
+          "Open the file directly from the Laserfiche Server filesystem as a control.",
+          "Check volume availability, disk capacity, and related server logs.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/110818/when-I-assign-a-template-to-a-PDF-in-LF-Client-I-receive-No-reponse-received-from-the-server-780",
+        ],
+      },
+      {
+        title: "Antivirus or endpoint protection interference",
+        summary: "A Laserfiche employee asked about antivirus and recommended testing Laserfiche exclusions in one image-loading case.",
+        versions: ["Version 10", "Version 12"],
+        symptoms: [
+          "Opening pages or loading images fails with No response received from the server. [780].",
+          "Only some pages or documents may be affected.",
+        ],
+        causes: ["Antivirus or endpoint protection may interfere with repository files or Laserfiche processes."],
+        fixes: [
+          "Temporarily test with antivirus disabled in a controlled maintenance window, if policy allows.",
+          "Add documented Laserfiche file, folder, executable, and process exclusions, then retest the affected documents.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/95104/Failed-to-Load-Image-No-response-received-from-the-server-780-on-some-Pages-when-open-in-Document-Viewer",
+        ],
+      },
+    ],
     notes:
       "The reviewed Answers posts describe several distinct 780 scenarios. Treat the fixes as troubleshooting branches, not one universal root cause.",
     sources: [
@@ -210,6 +282,45 @@ const curatedErrorEntries = [
       "Investigate network connectivity between the client network or virtual desktop environment and Laserfiche Server.",
       "For Azure or hosted networks, check site-to-site VPN or ExpressRoute tunnel health.",
       "Review timing with server, SQL, and network logs before opening support.",
+    ],
+    scenarios: [
+      {
+        title: "SQL Server is overloaded during client operations",
+        summary: "A Laserfiche employee noted that this type of performance issue can usually be traced to overloaded SQL Server.",
+        versions: ["Version 10", "Version 12"],
+        symptoms: [
+          "Login or metadata/search-related client operations time out.",
+          "The timeout correlates with heavier repository or SQL activity.",
+        ],
+        causes: ["SQL Server load, blocking, resource pressure, or slow query response may prevent the client operation from completing."],
+        fixes: [
+          "Check SQL Server CPU, memory, disk latency, blocking, and wait statistics when the timeout occurs.",
+          "Compare the timeout window with Laserfiche Server, SQL Server, and Windows event logs.",
+          "Escalate with timing evidence and trace/log data if the SQL bottleneck is not obvious.",
+        ],
+        sourceUrls: ["https://answers.laserfiche.com/questions/153318/error-784-operation-timed-out"],
+      },
+      {
+        title: "Virtual desktop or hosted network connectivity is transient",
+        summary:
+          "A Laserfiche employee pointed to transient connectivity between an Azure VNet and hosted Laserfiche Server in one virtual desktop login case.",
+        versions: ["Version 10", "Version 12"],
+        symptoms: [
+          "Desktop Client login times out from virtual desktops or hosted client networks.",
+          "The same repository may work from other networks or directly on the server.",
+        ],
+        causes: [
+          "Site-to-site VPN, ExpressRoute, routing, or transient connectivity issues may interrupt the client-to-server connection.",
+        ],
+        fixes: [
+          "Test from the Laserfiche Server and from a workstation on the same network as a control.",
+          "Review VPN, ExpressRoute, routing, packet loss, and latency during failed login attempts.",
+          "Correlate client timeout timestamps with network device and Laserfiche Server logs.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/197061/Virtual-Desktop-784-Timeout-when-logging-into-the-Desktop-Client",
+        ],
+      },
     ],
     notes: "Reviewed Answers replies are scenario-specific and should be used as troubleshooting branches.",
     sources: [
