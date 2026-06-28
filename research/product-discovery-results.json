@@ -172,7 +172,9 @@
     "snippet": "\"Request Entity Too Large\" error on large size Word document without any luck: https://answers. laserfiche .com/questions/190865/Is-Web-Access-supposed-to-display-Word-Docs-without-Office-Online-Server#191255... posted by Vikki Branscome 192 Mar 2 updated by Vikki Branscome 192 Mar 2 0 replies · 139 views · 0 0 · Web Client Version 12",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed under API Server candidate set; source is Web Client/Office Integration request-size issue already curated elsewhere."
   },
   {
     "product": "API Server",
@@ -225,11 +227,13 @@
     "snippet": "The Current Session has been Terminated [9067] issue with the self-hosted Laserfiche API server . On occasion, we receive the error message: The Current Session has been Terminated. [9067] after obtaining the ... it, but for some reason Laserfiche server have terminated the session. We are making multiple calls to the Laserfiche API to create Edoc, is there ...... posted by Wai Kit Lam 137 Nov 4, 2024 updated by Andrew Spear 644 Nov 5, 2024 2 replies · 423 views · 0 0 · Laserfiche API",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-partial",
     "queries": [
       "API Server \"error\" Laserfiche",
       "Laserfiche API \"token\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Already covered by existing 9067 entry with API Server employee diagnostics."
   },
   {
     "product": "API Server",
@@ -255,7 +259,9 @@
     "snippet": "Event Viewer Error clarification ID:172 HTTP request to LFFTS. Repository=\" LASERFICHE -PROD-TS\"; Request=\"GET http://{server}:5053/lffts/ api /5/catalog/999fc8e9-d495-4b09-be9c-0e055b39063d\"; Status=500; Error ... operation for the search catalog LASERFICHE -PROD-TS.\".... posted by Chris Pincombe 22 Jul 10, 2019 updated by Craig Slack 2133 Jul 10, 2019 1 reply · 2245 views · 1 0 · Laserfiche Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; LFFTS/search catalog event, not API Server-specific. Duplicate LFFTS row uses same source."
   },
   {
     "product": "API Server",
@@ -284,7 +290,9 @@
     "snippet": "LF API Server - Property file not found in the request body starting using the self-hosted API server . They're trying to use the following request to create new documents in Laserfiche via the API . When ... an error logged in the API trace log (%ProgramData%\\ Laserfiche\\API Server \\LFRepositoryAPI\\Logs\\trace.log) which states \"Property file not found in ...... posted by Daniel Phair 758 Nov 23, 2023 updated by Samad Paydar 19 Nov 28, 2023 3 replies · 902 views · 1 0 · Laserfiche API Version 11",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as API Server multipart electronicDocument property-name fix."
   },
   {
     "product": "API Server",
@@ -296,7 +304,9 @@
     "snippet": "Event Viewer Error clarification ID:172 HTTP request to LFFTS. Repository=\" LASERFICHE -PROD-TS\"; Request=\"GET http://{server}:5053/lffts/ api /5/catalog/999fc8e9-d495-4b09-be9c-0e055b39063d\"; Status=500; Error ... operation for the search catalog LASERFICHE -PROD-TS.\".... posted by Chris Pincombe 22 Jul 10, 2019 updated by Craig Slack 2133 Jul 10, 2019 1 reply · 2245 views · 1 0 · Laserfiche Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; LFFTS/search catalog event, not API Server-specific. Duplicate LFFTS row uses same source."
   },
   {
     "product": "API Server",
@@ -307,12 +317,14 @@
     "snippet": "Self Hosted Rest API 9010 Access Denied Postman to connect to the Laserfiche self-hosted API by performing the following actions. ,I perform an HTTP POST to https://mysandbox/LFRepositoryAPI/v1/Repositories ... the same behavior on the API swagger page on the server by ,Using the Token api call to generate an access token ,Clicking the authorize ...... posted by Jason Beck 102 Nov 9, 2022 updated by Greg Leeper 2 Feb 28, 2023 9 replies · 991 views · 0 0 · Laserfiche Laserfiche API Integrations",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "API Server \"error\" Laserfiche",
       "Laserfiche API \"error code\"",
       "Laserfiche API \"self-hosted\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as self-hosted API Server 9010 fixed in API Server 1.1."
   },
   {
     "product": "API Server",
@@ -323,11 +335,13 @@
     "snippet": "Self-hosted LF Web API Server sample project JSON error Hello, We have the self-hosted Laserfiche Web API Server installed, and Swagger works properly. I downloaded the sample project, lf -sample-repository- api -dotnet ...... posted by Qing Yu 4 Mar 8, 2024 updated by Qing Yu 4 Mar 11, 2024 2 replies · 484 views · 0 0 · Laserfiche API",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "API Server \"error\" Laserfiche",
       "Laserfiche API \"self-hosted\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as self-hosted API Server sample project v1 branch JSON error fix."
   },
   {
     "product": "Audit Trail",

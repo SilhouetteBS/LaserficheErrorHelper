@@ -8107,6 +8107,102 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "api-server-property-file-request-body",
+    code: "API-PROPERTY-FILE-NOT-FOUND",
+    message: "Invalid Request. Property file not found in the request body.",
+    product: "API Server",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Self-hosted API Server v1 document creation can fail when a multipart request names the file part file instead of electronicDocument.",
+    symptoms: [
+      "Swagger succeeds but the same request from a C#/.NET integration fails.",
+      "API Server trace.log reports Property file not found in the request body.",
+      "The request is creating a document with an electronic document and metadata.",
+    ],
+    likelyFixes: [
+      "Name the multipart form-data file property electronicDocument for v1 API requests.",
+      "Match the Swagger schema exactly, including casing expected by the generated request.",
+      "Ignore MaxRequestBodySize warnings if they also appear for successful requests and are not the failing condition.",
+    ],
+    notes:
+      "This is a second API Server source for an error pattern already seen from Power Automate integrations.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "LF API Server - Property file not found in the request body",
+        url: "https://answers.laserfiche.com/questions/213721/LF-API-Server--Property-file-not-found-in-the-request-body",
+        note: "Samad Paydar from Laserfiche says the v1 request body property name is electronicDocument, not file.",
+      },
+    ],
+  },
+  {
+    id: "api-server-9010-access-denied-version-11",
+    code: "9010",
+    message: "Access denied after generating a token with the self-hosted API Server.",
+    product: "API Server",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Self-hosted API Server could return 9010 Access denied after token generation; Laserfiche said the issue was resolved in Self-Hosted Laserfiche API Server version 1.1.",
+    symptoms: [
+      "Token creation succeeds through Postman or Swagger.",
+      "A subsequent Entries request with Authorization: Bearer {token} returns 9010.",
+      "The user has rights to the entry and can reproduce the issue in Swagger.",
+    ],
+    likelyFixes: [
+      "Install Self-Hosted Laserfiche API Server version 1.1 or later.",
+      "Test domain username escaping formats such as DOMAIN\\username, escaped DOMAIN\\\\username, or username@domain.",
+      "If the issue persists after version 1.1, open a Support case through the reseller.",
+    ],
+    notes:
+      "Laserfiche employee replies first suggested username escaping, then confirmed version 1.1 resolved the issue.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Self Hosted Rest API 9010 Access Denied",
+        url: "https://answers.laserfiche.com/questions/203765/Self-Hosted-Rest-API-9010-Access-Denied",
+        note: "Jason Chan from Laserfiche says the issue should be resolved in Self-Hosted Laserfiche API Server 1.1.",
+      },
+    ],
+  },
+  {
+    id: "api-server-sample-project-json-v1-branch",
+    code: "API-SAMPLE-JSON-VERSION",
+    message: "JSON exception from the self-hosted API Server .NET sample project.",
+    product: "API Server",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "The self-hosted API Server supports v1 of the Laserfiche API, so using the wrong branch of the .NET sample project can cause JSON exceptions when listing repositories.",
+    symptoms: [
+      "CreateFromUsernamePassword creates a client successfully.",
+      "ListRepositoriesAsync throws a JSON exception.",
+      "Swagger works directly against the self-hosted API Server.",
+    ],
+    likelyFixes: [
+      "Use the v1 branch of the lf-sample-repository-api-dotnet-srv repository.",
+      "Confirm the sample project targets the API version supported by the installed self-hosted API Server.",
+      "Retest repository listing and other retrieval methods after switching branches.",
+    ],
+    notes:
+      "The requester confirmed switching to the v1 branch removed the JSON error.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Self-hosted LF Web API Server sample project JSON error",
+        url: "https://answers.laserfiche.com/questions/216401/Selfhosted-LF-Web-API-Server-sample-project-JSON-error",
+        note: "Alexandria Gomez from Laserfiche says current self-hosted API Server supports API v1; requester confirmed the v1 branch fixed the JSON error.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));

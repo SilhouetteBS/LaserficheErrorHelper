@@ -4,17 +4,17 @@ Generated: 2026-06-27
 
 ## Summary
 
-- Published helper entries: 1379
-- Reviewed source ledger rows: 284
+- Published helper entries: 1382
+- Reviewed source ledger rows: 287
 - Discovery rows tracked: 312
-- Remaining candidate rows: 35
+- Remaining candidate rows: 28
 
 ## Fix Status Coverage
 
 | Fix status | Entries |
 | --- | --- |
 | diagnostic-only | 98 |
-| known-fix | 57 |
+| known-fix | 60 |
 | needs-review | 1153 |
 | unresolved | 34 |
 | workaround | 37 |
@@ -24,7 +24,7 @@ Generated: 2026-06-27
 | Review status | Sources |
 | --- | --- |
 | cross-product | 2 |
-| curated | 141 |
+| curated | 144 |
 | curated-partial | 91 |
 | curated-unresolved | 45 |
 | no-matching-posts | 1 |
@@ -36,7 +36,7 @@ Generated: 2026-06-27
 | --- | --- |
 | answers-community | 22 |
 | answers-community-confirmed | 42 |
-| answers-laserfiche-employee | 203 |
+| answers-laserfiche-employee | 206 |
 | answers-search | 1 |
 | official-docs | 16 |
 
@@ -46,7 +46,7 @@ Generated: 2026-06-27
 | --- | --- | --- |
 | Administration Hub | 3 | 5 |
 | AI Service | 0 | 2 |
-| API Server | 2 | 7 |
+| API Server | 5 | 0 |
 | Audit Trail | 10 | 0 |
 | Common Dialog | 9 | 0 |
 | Connector | 7 | 0 |
@@ -74,7 +74,6 @@ Generated: 2026-06-27
 
 | Product | Remaining candidates |
 | --- | --- |
-| API Server | 7 |
 | Snapshot | 6 |
 | Administration Hub | 5 |
 | Distributed Computing Cluster | 5 |
