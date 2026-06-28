@@ -755,7 +755,10 @@ function ErrorDetail({ entry, isSaved, onShare, onToggleSave }) {
                 rel="noreferrer"
                 target="_blank"
               >
-                <span>{sourceItem.title}</span>
+                <span className="source-card-content">
+                  <span>{sourceItem.title}</span>
+                  <SourceBadge sourceType={sourceItem.sourceType} />
+                </span>
                 <ExternalLink aria-hidden="true" size={16} />
               </a>
             ))}

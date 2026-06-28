@@ -9860,6 +9860,270 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "forms-lff2400-odbc-data-source",
+    code: "LFF2400-DataSourceConnectionError",
+    message: "An error occurred while testing the data source connection.",
+    product: "Forms",
+    versions: ["Version 11", "Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Forms can report LFF2400 when testing an ODBC data source. The source includes Laserfiche employee troubleshooting direction, but the public thread does not provide one universal fix.",
+    symptoms: [
+      "Testing an ODBC data source in Forms fails.",
+      "The message says to see the Windows Event Log for details.",
+      "The code is LFF2400-DataSourceConnectionError.",
+    ],
+    likelyFixes: [
+      "Check the Forms server Windows Event Log for the underlying ODBC, driver, authentication, or network error.",
+      "Verify the ODBC driver bitness and DSN are available on the Forms server, not only on an administrator workstation.",
+      "Confirm the Forms application pool or configured service account can reach the database and authenticate with the selected credentials.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Adding an ODBC Data Source to Laserfiche Forms",
+        url: "https://answers.laserfiche.com/questions/214285/Adding-an-ODBC-Data-Source-to-Laserfiche-Forms",
+        note: "Fresh promotion source for LFF2400 data-source connection failures.",
+      },
+    ],
+  },
+  {
+    id: "forms-lff378-lookup-failed",
+    code: "LFF378-Lookupfailed",
+    message: "Lookup failed to retrieve data from tables.",
+    product: "Forms",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Forms lookup rules can fail during submission with LFF378 when a lookup data source or query cannot return expected values.",
+    symptoms: [
+      "Submitting a form reports Lookup failed to retrieve data from tables.",
+      "The code is LFF378-Lookupfailed.",
+      "The form may not fall back to static drop-down values.",
+    ],
+    likelyFixes: [
+      "Identify which lookup rule runs during the failing submit action.",
+      "Test the lookup data source from Forms configuration and check Forms event logs for the failing table/query.",
+      "Confirm the query parameters, table permissions, and account used by Forms still match the target data source.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Forms - Lookup failed to retrieve data from tables",
+        url: "https://answers.laserfiche.com/questions/152748/Forms--Lookup-failed-to-retrieve-data-from-tables",
+        note: "Fresh promotion source for LFF378 lookup failure diagnostics.",
+      },
+    ],
+  },
+  {
+    id: "workflow-0267-script-method-not-found",
+    code: "0267-WF1",
+    message: "The script method was not found.",
+    product: "Workflow",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Workflow can report 0267-WF1 when a script activity references a method Workflow can no longer find or compile.",
+    symptoms: [
+      "A Workflow script activity stops running after previously working.",
+      "The error says The script method was not found [0267-WF1].",
+      "Subscriber or Workflow logs may show the error without a corresponding Windows event.",
+    ],
+    likelyFixes: [
+      "Open the workflow definition and recompile or resave the script activity.",
+      "Confirm the configured script method name still matches the method implemented in the script.",
+      "Check for recent .NET, Workflow, or custom assembly changes that could prevent the script from compiling or loading.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "The script method was not found",
+        url: "https://answers.laserfiche.com/questions/143979/The-script-method-was-not-found",
+        note: "Fresh promotion source for Workflow 0267-WF1 script-method failures.",
+      },
+    ],
+  },
+  {
+    id: "workflow-0383-missing-dependencies",
+    code: "0383-WF1",
+    message: "Missing dependencies detected. Please re-install.",
+    product: "Workflow",
+    versions: ["Version 9", "Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Workflow Designer can report 0383-WF1 when the local Workflow Designer profile is corrupted or dependencies are not available.",
+    symptoms: [
+      "Opening or running Workflow Designer reports Missing dependencies detected. Please re-install.",
+      "The code is 0383-WF1.",
+    ],
+    likelyFixes: [
+      "Reset the affected Workflow Designer profile as suggested in the source thread.",
+      "If profile reset does not help, repair or reinstall Workflow Designer on the workstation.",
+      "Compare behavior on another workstation to separate local profile issues from server-side Workflow problems.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Missing dependencies detected",
+        url: "https://answers.laserfiche.com/questions/71240/Missing-dependencies-detected",
+        note: "Selected answer says this normally occurs when the Workflow Designer profile is corrupted.",
+      },
+    ],
+  },
+  {
+    id: "web-client-1779-xsrf-token",
+    code: "1779",
+    message: "Was expecting XSRF token.",
+    product: "Web Client",
+    versions: ["Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Web Client can report Error 1779 when an expected XSRF token is missing or not accepted during a browser request.",
+    symptoms: ["A Web Client request fails with Error 1779.", "The message says was expecting XSRF token."],
+    likelyFixes: [
+      "Reproduce in a clean browser session and check whether cookies or site data are blocked.",
+      "Review reverse proxy, load balancer, and SSL offload settings for dropped cookies or rewritten headers.",
+      "Collect browser console/network details and Web Client logs for the request that lacks the token.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Message: Error 1779: was expecting XSRF token",
+        url: "https://answers.laserfiche.com/questions/219708/Message-Error-1779-was-expecting-XSRF-token",
+        note: "Fresh promotion source for Web Client XSRF token error 1779.",
+      },
+    ],
+  },
+  {
+    id: "web-access-403-14-anonymous-forbidden",
+    code: "HTTP Error 403.14",
+    message: "Forbidden when browsing to Web Access.",
+    product: "Web Client",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Web Access can return IIS HTTP Error 403.14 when the application is not serving a default document or authentication/path settings are incorrect.",
+    symptoms: [
+      "Browsing to Web Access returns HTTP Error 403.14 - Forbidden.",
+      "The issue can appear while trying to allow anonymous access or reach the Web Access landing path.",
+    ],
+    likelyFixes: [
+      "Verify the Web Access application path and default document settings in IIS.",
+      "Confirm the intended IIS authentication modes for the Web Access application.",
+      "Check whether the request is going to the application root instead of the expected Web Access route.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "HTTP Error 403.14 - Forbidden Error - Anonymous User Can't Access Web Access",
+        url: "https://answers.laserfiche.com/questions/119868/HTTP-Error-40314--Forbidden-Error--Anonymous-User-Cant-Access-Web-Access",
+        note: "Fresh promotion source for Web Access HTTP 403.14.",
+      },
+    ],
+  },
+  {
+    id: "directory-server-ad-sync-0x80072020",
+    code: "0x80072020",
+    message: "Active Directory operations error during Directory Server synchronization.",
+    product: "Directory Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Directory Server synchronization can log System.DirectoryServices.DirectoryServicesCOMException 0x80072020 while binding to Active Directory.",
+    symptoms: [
+      "LFDS does not synchronize with Active Directory.",
+      "Event Viewer logs System.DirectoryServices.DirectoryServicesCOMException (0x80072020): An operations error occurred.",
+    ],
+    likelyFixes: [
+      "Verify the LFDS server can reach the configured domain controller or LDAP host.",
+      "Check the identity-provider service account permissions and whether it can bind to AD from the LFDS server.",
+      "Review DNS, firewall, LDAP signing/channel binding, and domain-controller event logs around the sync attempt.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Directory Server not sync'ing with Active Directory",
+        url: "https://answers.laserfiche.com/questions/81857/Directory-Server-not-syncing-with-Active-Directory",
+        note: "Fresh promotion source for LFDS Active Directory sync error 0x80072020.",
+      },
+    ],
+  },
+  {
+    id: "windows-client-email-interface-not-registered",
+    code: "0x80040155 / 341",
+    message: "Interface not registered while emailing from Laserfiche Client.",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "The Windows Client can fail to email a document with interface-registration errors from the email sender path.",
+    symptoms: [
+      "Emailing a document from the Windows Client fails.",
+      "The technical details mention CEmailSender::SendEmail.",
+      "The error includes Interface not registered, 341, or 0x80040155.",
+    ],
+    likelyFixes: [
+      "Check the installed email client and whether its MAPI components are registered for the Windows profile running Laserfiche Client.",
+      "Repair the Office/email client installation if MAPI registration is broken.",
+      "Compare behavior using another workstation or Windows profile to isolate local COM/MAPI registration issues.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "error trying to e-mail a document",
+        url: "https://answers.laserfiche.com/questions/87421/error-trying-to-email-a-document",
+        note: "Fresh promotion source for Windows Client email interface-registration errors.",
+      },
+    ],
+  },
+  {
+    id: "windows-client-export-path-too-long-0x80070005",
+    code: "6603 / 6411 / 0x80070005",
+    message: "I/O or file creation error while exporting contents.",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 9", "Version 10"],
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Exporting contents from the Windows Client can fail when generated file paths become too long or cannot be created.",
+    symptoms: [
+      "Export Contents fails with I/O error in display engine.",
+      "The details include Error creating file, 6411, 6603, or 0x80070005.",
+      "The exported folder/document path is very long.",
+    ],
+    likelyFixes: [
+      "Export to a shorter local root path such as C:\\Temp to reduce the full generated file path length.",
+      "Shorten folder names, document names, or export destination paths before retrying.",
+      "Confirm the user has write permissions to the target export folder.",
+    ],
+    notes: "The selected source points to long generated paths as the likely cause and workaround.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Issue with \"export contents\" and file path.",
+        url: "https://answers.laserfiche.com/questions/60221/Issue-with-export-contents-and-file-path",
+        note: "Fresh promotion source for export path/file creation errors.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));

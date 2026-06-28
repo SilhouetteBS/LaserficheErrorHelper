@@ -1,0 +1,74 @@
+import fs from "node:fs";
+import { errorEntries } from "../src/data/errors.js";
+import { reviewedSources } from "../src/data/reviewedSources.js";
+
+const [, , productArg = "", limitArg = "80"] = process.argv;
+const limit = Number.parseInt(limitArg, 10) || 80;
+const rows = JSON.parse(fs.readFileSync("research/product-discovery-results.json", "utf8"));
+const reviewedUrls = new Set(reviewedSources.map((source) => normalizeUrl(source.url)));
+const promotedCodes = new Set(errorEntries.map((entry) => normalizeCode(entry.code)));
+const highValueProducts = new Set([
+  "Forms",
+  "Workflow",
+  "Web Client",
+  "Directory Server",
+  "Laserfiche Server/Repository Server",
+  "Windows Client/Desktop Client",
+]);
+
+const candidates = rows
+  .filter((row) => !productArg || row.product.toLowerCase() === productArg.toLowerCase())
+  .filter((row) => row.status === "candidate")
+  .filter((row) => Array.isArray(row.extractedErrorCodes) && row.extractedErrorCodes.length > 0)
+  .filter((row) => !reviewedUrls.has(normalizeUrl(row.url)))
+  .map((row) => ({
+    ...row,
+    promotionScore: scoreCandidate(row),
+    unpromotedCodes: row.extractedErrorCodes.filter((code) => !promotedCodes.has(normalizeCode(code))),
+  }))
+  .sort((a, b) => b.promotionScore - a.promotionScore || a.product.localeCompare(b.product) || a.title.localeCompare(b.title));
+
+const summary = candidates.reduce((acc, row) => {
+  acc[row.product] ||= { total: 0, employee: 0, confirmed: 0, unpromotedCode: 0 };
+  acc[row.product].total += 1;
+  if (/employee/i.test(row.sourceType)) acc[row.product].employee += 1;
+  if (/confirmed/i.test(row.sourceType)) acc[row.product].confirmed += 1;
+  if (row.unpromotedCodes.length > 0) acc[row.product].unpromotedCode += 1;
+  return acc;
+}, {});
+
+console.log(JSON.stringify({ filters: { product: productArg || "All", limit }, summary }, null, 2));
+
+for (const row of candidates.slice(0, limit)) {
+  console.log("");
+  console.log(`${row.promotionScore} | ${row.product} | ${row.sourceType} | ${row.extractedErrorCodes.join(", ")}`);
+  console.log(row.title);
+  console.log(row.url);
+  console.log(row.snippet);
+}
+
+function scoreCandidate(row) {
+  let score = 0;
+  if (highValueProducts.has(row.product)) score += 40;
+  if (/employee/i.test(row.sourceType)) score += 35;
+  if (/confirmed/i.test(row.sourceType)) score += 20;
+  score += Math.min(row.extractedErrorCodes.length, 4) * 4;
+  if (/(fixed|resolved|solution|workaround|hotfix|upgrade|update|reconfigure|restart|permission|rights|configuration)/i.test(row.snippet ?? "")) {
+    score += 12;
+  }
+  if (/(course|training|announcement|what'?s new|survey|webinar)/i.test(`${row.title} ${row.snippet}`)) {
+    score -= 60;
+  }
+  return score;
+}
+
+function normalizeUrl(value) {
+  const url = new URL(value);
+  url.hash = "";
+  url.search = "";
+  return url.toString();
+}
+
+function normalizeCode(value) {
+  return String(value).toLowerCase().replace(/\s+/g, " ").trim();
+}
