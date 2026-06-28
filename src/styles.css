@@ -230,7 +230,7 @@ a {
 
 .quality-panel {
   display: grid;
-  grid-template-columns: minmax(240px, 1fr) repeat(3, minmax(140px, 0.48fr)) auto;
+  grid-template-columns: minmax(240px, 1fr) repeat(4, minmax(140px, 0.48fr)) minmax(220px, auto);
   gap: 12px;
   align-items: center;
   margin-top: 12px;
@@ -278,7 +278,8 @@ a {
 
 .quality-note {
   justify-self: end;
-  white-space: nowrap;
+  max-width: 360px;
+  text-wrap: balance;
 }
 
 .advanced-filter-summary {

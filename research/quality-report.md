@@ -8,6 +8,9 @@ Generated: 2026-06-28
 - Reviewed sources: 924
 - Entries needing validation: 0
 - Entries with scenario variants: 15
+- High-priority unresolved reviewed sources: 325
+- Thin-coverage products with fewer than 5 entries: 4
+- Repeated-code clusters to review for scenario modeling: 101
 
 ## Confidence Coverage
 
@@ -75,6 +78,52 @@ Generated: 2026-06-28
 | no-matching-posts | 1 |
 | not-actionable | 4 |
 
+## High-Priority Unresolved Sources
+
+| Source type | Sources |
+| --- | --- |
+| Answers - Laserfiche Employee | 53 |
+| Answers - Community Confirmed | 272 |
+
+## Thin Product Coverage
+
+| Product | Published entries |
+| --- | --- |
+| AI Service | 1 |
+| Webtools Agent | 2 |
+| Administration Hub | 4 |
+| Federated Search | 4 |
+
+## Repeated-Code Scenario Review
+
+| Code | Entries | Products | Entries with scenarios |
+| --- | --- | --- | --- |
+| LFF502-UnexpectedError | 21 | Directory Server, Forms, Laserfiche Server/Repository Server | 0 |
+| 9013 | 16 | Connector, Import Agent, Laserfiche Server/Repository Server, Quick Fields, Records Management, Web Client, WebLink, Windows Client/Desktop Client, Workflow | 0 |
+| 0x80040310 | 7 | Laserfiche Installer, Web Client, Windows Client/Desktop Client | 0 |
+| 9010 | 7 | API Server, Laserfiche Server/Repository Server, Mobile, Quick Fields, Workflow | 0 |
+| 0x80004002 | 6 | Laserfiche Server/Repository Server, Windows Client/Desktop Client, Workflow | 1 |
+| 9008 | 6 | Full Text Search, Import Agent, Laserfiche Server/Repository Server | 0 |
+| 10061 | 6 | Forms, Workflow | 0 |
+| 0x80004005 | 5 | Directory Server, Forms, Windows Client/Desktop Client | 0 |
+| 0x80131040 | 5 | API Server, Directory Server, Web Client | 0 |
+| 6000 | 5 | Directory Server, Laserfiche Server/Repository Server, Records Management, Snapshot, Windows Client/Desktop Client | 0 |
+| LFF2106-InvalidDataSent | 5 | Directory Server, Discussions, Mobile | 0 |
+| LFF2400-DataSourceConnectionError | 5 | Forms | 0 |
+| 0x800706BA | 4 | Distributed Computing Cluster, Quick Fields | 0 |
+| 780 | 4 | Laserfiche Server/Repository Server, Snapshot | 1 |
+| 784 | 4 | Full Text Search, Laserfiche Server/Repository Server | 1 |
+| 797 | 4 | Laserfiche Server/Repository Server, Workflow | 0 |
+| 9025 | 4 | Laserfiche Server/Repository Server | 0 |
+| 42000 | 4 | Audit Trail, Discussions, Forms | 0 |
+| LFF4112-PdfNetworkError | 4 | Forms, Laserfiche Installer | 0 |
+| 0x80005000 | 3 | Directory Server, Workflow | 0 |
+| 0x80040154 | 3 | Laserfiche Installer, WebLink, Windows Client/Desktop Client | 0 |
+| 0xc004248d | 3 | Directory Server | 0 |
+| 0xc0042330 | 3 | Laserfiche Installer, Windows Client/Desktop Client | 0 |
+| 0xc0042332 / 0x80042332 | 3 | Directory Server, Windows Client/Desktop Client | 0 |
+| 0xc0042335 | 3 | Web Client, Windows Client/Desktop Client | 0 |
+
 ## Top Validation Candidates
 
 | Product | Code | Fix status | Confidence | Best source | Title |
@@ -86,4 +135,5 @@ Generated: 2026-06-28
 - Upgrade an entry only when the source supports the symptom, cause, and fix for the product/version context.
 - Add scenario variants when the same code has different causes or fixes.
 - Keep unresolved diagnostic entries visible when they help users identify the error but do not imply a confirmed fix.
+- Catalog data is already split into Vite chunks for errors, reviewed sources, official docs, and vendor code; keep large new datasets in separate importable modules.
 

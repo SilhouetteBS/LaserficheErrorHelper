@@ -75,6 +75,30 @@ const byFixStatus = countBy(errorEntries, fixStatusValue);
 const byConfidence = countBy(errorEntries, (entry) => entry.confidence);
 const byValidationStatus = countBy(errorEntries.filter((entry) => entry.validationStatus), (entry) => entry.validationStatus);
 const sourceReviewStatus = countBy(reviewedSources, (source) => source.reviewStatus);
+const unresolvedSources = reviewedSources.filter((source) => source.reviewStatus === "curated-unresolved");
+const highValueUnresolvedSources = unresolvedSources.filter((source) =>
+  ["answers-laserfiche-employee", "answers-community-confirmed"].includes(source.sourceType),
+);
+const publishedByProduct = countBy(errorEntries, (entry) => entry.product);
+const thinCoverageProducts = productOptions
+  .map((product) => [product, publishedByProduct[product] || 0])
+  .filter(([, count]) => count < 5)
+  .sort(([, a], [, b]) => a - b);
+const repeatedCodeClusters = Object.values(
+  errorEntries.reduce((groups, entry) => {
+    groups[entry.code] ??= [];
+    groups[entry.code].push(entry);
+    return groups;
+  }, {}),
+)
+  .filter((entries) => entries.length > 1)
+  .map((entries) => ({
+    code: entries[0].code,
+    count: entries.length,
+    products: Array.from(new Set(entries.map((entry) => entry.product))).sort(),
+    scenarioEntries: entries.filter((entry) => (entry.scenarios?.length ?? 0) > 0).length,
+  }))
+  .sort((a, b) => b.count - a.count || a.code.localeCompare(b.code, undefined, { numeric: true }));
 
 const report = [
   "# Laserfiche Error Helper Quality Report",
@@ -87,6 +111,9 @@ const report = [
   `- Reviewed sources: ${reviewedSources.length}`,
   `- Entries needing validation: ${needsValidation.length}`,
   `- Entries with scenario variants: ${errorEntries.filter((entry) => (entry.scenarios?.length ?? 0) > 0).length}`,
+  `- High-priority unresolved reviewed sources: ${highValueUnresolvedSources.length}`,
+  `- Thin-coverage products with fewer than 5 entries: ${thinCoverageProducts.length}`,
+  `- Repeated-code clusters to review for scenario modeling: ${repeatedCodeClusters.length}`,
   "",
   "## Confidence Coverage",
   "",
@@ -123,6 +150,31 @@ const report = [
     Object.entries(sourceReviewStatus).sort(([a], [b]) => a.localeCompare(b)).map(([status, count]) => [status, count]),
   ),
   "",
+  "## High-Priority Unresolved Sources",
+  "",
+  table(
+    ["Source type", "Sources"],
+    Object.entries(countBy(highValueUnresolvedSources, (source) => source.sourceType))
+      .sort(([a], [b]) => sourcePriority(a) - sourcePriority(b))
+      .map(([sourceType, count]) => [sourceLabel(sourceType), count]),
+  ),
+  "",
+  "## Thin Product Coverage",
+  "",
+  table(["Product", "Published entries"], thinCoverageProducts.map(([product, count]) => [product, count])),
+  "",
+  "## Repeated-Code Scenario Review",
+  "",
+  table(
+    ["Code", "Entries", "Products", "Entries with scenarios"],
+    repeatedCodeClusters.slice(0, 25).map((cluster) => [
+      cluster.code,
+      cluster.count,
+      cluster.products.join(", ").replaceAll("|", "\\|"),
+      cluster.scenarioEntries,
+    ]),
+  ),
+  "",
   "## Top Validation Candidates",
   "",
   table(
@@ -146,6 +198,7 @@ const report = [
   "- Upgrade an entry only when the source supports the symptom, cause, and fix for the product/version context.",
   "- Add scenario variants when the same code has different causes or fixes.",
   "- Keep unresolved diagnostic entries visible when they help users identify the error but do not imply a confirmed fix.",
+  "- Catalog data is already split into Vite chunks for errors, reviewed sources, official docs, and vendor code; keep large new datasets in separate importable modules.",
   "",
 ];
 

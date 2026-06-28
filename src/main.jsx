@@ -418,6 +418,7 @@ function App() {
     const needsSourceResearch = errorEntries.filter((entry) => entry.validationStatus === "source-research-needed");
     const hasGuidance = errorEntries.filter((entry) => ["known-fix", "workaround"].includes(fixStatusValue(entry)));
     const scenarioEntries = errorEntries.filter((entry) => (entry.scenarios?.length ?? 0) > 0);
+    const unresolvedEntries = errorEntries.filter((entry) => ["unresolved", "needs-review"].includes(fixStatusValue(entry)));
     const officialBaseline = errorEntries.filter((entry) => entry.validationStatus === "official-doc-baseline");
     const reviewedDiagnostic = errorEntries.filter((entry) => entry.validationStatus === "reviewed-diagnostic");
     return {
@@ -425,6 +426,7 @@ function App() {
       lowConfidence: errorEntries.filter((entry) => entry.confidence === "low").length,
       hasGuidance: hasGuidance.length,
       scenarioEntries: scenarioEntries.length,
+      unresolvedEntries: unresolvedEntries.length,
       officialBaseline: officialBaseline.length,
       reviewedDiagnostic: reviewedDiagnostic.length,
     };
@@ -471,6 +473,17 @@ function App() {
 
   function focusScenarios() {
     setScenarioFilter("has-scenarios");
+    setSelectedId(null);
+    setIsMoreFiltersOpen(true);
+    setUsageStats(recordUsageEvent("filters"));
+  }
+
+  function focusUnresolved() {
+    setConfidence(allOption);
+    setFixStatus("unresolved");
+    setResearchFilter("needs-fix-research");
+    setValidationFilter(allOption);
+    setSortBy("confidence");
     setSelectedId(null);
     setIsMoreFiltersOpen(true);
     setUsageStats(recordUsageEvent("filters"));
@@ -664,7 +677,13 @@ function App() {
             <strong>{qualitySummary.scenarioEntries}</strong>
             <span>Multiple scenarios</span>
           </button>
-          <span className="quality-note">{qualitySummary.lowConfidence} low-confidence entries remain visible for discovery.</span>
+          <button type="button" onClick={focusUnresolved}>
+            <strong>{qualitySummary.unresolvedEntries}</strong>
+            <span>Unresolved or needs review</span>
+          </button>
+          <span className="quality-note">
+            {qualitySummary.lowConfidence} low-confidence entries remain visible for discovery; {qualitySummary.hasGuidance} entries have a known fix or workaround.
+          </span>
         </section>
 
       <section className="workspace">
