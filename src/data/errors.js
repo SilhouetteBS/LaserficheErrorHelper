@@ -6979,6 +6979,167 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "office-integration-request-entity-too-large-word",
+    code: "REQUEST-ENTITY-TOO-LARGE",
+    message: "Request Entity Too Large when viewing a large Word document.",
+    product: "Office Integration",
+    versions: ["Version 12"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Large Word documents can show Request Entity Too Large in Web Client while the same document opens in the desktop client; the reviewed thread has no public replies.",
+    symptoms: [
+      "Opening a large Word document in Web Client reports Request Entity Too Large.",
+      "The same document can be viewed from the desktop client.",
+      "Server logs include a corresponding large request error.",
+    ],
+    likelyFixes: [
+      "Check Web Client and reverse-proxy/IIS request size limits for document preview and Office rendering paths.",
+      "Compare with Office Online Server or Web Client document display configuration if in use.",
+      "Collect Web Client server logs and open Support because no confirmed public fix was posted.",
+    ],
+    notes:
+      "Published as unresolved for recognition; this is Web Client document viewing with Office documents rather than the desktop Office add-in.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Request Entity Too Large error on large size Word document",
+        url: "https://answers.laserfiche.com/questions/235453/Request-Entity-Too-Large-error-on-large-size-Word-document",
+        note: "Thread documents the Version 12 large Word document error but has no public replies.",
+      },
+    ],
+  },
+  {
+    id: "office-integration-webtools-invisible-form",
+    code: "OFFICE-INVISIBLE-FORM",
+    message: "This form is invisible while opening Office documents through WebTools Agent.",
+    product: "Office Integration",
+    versions: ["Version 11", "Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Office Integration can repeatedly prompt to download the integration or show this form is invisible when WebTools Agent is not connected to the local browser/Office integration endpoint.",
+    symptoms: [
+      "Opening a document in local Word from Laserfiche repeatedly prompts to download Office Integration.",
+      "A this form is invisible message appears after boot or during Office Integration startup.",
+      "WebTools Agent may show disconnected or plugin.laserfichelocalhost.com on port 18437 may not respond locally.",
+    ],
+    likelyFixes: [
+      "In the repository user options, Advanced details, check whether WebTools Agent reports connected.",
+      "Confirm WebTools Agent is running and matches the Office Integration/Web Client version expectations.",
+      "Check local firewall or endpoint protection rules for plugin.laserfichelocalhost.com and port 18437.",
+      "Open Support if WebTools Agent is running but cannot connect locally.",
+    ],
+    notes:
+      "The thread is Cloud-originated, but the WebTools Agent connectivity pattern is useful for self-hosted Office Integration troubleshooting.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "this form is invisible error for Laserfiche Office Integration",
+        url: "https://answers.laserfiche.com/questions/235016/this-form-is-invisible-error-for-Laserfiche-Office-Integration",
+        note: "Laserfiche employee asks for Support review; community troubleshooting identifies WebTools Agent connectivity and localhost port 18437 as likely factors.",
+      },
+    ],
+  },
+  {
+    id: "office-integration-outlook-datetime-field",
+    code: "OFFICE-DATETIME-FIELD / 9017",
+    message: "Bad field value when saving Outlook received time to a date/time field.",
+    product: "Office Integration",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Office Integration 10.2.1 can throw a bad field value error when saving Outlook received time or a default date/time value into a Laserfiche template field.",
+    symptoms: [
+      "Saving an Outlook email through Office Integration fails when mapping received time to a template date/time field.",
+      "The same default date/time field works when creating a new document directly in the repository.",
+      "The environment is Laserfiche Avante 10.2.1 with Office 365.",
+    ],
+    likelyFixes: [
+      "Apply the Laserfiche hotfix/knowledge base fix for Office Integration 10.2.1 bad field value errors.",
+      "Verify the target Laserfiche field type and regional date/time format after patching.",
+      "Retest saving from Outlook with the same template and received-time mapping.",
+    ],
+    notes:
+      "The requester self-reported the KB fix; this entry is separate from generic repository 9017 date-format guidance because it is Office Integration-specific.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Got Error message when setting receive time from MS Outlook to a template field.",
+        url: "https://answers.laserfiche.com/questions/127007/Got-Error-message-when-setting-receive-time-from-MS-Outlook-to-a-template-field",
+        note: "Requester says the issue was resolved by the Laserfiche KB fix for Office Integration 10.2.1 bad field value errors.",
+      },
+    ],
+  },
+  {
+    id: "office-integration-repository-not-found",
+    code: "OFFICE-REPOSITORY-NOT-FOUND",
+    message: "Office plugin cannot find the repository.",
+    product: "Office Integration",
+    versions: ["Version 9"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Office Integration can fail to locate a repository on a new workstation when the user has not configured the repository connection for the Office plugin.",
+    symptoms: [
+      "Uploading from Outlook prompts for a repository and then says it cannot find the repository.",
+      "The issue appears on new PCs for users who previously used Office Integration.",
+      "The users are connecting through Web Access/Web Client.",
+    ],
+    likelyFixes: [
+      "Configure the Office Integration repository connection on the workstation before saving from Outlook.",
+      "Compare repository attachment settings with a working workstation.",
+      "Collect screenshots and Support logs if repository configuration looks correct but the plugin still cannot find it.",
+    ],
+    notes:
+      "The public thread has employee diagnostic guidance but no final confirmed fix.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Office plugin error - cannot find the repository",
+        url: "https://answers.laserfiche.com/questions/59039/Office-plugin-error--cannot-find-the-repository",
+        note: "Alan Chan from Laserfiche says the users likely need to configure which repository the Office Integration should connect to.",
+      },
+    ],
+  },
+  {
+    id: "office-integration-com-ienumerable-checkout",
+    code: "OFFICE-COM-IENUMERABLE",
+    message: "Unable to cast COM object to System.Collections.IEnumerable during Word checkout.",
+    product: "Office Integration",
+    versions: ["Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Laserfiche 12 Word checkout can fail with a COM object cast error from the Office Integration plugin, possibly due to missing Microsoft Visual C++ runtime components or a damaged Office Integration install.",
+    symptoms: [
+      "Checking out a Word document immediately fails.",
+      "The error says Unable to cast COM object of type System.__ComObject to System.Collections.IEnumerable.",
+      "Restarting the client does not resolve the issue.",
+    ],
+    likelyFixes: [
+      "Repair or reinstall Laserfiche Office Integration.",
+      "Repair or install the required Microsoft Visual C++ runtimes on the workstation.",
+      "Open a Support case if the error persists after repairing Office Integration.",
+    ],
+    notes:
+      "Laserfiche employee guidance frames this as a lower-level Office Integration plugin component failure.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Unable to Check out a Word file in Laserfiche 12 Error Unable to cast COM object",
+        url: "https://answers.laserfiche.com/questions/230334/Unable-to-Check-out-a-Word-file-in-Laserfiche-12-Error-Unable-to-cast-COM-object-of-typeSystemComObject-to-interface-type-SystemCollectionIEnumerable",
+        note: "Samuel Carson from Laserfiche recommends repairing or reinstalling Office Integration and checking for missing VC++ runtime components.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));

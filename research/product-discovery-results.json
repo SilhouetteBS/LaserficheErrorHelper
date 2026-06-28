@@ -2461,7 +2461,9 @@
     "snippet": "\"Request Entity Too Large\" error on large size Word document to-display-Word-Docs-without- Office -Online-Server#191255... posted by Vikki Branscome 192 Mar 2 updated by Vikki Branscome 192 Mar 2 0 replies · 139 views · 0 0 · Web Client Version 12",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as unresolved Office/Web Client large Word request-size error."
   },
   {
     "product": "Office Integration",
@@ -2473,7 +2475,9 @@
     "snippet": "\"this form is invisible\" error for Laserfiche Office Integration issue? I'm using the Office Integration files downloaded from Cloud. If I try to open a document in local Word, I get a prompt ...... posted by Ben Birns 1944 Feb 5 updated by Ben Birns 1944 Feb 6 8 replies · 181 views · 0 0 · Laserfiche Cloud",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Office Integration/WebTools Agent local connectivity issue."
   },
   {
     "product": "Office Integration",
@@ -2485,7 +2489,9 @@
     "snippet": "Migrating and Upgrading at the same time - asking for tips! we are getting this error: Error Code : 9008 Error Message: There was an error saving annotations. General database error. [9008] ------------ Technical Details: ------------ ... posted by Carlos Muriel 7 Oct 24, 2022 updated by Carlos Muriel 7 Nov 4, 2022 11 replies · 1806 views · 0 0 · Version 10 Version 11 Installation and Upgrades Migration How To",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "not-actionable",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; migration planning thread, not an Office Integration error."
   },
   {
     "product": "Office Integration",
@@ -2497,7 +2503,9 @@
     "snippet": "stuck sessions in admin console Here is the error details: Error Code : 9037 Error Message: Invalid session. [9037] ------------ Technical Details ------------ LFSO: Call Stack: (Exception) ... posted by Jonathan Kim 150 Jul 12, 2018 updated by Chris Douglas 4991 Jul 13, 2018 4 replies · 723 views · 0 0 · Laserfiche Version 8",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "not-actionable",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; Version 8 admin-console session management, outside current version scope."
   },
   {
     "product": "Office Integration",
@@ -2508,11 +2516,13 @@
     "snippet": "LF 11 Office Integration \"Failed to connect to the server. Verify the server is online before trying again. [9067]\" issue when trying to send Office Documents to LF via the Office Integration in the LF Windows Client, where they get the error message below ... The are on LF11 and Office Integration version is 11.0.0.453. Anyone else seen this error and if so found a permanent solution ...... posted by Jeff Curtis 725 Sep 26, 2022 updated by Cris Dorrigoni De Morais 38 Mar 13, 2025 5 replies · 97",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "Office Integration \"failed to connect\"",
       "Office Integration \"server is online\""
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Already curated under 9067 Office Integration FQDN/Web Client configuration."
   },
   {
     "product": "Office Integration",
@@ -2524,7 +2534,9 @@
     "snippet": "Got Error message when setting receive time from MS Outlook to a template field. Hi everyone, I got an error message when sending receive time from MS Outlook to a template field or I even tried to set default ... 10.2.1 and we use MS Office 365. This was not any error messages when creating a new file with this default date/time of the ...... posted by Bongkoch Ruangrat 146 Sep 2, 2017 updated by Bongkoch Ruangrat 146 Sep 2, 2017 1 reply · 487 views · 0 0 · Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Office Integration Outlook date/time field bad value issue."
   },
   {
     "product": "Office Integration",
@@ -2535,11 +2547,13 @@
     "snippet": "LF 11 Office Integration \"Failed to connect to the server. Verify the server is online before trying again. [9067]\" issue when trying to send Office Documents to LF via the Office Integration in the LF Windows Client, where they get the error message below ... The are on LF11 and Office Integration version is 11.0.0.453. Anyone else seen this error and if so found a permanent solution ...... posted by Jeff Curtis 725 Sep 26, 2022 updated by Cris Dorrigoni De Morais 38 Mar 13, 2025 5 replies · 97",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "Office Integration \"failed to connect\"",
       "Office Integration \"server is online\""
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Already curated under 9067 Office Integration FQDN/Web Client configuration."
   },
   {
     "product": "Office Integration",
@@ -2551,7 +2565,9 @@
     "snippet": "Office Integration - Cannot Use Windows Auth as LFDS Auth is Configured have a client using the Office integration to save documents from Word directly into the repository . The customer are using Windows Accounts in LFDS to ... t sign in via the Office Integration as he gets the following error when trying to sign in using the Windows Authentication option. He can ...... posted by Daniel Phair 758 Jan 6, 2025 updated by Daniel Phair 758 Jan 7, 2025 2 replies · 477 views · 0 0 · Laserfiche Direc",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Already curated as Office Integration LFDS-auth Windows Authentication issue."
   },
   {
     "product": "Office Integration",
@@ -2563,7 +2579,9 @@
     "snippet": "Office Integration - Cannot Use Windows Auth as LFDS Auth is Configured have a client using the Office integration to save documents from Word directly into the repository . The customer are using Windows Accounts in LFDS to ... t sign in via the Office Integration as he gets the following error when trying to sign in using the Windows Authentication option. He can ...... posted by Daniel Phair 758 Jan 6, 2025 updated by Daniel Phair 758 Jan 7, 2025 2 replies · 477 views · 0 0 · Laserfiche Direc",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Already curated as Office Integration LFDS-auth Windows Authentication issue."
   },
   {
     "product": "Office Integration",
@@ -2575,7 +2593,9 @@
     "snippet": "Office plugin error - cannot find the repository it can not find the repository or it gives them a problem reporting error .... posted by Jennifer Buckingham 0 Jul 7, 2014 updated by Jennifer Buckingham 0 Jul 15, 2014 2 replies · 832 views · 0 0",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as unresolved Office plugin repository connection configuration issue."
   },
   {
     "product": "Office Integration",
@@ -2587,7 +2607,9 @@
     "snippet": "Unable to Check out a Word file in Laserfiche 12 Error: Unable to cast COM object of type'System.__ComObject' to interface type \"System.Collection.IEnumerable out a file from the repository in Laserfiche 12. The error message that appears on the screen is: Unable to cast COM object of type ... anyone else has encountered this error before or knows what might be causing it. Any guidance or suggestions from the community would be greatly appreciated ...... posted by Guillermo Lozano 4 Jul 3, 2025 ",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Office Integration COM/VC++ runtime checkout issue."
   },
   {
     "product": "Quick Fields",
