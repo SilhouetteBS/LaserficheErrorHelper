@@ -2,6 +2,7 @@
 
 ## 2026-06-28
 
+- Reviewed priority source-backlog candidates, promoted WebLink/Workflow source-backed workarounds, added candidate-review indicators, and added `npm run review:candidate`.
 - Added backlog curation for official-source matches, validation-status filtering, and deeper product discovery passes for backlog-heavy products.
 - Re-searched the source-research backlog, added validation-status UI labels, compacted validation triage data, and ran low-coverage product discovery passes.
 - Added validation batch completion triage and a separate source-research backlog.

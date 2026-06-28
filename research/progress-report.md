@@ -5,8 +5,8 @@ Generated: 2026-06-28
 ## Summary
 
 - Published helper entries: 1737
-- Reviewed source ledger rows: 652
-- Discovery rows tracked: 3880
+- Reviewed source ledger rows: 658
+- Discovery rows tracked: 3905
 - Remaining candidate rows: 286
 
 ## Fix Status Coverage
@@ -16,17 +16,17 @@ Generated: 2026-06-28
 | diagnostic-only | 310 |
 | known-fix | 98 |
 | needs-review | 1151 |
-| unresolved | 50 |
-| workaround | 128 |
+| unresolved | 48 |
+| workaround | 130 |
 
 ## Source Ledger Review Status
 
 | Review status | Sources |
 | --- | --- |
-| cross-product | 2 |
-| curated | 155 |
+| cross-product | 3 |
+| curated | 159 |
 | curated-partial | 95 |
-| curated-unresolved | 395 |
+| curated-unresolved | 396 |
 | no-matching-posts | 1 |
 | not-actionable | 4 |
 
@@ -34,8 +34,8 @@ Generated: 2026-06-28
 
 | Source type | Sources |
 | --- | --- |
-| answers-community | 77 |
-| answers-community-confirmed | 319 |
+| answers-community | 79 |
+| answers-community-confirmed | 323 |
 | answers-laserfiche-employee | 239 |
 | answers-search | 1 |
 | official-docs | 16 |

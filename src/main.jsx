@@ -25,6 +25,7 @@ import {
   versionOptions,
 } from "./data/errors.js";
 import { reviewedSources } from "./data/reviewedSources.js";
+import { sourceCandidateReviews } from "./data/sourceCandidateReviews.js";
 import "./styles.css";
 
 const allOption = "All";
@@ -160,6 +161,14 @@ function validationStatusDescription(value) {
     "source-research-needed": "The entry is documented for discovery, but it still needs deeper source research before promoting a fix.",
   };
   return descriptions[value] ?? "This entry has not been included in a validation triage pass yet.";
+}
+
+function candidateReviewSummary(entryId) {
+  const reviews = Object.values(sourceCandidateReviews).filter((review) => review.entryId === entryId);
+  if (reviews.length === 0) return null;
+  const accepted = reviews.filter((review) => review.disposition.startsWith("accepted-")).length;
+  if (accepted > 0) return { label: "Candidate source found", className: "candidate-found", count: accepted };
+  return { label: "Candidate reviewed", className: "candidate-reviewed", count: reviews.length };
 }
 
 function scenarioFilterLabel(value) {
@@ -720,6 +729,11 @@ function App() {
                           <small>{entry.summary}</small>
                         </span>
                         <span className="result-badges">
+                          {candidateReviewSummary(entry.id) && (
+                            <span className={`candidate-status ${candidateReviewSummary(entry.id).className}`}>
+                              {candidateReviewSummary(entry.id).label}
+                            </span>
+                          )}
                           {entry.scenarios?.length > 0 && <span className="scenario-count">{entry.scenarios.length} scenarios</span>}
                           <FixStatusBadge value={fixStatusValue(entry)} />
                           <ConfidenceBadge value={entry.confidence} />
@@ -894,6 +908,8 @@ function InstructionsPane() {
 }
 
 function ErrorDetail({ entry, onShare }) {
+  const candidateSummary = candidateReviewSummary(entry.id);
+
   return (
     <article className="detail-pane">
       <div className="detail-main">
@@ -901,6 +917,7 @@ function ErrorDetail({ entry, onShare }) {
           <div>
             <span className="selected-label">Selected error</span>
             {entry.scenarios?.length > 0 && <span className="scenario-count detail-scenario-count">{entry.scenarios.length} scenarios</span>}
+            {candidateSummary && <span className={`candidate-status ${candidateSummary.className}`}>{candidateSummary.label}</span>}
             <h2>
               {entry.code} <span>{entry.message}</span>
             </h2>
@@ -1041,6 +1058,11 @@ function ErrorDetail({ entry, onShare }) {
             {validationStatusLabel(entry.validationStatus)}
           </span>
           <p>{validationStatusDescription(entry.validationStatus)}</p>
+          {candidateSummary && (
+            <p>
+              {candidateSummary.count} reviewed candidate source{candidateSummary.count === 1 ? "" : "s"} matched this entry.
+            </p>
+          )}
         </section>
         <section className="side-card">
           <h3>Source Priority</h3>

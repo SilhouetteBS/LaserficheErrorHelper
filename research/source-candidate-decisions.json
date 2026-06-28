@@ -1,0 +1,65 @@
+{
+  "updatedDate": "2026-06-28",
+  "decisions": [
+    {
+      "url": "https://answers.laserfiche.com/questions/199757/The-requested-service-ILicensingService-may-not-be-running-LFF3004UnableToOpenServiceProxy",
+      "entryId": "forms-lff3004-licensing-service-proxy",
+      "product": "Forms",
+      "code": "LFF3004",
+      "title": "The requested service 'ILicensingService' may not be running. [LFF3004-UnableToOpenServiceProxy]",
+      "disposition": "accepted-diagnostic",
+      "note": "LFF3004 thread suggests checking Forms Routing Service but does not confirm a final fix.",
+      "reviewedDate": "2026-06-28"
+    },
+    {
+      "url": "https://answers.laserfiche.com/questions/168241/Error-Reading-HTTP-response-body",
+      "entryId": "web-client-http-response-body",
+      "product": "Web Client",
+      "code": "WEBCLIENT-HTTP-RESPONSE-BODY",
+      "title": "Error Reading HTTP response body.",
+      "disposition": "rejected-cross-product",
+      "note": "Workflow briefcase-copy issue not the Web Client HTTP response body entry.",
+      "reviewedDate": "2026-06-28"
+    },
+    {
+      "url": "https://answers.laserfiche.com/questions/53899/A-lost-connection-condition-has-been-detected-error-weblink-82",
+      "entryId": "weblink-9-lost-connection-tiles",
+      "product": "WebLink",
+      "code": "WEBLINK-LOST-CONNECTION",
+      "title": "A lost connection condition has been detected error weblink 8.2",
+      "disposition": "accepted-fix",
+      "note": "Confirmed WebLink Windows XP IIS MaxConnections workaround.",
+      "reviewedDate": "2026-06-28"
+    },
+    {
+      "url": "https://answers.laserfiche.com/questions/115969/LFF5203",
+      "entryId": "workflow-lff5203-wf-server-api-fault",
+      "product": "Workflow",
+      "code": "LFF5203",
+      "title": "LFF5203",
+      "disposition": "accepted-fix",
+      "note": "Requester confirmed disabling Forms AutoRetry and restarting Forms Routing Service stopped duplicate triggers.",
+      "reviewedDate": "2026-06-28"
+    },
+    {
+      "url": "https://answers.laserfiche.com/questions/139087/The-call-to-Laserfiche-Workflow-API-was-not-successful",
+      "entryId": "workflow-lff5203-wf-server-api-fault",
+      "product": "Workflow",
+      "code": "LFF5203",
+      "title": "The call to Laserfiche Workflow API was not successful",
+      "disposition": "accepted-fix",
+      "note": "Thread documents Forms wait timeout and OperationTimeout registry workaround from Laserfiche support.",
+      "reviewedDate": "2026-06-28"
+    },
+    {
+      "url": "https://answers.laserfiche.com/questions/172318/Temporary-error-The-call-to-Laserfiche-Workflow-API-was-not-successful-The-operation-has-timed-out-LFF5203WFServerApiFault",
+      "entryId": "workflow-lff5203-wf-server-api-fault",
+      "product": "Workflow",
+      "code": "LFF5203",
+      "title": "Temporary error \"The call to Laserfiche Workflow API was not successful. (The operation has timed out.). [LFF5203-WFServerApiFault]\"",
+      "disposition": "accepted-fix",
+      "note": "Later reply reports resolving by changing Workflow Subscriber service back to LocalSystem.",
+      "reviewedDate": "2026-06-28"
+    }
+  ]
+}

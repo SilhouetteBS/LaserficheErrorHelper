@@ -6518,5 +6518,65 @@ export const reviewedSources = [
     productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80131600"],
     reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-199757-lff3004-licensing-service",
+    title: "The requested service ILicensingService may not be running LFF3004",
+    url: "https://answers.laserfiche.com/questions/199757/The-requested-service-ILicensingService-may-not-be-running-LFF3004UnableToOpenServiceProxy",
+    sourceType: "answers-community",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF3004"],
+    reviewStatus: "curated-unresolved"
+  },
+  {
+    id: "answers-168241-http-response-body-cross-product",
+    title: "Error Reading HTTP response body",
+    url: "https://answers.laserfiche.com/questions/168241/Error-Reading-HTTP-response-body",
+    sourceType: "answers-community",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Version 10"],
+    extractedErrorCodes: ["WEBCLIENT-HTTP-RESPONSE-BODY"],
+    reviewStatus: "cross-product"
+  },
+  {
+    id: "answers-53899-weblink-lost-connection",
+    title: "A lost connection condition has been detected error WebLink 8.2",
+    url: "https://answers.laserfiche.com/questions/53899/A-lost-connection-condition-has-been-detected-error-weblink-82",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["WebLink", "Version 9"],
+    extractedErrorCodes: ["WEBLINK-LOST-CONNECTION"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-172318-lff5203-workflow-subscriber",
+    title: "Temporary LFF5203 Workflow API timeout",
+    url: "https://answers.laserfiche.com/questions/172318/Temporary-error-The-call-to-Laserfiche-Workflow-API-was-not-successful-The-operation-has-timed-out-LFF5203WFServerApiFault",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Forms", "Version 11"],
+    extractedErrorCodes: ["LFF5203"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-115969-lff5203-autoretry",
+    title: "LFF5203",
+    url: "https://answers.laserfiche.com/questions/115969/LFF5203",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Forms", "Version 10"],
+    extractedErrorCodes: ["LFF5203"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-139087-lff5203-operation-timeout",
+    title: "The call to Laserfiche Workflow API was not successful",
+    url: "https://answers.laserfiche.com/questions/139087/The-call-to-Laserfiche-Workflow-API-was-not-successful",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Forms", "Version 10"],
+    extractedErrorCodes: ["LFF5203"],
+    reviewStatus: "curated"
   }
 ];

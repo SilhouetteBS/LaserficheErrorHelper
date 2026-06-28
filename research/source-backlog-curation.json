@@ -1,11 +1,13 @@
 {
   "summary": {
-    "passPath": "research/source-research-pass-2026-06-28-4.json",
+    "passPath": "research/source-research-pass-2026-06-28-5.json",
     "officialSourceAugmentations": 10,
+    "reviewedCandidateAugmentations": 5,
     "entriesWithOfficialAugmentations": 10,
-    "entriesWithAnswersCandidates": 10,
-    "answersCandidates": 35,
-    "answersPriorityCandidates": 6
+    "entriesWithReviewedCandidateAugmentations": 3,
+    "entriesWithAnswersCandidates": 7,
+    "answersCandidates": 25,
+    "answersPriorityCandidates": 0
   },
   "officialAugmentations": {
     "full-text-search-9498-session-reset": [
@@ -89,6 +91,44 @@
       }
     ]
   },
+  "reviewedCandidateAugmentations": {
+    "forms-lff3004-licensing-service-proxy": [
+      {
+        "sourceType": "answers-community",
+        "title": "The requested service ILicensingService may not be running LFF3004",
+        "url": "https://answers.laserfiche.com/questions/199757/The-requested-service-ILicensingService-may-not-be-running-LFF3004UnableToOpenServiceProxy",
+        "note": "Priority candidate reviewed. The thread suggests checking the Laserfiche Forms Routing Service and links to a web.config-related thread, but the page itself does not confirm a final fix."
+      }
+    ],
+    "weblink-9-lost-connection-tiles": [
+      {
+        "sourceType": "answers-community-confirmed",
+        "title": "A lost connection condition has been detected error WebLink 8.2",
+        "url": "https://answers.laserfiche.com/questions/53899/A-lost-connection-condition-has-been-detected-error-weblink-82",
+        "note": "Priority candidate reviewed. The accepted remediation was to set the IIS 6 MaxConnections value to 40 for WebLink on Windows XP; the requester confirmed it worked."
+      }
+    ],
+    "workflow-lff5203-wf-server-api-fault": [
+      {
+        "sourceType": "answers-community-confirmed",
+        "title": "Temporary LFF5203 Workflow API timeout",
+        "url": "https://answers.laserfiche.com/questions/172318/Temporary-error-The-call-to-Laserfiche-Workflow-API-was-not-successful-The-operation-has-timed-out-LFF5203WFServerApiFault",
+        "note": "Priority candidate reviewed. A later reply reports resolving the issue by changing the Workflow Subscriber service back to LocalSystem."
+      },
+      {
+        "sourceType": "answers-community-confirmed",
+        "title": "LFF5203",
+        "url": "https://answers.laserfiche.com/questions/115969/LFF5203",
+        "note": "Priority candidate reviewed. The requester confirmed that disabling Forms AutoRetry in the cf_options table and restarting the Forms Routing Service stopped duplicate workflow triggers after LFF5203."
+      },
+      {
+        "sourceType": "answers-community-confirmed",
+        "title": "The call to Laserfiche Workflow API was not successful",
+        "url": "https://answers.laserfiche.com/questions/139087/The-call-to-Laserfiche-Workflow-API-was-not-successful",
+        "note": "Priority candidate reviewed. The thread documents Forms giving up after 30 seconds and a support-provided OperationTimeout registry workaround for Workflow Server."
+      }
+    ]
+  },
   "answersReviewRows": [
     {
       "id": "api-server-upload-conflict-409",
@@ -119,29 +159,6 @@
         {
           "title": "Laserfiche VM DEMO on Cloud Provider",
           "url": "https://answers.laserfiche.com/questions/221665/Laserfiche-VM-DEMO-on-Cloud-Provider",
-          "disposition": "manual-review-low-signal"
-        }
-      ]
-    },
-    {
-      "id": "forms-lff3004-licensing-service-proxy",
-      "product": "Forms",
-      "code": "LFF3004",
-      "message": "Unable to open Forms licensing service proxy.",
-      "candidates": [
-        {
-          "title": "The requested service 'ILicensingService' may not be running. [LFF3004-UnableToOpenServiceProxy]",
-          "url": "https://answers.laserfiche.com/questions/199757/The-requested-service-ILicensingService-may-not-be-running-LFF3004UnableToOpenServiceProxy",
-          "disposition": "manual-review-priority"
-        },
-        {
-          "title": "Forms Configuration failed to load",
-          "url": "https://answers.laserfiche.com/questions/147978/Forms-Configuration-failed-to-load",
-          "disposition": "manual-review-low-signal"
-        },
-        {
-          "title": "Forms DMZ - Limited Functionality",
-          "url": "https://answers.laserfiche.com/questions/136106/Forms-DMZ--Limited-Functionality",
           "disposition": "manual-review-low-signal"
         }
       ]
@@ -278,29 +295,6 @@
           "title": "\"Error reading HTTP response body\" when downloading in Mac OS X",
           "url": "https://answers.laserfiche.com/questions/131312/Error-reading-HTTP-response-body-when-downloading-in-Mac-OS-X",
           "disposition": "manual-review-low-signal"
-        },
-        {
-          "title": "Error Reading HTTP response body.",
-          "url": "https://answers.laserfiche.com/questions/168241/Error-Reading-HTTP-response-body",
-          "disposition": "manual-review-priority"
-        }
-      ]
-    },
-    {
-      "id": "weblink-9-lost-connection-tiles",
-      "product": "WebLink",
-      "code": "WEBLINK-LOST-CONNECTION",
-      "message": "A lost connection condition has been detected.",
-      "candidates": [
-        {
-          "title": "login and loading problems with weblink 8.3",
-          "url": "https://answers.laserfiche.com/questions/95780/login-and-loading-problems-with-weblink-83",
-          "disposition": "manual-review-low-signal"
-        },
-        {
-          "title": "A lost connection condition has been detected error weblink 8.2",
-          "url": "https://answers.laserfiche.com/questions/53899/A-lost-connection-condition-has-been-detected-error-weblink-82",
-          "disposition": "manual-review-priority"
         }
       ]
     },
@@ -313,34 +307,6 @@
         {
           "title": "Forms start a workflow business Process",
           "url": "https://answers.laserfiche.com/questions/99071/Forms-start-a-workflow-business-Process",
-          "disposition": "manual-review-low-signal"
-        }
-      ]
-    },
-    {
-      "id": "workflow-lff5203-wf-server-api-fault",
-      "product": "Workflow",
-      "code": "LFF5203",
-      "message": "The call to Laserfiche Workflow API was not successful.",
-      "candidates": [
-        {
-          "title": "Temporary error \"The call to Laserfiche Workflow API was not successful. (The operation has timed out.). [LFF5203-WFServerApiFault]\"",
-          "url": "https://answers.laserfiche.com/questions/172318/Temporary-error-The-call-to-Laserfiche-Workflow-API-was-not-successful-The-operation-has-timed-out-LFF5203WFServerApiFault",
-          "disposition": "manual-review-priority"
-        },
-        {
-          "title": "LFF5203",
-          "url": "https://answers.laserfiche.com/questions/115969/LFF5203",
-          "disposition": "manual-review-priority"
-        },
-        {
-          "title": "The call to Laserfiche Workflow API was not successful",
-          "url": "https://answers.laserfiche.com/questions/139087/The-call-to-Laserfiche-Workflow-API-was-not-successful",
-          "disposition": "manual-review-priority"
-        },
-        {
-          "title": "Laserfiche Workflow API was not successful. (Could not load type 'Laserfiche.Configuration.EncryptionAlgorithm)",
-          "url": "https://answers.laserfiche.com/questions/213006/Laserfiche-Workflow-API-was-not-successful-Could-not-load-type-LaserficheConfigurationEncryptionAlgorithm",
           "disposition": "manual-review-low-signal"
         }
       ]

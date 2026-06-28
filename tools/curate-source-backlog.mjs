@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { sourceCandidateReviews } from "../src/data/sourceCandidateReviews.js";
 
 const passPath = process.argv[2] ?? latestPassPath();
 const pass = JSON.parse(fs.readFileSync(passPath, "utf8"));
@@ -26,6 +27,22 @@ const officialAugmentations = Object.fromEntries(
     ]),
 );
 
+const reviewedCandidateAugmentations = Object.values(sourceCandidateReviews)
+  .filter((review) => review.disposition.startsWith("accepted-"))
+  .reduce((groups, review) => {
+    const sources = groups[review.entryId] ?? [];
+    sources.push({
+      sourceType: review.sourceType,
+      title: review.title,
+      url: candidateUrl(review),
+      note: review.note,
+    });
+    groups[review.entryId] = sources;
+    return groups;
+  }, {});
+
+const sourceAugmentations = mergeAugmentations(officialAugmentations, reviewedCandidateAugmentations);
+
 const answersReviewRows = pass.rows
   .filter((row) => row.answersCandidates.some((candidate) => candidate.url && !candidate.alreadyReviewed))
   .map((row) => ({
@@ -38,14 +55,16 @@ const answersReviewRows = pass.rows
       .map((candidate) => ({
         title: candidate.title,
         url: candidate.url,
-        disposition: likelyRelevant(candidate, row) ? "manual-review-priority" : "manual-review-low-signal",
+        disposition: sourceCandidateReviews[candidate.url]?.disposition ?? (likelyRelevant(candidate, row) ? "manual-review-priority" : "manual-review-low-signal"),
       })),
   }));
 
 const summary = {
   passPath,
   officialSourceAugmentations: Object.values(officialAugmentations).reduce((sum, sources) => sum + sources.length, 0),
+  reviewedCandidateAugmentations: Object.values(reviewedCandidateAugmentations).reduce((sum, sources) => sum + sources.length, 0),
   entriesWithOfficialAugmentations: Object.keys(officialAugmentations).length,
+  entriesWithReviewedCandidateAugmentations: Object.keys(reviewedCandidateAugmentations).length,
   entriesWithAnswersCandidates: answersReviewRows.length,
   answersCandidates: answersReviewRows.reduce((sum, row) => sum + row.candidates.length, 0),
   answersPriorityCandidates: answersReviewRows.reduce(
@@ -56,7 +75,7 @@ const summary = {
 
 const augmentationLines = [
   "export const sourceAugmentations = {",
-  ...Object.entries(officialAugmentations)
+  ...Object.entries(sourceAugmentations)
     .sort(([a], [b]) => a.localeCompare(b))
     .map(([id, sources]) => `  ${JSON.stringify(id)}: ${JSON.stringify(sources)},`),
   "};",
@@ -68,6 +87,7 @@ const report = [
   "",
   `Source research pass: ${passPath}`,
   `Official documentation source augmentations: ${summary.officialSourceAugmentations}`,
+  `Reviewed Answers source augmentations: ${summary.reviewedCandidateAugmentations}`,
   `Entries with Answers candidates for manual review: ${summary.entriesWithAnswersCandidates}`,
   `Priority Answers candidates: ${summary.answersPriorityCandidates}`,
   "",
@@ -78,6 +98,18 @@ const report = [
     allPassRows
       .filter((row) => officialAugmentations[row.id])
       .map((row) => [row.id, row.product, row.code, officialAugmentations[row.id].length, row.message.replaceAll("|", "\\|")]),
+  ),
+  "",
+  "## Reviewed Answers Candidates",
+  "",
+  table(
+    ["Entry", "Disposition", "Source", "Note"],
+    Object.entries(sourceCandidateReviews).map(([url, review]) => [
+      review.entryId,
+      review.disposition,
+      `[${review.title.replaceAll("|", "\\|")}](${url})`,
+      review.note.replaceAll("|", "\\|"),
+    ]),
   ),
   "",
   "## Answers Candidates",
@@ -102,7 +134,7 @@ const report = [
 ];
 
 fs.writeFileSync(augmentationsPath, `${augmentationLines.join("\n")}`);
-fs.writeFileSync(jsonPath, `${JSON.stringify({ summary, officialAugmentations, answersReviewRows }, null, 2)}\n`);
+fs.writeFileSync(jsonPath, `${JSON.stringify({ summary, officialAugmentations, reviewedCandidateAugmentations, answersReviewRows }, null, 2)}\n`);
 fs.writeFileSync(reportPath, `${report.join("\n")}\n`);
 console.log(
   `Attached ${summary.officialSourceAugmentations} official sources and listed ${summary.answersCandidates} Answers candidates for review.`,
@@ -133,6 +165,20 @@ function uniqueSources(sources) {
     seen.add(key);
     return true;
   });
+}
+
+function mergeAugmentations(...augmentationMaps) {
+  const merged = {};
+  for (const augmentationMap of augmentationMaps) {
+    for (const [id, sources] of Object.entries(augmentationMap)) {
+      merged[id] = uniqueSources([...(merged[id] ?? []), ...sources]);
+    }
+  }
+  return merged;
+}
+
+function candidateUrl(review) {
+  return Object.entries(sourceCandidateReviews).find(([, candidateReview]) => candidateReview === review)?.[0];
 }
 
 function likelyRelevant(candidate, row) {

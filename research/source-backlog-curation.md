@@ -1,9 +1,10 @@
 # Source Backlog Curation
 
-Source research pass: research/source-research-pass-2026-06-28-4.json
+Source research pass: research/source-research-pass-2026-06-28-5.json
 Official documentation source augmentations: 10
-Entries with Answers candidates for manual review: 10
-Priority Answers candidates: 6
+Reviewed Answers source augmentations: 5
+Entries with Answers candidates for manual review: 7
+Priority Answers candidates: 0
 
 ## Official Documentation Attached
 
@@ -20,6 +21,17 @@ Priority Answers candidates: 6
 | weblink-auto-login-9013 | WebLink | 9013 | 1 | WebLink users get Access Denied. |
 | weblink-read-only-named-user-9030 | WebLink | 9030 | 1 | WebLink read-only named user login returns no license available. |
 
+## Reviewed Answers Candidates
+
+| Entry | Disposition | Source | Note |
+| --- | --- | --- | --- |
+| forms-lff3004-licensing-service-proxy | accepted-diagnostic | [The requested service ILicensingService may not be running LFF3004](https://answers.laserfiche.com/questions/199757/The-requested-service-ILicensingService-may-not-be-running-LFF3004UnableToOpenServiceProxy) | Priority candidate reviewed. The thread suggests checking the Laserfiche Forms Routing Service and links to a web.config-related thread, but the page itself does not confirm a final fix. |
+| web-client-http-response-body | rejected-cross-product | [Error Reading HTTP response body](https://answers.laserfiche.com/questions/168241/Error-Reading-HTTP-response-body) | Priority candidate reviewed and rejected for this Web Client entry. The page discusses a Workflow briefcase copy issue, not Web Client response-body handling. |
+| weblink-9-lost-connection-tiles | accepted-fix | [A lost connection condition has been detected error WebLink 8.2](https://answers.laserfiche.com/questions/53899/A-lost-connection-condition-has-been-detected-error-weblink-82) | Priority candidate reviewed. The accepted remediation was to set the IIS 6 MaxConnections value to 40 for WebLink on Windows XP; the requester confirmed it worked. |
+| workflow-lff5203-wf-server-api-fault | accepted-fix | [Temporary LFF5203 Workflow API timeout](https://answers.laserfiche.com/questions/172318/Temporary-error-The-call-to-Laserfiche-Workflow-API-was-not-successful-The-operation-has-timed-out-LFF5203WFServerApiFault) | Priority candidate reviewed. A later reply reports resolving the issue by changing the Workflow Subscriber service back to LocalSystem. |
+| workflow-lff5203-wf-server-api-fault | accepted-fix | [LFF5203](https://answers.laserfiche.com/questions/115969/LFF5203) | Priority candidate reviewed. The requester confirmed that disabling Forms AutoRetry in the cf_options table and restarting the Forms Routing Service stopped duplicate workflow triggers after LFF5203. |
+| workflow-lff5203-wf-server-api-fault | accepted-fix | [The call to Laserfiche Workflow API was not successful](https://answers.laserfiche.com/questions/139087/The-call-to-Laserfiche-Workflow-API-was-not-successful) | Priority candidate reviewed. The thread documents Forms giving up after 30 seconds and a support-provided OperationTimeout registry workaround for Workflow Server. |
+
 ## Answers Candidates
 
 | Entry | Product | Code | Disposition | Candidate | URL |
@@ -29,9 +41,6 @@ Priority Answers candidates: 6
 | api-server-upload-conflict-409 | API Server | 409 | manual-review-low-signal | Swagger v2.0 Definition of Self-Hosted Laserfiche API? | https://answers.laserfiche.com/questions/219565/Swagger-v20-Definition-of-SelfHosted-Laserfiche-API |
 | api-server-upload-conflict-409 | API Server | 409 | manual-review-low-signal | Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client | https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client |
 | api-server-upload-conflict-409 | API Server | 409 | manual-review-low-signal | Laserfiche VM DEMO on Cloud Provider | https://answers.laserfiche.com/questions/221665/Laserfiche-VM-DEMO-on-Cloud-Provider |
-| forms-lff3004-licensing-service-proxy | Forms | LFF3004 | manual-review-priority | The requested service 'ILicensingService' may not be running. [LFF3004-UnableToOpenServiceProxy] | https://answers.laserfiche.com/questions/199757/The-requested-service-ILicensingService-may-not-be-running-LFF3004UnableToOpenServiceProxy |
-| forms-lff3004-licensing-service-proxy | Forms | LFF3004 | manual-review-low-signal | Forms Configuration failed to load | https://answers.laserfiche.com/questions/147978/Forms-Configuration-failed-to-load |
-| forms-lff3004-licensing-service-proxy | Forms | LFF3004 | manual-review-low-signal | Forms DMZ - Limited Functionality | https://answers.laserfiche.com/questions/136106/Forms-DMZ--Limited-Functionality |
 | forms-lff6010-team-filter-timeout | Forms | LFF6010 | manual-review-low-signal | Forms Team Javascript filter no longer working with Forms 11 update 5 | https://answers.laserfiche.com/questions/216086/Forms-Team-Javascript-filter-no-longer-working-with-Forms-11-update-5 |
 | forms-lff6010-team-filter-timeout | Forms | LFF6010 | manual-review-low-signal | How Can I Override the User Task Going to a Group | https://answers.laserfiche.com/questions/127460/How-Can-I-Override-the-User-Task-Going-to-a-Group |
 | forms-lff8100-notification-server-down | Forms | LFF8100 | manual-review-low-signal | Forms - Configuration improperly stating The Connection Verified for Notification Service Server | https://answers.laserfiche.com/questions/180912/Forms--Configuration-improperly-stating-The-Connection-Verified-for-Notification-Service-Server |
@@ -51,14 +60,7 @@ Priority Answers candidates: 6
 | web-client-http-response-body | Web Client | WEBCLIENT-HTTP-RESPONSE-BODY | manual-review-low-signal | TemplateInfoReader Limit? | https://answers.laserfiche.com/questions/165005/TemplateInfoReader-Limit |
 | web-client-http-response-body | Web Client | WEBCLIENT-HTTP-RESPONSE-BODY | manual-review-low-signal | Export Volumes using SDK | https://answers.laserfiche.com/questions/202030/Export-Volumes-using-SDK |
 | web-client-http-response-body | Web Client | WEBCLIENT-HTTP-RESPONSE-BODY | manual-review-low-signal | "Error reading HTTP response body" when downloading in Mac OS X | https://answers.laserfiche.com/questions/131312/Error-reading-HTTP-response-body-when-downloading-in-Mac-OS-X |
-| web-client-http-response-body | Web Client | WEBCLIENT-HTTP-RESPONSE-BODY | manual-review-priority | Error Reading HTTP response body. | https://answers.laserfiche.com/questions/168241/Error-Reading-HTTP-response-body |
-| weblink-9-lost-connection-tiles | WebLink | WEBLINK-LOST-CONNECTION | manual-review-low-signal | login and loading problems with weblink 8.3 | https://answers.laserfiche.com/questions/95780/login-and-loading-problems-with-weblink-83 |
-| weblink-9-lost-connection-tiles | WebLink | WEBLINK-LOST-CONNECTION | manual-review-priority | A lost connection condition has been detected error weblink 8.2 | https://answers.laserfiche.com/questions/53899/A-lost-connection-condition-has-been-detected-error-weblink-82 |
 | workflow-0735-0516-business-process | Workflow | 0735-WF1 | manual-review-low-signal | Forms start a workflow business Process | https://answers.laserfiche.com/questions/99071/Forms-start-a-workflow-business-Process |
-| workflow-lff5203-wf-server-api-fault | Workflow | LFF5203 | manual-review-priority | Temporary error "The call to Laserfiche Workflow API was not successful. (The operation has timed out.). [LFF5203-WFServerApiFault]" | https://answers.laserfiche.com/questions/172318/Temporary-error-The-call-to-Laserfiche-Workflow-API-was-not-successful-The-operation-has-timed-out-LFF5203WFServerApiFault |
-| workflow-lff5203-wf-server-api-fault | Workflow | LFF5203 | manual-review-priority | LFF5203 | https://answers.laserfiche.com/questions/115969/LFF5203 |
-| workflow-lff5203-wf-server-api-fault | Workflow | LFF5203 | manual-review-priority | The call to Laserfiche Workflow API was not successful | https://answers.laserfiche.com/questions/139087/The-call-to-Laserfiche-Workflow-API-was-not-successful |
-| workflow-lff5203-wf-server-api-fault | Workflow | LFF5203 | manual-review-low-signal | Laserfiche Workflow API was not successful. (Could not load type 'Laserfiche.Configuration.EncryptionAlgorithm) | https://answers.laserfiche.com/questions/213006/Laserfiche-Workflow-API-was-not-successful-Could-not-load-type-LaserficheConfigurationEncryptionAlgorithm |
 
 ## Rule
 

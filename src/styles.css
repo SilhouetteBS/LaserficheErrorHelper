@@ -778,6 +778,7 @@ li + li {
 .validation-status,
 .review-status,
 .source-badge,
+.candidate-status,
 .scenario-count {
   display: inline-flex;
   align-items: center;
@@ -794,6 +795,18 @@ li + li {
   color: var(--accent-dark);
   background: var(--accent-soft);
   border: 1px solid var(--accent-border);
+}
+
+.candidate-status.candidate-found {
+  color: #154b83;
+  background: #e5f0ff;
+  border: 1px solid #95bdf4;
+}
+
+.candidate-status.candidate-reviewed {
+  color: #5f420a;
+  background: #fff2d1;
+  border: 1px solid #e7c870;
 }
 
 .validation-status.official-doc-baseline {

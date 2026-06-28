@@ -20091,20 +20091,6 @@
       "validationNote": "Community-confirmed source was reviewed by the curation pass; no stronger fix should be promoted without additional source evidence."
     },
     {
-      "id": "weblink-9-lost-connection-tiles",
-      "code": "WEBLINK-LOST-CONNECTION",
-      "product": "WebLink",
-      "message": "A lost connection condition has been detected.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community-confirmed",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
       "id": "windows-client-desktop-client-0x00000001-error-code-6410-error-message-error-opening-file-incor",
       "code": "0x00000001",
       "product": "Windows Client/Desktop Client",
@@ -21246,11 +21232,11 @@
       "confidence": "low",
       "fixStatus": "unresolved",
       "bestSourceType": "answers-community",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
+      "validationDisposition": "candidate-for-scenario-review",
+      "validationStatus": "reviewed-diagnostic",
+      "validationNote": "Scenario review was completed or the captured sources did not support distinct source-backed scenarios."
     },
     {
       "id": "forms-lff6010-team-filter-timeout",
@@ -21657,37 +21643,9 @@
       "validationDisposition": "needs-additional-source-research",
       "validationStatus": "source-research-needed",
       "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
-      "id": "workflow-lff5203-wf-server-api-fault",
-      "code": "LFF5203",
-      "product": "Workflow",
-      "message": "The call to Laserfiche Workflow API was not successful.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 2,
-      "scenarioCount": 2,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
     }
   ],
   "sourceResearchBacklog": [
-    {
-      "id": "weblink-9-lost-connection-tiles",
-      "code": "WEBLINK-LOST-CONNECTION",
-      "product": "WebLink",
-      "message": "A lost connection condition has been detected.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community-confirmed",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
     {
       "id": "adminhub-lfah1000-connect-to-lfds",
       "code": "LFAH1000",
@@ -21721,20 +21679,6 @@
       "code": "FORMS-OFFLINE-SUBMISSION-FAILED",
       "product": "Forms",
       "message": "The submission failed due to an error with the form.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
-      "id": "forms-lff3004-licensing-service-proxy",
-      "code": "LFF3004",
-      "product": "Forms",
-      "message": "Unable to open Forms licensing service proxy.",
       "confidence": "low",
       "fixStatus": "unresolved",
       "bestSourceType": "answers-community",
@@ -21950,20 +21894,6 @@
       "bestSourceType": "answers-community",
       "sourceCount": 1,
       "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
-      "id": "workflow-lff5203-wf-server-api-fault",
-      "code": "LFF5203",
-      "product": "Workflow",
-      "message": "The call to Laserfiche Workflow API was not successful.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 2,
-      "scenarioCount": 2,
       "validationDisposition": "needs-additional-source-research",
       "validationStatus": "source-research-needed",
       "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."

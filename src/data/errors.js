@@ -1,6 +1,7 @@
 import { officialDocumentationErrorEntries } from "./officialDocumentationErrors.js";
 import { curationOverrides } from "./curationOverrides.js";
 import { sourceAugmentations } from "./sourceAugmentations.js";
+import { sourceCandidatePromotions } from "./sourceCandidateReviews.js";
 import { validationTriageOverrides } from "./validationOverrides.js";
 
 export const sourcePriority = {
@@ -16595,18 +16596,23 @@ const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
 
 function applyCurationOverride(entry) {
   const override = curationOverrides[entry.id];
+  const sourcePromotion = sourceCandidatePromotions[entry.id];
   const validationOverride = validationTriageOverrides[entry.id];
   const augmentedSources = sourceAugmentations[entry.id] ?? [];
-  if (!override && !validationOverride && augmentedSources.length === 0) return entry;
+  if (!override && !sourcePromotion && !validationOverride && augmentedSources.length === 0) return entry;
 
   return {
     ...entry,
     sources: mergeSources(entry.sources, augmentedSources),
-    fixStatus: override?.fixStatus ?? entry.fixStatus,
+    fixStatus: sourcePromotion?.fixStatus ?? override?.fixStatus ?? entry.fixStatus,
+    confidence: sourcePromotion?.confidence ?? entry.confidence,
+    likelyFixes: mergeTextList(entry.likelyFixes, sourcePromotion?.likelyFixes ?? []),
+    scenarios: mergeScenarios(entry.scenarios ?? [], sourcePromotion?.scenarios ?? []),
     validationStatus: validationOverride?.validationStatus,
     validationDisposition: validationOverride?.validationDisposition,
     notes: [
       entry.notes,
+      sourcePromotion?.curationNote && `Source candidate review: ${sourcePromotion.curationNote}`,
       override?.curationNote && `Source curation: ${override.curationNote}`,
       validationOverride?.validationNote && `Validation triage: ${validationOverride.validationNote}`,
     ]
@@ -16619,6 +16625,25 @@ function mergeSources(existingSources, additionalSources) {
   const seen = new Set();
   return [...existingSources, ...additionalSources].filter((source) => {
     const key = `${source.sourceType}|${source.url}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function mergeTextList(existingItems = [], additionalItems = []) {
+  const seen = new Set();
+  return [...existingItems, ...additionalItems].filter((item) => {
+    if (seen.has(item)) return false;
+    seen.add(item);
+    return true;
+  });
+}
+
+function mergeScenarios(existingScenarios = [], additionalScenarios = []) {
+  const seen = new Set();
+  return [...existingScenarios, ...additionalScenarios].filter((scenario) => {
+    const key = scenario.title;
     if (seen.has(key)) return false;
     seen.add(key);
     return true;

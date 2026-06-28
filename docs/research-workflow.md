@@ -56,6 +56,8 @@ Run `npm run backlog:research` to re-check the `source-research-needed` entries 
 
 Run `npm run backlog:curate` after a backlog research pass. It attaches exact official-documentation matches as baseline sources and writes the Answers candidate review report without promoting unreviewed posts.
 
+Run `npm run review:candidate -- "<answers-url>" <disposition> "note"` to mark a candidate as `accepted-fix`, `accepted-diagnostic`, `rejected-low-signal`, `rejected-cross-product`, or `pending`. Accepted source-backed fixes still need a matching curated promotion in `src/data/sourceCandidateReviews.js` before the public app should show a stronger fix status.
+
 Run `npm run collect:answers -- "Product Name" 25` for a bounded product-specific Laserfiche Answers discovery pass. Products with no new candidates should still keep the generated pass file as evidence of the search.
 
 ## Product-Specific Discovery

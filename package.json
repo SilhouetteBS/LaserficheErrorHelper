@@ -18,6 +18,7 @@
     "validation:complete": "node tools/complete-validation-batches.mjs",
     "backlog:research": "node tools/research-source-backlog.mjs",
     "backlog:curate": "node tools/curate-source-backlog.mjs",
+    "review:candidate": "node tools/review-source-candidate.mjs",
     "collect:answers": "node tools/collect-answers-product-pass.mjs",
     "lint:data": "node tools/validate-data.mjs",
     "render:check": "node tools/render-check.mjs"

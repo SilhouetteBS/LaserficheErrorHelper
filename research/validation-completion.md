@@ -1,24 +1,24 @@
 # Validation Completion
 
-Validation rows triaged: 1548
-Source-research backlog rows: 21
+Validation rows triaged: 1546
+Source-research backlog rows: 18
 
 ## Validation Status Summary
 
 | Validation status | Entries |
 | --- | --- |
 | official-doc-baseline | 1151 |
-| reviewed-diagnostic | 376 |
-| source-research-needed | 21 |
+| reviewed-diagnostic | 377 |
+| source-research-needed | 18 |
 
 ## Prior Disposition Summary
 
 | Disposition | Entries |
 | --- | --- |
 | candidate-for-fix-upgrade | 244 |
-| candidate-for-scenario-review | 10 |
+| candidate-for-scenario-review | 11 |
 | keep-diagnostic-only | 64 |
-| needs-additional-source-research | 21 |
+| needs-additional-source-research | 18 |
 | official-doc-baseline-only | 1151 |
 | priority-source-review | 58 |
 
@@ -46,9 +46,9 @@ Source-research backlog rows: 21
 | Records Management | 8 |
 | Snapshot | 7 |
 | Web Client | 39 |
-| WebLink | 14 |
+| WebLink | 13 |
 | Windows Client/Desktop Client | 209 |
-| Workflow | 28 |
+| Workflow | 27 |
 
 ## Rule
 
