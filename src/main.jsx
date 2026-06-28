@@ -506,7 +506,7 @@ function App() {
               width="168"
               height="36"
             />
-            <h1>Laserfiche Self-Hosted Error Helper</h1>
+            <h1>Laserfiche Error Helper</h1>
           </div>
           <nav className="top-actions" aria-label="Utility links">
             <span>Sources updated Jun 27, 2026</span>

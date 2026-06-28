@@ -1,9 +1,9 @@
 {
-  "name": "laserfiche-self-hosted-error-helper",
+  "name": "laserfiche-error-helper",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "homepage": "https://silhouettebs.github.io/LaserficheSelfHostedErrorHelper/",
+  "homepage": "https://silhouettebs.github.io/LaserficheErrorHelper/",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",

@@ -1,6 +1,6 @@
-# Laserfiche Self-Hosted Error Helper
+# Laserfiche Error Helper
 
-Interactive GitHub Pages app for browsing Laserfiche self-hosted error codes, symptoms, and curated troubleshooting guidance from Laserfiche documentation and Laserfiche Answers.
+Interactive GitHub Pages app for browsing Laserfiche error codes, symptoms, and curated troubleshooting guidance for self-hosted environments from Laserfiche documentation and Laserfiche Answers.
 
 ## Data Rules
 
@@ -43,6 +43,6 @@ npm run dev
 
 ## GitHub Pages
 
-The app is configured for the repository path `/LaserficheSelfHostedErrorHelper/` through `vite.config.js` and the included Pages workflow.
+The app is configured for the repository path `/LaserficheErrorHelper/` through `vite.config.js` and the included Pages workflow.
 
 See `docs/release-process.md` before publishing public updates.

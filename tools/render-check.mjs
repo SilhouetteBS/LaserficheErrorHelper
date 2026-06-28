@@ -19,7 +19,7 @@ try {
     },
   });
   const address = server.httpServer.address();
-  const url = `http://127.0.0.1:${address.port}/LaserficheSelfHostedErrorHelper/`;
+  const url = `http://127.0.0.1:${address.port}/LaserficheErrorHelper/`;
   const browser = await chromium.launch({ executablePath: chromePath });
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   const consoleErrors = [];
@@ -29,7 +29,7 @@ try {
     }
   });
   await page.goto(url, { waitUntil: "networkidle" });
-  const firstVisitInstructionsVisible = await page.getByText("Search or browse Laserfiche errors").isVisible();
+  const firstVisitInstructionsVisible = await page.getByText("Get started").isVisible();
   if (!firstVisitInstructionsVisible) throw new Error("First visit did not show the instructions pane.");
   await page.getByPlaceholder("Search code, message, symptom, product, or fix").fill("9030");
   await page.waitForURL(/q=9030/);
