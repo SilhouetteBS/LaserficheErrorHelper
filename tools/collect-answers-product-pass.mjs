@@ -9,7 +9,7 @@ const requestedProduct = productArg.trim();
 const isAllProducts = !requestedProduct || requestedProduct.toLowerCase() === "all";
 const targetCount = Number.parseInt(targetArg, 10) || 25;
 const passSlug = isAllProducts ? `all-${targetCount}` : `${slugify(requestedProduct)}-${targetCount}`;
-const passPath = path.join("research", `answers-product-pass-${today}-${passSlug}.json`);
+const passPath = nextAvailablePassPath(path.join("research", `answers-product-pass-${today}-${passSlug}.json`));
 
 const maxPagesPerQuery = targetCount > 25 ? 16 : 8;
 const requestTimeoutMs = 15000;
@@ -318,6 +318,7 @@ const existingUrls = new Set([
 ]);
 
 const newRows = [];
+let addedRowsCount = 0;
 const passSummary = [];
 
 for (const search of selectedSearches) {
@@ -369,6 +370,7 @@ for (const search of selectedSearches) {
 
         collected.push(row);
         newRows.push(row);
+        addedRowsCount += 1;
         existingUrls.add(url);
         if (collected.length >= targetCount) break;
       }
@@ -392,7 +394,7 @@ for (const search of selectedSearches) {
 
 writeOutputs();
 
-console.log(`Added ${newRows.length} new Answers candidates.`);
+console.log(`Added ${addedRowsCount} new Answers candidates.`);
 for (const product of passSummary) {
   console.log(`${product.product}: ${product.collected}/${product.requested}`);
 }
@@ -573,4 +575,14 @@ function normalizeUrl(value) {
 
 function slugify(value) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+function nextAvailablePassPath(basePath) {
+  if (!fs.existsSync(basePath)) return basePath;
+
+  const parsed = path.parse(basePath);
+  for (let index = 2; ; index += 1) {
+    const candidate = path.join(parsed.dir, `${parsed.name}-${index}${parsed.ext}`);
+    if (!fs.existsSync(candidate)) return candidate;
+  }
 }
