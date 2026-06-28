@@ -852,6 +852,7 @@ const curatedErrorEntries = [
     symptoms: [
       "Sign-in fails with Account locked. [9011].",
       "The affected Laserfiche user account may have been manually disabled or automatically locked.",
+      "In one Version 12 thread, Effective Rights lookup in Web Client and Windows Client returned Account locked. [9011] even though the same users could sign in.",
     ],
     likelyFixes: [
       "Wait and try again if the lockout policy allows automatic unlock.",
@@ -859,8 +860,11 @@ const curatedErrorEntries = [
       "Verify the user is not repeatedly submitting an outdated password from a saved credential or service.",
       "If Workflow logs 9011 from Subscriber, remove and re-add the monitored repository in Workflow Configuration Manager.",
       "If this followed a repository copy, investigate whether the repository was copied incorrectly.",
+      "If 9011 appears only while viewing Effective Rights, collect LFSO trace output, ContentRepository Service/Admin events, the affected trustee, and whether the failure occurs in both Web Client and Windows Client before opening a Support case.",
+      "Review TLS/certificate, SQL authentication, and service-account changes only as diagnostic leads for the Effective Rights scenario; the reviewed thread does not confirm a public fix.",
     ],
-    notes: "Workflow monitored-repository reconfiguration was confirmed by the user after Laserfiche employee guidance.",
+    notes:
+      "Workflow monitored-repository reconfiguration was confirmed by the user after Laserfiche employee guidance. The Effective Rights Version 12 thread is unresolved and should be treated as diagnostic evidence, not a confirmed TLS or SQL fix.",
     sources: [
       {
         sourceType: "official-docs",
@@ -873,6 +877,13 @@ const curatedErrorEntries = [
         title: "Account Locked. [9011] in subscriber_error.log",
         url: "https://answers.laserfiche.com/questions/94788/Account-Locked-9011-in-subscribererrorlog",
         note: "Laserfiche employee suggests reconfiguring the Workflow monitored repository; user confirms it fixed the issue.",
+      },
+      {
+        sourceType: "answers-community",
+        title: "Access Rights Effective Rights Showing \"Account locked. [9011]\"",
+        url: "https://answers.laserfiche.com/questions/231672/Access-Rights-Effective-Rights-Showing-Account-locked-9011#236898",
+        note:
+          "Version 12 thread where Effective Rights lookup fails with 9011 / 0xc0042333 and related 9013 discussion; no confirmed final fix is posted.",
       },
     ],
   },

@@ -710,6 +710,16 @@ export const reviewedSources = [
     reviewStatus: "curated",
   },
   {
+    id: "answers-231672-9011-effective-rights",
+    title: "Access Rights Effective Rights Showing \"Account locked. [9011]\"",
+    url: "https://answers.laserfiche.com/questions/231672/Access-Rights-Effective-Rights-Showing-Account-locked-9011#236898",
+    sourceType: "answers-community",
+    reviewedDate: "2026-06-28",
+    productTags: ["Laserfiche Server/Repository Server", "Web Client", "Windows Client/Desktop Client", "Version 12"],
+    extractedErrorCodes: ["9011", "9013", "0xc0042333"],
+    reviewStatus: "curated-unresolved",
+  },
+  {
     id: "answers-131819-9012",
     title: "The trustee not found. [9012]",
     url: "https://answers.laserfiche.com/questions/131819/When-selecting-Repository-Named-User-it-gives-error-The-Trustee-could-not-be-found-The-trustee-not-found-9012",
