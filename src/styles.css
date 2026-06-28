@@ -809,6 +809,14 @@ li + li {
   border: 1px solid #e7c870;
 }
 
+.candidate-status {
+  gap: 5px;
+}
+
+.candidate-status .tooltip-anchor {
+  color: currentColor;
+}
+
 .validation-status.official-doc-baseline {
   color: #154b83;
   background: #e5f0ff;
@@ -950,6 +958,8 @@ li + li {
   font-size: 0.78rem;
   font-weight: 500;
   line-height: 1.35;
+  text-transform: none;
+  white-space: normal;
 }
 
 .tooltip-anchor:hover .tooltip-text,

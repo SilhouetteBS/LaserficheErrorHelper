@@ -15,6 +15,7 @@ import {
   Search,
   Share2,
   ShieldCheck,
+  Wrench,
   X,
 } from "lucide-react";
 import {
@@ -917,7 +918,12 @@ function ErrorDetail({ entry, onShare }) {
           <div>
             <span className="selected-label">Selected error</span>
             {entry.scenarios?.length > 0 && <span className="scenario-count detail-scenario-count">{entry.scenarios.length} scenarios</span>}
-            {candidateSummary && <span className={`candidate-status ${candidateSummary.className}`}>{candidateSummary.label}</span>}
+            {candidateSummary && (
+              <span className={`candidate-status ${candidateSummary.className}`}>
+                {candidateSummary.label}
+                <TooltipIcon text="A related Laserfiche Answers source was reviewed for this entry. Accepted candidates may add scenario-specific fixes; reviewed candidates may simply rule out a source." />
+              </span>
+            )}
             <h2>
               {entry.code} <span>{entry.message}</span>
             </h2>
@@ -961,7 +967,11 @@ function ErrorDetail({ entry, onShare }) {
           </ul>
         </DetailSection>
 
-        <DetailSection title="Likely Fixes">
+        <DetailSection
+          title="Likely Fixes"
+          icon={Wrench}
+          tooltip="These are source-backed or diagnostic next steps. Validate them in a test or maintenance window before changing production."
+        >
           <ol>
             {entry.likelyFixes.map((fix) => (
               <li key={fix}>{fix}</li>
@@ -1025,19 +1035,16 @@ function ErrorDetail({ entry, onShare }) {
         <section className="side-card">
           <h3 className="with-tooltip">
             Source Confidence
-            <span className="tooltip-anchor" tabIndex={0}>
-              <HelpCircle aria-hidden="true" size={15} />
-              <span className="tooltip-text">
-                Confidence is based on source authority, whether a Laserfiche employee replied, and whether
-                the fix was confirmed.
-              </span>
-            </span>
+            <TooltipIcon text="Confidence is based on source authority, whether a Laserfiche employee replied, and whether the fix was confirmed." />
           </h3>
           <ConfidenceBadge value={entry.confidence} />
           <p>{entry.summary}</p>
         </section>
         <section className="side-card">
-          <h3>Fix Status</h3>
+          <h3 className="with-tooltip">
+            Fix Status
+            <TooltipIcon text="Known fix means a source confirms a fix. Workaround means source-backed remediation exists but may not be permanent. Diagnostic only and unresolved entries are useful for discovery but need more evidence." />
+          </h3>
           <FixStatusBadge value={fixStatusValue(entry)} />
           <p>
             {fixStatusValue(entry) === "known-fix" &&
@@ -1053,7 +1060,10 @@ function ErrorDetail({ entry, onShare }) {
           </p>
         </section>
         <section className="side-card">
-          <h3>Validation Status</h3>
+          <h3 className="with-tooltip">
+            Validation Status
+            <TooltipIcon text="Validation status tracks research maturity for this helper. It does not mean the Laserfiche error itself is invalid or unsupported." />
+          </h3>
           <span className={`validation-status ${entry.validationStatus ?? "not-triaged"}`}>
             {validationStatusLabel(entry.validationStatus)}
           </span>
@@ -1065,7 +1075,10 @@ function ErrorDetail({ entry, onShare }) {
           )}
         </section>
         <section className="side-card">
-          <h3>Source Priority</h3>
+          <h3 className="with-tooltip">
+            Source Priority
+            <TooltipIcon text="Official docs rank first, Laserfiche employee Answers posts rank next, and community-confirmed sources rank after that." />
+          </h3>
           <ol className="priority-list">
             {[...entry.sources]
               .sort((a, b) => (sourcePriority[a.sourceType] ?? 99) - (sourcePriority[b.sourceType] ?? 99))
@@ -1110,15 +1123,25 @@ function ErrorDetail({ entry, onShare }) {
   );
 }
 
-function DetailSection({ title, children }) {
+function DetailSection({ title, children, icon: Icon = BookOpen, tooltip }) {
   return (
     <section className="detail-section">
       <div className="section-label">
-        <BookOpen aria-hidden="true" size={17} />
+        <Icon aria-hidden="true" size={17} />
         <h3>{title}</h3>
+        {tooltip && <TooltipIcon text={tooltip} />}
       </div>
       {children}
     </section>
+  );
+}
+
+function TooltipIcon({ text }) {
+  return (
+    <span className="tooltip-anchor" tabIndex={0}>
+      <HelpCircle aria-hidden="true" size={15} />
+      <span className="tooltip-text">{text}</span>
+    </span>
   );
 }
 
