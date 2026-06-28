@@ -4,39 +4,39 @@ Generated: 2026-06-27
 
 ## Summary
 
-- Published helper entries: 1372
-- Reviewed source ledger rows: 275
+- Published helper entries: 1379
+- Reviewed source ledger rows: 284
 - Discovery rows tracked: 312
-- Remaining candidate rows: 44
+- Remaining candidate rows: 35
 
 ## Fix Status Coverage
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 96 |
-| known-fix | 54 |
-| needs-review | 1154 |
-| unresolved | 32 |
-| workaround | 36 |
+| diagnostic-only | 98 |
+| known-fix | 57 |
+| needs-review | 1153 |
+| unresolved | 34 |
+| workaround | 37 |
 
 ## Source Ledger Review Status
 
 | Review status | Sources |
 | --- | --- |
 | cross-product | 2 |
-| curated | 137 |
+| curated | 141 |
 | curated-partial | 91 |
-| curated-unresolved | 41 |
+| curated-unresolved | 45 |
 | no-matching-posts | 1 |
-| not-actionable | 3 |
+| not-actionable | 4 |
 
 ## Reviewed Source Types
 
 | Source type | Sources |
 | --- | --- |
-| answers-community | 21 |
-| answers-community-confirmed | 41 |
-| answers-laserfiche-employee | 196 |
+| answers-community | 22 |
+| answers-community-confirmed | 42 |
+| answers-laserfiche-employee | 203 |
 | answers-search | 1 |
 | official-docs | 16 |
 
@@ -56,9 +56,9 @@ Generated: 2026-06-27
 | Federated Search | 1 | 5 |
 | Forms | 20 | 0 |
 | Full Text Search | 15 | 0 |
-| Import Agent | 8 | 9 |
+| Import Agent | 16 | 0 |
 | Laserfiche Installer | 8 | 0 |
-| Laserfiche Server/Repository Server | 1026 | 0 |
+| Laserfiche Server/Repository Server | 1025 | 0 |
 | Mobile | 9 | 0 |
 | Office Integration | 6 | 0 |
 | Quick Fields | 15 | 0 |
@@ -74,7 +74,6 @@ Generated: 2026-06-27
 
 | Product | Remaining candidates |
 | --- | --- |
-| Import Agent | 9 |
 | API Server | 7 |
 | Snapshot | 6 |
 | Administration Hub | 5 |

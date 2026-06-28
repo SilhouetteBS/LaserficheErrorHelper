@@ -1900,7 +1900,9 @@
     "snippet": "import agent - access denied error after disabling pot 80 on the firewall to laserfiche server me with the access denied error 9013 that i am experiencing from the import agent when it try to run the profile i scheduled. Recently ... server as a result the import agent profile fails to run i guess. In my scenario, i am able to connect the import agent to ...... posted by Kumar Ramakrishnan 0 Nov 21, 2017 updated by Jie Zhang 152 Nov 27, 2017 3 replies · 784 views · 0 0 · Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as unresolved Import Agent scheduled-profile 9013 after firewall/SSL change."
   },
   {
     "product": "Import Agent",
@@ -1912,7 +1914,9 @@
     "snippet": "Import Agent - Maximum file size - Error Code: 9133 Is there a maximum size for importing *.txt files using LF Import Agent ? I have noticed that *.txt files greater than approx. 10,000 KB are ...... posted by Nancy Lawrence 5 Jan 18, 2023 updated by Nancy Lawrence 5 Jan 18, 2023 0 replies · 542 views · 0 0 · Import Agent Answers Site",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Import Agent 9133 large text file/Page text out of range duplicate thread."
   },
   {
     "product": "Import Agent",
@@ -1924,7 +1928,9 @@
     "snippet": "Import Agent (Error: Failed to compare two elements in the array.) the profile \"Profile Name\" while importing from \"\\\\Folder-Path\". ( Failed to compare two elements in the array)'. The contents inside the importing from folder consists ...... posted by Ray Lau 110 May 31, 2019 updated by Raymond Cruz 2783 Jun 4, 2019 3 replies · 426 views · 0 0 · Import Agent Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Import Agent Failed to compare two elements diagnostic item."
   },
   {
     "product": "Import Agent",
@@ -1936,7 +1942,9 @@
     "snippet": "Import Agent Error We have Import Agent 10.3.1 and regularly see this error. The file does not get imported . Has someone else had this issue? There ... AppData\\Local\\Temp\\tmpC17A.txt) Error Code : StackTrace: at Laserfiche.ImportAgent.Library.Helpers.GetLastErrorAndThrowIfFailed(String extra) at Laserfiche.ImportAgent.Library.Helpers.CreateFile(String ... posted by Zainab Mantri 54 Sep 4, 2018 updated by Brannon Doughty 79 May 2, 2019 7 replies · 821 views · 0 0 · Import Agent",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Import Agent 10.3.1 temp-file OCR bug 94394 fixed by hotfix."
   },
   {
     "product": "Import Agent",
@@ -1948,7 +1956,9 @@
     "snippet": "import agent error access is denied (event id 8) I ran an Import Agent profile overnight and about 60 files failed to import out of 7000 (pretty good I think!). But the files failed ...... posted by It Idaho Gov 0 Jul 21, 2021 updated by Tianxia Wang 210 Jul 22, 2021 5 replies · 402 views · 0 0 · Version 10 Import Agent",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Import Agent Event ID 8 Access is denied diagnostics."
   },
   {
     "product": "Import Agent",
@@ -1973,11 +1983,13 @@
     "snippet": "import agent error codes in the event log provides explanations for the possible error codes from failed attempts to use the Import Agent ? I see that my profile failed, but have no idea ...... posted by Bill Gable 7 Oct 27, 2016 updated by Raymond Cruz 2783 Oct 27, 2016 1 reply · 576 views · 0 0 · Import Agent Administration",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "not-actionable",
     "queries": [
       "Import Agent \"error code\"",
       "Import Agent \"failed\""
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed; general pointer to Laserfiche Messages Guide, not a product-specific error/fix."
   },
   {
     "product": "Import Agent",
@@ -1989,7 +2001,9 @@
     "snippet": "Import Agent Failure Notifications that if there is an error, import agent creates a folder called IAError and puts the file in there, but no notification is sent to ... to let them know an error occurred and where the error was. If this is affecting others, and a write up help anyone, let me ...... posted by Eric Moore 45 Feb 20, 2025 updated by Qinmei Zou 766 Apr 16 2 replies · 531 views · 0 0 · Import Agent Version 11 Self-Hosted Version 12 How To",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Import Agent IAError email notification feature added in 2026 H1 12.0.2603.833."
   },
   {
     "product": "Import Agent",
@@ -2015,7 +2029,9 @@
     "snippet": "OCR Engine Error When Installing Import Agent When installing Import Agent 10.3 on a machine that already has the OCR engine installed I receive the following error : Why does it not ...... posted by Blake Smith 18822 Aug 21, 2019 updated by Blake Smith 18822 Aug 21, 2019 2 replies · 475 views · 1 0 · Import Agent Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Import Agent OCR Engine post-requisite known issue/workaround."
   },
   {
     "product": "Import Agent",
@@ -2041,7 +2057,9 @@
     "snippet": "Unable to Import Files Import agent is putting all files into a folder called \"IAError\". Event log says \"There was an error executing the profile XXXX while importing the ... already. \u0010The folder that the Import Agent moves the files to is empty. Even if I rename the file to something else... (i.e. \"zzzDoc ...... posted by Marlon Meiklejohn 5 Jul 25, 2014 updated by Marlon Meiklejohn 5 Jul 29, 2014 15 replies · 3654 views · 0 0 · Import Agent",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Curated as Import Agent IAError/file-exists service account fix."
   },
   {
     "product": "Laserfiche Installer",

@@ -7849,6 +7849,264 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "import-agent-9013-port80-ssl-schedule",
+    code: "9013",
+    message: "Access denied when a scheduled Import Agent profile runs after port 80 is blocked.",
+    product: "Import Agent",
+    versions: ["Version 10", "Version 12"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "A Version 10 Import Agent thread documents 9013 access denied after inbound port 80 was blocked, even though the user could connect to the repository with SSL enabled. The public thread has no replies.",
+    symptoms: [
+      "Scheduled Import Agent profile fails with Access denied [9013].",
+      "Manual connection to the repository with SSL enabled works.",
+      "The service account can log in and browse the target repository folder.",
+    ],
+    likelyFixes: [
+      "Verify the Import Agent profile uses the intended SSL/TLS repository endpoint when running as a service.",
+      "Confirm firewall rules allow the actual repository ports required by the configured connection.",
+      "Check whether the scheduled profile runs under the expected service account and uses the expected repository connection.",
+      "Collect Import Agent event logs and repository connection settings for Support if rights and connectivity look correct.",
+    ],
+    notes:
+      "Documented as unresolved because the Answers thread contains the symptom but no public solution.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "import agent - access denied error after disabling pot 80 on the firewall to laserfiche server",
+        url: "https://answers.laserfiche.com/questions/131696/import-agent--access-denied-error-after-disabling-pot-80-on-the-firewall-to-laserfiche-server",
+        note: "Thread documents Import Agent scheduled-profile 9013 after a firewall change, with no public replies.",
+      },
+    ],
+  },
+  {
+    id: "import-agent-9133-large-text-file",
+    code: "9133",
+    message: "Page text out of range while importing large text files.",
+    product: "Import Agent",
+    versions: ["Version 12"],
+    confidence: "low",
+    fixStatus: "unresolved",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Import Agent can fail with 9133 Page text out of range when importing large .txt files; the reviewed thread was locked as a duplicate and did not publish the duplicate thread's resolution.",
+    symptoms: [
+      "Import Agent does not import .txt files larger than roughly 10,000 KB.",
+      "The related error code is 9133.",
+      "The Answers thread points to Page text out of range [9133].",
+    ],
+    likelyFixes: [
+      "Review the linked Page text out of range [9133] duplicate thread if available.",
+      "Test whether splitting the text file or importing it as an electronic document avoids page-text limits.",
+      "Collect the source text file and Import Agent profile for Support if the import must preserve full text extraction.",
+    ],
+    notes:
+      "Laserfiche locked the thread as a duplicate but the public page does not include a direct fix.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Import Agent - Maximum file size - Error Code: 9133",
+        url: "https://answers.laserfiche.com/questions/205490/Import-Agent--Maximum-file-size--Error-Code-9133",
+        note: "Laserfiche locked the post as a duplicate of Page text out of range [9133].",
+      },
+    ],
+  },
+  {
+    id: "import-agent-compare-two-elements-array",
+    code: "IMPORT-AGENT-COMPARE-ARRAY",
+    message: "Failed to compare two elements in the array while executing an Import Agent profile.",
+    product: "Import Agent",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Import Agent can report Failed to compare two elements in the array for one profile/folder. Laserfiche asked first whether the path in the error is valid, then recommended Support review of the profile and files.",
+    symptoms: [
+      "Only one Import Agent profile fails while similar profiles continue to work.",
+      "The failing folder contains PDFs, JPEGs, and TIFFs.",
+      "Recreating the profile does not clear the error.",
+    ],
+    likelyFixes: [
+      "Confirm the import-from path shown in the error exists and is reachable by the Import Agent service account.",
+      "Move files out and reintroduce them in smaller sets to isolate a file that breaks sorting or comparison.",
+      "Open a Support case with the Import Agent profile and representative files if the path is valid.",
+    ],
+    notes:
+      "The public thread did not identify a confirmed root cause.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Import Agent (Error: Failed to compare two elements in the array.)",
+        url: "https://answers.laserfiche.com/questions/159981/Import-Agent-Error-Failed-to-compare-two-elements-in-the-array",
+        note: "Raymond Cruz from Laserfiche asks whether the path is valid and recommends a Support case with Import Agent and the files.",
+      },
+    ],
+  },
+  {
+    id: "import-agent-1031-temp-file-hotfix-94394",
+    code: "IMPORT-AGENT-TEMP-FILE-MISSING",
+    message: "The system cannot find the temp text file while importing an image.",
+    product: "Import Agent",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Import Agent 10.3.1.470 could fail during OCR/image import because a temp text file under the service account profile could not be found; a 10.3.1 hotfix resolved the issue for multiple commenters.",
+    symptoms: [
+      "Import Agent logs The system cannot find the file specified for a C:\\Users\\service-account\\AppData\\Local\\Temp\\tmp*.txt file.",
+      "The stack includes ExecuteProfileImageFile.OCRImportImageFile.",
+      "The source image is not imported.",
+    ],
+    likelyFixes: [
+      "Apply the Import Agent 10.3.1 hotfix that updates 10.3.1.470 to 10.3.1.479.",
+      "Retest the same monitored-folder profile after patching.",
+      "If the hotfix is unavailable, open Support and reference bug 94394.",
+    ],
+    notes:
+      "Two community replies confirmed the hotfix resolved the issue after Laserfiche identified it as bug 94394.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Import Agent Error",
+        url: "https://answers.laserfiche.com/questions/147136/Import-Agent-Error",
+        note: "Laserfiche identified bug 94394; later comments report the 10.3.1.479 hotfix fixed the temp-file import failure.",
+      },
+    ],
+  },
+  {
+    id: "import-agent-event8-access-denied-files",
+    code: "EVENT-8",
+    message: "Access is denied in Import Agent Event ID 8 for a small subset of files.",
+    product: "Import Agent",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Import Agent can log Event ID 8 Access is denied for individual files even when most files import and the account appears to have file/repository access.",
+    symptoms: [
+      "A small number of files fail out of a large import run.",
+      "Event Viewer reports Access is denied with Event ID 8.",
+      "Manual drag-and-drop of similar files works.",
+    ],
+    likelyFixes: [
+      "Check the full path and file name length for failing files, keeping under legacy path-length limits.",
+      "Retry failed files from the monitor folder to determine whether failures are persistent or transient.",
+      "Provide the profile, failed file examples, full error logs, and version details to Support when files repeatedly fail.",
+    ],
+    notes:
+      "Laserfiche employees suggested path-length checks and Support review; no public final fix is listed.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "import agent error access is denied (event id 8)",
+        url: "https://answers.laserfiche.com/questions/190256/import-agent-error-access-is-denied-event-id-8",
+        note: "Laserfiche replies ask about full error details, path length, reproducibility, failed files, profiles, and logs.",
+      },
+    ],
+  },
+  {
+    id: "import-agent-iaerror-email-notifications",
+    code: "IMPORT-AGENT-IAERROR-NOTIFICATION",
+    message: "Import Agent moves failed files to IAError without email notification.",
+    product: "Import Agent",
+    versions: ["Version 11", "Version 12"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Older Import Agent releases did not send built-in email notifications when files moved to IAError; Laserfiche says email notification support was added in Import Agent 2026 H1, 12.0.2603.833.",
+    symptoms: [
+      "Import Agent creates an IAError folder and moves failed files there.",
+      "No built-in notification alerts staff that a scan/import failed.",
+      "Administrators resort to scripts or scheduled tasks to monitor IAError folders.",
+    ],
+    likelyFixes: [
+      "Upgrade Import Agent to the 2026 H1 release, version 12.0.2603.833, or later.",
+      "Configure the new Import Agent email notification feature using the online help.",
+      "Before upgrading, use a scheduled script or monitoring tool to watch IAError folders and notify staff.",
+    ],
+    notes:
+      "This thread is a discussion rather than a failure stack, but it documents a missing notification behavior and the later product fix.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Import Agent Failure Notifications",
+        url: "https://answers.laserfiche.com/questions/227212/Import-Agent-Failure-Notifications",
+        note: "Laserfiche first created backlog item 577709, then said email notification is supported in Import Agent 2026 H1 12.0.2603.833.",
+      },
+    ],
+  },
+  {
+    id: "import-agent-ocr-engine-postrequisite",
+    code: "IMPORT-AGENT-OCR-POSTREQUISITE",
+    message: "OCR Engine installer warning when installing Import Agent on a machine with OCR already installed.",
+    product: "Import Agent",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Import Agent 10.3 installation can show an OCR Engine error when OCR is already installed because the OCR version bundled with Import Agent is older.",
+    symptoms: [
+      "Import Agent installer stops or prompts around OCR Engine even though OCR is already installed.",
+      "The machine already has a newer OCR Engine installed.",
+      "Other Laserfiche installers may skip already-installed prerequisites, but Import Agent does not in this case.",
+    ],
+    likelyFixes: [
+      "Click through the OCR Engine message.",
+      "Bypass OCR Engine as a post-requisite when prompted.",
+      "Continue the Import Agent installation and verify OCR behavior afterward.",
+    ],
+    notes:
+      "Laserfiche identified this as a known issue due to the older OCR version in Import Agent.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "OCR Engine Error When Installing Import Agent",
+        url: "https://answers.laserfiche.com/questions/163435/OCR-Engine-Error-When-Installing-Import-Agent",
+        note: "Miruna Babatie from Laserfiche says to click through the known issue and bypass OCR as a post-requisite.",
+      },
+    ],
+  },
+  {
+    id: "import-agent-file-exists-iaerror-service-account",
+    code: "IMPORT-AGENT-FILE-EXISTS",
+    message: "The file exists while Import Agent moves every file to IAError.",
+    product: "Import Agent",
+    versions: ["Version 9"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-27",
+    summary:
+      "Import Agent can move all files to IAError with The file exists even when the destination appears empty; the confirmed fix was changing the Import Agent service logon from Local System to an AD account.",
+    symptoms: [
+      "All files are moved to IAError.",
+      "Event log reports The file exists for the file being imported.",
+      "Manual import as the intended user works.",
+    ],
+    likelyFixes: [
+      "Repair the Import Agent installation if components may be damaged.",
+      "Run the Import Agent service under a dedicated Windows AD account instead of Local System.",
+      "Reconfigure the profile/service account after repair.",
+      "If needed, place the service account in Local Administrators on the Import Agent server and recreate monitored folders.",
+    ],
+    notes:
+      "The original thread was Import Agent 8.1.1, but this helper catalogs it under Version 9 because the site version filter starts at Version 9.",
+    sources: [
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Unable to Import Files",
+        url: "https://answers.laserfiche.com/questions/60081/Unable-to-Import-Files",
+        note: "Laserfiche recommends repair and service account reconfiguration; requester confirmed changing the service account to an AD account resolved it.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
