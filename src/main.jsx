@@ -110,7 +110,7 @@ function filterOptionLabel(value, label) {
 function initialSelectedErrorId() {
   const url = new URL(window.location.href);
   const requestedId = url.searchParams.get("error");
-  return errorEntries.some((entry) => entry.id === requestedId) ? requestedId : errorEntries[0]?.id;
+  return errorEntries.some((entry) => entry.id === requestedId) ? requestedId : null;
 }
 
 function setErrorUrl(entryId) {
@@ -255,8 +255,7 @@ function App() {
       });
   }, [query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, sortBy]);
 
-  const selectedEntry =
-    filteredEntries.find((entry) => entry.id === selectedId) ?? filteredEntries[0] ?? errorEntries[0];
+  const selectedEntry = selectedId ? errorEntries.find((entry) => entry.id === selectedId) : null;
 
   function selectEntry(entryId) {
     setSelectedId(entryId);
@@ -507,11 +506,13 @@ function App() {
           )}
         </aside>
 
-        {selectedEntry && (
+        {selectedEntry ? (
           <ErrorDetail
             entry={selectedEntry}
             onShare={shareEntry}
           />
+        ) : (
+          <InstructionsPane />
         )}
       </section>
 
@@ -616,6 +617,47 @@ function SourceBadge({ sourceType }) {
     "answers-community": "Answers - Community",
   };
   return <span className={`source-badge ${sourceType}`}>{labels[sourceType] ?? sourceType}</span>;
+}
+
+function InstructionsPane() {
+  return (
+    <article className="detail-pane instructions-pane">
+      <div className="instructions-content">
+        <span className="selected-label">Get started</span>
+        <h2>
+          Search or browse Laserfiche errors
+          <span>Select a result to view troubleshooting details.</span>
+        </h2>
+        <div className="instruction-grid">
+          <section>
+            <Search aria-hidden="true" size={19} />
+            <div>
+              <h3>Search by what you have</h3>
+              <p>Use an error code, product name, message text, symptom, or source detail.</p>
+            </div>
+          </section>
+          <section>
+            <Filter aria-hidden="true" size={19} />
+            <div>
+              <h3>Narrow the results</h3>
+              <p>Filter by product, version, source type, confidence, fix status, or scenario coverage.</p>
+            </div>
+          </section>
+          <section>
+            <BookOpen aria-hidden="true" size={19} />
+            <div>
+              <h3>Check the source trail</h3>
+              <p>Review official documentation and Laserfiche Answers links before making system changes.</p>
+            </div>
+          </section>
+        </div>
+        <div className="notice inline-notice">
+          <ShieldCheck aria-hidden="true" size={18} />
+          <p>Guidance is a research aid. Validate fixes in a test or maintenance window before changing production systems.</p>
+        </div>
+      </div>
+    </article>
+  );
 }
 
 function ErrorDetail({ entry, onShare }) {

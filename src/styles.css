@@ -420,6 +420,63 @@ h3 {
   padding: 18px 22px 22px;
 }
 
+.instructions-pane {
+  grid-template-columns: 1fr;
+  align-content: start;
+  min-height: 460px;
+}
+
+.instructions-content {
+  max-width: 760px;
+}
+
+.instructions-content h2 {
+  max-width: 620px;
+  font-size: clamp(1.55rem, 2vw, 2.15rem);
+  line-height: 1.08;
+}
+
+.instructions-content h2 span {
+  display: block;
+  margin-top: 6px;
+  color: #29313b;
+  font-size: clamp(1.05rem, 1.5vw, 1.28rem);
+  font-weight: 500;
+}
+
+.instruction-grid {
+  display: grid;
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.instruction-grid section {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 11px;
+  align-items: start;
+  padding: 0 0 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.instruction-grid section:last-child {
+  border-bottom: 0;
+}
+
+.instruction-grid svg {
+  margin-top: 2px;
+  color: var(--brand-orange);
+}
+
+.instruction-grid h3 {
+  font-size: 0.96rem;
+}
+
+.instruction-grid p {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
 .detail-header {
   display: flex;
   align-items: flex-start;
