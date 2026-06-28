@@ -7599,5 +7599,1106 @@
     ],
     "extractedErrorCodes": [],
     "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 1,
+    "signature": "LFDS23 Laserfiche Directory Server Error",
+    "signatureType": "message-text",
+    "title": "LFDS23 Laserfiche Directory Server Error",
+    "url": "https://answers.laserfiche.com/questions/124223/LFDS23-Laserfiche-Directory-Server-Error",
+    "snippet": "LFDS23 Laserfiche Directory Server Error - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question LFDS23 Laserfiche Directory Server Error Laserfiche Directory Server Updated July 25, 2017 Subscribe Subscribed asked on July 13",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 1,
+    "signature": "Error Laserfiche Directory Server",
+    "signatureType": "message-text",
+    "title": "Error Laserfiche Directory Server",
+    "url": "https://answers.laserfiche.com/questions/216360/Error-Laserfiche-Directory-Server",
+    "snippet": "Error Laserfiche Directory Server - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Error Laserfiche Directory Server Directory Server Version 11 Answers Site Ideas Updated March 7, 2024 Subscribe Subscribed asked on Ma",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 1,
+    "signature": "0x80072030",
+    "signatureType": "error-code",
+    "title": "Error Laserfiche Directory Service",
+    "url": "https://answers.laserfiche.com/questions/93521/Error-Laserfiche-Directory-Service",
+    "snippet": ", 2016 Hi everyone, We have been updating all our products to Version 10, and since we updated our LFDS to version 10.0.0.196, there is showing up two errors, one \"System.DirectoryServices.DirectoryServicesCOMException (0x80072030): There is no such object on the server.\" and the other seeming some problem of communication with the sql server. I have attached both logs. Is there anyone that would know any tip of how to stop that? Regards, Vitor ErroLFDS_1.txt (1.37 KB) | Download Erro_LFDS_2.txt (7.93 KB) | Downloa",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "0x80072030",
+      "0x80131904"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 1,
+    "signature": "Error: Laserfiche.LicenseManager.MismatchedSamlEncryptionSettingsException",
+    "signatureType": "message-text",
+    "title": "Error: Laserfiche.LicenseManager.MismatchedSamlEncryptionSettingsException",
+    "url": "https://answers.laserfiche.com/questions/177574/Error-LaserficheLicenseManagerMismatchedSamlEncryptionSettingsException",
+    "snippet": "Error: Laserfiche.LicenseManager.MismatchedSamlEncryptionSettingsException - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Error: Laserfiche.LicenseManager.MismatchedSamlEncryptionSettingsException Directory Server Up",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 1,
+    "signature": "LFF3008-LFDSCredentialNoFullLic",
+    "signatureType": "error-code",
+    "title": "Receiving \"Laserfiche Directory user does not have a full license. [LFF3008-LFDSCredentialNoFullLic]",
+    "url": "https://answers.laserfiche.com/questions/138187/Receiving-Laserfiche-Directory-user-does-not-have-a-full-license-LFF3008LFDSCredentialNoFullLic",
+    "snippet": "Receiving \"Laserfiche Directory user does not have a full license. [LFF3008-LFDSCredentialNoFullLic] - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Receiving \"Laserfiche Directory user does not have a full license. [",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFF3008-LFDSCredentialNoFullLic"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 1,
+    "signature": "LFF3602-UnsupportedSQLVersion",
+    "signatureType": "error-code",
+    "title": "Connecting Forms 11 to Azure SQL",
+    "url": "https://answers.laserfiche.com/questions/185978/Connecting-Forms-11-to-Azure-SQL",
+    "snippet": "es. &nbsp; In our test environment we installed Forms 11 and connected to the same production Forms DB and received the following error -&nbsp; &nbsp; Laserfiche Forms requires SQL Server 2014 SP3+, 2016 SP2+ or later. [LFF3602-UnsupportedSQLVersion] &nbsp; The SQL is currently version 2019. Has anyone had issues or success in using Azure SQL with the latest Forms version? &nbsp; Thanks Ian 0 0 Post Link Replies Sort by: Most popular Most popular Oldest to newest Newest to oldest replied on April 13, 2021 Good day",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Directory Server",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFF3602-UnsupportedSQLVersion"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 1,
+    "signature": "Laserfiche Server Service Stops - Laserfiche Audit Service Errors every 5 min",
+    "signatureType": "message-text",
+    "title": "Laserfiche Server Service Stops - Laserfiche Audit Service Errors every 5 min",
+    "url": "https://answers.laserfiche.com/questions/185460/Laserfiche-Server-Service-Stops--Laserfiche-Audit-Service-Errors-every-5-min",
+    "snippet": "Laserfiche Server Service Stops - Laserfiche Audit Service Errors every 5 min - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Laserfiche Server Service Stops - Laserfiche Audit Service Errors every 5 min Laserfiche Ve",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 1,
+    "signature": "0458-WF0",
+    "signatureType": "error-code",
+    "title": "Workflow Error 0458-WF0",
+    "url": "https://answers.laserfiche.com/questions/95599/Workflow-Error-0458WF0",
+    "snippet": "Workflow Error 0458-WF0 - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Workflow Error 0458-WF0 Workflow Directory Server Updated April 6, 2016 Subscribe Subscribed asked on April 6, 2016 On a brand new install of Las",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "0458-WF0",
+      "0458"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 1,
+    "signature": "Laserfiche.LicenseManager.InvalidUsernamePasswordException",
+    "signatureType": "message-text",
+    "title": "Laserfiche.LicenseManager.InvalidUsernamePasswordException",
+    "url": "https://answers.laserfiche.com/questions/182974/LaserficheLicenseManagerInvalidUsernamePasswordException",
+    "snippet": "censeManager.InvalidUsernamePasswordException License Manager Directory Server Version 10 Administration Licensing Updated January 20, 2021 Subscribe Subscribed asked on January 20, 2021 Hello, I'm getting the following errors under Event Viewer > Laserfiche > Directory Server > Operational Trace. AD Sync and All Laserfiche functions are working properly, trying to figure out where this error is coming from. I opened a support ticket and they said it was related to LDAP but I don't seem to believe it is after inves",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 1,
+    "signature": "configure web access 10",
+    "signatureType": "message-text",
+    "title": "configure web access 10",
+    "url": "https://answers.laserfiche.com/questions/94529/configure-web-access-10",
+    "snippet": "cently updated my laserfiche rio 9.2.1 to 10. I'm now trying&nbsp;to configure the web access general services. In the section where we have to enter the url of the Laserfice Directory server STS&nbsp;i keep having this error :&nbsp; \"The Laserfiche Directory Server's address does not match the value specified in the license:Myserver.Mydomain.local.\" When we updated the directory server we created a self signed certificat and activated the SSL. The url i use to enter in this section is : &nbsp;https://myserver.mydo",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Directory Server",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 1,
+    "signature": "Directory Server Errors",
+    "signatureType": "message-text",
+    "title": "Directory Server Errors",
+    "url": "https://answers.laserfiche.com/questions/123172/Directory-Server-Errors",
+    "snippet": "Directory Server Errors - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Directory Server Errors Directory Server Updated February 8, 2018 Subscribe Subscribed asked on June 22, 2017 Our Directory Server seems to be ve",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 2,
+    "signature": "0xc004248d",
+    "signatureType": "error-code",
+    "title": "Adding Laserfiche Directory Users to Repository when LFDS server is on another computer",
+    "url": "https://answers.laserfiche.com/questions/159834/Adding-Laserfiche-Directory-Users-to-Repository-when-LFDS-server-is-on-another-computer",
+    "snippet": "nce! Error Code: 9357 Error Message: LDAP query could not be completed. [9357] ------------ Technical Details: ------------ LFSO: Call Stack: (Exception) CLFDirectorySearcher::ThrowLastError Additional Details: HRESULT: 0xc004248d (CLFDirectorySearcher::ThrowLastError, lfdirectorysearcher.cpp:330) (LFSO/10.4.0.63) LFCommonDialogs104.dll (10.4.0.103): Call Stack: (Current) CLFObjectPickerMain::FindLDAPAccounts CLFObjectPicker::DoPicker Call History: CLFObjectPicker::DoPicker CLFObjectPickerLocationTreeCtrl::GetDefau",
+    "sourceType": "Answers candidate - Laserfiche employee",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Web Client",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "0xc004248d"
+    ],
+    "notes": "Fresh Answers pass candidate. Detail page text indicates a Laserfiche-associated reply may be present; review before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 2,
+    "signature": "Laserfiche 10.4 with LFDS 10.3",
+    "signatureType": "message-text",
+    "title": "Laserfiche 10.4 with LFDS 10.3",
+    "url": "https://answers.laserfiche.com/questions/158404/Laserfiche-104-with-LFDS-103",
+    "snippet": "9 We have recently upgraded our development environment from Rio 10.3.1 to 10.4 and have noticed that users are not being allowed access to the repository.&nbsp; When they attempt to go to the repository they receive an error:&nbsp; Access denied. [9013] Sign out of Laserfiche Directory Server.&nbsp; If they click the link, it just refreshes the same error page. Is this an expected incompatibility between LFS 10.4 and LFDS 10.3.0.110?&nbsp;&nbsp; Do I need to upgrade LFDS to 10.4 to correct the errors and allow use",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 2,
+    "signature": "Laserfiche Directory Service Error (Object reference not set to an instance of an object.)",
+    "signatureType": "message-text",
+    "title": "Laserfiche Directory Service Error (Object reference not set to an instance of an object.)",
+    "url": "https://answers.laserfiche.com/questions/65335/Laserfiche-Directory-Service-Error-Object-reference-not-set-to-an-instance-of-an-object",
+    "snippet": "Laserfiche Directory Service Error (Object reference not set to an instance of an object.) - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Laserfiche Directory Service Error (Object reference not set to an instance of",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 2,
+    "signature": "Laserfiche Forms Directory Service Unresponsive after Laserfiche 11 Upgrade",
+    "signatureType": "message-text",
+    "title": "Laserfiche Forms Directory Service Unresponsive after Laserfiche 11 Upgrade",
+    "url": "https://answers.laserfiche.com/questions/202297/Laserfiche-Forms-Directory-Service-Unresponsive-after-Laserfiche-11-Upgrade",
+    "snippet": "out ever 5-8 minutes. SQL, Forms, Directory Server, etc. resources are way below the thresholds. In the past we have sent out forms that require this level of participation but we were on Forms 10.4. &nbsp; Description: Error of type 'Laserfiche.LicenseManager.InvalidUsernamePasswordException' while trying to issue a token.&nbsp;&nbsp;Laserfiche.LicenseManager.InvalidUsernamePasswordException: Exception of type 'Laserfiche.LicenseManager.InvalidUsernamePasswordException' was thrown. &nbsp;&nbsp;&nbsp;at Laserfiche.",
+    "sourceType": "Answers candidate - Laserfiche employee",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow",
+      "Web Client",
+      "Directory Server",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Detail page text indicates a Laserfiche-associated reply may be present; review before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 2,
+    "signature": "laserfiche directory server 9.2.1 won't start after update",
+    "signatureType": "message-text",
+    "title": "laserfiche directory server 9.2.1 won't start after update",
+    "url": "https://answers.laserfiche.com/questions/85178/laserfiche-directory-server-921-wont-start-after-update",
+    "snippet": "Question laserfiche directory server 9.2.1 won't start after update Directory Server Updated October 14, 2015 Subscribe Subscribed asked on October 14, 2015 I just updated license server from 9.2 to 9.2.1. &nbsp; &nbsp; error: &nbsp; the Laserfiche Directory Server 9.2 service on <server name> started and then stopped. some services stop automatically if they are not in use by other services or programs. &nbsp; &nbsp; 0 0 Post Link Replies Sort by: Most popular Most popular Oldest to newest Newest to oldest replied",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 2,
+    "signature": "Error reading trustee data from Laserfiche Server.",
+    "signatureType": "message-text",
+    "title": "Error reading trustee data from Laserfiche Server.",
+    "url": "https://answers.laserfiche.com/questions/164111/Error-reading-trustee-data-from-Laserfiche-Server",
+    "snippet": "Error reading trustee data from Laserfiche Server. - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Error reading trustee data from Laserfiche Server. Migration Directory Server Laserfiche Updated September 11, 2019 Su",
+    "sourceType": "Answers candidate - Laserfiche employee",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Detail page text indicates a Laserfiche-associated reply may be present; review before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 2,
+    "signature": "Lost of the master license when directory server is restarded",
+    "signatureType": "message-text",
+    "title": "Lost of the master license when directory server is restarded",
+    "url": "https://answers.laserfiche.com/questions/109591/Lost-of-the-master-license-when-directory-server-is-restarded",
+    "snippet": "hing set it wrong, when we restart the directory service we lost the master license and the laserfiche server services cannot be restarted. &nbsp; if after the restart of the Directory service, we go to the web page, an error telling the master license is invalide, so we just renew it and all is back to normal. but if we restart again the directory service, same issue. it need to renew the master license. &nbsp; I have not seen this before to other Customer? any idea of why and how to fix it 0 0 Post Link Answer SE",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 2,
+    "signature": "DCC License Validation Erro",
+    "signatureType": "message-text",
+    "title": "DCC License Validation Erro",
+    "url": "https://answers.laserfiche.com/questions/153322/DCC-License-Validation-Erro",
+    "snippet": "asked on December 20, 2018 I have had this at a few clients now quite a few times: &nbsp; The operation could not have been completed because the Laserfiche Distributed Computing Cluster Service is not licensed. License error: \"Validation Error code: \"ConnectionFailed\"\". &nbsp; It may be after a reboot but I have seen it a few other times as well.&nbsp; In both cases they are on the Laserfiche server as well and this is the only product out of everything that deactivates.&nbsp; We have to generate a new one and swa",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 2,
+    "signature": "LFDS auto license renewal error",
+    "signatureType": "message-text",
+    "title": "LFDS auto license renewal error",
+    "url": "https://answers.laserfiche.com/questions/219580/LFDS-auto-license-renewal-error",
+    "snippet": "LFDS auto license renewal error - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question LFDS auto license renewal error Directory Server Updated May 24, 2024 Subscribe Subscribed asked on May 24, 2024 We recently had a custom",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 2,
+    "signature": "LFF335-CannotRegisterLFRepo",
+    "signatureType": "error-code",
+    "title": "Forms Essentials configuration fails at User Authentication tab",
+    "url": "https://answers.laserfiche.com/questions/142626/Forms-Essentials-configuration-fails-at-User-Authentication-tab",
+    "snippet": "ry account with admin rights and with a strong password, but I get the error . . : \"Failed to register the Laserfiche repository: The password does not meet the minimum length requirement of the password policy. [9158] [LFF335-CannotRegisterLFRepo]\" .. even though I am using the Laserfiche Admin Console&rsquo;s &lsquo;generate password&rsquo; option. I even doubled the length of that (so 16 random characters) but I still got the same error. I&rsquo;ve read the Admin Guide, and it says: &ldquo;The account must be a",
+    "sourceType": "Answers candidate - Laserfiche employee",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFF335-CannotRegisterLFRepo"
+    ],
+    "notes": "Fresh Answers pass candidate. Detail page text indicates a Laserfiche-associated reply may be present; review before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 2,
+    "signature": "LFF3007-InvalidLFDSCredential",
+    "signatureType": "error-code",
+    "title": "Forms System Administrator user",
+    "url": "https://answers.laserfiche.com/questions/186747/Forms-System-Administrator-user",
+    "snippet": "p;Also, verify that your Forms server has a valid license file and is registered properly in Laserfiche Directory Server. &nbsp;Finally, ensure that Forms is authorized to view users from all appropriate organizations. [LFF3007-InvalidLFDSCredential]\" Currently, H\\user can log into Forms and the repository, and we can view the user in LFDS and see that it is assigned a Full license and a member of the LF_H organization and the H Forms Group. &nbsp;We can see the instance of Forms in LFDS and regenerated the license",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Directory Server",
+      "Laserfiche Server/Repository Server"
+    ],
+    "extractedErrorCodes": [
+      "LFF3007-InvalidLFDSCredential"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 2,
+    "signature": "Error of type 'Laserfiche.LicenseManager.InvalidUsernamePasswordException' while trying to issue a token.",
+    "signatureType": "message-text",
+    "title": "Error of type 'Laserfiche.LicenseManager.InvalidUsernamePasswordException' while trying to issue a token.",
+    "url": "https://answers.laserfiche.com/questions/207365/Error-of-type-LaserficheLicenseManagerInvalidUsernamePasswordException-while-trying-to-issue-a-token",
+    "snippet": "Error of type 'Laserfiche.LicenseManager.InvalidUsernamePasswordException' while trying to issue a token. - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Error of type 'Laserfiche.LicenseManager.InvalidUsernamePasswor",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 3,
+    "signature": "Cannot verify license file",
+    "signatureType": "message-text",
+    "title": "Cannot verify license file",
+    "url": "https://answers.laserfiche.com/questions/204143/Cannot-verify-license-file",
+    "snippet": "t here. < > Question Subscribe Subscribed Question Cannot verify license file Directory Server License Manager Updated February 19 Subscribe Subscribed asked on November 23, 2022 I have a customer that has received this error.&nbsp; \" Cannot verify license file.&nbsp; The server will shut down in one hour.&nbsp; Logging in with a Laserfiche directory server token will not be allowed. [9529].&nbsp; Any help is much appreciated.&nbsp; Due to the holiday, I am the only one available to try and fix and I am not super a",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Laserfiche Server/Repository Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 3,
+    "signature": "Securing LDAP Connections to Domain Controllers for Laserfiche System",
+    "signatureType": "message-text",
+    "title": "Securing LDAP Connections to Domain Controllers for Laserfiche System",
+    "url": "https://answers.laserfiche.com/questions/169498/Securing-LDAP-Connections-to-Domain-Controllers-for-Laserfiche-System",
+    "snippet": "published:&nbsp;no issues were discovered in our testing and Laserfiche is compatible with the new default security settings.&nbsp; In addition to the LFDS documented I linked above, there is a note in the KB about what error will occur in Forms if SSL is incorrectly configured. 1 0 Post Link Replies Sort by: Most popular Most popular Oldest to newest Newest to oldest replied on February 5, 2020 Hi Cody, We're investigating and we will update when we have an answer. Thank you&nbsp;for the clear post and error infor",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 3,
+    "signature": "0xc0042538",
+    "signatureType": "error-code",
+    "title": "Does LFDS support using a Managed Service Account to run the service?",
+    "url": "https://answers.laserfiche.com/questions/119138/Does-LFDS-support-using-a-Managed-Service-Account-to-run-the-service",
+    "snippet": "gin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFSession::Login &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CLFConnection::Create &nbsp;&nbsp;&nbsp; Additional Details: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HRESULT: 0xc0042538 (ProcessResponseHeaders, LFSession.cpp:4898) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (LFSO/10.1.1.274) LF.exe (10.1.1.320): &nbsp;&nbsp;&nbsp; Call Stack: (Exception) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CLoginDialog::AttemptLogin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "0xc0042538",
+      "0x80042538"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 3,
+    "signature": "0xc0042332",
+    "signatureType": "error-code",
+    "title": "Error Code: 9010 Error Message: The user account name or password is incorrect. [9010]",
+    "url": "https://answers.laserfiche.com/questions/101883/Error-Code-9010-Error-Message-The-user-account-name-or-password-is-incorrect-9010",
+    "snippet": "gin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFSession::Login &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CLFConnection::Create &nbsp;&nbsp;&nbsp; Additional Details: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HRESULT: 0xc0042332 (ProcessResponseHeaders, LFSession.cpp:4892) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (LFSO/10.1.0.209) LF.exe (10.1.1.254): &nbsp;&nbsp;&nbsp; Call Stack: (Exception) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CLoginDialog::AttemptLogin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "0xc0042332",
+      "0x80042332",
+      "0xc0042538",
+      "0x80042538"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 3,
+    "signature": "How do I find my Directory Server STS URL in LFDS 10.3.1",
+    "signatureType": "message-text",
+    "title": "How do I find my Directory Server STS URL in LFDS 10.3.1",
+    "url": "https://answers.laserfiche.com/questions/145128/How-do-I-find-my-Directory-Server-STS-URL-in-LFDS-1031",
+    "snippet": "S 10.3.1 Directory Server Updated July 23, 2018 Subscribe Subscribed asked on July 20, 2018 In order to setup SSO for my Web Client, I need to provide the Directory Server STS URL.&nbsp; What I have provided, throws the error \"The Laserfiche Directory Server's Address does not match the value specified in the license:\" &nbsp; I looked in the General Settings in LFDS and I do not see the Address listed.&nbsp; I thought that is where you would find it under the Display the organization list on the single-in page, but",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 3,
+    "signature": "Directory Server - You do not have enough rights to view this site",
+    "signatureType": "message-text",
+    "title": "Directory Server - You do not have enough rights to view this site",
+    "url": "https://answers.laserfiche.com/questions/71294/Directory-Server--You-do-not-have-enough-rights-to-view-this-site",
+    "snippet": "y non local admin can access the site as long as they are a member of the Laserfiche Directory Service Administrators group in Windows. If your account does satisfy either of those criteria, but you are still getting an error, then please open a case with Laserfiche Support. 1 0 Post Link replied on February 11, 2015 Interesting, we are in that group and the administratos group. There is some options in the application to choose what rights a user has though. I will open a ticket. 0 0 Post Link replied on February",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 3,
+    "signature": "Laserfiche Plus 8.1 - Could not validate license.",
+    "signatureType": "message-text",
+    "title": "Laserfiche Plus 8.1 - Could not validate license.",
+    "url": "https://answers.laserfiche.com/questions/113358/Laserfiche-Plus-81--Could-not-validate-license",
+    "snippet": "se. Plus Updated January 6, 2017 Subscribe Subscribed asked on January 6, 2017 • Show version history Hello, &nbsp; I have a client who is trying to use Laserfiche Plus to put some files on a CD and they are getting the error \"Could not validate license. &nbsp;Please contact Laserfiche Support\". &nbsp; The Laserfiche Server is on Rio version 10.1.0 and the Laserfiche Directory server is on version 10.0.0. &nbsp; We have regenerated license file from the LF Directory server with no luck. &nbsp;We have tried repairin",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 3,
+    "signature": "Changing Directory Server service user",
+    "signatureType": "message-text",
+    "title": "Changing Directory Server service user",
+    "url": "https://answers.laserfiche.com/questions/229158/Changing-Directory-Server-service-user",
+    "snippet": "vice account for the Hub service is not Local System or a member of the local Administrators group on the machine. In my experience, missing netsh urlacl reservations&nbsp;result in very obvious \"service fails to start\" errors. I'd restart the Laserfiche Directory Server service, then check the Windows Application, Windows System, and Laserfiche Directory Server event logs for any obvious related errors. If you don't see any and things are working (license checks, auth, etc.), you're in the clear. 0 0 Post Link Rep",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Directory Server",
+      "Version 10",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 3,
+    "signature": "October Technical Resources",
+    "signatureType": "message-text",
+    "title": "October Technical Resources",
+    "url": "https://answers.laserfiche.com/questions/86026/October-Technical-Resources",
+    "snippet": "swers Discussions: Indexing Administration Indexing after an upgrade. Scheduling indexing for &lsquo;quiet periods.&rsquo; Knowledge Base Articles INFO: List of Changes for Laserfiche Mobile iOS App 9.2.5 Hotfix 1013681 ERROR:&nbsp; A &ldquo;9004 &ndash; File input/output error.&rdquo; Error Occurs When Registering a Laserfiche 9 Repository ERROR: Directory Server 9.2 Displays A Continuously Spinning Progress Indicator When Renewing A Master License &nbsp; 0 0 Post Link Replies You are not allowed to reply in this",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 4,
+    "signature": "6000",
+    "signatureType": "error-code",
+    "title": "Configuring access for test user",
+    "url": "https://answers.laserfiche.com/questions/179801/Configuring-access-for-test-user",
+    "snippet": "iche server service to force a refresh with LFDS licensing. &nbsp; Cheers! 0 0 Post Link replied on October 1, 2020 Thanks for the reply. Have tried it but it did not work. 0 0 Post Link replied on October 1, 2020 Error 6000 looks like more of a windows error, are you able to sign in using the Laserfiche Admin account? &nbsp; Also check the windows event logs for errors relating to Kerberos. 0 0 Post Link You are not allowed to follow up in this post. Sort by: Most popular Newest to oldest Most popular Oldest to ne",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "6000"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 4,
+    "signature": "server encountered an error when trying to create or attach the repository",
+    "signatureType": "message-text",
+    "title": "server encountered an error when trying to create or attach the repository",
+    "url": "https://answers.laserfiche.com/questions/67798/server-encountered-an-error-when-trying-to-create-or-attach-the-repository",
+    "snippet": "server encountered an error when trying to create or attach the repository - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question server encountered an error when trying to create or attach the repository Laserfiche Version",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 4,
+    "signature": "Forms Participant Licenses on Avante",
+    "signatureType": "message-text",
+    "title": "Forms Participant Licenses on Avante",
+    "url": "https://answers.laserfiche.com/questions/170100/Forms-Participant-Licenses-on-Avante",
+    "snippet": "guration page I am instructed to turn on the Directory Server option and enter the Directory Server STS URL ( https://servername/LFDSSTS. &nbsp; When I enter my server using the FDQN and click verify I get the following error. The Laserfiche Directory Server's address does not match the value specified in the license &nbsp; Our vendor and my predecessor setup our Laserfiche server so I am not very familiar with the license files.&nbsp; How can I update the license file? I thought about skipping this step and contin",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Web Client",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 4,
+    "signature": "Laserfiche.LicenseManager.UserNotFoundException was thrown",
+    "signatureType": "message-text",
+    "title": "Laserfiche.LicenseManager.UserNotFoundException was thrown",
+    "url": "https://answers.laserfiche.com/questions/170441/LaserficheLicenseManagerUserNotFoundException-was-thrown",
+    "snippet": "ated March 1, 2020 Subscribe Subscribed asked on February 28, 2020 • Show version history Hello, Customer sent me their&nbsp;Directory Service-Server-Operational_Logs as they are seeing quit a few&nbsp;entries with this error in the LF Answer title, in the Logfile. They are not having any issues with LFDS. They are not using License Manager but I know that there is still the&nbsp;LicenseManagerAppPool and was not sure if there is a correlation between the two. Appreciate any feedback, Jeff Curtis 0 0 Post Link Repl",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 4,
+    "signature": "0x10000000",
+    "signatureType": "error-code",
+    "title": "Identity Provider 'X' not registered successfully: The LDAP server is unavailable. (LFDS0)(LMO0)",
+    "url": "https://answers.laserfiche.com/questions/209239/Identity-Provider-X-not-registered-successfully-The-LDAP-server-is-unavailable-LFDS0LMO0",
+    "snippet": "Time to run an LDAP trace.&nbsp;LDAP error \"service unavailable\" is basically a catch-all. Instructions: https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ldap/ldap-and-etw First try using trace flag \"0x10000000\" for general errors and see what that gets you. It occurred to me that the LFDS server may not trust all the different&nbsp;AD CS root certificates that likely issued the certs used for LDAPS across all the domains. That would&nbsp;show up in the LDAP trace. If you don't get any obvious e",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "0x10000000",
+      "0x1a280161"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 4,
+    "signature": "Laserfiche.LicenseManager.DatabaseStillMounting Exception in 10.4",
+    "signatureType": "message-text",
+    "title": "Laserfiche.LicenseManager.DatabaseStillMounting Exception in 10.4",
+    "url": "https://answers.laserfiche.com/questions/155259/LaserficheLicenseManagerDatabaseStillMounting-Exception-in-104",
+    "snippet": "Server Updated February 14, 2019 Subscribe Subscribed asked on February 13, 2019 I installed Laserfiche 10.4 Rio and setup the Web Client to use SSO. Everything was working at first, but now I am receiving the following error 'Exception of type 'Laserfiche.LicenseManager.DatabaseStillMountingException' was thrown. If I look in SSMS the database shows correctly and I can even query tables without any problems. Any idea why I would be receiving this error? 1 0 Post Link Answer SELECTED ANSWER replied on February 14,",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 4,
+    "signature": "Can Laserfiche on premise be set up with OneLogin",
+    "signatureType": "message-text",
+    "title": "Can Laserfiche on premise be set up with OneLogin",
+    "url": "https://answers.laserfiche.com/questions/217303/Can-Laserfiche-on-premise-be-set-up-with-OneLogin",
+    "snippet": "helps! -Sam 2 0 Post Link View 1 previous reply replied on April 16, 2024 Hi Sam, Thanks for all the information. It's helped us push forward with the implementation of SSO. We are running into an issue now. There is an error message that pops up on the OneLogin page when clicking the icon for Laserfiche. if this is a OneLogin side issue we can contact their support.&nbsp; {\"ErrorCode\":null,\"ShowReturnLink\":true,\"Error\":true,\"Message\":\"The identity provider may not be configured correctly.&nbsp;&nbsp;Contact your a",
+    "sourceType": "Answers candidate - Laserfiche employee",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Web Client",
+      "Directory Server",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Detail page text indicates a Laserfiche-associated reply may be present; review before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 4,
+    "signature": "license manager error",
+    "signatureType": "message-text",
+    "title": "license manager error",
+    "url": "https://answers.laserfiche.com/questions/84568/license-manager-error",
+    "snippet": "license manager error - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question license manager error License Manager Updated October 1, 2015 Subscribe Subscribed asked on September 30, 2015 A customer is getting this error - S",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Laserfiche Server/Repository Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 4,
+    "signature": "Laserfiche Server Service can't start",
+    "signatureType": "message-text",
+    "title": "Laserfiche Server Service can't start",
+    "url": "https://answers.laserfiche.com/questions/110529/Laserfiche-Server-Service-cant-start",
+    "snippet": "irectory Server and Laserfiche Server but at the end of the install, the wizard try to start Laserfiche Server Service in vain. I've tried to reboot the computer, nothing change. If I start the service manually I get an error (cf attachment) but I can't find any trace of it in the windows log. Any ideas ? Regards. erreur d&#233;marrage service.PNG (10.47 KB) | Download 0 0 Post Link Replies Sort by: Most popular Most popular Oldest to newest Newest to oldest replied on November 14, 2016 You're probably missing a Wi",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 4,
+    "signature": "LFDS Sync Error Notification",
+    "signatureType": "message-text",
+    "title": "LFDS Sync Error Notification",
+    "url": "https://answers.laserfiche.com/questions/220421/LFDS-Sync-Error-Notification",
+    "snippet": "LFDS Sync Error Notification - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question LFDS Sync Error Notification License Manager Updated June 19, 2024 Subscribe Subscribed asked on June 18, 2024 Is there a way to be notified",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 4,
+    "signature": "Exception of type 'Laserfiche.LicenseManager.InvalidRequestException' was thrown. (LMO0)",
+    "signatureType": "message-text",
+    "title": "Exception of type 'Laserfiche.LicenseManager.InvalidRequestException' was thrown. (LMO0)",
+    "url": "https://answers.laserfiche.com/questions/132762/Exception-of-type-LaserficheLicenseManagerInvalidRequestException-was-thrown-LMO0",
+    "snippet": "xception of type 'Laserfiche.LicenseManager.InvalidRequestException' was thrown. (LMO0) Directory Server Laserfiche Version 10 License Manager Licensing Subscribe Subscribed asked on December 14, 2017 I encountered this error while trying to configure Laserfiche Directory Server. Pls, I am in urgent need of your assistance to resolve this.. &nbsp; 0 0 Post Link Replies You are not allowed to reply in this post. Sort by: Most popular Most popular Oldest to newest Newest to oldest You are not allowed to follow up in",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 4,
+    "signature": "2032",
+    "signatureType": "error-code",
+    "title": "Client getting error 2032 in License Manager 8.3.1",
+    "url": "https://answers.laserfiche.com/questions/116634/Client-getting-error-2032-in-License-Manager-831",
+    "snippet": "Client getting error 2032 in License Manager 8.3.1 - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question Client getting error 2032 in License Manager 8.3.1 License Manager Updated March 7, 2017 Subscribe Subscribed asked on",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "2032"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 5,
+    "signature": "Identity check failed with LFDS Forms User Authentication Method",
+    "signatureType": "message-text",
+    "title": "Identity check failed with LFDS Forms User Authentication Method",
+    "url": "https://answers.laserfiche.com/questions/123460/Identity-check-failed-with-LFDS-Forms-User-Authentication-Method",
+    "snippet": "te users through LFDS instead of repository. This is part of a move from Avante to Rio licensing. I have accounts syncing through LFDS and I have turned on SSO and the page comes up correctly. Currently I am getting the error: &nbsp; The identity check failed for the outgoing message. The expected identity is 'identity(http://schemas.xmlsoap.org/ws/2005/05/identity/right/possessproperty: http://schemas.xmlsoap.org/ws/2005/05/identity/claims/spn)' for the 'http://*FQDNSERVERNAME*:5048/LicenseManager/service' target",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 5,
+    "signature": "0x8007052E",
+    "signatureType": "error-code",
+    "title": "The username or password is incorrect '",
+    "url": "https://answers.laserfiche.com/questions/199802/The-username-or-password-is-incorrect-",
+    "snippet": "sp; 'The username or password is incorrect 'although it is correct, the error is repetitive with several users .&nbsp; below are the details&nbsp; Error Code: 6000 Error Message: The user name or password is incorrect. (0x8007052E) Unknown error. [6000] ------------ Technical Details: ------------ LF.exe (10.4.2.256): &nbsp; &nbsp; Call Stack: (Exception) &nbsp; &nbsp; &nbsp; &nbsp; CLoginDialog::AttemptLogin &nbsp; &nbsp; &nbsp; &nbsp; CLoginDialog::LoginToServer &nbsp; &nbsp; &nbsp; &nbsp; CLoginDialog::LoginToSe",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "0x8007052E",
+      "0x80041770"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 5,
+    "signature": "How to add windows user to laserfiche avante using sdk script in workflow?",
+    "signatureType": "message-text",
+    "title": "How to add windows user to laserfiche avante using sdk script in workflow?",
+    "url": "https://answers.laserfiche.com/questions/100573/How-to-add-windows-user-to-laserfiche-avante-using-sdk-script-in-workflow",
+    "snippet": "he avante&nbsp; by using c# and after it assign as a read only users to let this user use weblink TrusteeInfo TI = new TrusteeInfo(); TI.LfdsName = \"myDomName\\\\rperrault\"; TI.Session = RASession; TI.Save(); but got some error message. &nbsp; how can I add windows account to laserfiche avante by using workflow. I will also need to add it to a laserfiche group create using this code (working code) Object myField = lfDoc.GetFieldValue(\"Agent Code\"); try { GroupInfo GI = new GroupInfo(); GI.Name = myField.ToString(); G",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Directory Server",
+      "Laserfiche Server/Repository Server"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 5,
+    "signature": "0x80004005",
+    "signatureType": "error-code",
+    "title": "LFDS-Adding/Modifying users, user gets EID:2 Socket errors",
+    "url": "https://answers.laserfiche.com/questions/175313/LFDSAddingModifying-users-user-gets-EID2-Socket-errors",
+    "snippet": "e users (Not AD) in LFDS, the server logs multiple EID:2 Socket errors when using the web browser.&nbsp; If I use the Laserfiche Administration Console, there are no errors generated. System.Net.Sockets.SocketException (0x80004005): No such host is known &nbsp; &nbsp;at System.Net.Dns.GetAddrInfo(String name) &nbsp; &nbsp;at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6) &nbsp; &nbsp;at System.Net.Dns.GetHostAddresses(String hostNameOrAddress) &nbsp; &nbsp;at System.Net.Sockets.UdpClient",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "0x80004005"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 5,
+    "signature": "0x80131904",
+    "signatureType": "error-code",
+    "title": "Why does LFDS synch fail for 69K+ records when only 1 has an error? Also, why no notifications?",
+    "url": "https://answers.laserfiche.com/questions/216305/Why-does-LFDS-synch-fail-for-69K-records-when-only-1-has-an-error-Also-why-no-notifications",
+    "snippet": "024 What is the reason it is failing to synch? 0 0 Post Link replied on March 5, 2024 We had a similar issue here a couple of days ago. Where one bad account had a duplicate username \"System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'directory_objects_name_container_unq'. Cannot insert duplicate key in object 'dbo.directory_objects'. The duplicate key value is (removed actual username here)\". I also pulled my hair out figuring out a similar problem about a year or so ago. Every so",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "candidate",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "0x80131904"
+    ],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
+  },
+  {
+    "product": "Directory Server",
+    "query": "\"Directory Server\" error Laserfiche",
+    "page": 5,
+    "signature": "LFS received an unrecognized or unexpected error from LFDS",
+    "signatureType": "message-text",
+    "title": "LFS received an unrecognized or unexpected error from LFDS",
+    "url": "https://answers.laserfiche.com/questions/122225/LFS-received-an-unrecognized-or-unexpected-error-from-LFDS",
+    "snippet": "LFS received an unrecognized or unexpected error from LFDS - Laserfiche Answers Laserfiche Discussions works best with JavaScript enabled Toggle navigation Sign in Topics You are viewing limited content. For full access, please sign in . ZoomRatio Fit window Fit width 50% 75% 100% 125% 150% 200% of Show posts Please wait while this file loads, or download it here. < > Question Subscribe Subscribed Question LFS received an unrecognized or unexpected error from LFDS Laserfiche Version 10 Updated December 18, 2017 Sub",
+    "sourceType": "Answers candidate - community confirmed",
+    "discoveredDate": "2026-06-28",
+    "status": "reviewed-no-code",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Directory Server",
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [],
+    "notes": "Fresh Answers pass candidate. Review detail page before promotion."
   }
 ]

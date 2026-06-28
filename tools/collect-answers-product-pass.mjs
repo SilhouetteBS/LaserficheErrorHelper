@@ -26,6 +26,22 @@ const productSearches = [
     ],
   },
   {
+    product: "Directory Server",
+    productTags: ["Directory Server"],
+    queries: [
+      '"Directory Server" error Laserfiche',
+      '"LFDS" error Laserfiche',
+      '"Laserfiche Directory Server" "error"',
+      '"LFDS" "SAML" error',
+      '"LFDS" "LDAP" error',
+      '"Directory Server" "identity provider" error',
+      '"LFDS" "LicenseManager" error',
+      '"LFDS" "Access Denied"',
+      '"LFDS" "Windows Authentication"',
+      '"Laserfiche Directory Server" "cannot connect"',
+    ],
+  },
+  {
     product: "Forms",
     productTags: ["Forms"],
     queries: [
