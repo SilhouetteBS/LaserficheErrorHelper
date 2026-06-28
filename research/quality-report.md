@@ -32,8 +32,8 @@ Generated: 2026-06-28
 | Validation status | Entries |
 | --- | --- |
 | official-doc-baseline | 1151 |
-| reviewed-diagnostic | 366 |
-| source-research-needed | 31 |
+| reviewed-diagnostic | 376 |
+| source-research-needed | 21 |
 
 ## Validation Queue by Product
 

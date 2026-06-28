@@ -54,6 +54,8 @@ Run `npm run validation:complete` when the current validation batches have been 
 
 Run `npm run backlog:research` to re-check the `source-research-needed` entries against Laserfiche Answers search results and the imported official documentation catalog. Review the JSON pass output before promoting any new candidate source into the public catalog.
 
+Run `npm run backlog:curate` after a backlog research pass. It attaches exact official-documentation matches as baseline sources and writes the Answers candidate review report without promoting unreviewed posts.
+
 Run `npm run collect:answers -- "Product Name" 25` for a bounded product-specific Laserfiche Answers discovery pass. Products with no new candidates should still keep the generated pass file as evidence of the search.
 
 ## Product-Specific Discovery

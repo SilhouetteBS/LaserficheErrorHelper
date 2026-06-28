@@ -1,0 +1,349 @@
+{
+  "summary": {
+    "passPath": "research/source-research-pass-2026-06-28-4.json",
+    "officialSourceAugmentations": 10,
+    "entriesWithOfficialAugmentations": 10,
+    "entriesWithAnswersCandidates": 10,
+    "answersCandidates": 35,
+    "answersPriorityCandidates": 6
+  },
+  "officialAugmentations": {
+    "full-text-search-9498-session-reset": [
+      {
+        "sourceType": "official-docs",
+        "title": "Official documentation match: 9498",
+        "url": "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        "note": "Official documentation contains the same error message; attached as baseline evidence, not a confirmed fix."
+      }
+    ],
+    "import-agent-9013-port80-ssl-schedule": [
+      {
+        "sourceType": "official-docs",
+        "title": "Official documentation match: 9013",
+        "url": "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        "note": "Official documentation contains the same error code; attached as baseline evidence, not a confirmed fix."
+      }
+    ],
+    "records-9193-uncutoff-blocked": [
+      {
+        "sourceType": "official-docs",
+        "title": "Official documentation match: 9193",
+        "url": "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        "note": "Official documentation contains the same error code; attached as baseline evidence, not a confirmed fix."
+      }
+    ],
+    "records-9234-filing-date-after-cutoff": [
+      {
+        "sourceType": "official-docs",
+        "title": "Official documentation match: 9234",
+        "url": "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        "note": "Official documentation contains the same error code; attached as baseline evidence, not a confirmed fix."
+      }
+    ],
+    "web-client-6720-importing-pdf": [
+      {
+        "sourceType": "official-docs",
+        "title": "Official documentation match: 6720",
+        "url": "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        "note": "Official documentation contains the same error code; attached as baseline evidence, not a confirmed fix."
+      }
+    ],
+    "web-client-scanning-9013-custom-url": [
+      {
+        "sourceType": "official-docs",
+        "title": "Official documentation match: 9013",
+        "url": "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        "note": "Official documentation contains the same error code; attached as baseline evidence, not a confirmed fix."
+      }
+    ],
+    "web-client-9036-unknown-internal-error": [
+      {
+        "sourceType": "official-docs",
+        "title": "Official documentation match: 9036",
+        "url": "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        "note": "Official documentation contains the same error code; attached as baseline evidence, not a confirmed fix."
+      }
+    ],
+    "web-client-scanning-9039-date-field": [
+      {
+        "sourceType": "official-docs",
+        "title": "Official documentation match: 9039",
+        "url": "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        "note": "Official documentation contains the same error code; attached as baseline evidence, not a confirmed fix."
+      }
+    ],
+    "weblink-auto-login-9013": [
+      {
+        "sourceType": "official-docs",
+        "title": "Official documentation match: 9013",
+        "url": "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        "note": "Official documentation contains the same error code; attached as baseline evidence, not a confirmed fix."
+      }
+    ],
+    "weblink-read-only-named-user-9030": [
+      {
+        "sourceType": "official-docs",
+        "title": "Official documentation match: 9030",
+        "url": "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-codes.htm?tocpath=Laserfiche%20User%20Guide%7CSupport%252C%20Monitoring%252C%20and%20Troubleshooting%7CError%20Codes%7C_____0",
+        "note": "Official documentation contains the same error code; attached as baseline evidence, not a confirmed fix."
+      }
+    ]
+  },
+  "answersReviewRows": [
+    {
+      "id": "api-server-upload-conflict-409",
+      "product": "API Server",
+      "code": "409",
+      "message": "Conflict while uploading a file through self-hosted API Server.",
+      "candidates": [
+        {
+          "title": "Laserfiche API On Premise upload failing",
+          "url": "https://answers.laserfiche.com/questions/230306/Laserfiche-API-On-Premise-upload-failing",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "Forms 11 - Saves/prints field data on page with extra codes.",
+          "url": "https://answers.laserfiche.com/questions/213242/Forms-11--Savesprints-field-data-on-page-with-extra-codes",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "Swagger v2.0 Definition of Self-Hosted Laserfiche API?",
+          "url": "https://answers.laserfiche.com/questions/219565/Swagger-v20-Definition-of-SelfHosted-Laserfiche-API",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+          "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "Laserfiche VM DEMO on Cloud Provider",
+          "url": "https://answers.laserfiche.com/questions/221665/Laserfiche-VM-DEMO-on-Cloud-Provider",
+          "disposition": "manual-review-low-signal"
+        }
+      ]
+    },
+    {
+      "id": "forms-lff3004-licensing-service-proxy",
+      "product": "Forms",
+      "code": "LFF3004",
+      "message": "Unable to open Forms licensing service proxy.",
+      "candidates": [
+        {
+          "title": "The requested service 'ILicensingService' may not be running. [LFF3004-UnableToOpenServiceProxy]",
+          "url": "https://answers.laserfiche.com/questions/199757/The-requested-service-ILicensingService-may-not-be-running-LFF3004UnableToOpenServiceProxy",
+          "disposition": "manual-review-priority"
+        },
+        {
+          "title": "Forms Configuration failed to load",
+          "url": "https://answers.laserfiche.com/questions/147978/Forms-Configuration-failed-to-load",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "Forms DMZ - Limited Functionality",
+          "url": "https://answers.laserfiche.com/questions/136106/Forms-DMZ--Limited-Functionality",
+          "disposition": "manual-review-low-signal"
+        }
+      ]
+    },
+    {
+      "id": "forms-lff6010-team-filter-timeout",
+      "product": "Forms",
+      "code": "LFF6010",
+      "message": "Filter returned a script error: Timeout for Javascript Engine.",
+      "candidates": [
+        {
+          "title": "Forms Team Javascript filter no longer working with Forms 11 update 5",
+          "url": "https://answers.laserfiche.com/questions/216086/Forms-Team-Javascript-filter-no-longer-working-with-Forms-11-update-5",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "How Can I Override the User Task Going to a Group",
+          "url": "https://answers.laserfiche.com/questions/127460/How-Can-I-Override-the-User-Task-Going-to-a-Group",
+          "disposition": "manual-review-low-signal"
+        }
+      ]
+    },
+    {
+      "id": "forms-lff8100-notification-server-down",
+      "product": "Forms",
+      "code": "LFF8100",
+      "message": "Forms Notification Server connection is down.",
+      "candidates": [
+        {
+          "title": "Forms - Configuration improperly stating The Connection Verified for Notification Service Server",
+          "url": "https://answers.laserfiche.com/questions/180912/Forms--Configuration-improperly-stating-The-Connection-Verified-for-Notification-Service-Server",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "Forms Notification Hub not working on SSL",
+          "url": "https://answers.laserfiche.com/questions/147581/Forms-Notification-Hub-not-working-on-SSL",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "Load Balancing Forms When Routing Service is Not In NLB",
+          "url": "https://answers.laserfiche.com/questions/197639/Load-Balancing-Forms-When-Routing-Service-is-Not-In-NLB",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "How to properly, step-by-step configure Laserfiche with a SSL Cert?",
+          "url": "https://answers.laserfiche.com/questions/159709/How-to-properly-stepbystep-configure-Laserfiche-with-a-SSL-Cert",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "IPushNotificationService May Not Be Running",
+          "url": "https://answers.laserfiche.com/questions/163841/IPushNotificationService-May-Not-Be-Running",
+          "disposition": "manual-review-low-signal"
+        }
+      ]
+    },
+    {
+      "id": "forms-lff9320-validation-aggregate",
+      "product": "Forms",
+      "code": "LFF9320",
+      "message": "Forms validation aggregate exception.",
+      "candidates": [
+        {
+          "title": "Errors encountered during forms submission",
+          "url": "https://answers.laserfiche.com/questions/212727/Errors-encountered-during-forms-submission",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "How to change Backend Validation",
+          "url": "https://answers.laserfiche.com/questions/155375/How-to-change-Backend-Validation",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "Reading Laserfiche errors",
+          "url": "https://answers.laserfiche.com/questions/120112/Reading-Laserfiche-errors",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "Adding values in dropdown list forms with jquery",
+          "url": "https://answers.laserfiche.com/questions/122018/Adding-values-in-dropdown-list-forms-with-jquery",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "Javascript invalidating data",
+          "url": "https://answers.laserfiche.com/questions/121754/Javascript-invalidating-data",
+          "disposition": "manual-review-low-signal"
+        }
+      ]
+    },
+    {
+      "id": "snapshot-driver-126-1377-printservice",
+      "product": "Snapshot",
+      "code": "126",
+      "message": "Windows could not load print processor LFSnapshot Processor 1377.",
+      "candidates": [
+        {
+          "title": "Unattended Installation (LFGet.exe) - Permissions issue",
+          "url": "https://answers.laserfiche.com/questions/232457/Unattended-Installation-LFGetexe--Permissions-issue",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "Remotely & Silent Uninstall Laserfiche 10.3 and 10.4 Client",
+          "url": "https://answers.laserfiche.com/questions/191875/Remotely--Silent-Uninstall-Laserfiche-103-and-104-Client",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "Error reading XML file - The XML file being uploaded has been corrupted",
+          "url": "https://answers.laserfiche.com/questions/169851/Error-reading-XML-file--The-XML-file-being-uploaded-has-been-corrupted",
+          "disposition": "manual-review-low-signal"
+        }
+      ]
+    },
+    {
+      "id": "web-client-http-response-body",
+      "product": "Web Client",
+      "code": "WEBCLIENT-HTTP-RESPONSE-BODY",
+      "message": "Error Reading HTTP Response Body.",
+      "candidates": [
+        {
+          "title": "LF Audit Service Event Log Error",
+          "url": "https://answers.laserfiche.com/questions/170630/LF-Audit-Service-Event-Log-Error",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "TemplateInfoReader Limit?",
+          "url": "https://answers.laserfiche.com/questions/165005/TemplateInfoReader-Limit",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "Export Volumes using SDK",
+          "url": "https://answers.laserfiche.com/questions/202030/Export-Volumes-using-SDK",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "\"Error reading HTTP response body\" when downloading in Mac OS X",
+          "url": "https://answers.laserfiche.com/questions/131312/Error-reading-HTTP-response-body-when-downloading-in-Mac-OS-X",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "Error Reading HTTP response body.",
+          "url": "https://answers.laserfiche.com/questions/168241/Error-Reading-HTTP-response-body",
+          "disposition": "manual-review-priority"
+        }
+      ]
+    },
+    {
+      "id": "weblink-9-lost-connection-tiles",
+      "product": "WebLink",
+      "code": "WEBLINK-LOST-CONNECTION",
+      "message": "A lost connection condition has been detected.",
+      "candidates": [
+        {
+          "title": "login and loading problems with weblink 8.3",
+          "url": "https://answers.laserfiche.com/questions/95780/login-and-loading-problems-with-weblink-83",
+          "disposition": "manual-review-low-signal"
+        },
+        {
+          "title": "A lost connection condition has been detected error weblink 8.2",
+          "url": "https://answers.laserfiche.com/questions/53899/A-lost-connection-condition-has-been-detected-error-weblink-82",
+          "disposition": "manual-review-priority"
+        }
+      ]
+    },
+    {
+      "id": "workflow-0735-0516-business-process",
+      "product": "Workflow",
+      "code": "0735-WF1",
+      "message": "Workflow appears as a business process.",
+      "candidates": [
+        {
+          "title": "Forms start a workflow business Process",
+          "url": "https://answers.laserfiche.com/questions/99071/Forms-start-a-workflow-business-Process",
+          "disposition": "manual-review-low-signal"
+        }
+      ]
+    },
+    {
+      "id": "workflow-lff5203-wf-server-api-fault",
+      "product": "Workflow",
+      "code": "LFF5203",
+      "message": "The call to Laserfiche Workflow API was not successful.",
+      "candidates": [
+        {
+          "title": "Temporary error \"The call to Laserfiche Workflow API was not successful. (The operation has timed out.). [LFF5203-WFServerApiFault]\"",
+          "url": "https://answers.laserfiche.com/questions/172318/Temporary-error-The-call-to-Laserfiche-Workflow-API-was-not-successful-The-operation-has-timed-out-LFF5203WFServerApiFault",
+          "disposition": "manual-review-priority"
+        },
+        {
+          "title": "LFF5203",
+          "url": "https://answers.laserfiche.com/questions/115969/LFF5203",
+          "disposition": "manual-review-priority"
+        },
+        {
+          "title": "The call to Laserfiche Workflow API was not successful",
+          "url": "https://answers.laserfiche.com/questions/139087/The-call-to-Laserfiche-Workflow-API-was-not-successful",
+          "disposition": "manual-review-priority"
+        },
+        {
+          "title": "Laserfiche Workflow API was not successful. (Could not load type 'Laserfiche.Configuration.EncryptionAlgorithm)",
+          "url": "https://answers.laserfiche.com/questions/213006/Laserfiche-Workflow-API-was-not-successful-Could-not-load-type-LaserficheConfigurationEncryptionAlgorithm",
+          "disposition": "manual-review-low-signal"
+        }
+      ]
+    }
+  ]
+}

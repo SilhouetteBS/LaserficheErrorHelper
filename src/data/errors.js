@@ -1,5 +1,6 @@
 import { officialDocumentationErrorEntries } from "./officialDocumentationErrors.js";
 import { curationOverrides } from "./curationOverrides.js";
+import { sourceAugmentations } from "./sourceAugmentations.js";
 import { validationTriageOverrides } from "./validationOverrides.js";
 
 export const sourcePriority = {
@@ -16595,10 +16596,12 @@ const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
 function applyCurationOverride(entry) {
   const override = curationOverrides[entry.id];
   const validationOverride = validationTriageOverrides[entry.id];
-  if (!override && !validationOverride) return entry;
+  const augmentedSources = sourceAugmentations[entry.id] ?? [];
+  if (!override && !validationOverride && augmentedSources.length === 0) return entry;
 
   return {
     ...entry,
+    sources: mergeSources(entry.sources, augmentedSources),
     fixStatus: override?.fixStatus ?? entry.fixStatus,
     validationStatus: validationOverride?.validationStatus,
     validationDisposition: validationOverride?.validationDisposition,
@@ -16610,6 +16613,16 @@ function applyCurationOverride(entry) {
       .filter(Boolean)
       .join(" "),
   };
+}
+
+function mergeSources(existingSources, additionalSources) {
+  const seen = new Set();
+  return [...existingSources, ...additionalSources].filter((source) => {
+    const key = `${source.sourceType}|${source.url}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 export const baseErrorEntries = [

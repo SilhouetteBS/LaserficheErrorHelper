@@ -202,7 +202,6 @@ const backlogReport = [
       entry.message.replaceAll("|", "\\|"),
     ]),
   ),
-  "",
 ];
 
 fs.writeFileSync(outputPath, `${overrideLines.join("\n")}`);

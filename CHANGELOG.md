@@ -2,6 +2,7 @@
 
 ## 2026-06-28
 
+- Added backlog curation for official-source matches, validation-status filtering, and deeper product discovery passes for backlog-heavy products.
 - Re-searched the source-research backlog, added validation-status UI labels, compacted validation triage data, and ran low-coverage product discovery passes.
 - Added validation batch completion triage and a separate source-research backlog.
 - Added scenario variants for the remaining scenario-review entries and made priority-source curation merge-safe.

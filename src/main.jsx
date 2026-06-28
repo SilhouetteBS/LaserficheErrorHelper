@@ -180,6 +180,11 @@ function researchFilterLabel(value) {
   return labels[value] ?? value;
 }
 
+function validationFilterLabel(value) {
+  if (value === allOption) return "All Validation";
+  return validationStatusLabel(value);
+}
+
 function fixStatusValue(entry) {
   if (entry.fixStatus) return entry.fixStatus;
   if (entry.confidence === "low") return "needs-review";
@@ -298,6 +303,7 @@ function App() {
   const [fixStatus, setFixStatus] = useState(() => initialParam("fix"));
   const [scenarioFilter, setScenarioFilter] = useState(() => initialParam("scenarios"));
   const [researchFilter, setResearchFilter] = useState(() => initialParam("research"));
+  const [validationFilter, setValidationFilter] = useState(() => initialParam("validation"));
   const [sortBy, setSortBy] = useState(() => initialParam("sort", "relevance"));
   const [ledgerSource, setLedgerSource] = useState(() => initialParam("ledger"));
   const [isLedgerExpanded, setIsLedgerExpanded] = useState(false);
@@ -324,13 +330,14 @@ function App() {
     setQueryParam(url, "fix", fixStatus);
     setQueryParam(url, "scenarios", scenarioFilter);
     setQueryParam(url, "research", researchFilter);
+    setQueryParam(url, "validation", validationFilter);
     setQueryParam(url, "sort", sortBy, "relevance");
     setQueryParam(url, "ledger", ledgerSource);
     if (selectedId) url.searchParams.set("error", selectedId);
     else url.searchParams.delete("error");
     url.hash = "";
     window.history.replaceState({}, "", url);
-  }, [query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, sortBy, ledgerSource, selectedId]);
+  }, [query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, validationFilter, sortBy, ledgerSource, selectedId]);
 
   useEffect(() => {
     const term = query.trim();
@@ -358,6 +365,7 @@ function App() {
       fixStatuses: withAll(["known-fix", "workaround", "diagnostic-only", "unresolved", "needs-review"]),
       scenarioStates: withAll(["has-scenarios", "single-scenario"]),
       researchStates: withAll(["needs-fix-research", "has-fix-guidance"]),
+      validationStates: withAll(["source-research-needed", "reviewed-diagnostic", "official-doc-baseline"]),
     }),
     [],
   );
@@ -386,24 +394,29 @@ function App() {
         if (researchFilter === "has-fix-guidance") return status === "known-fix" || status === "workaround";
         return true;
       })
+      .filter((entry) => validationFilter === allOption || entry.validationStatus === validationFilter)
       .sort((a, b) => {
         if (sortBy === "code") return a.code.localeCompare(b.code, undefined, { numeric: true });
         if (sortBy === "confidence") return confidenceWeight(a.confidence) - confidenceWeight(b.confidence);
         if (sortBy === "product") return a.product.localeCompare(b.product) || a.code.localeCompare(b.code);
         return b.searchScore - a.searchScore || sourceRank(a) - sourceRank(b) || a.code.localeCompare(b.code, undefined, { numeric: true });
       });
-  }, [query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, sortBy]);
+  }, [query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, validationFilter, sortBy]);
 
   const selectedEntry = selectedId ? errorEntries.find((entry) => entry.id === selectedId) : null;
   const qualitySummary = useMemo(() => {
     const needsSourceResearch = errorEntries.filter((entry) => entry.validationStatus === "source-research-needed");
     const hasGuidance = errorEntries.filter((entry) => ["known-fix", "workaround"].includes(fixStatusValue(entry)));
     const scenarioEntries = errorEntries.filter((entry) => (entry.scenarios?.length ?? 0) > 0);
+    const officialBaseline = errorEntries.filter((entry) => entry.validationStatus === "official-doc-baseline");
+    const reviewedDiagnostic = errorEntries.filter((entry) => entry.validationStatus === "reviewed-diagnostic");
     return {
       needsSourceResearch: needsSourceResearch.length,
       lowConfidence: errorEntries.filter((entry) => entry.confidence === "low").length,
       hasGuidance: hasGuidance.length,
       scenarioEntries: scenarioEntries.length,
+      officialBaseline: officialBaseline.length,
+      reviewedDiagnostic: reviewedDiagnostic.length,
     };
   }, []);
 
@@ -430,6 +443,7 @@ function App() {
   function focusValidationQueue() {
     setConfidence("Needs validation");
     setResearchFilter("needs-fix-research");
+    setValidationFilter("source-research-needed");
     setSortBy("confidence");
     setSelectedId(null);
     setIsMoreFiltersOpen(true);
@@ -604,6 +618,13 @@ function App() {
               options={filters.researchStates}
               formatOption={researchFilterLabel}
             />
+            <FilterSelect
+              label="Validation"
+              value={validationFilter}
+              onChange={trackFilterChange(setValidationFilter)}
+              options={filters.validationStates}
+              formatOption={validationFilterLabel}
+            />
             <label className="filter-control">
               <span>Result Sort</span>
               <select value={sortBy} onChange={(event) => trackFilterChange(setSortBy)(event.target.value)}>
@@ -768,7 +789,14 @@ function App() {
         </div>
       </section>
       </main>
-      {infoDialog && <InfoDialog type={infoDialog} usageStats={usageStats} onClose={() => setInfoDialog(null)} />}
+      {infoDialog && (
+        <InfoDialog
+          type={infoDialog}
+          usageStats={usageStats}
+          qualitySummary={qualitySummary}
+          onClose={() => setInfoDialog(null)}
+        />
+      )}
       <div className={`toast ${notification ? "visible" : ""}`} role="status" aria-live="polite">
         {notification}
       </div>
@@ -1089,7 +1117,7 @@ function ScenarioList({ title, items = [], ordered = false }) {
   );
 }
 
-function InfoDialog({ type, usageStats, onClose }) {
+function InfoDialog({ type, usageStats, qualitySummary, onClose }) {
   const isHow = type === "how";
 
   return (
@@ -1135,6 +1163,11 @@ function InfoDialog({ type, usageStats, onClose }) {
               Local usage counters on this browser: {usageStats.searches} searches, {usageStats.selections} selections,
               {usageStats.shares} shares, and {usageStats.filters} filter changes. These counters stay in local storage
               and are not sent to a server.
+            </p>
+            <p>
+              Research status: {qualitySummary.needsSourceResearch} entries need source research,{" "}
+              {qualitySummary.reviewedDiagnostic} are reviewed diagnostic entries, and {qualitySummary.officialBaseline} are
+              official-documentation baselines.
             </p>
           </div>
         )}

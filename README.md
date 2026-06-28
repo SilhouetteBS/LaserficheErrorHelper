@@ -20,6 +20,7 @@ npm run curation:priority
 npm run curation:community
 npm run validation:complete
 npm run backlog:research
+npm run backlog:curate
 npm run collect:answers -- "Forms" 25
 npm run build
 npm run render:check
@@ -35,6 +36,7 @@ npm run dev
 - `npm run curation:community` reviews community-confirmed fix candidates and merges additional conservative overrides.
 - `npm run validation:complete` records triage outcomes for the current validation batches and writes the source-research backlog.
 - `npm run backlog:research` re-searches the source-research backlog against Laserfiche Answers and official documentation data.
+- `npm run backlog:curate` attaches official-doc backlog matches and writes the Answers candidate review report.
 - `npm run collect:answers -- "Product Name" 25` runs a bounded Laserfiche Answers discovery pass for a product.
 - Low-confidence or diagnostic-only entries should stay visible, but fixes should not be promoted without source-backed evidence.
 - Repeated causes or fixes for the same code should be captured as scenarios on the existing entry instead of creating duplicate entries.

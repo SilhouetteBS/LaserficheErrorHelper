@@ -6,8 +6,8 @@ Generated: 2026-06-28
 
 - Published helper entries: 1737
 - Reviewed source ledger rows: 652
-- Discovery rows tracked: 3830
-- Remaining candidate rows: 277
+- Discovery rows tracked: 3880
+- Remaining candidate rows: 286
 
 ## Fix Status Coverage
 
@@ -64,24 +64,24 @@ Generated: 2026-06-28
 | Quick Fields | 31 | 4 |
 | Records Management | 11 | 3 |
 | Snapshot | 9 | 17 |
-| Web Client | 44 | 16 |
+| Web Client | 44 | 18 |
 | WebLink | 22 | 5 |
 | Webtools Agent | 0 | 0 |
 | Windows Client/Desktop Client | 215 | 19 |
-| Workflow | 47 | 28 |
+| Workflow | 47 | 35 |
 
 ## Next Batch Targets
 
 | Product | Remaining candidates |
 | --- | --- |
 | Forms | 66 |
+| Workflow | 35 |
 | Laserfiche Installer | 30 |
 | Laserfiche Server/Repository Server | 30 |
-| Workflow | 28 |
 | Directory Server | 27 |
 | Windows Client/Desktop Client | 19 |
+| Web Client | 18 |
 | Snapshot | 17 |
-| Web Client | 16 |
 | Mobile | 10 |
 | Audit Trail | 5 |
 
