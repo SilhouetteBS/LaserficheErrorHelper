@@ -28,6 +28,14 @@ import { reviewedSources } from "./data/reviewedSources.js";
 import "./styles.css";
 
 const allOption = "All";
+const usageStorageKey = "fichebait-error-helper-usage";
+const defaultUsageStats = {
+  searches: 0,
+  selections: 0,
+  shares: 0,
+  filters: 0,
+  lastEventAt: null,
+};
 
 function uniqueSorted(values) {
   return [allOption, ...Array.from(new Set(values.filter(Boolean))).sort()];
@@ -39,6 +47,75 @@ function withAll(values) {
 
 function normalize(value) {
   return value.toLowerCase().trim();
+}
+
+function normalizeCode(value) {
+  return normalize(value).replace(/[^a-z0-9]/g, "");
+}
+
+function tokenize(value) {
+  return normalize(value).split(/\s+/).filter(Boolean);
+}
+
+function isSubsequence(needle, haystack) {
+  let index = 0;
+  for (const char of haystack) {
+    if (char === needle[index]) index += 1;
+    if (index === needle.length) return true;
+  }
+  return false;
+}
+
+function entrySearchText(entry) {
+  return [
+    entry.code,
+    entry.message,
+    entry.product,
+    entry.summary,
+    ...entry.symptoms,
+    ...entry.likelyFixes,
+    ...entry.versions,
+    ...(entry.scenarios ?? []).flatMap((scenario) => [
+      scenario.title,
+      scenario.summary,
+      ...(scenario.versions ?? []),
+      ...(scenario.symptoms ?? []),
+      ...(scenario.causes ?? []),
+      ...(scenario.fixes ?? []),
+    ]),
+    fixStatusLabel(fixStatusValue(entry)),
+    ...entry.sources.map((item) => item.title),
+  ].join(" ");
+}
+
+function searchScore(entry, rawTerm) {
+  const term = normalize(rawTerm);
+  if (!term) return 1;
+
+  const haystack = normalize(entrySearchText(entry));
+  const code = normalizeCode(entry.code);
+  const requestedCode = normalizeCode(term);
+  let score = 0;
+
+  if (requestedCode && code === requestedCode) score += 1000;
+  else if (requestedCode && code.includes(requestedCode)) score += 650;
+
+  if (normalize(entry.message).includes(term)) score += 250;
+  if (normalize(entry.summary).includes(term)) score += 140;
+  if (normalize(entry.product).includes(term)) score += 90;
+  if (haystack.includes(term)) score += 80;
+
+  const tokens = tokenize(term);
+  if (tokens.length) {
+    const matchedTokens = tokens.filter((token) => haystack.includes(token));
+    if (matchedTokens.length === tokens.length) score += matchedTokens.length * 45;
+    else if (matchedTokens.length) score += matchedTokens.length * 12;
+
+    const fuzzyTokens = tokens.filter((token) => token.length > 3 && isSubsequence(token, haystack));
+    if (matchedTokens.length + fuzzyTokens.length >= tokens.length) score += fuzzyTokens.length * 8;
+  }
+
+  return score;
 }
 
 function sourceRank(entry) {
@@ -113,6 +190,11 @@ function initialSelectedErrorId() {
   return errorEntries.some((entry) => entry.id === requestedId) ? requestedId : null;
 }
 
+function initialParam(name, fallback = allOption) {
+  const url = new URL(window.location.href);
+  return url.searchParams.get(name) || fallback;
+}
+
 function setErrorUrl(entryId) {
   const url = new URL(window.location.href);
   url.searchParams.set("error", entryId);
@@ -125,6 +207,38 @@ function errorShareUrl(entryId) {
   url.searchParams.set("error", entryId);
   url.hash = "";
   return url.toString();
+}
+
+function setQueryParam(url, name, value, fallback = allOption) {
+  if (!value || value === fallback) {
+    url.searchParams.delete(name);
+    return;
+  }
+  url.searchParams.set(name, value);
+}
+
+function readUsageStats() {
+  try {
+    const stored = window.localStorage.getItem(usageStorageKey);
+    return stored ? { ...defaultUsageStats, ...JSON.parse(stored) } : defaultUsageStats;
+  } catch {
+    return defaultUsageStats;
+  }
+}
+
+function recordUsageEvent(type) {
+  try {
+    const current = readUsageStats();
+    const next = {
+      ...current,
+      [type]: (current[type] ?? 0) + 1,
+      lastEventAt: new Date().toISOString(),
+    };
+    window.localStorage.setItem(usageStorageKey, JSON.stringify(next));
+    return next;
+  } catch {
+    return defaultUsageStats;
+  }
 }
 
 async function copyToClipboard(text) {
@@ -158,28 +272,56 @@ function reviewStatusLabel(value) {
 }
 
 function App() {
-  const [query, setQuery] = useState("");
-  const [product, setProduct] = useState(allOption);
-  const [version, setVersion] = useState(allOption);
-  const [source, setSource] = useState(allOption);
-  const [confidence, setConfidence] = useState(allOption);
-  const [fixStatus, setFixStatus] = useState(allOption);
-  const [scenarioFilter, setScenarioFilter] = useState(allOption);
-  const [researchFilter, setResearchFilter] = useState(allOption);
-  const [sortBy, setSortBy] = useState("relevance");
-  const [ledgerSource, setLedgerSource] = useState(allOption);
+  const [query, setQuery] = useState(() => initialParam("q", ""));
+  const [product, setProduct] = useState(() => initialParam("product"));
+  const [version, setVersion] = useState(() => initialParam("version"));
+  const [source, setSource] = useState(() => initialParam("source"));
+  const [confidence, setConfidence] = useState(() => initialParam("confidence"));
+  const [fixStatus, setFixStatus] = useState(() => initialParam("fix"));
+  const [scenarioFilter, setScenarioFilter] = useState(() => initialParam("scenarios"));
+  const [researchFilter, setResearchFilter] = useState(() => initialParam("research"));
+  const [sortBy, setSortBy] = useState(() => initialParam("sort", "relevance"));
+  const [ledgerSource, setLedgerSource] = useState(() => initialParam("ledger"));
   const [isLedgerExpanded, setIsLedgerExpanded] = useState(false);
   const [collapsedGroups, setCollapsedGroups] = useState({});
   const [selectedId, setSelectedId] = useState(initialSelectedErrorId);
   const [notification, setNotification] = useState("");
   const [isMoreFiltersOpen, setIsMoreFiltersOpen] = useState(false);
   const [infoDialog, setInfoDialog] = useState(null);
+  const [usageStats, setUsageStats] = useState(readUsageStats);
 
   useEffect(() => {
     if (!notification) return undefined;
     const timeout = window.setTimeout(() => setNotification(""), 2600);
     return () => window.clearTimeout(timeout);
   }, [notification]);
+
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    setQueryParam(url, "q", query, "");
+    setQueryParam(url, "product", product);
+    setQueryParam(url, "version", version);
+    setQueryParam(url, "source", source);
+    setQueryParam(url, "confidence", confidence);
+    setQueryParam(url, "fix", fixStatus);
+    setQueryParam(url, "scenarios", scenarioFilter);
+    setQueryParam(url, "research", researchFilter);
+    setQueryParam(url, "sort", sortBy, "relevance");
+    setQueryParam(url, "ledger", ledgerSource);
+    if (selectedId) url.searchParams.set("error", selectedId);
+    else url.searchParams.delete("error");
+    url.hash = "";
+    window.history.replaceState({}, "", url);
+  }, [query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, sortBy, ledgerSource, selectedId]);
+
+  useEffect(() => {
+    const term = query.trim();
+    if (term.length < 2) return undefined;
+    const timeout = window.setTimeout(() => {
+      setUsageStats(recordUsageEvent("searches"));
+    }, 900);
+    return () => window.clearTimeout(timeout);
+  }, [query]);
 
   const filters = useMemo(
     () => ({
@@ -205,30 +347,9 @@ function App() {
   const filteredEntries = useMemo(() => {
     const term = normalize(query);
     return errorEntries
-      .filter((entry) => {
-        const haystack = normalize(
-          [
-            entry.code,
-            entry.message,
-            entry.product,
-            entry.summary,
-            ...entry.symptoms,
-            ...entry.likelyFixes,
-            ...entry.versions,
-            ...(entry.scenarios ?? []).flatMap((scenario) => [
-              scenario.title,
-              scenario.summary,
-              ...(scenario.versions ?? []),
-              ...(scenario.symptoms ?? []),
-              ...(scenario.causes ?? []),
-              ...(scenario.fixes ?? []),
-            ]),
-            fixStatusLabel(fixStatusValue(entry)),
-            ...entry.sources.map((item) => item.title),
-          ].join(" "),
-        );
-        return !term || haystack.includes(term);
-      })
+      .map((entry) => ({ entry, score: searchScore(entry, term) }))
+      .filter(({ score }) => !term || score > 0)
+      .map(({ entry, score }) => ({ ...entry, searchScore: score }))
       .filter((entry) => product === allOption || entry.product === product)
       .filter((entry) => version === allOption || entry.versions.includes(version))
       .filter((entry) => source === allOption || entry.sources.some((item) => item.sourceType === source))
@@ -251,21 +372,68 @@ function App() {
         if (sortBy === "code") return a.code.localeCompare(b.code, undefined, { numeric: true });
         if (sortBy === "confidence") return confidenceWeight(a.confidence) - confidenceWeight(b.confidence);
         if (sortBy === "product") return a.product.localeCompare(b.product) || a.code.localeCompare(b.code);
-        return sourceRank(a) - sourceRank(b) || a.code.localeCompare(b.code, undefined, { numeric: true });
+        return b.searchScore - a.searchScore || sourceRank(a) - sourceRank(b) || a.code.localeCompare(b.code, undefined, { numeric: true });
       });
   }, [query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, sortBy]);
 
   const selectedEntry = selectedId ? errorEntries.find((entry) => entry.id === selectedId) : null;
+  const qualitySummary = useMemo(() => {
+    const needsValidation = errorEntries.filter(
+      (entry) => entry.confidence === "low" || ["diagnostic-only", "unresolved", "needs-review"].includes(fixStatusValue(entry)),
+    );
+    const hasGuidance = errorEntries.filter((entry) => ["known-fix", "workaround"].includes(fixStatusValue(entry)));
+    const scenarioEntries = errorEntries.filter((entry) => (entry.scenarios?.length ?? 0) > 0);
+    return {
+      needsValidation: needsValidation.length,
+      lowConfidence: errorEntries.filter((entry) => entry.confidence === "low").length,
+      hasGuidance: hasGuidance.length,
+      scenarioEntries: scenarioEntries.length,
+    };
+  }, []);
+
+  function trackFilterChange(setter) {
+    return (value) => {
+      setter(value);
+      setUsageStats(recordUsageEvent("filters"));
+    };
+  }
 
   function selectEntry(entryId) {
     setSelectedId(entryId);
     setErrorUrl(entryId);
+    setUsageStats(recordUsageEvent("selections"));
   }
 
   async function shareEntry(entry) {
     const shareUrl = errorShareUrl(entry.id);
     await copyToClipboard(shareUrl);
     setNotification(`Copied link for ${entry.code}.`);
+    setUsageStats(recordUsageEvent("shares"));
+  }
+
+  function focusValidationQueue() {
+    setConfidence("Needs validation");
+    setResearchFilter("needs-fix-research");
+    setSortBy("confidence");
+    setSelectedId(null);
+    setIsMoreFiltersOpen(true);
+    setUsageStats(recordUsageEvent("filters"));
+  }
+
+  function focusGuidedFixes() {
+    setConfidence(allOption);
+    setResearchFilter("has-fix-guidance");
+    setFixStatus(allOption);
+    setSortBy("relevance");
+    setSelectedId(null);
+    setUsageStats(recordUsageEvent("filters"));
+  }
+
+  function focusScenarios() {
+    setScenarioFilter("has-scenarios");
+    setSelectedId(null);
+    setIsMoreFiltersOpen(true);
+    setUsageStats(recordUsageEvent("filters"));
   }
 
   const groupedEntries = useMemo(() => {
@@ -331,25 +499,25 @@ function App() {
               </button>
             )}
           </label>
-          <FilterSelect label="Product" value={product} onChange={setProduct} options={filters.products} />
-          <FilterSelect label="Version" value={version} onChange={setVersion} options={filters.versions} />
+          <FilterSelect label="Product" value={product} onChange={trackFilterChange(setProduct)} options={filters.products} />
+          <FilterSelect label="Version" value={version} onChange={trackFilterChange(setVersion)} options={filters.versions} />
           <FilterSelect
             label="Source Confidence"
             value={confidence}
-            onChange={setConfidence}
+            onChange={trackFilterChange(setConfidence)}
             options={filters.confidences}
           />
           <FilterSelect
             label="Source"
             value={source}
-            onChange={setSource}
+            onChange={trackFilterChange(setSource)}
             options={filters.sources}
             formatOption={sourceTypeLabel}
           />
           <FilterSelect
             label="Fix Status"
             value={fixStatus}
-            onChange={setFixStatus}
+            onChange={trackFilterChange(setFixStatus)}
             options={filters.fixStatuses}
             formatOption={fixStatusLabel}
           />
@@ -378,6 +546,7 @@ function App() {
               setLedgerSource(allOption);
               setIsLedgerExpanded(false);
               setIsMoreFiltersOpen(false);
+              setSelectedId(null);
             }}
             type="button"
           >
@@ -394,34 +563,34 @@ function App() {
             <FilterSelect
               label="Fix Status"
               value={fixStatus}
-              onChange={setFixStatus}
+              onChange={trackFilterChange(setFixStatus)}
               options={filters.fixStatuses}
               formatOption={fixStatusLabel}
             />
             <FilterSelect
               label="Reviewed Ledger Source"
               value={ledgerSource}
-              onChange={setLedgerSource}
+              onChange={trackFilterChange(setLedgerSource)}
               options={filters.sources}
               formatOption={sourceTypeLabel}
             />
             <FilterSelect
               label="Scenario Coverage"
               value={scenarioFilter}
-              onChange={setScenarioFilter}
+              onChange={trackFilterChange(setScenarioFilter)}
               options={filters.scenarioStates}
               formatOption={scenarioFilterLabel}
             />
             <FilterSelect
               label="Fix Research"
               value={researchFilter}
-              onChange={setResearchFilter}
+              onChange={trackFilterChange(setResearchFilter)}
               options={filters.researchStates}
               formatOption={researchFilterLabel}
             />
             <label className="filter-control">
               <span>Result Sort</span>
-              <select value={sortBy} onChange={(event) => setSortBy(event.target.value)}>
+              <select value={sortBy} onChange={(event) => trackFilterChange(setSortBy)(event.target.value)}>
                 <option value="relevance">Relevance</option>
                 <option value="code">Error code</option>
                 <option value="confidence">Confidence</option>
@@ -430,6 +599,26 @@ function App() {
             </label>
           </section>
         )}
+
+        <section className="quality-panel" aria-label="Research and validation shortcuts">
+          <div>
+            <span className="selected-label">Research focus</span>
+            <h2>Improve trust by validating uncertain entries.</h2>
+          </div>
+          <button type="button" onClick={focusValidationQueue}>
+            <strong>{qualitySummary.needsValidation}</strong>
+            <span>Need validation</span>
+          </button>
+          <button type="button" onClick={focusGuidedFixes}>
+            <strong>{qualitySummary.hasGuidance}</strong>
+            <span>Have fix guidance</span>
+          </button>
+          <button type="button" onClick={focusScenarios}>
+            <strong>{qualitySummary.scenarioEntries}</strong>
+            <span>Multiple scenarios</span>
+          </button>
+          <span className="quality-note">{qualitySummary.lowConfidence} low-confidence entries remain.</span>
+        </section>
 
       <section className="workspace">
         <aside className="results-pane" aria-label="Error results">
@@ -440,7 +629,7 @@ function App() {
             <div className="sort-control">
               <label>
                 <span>Sort by:</span>
-                <select value={sortBy} onChange={(event) => setSortBy(event.target.value)}>
+                <select value={sortBy} onChange={(event) => trackFilterChange(setSortBy)(event.target.value)}>
                   <option value="relevance">Relevance</option>
                   <option value="code">Error code</option>
                   <option value="confidence">Confidence</option>
@@ -524,7 +713,7 @@ function App() {
           </div>
           <div className="ledger-actions">
             <span>Showing:</span>
-            <select value={ledgerSource} onChange={(event) => setLedgerSource(event.target.value)}>
+            <select value={ledgerSource} onChange={(event) => trackFilterChange(setLedgerSource)(event.target.value)}>
               {filters.sources.map((option) => (
                 <option key={option} value={option}>
                   {filterOptionLabel(sourceTypeLabel(option), "Source")}
@@ -563,7 +752,7 @@ function App() {
         </div>
       </section>
       </main>
-      {infoDialog && <InfoDialog type={infoDialog} onClose={() => setInfoDialog(null)} />}
+      {infoDialog && <InfoDialog type={infoDialog} usageStats={usageStats} onClose={() => setInfoDialog(null)} />}
       <div className={`toast ${notification ? "visible" : ""}`} role="status" aria-live="polite">
         {notification}
       </div>
@@ -873,7 +1062,7 @@ function ScenarioList({ title, items = [], ordered = false }) {
   );
 }
 
-function InfoDialog({ type, onClose }) {
+function InfoDialog({ type, usageStats, onClose }) {
   const isHow = type === "how";
 
   return (
@@ -914,6 +1103,11 @@ function InfoDialog({ type, onClose }) {
             <p>
               Each entry links back to its reviewed sources so users can inspect the original documentation or
               Answers thread before changing a production system.
+            </p>
+            <p>
+              Local usage counters on this browser: {usageStats.searches} searches, {usageStats.selections} selections,
+              {usageStats.shares} shares, and {usageStats.filters} filter changes. These counters stay in local storage
+              and are not sent to a server.
             </p>
           </div>
         )}

@@ -24,6 +24,26 @@ For each source reviewed, record:
 
 When adding a published error entry, include product, versions, symptoms, likely fixes, source links, confidence, and uncertainty notes. Do not publish a fix as high confidence unless the source clearly supports it.
 
+## Multiple Scenarios for One Error
+
+Some Laserfiche errors have more than one cause or fix path. Keep those cases on one entry and use the `scenarios` array when:
+
+- the same code appears in different products or modules
+- the same message has different causes by version
+- official documentation identifies the code but Answers posts identify product-specific fixes
+- community and employee replies describe different but plausible remediation paths
+
+Each scenario should name the symptom, likely cause, fix or next step, version context, and source URLs that support that specific scenario.
+
+## Validation Queue
+
+Run `npm run quality` to generate `research/quality-report.md`. Use the report to prioritize:
+
+1. low-confidence entries with official documentation or employee replies
+2. diagnostic-only entries that have enough source context to become a known fix or workaround
+3. unresolved entries that need another Answers/documentation pass
+4. message-only entries that should be merged into an existing code entry as a scenario
+
 ## Product-Specific Discovery
 
 The official Version 12 server-code pass is tracked separately in `research/answers-search-results.json` and `research/answers-reviewed-summary.json`.

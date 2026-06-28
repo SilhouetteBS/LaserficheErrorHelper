@@ -11,6 +11,7 @@
     "generate:official-docs": "node tools/generate-official-doc-data.mjs",
     "candidates": "node tools/list-product-candidates.mjs",
     "progress": "node tools/generate-progress-report.mjs",
+    "quality": "node tools/generate-quality-report.mjs",
     "lint:data": "node tools/validate-data.mjs",
     "render:check": "node tools/render-check.mjs"
   },

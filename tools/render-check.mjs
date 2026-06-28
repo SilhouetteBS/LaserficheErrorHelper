@@ -29,9 +29,13 @@ try {
     }
   });
   await page.goto(url, { waitUntil: "networkidle" });
+  const firstVisitInstructionsVisible = await page.getByText("Search or browse Laserfiche errors").isVisible();
+  if (!firstVisitInstructionsVisible) throw new Error("First visit did not show the instructions pane.");
   await page.getByPlaceholder("Search code, message, symptom, product, or fix").fill("9030");
+  await page.waitForURL(/q=9030/);
   await page.getByRole("button", { name: /Laserfiche Server\/Repository Server/ }).click();
   await page.getByRole("button", { name: /9030 Maximum sessions or licensing limit reached/ }).click();
+  await page.waitForURL(/error=/);
   await page.screenshot({ path: desktopScreenshot, fullPage: false });
   const visible = await page.getByText("Likely Fixes").isVisible();
   await page.setViewportSize({ width: 390, height: 844 });
