@@ -6,7 +6,7 @@ const [, , productArg = "", limitArg = "80", formatArg = "detail"] = process.arg
 const limit = Number.parseInt(limitArg, 10) || 80;
 const rows = JSON.parse(fs.readFileSync("research/product-discovery-results.json", "utf8"));
 const reviewedUrls = new Set(reviewedSources.map((source) => normalizeUrl(source.url)));
-const promotedCodes = new Set(errorEntries.map((entry) => normalizeCode(entry.code)));
+const promotedCodes = new Set(errorEntries.flatMap((entry) => codeKeys(entry.code)));
 const highValueProducts = new Set([
   "Forms",
   "Workflow",
@@ -24,8 +24,9 @@ const candidates = rows
   .map((row) => ({
     ...row,
     promotionScore: scoreCandidate(row),
-    unpromotedCodes: row.extractedErrorCodes.filter((code) => !promotedCodes.has(normalizeCode(code))),
+    unpromotedCodes: row.extractedErrorCodes.filter((code) => !hasPromotedCode(code)),
   }))
+  .filter((row) => row.unpromotedCodes.length > 0)
   .sort((a, b) => b.promotionScore - a.promotionScore || a.product.localeCompare(b.product) || a.title.localeCompare(b.title));
 
 const summary = candidates.reduce((acc, row) => {
@@ -86,6 +87,31 @@ function normalizeUrl(value) {
 
 function normalizeCode(value) {
   return String(value).toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+function codeKeys(value) {
+  const normalized = normalizeCode(value);
+  const keys = new Set([normalized]);
+  for (const part of normalized.split(/\s*[/,]\s*/)) {
+    if (part) keys.add(part);
+  }
+  for (const match of normalized.matchAll(/\b(lff\d+)(?:-[a-z0-9]+)?\b/g)) {
+    keys.add(match[1]);
+  }
+  for (const match of normalized.matchAll(/\b(\d{4}-wf\d+)\b/g)) {
+    keys.add(match[1]);
+  }
+  for (const match of normalized.matchAll(/\b(0x[0-9a-f]+)\b/g)) {
+    keys.add(match[1]);
+  }
+  for (const match of normalized.matchAll(/\b(?:http error\s*)?(\d{3,5})\b/g)) {
+    keys.add(match[1]);
+  }
+  return [...keys];
+}
+
+function hasPromotedCode(value) {
+  return codeKeys(value).some((key) => promotedCodes.has(key));
 }
 
 function sourceLabel(value) {

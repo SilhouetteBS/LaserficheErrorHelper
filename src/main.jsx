@@ -68,6 +68,24 @@ function fixStatusLabel(value) {
   return labels[value] ?? labels["needs-review"];
 }
 
+function scenarioFilterLabel(value) {
+  if (value === allOption) return allOption;
+  const labels = {
+    "has-scenarios": "Has multiple scenarios",
+    "single-scenario": "No scenario variants",
+  };
+  return labels[value] ?? value;
+}
+
+function researchFilterLabel(value) {
+  if (value === allOption) return allOption;
+  const labels = {
+    "needs-fix-research": "Needs fix research",
+    "has-fix-guidance": "Has fix/workaround",
+  };
+  return labels[value] ?? value;
+}
+
 function fixStatusValue(entry) {
   if (entry.fixStatus) return entry.fixStatus;
   if (entry.confidence === "low") return "needs-review";
@@ -147,8 +165,11 @@ function App() {
   const [source, setSource] = useState(allOption);
   const [confidence, setConfidence] = useState(allOption);
   const [fixStatus, setFixStatus] = useState(allOption);
+  const [scenarioFilter, setScenarioFilter] = useState(allOption);
+  const [researchFilter, setResearchFilter] = useState(allOption);
   const [sortBy, setSortBy] = useState("relevance");
   const [ledgerSource, setLedgerSource] = useState(allOption);
+  const [isLedgerExpanded, setIsLedgerExpanded] = useState(false);
   const [collapsedGroups, setCollapsedGroups] = useState({});
   const [selectedId, setSelectedId] = useState(initialSelectedErrorId);
   const [notification, setNotification] = useState("");
@@ -176,6 +197,8 @@ function App() {
       ],
       confidences: uniqueSorted(errorEntries.map((entry) => confidenceLabel(entry.confidence))),
       fixStatuses: withAll(["known-fix", "workaround", "diagnostic-only", "unresolved", "needs-review"]),
+      scenarioStates: withAll(["has-scenarios", "single-scenario"]),
+      researchStates: withAll(["needs-fix-research", "has-fix-guidance"]),
     }),
     [],
   );
@@ -212,13 +235,26 @@ function App() {
       .filter((entry) => source === allOption || entry.sources.some((item) => item.sourceType === source))
       .filter((entry) => confidence === allOption || confidenceLabel(entry.confidence) === confidence)
       .filter((entry) => fixStatus === allOption || fixStatusValue(entry) === fixStatus)
+      .filter((entry) => {
+        if (scenarioFilter === "has-scenarios") return (entry.scenarios?.length ?? 0) > 0;
+        if (scenarioFilter === "single-scenario") return (entry.scenarios?.length ?? 0) === 0;
+        return true;
+      })
+      .filter((entry) => {
+        const status = fixStatusValue(entry);
+        if (researchFilter === "needs-fix-research") {
+          return status === "diagnostic-only" || status === "unresolved" || status === "needs-review";
+        }
+        if (researchFilter === "has-fix-guidance") return status === "known-fix" || status === "workaround";
+        return true;
+      })
       .sort((a, b) => {
         if (sortBy === "code") return a.code.localeCompare(b.code, undefined, { numeric: true });
         if (sortBy === "confidence") return confidenceWeight(a.confidence) - confidenceWeight(b.confidence);
         if (sortBy === "product") return a.product.localeCompare(b.product) || a.code.localeCompare(b.code);
         return sourceRank(a) - sourceRank(b) || a.code.localeCompare(b.code, undefined, { numeric: true });
       });
-  }, [query, product, version, source, confidence, fixStatus, sortBy]);
+  }, [query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, sortBy]);
 
   const selectedEntry =
     filteredEntries.find((entry) => entry.id === selectedId) ?? filteredEntries[0] ?? errorEntries[0];
@@ -250,6 +286,7 @@ function App() {
   const displayedReviewedSources = reviewedSources.filter(
     (sourceItem) => ledgerSource === allOption || sourceItem.sourceType === ledgerSource,
   );
+  const ledgerRows = isLedgerExpanded ? displayedReviewedSources : displayedReviewedSources.slice(0, 5);
 
   return (
     <>
@@ -331,8 +368,11 @@ function App() {
               setSource(allOption);
               setConfidence(allOption);
               setFixStatus(allOption);
+              setScenarioFilter(allOption);
+              setResearchFilter(allOption);
               setSortBy("relevance");
               setLedgerSource(allOption);
+              setIsLedgerExpanded(false);
               setIsMoreFiltersOpen(false);
             }}
             type="button"
@@ -360,6 +400,20 @@ function App() {
               onChange={setLedgerSource}
               options={filters.sources}
               formatOption={sourceTypeLabel}
+            />
+            <FilterSelect
+              label="Scenario Coverage"
+              value={scenarioFilter}
+              onChange={setScenarioFilter}
+              options={filters.scenarioStates}
+              formatOption={scenarioFilterLabel}
+            />
+            <FilterSelect
+              label="Fix Research"
+              value={researchFilter}
+              onChange={setResearchFilter}
+              options={filters.researchStates}
+              formatOption={researchFilterLabel}
             />
             <label className="filter-control">
               <span>Result Sort</span>
@@ -471,7 +525,9 @@ function App() {
                 </option>
               ))}
             </select>
-            <button type="button">View full ledger</button>
+            <button type="button" onClick={() => setIsLedgerExpanded((current) => !current)}>
+              {isLedgerExpanded ? "Show fewer" : "View full ledger"}
+            </button>
           </div>
         </div>
         <div className="ledger-table" role="table" aria-label="Reviewed source ledger table">
@@ -483,7 +539,7 @@ function App() {
             <span>Review Status</span>
             <span>Notes</span>
           </div>
-          {displayedReviewedSources.slice(0, 5).map((sourceItem) => (
+          {ledgerRows.map((sourceItem) => (
             <a className="ledger-row" href={sourceItem.url} key={sourceItem.id} rel="noreferrer" target="_blank">
               <span className="ledger-source-name">
                 <SourceTypeIcon sourceType={sourceItem.sourceType} />
