@@ -113,7 +113,7 @@ a {
 
 .toolbar {
   display: grid;
-  grid-template-columns: minmax(330px, 2.15fr) repeat(5, minmax(130px, 0.66fr)) auto auto;
+  grid-template-columns: minmax(280px, 2.15fr) repeat(5, minmax(112px, 0.66fr)) auto auto;
   gap: 14px;
   align-items: end;
 }
@@ -302,7 +302,7 @@ h3 {
 .result-row {
   position: relative;
   display: grid;
-  grid-template-columns: 46px minmax(0, 1fr) auto;
+  grid-template-columns: 72px minmax(0, 1fr);
   gap: 8px;
   width: 100%;
   margin: 0;
@@ -333,11 +333,16 @@ h3 {
 }
 
 .result-row .code {
-  display: inline-block;
-  width: 46px;
+  display: block;
+  width: 100%;
+  min-width: 0;
   color: var(--text);
+  font-size: 0.82rem;
   font-weight: 850;
   font-variant-numeric: tabular-nums;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .result-row strong {
@@ -354,13 +359,15 @@ h3 {
 .result-row .confidence,
 .result-badges {
   align-self: center;
-  grid-column: 3;
+  grid-column: 2;
+  justify-self: start;
 }
 
 .result-badges {
-  display: grid;
-  justify-items: end;
+  display: flex;
+  flex-wrap: wrap;
   gap: 5px;
+  margin-top: 8px;
 }
 
 .detail-pane {
@@ -884,6 +891,10 @@ li + li {
     grid-template-columns: 1fr;
   }
 
+  .result-row .code {
+    width: auto;
+  }
+
   .result-row .confidence,
   .result-badges {
     grid-column: auto;
@@ -891,6 +902,6 @@ li + li {
   }
 
   .result-badges {
-    justify-items: start;
+    justify-content: flex-start;
   }
 }
