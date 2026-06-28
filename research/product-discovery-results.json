@@ -241,7 +241,9 @@
     "snippet": "API Call from PowerAutomate to self hosted API Server returns error import a document into my self-hosted API server. \"Invalid Request. Property file not found in the request body.\" I am able to perform other ...... posted by Sharon Tan 0 Aug 16, 2024 updated by Sharon Tan 0 Aug 19, 2024 4 replies · 634 views · 0 0 · Self-Hosted Laserfiche API",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "cross-product",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed as a Forms candidate; published under API Server."
   },
   {
     "product": "API Server",
@@ -804,9 +806,9 @@
     "title": "Adding LFDS Group/User to Repository - Error 9357",
     "url": "https://answers.laserfiche.com/questions/215118/Adding-LFDS-GroupUser-to-Repository--Error-9357",
     "snippet": "Adding LFDS Group/User to Repository - Error 9357",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Directory Server",
@@ -898,9 +900,9 @@
     "title": "Forms Configuration LFDS Error: The remote server returned an error: (503) Server Unavailable.",
     "url": "https://answers.laserfiche.com/questions/207499/Forms-Configuration-LFDS-Error-The-remote-server-returned-an-error-503-Server-Unavailable",
     "snippet": "Forms Configuration LFDS Error: The remote server returned an error: (503) Server Unavailable.",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and promoted as Directory Server diagnostic guidance."
   },
   {
     "product": "Directory Server",
@@ -1234,9 +1236,9 @@
     "title": "API Call from PowerAutomate to self hosted API Server returns error",
     "url": "https://answers.laserfiche.com/questions/222083/API-Call-from-PowerAutomate-to-self-hosted-API-Server-returns-error",
     "snippet": "API Call from PowerAutomate to self hosted API Server returns error",
-    "status": "candidate",
+    "status": "cross-product",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed as a Forms candidate; published under API Server."
   },
   {
     "product": "Forms",
@@ -1247,9 +1249,9 @@
     "title": "DCOM was unable to communicate with the computer x.x.x.x",
     "url": "https://answers.laserfiche.com/questions/123014/DCOM-was-unable-to-communicate-with-the-computer-xxxx",
     "snippet": "DCOM was unable to communicate with the computer x.x.x.x",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and published as diagnostic guidance."
   },
   {
     "product": "Forms",
@@ -1260,9 +1262,9 @@
     "title": "Error Code LF26 in Forms, not documented?",
     "url": "https://answers.laserfiche.com/questions/187545/Error-Code-LF26-in-Forms-not-documented",
     "snippet": "Error Code LF26 in Forms, not documented?",
-    "status": "candidate",
+    "status": "not-actionable",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed; Laserfiche Cloud-only code with no self-hosted fix."
   },
   {
     "product": "Forms",
@@ -1273,9 +1275,9 @@
     "title": "Error List in Table Format",
     "url": "https://answers.laserfiche.com/questions/151509/Error-List-in-Table-Format",
     "snippet": "Error List in Table Format",
-    "status": "candidate",
+    "status": "not-actionable",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed; request for tabular error list, not a troubleshooting error."
   },
   {
     "product": "Forms",
@@ -1299,9 +1301,9 @@
     "title": "Feature Request: Ability to see Instance Error When Viewing Instance History in Monitor",
     "url": "https://answers.laserfiche.com/questions/201879/Feature-Request-Ability-to-see-Instance-Error-When-Viewing-Instance-History-in-Monitor",
     "snippet": "Feature Request: Ability to see Instance Error When Viewing Instance History in Monitor",
-    "status": "candidate",
+    "status": "not-actionable",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed; feature request rather than an error/fix entry."
   },
   {
     "product": "Forms",
@@ -1338,9 +1340,9 @@
     "title": "Forms DMZ Submissions - Failed Submission Handling",
     "url": "https://answers.laserfiche.com/questions/193432/Forms-DMZ-Submissions--Failed-Submission-Handling",
     "snippet": "Forms DMZ Submissions - Failed Submission Handling",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Forms",
@@ -1351,9 +1353,9 @@
     "title": "Forms email error",
     "url": "https://answers.laserfiche.com/questions/96085/Forms-email-error",
     "snippet": "Forms email error",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and promoted as diagnostic guidance."
   },
   {
     "product": "Forms",
@@ -1390,9 +1392,9 @@
     "title": "Illegal character error on mobile form in offline mode. Hard to reproduce",
     "url": "https://answers.laserfiche.com/questions/209806/Illegal-character-error-on-mobile-form-in-offline-mode-Hard-to-reproduce",
     "snippet": "Illegal character error on mobile form in offline mode. Hard to reproduce",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and promoted as diagnostic guidance."
   },
   {
     "product": "Forms",
@@ -1403,9 +1405,9 @@
     "title": "Laserfiche Error when Assigning task based on Team Filter",
     "url": "https://answers.laserfiche.com/questions/155257/Laserfiche-Error-when-Assigning-task-based-on-Team-Filter",
     "snippet": "Laserfiche Error when Assigning task based on Team Filter",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Forms",
@@ -1416,9 +1418,9 @@
     "title": "Laserfiche Forms encountered a internal error (LFF500)",
     "url": "https://answers.laserfiche.com/questions/209641/Laserfiche-Forms-encountered-a-internal-error-LFF500",
     "snippet": "Laserfiche Forms encountered a internal error (LFF500)",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed; covered by existing LFF500 entry."
   },
   {
     "product": "Forms",
@@ -1429,9 +1431,9 @@
     "title": "\"Laserfiche Forms encountered an internal error. Please try again.\"",
     "url": "https://answers.laserfiche.com/questions/52111/Laserfiche-Forms-encountered-an-internal-error--Please-try-again",
     "snippet": "\"Laserfiche Forms encountered an internal error. Please try again.\"",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and folded into generic Forms internal-error diagnostic entry."
   },
   {
     "product": "Forms",
@@ -1442,9 +1444,9 @@
     "title": "Laserfiche Forms encountered an internal error. Please try again. [LFF500-InternalError]",
     "url": "https://answers.laserfiche.com/questions/125713/Laserfiche-Forms-encountered-an-internal-error-Please-try-again-LFF500InternalError",
     "snippet": "Laserfiche Forms encountered an internal error. Please try again. [LFF500-InternalError]",
-    "status": "candidate",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed; existing published LFF500 entry."
   },
   {
     "product": "Forms",
@@ -1455,9 +1457,9 @@
     "title": "LFF2105-FormLoadingError",
     "url": "https://answers.laserfiche.com/questions/182051/LFF2105FormLoadingError",
     "snippet": "LFF2105-FormLoadingError",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and promoted as diagnostic guidance."
   },
   {
     "product": "Forms",
@@ -1468,9 +1470,9 @@
     "title": "My process result has An unexpected error has occurred.",
     "url": "https://answers.laserfiche.com/questions/112544/My-process-result-has-An-unexpected-error-has-occurred",
     "snippet": "My process result has An unexpected error has occurred. Government",
-    "status": "candidate",
+    "status": "curated-partial",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and promoted as diagnostic guidance."
   },
   {
     "product": "Forms",
@@ -1481,9 +1483,9 @@
     "title": "Forms: Offline Form Draft Save Error \"The submission failed due to an error with the form\"",
     "url": "https://answers.laserfiche.com/questions/191205/Forms-Offline-Form-Draft-Save-Error-The-submission-failed-due-to-an-error-with-the-form",
     "snippet": "Forms: Offline Form Draft Save Error \"The submission failed due to an error with the form\"",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Forms",
@@ -1494,9 +1496,9 @@
     "title": "WebLink Designer error while creating custom forms",
     "url": "https://answers.laserfiche.com/questions/219237/WebLink-Designer-error-while-creating-custom-forms",
     "snippet": "WebLink Designer error while creating custom forms",
-    "status": "candidate",
+    "status": "cross-product",
     "reviewedDate": "2026-06-27",
-    "notes": ""
+    "notes": "Reviewed as a Forms candidate; WebLink Designer issue, not Forms."
   },
   {
     "product": "Forms",
@@ -1521,7 +1523,9 @@
     "snippet": "Creating or attaching catalog for fulltext searches in a repository with no search catalog . Until a catalog is attached or created, you will not be able to run full text searches on ... the Index node in the Laserfiche Administration Console. If you create a new catalog , you will need to reindex your repository. [9294:0xc004244e] ------------ Technical Details ...... posted by Gentil Kagiraneza 5 May 18, 2015 updated by Gentil Kagiraneza 5 Jun 10, 2015 6 replies · 1439 views · 0 0",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Full Text Search",
@@ -1559,11 +1563,13 @@
     "snippet": "Error 9288 : This repository does not have an associated catalog . does not have an associated catalog . This repository does not have an associated catalog . Until the catalog is attached or created , you will not be ... the Index node in the Laserfiche Administration Console. If you create a new catalog , you will need to reindex your repository . Does anyone know what ...... posted by Gabriel Gomes 28 Dec 22, 2015 updated by Gabriel Gomes 28 Dec 23, 2015 9 replies · 1151 views · 0 0 · Laserfi",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "LFFTS \"error\"",
       "Laserfiche \"catalog\" \"error\""
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Full Text Search",
@@ -1575,7 +1581,9 @@
     "snippet": "error 9421 : Invalid search catalog status ? I try to make a search in the laserfiche client I get this error . Does anybody knows how to fix it ?... posted by Moana Houdoux 198 Aug 8, 2014 updated by Fernando Buenrostro 94 May 8, 2024 13 replies · 6368 views · 0 0",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "Full Text Search",
@@ -3029,7 +3037,9 @@
     "snippet": "Web Scanning - Access Denied Error [9013] performed a migration of our Web client and Forms server software to a new server. Previously Laserfiche Server, Audit Trail, Web client and Laserfiche Forms ... able to open up the web client , and also able to select the default scan button. It is only when they use a custom url ...... posted by Vincent Kelly 78 Jul 24, 2019 0 replies · 939 views · 0 0 · Version 10 Web Client Scanning",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Web Client Scanning",
@@ -3040,11 +3050,13 @@
     "snippet": "Multistatus response.[9039] Using Web Scan URL shortcut in the Error pane: The Error details are as follows: Stack Trace at Laserfiche .Connection.Web.WebAccessServiceBase.ExecuteWebServiceOperation(IWebAccessService service, String method, Boolean requiredOperation, Object ... Boolean silent, IDocumentStoreEvents storeEvents) at Laserfiche .BatchProcessor. Scanning .Output.ScanningOutputProcess. Store (Object document) at Laserfiche .BatchProcessor.ComponentModel.DocumentClass.StoreDocument(Doc",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated-unresolved",
     "queries": [
       "Web Client Scanning \"error\"",
       "Scanning \"store\" error Laserfiche"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "Web Client Scanning",
@@ -3131,7 +3143,9 @@
     "snippet": "Failed to Load Image ScanConnect Only the follow error when using Laserfiche Scan with ScanConnect. Rotate: Document Untitled, Page 1: Failed to load image. This only happens when I use ScanConnect ...... posted by Christopher Rogers 2 Apr 26, 2019 updated by Mui Luong 23 Aug 17, 2022 2 replies · 851 views · 0 0 · Scanning",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted as workaround guidance."
   },
   {
     "product": "Web Client Scanning",
@@ -3266,7 +3280,9 @@
     "snippet": "Web Scanning - Access Denied Error [9013] performed a migration of our Web client and Forms server software to a new server. Previously Laserfiche Server, Audit Trail, Web client and Laserfiche Forms ... able to open up the web client , and also able to select the default scan button. It is only when they use a custom url ...... posted by Vincent Kelly 78 Jul 24, 2019 0 replies · 939 views · 0 0 · Version 10 Web Client Scanning",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "WebLink",
@@ -3292,7 +3308,9 @@
     "snippet": "I am getting an error code 6502 The user was getting the error code 6502.... posted by Karen Hunter 0 Feb 7, 2014 updated by Chris Dillon 111 Apr 29, 2015 8 replies · 1187 views · 0 0 · Web Client WebLink",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "WebLink",
@@ -3318,9 +3336,9 @@
     "snippet": "Adding LFDS Group/User to Repository - Error 9357 keep getting the following error: Error Code : 9357 Error Message: LDAP query could not be completed. [9357] ------------ Technical Details: ------------ LFSO: Call Stack: (Exception) ... as well for WebClient and WebLink . Both servers are on the same domain and same subnet.... posted by John Gonzales 4 Jan 24, 2024 updated by Chris Douglas 4991 May 30, 2024 3 replies · 674 views · 0 0 · Version 11 Directory Server Laserfiche Administration Self",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "cross-product",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
-    "notes": "Reviewed as a WebLink candidate; better tracked under Directory Server or repository-server authentication rather than WebLink."
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "WebLink",
@@ -3332,9 +3350,9 @@
     "snippet": "Adding LFDS Group/User to Repository - Error 9357 keep getting the following error: Error Code : 9357 Error Message: LDAP query could not be completed. [9357] ------------ Technical Details: ------------ LFSO: Call Stack: (Exception) ... as well for WebClient and WebLink . Both servers are on the same domain and same subnet.... posted by John Gonzales 4 Jan 24, 2024 updated by Chris Douglas 4991 May 30, 2024 3 replies · 674 views · 0 0 · Version 11 Directory Server Laserfiche Administration Self",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "cross-product",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
-    "notes": "Reviewed as a WebLink candidate; better tracked under Directory Server or repository-server authentication rather than WebLink."
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "WebLink",
@@ -3416,7 +3434,9 @@
     "snippet": "I am getting an error code 6502 The user was getting the error code 6502.... posted by Karen Hunter 0 Feb 7, 2014 updated by Chris Dillon 111 Apr 29, 2015 8 replies · 1187 views · 0 0 · Web Client WebLink",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "WebLink",
@@ -3470,9 +3490,9 @@
     "snippet": "Adding LFDS Group/User to Repository - Error 9357 keep getting the following error: Error Code : 9357 Error Message: LDAP query could not be completed. [9357] ------------ Technical Details: ------------ LFSO: Call Stack: (Exception) ... as well for WebClient and WebLink . Both servers are on the same domain and same subnet.... posted by John Gonzales 4 Jan 24, 2024 updated by Chris Douglas 4991 May 30, 2024 3 replies · 674 views · 0 0 · Version 11 Directory Server Laserfiche Administration Self",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "cross-product",
+    "status": "curated",
     "reviewedDate": "2026-06-27",
-    "notes": "Reviewed as a WebLink candidate; better tracked under Directory Server or repository-server authentication rather than WebLink."
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "WebLink",
@@ -3498,7 +3518,9 @@
     "snippet": "The search engine encountered an internal error. Please check the search engine error log for more details. but they were unable to search as they would get the error message in my Post Title. In looking at the Search Engine Error Logs ... to flush 'e:\\lf_data\\ SEARCH \\lfword.idx.sdw'. Error 1117: The request could not be performed because of an I/O device error . Flush ...... posted by Jeff Curtis 725 May 10, 2019 updated by Jeff Curtis 725 May 13, 2019 2 replies · 710 views · 0 0 · WebLink Sea",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted under Full Text Search with WebLink symptom context."
   },
   {
     "product": "WebLink",
@@ -3510,7 +3532,9 @@
     "snippet": "Unable to search useing Weblink When ever a search is done when using weblink the following error is returned: \" Error connecting to the search engine. Either the search engine is ...... posted by Fay Young 10 Sep 16, 2015 updated by Ivan Juarez 234 Sep 16, 2015 3 replies · 580 views · 0 0 · WebLink Laserfiche",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted under Full Text Search with WebLink symptom context."
   },
   {
     "product": "WebLink",
@@ -3564,7 +3588,9 @@
     "snippet": "Weblink 9 - random tiles not loading, connection error We are still on Weblink 9 and have started getting errors where tiles fail to load, then an alert pops up with the following message ... tools and found these network errors : You can see the broken tile images. At first I thought it was a permissions issue, but Weblink already ...... posted by Vanessa Vengco 9 Mar 5, 2024 updated by Kevin Wells 1289 Mar 5, 2024 1 reply · 544 views · 0 0 · WebLink Version 9",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "WebLink",
@@ -3576,7 +3602,9 @@
     "snippet": "Weblink Error 9091 I just upgraded to Weblink 10.2 and these links I had working on 10.1 now give me this error . An end-of-file ... my link https://MyCompany.com/ WebLink/search .aspx?dbid=1&searchcommand=%7B%5BScholarship%5D%3A%5BStudent%20ID% ...... posted by Lucas Large 259 Feb 28, 2020 updated by Lucas Large 259 Mar 16, 2021 11 replies · 690 views · 0 0 · WebLink Version 10 Search and Retrieval",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-unresolved",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and published as unresolved documentation."
   },
   {
     "product": "WebLink",
@@ -3601,11 +3629,13 @@
     "snippet": "Weblink HTTP error 500.19/Object reference error in the web.config for Weblink , see screen shot). Upon removing this entry from the web.config I receive an \"Object reference not set to ... columns and layout of the Weblink site. The public facing Weblink loads and works correctly. Environment is Windows Server 2008R2 SP1 64bit and IIS7(version ...... posted by Thomas Grasso 0 Oct 3, 2014 updated by Raymond Cruz 2783 Oct 10, 2014 12 replies · 1537 views · 0 0 · WebLink",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate",
+    "status": "curated",
     "queries": [
       "WebLink \"error code\"",
       "WebLink \"login\" error"
-    ]
+    ],
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "WebLink",
@@ -3617,7 +3647,9 @@
     "snippet": "Weblink- Error Executing Child request-Login they tried to access certain Weblink Links they started to get the following error \"Error Executing Child Request for / Weblink /DocView.aspx\" Here is one ...... posted by Jeff Curtis 725 Jan 7, 2020 updated by Jason Smith 15886 Jan 7, 2020 2 replies · 469 views · 0 0 · WebLink Laserfiche Version 10",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted to published helper entry."
   },
   {
     "product": "WebLink",
@@ -3657,7 +3689,9 @@
     "snippet": "WebLink8.2.2 Page1.aspx error then get a Page1.aspx error . If the search returns multiple results, then it will display the results list and choosing any of the returned ... EntryID, we know that the search syntax is working. Any ideas on how we can track down and fix this issue?... posted by Bert Warren 6065 Dec 15, 2014 updated by Wes Funderberg 767 Dec 17, 2014 9 replies · 850 views · 0 0 · WebLink Search and Retrieval",
     "sourceType": "Answers candidate",
     "discoveredDate": "2026-06-27",
-    "status": "candidate"
+    "status": "curated-partial",
+    "reviewedDate": "2026-06-27",
+    "notes": "Reviewed and promoted as diagnostic guidance."
   },
   {
     "product": "Webtools Agent",

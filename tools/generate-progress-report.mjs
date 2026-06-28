@@ -4,7 +4,12 @@ import { errorEntries, productOptions } from "../src/data/errors.js";
 import { reviewedSources } from "../src/data/reviewedSources.js";
 
 const discoveryRows = JSON.parse(fs.readFileSync("research/product-discovery-results.json", "utf8"));
-const reportDate = new Date().toISOString().slice(0, 10);
+const reportDate = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "America/Denver",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+}).format(new Date());
 
 function countBy(rows, getKey) {
   return rows.reduce((acc, row) => {
