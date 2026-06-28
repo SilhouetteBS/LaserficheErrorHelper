@@ -1,7 +1,7 @@
 # Validation Completion
 
-Validation rows triaged: 1546
-Source-research backlog rows: 18
+Validation rows triaged: 1540
+Source-research backlog rows: 12
 
 ## Validation Status Summary
 
@@ -9,7 +9,7 @@ Source-research backlog rows: 18
 | --- | --- |
 | official-doc-baseline | 1151 |
 | reviewed-diagnostic | 377 |
-| source-research-needed | 18 |
+| source-research-needed | 12 |
 
 ## Prior Disposition Summary
 
@@ -18,7 +18,7 @@ Source-research backlog rows: 18
 | candidate-for-fix-upgrade | 244 |
 | candidate-for-scenario-review | 11 |
 | keep-diagnostic-only | 64 |
-| needs-additional-source-research | 18 |
+| needs-additional-source-research | 12 |
 | official-doc-baseline-only | 1151 |
 | priority-source-review | 58 |
 
@@ -27,7 +27,7 @@ Source-research backlog rows: 18
 | Product | Entries |
 | --- | --- |
 | Administration Hub | 2 |
-| API Server | 8 |
+| API Server | 7 |
 | Audit Trail | 7 |
 | Common Dialog | 9 |
 | Connector | 5 |
@@ -35,7 +35,7 @@ Source-research backlog rows: 18
 | Discussions | 4 |
 | Distributed Computing Cluster | 6 |
 | Federated Search | 1 |
-| Forms | 62 |
+| Forms | 59 |
 | Full Text Search | 3 |
 | Import Agent | 12 |
 | Laserfiche Installer | 25 |
@@ -45,10 +45,10 @@ Source-research backlog rows: 18
 | Quick Fields | 17 |
 | Records Management | 8 |
 | Snapshot | 7 |
-| Web Client | 39 |
+| Web Client | 38 |
 | WebLink | 13 |
 | Windows Client/Desktop Client | 209 |
-| Workflow | 27 |
+| Workflow | 26 |
 
 ## Rule
 

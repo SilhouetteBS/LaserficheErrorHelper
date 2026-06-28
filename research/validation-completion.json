@@ -20903,20 +20903,6 @@
       "validationNote": "Reviewed as a diagnostic-only entry; keep visible without implying a confirmed fix."
     },
     {
-      "id": "api-server-upload-conflict-409",
-      "code": "409",
-      "product": "API Server",
-      "message": "Conflict while uploading a file through self-hosted API Server.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
       "id": "api-server-429-too-many-requests",
       "code": "429",
       "product": "API Server",
@@ -21239,48 +21225,6 @@
       "validationNote": "Scenario review was completed or the captured sources did not support distinct source-backed scenarios."
     },
     {
-      "id": "forms-lff6010-team-filter-timeout",
-      "code": "LFF6010",
-      "product": "Forms",
-      "message": "Filter returned a script error: Timeout for Javascript Engine.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
-      "id": "forms-lff8100-notification-server-down",
-      "code": "LFF8100",
-      "product": "Forms",
-      "message": "Forms Notification Server connection is down.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 2,
-      "scenarioCount": 2,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
-      "id": "forms-lff9320-validation-aggregate",
-      "code": "LFF9320",
-      "product": "Forms",
-      "message": "Forms validation aggregate exception.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
       "id": "installer-1935-icu-commit-0x800700c1",
       "code": "1935 / 1712 / 0x800700C1",
       "product": "Laserfiche Installer",
@@ -21491,20 +21435,6 @@
       "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
     },
     {
-      "id": "web-client-http-response-body",
-      "code": "WEBCLIENT-HTTP-RESPONSE-BODY",
-      "product": "Web Client",
-      "message": "Error Reading HTTP Response Body.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
       "id": "web-client-kerberos-sso-errors",
       "code": "WEBCLIENT-KERBEROS-SSO",
       "product": "Web Client",
@@ -21629,20 +21559,6 @@
       "validationDisposition": "keep-diagnostic-only",
       "validationStatus": "reviewed-diagnostic",
       "validationNote": "Reviewed as a diagnostic-only entry; keep visible without implying a confirmed fix."
-    },
-    {
-      "id": "workflow-0735-0516-business-process",
-      "code": "0735-WF1",
-      "product": "Workflow",
-      "message": "Workflow appears as a business process.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
     }
   ],
   "sourceResearchBacklog": [
@@ -21661,66 +21577,10 @@
       "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
     },
     {
-      "id": "api-server-upload-conflict-409",
-      "code": "409",
-      "product": "API Server",
-      "message": "Conflict while uploading a file through self-hosted API Server.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
       "id": "forms-offline-submission-failed",
       "code": "FORMS-OFFLINE-SUBMISSION-FAILED",
       "product": "Forms",
       "message": "The submission failed due to an error with the form.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
-      "id": "forms-lff6010-team-filter-timeout",
-      "code": "LFF6010",
-      "product": "Forms",
-      "message": "Filter returned a script error: Timeout for Javascript Engine.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
-      "id": "forms-lff8100-notification-server-down",
-      "code": "LFF8100",
-      "product": "Forms",
-      "message": "Forms Notification Server connection is down.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 2,
-      "scenarioCount": 2,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
-      "id": "forms-lff9320-validation-aggregate",
-      "code": "LFF9320",
-      "product": "Forms",
-      "message": "Forms validation aggregate exception.",
       "confidence": "low",
       "fixStatus": "unresolved",
       "bestSourceType": "answers-community",
@@ -21815,20 +21675,6 @@
       "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
     },
     {
-      "id": "web-client-http-response-body",
-      "code": "WEBCLIENT-HTTP-RESPONSE-BODY",
-      "product": "Web Client",
-      "message": "Error Reading HTTP Response Body.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
       "id": "web-client-lfscan-launch-error",
       "code": "WEBCLIENT-LFSCAN-LAUNCH",
       "product": "Web Client",
@@ -21875,20 +21721,6 @@
       "code": "0104-WF6",
       "product": "Workflow",
       "message": "Laserfiche Workflow export error.",
-      "confidence": "low",
-      "fixStatus": "unresolved",
-      "bestSourceType": "answers-community",
-      "sourceCount": 1,
-      "scenarioCount": 0,
-      "validationDisposition": "needs-additional-source-research",
-      "validationStatus": "source-research-needed",
-      "validationNote": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research."
-    },
-    {
-      "id": "workflow-0735-0516-business-process",
-      "code": "0735-WF1",
-      "product": "Workflow",
-      "message": "Workflow appears as a business process.",
       "confidence": "low",
       "fixStatus": "unresolved",
       "bestSourceType": "answers-community",

@@ -7,6 +7,22 @@ const allPassRows = allSourceResearchPasses().flatMap((candidatePath) => JSON.pa
 const augmentationsPath = "src/data/sourceAugmentations.js";
 const reportPath = "research/source-backlog-curation.md";
 const jsonPath = "research/source-backlog-curation.json";
+const decisionsPath = "research/source-candidate-decisions.json";
+const sourceCandidateDecisions = fs.existsSync(decisionsPath)
+  ? JSON.parse(fs.readFileSync(decisionsPath, "utf8")).decisions ?? []
+  : [];
+const allCandidateReviews = Object.fromEntries([
+  ...sourceCandidateDecisions.map((decision) => [
+    decision.url,
+    {
+      entryId: decision.entryId,
+      disposition: decision.disposition,
+      title: decision.title,
+      note: decision.note,
+    },
+  ]),
+  ...Object.entries(sourceCandidateReviews),
+]);
 
 const officialAugmentations = Object.fromEntries(
   allPassRows
@@ -44,18 +60,18 @@ const reviewedCandidateAugmentations = Object.values(sourceCandidateReviews)
 const sourceAugmentations = mergeAugmentations(officialAugmentations, reviewedCandidateAugmentations);
 
 const answersReviewRows = pass.rows
-  .filter((row) => row.answersCandidates.some((candidate) => candidate.url && !candidate.alreadyReviewed))
+  .filter((row) => row.answersCandidates.some((candidate) => candidate.url && !candidate.alreadyReviewed && !allCandidateReviews[candidate.url]))
   .map((row) => ({
     id: row.id,
     product: row.product,
     code: row.code,
     message: row.message,
     candidates: row.answersCandidates
-      .filter((candidate) => candidate.url && !candidate.alreadyReviewed)
+      .filter((candidate) => candidate.url && !candidate.alreadyReviewed && !allCandidateReviews[candidate.url])
       .map((candidate) => ({
         title: candidate.title,
         url: candidate.url,
-        disposition: sourceCandidateReviews[candidate.url]?.disposition ?? (likelyRelevant(candidate, row) ? "manual-review-priority" : "manual-review-low-signal"),
+        disposition: likelyRelevant(candidate, row) ? "manual-review-priority" : "manual-review-low-signal",
       })),
   }));
 
@@ -104,11 +120,11 @@ const report = [
   "",
   table(
     ["Entry", "Disposition", "Source", "Note"],
-    Object.entries(sourceCandidateReviews).map(([url, review]) => [
+    Object.entries(allCandidateReviews).map(([url, review]) => [
       review.entryId,
       review.disposition,
-      `[${review.title.replaceAll("|", "\\|")}](${url})`,
-      review.note.replaceAll("|", "\\|"),
+      `[${(review.title ?? url).replaceAll("|", "\\|")}](${url})`,
+      (review.note ?? "").replaceAll("|", "\\|"),
     ]),
   ),
   "",

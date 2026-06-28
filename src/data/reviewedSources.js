@@ -6578,5 +6578,175 @@ export const reviewedSources = [
     productTags: ["Workflow", "Forms", "Version 10"],
     extractedErrorCodes: ["LFF5203"],
     reviewStatus: "curated"
+  },
+  {
+    id: "answers-230306-api-upload-409",
+    title: "Laserfiche API On Premise upload failing",
+    url: "https://answers.laserfiche.com/questions/230306/Laserfiche-API-On-Premise-upload-failing",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["API Server", "Laserfiche Server/Repository Server", "Version 12"],
+    extractedErrorCodes: ["409", "-2147024816"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-216086-forms-lff6010-update-5",
+    title: "Forms Team Javascript filter no longer working with Forms 11 update 5",
+    url: "https://answers.laserfiche.com/questions/216086/Forms-Team-Javascript-filter-no-longer-working-with-Forms-11-update-5",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 11", "Version 12"],
+    extractedErrorCodes: ["LFF6010"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-127460-forms-lff6010-team-object",
+    title: "How Can I Override the User Task Going to a Group",
+    url: "https://answers.laserfiche.com/questions/127460/How-Can-I-Override-the-User-Task-Going-to-a-Group",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF6010"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-180912-forms-lff8100-hub-url",
+    title: "Forms Configuration improperly states connection verified for Notification Service Server",
+    url: "https://answers.laserfiche.com/questions/180912/Forms--Configuration-improperly-stating-The-Connection-Verified-for-Notification-Service-Server",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF8100"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-147581-forms-lff8100-ssl",
+    title: "Forms Notification Hub not working on SSL",
+    url: "https://answers.laserfiche.com/questions/147581/Forms-Notification-Hub-not-working-on-SSL",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF8100"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-197639-forms-lff8100-load-balancing",
+    title: "Load Balancing Forms When Routing Service is Not In NLB",
+    url: "https://answers.laserfiche.com/questions/197639/Load-Balancing-Forms-When-Routing-Service-is-Not-In-NLB",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF8100"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-159709-forms-ssl-fqdn",
+    title: "How to properly configure Laserfiche with an SSL certificate",
+    url: "https://answers.laserfiche.com/questions/159709/How-to-properly-stepbystep-configure-Laserfiche-with-a-SSL-Cert",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF8100"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-163841-forms-push-notification",
+    title: "IPushNotificationService May Not Be Running",
+    url: "https://answers.laserfiche.com/questions/163841/IPushNotificationService-May-Not-Be-Running",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF8100"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-212727-forms-lff9320-submission",
+    title: "Errors encountered during forms submission",
+    url: "https://answers.laserfiche.com/questions/212727/Errors-encountered-during-forms-submission",
+    sourceType: "answers-community",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 11"],
+    extractedErrorCodes: ["LFF9300", "LFF9312", "LFF9320"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-155375-forms-backend-validation",
+    title: "How to change Backend Validation",
+    url: "https://answers.laserfiche.com/questions/155375/How-to-change-Backend-Validation",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF9309", "LFF9312", "LFF9320"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-120112-forms-validation-position",
+    title: "Reading Laserfiche errors",
+    url: "https://answers.laserfiche.com/questions/120112/Reading-Laserfiche-errors",
+    sourceType: "answers-community",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF9309", "LFF9312", "LFF9320"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-122018-forms-jquery-dropdown-validation",
+    title: "Adding values in dropdown list forms with jquery",
+    url: "https://answers.laserfiche.com/questions/122018/Adding-values-in-dropdown-list-forms-with-jquery",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF9309", "LFF9312", "LFF9320"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-121754-forms-javascript-invalidating-data",
+    title: "Javascript invalidating data",
+    url: "https://answers.laserfiche.com/questions/121754/Javascript-invalidating-data",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["Forms", "Version 10"],
+    extractedErrorCodes: ["LFF9313", "LFF9312", "LFF9320"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-170630-http-response-body-0x2efe",
+    title: "LF Audit Service Event Log Error",
+    url: "https://answers.laserfiche.com/questions/170630/LF-Audit-Service-Event-Log-Error",
+    sourceType: "answers-community",
+    reviewedDate: "2026-06-28",
+    productTags: ["Audit Trail", "Version 10"],
+    extractedErrorCodes: ["0x2efe", "WEBCLIENT-HTTP-RESPONSE-BODY"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-165005-template-info-reader-response-body",
+    title: "TemplateInfoReader Limit",
+    url: "https://answers.laserfiche.com/questions/165005/TemplateInfoReader-Limit",
+    sourceType: "answers-laserfiche-employee",
+    reviewedDate: "2026-06-28",
+    productTags: ["API Server", "Laserfiche Server/Repository Server", "Version 10"],
+    extractedErrorCodes: ["0x2efe", "WEBCLIENT-HTTP-RESPONSE-BODY"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-131312-web-access-response-body",
+    title: "Error reading HTTP response body when downloading in Mac OS X",
+    url: "https://answers.laserfiche.com/questions/131312/Error-reading-HTTP-response-body-when-downloading-in-Mac-OS-X",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Web Client", "Version 10"],
+    extractedErrorCodes: ["WEBCLIENT-HTTP-RESPONSE-BODY"],
+    reviewStatus: "curated"
+  },
+  {
+    id: "answers-99071-workflow-business-process",
+    title: "Forms start a workflow business Process",
+    url: "https://answers.laserfiche.com/questions/99071/Forms-start-a-workflow-business-Process",
+    sourceType: "answers-community-confirmed",
+    reviewedDate: "2026-06-28",
+    productTags: ["Workflow", "Forms", "Version 10"],
+    extractedErrorCodes: ["0735-WF1", "LFF5203"],
+    reviewStatus: "curated"
   }
 ];
