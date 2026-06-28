@@ -52,6 +52,10 @@ Run `npm run curation:community` after priority curation to review `Answers - Co
 
 Run `npm run validation:complete` when the current validation batches have been triaged. This records whether each row is an official-doc baseline, reviewed diagnostic entry, or still needs source research, then moves unresolved research needs into `research/source-research-backlog.md`.
 
+Run `npm run backlog:research` to re-check the `source-research-needed` entries against Laserfiche Answers search results and the imported official documentation catalog. Review the JSON pass output before promoting any new candidate source into the public catalog.
+
+Run `npm run collect:answers -- "Product Name" 25` for a bounded product-specific Laserfiche Answers discovery pass. Products with no new candidates should still keep the generated pass file as evidence of the search.
+
 ## Product-Specific Discovery
 
 The official Version 12 server-code pass is tracked separately in `research/answers-search-results.json` and `research/answers-reviewed-summary.json`.

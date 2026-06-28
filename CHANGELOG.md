@@ -2,6 +2,7 @@
 
 ## 2026-06-28
 
+- Re-searched the source-research backlog, added validation-status UI labels, compacted validation triage data, and ran low-coverage product discovery passes.
 - Added validation batch completion triage and a separate source-research backlog.
 - Added scenario variants for the remaining scenario-review entries and made priority-source curation merge-safe.
 - Added community-confirmed fix curation for the next validation batches.

@@ -775,6 +775,7 @@ li + li {
 
 .confidence,
 .fix-status,
+.validation-status,
 .review-status,
 .source-badge,
 .scenario-count {
@@ -793,6 +794,25 @@ li + li {
   color: var(--accent-dark);
   background: var(--accent-soft);
   border: 1px solid var(--accent-border);
+}
+
+.validation-status.official-doc-baseline {
+  color: #154b83;
+  background: #e5f0ff;
+  border: 1px solid #95bdf4;
+}
+
+.validation-status.reviewed-diagnostic {
+  color: #5f420a;
+  background: #fff2d1;
+  border: 1px solid #e7c870;
+}
+
+.validation-status.source-research-needed,
+.validation-status.not-triaged {
+  color: #7b3531;
+  background: #fde6e2;
+  border: 1px solid #efb9b0;
 }
 
 .detail-scenario-count {

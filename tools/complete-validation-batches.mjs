@@ -114,6 +114,19 @@ const overrides = Object.fromEntries(
     },
   ]),
 );
+const overrideGroups = decisions.reduce((acc, decision) => {
+  const key = `${decision.validationStatus}|${decision.validationDisposition}`;
+  acc[key] = acc[key] || [];
+  acc[key].push(decision.id);
+  return acc;
+}, {});
+const validationNotes = Object.fromEntries(
+  Object.entries({
+    "official-doc-baseline": "Official documentation baseline entry; no public Answers fix has been attached yet.",
+    "reviewed-diagnostic": "Reviewed as diagnostic or scenario-limited evidence; no stronger fix should be promoted without additional source evidence.",
+    "source-research-needed": "Entry is documented for discovery, but a stronger source-backed fix still needs additional research.",
+  }),
+);
 
 const sourceResearchBacklog = decisions.filter((decision) => decision.validationStatus === "source-research-needed");
 const byDisposition = countBy(decisions, (decision) => decision.validationDisposition);
@@ -121,14 +134,22 @@ const byStatus = countBy(decisions, (decision) => decision.validationStatus);
 const byProduct = countBy(decisions, (decision) => decision.product);
 
 const overrideLines = [
-  "export const validationTriageOverrides = {",
-  ...Object.entries(overrides)
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(
-      ([id, override]) =>
-        `  ${JSON.stringify(id)}: { validationStatus: ${JSON.stringify(override.validationStatus)}, validationDisposition: ${JSON.stringify(override.validationDisposition)}, validationNote: ${JSON.stringify(override.validationNote)} },`,
-    ),
+  "export const validationTriageNotes = {",
+  ...Object.entries(validationNotes).map(([status, note]) => `  ${JSON.stringify(status)}: ${JSON.stringify(note)},`),
   "};",
+  "",
+  "export const validationTriageGroups = {",
+  ...Object.entries(overrideGroups)
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([key, ids]) => `  ${JSON.stringify(key)}: ${JSON.stringify(ids.sort())},`),
+  "};",
+  "",
+  "export const validationTriageOverrides = Object.fromEntries(",
+  "  Object.entries(validationTriageGroups).flatMap(([key, ids]) => {",
+  "    const [validationStatus, validationDisposition] = key.split(\"|\");",
+  "    return ids.map((id) => [id, { validationStatus, validationDisposition, validationNote: validationTriageNotes[validationStatus] }]);",
+  "  }),",
+  ");",
   "",
 ];
 

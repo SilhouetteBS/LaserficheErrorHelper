@@ -144,6 +144,24 @@ function fixStatusLabel(value) {
   return labels[value] ?? labels["needs-review"];
 }
 
+function validationStatusLabel(value) {
+  const labels = {
+    "official-doc-baseline": "Official doc baseline",
+    "reviewed-diagnostic": "Reviewed diagnostic",
+    "source-research-needed": "Needs source research",
+  };
+  return labels[value] ?? "Not triaged";
+}
+
+function validationStatusDescription(value) {
+  const descriptions = {
+    "official-doc-baseline": "This error is listed in official documentation, but no public Answers fix has been attached yet.",
+    "reviewed-diagnostic": "Current sources were reviewed; keep this as diagnostic guidance unless stronger evidence is found.",
+    "source-research-needed": "The entry is documented for discovery, but it still needs deeper source research before promoting a fix.",
+  };
+  return descriptions[value] ?? "This entry has not been included in a validation triage pass yet.";
+}
+
 function scenarioFilterLabel(value) {
   if (value === allOption) return allOption;
   const labels = {
@@ -378,13 +396,11 @@ function App() {
 
   const selectedEntry = selectedId ? errorEntries.find((entry) => entry.id === selectedId) : null;
   const qualitySummary = useMemo(() => {
-    const needsValidation = errorEntries.filter(
-      (entry) => entry.confidence === "low" || ["diagnostic-only", "unresolved", "needs-review"].includes(fixStatusValue(entry)),
-    );
+    const needsSourceResearch = errorEntries.filter((entry) => entry.validationStatus === "source-research-needed");
     const hasGuidance = errorEntries.filter((entry) => ["known-fix", "workaround"].includes(fixStatusValue(entry)));
     const scenarioEntries = errorEntries.filter((entry) => (entry.scenarios?.length ?? 0) > 0);
     return {
-      needsValidation: needsValidation.length,
+      needsSourceResearch: needsSourceResearch.length,
       lowConfidence: errorEntries.filter((entry) => entry.confidence === "low").length,
       hasGuidance: hasGuidance.length,
       scenarioEntries: scenarioEntries.length,
@@ -606,8 +622,8 @@ function App() {
             <h2>Improve trust by validating uncertain entries.</h2>
           </div>
           <button type="button" onClick={focusValidationQueue}>
-            <strong>{qualitySummary.needsValidation}</strong>
-            <span>Need validation</span>
+            <strong>{qualitySummary.needsSourceResearch}</strong>
+            <span>Need source research</span>
           </button>
           <button type="button" onClick={focusGuidedFixes}>
             <strong>{qualitySummary.hasGuidance}</strong>
@@ -617,7 +633,7 @@ function App() {
             <strong>{qualitySummary.scenarioEntries}</strong>
             <span>Multiple scenarios</span>
           </button>
-          <span className="quality-note">{qualitySummary.lowConfidence} low-confidence entries remain.</span>
+          <span className="quality-note">{qualitySummary.lowConfidence} low-confidence entries remain visible for discovery.</span>
         </section>
 
       <section className="workspace">
@@ -886,6 +902,10 @@ function ErrorDetail({ entry, onShare }) {
             <strong>Fix status</strong>
             {fixStatusLabel(fixStatusValue(entry))}
           </span>
+          <span>
+            <strong>Validation</strong>
+            {validationStatusLabel(entry.validationStatus)}
+          </span>
         </div>
 
         <DetailSection title="Symptoms">
@@ -986,6 +1006,13 @@ function ErrorDetail({ entry, onShare }) {
             {fixStatusValue(entry) === "needs-review" &&
               "This entry needs additional source review before a fix status can be assigned."}
           </p>
+        </section>
+        <section className="side-card">
+          <h3>Validation Status</h3>
+          <span className={`validation-status ${entry.validationStatus ?? "not-triaged"}`}>
+            {validationStatusLabel(entry.validationStatus)}
+          </span>
+          <p>{validationStatusDescription(entry.validationStatus)}</p>
         </section>
         <section className="side-card">
           <h3>Source Priority</h3>
@@ -1116,5 +1143,8 @@ function InfoDialog({ type, usageStats, onClose }) {
   );
 }
 
-createRoot(document.getElementById("root")).render(<App />);
+const rootElement = document.getElementById("root");
+const appRoot = window.__ficheBaitErrorHelperRoot ?? createRoot(rootElement);
+window.__ficheBaitErrorHelperRoot = appRoot;
+appRoot.render(<App />);
 
