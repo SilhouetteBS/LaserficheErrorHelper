@@ -2716,28 +2716,30 @@ const curatedErrorEntries = [
     message: "Administration Hub cannot connect to LFDS.",
     product: "Administration Hub",
     versions: ["Version 12"],
-    confidence: "low",
-    fixStatus: "unresolved",
-    reviewedDate: "2026-06-27",
+    confidence: "medium",
+    fixStatus: "workaround",
+    reviewedDate: "2026-06-28",
     summary:
-      "Administration Hub configuration can fail with LFAH1000-ErrorConnectToLFDS while connecting to Directory Server. The reviewed thread documents the symptom but does not include a confirmed fix.",
+      "Administration Hub configuration can fail with LFAH1000-ErrorConnectToLFDS while connecting to Directory Server. A community reply reports the issue was caused by multiple LFDS licensing sites where the domain for the configured connection user was not present as an identity provider on all sites.",
     symptoms: [
       "Administration Hub configuration reports LFAH1000-ErrorConnectToLFDS.",
       "The issue may appear during a Version 12 upgrade or fresh Administration Hub install.",
       "The service account and configured FQDN may appear correct.",
     ],
     likelyFixes: [
+      "If Directory Server has multiple licensing sites, confirm each relevant site has the connection user's domain configured as an identity provider.",
       "Verify the LFDS licensing site, service account, and FQDN used on the Administration Hub configuration page.",
       "Check Administration Hub and LFDS logs for the underlying connection or authentication failure.",
-      "No confirmed public fix was posted in the reviewed Answers thread; escalate with logs if configuration checks do not isolate the cause.",
+      "Escalate with Administration Hub and LFDS logs if the environment has a single licensing site or the identity-provider configuration is already correct.",
     ],
-    notes: "Documented as an unresolved candidate so users can recognize the error and gather the right logs.",
+    notes:
+      "The identity-provider fix is community-reported for a multiple-licensing-site environment; a later reply says a similar error can also occur with only one licensing site.",
     sources: [
       {
-        sourceType: "answers-community",
+        sourceType: "answers-community-confirmed",
         title: "Administrator Hub Configuration LFAH1000-ErrorConnectToLFDS",
         url: "https://answers.laserfiche.com/questions/225151/Administrator-Hub-Configuration-LFAH1000ErrorConnectToLFDS",
-        note: "Community thread documents the error during Administration Hub Version 12 configuration, but no confirmed resolution is posted.",
+        note: "Community reply reports that adding the connection user's domain as an identity provider for all LFDS licensing sites resolved LFAH1000.",
       },
     ],
   },
@@ -2748,8 +2750,8 @@ const curatedErrorEntries = [
     product: "Administration Hub",
     versions: ["Version 12"],
     confidence: "low",
-    fixStatus: "unresolved",
-    reviewedDate: "2026-06-27",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
     summary:
       "Administration Hub can fail to get the server list when the Admin Hub site cannot establish SSL connections with Agent Controller or the service connection point update fails.",
     symptoms: [
@@ -2963,8 +2965,8 @@ const curatedErrorEntries = [
     product: "WebLink",
     versions: ["Version 11"],
     confidence: "low",
-    fixStatus: "unresolved",
-    reviewedDate: "2026-06-27",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
     summary:
       "WebLink ArgumentNullException messages were reported after applying a hotfix, but the reviewed thread does not include a confirmed root cause or fix.",
     symptoms: [
@@ -3254,8 +3256,8 @@ const curatedErrorEntries = [
     product: "WebLink",
     versions: ["Version 11"],
     confidence: "low",
-    fixStatus: "unresolved",
-    reviewedDate: "2026-06-27",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
     summary:
       "WebLink tile/image requests can log 9035 when too many operations are running. The reviewed source documents the event but does not provide a confirmed public fix.",
     symptoms: [
@@ -3316,8 +3318,8 @@ const curatedErrorEntries = [
     product: "Forms",
     versions: ["Version 11"],
     confidence: "low",
-    fixStatus: "unresolved",
-    reviewedDate: "2026-06-27",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
     summary:
       "Forms Save to Repository can suspend instances with LFF5437-STRErrorGeneratePage while generating PDF pages. The reviewed thread documents the stack but has no confirmed public fix.",
     symptoms: [
@@ -3347,7 +3349,7 @@ const curatedErrorEntries = [
     product: "Forms",
     versions: ["Version 12"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "workaround",
     reviewedDate: "2026-06-27",
     summary:
       "Forms can return LFF9320-FormsValidationAggregateException when hidden or rule-controlled required fields still fail validation during submission.",
@@ -3378,7 +3380,7 @@ const curatedErrorEntries = [
     product: "Forms",
     versions: ["Version 11", "Version 12"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Forms archive or Save to Laserfiche routing can suspend with Sequence contains no matching element. The reviewed source documents the stack but no confirmed fix.",
@@ -3473,7 +3475,7 @@ const curatedErrorEntries = [
     product: "Workflow",
     versions: ["Version 9"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Workflow Subscriber can report 0637-WF1 when the server resets the session while retrieving subscriber profile data. The reviewed thread documents the stack but no confirmed fix.",
@@ -3536,7 +3538,7 @@ const curatedErrorEntries = [
     product: "Workflow",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "workaround",
     reviewedDate: "2026-06-27",
     summary:
       "Workflow 10.4 can log generic error 2147467259 with Error sending HTTP request to server when an otherwise valid workflow does not trigger as expected.",
@@ -3661,8 +3663,8 @@ const curatedErrorEntries = [
     message: "WebLink read-only named user login returns no license available.",
     product: "WebLink",
     versions: ["Version 10"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    confidence: "medium",
+    fixStatus: "known-fix",
     reviewedDate: "2026-06-27",
     summary:
       "WebLink auto-login with a read-only named user can return 9030 in a concurrent-license Avante environment. The reviewed thread documents the symptom but does not include a confirmed public resolution.",
@@ -4286,8 +4288,8 @@ const curatedErrorEntries = [
     product: "Forms",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
-    reviewedDate: "2026-06-27",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
     summary:
       "Forms Mobile offline draft submission can fail with a generic form error. The reviewed thread documents the Version 10.4.1 symptom but has no public replies.",
     symptoms: [
@@ -4297,10 +4299,11 @@ const curatedErrorEntries = [
     ],
     likelyFixes: [
       "Check whether the environment can upgrade beyond 10.4.1 to a version with improved offline submission recovery.",
-      "Collect device, mobile app, Forms version, and whether the form can be reopened from the outbox.",
-      "No confirmed public fix was posted in the reviewed Answers thread.",
+      "Collect device, mobile app, Forms version, connectivity state, and whether the form can be reopened from the outbox.",
+      "No confirmed public fix was posted in the reviewed Answers thread; treat this as a recognition/log-gathering entry.",
     ],
-    notes: "Published as unresolved because the exact message and version context are useful for recognition.",
+    notes:
+      "The source identifies Forms Mobile 10.4.1 and notes that later 10.4.4.4 behavior improved recovery, but it does not confirm a root cause or fix.",
     sources: [
       {
         sourceType: "answers-community",
@@ -6411,8 +6414,8 @@ const curatedErrorEntries = [
     product: "Web Client",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
-    reviewedDate: "2026-06-27",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
     summary:
       "Web Client Scanning can intermittently report that a temporary TIFF file under AppData\\Local\\Temp\\Laserfiche Scanning cannot be found; the reviewed thread has no public replies.",
     symptoms: [
@@ -6703,8 +6706,8 @@ const curatedErrorEntries = [
     product: "Laserfiche Installer",
     versions: ["Version 11"],
     confidence: "low",
-    fixStatus: "unresolved",
-    reviewedDate: "2026-06-27",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
     summary:
       "Laserfiche 11 setup can fail with a generic rollback warning on a new workstation; the reviewed public thread has no replies, so this entry is for recognition and evidence gathering.",
     symptoms: [
@@ -6716,10 +6719,10 @@ const curatedErrorEntries = [
       "Rerun setup with logging enabled and capture the component MSI log that fails before the rollback warning.",
       "Confirm the installer files are local, unblocked, and run elevated.",
       "Check Windows Event Viewer and Programs and Features for partially installed Laserfiche components before retrying.",
-      "Open a Support case with setup logs because the public thread has no confirmed fix.",
+      "Open a Support case with setup logs because the public thread has no replies or confirmed fix.",
     ],
     notes:
-      "This is intentionally unresolved; the generic rollback message by itself is not enough to identify the failing MSI component.",
+      "This is diagnostic-only; the generic rollback message by itself is not enough to identify the failing MSI component.",
     sources: [
       {
         sourceType: "answers-community",
@@ -7112,8 +7115,8 @@ const curatedErrorEntries = [
     product: "Office Integration",
     versions: ["Version 12"],
     confidence: "low",
-    fixStatus: "unresolved",
-    reviewedDate: "2026-06-27",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
     summary:
       "Large Word documents can show Request Entity Too Large in Web Client while the same document opens in the desktop client; the reviewed thread has no public replies.",
     symptoms: [
@@ -7127,7 +7130,7 @@ const curatedErrorEntries = [
       "Collect Web Client server logs and open Support because no confirmed public fix was posted.",
     ],
     notes:
-      "Published as unresolved for recognition; this is Web Client document viewing with Office documents rather than the desktop Office add-in.",
+      "This is diagnostic-only for recognition; the thread documents a Web Client document viewing issue with Office documents but has no public replies.",
     sources: [
       {
         sourceType: "answers-community",
@@ -8390,16 +8393,18 @@ const curatedErrorEntries = [
     product: "Snapshot",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
-    reviewedDate: "2026-06-27",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
     summary:
-      "Snapshot 10.2.1 can log Windows PrintService driver load errors for LFSS1377ProNT.DLL or LFSS1377MonNT.DLL, but the public thread has no replies.",
+      "Snapshot 10.2.1 can log Windows PrintService driver load errors for LFSS1377ProNT.DLL or LFSS1377MonNT.DLL. The public thread notes the event appeared across multiple installations and may not affect Snapshot behavior, but it has no confirmed product fix.",
     symptoms: ["PrintService Admin log shows Error code 126.", "The module is LFSS1377ProNT.DLL or LFSS1377MonNT.DLL."],
     likelyFixes: [
       "Repair or reinstall Snapshot if printing behavior is affected.",
       "Check whether the error is present on all Snapshot 10.2.1 machines and whether it correlates with actual print failures.",
       "Collect Windows PrintService logs for Support if print operations crash.",
     ],
+    notes:
+      "The thread is useful for recognizing the PrintService 126/LFSnapshot Processor 1377 event, but it does not establish that Snapshot caused unrelated printing crashes.",
     sources: [
       {
         sourceType: "answers-community",
@@ -9004,16 +9009,24 @@ const curatedErrorEntries = [
     message: "Laserfiche Workflow export error.",
     product: "Workflow",
     versions: ["Version 10"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    confidence: "medium",
+    fixStatus: "workaround",
     reviewedDate: "2026-06-28",
-    summary: "Workflow export can fail with 0104-WF6; the fresh pass captured the signature but not a confirmed public fix.",
-    symptoms: ["Exporting a Workflow fails.", "The error code is 0104-WF6."],
-    likelyFixes: [
-      "Retry the export after simplifying the selected workflow package or exporting a single workflow.",
-      "Check Workflow Designer and server logs for serialization, file, or permission errors.",
-      "Open Support with the workflow export package details if the error persists.",
+    summary:
+      "Workflow export can fail with 0104-WF6 when Workflow Designer serializes linked or external objects and encounters an invalid ID. Community replies point to broken external references and a workaround of republishing under a new name or downloading from Workflow Admin Console.",
+    symptoms: [
+      "Exporting a Workflow fails while the workflow still publishes and runs.",
+      "Diagnostics show The argument 'Id' was outside of the allowed range. [0104-WF6].",
+      "The stack trace can reference ExternalOptionsBase.GetItem and WorkflowExporter.ExportLinkedObjects.",
     ],
+    likelyFixes: [
+      "Review the workflow for external references, lookups, scripts, or linked objects that no longer exist or have been disabled.",
+      "Remove or repair broken external references, then try exporting again.",
+      "Confirm Workflow Designer and Workflow Server are on compatible versions before exporting.",
+      "If the workflow still exports incorrectly, try publishing the workflow under a different name or downloading it from Workflow Admin Console.",
+    ],
+    notes:
+      "The workaround is community-reported; Laserfiche employee guidance in the thread asks for diagnostics and version checks.",
     sources: [
       {
         sourceType: "answers-community",
@@ -9183,15 +9196,24 @@ const curatedErrorEntries = [
     product: "Web Client",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-28",
-    summary: "Web Client 10.3 can report errors when launching LFScan.exe from the browser for Web Scan workflows.",
-    symptoms: ["Launching scanning from Web Client fails while trying to start LFScan.exe.", "The issue is associated with browser-launched Web Scan on Web Client 10.3."],
+    summary:
+      "Web Client 10.3 can report errors when launching LFScan.exe from the browser for Web Scan workflows. A Laserfiche employee reply says an empty-response error suggests a network problem between the workstation and Web Access server or an error page being misread as an empty scanning response.",
+    symptoms: [
+      "Launching scanning from Web Client fails while trying to start LFScan.exe.",
+      "Clicking through the first error can produce an empty response style follow-up error.",
+      "The issue is associated with browser-launched Web Scan on Web Client 10.3.",
+    ],
     likelyFixes: [
       "Verify Web Client Scanning and WebTools Agent are installed and version-aligned with Web Client.",
+      "Check network connectivity from the workstation to the Web Access/Web Client server outside the browser launch flow.",
+      "Look for authentication, proxy, or IIS error pages returned to LFScan.exe instead of the expected scanning response.",
       "Check browser protocol-handler registration for LFScan.exe and whether endpoint security blocks the launch.",
-      "Collect Web Client, WebTools Agent, and local scanning logs for the launch attempt.",
+      "Collect Web Client, WebTools Agent, local scanning logs, and network traces before opening Support.",
     ],
+    notes:
+      "Laserfiche employee guidance is diagnostic rather than a final fix, so this stays diagnostic-only.",
     sources: [
       {
         sourceType: "answers-community",
@@ -9208,15 +9230,23 @@ const curatedErrorEntries = [
     product: "Web Client",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-28",
-    summary: "Opening a document in Web Access/Web Client can report Automation Rights not Granted.",
-    symptoms: ["Opening a document through Web Access reports Automation Rights not Granted.", "The issue appears in the Web Client document-opening path."],
-    likelyFixes: [
-      "Check the affected user's repository rights and any document automation or integration permissions involved in the open action.",
-      "Compare behavior in the Windows/Desktop Client and with another user to isolate Web Client versus repository rights.",
-      "Collect Web Client operational logs for the document open request.",
+    summary:
+      "Opening a document in Web Access/Web Client can report Automation Rights not Granted. A Laserfiche employee reply says the captured error occurred while Office Integration launched PowerPoint and recommends collecting the full detail text and logs if it recurs.",
+    symptoms: [
+      "Opening a document through Web Access reports Automation Rights not Granted.",
+      "The issue can occur in the Web Client document-opening path when Office Integration launches PowerPoint.",
+      "The original requester later reported the issue started working without a confirmed change.",
     ],
+    likelyFixes: [
+      "If it recurs, click Details and capture the full error text rather than only the summary message.",
+      "Set the Web Client event log level to debug and review C:\\ProgramData\\Laserfiche\\WebAccess\\EventLog on the Web Client server.",
+      "Check Office Integration and PowerPoint launch behavior on the affected workstation.",
+      "Open Support with the full detail text and logs if the issue returns.",
+    ],
+    notes:
+      "The source contains employee diagnostic guidance but no reproducible final fix, so this entry remains diagnostic-only.",
     sources: [
       {
         sourceType: "answers-community",
@@ -9307,19 +9337,27 @@ const curatedErrorEntries = [
     message: "WebStorage.WebStorageModule error on Web Client configuration page.",
     product: "Web Client",
     versions: ["Version 12"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    confidence: "medium",
+    fixStatus: "workaround",
     reviewedDate: "2026-06-28",
-    summary: "Web Client 12 configuration page can report a WebStorage.WebStorageModule error.",
-    symptoms: ["Opening the Web Client 12 Configuration page reports WebStorage.WebStorageModule.", "The issue affects configuration access rather than normal repository browsing."],
+    summary:
+      "Web Client 12 configuration page can report a WebStorage.WebStorageModule type-load error after upgrade or install. The requester reproduced it on multiple servers and reported that running a repair corrected the error on at least one server.",
+    symptoms: [
+      "Opening the Web Client 12 Configuration page reports Could not load type Laserfiche.WebAccess.WebStorage.WebStorageModule.",
+      "Restarting the app pool and IIS may not clear the error.",
+      "The issue affects configuration access rather than normal repository browsing.",
+    ],
     likelyFixes: [
+      "Run a repair of the Web Client installation after backing up configuration.",
       "Check IIS module registration and Web Client configuration files after install or upgrade.",
       "Review Web Client configuration logs and Windows event logs for module load errors.",
-      "Repair or reinstall Web Client only after preserving configuration backups.",
+      "If repair is not enough, verify the site URL/FQDN matches the expected certificate name and open Support with the install/repair logs.",
     ],
+    notes:
+      "Repair is requester-reported and reproduced in the thread; later replies suggest there may be more than one trigger.",
     sources: [
       {
-        sourceType: "answers-community",
+        sourceType: "answers-community-confirmed",
         title: "Web Client 12 Configuration Page WebStorage.WebStorageModule Error",
         url: "https://answers.laserfiche.com/questions/227982/Web-Client-12-Configuration-Page-WebStorageWebStorageModule-Error",
         note: "Fresh Web Client batch source for WebStorage.WebStorageModule configuration error.",
@@ -9331,20 +9369,28 @@ const curatedErrorEntries = [
     code: "WEBCLIENT-CACHE-QUOTA-EXCEEDED",
     message: "Cache Quota Exceeded when saving list field changes.",
     product: "Web Client",
-    versions: ["Version 12"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    versions: ["Version 11"],
+    confidence: "medium",
+    fixStatus: "known-fix",
     reviewedDate: "2026-06-28",
-    summary: "Updating fields in Web Client can fail with Cache Quota Exceeded / Failed to execute.",
-    symptoms: ["Saving to a list field reports Cache Quota Exceeded.", "The browser reports Failed to execute when updating fields."],
+    summary:
+      "Updating fields in Web Client 11 can fail with Cache Quota Exceeded / Failed to execute when browser local storage for the Web Client site reaches its limit. The requester reported that clearing local storage in Edge appeared to resolve the issue and switching to Chrome avoided recurrence.",
+    symptoms: [
+      "Saving to a list field reports Cache Quota Exceeded.",
+      "The browser reports Failed to execute when updating fields.",
+      "The issue may affect only one user or browser profile and may be intermittent.",
+    ],
     likelyFixes: [
-      "Test with browser storage cleared or in a different browser profile.",
-      "Review whether the affected field/list has unusually large values or client-side cached data.",
+      "Clear browser local storage for the Web Client site, not just cookies or normal cache.",
+      "Retest in a clean browser profile or another browser to confirm whether the problem is local browser storage.",
+      "If the issue returns quickly, review whether the affected field/list or user workflow is creating unusually large client-side cached data.",
       "Collect browser console output and Web Client logs before escalating.",
     ],
+    notes:
+      "A community reply explains Web Access uses browser local storage and can hit a 5 MB limit; requester follow-up says clearing Edge local storage appeared to resolve the issue.",
     sources: [
       {
-        sourceType: "answers-community",
+        sourceType: "answers-community-confirmed",
         title: "Error Saving to List Field Cache Quota Exceeded Failed to execute When Updating Fields",
         url: "https://answers.laserfiche.com/questions/231343/Error-Saving-to-List-Field-Cache-Quota-Exceeded-Failed-to-execute-When-Updating-Fields",
         note: "Fresh Web Client batch source for Cache Quota Exceeded while updating fields.",
@@ -9457,19 +9503,27 @@ const curatedErrorEntries = [
     message: "JSON: undefined error in Web Access 10.",
     product: "Web Client",
     versions: ["Version 10"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    confidence: "medium",
+    fixStatus: "known-fix",
     reviewedDate: "2026-06-28",
-    summary: "Web Access 10 can show Error - JSON: undefined.",
-    symptoms: ["Web Access 10 reports Error - JSON: undefined.", "The error appears in the Web Access/Web Client browser UI."],
+    summary:
+      "Web Access 10.0.5 can show Error - JSON: undefined when opening a folder in Internet Explorer. The requester reported that applying the Web Access 10.1 update made the error go away.",
+    symptoms: [
+      "Web Access 10 reports Error - JSON: undefined.",
+      "The error appears in the Web Access/Web Client browser UI when opening a folder.",
+      "The documented environment was Web Access 10.0.5.275 with Internet Explorer 11.",
+    ],
     likelyFixes: [
+      "Upgrade Web Access/Web Client from 10.0.5 to 10.1 or later when the environment matches this Version 10 symptom.",
       "Check browser console and Web Client logs for the failing request that returned undefined JSON.",
       "Clear browser cache and compare another browser/workstation.",
-      "Review Web Access/Web Client patch level if the issue follows an upgrade or browser update.",
+      "Open Support if the same message appears on a later Web Client version or during a different operation.",
     ],
+    notes:
+      "A requester follow-up says the error went away after applying the Web Access 10.1 update; a later unrelated Cloud comment did not include a public fix.",
     sources: [
       {
-        sourceType: "answers-community",
+        sourceType: "answers-community-confirmed",
         title: "Error - JSON: undefined - Web Access 10",
         url: "https://answers.laserfiche.com/questions/95938/Error--JSON-undefined--Web-Access-10",
         note: "Fresh Web Client batch source for Web Access 10 JSON undefined error.",
@@ -20049,6 +20103,107 @@ const curatedErrorEntries = [
       url: "https://answers.laserfiche.com/questions/63728/Using-Microsoft-Shell-Controls-And-Automation-COM-in-a-workflow-having-problems",
       note: "Reviewed detail page and found fix/workaround language; documented as curated source evidence. Final remaining-candidate pass source for 0x80004002.",
     }],
+  },
+  {
+    id: "ai-service-mediatypeformatter-text-plain",
+    code: "AI-MEDIATYPEFORMATTER-TEXT-PLAIN",
+    message: "No MediaTypeFormatter is available for media type text/plain in Laserfiche AI Service.",
+    product: "AI Service",
+    versions: ["Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Laserfiche AI Service for self-hosted systems can log No MediaTypeFormatter for text/plain while Smart Fields processing leaves documents unprocessed. A community follow-up says jobs submitted in batches larger than 10 may move to a different queue processed later.",
+    symptoms: [
+      "Event Viewer reports No MediaTypeFormatter is available to read HybridJobErrorDetails from text/plain content.",
+      "The affected document is not processed by Smart Fields.",
+      "Retrying the same document can succeed, suggesting the document itself is not necessarily bad.",
+      "Submitting more than 10 jobs at a time may leave jobs waiting while smaller batches continue.",
+    ],
+    likelyFixes: [
+      "Throttle AI/Smart Fields submissions to 10 or fewer jobs at a time when this queue behavior matches the environment.",
+      "Check whether queued jobs resume during the later processing window before reprocessing the same documents repeatedly.",
+      "Collect AI Service, Smart Fields, and Windows Event Viewer logs for the failed job timestamp.",
+      "Open Support if the text/plain formatter error occurs outside the large-batch queue scenario.",
+    ],
+    notes:
+      "The queue explanation is community-reported and should be treated as diagnostic guidance until confirmed by Laserfiche Support for a specific environment.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "No MediaTypeFormatter for media type text/plain in Laserfiche AI Service",
+        url: "https://answers.laserfiche.com/questions/233768/No-MediaTypeFormatter-for-media-type-textplain-in-Laserfiche-AI-Service",
+        note: "Requester follow-up says submitting more than 10 jobs moves them to a queue processed later, explaining stuck AI Service work.",
+      },
+    ],
+  },
+  {
+    id: "webtools-agent-no-listening-port",
+    code: "WEBTOOLS-NO-LISTENING-PORT",
+    message: "No listening port could be assigned for Laserfiche Webtools Agent.",
+    product: "Webtools Agent",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Webtools Agent can report No listening port could be assigned on Remote Desktop Services hosts when multiple users are logged in and the local Webtools Agent ports are exhausted or unavailable.",
+    symptoms: [
+      "Webtools Agent reports No listening port could be assigned.",
+      "The issue appears after several users log in to a shared Remote Desktop Services host.",
+      "Scanning from Web Client is blocked for affected users.",
+      "The source mentions Webtools Agent ports 18435, 18436, and 18437.",
+    ],
+    likelyFixes: [
+      "Check whether multiple users on the same RDS host are competing for the Webtools Agent local listening ports.",
+      "Use a dedicated workstation/session model for users who need scanning when shared RDS sessions exhaust the local ports.",
+      "Review Webtools Agent logs and active local port bindings before restarting the agent.",
+      "Open Support if the same error occurs on a single-user workstation.",
+    ],
+    notes:
+      "The public thread documents the RDS/multiple-user pattern but does not include a universal product fix.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Laserfiche Webtools Agent No listening port could be assigned",
+        url: "https://answers.laserfiche.com/questions/181282/Laserfiche-Webtools-Agent-No-listening-port-could-be-assigned",
+        note: "Thread documents Webtools Agent local-port exhaustion symptoms on Remote Desktop Services with multiple users.",
+      },
+    ],
+  },
+  {
+    id: "webtools-agent-certificate-chain-ports",
+    code: "WEBTOOLS-CERTIFICATE-CHAIN",
+    message: "Webtools Agent local certificate chain or port check fails.",
+    product: "Webtools Agent",
+    versions: ["Version 11", "Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Webtools Agent uses local HTTPS endpoints on ports such as 18435 through 18437. A reviewed thread says certificate trust can be checked by opening the plugin.laserfichelocalhost.com local port URL and inspecting whether the GoDaddy G2 intermediate certificate is present.",
+    symptoms: [
+      "Webtools Agent appears installed but browser-side integration or scanning cannot connect reliably.",
+      "Local URLs under plugin.laserfichelocalhost.com on Webtools Agent ports show certificate trust errors.",
+      "The certificate chain shows only the wildcard laserfichelocalhost certificate instead of the full chain.",
+    ],
+    likelyFixes: [
+      "Open https://plugin.laserfichelocalhost.com:<currentPort> in a browser tab on the affected workstation.",
+      "Inspect the certificate hierarchy and confirm the GoDaddy G2 intermediate certificate is present.",
+      "Allow Webtools Agent to download/update its certificate dependencies, checking proxy or firewall restrictions if it cannot.",
+      "Review Webtools Agent logs for certificate download or local HTTPS binding errors.",
+    ],
+    notes:
+      "This is diagnostic guidance for local Webtools Agent connectivity; exact port selection depends on the workstation/session.",
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Webtools Agent - Ports",
+        url: "https://answers.laserfiche.com/questions/198065/Webtools-Agent--Ports",
+        note: "Community-confirmed guidance describes checking plugin.laserfichelocalhost.com local port certificate hierarchy for the GoDaddy G2 intermediate.",
+      },
+    ],
   },
 ];
 

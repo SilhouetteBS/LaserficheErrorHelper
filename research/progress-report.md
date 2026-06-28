@@ -4,8 +4,8 @@ Generated: 2026-06-28
 
 ## Summary
 
-- Published helper entries: 1902
-- Reviewed source ledger rows: 921
+- Published helper entries: 1905
+- Reviewed source ledger rows: 924
 - Discovery rows tracked: 3931
 - Remaining candidate rows: 0
 
@@ -13,20 +13,20 @@ Generated: 2026-06-28
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 312 |
-| known-fix | 102 |
+| diagnostic-only | 328 |
+| known-fix | 105 |
 | needs-review | 1135 |
-| unresolved | 42 |
-| workaround | 311 |
+| unresolved | 22 |
+| workaround | 315 |
 
 ## Source Ledger Review Status
 
 | Review status | Sources |
 | --- | --- |
 | cross-product | 65 |
-| curated | 353 |
-| curated-partial | 98 |
-| curated-unresolved | 399 |
+| curated | 355 |
+| curated-partial | 111 |
+| curated-unresolved | 387 |
 | no-matching-posts | 1 |
 | not-actionable | 4 |
 
@@ -34,8 +34,8 @@ Generated: 2026-06-28
 
 | Source type | Sources |
 | --- | --- |
-| answers-community | 84 |
-| answers-community-confirmed | 539 |
+| answers-community | 81 |
+| answers-community-confirmed | 545 |
 | answers-laserfiche-employee | 280 |
 | answers-search | 1 |
 | official-docs | 16 |
@@ -45,7 +45,7 @@ Generated: 2026-06-28
 | Product | Published entries | Remaining candidates |
 | --- | --- | --- |
 | Administration Hub | 4 | 0 |
-| AI Service | 0 | 0 |
+| AI Service | 1 | 0 |
 | API Server | 15 | 0 |
 | Audit Trail | 20 | 0 |
 | Common Dialog | 9 | 0 |
@@ -66,7 +66,7 @@ Generated: 2026-06-28
 | Snapshot | 10 | 0 |
 | Web Client | 60 | 0 |
 | WebLink | 24 | 0 |
-| Webtools Agent | 0 | 0 |
+| Webtools Agent | 2 | 0 |
 | Windows Client/Desktop Client | 234 | 0 |
 | Workflow | 62 | 0 |
 

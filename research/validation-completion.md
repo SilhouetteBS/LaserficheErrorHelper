@@ -1,24 +1,22 @@
 # Validation Completion
 
-Validation rows triaged: 1525
-Source-research backlog rows: 12
+Validation rows triaged: 1522
+Source-research backlog rows: 0
 
 ## Validation Status Summary
 
 | Validation status | Entries |
 | --- | --- |
 | official-doc-baseline | 1135 |
-| reviewed-diagnostic | 378 |
-| source-research-needed | 12 |
+| reviewed-diagnostic | 387 |
 
 ## Prior Disposition Summary
 
 | Disposition | Entries |
 | --- | --- |
-| candidate-for-fix-upgrade | 243 |
-| candidate-for-scenario-review | 12 |
-| keep-diagnostic-only | 63 |
-| needs-additional-source-research | 12 |
+| candidate-for-fix-upgrade | 245 |
+| candidate-for-scenario-review | 11 |
+| keep-diagnostic-only | 71 |
 | official-doc-baseline-only | 1135 |
 | priority-source-review | 60 |
 
@@ -26,7 +24,8 @@ Source-research backlog rows: 12
 
 | Product | Entries |
 | --- | --- |
-| Administration Hub | 2 |
+| Administration Hub | 1 |
+| AI Service | 1 |
 | API Server | 7 |
 | Audit Trail | 7 |
 | Common Dialog | 9 |
@@ -45,10 +44,11 @@ Source-research backlog rows: 12
 | Quick Fields | 17 |
 | Records Management | 8 |
 | Snapshot | 7 |
-| Web Client | 38 |
-| WebLink | 13 |
+| Web Client | 35 |
+| WebLink | 12 |
+| Webtools Agent | 2 |
 | Windows Client/Desktop Client | 207 |
-| Workflow | 27 |
+| Workflow | 26 |
 
 ## Rule
 
