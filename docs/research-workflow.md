@@ -44,6 +44,8 @@ Run `npm run quality` to generate `research/quality-report.md`. Use the report t
 3. unresolved entries that need another Answers/documentation pass
 4. message-only entries that should be merged into an existing code entry as a scenario
 
+Run `npm run validation:batches` to triage the full validation queue in batches of 50. The generated ledger records each candidate, its batch, a disposition, and the next review step. Treat the ledger as a planning artifact: it proves every candidate was triaged, but it does not by itself justify promoting a fix.
+
 ## Product-Specific Discovery
 
 The official Version 12 server-code pass is tracked separately in `research/answers-search-results.json` and `research/answers-reviewed-summary.json`.

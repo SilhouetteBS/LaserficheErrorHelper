@@ -2,6 +2,8 @@
 
 ## 2026-06-28
 
+- Added a full validation batch ledger for all 1,634 validation candidates in 50-entry batches.
+- Added `npm run validation:batches` to regenerate the batch JSON and markdown reports.
 - Added FicheBait branding, logo, color palette, and ICO favicon.
 - Changed the first-visit detail pane to show instructions until a user selects an error.
 - Added a research-focus panel for validation, source-backed fixes, and scenario entries.

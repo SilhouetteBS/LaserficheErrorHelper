@@ -15,6 +15,7 @@ Interactive GitHub Pages app for browsing Laserfiche self-hosted error codes, sy
 npm install
 npm run lint:data
 npm run quality
+npm run validation:batches
 npm run build
 npm run render:check
 npm run dev
@@ -24,6 +25,7 @@ npm run dev
 
 - `npm run progress` updates the broad research coverage report.
 - `npm run quality` updates `research/quality-report.md` with validation counts and the highest-priority uncertain entries.
+- `npm run validation:batches` updates `research/validation-batches.md` and `research/validation-batches.json` in batches of 50.
 - Low-confidence or diagnostic-only entries should stay visible, but fixes should not be promoted without source-backed evidence.
 - Repeated causes or fixes for the same code should be captured as scenarios on the existing entry instead of creating duplicate entries.
 

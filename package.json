@@ -12,6 +12,7 @@
     "candidates": "node tools/list-product-candidates.mjs",
     "progress": "node tools/generate-progress-report.mjs",
     "quality": "node tools/generate-quality-report.mjs",
+    "validation:batches": "node tools/generate-validation-batches.mjs 50",
     "lint:data": "node tools/validate-data.mjs",
     "render:check": "node tools/render-check.mjs"
   },
