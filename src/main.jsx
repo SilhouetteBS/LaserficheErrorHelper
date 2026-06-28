@@ -7,7 +7,6 @@ import {
   ChevronDown,
   ChevronRight,
   ExternalLink,
-  FileSearch,
   Filter,
   HelpCircle,
   Info,
@@ -293,7 +292,13 @@ function App() {
       <header className="topbar">
         <div className="topbar-inner">
           <div className="brand-row">
-            <FileSearch aria-hidden="true" size={28} />
+            <img
+              className="brand-logo"
+              src={`${import.meta.env.BASE_URL}fichebait-logo.png`}
+              alt="FicheBait"
+              width="168"
+              height="36"
+            />
             <h1>Laserfiche Self-Hosted Error Helper</h1>
           </div>
           <nav className="top-actions" aria-label="Utility links">
