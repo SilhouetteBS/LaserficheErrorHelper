@@ -5,7 +5,7 @@ Generated: 2026-06-28
 ## Summary
 
 - Published helper entries: 1905
-- Reviewed source ledger rows: 924
+- Reviewed source ledger rows: 923
 - Discovery rows tracked: 3931
 - Remaining candidate rows: 0
 

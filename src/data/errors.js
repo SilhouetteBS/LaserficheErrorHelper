@@ -855,6 +855,73 @@ const curatedErrorEntries = [
       "For search-time failures, check Laserfiche ContentRepository event logs for the underlying SQL error.",
       "If the search user cannot access more than 30 volumes, test with a user that has Manage Entry Access while opening a support case for the volume-access bug.",
     ],
+    scenarios: [
+      {
+        title: "Repository SQL connectivity or service-account failure",
+        summary:
+          "A generic 9008 can be the visible Laserfiche error when the repository server loses SQL connectivity or the Laserfiche Server service account cannot access required SQL/database resources.",
+        versions: ["Version 12"],
+        symptoms: [
+          "Repository operations fail with General database error. [9008].",
+          "Windows Event Viewer or Laserfiche Server logs contain the more specific SQL or database connectivity failure.",
+        ],
+        causes: [
+          "SQL Server connectivity, service-account permissions, attached database state, or DBMS access can fail underneath the generic 9008 response.",
+        ],
+        fixes: [
+          "Start with Windows Event Viewer on the Laserfiche Server and the ContentRepository logs for the underlying SQL error.",
+          "Verify the Laserfiche Server service account can access the DBMS and required database files.",
+          "Confirm SQL Server Express/MSDE expansion databases are attached when that database engine is used.",
+        ],
+        sourceUrls: [
+          "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-9008.htm",
+          "https://answers.laserfiche.com/questions/62879/Several-Database-Connection-error-on-LF-Server",
+        ],
+      },
+      {
+        title: "Search or volume-access operation hits a repository bug",
+        summary:
+          "Laserfiche employee guidance identifies a search-time 9008 scenario where users without access to more than 30 volumes can hit a known volume-access search bug.",
+        versions: ["Version 12"],
+        symptoms: [
+          "The error appears while searching or loading search results.",
+          "The event log includes ContentRepository detail for an underlying SQL/search operation.",
+          "The affected user cannot access more than 30 repository volumes.",
+        ],
+        causes: [
+          "A product bug can surface as 9008 when search evaluates volume access for users without access to many volumes.",
+        ],
+        fixes: [
+          "Check ContentRepository event logs for the exact search/database failure.",
+          "Test with a user that has Manage Entry Access as an isolation step.",
+          "Open a Support case and reference the volume-access pattern when the symptoms match.",
+        ],
+        sourceUrls: ["https://answers.laserfiche.com/questions/190690/Error-executing-SQL-command-general-database-error-9008"],
+      },
+      {
+        title: "PDF text extraction or page generation fails",
+        summary:
+          "PDF import, Import Agent, and Full Text Search can surface 9008-adjacent failures when PDF text extraction or page generation fails for specific files.",
+        versions: ["Version 9", "Version 10", "Version 12"],
+        symptoms: [
+          "Generating pages from a PDF reports General database error. [9008].",
+          "TextProvider terminates while attempting to extract text from a PDF.",
+          "The issue may be limited to PDFs with annotations, unusual content, or extraction problems.",
+        ],
+        causes: [
+          "PDF rendering/text extraction can fail before repository storage completes, and the product path may surface the failure as 9008 or a TextProvider termination.",
+        ],
+        fixes: [
+          "Test whether the same PDF imports as an electronic document without page generation.",
+          "Flatten or remove problematic PDF annotations and retry page generation.",
+          "Review Import Agent, Full Text Search, and repository logs for file-specific extraction errors before broad SQL changes.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/115078/PDF-import-General-database-error-9008-when-generating-pages",
+          "https://answers.laserfiche.com/questions/54069/TextProvider-process-terminated-when-attempting-to-extract-text-from-PDF",
+        ],
+      },
+    ],
     notes: "The volume-access search case was identified by Laserfiche as bug #336714; use it only when the event log and volume-access pattern match.",
     sources: [
       {
@@ -868,6 +935,24 @@ const curatedErrorEntries = [
         title: "Error executing SQL command. general database error 9008",
         url: "https://answers.laserfiche.com/questions/190690/Error-executing-SQL-command-general-database-error-9008",
         note: "Laserfiche employee recommends ContentRepository event-log review and describes a search bug involving inaccessible volumes.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Several Database Connection error on LF Server",
+        url: "https://answers.laserfiche.com/questions/62879/Several-Database-Connection-error-on-LF-Server",
+        note: "Related Laserfiche employee database-connectivity thread for 9008-style repository SQL failures.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "PDF import General database error [9008] when generating pages",
+        url: "https://answers.laserfiche.com/questions/115078/PDF-import-General-database-error-9008-when-generating-pages",
+        note: "Laserfiche employee thread for Import Agent/PDF page generation failures that surface as 9008.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "TextProvider process terminated when attempting to extract text from PDF",
+        url: "https://answers.laserfiche.com/questions/54069/TextProvider-process-terminated-when-attempting-to-extract-text-from-PDF",
+        note: "Community-confirmed Full Text Search/PDF extraction scenario related to 9008-adjacent PDF processing failures.",
       },
     ],
   },
@@ -936,6 +1021,48 @@ const curatedErrorEntries = [
           "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-9010.htm",
         ],
       },
+      {
+        title: "API Server token or service principal cannot access the repository",
+        summary:
+          "Self-hosted API Server can surface 9010 or access denied when the token identity is valid for authentication but lacks the expected repository access path.",
+        versions: ["Version 11", "Version 12"],
+        symptoms: [
+          "API token generation succeeds, but repository calls fail with 9010 or access denied.",
+          "Interactive repository login may work with a different identity.",
+        ],
+        causes: [
+          "The OAuth/client/token identity may not map to the repository user or permissions expected by the API call.",
+        ],
+        fixes: [
+          "Verify the API Server app registration, OAuth scopes, repository mapping, and trustee rights for the token identity.",
+          "Compare the API token identity to a known-working interactive repository account.",
+          "Check API Server and repository logs for the account actually used by the failed call.",
+        ],
+        sourceUrls: ["https://answers.laserfiche.com/questions/203765/Self-Hosted-Rest-API-9010-Access-Denied"],
+      },
+      {
+        title: "Mobile, Quick Fields, or Workflow stores stale credentials",
+        summary:
+          "Product components that store repository credentials can continue submitting an old password or connection profile after account, SAML, LFDS, or repository changes.",
+        versions: ["Version 10", "Version 11", "Version 12"],
+        symptoms: [
+          "Mobile Windows authentication, Quick Fields Scanning, or Workflow Subscriber reports 9010.",
+          "The affected service or profile fails while normal sign-in may work elsewhere.",
+        ],
+        causes: [
+          "Stored product credentials, SAML token handling, connection profiles, or monitored repository configuration may be stale or mismatched.",
+        ],
+        fixes: [
+          "Update the affected product's repository connection profile or stored credentials.",
+          "For Workflow Subscriber, remove and re-add the monitored repository when connection profile state is suspect.",
+          "For Mobile and Quick Fields, verify LFDS/SAML/authentication settings and retest with the same account path the product uses.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/71683/Cannot-Access-Laserfiche-Mobile-with-Windows-Account",
+          "https://answers.laserfiche.com/questions/232245/LF-Cloud-and-Quick-Fields-Scanning",
+          "https://answers.laserfiche.com/questions/57237/Workflow-Subscriber-error-9010",
+        ],
+      },
     ],
     notes:
       "The LFDS service-account fix came from a Laserfiche employee follow-up after a support ticket; the LFDS 10 Update 1 path applies to a narrower Rio/LFDS Windows-authentication scenario.",
@@ -957,6 +1084,30 @@ const curatedErrorEntries = [
         title: "LF Server 10 cannot connect with LFDS",
         url: "https://answers.laserfiche.com/questions/88453/LF-Server-10-cannot-connect-with-LFDS",
         note: "James Newton from Laserfiche says LFDS 10 Update 1 fixed a Rio/LFDS issue where Windows users received 9010 while repository named users could still log in.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Self Hosted Rest API 9010 Access Denied",
+        url: "https://answers.laserfiche.com/questions/203765/Self-Hosted-Rest-API-9010-Access-Denied",
+        note: "Related API Server 9010 scenario where token/authentication context differs from expected repository access.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Cannot Access Laserfiche Mobile with Windows Account",
+        url: "https://answers.laserfiche.com/questions/71683/Cannot-Access-Laserfiche-Mobile-with-Windows-Account",
+        note: "Related Mobile Windows-authentication 9010 scenario.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "LF Cloud and Quick Fields Scanning",
+        url: "https://answers.laserfiche.com/questions/232245/LF-Cloud-and-Quick-Fields-Scanning",
+        note: "Related Quick Fields Scanning/SAML-token 9010 scenario.",
+      },
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Workflow Subscriber error 9010",
+        url: "https://answers.laserfiche.com/questions/57237/Workflow-Subscriber-error-9010",
+        note: "Community-confirmed Workflow Subscriber 9010 scenario tied to monitored repository credentials.",
       },
     ],
   },
@@ -3856,6 +4007,72 @@ const curatedErrorEntries = [
       "Open Workflow Configuration Manager and review Monitored Repositories.",
       "Remove and re-add the repository using the correct server URL/name, then retest Forms routing.",
     ],
+    scenarios: [
+      {
+        title: "IAutoTrigger proxy depends on Workflow monitored repository configuration",
+        summary:
+          "Forms can return LFF3004 for IAutoTrigger when the Forms/Workflow monitored repository connection is stale or points to the wrong server URL.",
+        versions: ["Version 10"],
+        symptoms: [
+          "Saving a form or changing publish status reports that IAutoTrigger may not be running.",
+          "Restarting services alone does not permanently clear the error.",
+        ],
+        causes: [
+          "Workflow monitored repository configuration can contain stale repository connection details that prevent Forms from opening the auto-trigger service proxy.",
+        ],
+        fixes: [
+          "Open Workflow Configuration Manager and review Monitored Repositories.",
+          "Remove and re-add the repository using the correct server URL/name.",
+          "Retest Forms routing after the monitored repository connection is recreated.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/87831/Forms-10-error-The-requested-service-IAutoTrigger-may-not-be-running",
+        ],
+      },
+      {
+        title: "ILicensingService proxy is unavailable",
+        summary:
+          "A related LFF3004 variant points to Forms being unable to reach the licensing service endpoint used for Forms/LFDS licensing checks.",
+        versions: ["Version 10", "Version 11"],
+        symptoms: [
+          "Forms reports that ILicensingService may not be running.",
+          "The details include LFF3004-UnableToOpenServiceProxy.",
+        ],
+        causes: [
+          "Laserfiche licensing/LFDS services may be stopped, unreachable, or blocked for the configured Forms service identity.",
+        ],
+        fixes: [
+          "Confirm LFDS/licensing services required by Forms are running.",
+          "Verify Forms can reach the licensing service endpoint using its configured service account and URL.",
+          "Collect Forms, LFDS, and Windows event logs for the same timestamp before changing production settings.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/135953/The-requested-service-ILicensingService-may-not-be-running",
+          "https://answers.laserfiche.com/questions/199757/The-requested-service-ILicensingService-may-not-be-running-LFF3004UnableToOpenServiceProxy",
+        ],
+      },
+      {
+        title: "Forms 11 upgrade also reports LFF706 routing failures",
+        summary:
+          "After Forms upgrades, LFF3004 can appear with LFF706 when service URLs, routing endpoints, or Forms service connectivity no longer line up.",
+        versions: ["Version 11"],
+        symptoms: [
+          "Forms reports LFF3004-UnableToOpenServiceProxy after an upgrade.",
+          "The same environment may also report LFF706-UnableToTriggerRouting.",
+        ],
+        causes: [
+          "Forms service endpoints, routing service URLs, or post-upgrade service state can be inconsistent after an upgrade.",
+        ],
+        fixes: [
+          "Verify all Forms services are running after the upgrade.",
+          "Check Forms Configuration and service URLs for stale hostnames, ports, or protocol settings.",
+          "Review LFForms event logs around the failed route trigger or service-proxy request.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/197901/How-We-Solved-LFF706UnableToTriggerRouting-and-LFF3004UnableToOpenServiceProxy-After-Upgrading-to-Forms-11",
+        ],
+      },
+    ],
     notes:
       "The confirmed fix is from a community follow-up, not a Laserfiche employee public answer. A related thread links LFF3004 with LFF706 after Forms 11 upgrades.",
     sources: [
@@ -3864,6 +4081,24 @@ const curatedErrorEntries = [
         title: "Forms 10 error The requested service (IAutoTrigger) may not be running.",
         url: "https://answers.laserfiche.com/questions/87831/Forms-10-error-The-requested-service-IAutoTrigger-may-not-be-running",
         note: "Community follow-up reports resolving it by removing and re-adding the monitored repository in Workflow Configuration Manager using the server URL.",
+      },
+      {
+        sourceType: "answers-community",
+        title: "The requested service ILicensingService may not be running",
+        url: "https://answers.laserfiche.com/questions/135953/The-requested-service-ILicensingService-may-not-be-running",
+        note: "Related LFF3004 ILicensingService service-proxy scenario for Forms licensing/LFDS reachability.",
+      },
+      {
+        sourceType: "answers-community",
+        title: "The requested service ILicensingService may not be running LFF3004",
+        url: "https://answers.laserfiche.com/questions/199757/The-requested-service-ILicensingService-may-not-be-running-LFF3004UnableToOpenServiceProxy",
+        note: "Related LFF3004-UnableToOpenServiceProxy source for the ILicensingService variant.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "How We Solved LFF706-UnableToTriggerRouting and LFF3004-UnableToOpenServiceProxy After Upgrading to Forms 11",
+        url: "https://answers.laserfiche.com/questions/197901/How-We-Solved-LFF706UnableToTriggerRouting-and-LFF3004UnableToOpenServiceProxy-After-Upgrading-to-Forms-11",
+        note: "Related Forms 11 upgrade scenario where LFF3004 and LFF706 appear together.",
       },
     ],
   },
@@ -10223,12 +10458,90 @@ const curatedErrorEntries = [
       "Verify the ODBC driver bitness and DSN are available on the Forms server, not only on an administrator workstation.",
       "Confirm the Forms application pool or configured service account can reach the database and authenticate with the selected credentials.",
     ],
+    scenarios: [
+      {
+        title: "ODBC driver, DSN, or bitness mismatch",
+        summary:
+          "LFF2400 can occur when the Forms server cannot use the same ODBC driver or DSN that was configured or tested elsewhere.",
+        versions: ["Version 10", "Version 11", "Version 12"],
+        symptoms: [
+          "Testing the Forms data source returns LFF2400-DataSourceConnectionError.",
+          "The DSN or driver works on an administrator workstation but fails from Forms.",
+        ],
+        causes: [
+          "The required ODBC driver, DSN bitness, or system/user DSN scope may not be available to the Forms server process.",
+        ],
+        fixes: [
+          "Install the correct ODBC driver on the Forms server.",
+          "Create a system DSN with the bitness required by the Forms process.",
+          "Retest from the Forms server using the same account context where possible.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/214285/Adding-an-ODBC-Data-Source-to-Laserfiche-Forms",
+        ],
+      },
+      {
+        title: "Database authentication or network path fails from Forms",
+        summary:
+          "Several LFF2400 threads point to the need to inspect the Forms server event log for the database authentication, TLS, or connectivity error hidden behind the Forms message.",
+        versions: ["Version 10", "Version 11", "Version 12"],
+        symptoms: [
+          "The Forms data source test fails and tells the administrator to check logs for details.",
+          "The same database may be reachable from another tool or machine.",
+        ],
+        causes: [
+          "The Forms application pool or configured service account may not be able to authenticate to the external database or traverse the network path.",
+        ],
+        fixes: [
+          "Check the Forms server Windows Event Log and LFForms logs at the failed test timestamp.",
+          "Verify database credentials, integrated-security delegation, firewall rules, and TLS/client driver settings from the Forms server.",
+          "Confirm the target database accepts connections from the Forms server host.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/193202/Error-when-trying-to-save-data-source-in-laserfiche-forms",
+          "https://answers.laserfiche.com/questions/163660/Configuring-Oracle-Data-Source-for-Forms",
+        ],
+      },
+      {
+        title: "Oracle data source needs server-side client configuration",
+        summary:
+          "Oracle-backed Forms data sources can require Oracle client/network configuration on the Forms server, not only a working connection string.",
+        versions: ["Version 11", "Version 12"],
+        symptoms: [
+          "Configuring an Oracle data source in Forms reports LFF2400.",
+          "The database is reachable from other Oracle tools but not through Forms.",
+        ],
+        causes: [
+          "Oracle client drivers, TNS/network configuration, bitness, or service-account access may be missing from the Forms server environment.",
+        ],
+        fixes: [
+          "Install and configure the Oracle client/ODBC components on the Forms server.",
+          "Verify TNS, service name, wallet/certificate, and driver bitness from the Forms server context.",
+          "Use the Forms server event log to identify the exact Oracle client or network error.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/163660/Configuring-Oracle-Data-Source-for-Forms",
+        ],
+      },
+    ],
     sources: [
       {
         sourceType: "answers-laserfiche-employee",
         title: "Adding an ODBC Data Source to Laserfiche Forms",
         url: "https://answers.laserfiche.com/questions/214285/Adding-an-ODBC-Data-Source-to-Laserfiche-Forms",
         note: "Fresh promotion source for LFF2400 data-source connection failures.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Error when trying to save data source in laserfiche forms",
+        url: "https://answers.laserfiche.com/questions/193202/Error-when-trying-to-save-data-source-in-laserfiche-forms",
+        note: "Related LFF2400 source for database authentication or connection errors during Forms data-source save/test.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "Configuring Oracle Data Source for Forms",
+        url: "https://answers.laserfiche.com/questions/163660/Configuring-Oracle-Data-Source-for-Forms",
+        note: "Related LFF2400 source for Oracle data-source configuration from Forms.",
       },
     ],
   },

@@ -5,9 +5,9 @@ Generated: 2026-06-28
 ## Summary
 
 - Published entries: 1905
-- Reviewed sources: 924
+- Reviewed sources: 923
 - Entries needing validation: 0
-- Entries with scenario variants: 17
+- Entries with scenario variants: 20
 - High-priority unresolved reviewed sources: 0
 - Thin-coverage products with fewer than 5 entries: 4
 - Repeated-code clusters to review for scenario modeling: 101
@@ -94,9 +94,9 @@ Generated: 2026-06-28
 
 | Product | Published entries | Linked sources |
 | --- | --- | --- |
-| Laserfiche Server/Repository Server | 1081 | 1164 |
+| Laserfiche Server/Repository Server | 1081 | 1171 |
 | Windows Client/Desktop Client | 234 | 236 |
-| Forms | 122 | 154 |
+| Forms | 122 | 159 |
 | Directory Server | 76 | 77 |
 | Workflow | 62 | 69 |
 | Web Client | 60 | 67 |
@@ -114,13 +114,13 @@ Generated: 2026-06-28
 | 0x80040310 | 7 | Laserfiche Installer, Web Client, Windows Client/Desktop Client | 0 |
 | 9010 | 7 | API Server, Laserfiche Server/Repository Server, Mobile, Quick Fields, Workflow | 1 |
 | 0x80004002 | 6 | Laserfiche Server/Repository Server, Windows Client/Desktop Client, Workflow | 1 |
-| 9008 | 6 | Full Text Search, Import Agent, Laserfiche Server/Repository Server | 0 |
+| 9008 | 6 | Full Text Search, Import Agent, Laserfiche Server/Repository Server | 1 |
 | 10061 | 6 | Forms, Workflow | 0 |
 | 0x80004005 | 5 | Directory Server, Forms, Windows Client/Desktop Client | 0 |
 | 0x80131040 | 5 | API Server, Directory Server, Web Client | 0 |
 | 6000 | 5 | Directory Server, Laserfiche Server/Repository Server, Records Management, Snapshot, Windows Client/Desktop Client | 0 |
 | LFF2106-InvalidDataSent | 5 | Directory Server, Discussions, Mobile | 0 |
-| LFF2400-DataSourceConnectionError | 5 | Forms | 0 |
+| LFF2400-DataSourceConnectionError | 5 | Forms | 1 |
 | 0x800706BA | 4 | Distributed Computing Cluster, Quick Fields | 0 |
 | 780 | 4 | Laserfiche Server/Repository Server, Snapshot | 1 |
 | 784 | 4 | Full Text Search, Laserfiche Server/Repository Server | 1 |
