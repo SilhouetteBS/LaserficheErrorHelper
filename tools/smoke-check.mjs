@@ -85,7 +85,7 @@ try {
   await page.getByRole("button", { name: /9030 Maximum sessions or licensing limit reached/ }).click();
   await page.waitForURL(/error=/);
   await expectVisible(page.getByRole("button", { name: "Share" }), "Share action was not visible.");
-  const correctionLink = page.getByRole("link", { name: "Report correction" });
+  const correctionLink = page.getByRole("link", { name: "Report Correction" });
   await expectVisible(correctionLink, "Report correction link was not visible.");
   const href = await correctionLink.getAttribute("href");
   if (!href?.includes("ISSUE_TEMPLATE") && !href?.includes("template=error-report.yml")) {

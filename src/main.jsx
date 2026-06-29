@@ -1162,8 +1162,8 @@ function ErrorDetail({ entry, allEntries, reviewedSources, sourceCandidateReview
               Share
             </button>
             <a href={correctionIssueUrl(entry)} rel="noreferrer" target="_blank">
-              <ExternalLink aria-hidden="true" size={17} />
-              Report correction
+              <ExternalLink aria-hidden="true" size={20} />
+              Report Correction
             </a>
           </div>
         </div>
@@ -1184,10 +1184,6 @@ function ErrorDetail({ entry, allEntries, reviewedSources, sourceCandidateReview
           <span>
             <strong>Fix Status</strong>
             {fixStatusLabel(fixStatusValue(entry))}
-          </span>
-          <span>
-            <strong>Validation</strong>
-            {validationStatusLabel(entry.validationStatus)}
           </span>
         </div>
 
