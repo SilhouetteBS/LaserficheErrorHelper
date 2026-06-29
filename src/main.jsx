@@ -15,6 +15,7 @@ import {
   Search,
   Share2,
   ShieldCheck,
+  Stethoscope,
   Wrench,
   X,
 } from "lucide-react";
@@ -1182,7 +1183,7 @@ function ErrorDetail({ entry, allEntries, reviewedSources, sourceCandidateReview
           </span>
         </div>
 
-        <DetailSection title="Symptoms">
+        <DetailSection title="Symptoms" icon={Stethoscope}>
           <ul>
             {entry.symptoms.map((symptom) => (
               <li key={symptom}>{symptom}</li>
