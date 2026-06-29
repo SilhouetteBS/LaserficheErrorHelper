@@ -19,6 +19,7 @@ import {
   X,
 } from "lucide-react";
 import {
+  productAliases,
   productOptions,
   sourcePriority,
   sourceTypeOptions,
@@ -84,6 +85,7 @@ function entrySearchText(entry) {
     entry.code,
     entry.message,
     entry.product,
+    ...(productAliases[entry.product] ?? []),
     entry.summary,
     ...entry.symptoms,
     ...entry.likelyFixes,
@@ -251,6 +253,25 @@ function errorShareUrl(entryId) {
   url.searchParams.set("error", entryId);
   url.hash = "";
   return url.toString();
+}
+
+function correctionIssueUrl(entry) {
+  const params = new URLSearchParams({
+    template: "error-report.yml",
+    title: `[Error entry]: ${entry.code} - ${entry.product}`,
+    code: `${entry.code} - ${entry.message}`,
+    product: entry.product,
+    version: entry.versions.join(", "),
+    symptoms: [
+      `Entry ID: ${entry.id}`,
+      `Live URL: ${errorShareUrl(entry.id)}`,
+      "",
+      "Describe what is incorrect or missing:",
+    ].join("\n"),
+    source: entry.sources.map((sourceItem) => sourceItem.url).join("\n"),
+  });
+
+  return `https://github.com/SilhouetteBS/LaserficheErrorHelper/issues/new?${params.toString()}`;
 }
 
 function setQueryParam(url, name, value, fallback = allOption) {
@@ -640,7 +661,7 @@ function App() {
             <h1>Laserfiche Error Helper</h1>
           </div>
           <nav className="top-actions" aria-label="Utility links">
-            <span>Sources updated Jun 27, 2026</span>
+            <span>Sources updated Jun 29, 2026</span>
             <RefreshCw aria-hidden="true" size={16} />
             <button className="utility-link" onClick={() => setInfoDialog("how")} type="button">
               <HelpCircle aria-hidden="true" size={16} />
@@ -1084,7 +1105,10 @@ function InstructionsPane() {
         </div>
         <div className="notice inline-notice">
           <ShieldCheck aria-hidden="true" size={18} />
-          <p>Guidance is a research aid. Validate fixes in a test or maintenance window before changing production systems.</p>
+          <p>
+            This helper is a community research aid and is not affiliated with or endorsed by Laserfiche.
+            Validate fixes in a test or maintenance window before changing production systems.
+          </p>
         </div>
       </div>
     </article>
@@ -1120,6 +1144,10 @@ function ErrorDetail({ entry, allEntries, reviewedSources, sourceCandidateReview
               <Share2 aria-hidden="true" size={17} />
               Share
             </button>
+            <a href={correctionIssueUrl(entry)} rel="noreferrer" target="_blank">
+              <ExternalLink aria-hidden="true" size={17} />
+              Report correction
+            </a>
           </div>
         </div>
 
@@ -1214,7 +1242,10 @@ function ErrorDetail({ entry, allEntries, reviewedSources, sourceCandidateReview
 
         <div className="notice inline-notice">
           <ShieldCheck aria-hidden="true" size={18} />
-          <p>Validate guidance in a test or maintenance window before changing production systems.</p>
+          <p>
+            This project is not affiliated with or endorsed by Laserfiche. Validate guidance in a test or
+            maintenance window before changing production systems.
+          </p>
         </div>
       </div>
 
@@ -1408,6 +1439,11 @@ function InfoDialog({ type, usageStats, qualitySummary, onClose }) {
               This helper is a self-hosted Laserfiche troubleshooting index for administrators and support
               teams. It is intended to speed up triage, not replace Laserfiche Support or environment-specific
               validation.
+            </p>
+            <p>
+              FicheBait Laserfiche Error Helper is not affiliated with or endorsed by Laserfiche. Source links,
+              confidence labels, and fix status labels are included so users can validate the original evidence
+              before making production changes.
             </p>
             <p>
               Each entry links back to its reviewed sources so users can inspect the original documentation or

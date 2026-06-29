@@ -1,0 +1,66 @@
+name: Report an error entry
+description: Report an incorrect or missing Laserfiche error entry.
+title: "[Error entry]: "
+labels: ["catalog", "needs-review"]
+body:
+  - type: input
+    id: code
+    attributes:
+      label: Error code or message
+      description: Include the exact code or message shown by Laserfiche.
+    validations:
+      required: true
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - Administration Hub
+        - AI Service
+        - API Server
+        - Audit Trail
+        - Common Dialog
+        - Connector
+        - Directory Server
+        - Discussions
+        - Distributed Computing Cluster
+        - Federated Search
+        - Forms
+        - Full Text Search
+        - Import Agent
+        - Laserfiche Installer
+        - Laserfiche Server/Repository Server
+        - Mobile
+        - Office Integration
+        - Quick Fields
+        - Records Management
+        - Snapshot
+        - Web Client
+        - WebLink
+        - Webtools Agent
+        - Windows Client/Desktop Client
+        - Workflow
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Laserfiche version
+      placeholder: "Example: Version 12"
+  - type: textarea
+    id: symptoms
+    attributes:
+      label: Symptoms
+      description: Describe what failed and where the error appeared. Remove private data.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source links
+      description: Link official documentation or Laserfiche Answers posts that support the report.
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: What should be added or changed?

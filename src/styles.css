@@ -629,13 +629,16 @@ h3 {
   gap: 12px;
 }
 
-.detail-actions button {
+.detail-actions button,
+.detail-actions a {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   border: 0;
   color: var(--link);
   background: transparent;
+  text-decoration: none;
+  font-size: 0.92rem;
   font-weight: 700;
   cursor: pointer;
 }
@@ -645,7 +648,9 @@ h3 {
 }
 
 .detail-actions button:hover,
-.detail-actions button:focus-visible {
+.detail-actions button:focus-visible,
+.detail-actions a:hover,
+.detail-actions a:focus-visible {
   color: var(--accent-dark);
 }
 

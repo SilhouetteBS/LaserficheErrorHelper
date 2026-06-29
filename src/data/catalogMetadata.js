@@ -42,3 +42,15 @@ export const sourceTypeOptions = [
   { value: "answers-search", label: "Answers - Search Reviewed" },
   { value: "official-docs", label: "Official Docs" },
 ];
+
+export const productAliases = {
+  "Directory Server": ["LFDS", "Directory Service"],
+  "Federated Search": ["Federated Search Service"],
+  Forms: ["LF Forms", "Forms Server"],
+  "Laserfiche Server/Repository Server": ["Laserfiche Server", "Repository Server"],
+  WebLink: ["Web Link"],
+  "Web Client": ["Web Access", "Web Scanning", "Web Client Scanning"],
+  "Webtools Agent": ["Webtools"],
+  "Windows Client/Desktop Client": ["Desktop Client", "Windows Client"],
+  Workflow: ["LF Workflow"],
+};

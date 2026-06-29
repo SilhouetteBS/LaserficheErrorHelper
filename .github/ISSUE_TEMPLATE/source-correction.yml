@@ -1,0 +1,30 @@
+name: Correct a source
+description: Report a broken, wrong, or misclassified source link.
+title: "[Source correction]: "
+labels: ["source-ledger", "needs-review"]
+body:
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problem type
+      options:
+        - Broken link
+        - Wrong source type
+        - Wrong product
+        - Wrong version
+        - Wrong review status
+        - Duplicate source
+        - Other
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Explain the correction and include supporting links if available.
+    validations:
+      required: true

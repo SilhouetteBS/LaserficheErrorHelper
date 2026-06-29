@@ -23,7 +23,10 @@
     "review:candidate": "node tools/review-source-candidate.mjs",
     "collect:answers": "node tools/collect-answers-product-pass.mjs",
     "lint:data": "node tools/validate-data.mjs",
-    "render:check": "node tools/render-check.mjs"
+    "lint:launch": "node tools/verify-launch-readiness.mjs",
+    "smoke": "node tools/smoke-check.mjs",
+    "render:check": "node tools/render-check.mjs",
+    "verify:launch": "npm run lint:data && npm run lint:launch && npm run quality && npm run progress && npm run smoke && npm run build && npm run render:check"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.0",

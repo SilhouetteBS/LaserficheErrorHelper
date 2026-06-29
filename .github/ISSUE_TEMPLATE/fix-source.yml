@@ -1,0 +1,42 @@
+name: Suggest a fix source
+description: Suggest a source-backed fix, workaround, or scenario.
+title: "[Fix source]: "
+labels: ["source-review", "needs-review"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Existing entry ID or error code
+      description: Use the entry ID from the share URL when possible.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Source URL
+      description: Official docs or Laserfiche Answers URL.
+    validations:
+      required: true
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: Source type
+      options:
+        - Official Docs
+        - Answers - Laserfiche Employee
+        - Answers - Community Confirmed
+        - Answers - Community
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What does this source support?
+      description: Explain the symptom, product/version context, and fix or diagnostic step.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed private data, credentials, license details, and customer-identifying information.
+          required: true

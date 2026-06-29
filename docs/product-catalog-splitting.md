@@ -6,12 +6,14 @@ The published catalog is still small enough to load as a static GitHub Pages app
 
 - `src/data/errors.js` contains the merged publishable error catalog.
 - `src/data/reviewedSources.js` contains the reviewed source ledger.
-- Build output already chunks application code, but the catalog data remains large enough that Vite reports a large JavaScript chunk warning.
+- Build output chunks application code and lazy-loads the large catalog modules after the shell mounts.
+- Vite modulepreload is disabled so catalog chunks are not requested from the initial HTML.
+- The catalog data remains large enough that Vite reports a large JavaScript chunk warning.
 - The largest split candidates are currently Laserfiche Server/Repository Server, Windows Client/Desktop Client, and Forms.
 
 ## Recommended Target Shape
 
-Create product slices under `src/data/products/`:
+The next target is true product slices under `src/data/products/`:
 
 - `src/data/products/index.js` exposes lightweight product metadata, counts, aliases, and version coverage.
 - `src/data/products/<productKey>.js` exports the full error entries and reviewed source rows for one product.

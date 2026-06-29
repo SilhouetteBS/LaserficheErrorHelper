@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-06-29
+
+- Added community readiness governance files, issue templates, contribution guidance, security policy, known limitations, maintenance plan, product aliases, data quality roadmap, and launch announcement draft.
+- Added a public correction workflow in the app so users can open a prefilled GitHub issue for the selected error.
+- Added launch-readiness smoke checks and data quality checks for source URLs, products, source types, aliases, and issue-template presence.
+- Added public disclaimer and safety language for production changes.
+- Added catalog lazy loading after the app shell mounts and disabled modulepreload for catalog chunks.
+- Normalized the Forms `LFF502-UnexpectedError` aggregate entry so its scenario branches count in repeated-code reporting.
+- Cleared the validation queue and documented the remaining roadmap: thin products, repeated-code scenarios, and official-doc baseline entries.
+
 ## 2026-06-28
 
 - Reviewed priority source-backlog candidates, promoted WebLink/Workflow source-backed workarounds, added candidate-review indicators, and added `npm run review:candidate`.

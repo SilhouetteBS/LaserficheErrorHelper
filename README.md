@@ -1,13 +1,57 @@
-# Laserfiche Error Helper
+# FicheBait Laserfiche Error Helper
 
-Interactive GitHub Pages app for browsing Laserfiche error codes, symptoms, and curated troubleshooting guidance for self-hosted environments from Laserfiche documentation and Laserfiche Answers.
+Interactive GitHub Pages app for browsing Laserfiche error codes, symptoms, source links, and curated troubleshooting guidance for Laserfiche self-hosted environments.
 
-## Data Rules
+Live site: https://silhouettebs.github.io/LaserficheErrorHelper/
 
-- Published entries live in `src/data/errors.js`.
-- Reviewed research lives in `research/reviewed-sources.json`.
-- Laserfiche employee replies are ranked above community replies.
-- Low-confidence entries are allowed when they come from official code listings but do not yet have a reviewed fix.
+This project is not affiliated with or endorsed by Laserfiche. It is a community research aid, not a replacement for Laserfiche Support, vendor documentation, or environment-specific change control.
+
+## What It Does
+
+- Searches official Laserfiche documentation entries and reviewed Laserfiche Answers sources.
+- Groups errors by product and shows version context when available.
+- Labels source confidence, fix status, validation status, and source priority.
+- Keeps diagnostic-only and official-doc baseline entries visible for discovery.
+- Links every entry back to reviewed sources.
+- Supports correction reports through GitHub issue templates.
+
+## Current Launch Snapshot
+
+- Published helper entries: 1,911.
+- Reviewed source ledger rows: 930.
+- Entries needing validation: 0.
+- Known fixes: 106.
+- Workarounds: 315.
+- Diagnostic-only entries: 355.
+- Official-doc or needs-review baseline entries: 1,135.
+- Entries with scenario variants: 20.
+- Repeated-code clusters still needing scenario review: 100.
+
+See `docs/known-limitations.md` for the current limitations and safety notes.
+
+## How To Use It Safely
+
+1. Search by error code, message text, product, symptom, or source detail.
+2. Check the product, version, source confidence, fix status, and validation status.
+3. Open the linked source before applying a fix.
+4. Validate changes in a test or maintenance window before changing production.
+5. Treat database, IIS, certificate, service-account, and security-baseline changes as change-controlled work.
+
+## Source Priority
+
+1. Official Laserfiche documentation.
+2. Laserfiche Answers replies from Laserfiche employees.
+3. Accepted or corroborated Laserfiche Answers community replies.
+4. Community-only diagnostic reports.
+
+## Contribution Paths
+
+- Report an incorrect or missing error entry with the `Report an error entry` issue template.
+- Suggest a source-backed fix with the `Suggest a fix source` issue template.
+- Correct source metadata with the `Correct a source` issue template.
+- Open a pull request when you can include source evidence and run the checks below.
+
+Read `CONTRIBUTING.md` before submitting larger changes.
 
 ## Development
 
@@ -15,34 +59,34 @@ Interactive GitHub Pages app for browsing Laserfiche error codes, symptoms, and 
 npm install
 npm run lint:data
 npm run quality
-npm run validation:batches
-npm run curation:priority
-npm run curation:community
-npm run validation:complete
-npm run backlog:research
-npm run backlog:curate
-npm run collect:answers -- "Forms" 25
+npm run progress
+npm run smoke
 npm run build
 npm run render:check
 npm run dev
 ```
 
-## Research and Quality
+## Research and Quality Commands
 
 - `npm run progress` updates the broad research coverage report.
-- `npm run quality` updates `research/quality-report.md` with validation counts and the highest-priority uncertain entries.
-- `npm run validation:batches` updates `research/validation-batches.md` and `research/validation-batches.json` in batches of 50.
-- `npm run curation:priority` reviews priority-source candidates and updates `src/data/curationOverrides.js`.
-- `npm run curation:community` reviews community-confirmed fix candidates and merges additional conservative overrides.
-- `npm run validation:complete` records triage outcomes for the current validation batches and writes the source-research backlog.
-- `npm run backlog:research` re-searches the source-research backlog against Laserfiche Answers and official documentation data.
-- `npm run backlog:curate` attaches official-doc backlog matches and writes the Answers candidate review report.
-- `npm run collect:answers -- "Product Name" 25` runs a bounded Laserfiche Answers discovery pass for a product.
-- Low-confidence or diagnostic-only entries should stay visible, but fixes should not be promoted without source-backed evidence.
-- Repeated causes or fixes for the same code should be captured as scenarios on the existing entry instead of creating duplicate entries.
+- `npm run quality` updates `research/quality-report.md`.
+- `npm run validation:batches` updates the validation batch reports.
+- `npm run curation:priority` reviews priority-source candidates.
+- `npm run curation:community` reviews community-confirmed fix candidates.
+- `npm run validation:complete` records validation outcomes.
+- `npm run backlog:research` re-searches source-research backlog entries.
+- `npm run backlog:curate` attaches official-doc backlog matches and writes candidate review output.
+- `npm run collect:answers -- "Product Name" 25` runs a bounded product-specific discovery pass.
+- `npm run verify:launch` runs the launch-readiness command set.
 
-## GitHub Pages
+## Important Docs
 
-The app is configured for the repository path `/LaserficheErrorHelper/` through `vite.config.js` and the included Pages workflow.
-
-See `docs/release-process.md` before publishing public updates.
+- `docs/research-workflow.md`
+- `docs/release-process.md`
+- `docs/known-limitations.md`
+- `docs/community-workflow.md`
+- `docs/maintenance-plan.md`
+- `docs/data-quality-roadmap.md`
+- `docs/product-aliases.md`
+- `docs/product-catalog-splitting.md`
+- `docs/launch-announcement.md`

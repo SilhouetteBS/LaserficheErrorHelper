@@ -12,9 +12,12 @@ Use this checklist when publishing a public update to the GitHub Pages helper.
 6. Run `npm run validation:complete` when validation batches are being closed out.
 7. Run `npm run quality` and `npm run validation:batches` again if curation or validation triage changed.
 8. Run `npm run progress` when research coverage changed.
-9. Run `npm run build`.
-10. Run `npm run render:check`.
-11. Review `git diff --stat` and confirm only intended files changed.
+9. Run `npm run lint:launch`.
+10. Run `npm run smoke`.
+11. Run `npm run build`.
+12. Run `npm run render:check`.
+13. For community-ready releases, run `npm run verify:launch`.
+14. Review `git diff --stat` and confirm only intended files changed.
 
 ## Version Notes
 
@@ -27,6 +30,8 @@ Add a dated entry to `CHANGELOG.md` for user-visible changes, data coverage chan
 3. Watch the `Deploy GitHub Pages` workflow.
 4. Confirm the live site returns `200 OK`.
 5. Spot-check one deep link and one filtered URL.
+6. Spot-check the selected-entry correction issue link.
+7. Spot-check one mobile viewport.
 
 ## Data Quality Gate
 
