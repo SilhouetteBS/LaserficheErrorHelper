@@ -7108,7 +7108,7 @@ export const reviewedSources = [
     productTags: ["Forms", "Workflow", "Version 10"],
     extractedErrorCodes: ["LFF5203"],
     reviewStatus: "curated",
-  },,
+  },
   {
     id: "answers-116203-web-client-6000",
     title: "Multiple errors generating report from Desktop Client LF 102",
