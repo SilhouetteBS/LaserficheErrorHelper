@@ -820,17 +820,45 @@ li + li {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  border: 1px solid var(--accent-border);
-  background: var(--accent-soft);
-  color: var(--accent-dark);
+  border: 1px solid #e35205;
+  background: #fff5ee;
+  color: #5a2100;
   padding: 11px 12px;
-  border-radius: 5px;
+  border-radius: 7px;
+}
+
+.notice svg {
+  flex: 0 0 auto;
+  margin-top: 1px;
+  color: #8a3a00;
 }
 
 .notice p,
 .caution p,
 .side-card p {
   margin: 0;
+}
+
+.helper-warning {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.helper-warning a {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: #0645c0;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.helper-warning a:hover,
+.helper-warning a:focus-visible {
+  color: #00348f;
 }
 
 .inline-notice {

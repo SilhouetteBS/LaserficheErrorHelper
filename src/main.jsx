@@ -676,6 +676,20 @@ function App() {
       </header>
 
       <main className="app-shell">
+        <section className="notice helper-warning" aria-label="Important helper notice">
+          <ShieldCheck aria-hidden="true" size={18} />
+          <p>
+            This documentation is for read-only reporting, troubleshooting, and education. Manually writing to or
+            modifying Laserfiche product databases, tables, etc. will violate your Laserfiche Support plan and is
+            not supported. This helper is a community research aid and is not affiliated with or endorsed by
+            Laserfiche. Validate fixes in a test or maintenance window before changing production systems.{" "}
+            <a href="https://github.com/SilhouetteBS/LaserficheErrorHelper/blob/main/docs/known-limitations.md" rel="noreferrer" target="_blank">
+              Known limitations
+              <ExternalLink aria-hidden="true" size={13} />
+            </a>
+          </p>
+        </section>
+
         <section className="toolbar" aria-label="Search and filters">
           <label className="search-control">
             <Search aria-hidden="true" size={20} />
@@ -1103,13 +1117,6 @@ function InstructionsPane() {
             </div>
           </section>
         </div>
-        <div className="notice inline-notice">
-          <ShieldCheck aria-hidden="true" size={18} />
-          <p>
-            This helper is a community research aid and is not affiliated with or endorsed by Laserfiche.
-            Validate fixes in a test or maintenance window before changing production systems.
-          </p>
-        </div>
       </div>
     </article>
   );
@@ -1240,13 +1247,6 @@ function ErrorDetail({ entry, allEntries, reviewedSources, sourceCandidateReview
           </DetailSection>
         )}
 
-        <div className="notice inline-notice">
-          <ShieldCheck aria-hidden="true" size={18} />
-          <p>
-            This project is not affiliated with or endorsed by Laserfiche. Validate guidance in a test or
-            maintenance window before changing production systems.
-          </p>
-        </div>
       </div>
 
       <aside className="detail-sidebar" aria-label="Evidence and source details">
