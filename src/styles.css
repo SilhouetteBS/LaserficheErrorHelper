@@ -709,6 +709,9 @@ h3 {
 
 .meta-strip span {
   display: grid;
+  align-content: start;
+  align-items: start;
+  grid-auto-rows: max-content;
   gap: 2px;
   min-width: 0;
   padding: 0 18px;

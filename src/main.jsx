@@ -1178,11 +1178,11 @@ function ErrorDetail({ entry, allEntries, reviewedSources, sourceCandidateReview
             {entry.versions.join(", ")}
           </span>
           <span>
-            <strong>Last reviewed</strong>
+            <strong>Last Reviewed</strong>
             {entry.reviewedDate}
           </span>
           <span>
-            <strong>Fix status</strong>
+            <strong>Fix Status</strong>
             {fixStatusLabel(fixStatusValue(entry))}
           </span>
           <span>
