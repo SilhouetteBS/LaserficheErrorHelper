@@ -6,10 +6,10 @@ This queue ranks curated-unresolved Answers sources for the next manual promotio
 
 ## Summary
 
-- Curated unresolved sources: 379
-- Laserfiche employee unresolved sources: 45
+- Curated unresolved sources: 377
+- Laserfiche employee unresolved sources: 43
 - Community-confirmed unresolved sources: 272
-- Sources with matching published entries: 378
+- Sources with matching published entries: 376
 
 ## Top Promotion Candidates
 
@@ -17,8 +17,6 @@ This queue ranks curated-unresolved Answers sources for the next manual promotio
 | --- | --- | --- | --- | --- | --- |
 | 550 | Answers - Laserfiche Employee | 01000, 42000 | Audit Trail, Discussions, Forms | diagnostic-only, unresolved, workaround | [Audit Trail: Error EDBCC SHRINKDATABASE](https://answers.laserfiche.com/questions/74521/Audit-Trail-Error-EDBCC-SHRINKDATABASE-) |
 | 550 | Answers - Laserfiche Employee | HTTP 500.19, 0x800700b7 | Forms, Web Client | diagnostic-only, unresolved | [Forms HTTP error 500.19/Error code: 0x800700b7](https://answers.laserfiche.com/questions/157969/Forms-HTTP-error-50019Error-code-0x800700b7) |
-| 540 | Answers - Laserfiche Employee | OFFICE-REPOSITORY-NOT-FOUND | Office Integration | unresolved | [Office plugin error - cannot find the repository](https://answers.laserfiche.com/questions/59039/Office-plugin-error--cannot-find-the-repository) |
-| 540 | Answers - Laserfiche Employee | 784 | Full Text Search, Laserfiche Server/Repository Server | unresolved, workaround | [Page Search Broken?](https://answers.laserfiche.com/questions/53800/Page-Search-Broken) |
 | 470 | Answers - Laserfiche Employee | LFAH3800, SCPError | Administration Hub | diagnostic-only | [Administration Hub - Cannot get server list](https://answers.laserfiche.com/questions/234855/Administration-Hub--Cannot-get-server-list) |
 | 470 | Answers - Laserfiche Employee | 0x80029c4a, 0x80070057 | Laserfiche Installer, Windows Client/Desktop Client | diagnostic-only | [Error code 6000 (library\DLL) & Error code 0 / MAPI_E_FAILURE when trying to email out of Laserfiche](https://answers.laserfiche.com/questions/128570/Error-code-6000-libraryDLL--Error-code-0--MAPIEFAILURE-when-trying-to-email-out-of-Laserfiche) |
 | 470 | Answers - Laserfiche Employee | HTTP 503, LFDS-ENDPOINT | Directory Server, Forms | workaround | [Forms Configuration LFDS Error: The remote server returned an error: (503) Server Unavailable.](https://answers.laserfiche.com/questions/207499/Forms-Configuration-LFDS-Error-The-remote-server-returned-an-error-503-Server-Unavailable) |
@@ -90,4 +88,6 @@ This queue ranks curated-unresolved Answers sources for the next manual promotio
 | 370 | Answers - Community Confirmed | 0x54efddd9, 0x56cc16f5, 0xc0000005, 0x00049f83 | Windows Client/Desktop Client | diagnostic-only | [Laserfiche Client Crashes when opening documents](https://answers.laserfiche.com/questions/111405/Laserfiche-Client-Crashes-when-opening-documents) |
 | 370 | Answers - Community Confirmed | 0645-WF1, 0644-WF1, 0645 | Directory Server, Laserfiche Installer, Laserfiche Server/Repository Server | diagnostic-only | [Laserfiche Workflow 9.1 License Error 0645-WF1](https://answers.laserfiche.com/questions/53229/Laserfiche-Workflow-91-License-Error-0645WF1) |
 | 370 | Answers - Community Confirmed | 0x54880652, 0x5098858e, 0xc0000409, 0x000a326c | Windows Client/Desktop Client | diagnostic-only | [LF Client crashing on win10 when saving/closing doc with ‘open’ text box annotation](https://answers.laserfiche.com/questions/150152/LF-Client-crashing-on-win10-when-savingclosing-doc-with-%E2%80%98open%E2%80%99-text-box-annotation) |
+| 370 | Answers - Community Confirmed | 0x80004003, 0x80040205 | Import Agent, Windows Client/Desktop Client | diagnostic-only | [LF Email Archiver: Could not get document information, Invalid Pointer [6000:0x80004003]](https://answers.laserfiche.com/questions/150358/LF-Email-Archiver-Could-not-get-document-information-Invalid-Pointer-60000x80004003) |
+| 370 | Answers - Community Confirmed | LFF0337, LFF1006-InvalidArgumentCount | Laserfiche Installer | diagnostic-only | [LFF0337 error](https://answers.laserfiche.com/questions/141909/LFF0337-error) |
 

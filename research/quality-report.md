@@ -7,8 +7,8 @@ Generated: 2026-06-28
 - Published entries: 1905
 - Reviewed sources: 924
 - Entries needing validation: 0
-- Entries with scenario variants: 16
-- High-priority unresolved reviewed sources: 317
+- Entries with scenario variants: 17
+- High-priority unresolved reviewed sources: 315
 - Thin-coverage products with fewer than 5 entries: 4
 - Repeated-code clusters to review for scenario modeling: 101
 
@@ -17,17 +17,17 @@ Generated: 2026-06-28
 | Confidence | Entries |
 | --- | --- |
 | high | 64 |
-| low | 1481 |
-| medium | 360 |
+| low | 1479 |
+| medium | 362 |
 
 ## Fix Status Coverage
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 336 |
+| diagnostic-only | 338 |
 | known-fix | 105 |
 | needs-review | 1135 |
-| unresolved | 14 |
+| unresolved | 12 |
 | workaround | 315 |
 
 ## Validation Triage Coverage
@@ -73,8 +73,8 @@ Generated: 2026-06-28
 | --- | --- |
 | cross-product | 65 |
 | curated | 355 |
-| curated-partial | 119 |
-| curated-unresolved | 379 |
+| curated-partial | 121 |
+| curated-unresolved | 377 |
 | no-matching-posts | 1 |
 | not-actionable | 4 |
 
@@ -82,7 +82,7 @@ Generated: 2026-06-28
 
 | Source type | Sources |
 | --- | --- |
-| Answers - Laserfiche Employee | 45 |
+| Answers - Laserfiche Employee | 43 |
 | Answers - Community Confirmed | 272 |
 
 ## Thin Product Coverage
@@ -116,7 +116,7 @@ Generated: 2026-06-28
 | LFF502-UnexpectedError | 21 | Directory Server, Forms, Laserfiche Server/Repository Server | 0 |
 | 9013 | 16 | Connector, Import Agent, Laserfiche Server/Repository Server, Quick Fields, Records Management, Web Client, WebLink, Windows Client/Desktop Client, Workflow | 1 |
 | 0x80040310 | 7 | Laserfiche Installer, Web Client, Windows Client/Desktop Client | 0 |
-| 9010 | 7 | API Server, Laserfiche Server/Repository Server, Mobile, Quick Fields, Workflow | 0 |
+| 9010 | 7 | API Server, Laserfiche Server/Repository Server, Mobile, Quick Fields, Workflow | 1 |
 | 0x80004002 | 6 | Laserfiche Server/Repository Server, Windows Client/Desktop Client, Workflow | 1 |
 | 9008 | 6 | Full Text Search, Import Agent, Laserfiche Server/Repository Server | 0 |
 | 10061 | 6 | Forms, Workflow | 0 |

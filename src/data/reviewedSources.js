@@ -1787,7 +1787,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Full Text Search", "Windows Client/Desktop Client", "Version 9"],
     extractedErrorCodes: ["784"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-232245-qfs-cloud-9010",
@@ -2517,7 +2517,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Office Integration"],
     extractedErrorCodes: ["OFFICE-REPOSITORY-NOT-FOUND"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-230334-office-com-ienumerable",

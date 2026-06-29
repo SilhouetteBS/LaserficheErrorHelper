@@ -62,61 +62,6 @@
     "score": 550
   },
   {
-    "id": "answers-59039-office-repository-not-found",
-    "title": "Office plugin error - cannot find the repository",
-    "url": "https://answers.laserfiche.com/questions/59039/Office-plugin-error--cannot-find-the-repository",
-    "sourceType": "answers-laserfiche-employee",
-    "sourceTypeLabel": "Answers - Laserfiche Employee",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "Office Integration"
-    ],
-    "extractedErrorCodes": [
-      "OFFICE-REPOSITORY-NOT-FOUND"
-    ],
-    "matchingEntryIds": [
-      "office-integration-repository-not-found"
-    ],
-    "matchingProducts": [
-      "Office Integration"
-    ],
-    "matchingFixStatuses": [
-      "unresolved"
-    ],
-    "score": 540
-  },
-  {
-    "id": "answers-53800-search-784-page-search",
-    "title": "Page Search Broken?",
-    "url": "https://answers.laserfiche.com/questions/53800/Page-Search-Broken",
-    "sourceType": "answers-laserfiche-employee",
-    "sourceTypeLabel": "Answers - Laserfiche Employee",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "Full Text Search",
-      "Windows Client/Desktop Client",
-      "Version 9"
-    ],
-    "extractedErrorCodes": [
-      "784"
-    ],
-    "matchingEntryIds": [
-      "full-text-search-page-search-784-timeout",
-      "laserfiche-server-repository-server-784-cannot-log-in-to-laserfiche-client",
-      "laserfiche-server-repository-server-784-error-784-is-it-a-sql-connection-or-a-client-server-connection-issue",
-      "lf-client-784-operation-timeout"
-    ],
-    "matchingProducts": [
-      "Full Text Search",
-      "Laserfiche Server/Repository Server"
-    ],
-    "matchingFixStatuses": [
-      "unresolved",
-      "workaround"
-    ],
-    "score": 540
-  },
-  {
     "id": "answers-234855-adminhub-cannot-get-server-list",
     "title": "Administration Hub - Cannot get server list",
     "url": "https://answers.laserfiche.com/questions/234855/Administration-Hub--Cannot-get-server-list",

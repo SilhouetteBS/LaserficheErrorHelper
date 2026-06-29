@@ -314,6 +314,32 @@ function entryHasReviewStatus(entry, reviewStatus) {
   return entry.sources.some((sourceItem) => sourceReviewStatusFor(sourceItem) === reviewStatus);
 }
 
+function activeFilterItems({
+  product,
+  version,
+  source,
+  confidence,
+  fixStatus,
+  scenarioFilter,
+  researchFilter,
+  validationFilter,
+  reviewStatusFilter,
+  ledgerSource,
+}) {
+  return [
+    product !== allOption && ["Product", product],
+    version !== allOption && ["Version", version],
+    source !== allOption && ["Source", sourceTypeLabel(source)],
+    confidence !== allOption && ["Confidence", confidence],
+    fixStatus !== allOption && ["Fix Status", fixStatusLabel(fixStatus)],
+    scenarioFilter !== allOption && ["Scenario Coverage", scenarioFilterLabel(scenarioFilter)],
+    researchFilter !== allOption && ["Fix Research", researchFilterLabel(researchFilter)],
+    validationFilter !== allOption && ["Validation", validationFilterLabel(validationFilter)],
+    reviewStatusFilter !== allOption && ["Review Status", reviewStatusLabel(reviewStatusFilter)],
+    ledgerSource !== allOption && ["Ledger Source", sourceTypeLabel(ledgerSource)],
+  ].filter(Boolean);
+}
+
 function App() {
   const [query, setQuery] = useState(() => initialParam("q", ""));
   const [product, setProduct] = useState(() => initialParam("product"));
@@ -526,6 +552,18 @@ function App() {
       (reviewStatusFilter === allOption || sourceItem.reviewStatus === reviewStatusFilter),
   );
   const ledgerRows = isLedgerExpanded ? displayedReviewedSources : displayedReviewedSources.slice(0, 5);
+  const activeFilters = activeFilterItems({
+    product,
+    version,
+    source,
+    confidence,
+    fixStatus,
+    scenarioFilter,
+    researchFilter,
+    validationFilter,
+    reviewStatusFilter,
+    ledgerSource,
+  });
 
   return (
     <>
@@ -685,6 +723,20 @@ function App() {
                 <option value="product">Product</option>
               </select>
             </label>
+          </section>
+        )}
+
+        {activeFilters.length > 0 && (
+          <section className="active-filters" aria-label="Active filters">
+            <span>Active filters</span>
+            <div>
+              {activeFilters.map(([label, value]) => (
+                <span className="filter-chip" key={`${label}-${value}`}>
+                  <strong>{label}</strong>
+                  {value}
+                </span>
+              ))}
+            </div>
           </section>
         )}
 

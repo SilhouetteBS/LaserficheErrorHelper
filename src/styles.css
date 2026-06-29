@@ -296,6 +296,44 @@ a {
   font-size: 0.86rem;
 }
 
+.active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  align-items: center;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.active-filters > span {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.active-filters > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.filter-chip {
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  min-height: 24px;
+  padding: 3px 8px;
+  border: 1px solid var(--accent-border);
+  border-radius: 999px;
+  color: var(--accent-dark);
+  background: var(--accent-soft);
+  font-size: 0.78rem;
+}
+
+.filter-chip strong {
+  color: var(--text);
+}
+
 .workspace {
   display: grid;
   grid-template-columns: minmax(360px, 0.72fr) minmax(0, 1.38fr);

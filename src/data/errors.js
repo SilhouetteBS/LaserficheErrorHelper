@@ -849,6 +849,49 @@ const curatedErrorEntries = [
       "If Windows Authentication and Directory Server are involved, verify the LFDS service logon account and grant it sufficient SQL Server rights when SQL uses Windows authentication.",
       "Restart Laserfiche Server to force a Directory Server user sync if recent named-user changes have not propagated.",
     ],
+    scenarios: [
+      {
+        title: "Windows authentication through LFDS or Rio",
+        summary:
+          "Windows-authenticated users can receive 9010 when LFDS cannot validate them correctly or when early LFDS/Rio builds have a known Windows-authentication issue.",
+        symptoms: [
+          "Windows users receive The User Account or Password is Incorrect. [9010].",
+          "Repository named users may still be able to sign in.",
+        ],
+        causes: [
+          "LFDS service identity, SQL permissions, or an affected early LFDS 10 build can prevent successful Windows-authenticated sign-in.",
+        ],
+        fixes: [
+          "Verify the LFDS service logon account and SQL permissions when SQL uses Windows authentication.",
+          "Apply LFDS 10 Update 1 or a later maintenance build for matching early Version 10 Rio/LFDS symptoms.",
+          "Restart Laserfiche Server or force a Directory Server sync after account or named-user changes.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/108568/The-user-account-or-password-is-incorrect-9010-error-occurs-when-logging-into-a-repository-with-Windows-Authentication",
+          "https://answers.laserfiche.com/questions/88453/LF-Server-10-cannot-connect-with-LFDS",
+        ],
+      },
+      {
+        title: "Service, automation, or connector credential mismatch",
+        summary:
+          "The same 9010 code can appear when a service, automation profile, or application integration uses stale or mismatched credentials.",
+        symptoms: [
+          "A background service or integration reports 9010 while interactive sign-in may work.",
+          "Recent password, account, or repository connection changes preceded the failure.",
+        ],
+        causes: [
+          "Stored credentials can be stale, case-sensitive, or tied to a connection profile that no longer matches the repository authentication path.",
+        ],
+        fixes: [
+          "Update the stored username and password in the affected profile or service configuration.",
+          "Check Import Agent, Workflow, Quick Fields, Mobile, or API Server connection profiles when those products are involved.",
+          "Confirm clocks are synchronized when Windows or domain authentication is part of the path.",
+        ],
+        sourceUrls: [
+          "https://doc.laserfiche.com/laserfiche.documentation/12/userguide/en-us/content/support-error-9010.htm",
+        ],
+      },
+    ],
     notes:
       "The LFDS service-account fix came from a Laserfiche employee follow-up after a support ticket; the LFDS 10 Update 1 path applies to a narrower Rio/LFDS Windows-authentication scenario.",
     sources: [
@@ -5210,8 +5253,8 @@ const curatedErrorEntries = [
     message: "Operation timed out.",
     product: "Full Text Search",
     versions: ["Version 9"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Advanced page/image searches can time out with 784, requiring search syntax, rights, and indexing checks.",
@@ -7241,8 +7284,8 @@ const curatedErrorEntries = [
     message: "Office plugin cannot find the repository.",
     product: "Office Integration",
     versions: ["Version 9"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Office Integration can fail to locate a repository on a new workstation when the user has not configured the repository connection for the Office plugin.",
