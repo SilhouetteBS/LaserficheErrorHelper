@@ -6,7 +6,7 @@ Generated: 2026-06-28
 
 - Published entries: 1911
 - Reviewed sources: 930
-- Entries needing validation: 5
+- Entries needing validation: 0
 - Entries with scenario variants: 20
 - High-priority unresolved reviewed sources: 0
 - Thin-coverage products with fewer than 5 entries: 2
@@ -34,13 +34,13 @@ Generated: 2026-06-28
 | Validation status | Entries |
 | --- | --- |
 | official-doc-baseline | 1135 |
-| reviewed-diagnostic | 387 |
+| reviewed-diagnostic | 392 |
 
 ## Validation Queue by Product
 
 | Product | Needs validation |
 | --- | --- |
-| Administration Hub | 1 |
+| Administration Hub | 0 |
 | AI Service | 0 |
 | API Server | 0 |
 | Audit Trail | 0 |
@@ -49,7 +49,7 @@ Generated: 2026-06-28
 | Directory Server | 0 |
 | Discussions | 0 |
 | Distributed Computing Cluster | 0 |
-| Federated Search | 2 |
+| Federated Search | 0 |
 | Forms | 0 |
 | Full Text Search | 0 |
 | Import Agent | 0 |
@@ -62,7 +62,7 @@ Generated: 2026-06-28
 | Snapshot | 0 |
 | Web Client | 0 |
 | WebLink | 0 |
-| Webtools Agent | 2 |
+| Webtools Agent | 0 |
 | Windows Client/Desktop Client | 0 |
 | Workflow | 0 |
 
@@ -137,11 +137,6 @@ Generated: 2026-06-28
 
 | Product | Code | Fix status | Confidence | Best source | Title |
 | --- | --- | --- | --- | --- | --- |
-| Administration Hub | ADMIN-HUB-SERVER-LIST | diagnostic-only | low | Answers - Community | Administration Hub shows unexpected servers or machines that are not running the agent. |
-| Federated Search | FEDSEARCH-NETWORK-DRIVE-ACCESS | diagnostic-only | low | Answers - Community | Federated Search cannot access configured network drive content. |
-| Federated Search | FEDSEARCH-SECURITYPERMISSION-FAILED | diagnostic-only | medium | Answers - Community | Request for the permission of type System.Security.Permissions.SecurityPermission failed. |
-| Webtools Agent | WEBTOOLS-EDGE-OFFICE-LAUNCH | diagnostic-only | medium | Answers - Community | Web Client cannot launch Office documents through Webtools Agent in Edge. |
-| Webtools Agent | WEBTOOLS-SCANNING-NOT-DETECTED | diagnostic-only | medium | Answers - Community | Web Client does not recognize Webtools Agent for scanning. |
 
 ## Review Rules
 
