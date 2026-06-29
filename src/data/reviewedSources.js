@@ -167,7 +167,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Administration Hub", "Version 12"],
     extractedErrorCodes: ["LFAH3800", "SCPError"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-160421-import-agent-file-in-use",
@@ -187,7 +187,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["WebLink", "Version 11"],
     extractedErrorCodes: ["WEBLINK-ARGUMENT-NULL"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-119958-forms-lff4117",
@@ -217,7 +217,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Import Agent", "Version 10"],
     extractedErrorCodes: ["9008"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-187456-import-agent-9045",
@@ -267,7 +267,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["WebLink", "Version 11"],
     extractedErrorCodes: ["9035"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-95210-forms-lff502",
@@ -277,7 +277,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Forms", "Version 10"],
     extractedErrorCodes: ["LFF502"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-211554-forms-lff5437",
@@ -287,7 +287,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Forms", "Version 11"],
     extractedErrorCodes: ["LFF5437"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-235981-forms-lff9320",
@@ -297,7 +297,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Forms", "Version 12"],
     extractedErrorCodes: ["LFF9300", "LFF9312", "LFF9320"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-221408-forms-archive-sequence",
@@ -307,7 +307,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Forms"],
     extractedErrorCodes: ["FORMS-ARCHIVE-SEQUENCE"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-54725-workflow-0650-wf0",
@@ -337,7 +337,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Workflow", "Version 9"],
     extractedErrorCodes: ["0637-WF1"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-185188-workflow-2343",
@@ -357,7 +357,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Workflow", "Version 10"],
     extractedErrorCodes: ["2147467259"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-221051-9013",
@@ -717,7 +717,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Web Client", "Windows Client/Desktop Client", "Version 12"],
     extractedErrorCodes: ["9011", "9013", "0xc0042333"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-131819-9012",
@@ -1297,7 +1297,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["WebLink", "Version 10"],
     extractedErrorCodes: ["9030"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-181979-weblink-9013",
@@ -1327,7 +1327,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Forms", "Version 11"],
     extractedErrorCodes: ["LFF706"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-206162-forms-routing-service-log",
@@ -1387,7 +1387,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["WebLink", "Version 9"],
     extractedErrorCodes: ["WEBLINK-LOST-CONNECTION"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-170443-weblink-9091",
@@ -1447,7 +1447,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Forms", "Version 10"],
     extractedErrorCodes: ["DCOM-OLD-SERVER"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-193432-forms-dmz-recovery",
@@ -1517,7 +1517,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Directory Server", "Forms", "Version 11"],
     extractedErrorCodes: ["HTTP 503", "LFDS-ENDPOINT"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-77320-fts-9294",
@@ -1597,7 +1597,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Forms", "Version 10"],
     extractedErrorCodes: ["LFF6010"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-74521-audit-trail-shrinkdatabase",
@@ -1897,7 +1897,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Workflow", "Version 10"],
     extractedErrorCodes: ["9066"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-143446-workflow-sdk-http-request",
@@ -2017,7 +2017,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Directory Server", "Laserfiche Server/Repository Server", "Version 11"],
     extractedErrorCodes: ["9357"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-146237-lfds-9528-effective-rights",
@@ -2027,7 +2027,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Directory Server", "Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["9528"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-190818-lfds-ldap-credential-invalid",
@@ -2127,7 +2127,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Directory Server", "Version 10"],
     extractedErrorCodes: ["0xC0000064"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-79050-scanning-cannot-store-field-data",
@@ -2787,7 +2787,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Import Agent", "Version 10"],
     extractedErrorCodes: ["IMPORT-AGENT-COMPARE-ARRAY"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-147136-import-agent-temp-file-hotfix",
@@ -2807,7 +2807,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Import Agent", "Version 10"],
     extractedErrorCodes: ["EVENT-8", "ACCESS-DENIED"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-109598-import-agent-error-codes-guide",
@@ -2917,7 +2917,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Snapshot", "Version 10"],
     extractedErrorCodes: ["EVENT-319", "SNAPSHOT-DRIVER-1252"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "no-matching-posts",
   },
   {
     id: "answers-230313-admin-hub-agent-connectivity",
@@ -3007,7 +3007,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Federated Search", "Version 11"],
     extractedErrorCodes: ["FEDERATED-SEARCH-INSTALL-FAILED"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-118136-federated-search-lfds-license-name",
@@ -3037,7 +3037,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms"],
     extractedErrorCodes: ["LFF8100-NotificationServerConnectionDown", "HTTP 500"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-181768-lff8100-notification-ssl",
@@ -3047,7 +3047,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms"],
     extractedErrorCodes: ["LFF8100-NotificationServerConnectionDown"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-135953-lff3004-licensing-service",
@@ -3067,7 +3067,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms"],
     extractedErrorCodes: ["LFF501-RoutingEngineDown"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-159690-lff706-routing",
@@ -3077,7 +3077,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms"],
     extractedErrorCodes: ["LFF706-UnableToTriggerRouting", "10060"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-132137-lff5203-workflow-api",
@@ -3087,7 +3087,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Forms", "Version 10"],
     extractedErrorCodes: ["LFF5203-WFServerApiFault", "LFF502-UnexpectedError"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-199426-lff5203-workflow-api",
@@ -3097,7 +3097,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Forms"],
     extractedErrorCodes: ["LFF5203-WFServerApiFault"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-95166-0735-wf1-0516-wf1",
@@ -3107,7 +3107,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow"],
     extractedErrorCodes: ["0735-WF1", "0516-WF1"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-58730-0472-wf1",
@@ -3117,7 +3117,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow"],
     extractedErrorCodes: ["0472-WF1"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-83131-0512-wf1",
@@ -3127,7 +3127,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow"],
     extractedErrorCodes: ["0512-WF1"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-116850-0104-wf6",
@@ -3157,7 +3157,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 12"],
     extractedErrorCodes: ["9013"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-108214-web-client-6720-pdf",
@@ -3177,7 +3177,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 10"],
     extractedErrorCodes: ["WEBCLIENT-HTTP-RESPONSE-BODY"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-161443-web-client-smartcard",
@@ -3187,7 +3187,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client"],
     extractedErrorCodes: ["0x8009033E", "0x80041770"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-122385-web-access-50019",
@@ -3197,7 +3197,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 10"],
     extractedErrorCodes: ["0x8007000d", "HTTP Error 500.19"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-135521-web-client-lfscan-launch",
@@ -3227,7 +3227,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client"],
     extractedErrorCodes: ["WEBCLIENT-BLANK-PDF-AFTER-REPAIR"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-150369-web-client-bad-download-response",
@@ -3237,7 +3237,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client"],
     extractedErrorCodes: ["WEBCLIENT-BAD-DOWNLOAD-RESPONSE"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-206749-web-client-kerberos-sso",
@@ -3247,7 +3247,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Directory Server"],
     extractedErrorCodes: ["WEBCLIENT-KERBEROS-SSO"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-227982-web-client-webstorage-module",
@@ -3277,7 +3277,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client"],
     extractedErrorCodes: ["WEBCLIENT-PDF-500"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-180065-web-client-newtonsoft-preview",
@@ -3287,7 +3287,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client"],
     extractedErrorCodes: ["0x80131040"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-112213-web-access-connection-cannot-be-made",
@@ -3297,7 +3297,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client"],
     extractedErrorCodes: ["WEBACCESS-CONNECTION-CANNOT-BE-MADE"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-134755-web-scan-assembly-load",
@@ -3307,7 +3307,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client"],
     extractedErrorCodes: ["WEBSCAN-ASSEMBLY-LOAD"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-95938-web-access-json-undefined",
@@ -3327,7 +3327,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["API Server"],
     extractedErrorCodes: ["409"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-233768-ai-service-mediatypeformatter",
@@ -3367,7 +3367,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["API Server"],
     extractedErrorCodes: ["API-LARGE-FILE-LIMIT"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-220463-api-search-task-404",
@@ -3377,7 +3377,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["API Server", "Forms"],
     extractedErrorCodes: ["404"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-235760-api-429",
@@ -3387,7 +3387,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["API Server"],
     extractedErrorCodes: ["429"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-206278-api-swagger-unauthorized",
@@ -3397,7 +3397,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["API Server"],
     extractedErrorCodes: ["API-SWAGGER-UNAUTHORIZED"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-235341-api-import-timeout-500",
@@ -3407,7 +3407,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["API Server"],
     extractedErrorCodes: ["500", "API-IMPORT-TIMEOUT"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-213690-api-404",
@@ -3417,7 +3417,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["API Server"],
     extractedErrorCodes: ["404"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-212213-api-repository-connection",
@@ -3427,7 +3427,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["API Server", "Laserfiche Server/Repository Server"],
     extractedErrorCodes: ["API-REPOSITORY-CONNECTION"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-213985-api-guid-upload",
@@ -3437,7 +3437,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["API Server"],
     extractedErrorCodes: ["API-GUID-FORMAT"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-124223-lfds23",
@@ -3447,7 +3447,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server"],
     extractedErrorCodes: ["LFDS23"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-93521-directory-service-0x80072030",
@@ -3457,7 +3457,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server"],
     extractedErrorCodes: ["0x80072030", "0x80131904"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-177574-lfds-saml-encryption-settings",
@@ -3467,7 +3467,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server"],
     extractedErrorCodes: ["LFDS-SAML-ENCRYPTION-MISMATCH"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-138187-lfds-user-no-full-license",
@@ -3477,7 +3477,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Forms"],
     extractedErrorCodes: ["LFF3008-LFDSCredentialNoFullLic"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-182974-lfds-invalid-username-password",
@@ -3487,7 +3487,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server"],
     extractedErrorCodes: ["LFDS-INVALID-USERNAME-PASSWORD"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-159834-lfds-users-repository-0xc004248d",
@@ -3497,7 +3497,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Laserfiche Server/Repository Server"],
     extractedErrorCodes: ["0xc004248d"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-119138-lfds-managed-service-account",
@@ -3507,7 +3507,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server"],
     extractedErrorCodes: ["0xc0042538", "0x80042538"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-209239-lfds-ldap-unavailable",
@@ -3517,7 +3517,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server"],
     extractedErrorCodes: ["LFDS0", "LMO0", "0x10000000", "0x1a280161"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-155259-lfds-database-still-mounting",
@@ -3527,7 +3527,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Version 10"],
     extractedErrorCodes: ["LFDS-DATABASE-STILL-MOUNTING"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-132762-lfds-invalid-request-lmo0",
@@ -3537,7 +3537,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server"],
     extractedErrorCodes: ["LFDS-INVALID-REQUEST", "LMO0"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-175313-lfds-socket-errors",
@@ -3547,7 +3547,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server"],
     extractedErrorCodes: ["0x80004005", "LFDS-SOCKET-EID2"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-216305-lfds-sync-fail",
@@ -3557,7 +3557,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server"],
     extractedErrorCodes: ["0x80131904", "LFDS-SYNC-FAIL"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-214285-forms-lff2400-odbc",
@@ -3567,7 +3567,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 11", "Version 12"],
     extractedErrorCodes: ["LFF2400-DataSourceConnectionError"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-152748-forms-lff378-lookup-failed",
@@ -3577,7 +3577,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10"],
     extractedErrorCodes: ["LFF378-Lookupfailed"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-143979-workflow-0267-script-method",
@@ -3587,7 +3587,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 10"],
     extractedErrorCodes: ["0267-WF1"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-71240-workflow-0383-missing-dependencies",
@@ -3607,7 +3607,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 12"],
     extractedErrorCodes: ["1779"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-119868-web-access-403-14",
@@ -3617,7 +3617,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 10"],
     extractedErrorCodes: ["HTTP Error 403.14", "403"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-81857-lfds-ad-sync-0x80072020",
@@ -3627,7 +3627,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server"],
     extractedErrorCodes: ["0x80072020"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-87421-client-email-interface-not-registered",
@@ -3637,7 +3637,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Windows Client/Desktop Client", "Version 9"],
     extractedErrorCodes: ["0x80040155", "341"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-60221-client-export-path-0x80070005",
@@ -3657,7 +3657,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10"],
     extractedErrorCodes: ["LFF1018", "LFF1018-ErrorOccuredDuringFormulaCalculation", "LFF502-UnexpectedError"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-193632-forms-lff2000-smtp",
@@ -3677,7 +3677,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 11"],
     extractedErrorCodes: ["LFF706-UnableToTriggerRouting", "LFF3004-UnableToOpenServiceProxy"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-49235-workflow-0544-wf0",
@@ -3687,7 +3687,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 9"],
     extractedErrorCodes: ["0544-WF0", "0604-WFSO0"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-100656-workflow-0516-wf1",
@@ -3697,7 +3697,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow"],
     extractedErrorCodes: ["0516-WF1"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-161990-web-client-401",
@@ -3707,7 +3707,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 10"],
     extractedErrorCodes: ["401"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-91103-web-scanning-not-loading",
@@ -3717,7 +3717,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 9"],
     extractedErrorCodes: ["WEB-SCANNING-NOT-LOADING"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-65896-forms-http-503",
@@ -3727,7 +3727,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Web Client"],
     extractedErrorCodes: ["HTTP Error 503", "503"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-178905-forms-lff348",
@@ -3737,7 +3737,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms"],
     extractedErrorCodes: ["LFF348-MemberNotChild", "LFF502-UnexpectedError"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-232016-forms-lff9904",
@@ -3747,7 +3747,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Audit Trail", "Version 12"],
     extractedErrorCodes: ["LFF9904-AuditTrailUnableToRecordEvent", "LFF502-UnexpectedError"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-121874-forms-lff2107",
@@ -3757,7 +3757,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10"],
     extractedErrorCodes: ["LFF2107-SubmissionError"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-228985-forms-lff329",
@@ -3767,7 +3767,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 12"],
     extractedErrorCodes: ["LFF329-TimeoutWkHTMLToPDF"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-62993-workflow-0427-wf0",
@@ -3777,7 +3777,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 9"],
     extractedErrorCodes: ["0427-WF0"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-128332-workflow-service-1053",
@@ -3787,7 +3787,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow"],
     extractedErrorCodes: ["1053"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-204821-web-client-404",
@@ -3797,7 +3797,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 10"],
     extractedErrorCodes: ["HTTP Error 404", "404"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-235266-web-client-lff5003",
@@ -3807,7 +3807,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Forms", "Version 12"],
     extractedErrorCodes: ["LFF5003-LicenseFileNotAtPath"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-205717-forms-lff5206",
@@ -3817,7 +3817,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow"],
     extractedErrorCodes: ["LFF5206-WFAPIAccessDenied"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-200295-forms-lff2607",
@@ -3827,7 +3827,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms"],
     extractedErrorCodes: ["LFF2607-CannotimportProcessFromBPL"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-152599-forms-lff3200",
@@ -3837,7 +3837,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10"],
     extractedErrorCodes: ["LFF3200-GeneralMigrationError"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-171114-forms-lff5426",
@@ -3847,7 +3847,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms"],
     extractedErrorCodes: ["LFF5426-ErrorExecuteSTR"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-134647-forms-lff5427",
@@ -3857,7 +3857,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms"],
     extractedErrorCodes: ["LFF5427-ErrorExecuteSTR"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-89628-workflow-0639",
@@ -3867,7 +3867,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 9"],
     extractedErrorCodes: ["0639-WF1", "639"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-147406-web-client-field-groups-0xc0042542",
@@ -3877,7 +3877,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0xc0042542"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-163545-office-excel-tab-crash",
@@ -3887,7 +3887,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Office Integration", "Version 10"],
     extractedErrorCodes: ["0xe0434352", "0x4b9c08e8", "0x57e2061a", "0x0011fd82"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-107766-forms-lff308",
@@ -3897,7 +3897,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms"],
     extractedErrorCodes: ["LFF308-PageExpired"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-108773-forms-lff5000",
@@ -3907,7 +3907,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms"],
     extractedErrorCodes: ["LFF5000-LicenseFingerprintMismatch"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-120499-forms-lff5001",
@@ -3917,7 +3917,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms"],
     extractedErrorCodes: ["LFF5001-LicenseExpired"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-204079-forms-lff324",
@@ -3927,7 +3927,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms"],
     extractedErrorCodes: ["LFF324"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-195419-forms-lff9705",
@@ -3937,7 +3937,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms"],
     extractedErrorCodes: ["LFF9705-SecureAttachmentTransferError"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-142626-forms-lff335",
@@ -3947,7 +3947,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Directory Server"],
     extractedErrorCodes: ["LFF335-CannotRegisterLFRepo"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-114198-lfds-install-0x800401f0",
@@ -3957,7 +3957,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Laserfiche Installer"],
     extractedErrorCodes: ["0x800401F0"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-210641-workflow-template-0x80070002",
@@ -3977,7 +3977,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow"],
     extractedErrorCodes: ["348"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-195302-web-client-briefcase-0xc00503ea",
@@ -3987,7 +3987,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Laserfiche Server/Repository Server"],
     extractedErrorCodes: ["0xC00503EA", "9128"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-124617-lff9303-valueexceedscharacterlimit",
@@ -3997,7 +3997,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 12"],
     extractedErrorCodes: ["LFF9303-ValueExceedsCharacterLimit", "LFF9312-ErrorOccuredDuringFormsValidation"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-128117-501",
@@ -4007,7 +4007,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 9", "Version 12"],
     extractedErrorCodes: ["501"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-206599-0xc0042335",
@@ -4017,7 +4017,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Directory Server", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11"],
     extractedErrorCodes: ["0xc0042335"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-185978-lff3602-unsupportedsqlversion",
@@ -4027,7 +4027,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Directory Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["LFF3602-UnsupportedSQLVersion"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-95599-0458-wf0",
@@ -4037,7 +4037,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Directory Server", "Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["0458-WF0", "0458"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-186747-lff3007-invalidlfdscredential",
@@ -4047,7 +4047,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Directory Server", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["LFF3007-InvalidLFDSCredential"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-101883-0xc0042332",
@@ -4057,7 +4057,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Directory Server", "Laserfiche Server/Repository Server", "Version 10", "Version 11"],
     extractedErrorCodes: ["0xc0042332", "0x80042332"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-116634-2032",
@@ -4067,7 +4067,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Version 9"],
     extractedErrorCodes: ["2032"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-199802-0x8007052e",
@@ -4077,7 +4077,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Version 10"],
     extractedErrorCodes: ["0x8007052E", "0x80041770"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-145450-01000",
@@ -4087,7 +4087,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Audit Trail"],
     extractedErrorCodes: ["01000"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-212484-lff9910",
@@ -4097,7 +4097,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 11", "Version 12", "Audit Trail"],
     extractedErrorCodes: ["LFF9910", "LFF9910-AuditTrailVersionTooLow"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-113350-2627",
@@ -4107,7 +4107,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Audit Trail"],
     extractedErrorCodes: ["2627", "515"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-89533-22008",
@@ -4117,7 +4117,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Audit Trail"],
     extractedErrorCodes: ["22008"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-154199-23000",
@@ -4127,7 +4127,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 11", "Audit Trail"],
     extractedErrorCodes: ["23000", "01000"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-114968-0x80040300",
@@ -4137,7 +4137,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 10", "Connector"],
     extractedErrorCodes: ["0x80040300"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-171068-lff2106-invaliddatasent",
@@ -4147,7 +4147,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Directory Server", "Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["LFF2106-InvalidDataSent"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-102933-lff5010-notfullnameduser",
@@ -4157,7 +4157,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Directory Server", "Laserfiche Server/Repository Server", "Version 9", "Version 10"],
     extractedErrorCodes: ["LFF5010-NotFullNamedUser"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-112608-lff2016-invaliddatasent",
@@ -4167,7 +4167,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Directory Server", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11"],
     extractedErrorCodes: ["LFF2016-InvalidDataSent"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-202067-lff3007-invalidlfdscredential",
@@ -4177,7 +4177,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Directory Server", "Version 10", "Version 11"],
     extractedErrorCodes: ["LFF3007-InvalidLFDSCredential"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-124388-0x8004031d",
@@ -4187,7 +4187,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Version 10"],
     extractedErrorCodes: ["0x8004031d"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-186348-0x80131937",
@@ -4197,7 +4197,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Discussions"],
     extractedErrorCodes: ["0x80131937"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-93382-lff347-invalidanswersurl",
@@ -4207,7 +4207,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Discussions", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["LFF347-InvalidAnswersUrl"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-98129-lff347-invalidanswersurl",
@@ -4217,7 +4217,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Discussions"],
     extractedErrorCodes: ["LFF347-InvalidAnswersUrl"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-147268-lff2106-invaliddatasent",
@@ -4227,7 +4227,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 11", "Version 12", "Discussions"],
     extractedErrorCodes: ["LFF2106-InvalidDataSent"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-117870-0751-wf0",
@@ -4237,7 +4237,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Distributed Computing Cluster", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0751-WF0"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-61602-0x800401a5",
@@ -4247,7 +4247,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 9", "Distributed Computing Cluster"],
     extractedErrorCodes: ["0x800401A5"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-232192-0x800706ba",
@@ -4257,7 +4257,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Distributed Computing Cluster", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0x800706BA"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-174811-0724-wf1",
@@ -4267,7 +4267,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 10", "Distributed Computing Cluster"],
     extractedErrorCodes: ["0724-WF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-163652-0x800706ba",
@@ -4277,7 +4277,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Distributed Computing Cluster"],
     extractedErrorCodes: ["0x800706BA"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-86613-1067",
@@ -4287,7 +4287,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 9"],
     extractedErrorCodes: ["1067"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-181174-lff3005-unabletoconnecttolfserver",
@@ -4297,7 +4297,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Directory Server", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["LFF3005-UnableToConnectToLFServer"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-207219-lff4112-pdfnetworkerror",
@@ -4307,7 +4307,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10"],
     extractedErrorCodes: ["LFF4112-PdfNetworkError"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-127258-10061",
@@ -4317,7 +4317,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 9", "Version 10", "Version 11"],
     extractedErrorCodes: ["10061"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-132881-lff9408-paymentauthenticationerror",
@@ -4327,7 +4327,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["LFF9408-PaymentAuthenticationError"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-161231-1921",
@@ -4337,7 +4337,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["1921"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-180377-lff708-submissiondataisinvalid",
@@ -4347,7 +4347,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 9", "Version 10", "Version 11"],
     extractedErrorCodes: ["LFF708-SubmissionDataIsInvalid"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-96900-0xc00423ac",
@@ -4357,7 +4357,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 11", "Full Text Search"],
     extractedErrorCodes: ["0xc00423ac"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-69237-0x80041929",
@@ -4367,7 +4367,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Import Agent"],
     extractedErrorCodes: ["0x80041929"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-56755-0x80041929",
@@ -4377,7 +4377,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 11", "Import Agent"],
     extractedErrorCodes: ["0x80041929"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-150358-0x80004003",
@@ -4387,7 +4387,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 10", "Import Agent"],
     extractedErrorCodes: ["0x80004003", "0x80040205"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-168993-0103-wf6",
@@ -4397,7 +4397,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Import Agent"],
     extractedErrorCodes: ["0103-WF6"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-221999-0x88982f07",
@@ -4407,7 +4407,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Import Agent", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0x88982F07"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-141996-0xc0042533",
@@ -4417,7 +4417,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Laserfiche Installer"],
     extractedErrorCodes: ["0xc0042533"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-55838-0xc0042330",
@@ -4427,7 +4427,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 9", "Version 12", "Laserfiche Installer"],
     extractedErrorCodes: ["0xc0042330"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-147707-0x5aac406e",
@@ -4437,7 +4437,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 10", "Laserfiche Installer"],
     extractedErrorCodes: ["0x5aac406e", "0x5a4b127e", "0xc0000135", "0x0009d4e2"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-229114-0559-wf1",
@@ -4447,7 +4447,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 12", "Laserfiche Installer"],
     extractedErrorCodes: ["0559-WF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-71186-0x8004100e",
@@ -4457,7 +4457,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 12"],
     extractedErrorCodes: ["0x8004100E", "0x80041003"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-91154-0xc0042341",
@@ -4467,7 +4467,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9"],
     extractedErrorCodes: ["0xc0042341", "0x80042341"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-52154-183",
@@ -4477,7 +4477,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["183"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-70939-0xc0042530",
@@ -4487,7 +4487,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 11"],
     extractedErrorCodes: ["0xc0042530", "0x80042530"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-86499-1067",
@@ -4497,7 +4497,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["1067"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-168571-1069",
@@ -4507,7 +4507,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["1069"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-193270-1910",
@@ -4517,7 +4517,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11"],
     extractedErrorCodes: ["1910"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-84150-1068",
@@ -4527,7 +4527,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["1068"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-164764-0x93601cf3",
@@ -4537,7 +4537,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11"],
     extractedErrorCodes: ["0x93601cf3", "0x9b601cf3"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-70395-0x8004100e",
@@ -4547,7 +4547,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9"],
     extractedErrorCodes: ["0x8004100E"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-135662-0xc0042536",
@@ -4557,7 +4557,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 11", "Version 12"],
     extractedErrorCodes: ["0xc0042536", "0x80042536"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-95403-0xc0042354",
@@ -4567,7 +4567,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["0xc0042354"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-55623-111",
@@ -4577,7 +4577,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Mobile"],
     extractedErrorCodes: ["111"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-231291-0x800a01a8",
@@ -4587,7 +4587,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 9", "Version 12", "Office Integration"],
     extractedErrorCodes: ["0x800A01A8"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-76270-0x54efddd9",
@@ -4597,7 +4597,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Version 11", "Version 12", "Office Integration"],
     extractedErrorCodes: ["0x54efddd9", "0x54e33ed6", "0xc0000005", "0x000cce0c", "0x51b50f28", "0x56cf9fcf", "0x541c1f8e", "0x0000e780"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-53971-0224-wf1",
@@ -4607,7 +4607,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Web Client", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Version 12", "Office Integration"],
     extractedErrorCodes: ["0224-WF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-47940-0x4b9c08e8",
@@ -4617,7 +4617,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Version 11", "Office Integration"],
     extractedErrorCodes: ["0x4b9c08e8", "0x57e2061a", "0x0011fd82"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-72376-0106-qf1",
@@ -4627,7 +4627,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Directory Server", "Version 9", "Quick Fields"],
     extractedErrorCodes: ["0106-QF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-236412-0x800706ba",
@@ -4637,7 +4637,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 10", "Version 11", "Version 12", "Quick Fields"],
     extractedErrorCodes: ["0x800706BA"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-71315-0x4fd6279d",
@@ -4647,7 +4647,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 9", "Version 10", "Version 11", "Version 12", "Quick Fields"],
     extractedErrorCodes: ["0x4fd6279d", "0x4e211319", "0xe0434f4d", "0x0000b9bc", "0x52b4cc05", "0x53b485c4", "0xc0000005", "0x00051d5a"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-144899-0106-qf1",
@@ -4657,7 +4657,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Quick Fields", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0106-QF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-106350-0x52016528",
@@ -4667,7 +4667,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 9", "Version 10", "Quick Fields"],
     extractedErrorCodes: ["0x52016528", "0x57b7e09e", "0xc0000374", "0x000d9841", "0x590d342b", "0x5915f8e8", "0x000ce8fb"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-69289-0828-qf1",
@@ -4677,7 +4677,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Version 12", "Quick Fields"],
     extractedErrorCodes: ["0828-QF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-195538-0x80040312",
@@ -4687,7 +4687,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Records Management"],
     extractedErrorCodes: ["0x80040312"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-60114-0xc004237d",
@@ -4697,7 +4697,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Records Management", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0xc004237d"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-193021-9559",
@@ -4707,7 +4707,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 10", "Records Management"],
     extractedErrorCodes: ["9559"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-62125-0xc004233b",
@@ -4717,7 +4717,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Records Management"],
     extractedErrorCodes: ["0xC004233B"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-111870-0x0000070c",
@@ -4727,7 +4727,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Snapshot", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0x0000070c"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-112195-0x0000070c",
@@ -4737,7 +4737,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Version 12", "Snapshot"],
     extractedErrorCodes: ["0x0000070c"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-82785-0x55c15ff7",
@@ -4747,7 +4747,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Snapshot"],
     extractedErrorCodes: ["0x55c15ff7", "0x521ea91c", "0xc0000374", "0x000c3873"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-173858-719",
@@ -4757,7 +4757,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Version 10"],
     extractedErrorCodes: ["719"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-136118-0xc0000374",
@@ -4767,7 +4767,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["0xc0000374"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-144982-0x57899b8a",
@@ -4777,7 +4777,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Version 10", "Version 11", "WebLink"],
     extractedErrorCodes: ["0x57899b8a", "0x5b1a1651"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-203666-0xc0042330",
@@ -4787,7 +4787,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Version 12", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0xc0042330"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-142815-0x80004002",
@@ -4797,7 +4797,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80004002"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-123236-0xc000006d",
@@ -4807,7 +4807,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Version 9", "Version 10", "Audit Trail"],
     extractedErrorCodes: ["0xC000006D"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-78720-0x8007007e",
@@ -4817,7 +4817,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Version 11", "Version 12", "Connector"],
     extractedErrorCodes: ["0x8007007E"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-141652-0x5ae91f02",
@@ -4827,7 +4827,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 10", "Version 11", "Connector"],
     extractedErrorCodes: ["0x5ae91f02", "0x6369e29f", "0x5abdad60", "0x5add228d", "0xc0000005"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-187262-0x800706be",
@@ -4837,7 +4837,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Connector"],
     extractedErrorCodes: ["0x800706BE"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-110954-lff2106-invaliddatasent",
@@ -4847,7 +4847,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Directory Server", "Laserfiche Server/Repository Server", "Version 10", "Version 11"],
     extractedErrorCodes: ["LFF2106-InvalidDataSent"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-165484-lff2106-invaliddatasent",
@@ -4857,7 +4857,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Directory Server", "Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["LFF2106-InvalidDataSent"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-130811-0x00005011",
@@ -4867,7 +4867,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Version 10"],
     extractedErrorCodes: ["0x00005011"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-179049-0x80005000",
@@ -4877,7 +4877,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Directory Server", "Version 9", "Version 10"],
     extractedErrorCodes: ["0x80005000"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-80388-http-443",
@@ -4887,7 +4887,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Version 9"],
     extractedErrorCodes: ["http 443"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-99945-0458-wf0",
@@ -4897,7 +4897,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Directory Server", "Laserfiche Server/Repository Server", "Version 9", "Version 10"],
     extractedErrorCodes: ["0458-WF0"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-230410-400",
@@ -4907,7 +4907,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Directory Server", "Version 9", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["400"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-132502-lff4112-pdfnetworkerror",
@@ -4917,7 +4917,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["LFF4112-PdfNetworkError"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-59871-08004",
@@ -4927,7 +4927,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["08004"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-95197-lff4112-pdfnetworkerror",
@@ -4937,7 +4937,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["LFF4112-PdfNetworkError"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-210154-10061",
@@ -4947,7 +4947,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 11"],
     extractedErrorCodes: ["10061"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-193269-lff2104-invalidrequestsubmissionexists",
@@ -4957,7 +4957,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 9", "Version 10", "Version 11"],
     extractedErrorCodes: ["LFF2104-InvalidRequestSubmissionExists"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-219156-0x800703e3",
@@ -4967,7 +4967,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0x800703E3"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-169848-lff3016-invalidtimerconfiguration",
@@ -4977,7 +4977,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 12"],
     extractedErrorCodes: ["LFF3016-InvalidTimerConfiguration"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-159369-0x5a55ed59",
@@ -4987,7 +4987,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 10", "Import Agent"],
     extractedErrorCodes: ["0x5a55ed59", "0x5c92f34f"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-154732-1603",
@@ -4997,7 +4997,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 10", "Version 12", "Laserfiche Installer"],
     extractedErrorCodes: ["1603"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-50176-2044",
@@ -5007,7 +5007,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 11", "Laserfiche Installer"],
     extractedErrorCodes: ["2044"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-65242-1904",
@@ -5017,7 +5017,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Installer", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["1904"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-61935-0x80041a40",
@@ -5027,7 +5027,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 9", "Version 10", "Laserfiche Installer"],
     extractedErrorCodes: ["0x80041a40"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-89486-2753",
@@ -5037,7 +5037,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Laserfiche Installer"],
     extractedErrorCodes: ["2753"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-48198-2021",
@@ -5047,7 +5047,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9"],
     extractedErrorCodes: ["2021"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-123761-0xc0042536",
@@ -5057,7 +5057,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["0xc0042536", "0x80042536"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-54696-0xc0042507",
@@ -5067,7 +5067,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0xc0042507"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-180224-12175",
@@ -5077,7 +5077,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Version 10", "Laserfiche Server/Repository Server"],
     extractedErrorCodes: ["12175"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-54349-0x80040190",
@@ -5087,7 +5087,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0x80040190"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-168040-lff5428",
@@ -5097,7 +5097,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["LFF5428", "LFF5428-ErrorAuthenticateSTR"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-55002-22018",
@@ -5107,7 +5107,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 9", "Version 10", "Version 12", "Quick Fields"],
     extractedErrorCodes: ["22018"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-108813-0222-bp0",
@@ -5117,7 +5117,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 9", "Quick Fields"],
     extractedErrorCodes: ["0222-BP0"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-187580-0x800706ba",
@@ -5127,7 +5127,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Quick Fields", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0x800706BA"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-163526-9559",
@@ -5137,7 +5137,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 10", "Records Management"],
     extractedErrorCodes: ["9559"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-199761-lff340-taskalreadycanceled",
@@ -5147,7 +5147,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 11", "Snapshot"],
     extractedErrorCodes: ["LFF340-TaskAlreadyCanceled"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-148168-0x0000007e",
@@ -5157,7 +5157,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 10", "Version 11", "Snapshot"],
     extractedErrorCodes: ["0x0000007e"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-187941-400",
@@ -5167,7 +5167,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 12", "Snapshot"],
     extractedErrorCodes: ["400"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-95980-0x80005000",
@@ -5177,7 +5177,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Version 9"],
     extractedErrorCodes: ["0x80005000"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-97863-0212-wf1",
@@ -5187,7 +5187,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 9"],
     extractedErrorCodes: ["0212-WF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-70556-10061",
@@ -5197,7 +5197,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Version 9"],
     extractedErrorCodes: ["10061"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-162396-0x80040310",
@@ -5207,7 +5207,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 10"],
     extractedErrorCodes: ["0x80040310"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-221326-lff3005-unabletoconnecttolfserver",
@@ -5217,7 +5217,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Web Client", "Laserfiche Server/Repository Server", "Version 11"],
     extractedErrorCodes: ["LFF3005-UnableToConnectToLFServer"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-205359-0x57899b8a",
@@ -5227,7 +5227,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Web Client", "Version 10", "Version 11", "Version 12", "WebLink"],
     extractedErrorCodes: ["0x57899b8a", "0x6274ba21", "0xc00000fd"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-219615-0xcfdb13d8",
@@ -5237,7 +5237,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 10", "Version 11", "WebLink"],
     extractedErrorCodes: ["0xcfdb13d8", "0xfb111856", "0xc0000374"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-81330-0x800704cd",
@@ -5247,7 +5247,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Version 9", "Version 10", "Version 12", "WebLink"],
     extractedErrorCodes: ["0x800704CD"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-122922-0x54ebd105",
@@ -5257,7 +5257,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x54ebd105", "0x5915f8e8", "0xc0000374", "0x000ce8fb"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-184693-0x80040310",
@@ -5267,7 +5267,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Version 12", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80040310"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-120661-2106",
@@ -5277,7 +5277,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["2106"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-113968-0xc0042332",
@@ -5287,7 +5287,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0xc0042332", "0x80042332"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-168428-lff5021-notvalidlfdslicense",
@@ -5297,7 +5297,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Directory Server", "Version 9", "Version 10"],
     extractedErrorCodes: ["LFF5021-NotValidLfdsLicense"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-185663-0xc0042332",
@@ -5307,7 +5307,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["0xc0042332", "0x80042332"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-160174-0x80005000",
@@ -5317,7 +5317,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Directory Server", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0x80005000"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-200818-1064",
@@ -5327,7 +5327,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Directory Server", "Version 10", "Version 11"],
     extractedErrorCodes: ["1064"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-83509-0x80042335",
@@ -5337,7 +5337,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Version 9", "Version 10"],
     extractedErrorCodes: ["0x80042335"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-233323-0xc0042334",
@@ -5347,7 +5347,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Laserfiche Server/Repository Server", "Version 10", "Version 12"],
     extractedErrorCodes: ["0xc0042334"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-231119-522",
@@ -5357,7 +5357,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Directory Server", "Version 11", "Version 12"],
     extractedErrorCodes: ["522"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-118342-1722",
@@ -5367,7 +5367,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Version 9", "Version 10", "Version 11"],
     extractedErrorCodes: ["1722"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-66314-01000",
@@ -5377,7 +5377,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["01000"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-141444-lff337-notablestoredprocedureassigned",
@@ -5387,7 +5387,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 11"],
     extractedErrorCodes: ["LFF337-NoTableStoredProcedureAssigned"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-233207-10502",
@@ -5397,7 +5397,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 9", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["10502"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-107649-lff4101-failedtouploadfile",
@@ -5407,7 +5407,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["LFF4101-FailedToUploadFile"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-156166-lff4120-erroroccurredduringdownload",
@@ -5417,7 +5417,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 9", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["LFF4120-ErrorOccurredDuringDownload"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-148489-0x80040310",
@@ -5427,7 +5427,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Version 11", "Version 12", "Laserfiche Installer"],
     extractedErrorCodes: ["0x80040310"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-53229-0645-wf1",
@@ -5437,7 +5437,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Laserfiche Installer"],
     extractedErrorCodes: ["0645-WF1", "0644-WF1", "0645"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-128966-1923",
@@ -5447,7 +5447,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["1923"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-114085-0458-wf0",
@@ -5457,7 +5457,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10"],
     extractedErrorCodes: ["0458-WF0"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-69715-2044",
@@ -5467,7 +5467,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["2044"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-60589-0xc0042530",
@@ -5477,7 +5477,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9"],
     extractedErrorCodes: ["0xc0042530", "0x80042530"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-175852-0xc0042330",
@@ -5487,7 +5487,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["0xc0042330", "0x80042330"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-105228-0xc0042483",
@@ -5497,7 +5497,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9"],
     extractedErrorCodes: ["0xc0042483"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-63336-0x80040556",
@@ -5507,7 +5507,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9"],
     extractedErrorCodes: ["0x80040556"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-53212-0xc005041a",
@@ -5517,7 +5517,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10"],
     extractedErrorCodes: ["0xC005041A"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-118435-0xc005041b",
@@ -5527,7 +5527,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 11"],
     extractedErrorCodes: ["0xC005041B"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-227401-0645-wf1",
@@ -5537,7 +5537,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Directory Server", "Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["0645-WF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-79896-0xc005041a",
@@ -5547,7 +5547,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9"],
     extractedErrorCodes: ["0xC005041A"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-144581-0x80070050",
@@ -5557,7 +5557,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["0x80070050", "0x80090322", "0xC0050400"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-55579-0x80004003",
@@ -5567,7 +5567,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10"],
     extractedErrorCodes: ["0x80004003", "0x00004003"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-63195-0x80040300",
@@ -5577,7 +5577,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 11", "Version 12", "Laserfiche Server/Repository Server"],
     extractedErrorCodes: ["0x80040300"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-178830-lff2106-invaliddatasent",
@@ -5587,7 +5587,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Mobile"],
     extractedErrorCodes: ["LFF2106-InvalidDataSent"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-126513-lff5017-licensevalidationnosuccess",
@@ -5597,7 +5597,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Web Client", "Directory Server", "Version 9", "Version 10", "Mobile"],
     extractedErrorCodes: ["LFF5017-LicenseValidationNoSuccess"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-229243-lff2006-emailtestfailed",
@@ -5607,7 +5607,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Version 11", "Version 12", "Mobile"],
     extractedErrorCodes: ["LFF2006-EmailTestFailed"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-168174-0224-bp1",
@@ -5617,7 +5617,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Directory Server", "Version 9", "Version 10", "Version 12", "Quick Fields"],
     extractedErrorCodes: ["0224-BP1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-157486-0967-bp0",
@@ -5627,7 +5627,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Quick Fields", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0967-BP0", "0967"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-123033-128",
@@ -5637,7 +5637,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Quick Fields", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["128"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-190226-lff337-notableorstoredprocedureassigned",
@@ -5647,7 +5647,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 9", "Version 10", "Version 12", "Quick Fields"],
     extractedErrorCodes: ["LFF337-NoTableorStoredProcedureAssigned"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-212309-10061",
@@ -5657,7 +5657,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Version 10", "Version 11"],
     extractedErrorCodes: ["10061"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-88653-10061",
@@ -5667,7 +5667,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 12"],
     extractedErrorCodes: ["10061"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-101467-0xc0000142",
@@ -5677,7 +5677,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 9", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0xc0000142"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-61622-0287-wf0",
@@ -5687,7 +5687,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9"],
     extractedErrorCodes: ["0287-WF0"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-85099-0x80070542",
@@ -5697,7 +5697,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 9"],
     extractedErrorCodes: ["0x80070542"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-50201-0xc004234d",
@@ -5707,7 +5707,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 12"],
     extractedErrorCodes: ["0xc004234d", "0x8004234d"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-116360-lff2111-requestvalidationexception",
@@ -5717,7 +5717,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Web Client", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "WebLink"],
     extractedErrorCodes: ["LFF2111-RequestValidationException"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-82369-10060",
@@ -5727,7 +5727,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "WebLink"],
     extractedErrorCodes: ["10060"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-185273-0x80004003",
@@ -5737,7 +5737,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 11", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80004003"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-108166-0x52fdcbab",
@@ -5747,7 +5747,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Version 11", "Version 12", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x52fdcbab", "0xc0000005", "0x0008f5bc"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-139217-0xc00cee2c",
@@ -5757,7 +5757,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0xc00cee2c"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-171980-9569",
@@ -5767,7 +5767,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Version 12", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["9569"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-159902-0x80004002",
@@ -5777,7 +5777,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80004002"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-127763-0xc0042329",
@@ -5787,7 +5787,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0xc0042329"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-80805-0x800736b1",
@@ -5797,7 +5797,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x800736B1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-52198-340",
@@ -5807,7 +5807,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Version 11", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["340"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-227906-0x80040310",
@@ -5817,7 +5817,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Web Client", "Laserfiche Server/Repository Server", "Version 9", "Version 11", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80040310"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-154204-lff3002-invalidlfdsdatabasename",
@@ -5827,7 +5827,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Directory Server", "Version 10", "Version 11"],
     extractedErrorCodes: ["LFF3002-InvalidLFDSDatabaseName"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-225549-0645-wf1",
@@ -5837,7 +5837,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Directory Server", "Laserfiche Server/Repository Server", "Version 12"],
     extractedErrorCodes: ["0645-WF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-230222-lff4101-failedtouploadfile",
@@ -5847,7 +5847,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10"],
     extractedErrorCodes: ["LFF4101-FailedtoUploadFile"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-212224-lff5208-wfexecutionerror",
@@ -5857,7 +5857,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Version 9", "Version 10", "Version 11"],
     extractedErrorCodes: ["LFF5208-WFExecutionError"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-140795-lff1013-invaliddatevalue",
@@ -5867,7 +5867,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["LFF1013-InvalidDateValue"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-113595-lff4112-pdfnetworkerror",
@@ -5877,7 +5877,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["LFF4112-PdfNetworkError", "200"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-200565-lff2609-failtogenerateprocessimage",
@@ -5887,7 +5887,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 11"],
     extractedErrorCodes: ["LFF2609-FailToGenerateProcessImage"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-183998-lff4112-pdfnetworkerror",
@@ -5897,7 +5897,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["LFF4112-PdfNetworkError", "202"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-197437-0454-wf1",
@@ -5907,7 +5907,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 11", "Import Agent"],
     extractedErrorCodes: ["0454-WF1", "0454"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-97143-lff5413-noactualparticipantsassignedfortask",
@@ -5917,7 +5917,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Version 11"],
     extractedErrorCodes: ["LFF5413-NoActualParticipantsAssignedForTask"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-123201-lff9300-valuerequired",
@@ -5927,7 +5927,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 12"],
     extractedErrorCodes: ["LFF9300-ValueRequired", "LFF9312-ErrorOccuredDuringFormsValidation"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-175641-lff4120-erroroccurredduringdownload",
@@ -5937,7 +5937,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 12"],
     extractedErrorCodes: ["LFF4120-ErrorOccurredDuringDownload"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-165238-lff2002-emailapprovalserverconnection",
@@ -5947,7 +5947,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10"],
     extractedErrorCodes: ["LFF2002-EmailApprovalServerConnection"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-98045-0x80080005",
@@ -5957,7 +5957,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Version 11", "Laserfiche Installer"],
     extractedErrorCodes: ["0x80080005"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-120295-0x800706be",
@@ -5967,7 +5967,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 10", "Laserfiche Installer"],
     extractedErrorCodes: ["0x800706BE"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-105153-0588-wf1",
@@ -5977,7 +5977,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 9", "Version 10", "Version 12", "Laserfiche Installer"],
     extractedErrorCodes: ["0588-WF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-157087-0x8007007e",
@@ -5987,7 +5987,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Laserfiche Installer"],
     extractedErrorCodes: ["0x8007007E"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-78127-0757-wf0",
@@ -5997,7 +5997,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Web Client", "Laserfiche Server/Repository Server", "Version 9", "Laserfiche Installer"],
     extractedErrorCodes: ["0757-WF0"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-128570-0x80029c4a",
@@ -6007,7 +6007,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 10", "Laserfiche Installer"],
     extractedErrorCodes: ["0x80029c4a", "0x80070057"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-66767-0103-wf6",
@@ -6017,7 +6017,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 12", "Laserfiche Installer"],
     extractedErrorCodes: ["0103-WF6"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-154382-0x80004002",
@@ -6027,7 +6027,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0x80004002"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-137619-0x80040304",
@@ -6037,7 +6037,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["0x80040304"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-189493-0299-wf1",
@@ -6047,7 +6047,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0299-WF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-182333-0xc0042330",
@@ -6057,7 +6057,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0xc0042330", "0x80042330"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-85125-0x80070003",
@@ -6067,7 +6067,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9"],
     extractedErrorCodes: ["0x80070003"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-63587-0636-wf1",
@@ -6077,7 +6077,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0636-WF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-148403-0x8007052e",
@@ -6087,7 +6087,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["0x8007052E"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-215577-0xc0042339",
@@ -6097,7 +6097,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 11"],
     extractedErrorCodes: ["0xc0042339"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-109167-0213-bp1",
@@ -6107,7 +6107,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 10", "Quick Fields"],
     extractedErrorCodes: ["0213-BP1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-68962-0287-wf0",
@@ -6117,7 +6117,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 12"],
     extractedErrorCodes: ["0287-WF0"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-149002-10061",
@@ -6127,7 +6127,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 10", "Version 12"],
     extractedErrorCodes: ["10061"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-211572-0x5cf95718",
@@ -6137,7 +6137,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 12"],
     extractedErrorCodes: ["0x5cf95718", "0x64253b4c"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-175517-http-502",
@@ -6147,7 +6147,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["HTTP 502"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-94789-12039",
@@ -6157,7 +6157,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["12039"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-164969-lff380-validatenostep",
@@ -6167,7 +6167,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Web Client", "Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["LFF380-ValidateNoStep"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-125774-0x80004003",
@@ -6177,7 +6177,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80004003", "0x80090322"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-99479-0x80029c4a",
@@ -6187,7 +6187,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80029c4a"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-128430-0x80029c4a",
@@ -6197,7 +6197,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 10", "Version 11", "Version 12", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80029c4a"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-130765-0x80040197",
@@ -6207,7 +6207,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80040197", "407"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-79648-0xc0042330",
@@ -6217,7 +6217,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Version 11", "Version 12", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0xc0042330"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-141775-0x00000001",
@@ -6227,7 +6227,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x00000001"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-98411-0x80040310",
@@ -6237,7 +6237,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Windows Client/Desktop Client", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0x80040310"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-154717-0x80040310",
@@ -6247,7 +6247,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80040310"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-226557-0xc0042354",
@@ -6257,7 +6257,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 9", "Version 11", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0xc0042354"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-214328-lff2103-processdeleted",
@@ -6267,7 +6267,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["LFF2103-ProcessDeleted"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-182413-lff4112-pdfnetworkerror",
@@ -6277,7 +6277,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Laserfiche Server/Repository Server", "Version 10", "Version 12", "Laserfiche Installer"],
     extractedErrorCodes: ["LFF4112-PdfNetworkError"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-170902-lff2007-emailsubmissionfailure1",
@@ -6287,7 +6287,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10", "Version 11", "Laserfiche Installer"],
     extractedErrorCodes: ["LFF2007-EmailSubmissionFailure1", "LFF5017-LicenseValidationNoSuccess"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-141909-lff0337",
@@ -6297,7 +6297,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 9", "Version 10", "Laserfiche Installer"],
     extractedErrorCodes: ["LFF0337", "LFF1006-InvalidArgumentCount"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-185977-0742-wf1",
@@ -6307,7 +6307,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Laserfiche Server/Repository Server", "Version 10", "Version 12", "Laserfiche Installer"],
     extractedErrorCodes: ["0742-WF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-89750-0x80131620",
@@ -6317,7 +6317,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Laserfiche Installer"],
     extractedErrorCodes: ["0x80131620"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-208509-0587-wf1",
@@ -6327,7 +6327,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["0587-WF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-54638-22018",
@@ -6337,7 +6337,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Quick Fields", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["22018"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-71009-128",
@@ -6347,7 +6347,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 9", "Quick Fields"],
     extractedErrorCodes: ["128"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-103484-0xc0042363",
@@ -6357,7 +6357,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 10"],
     extractedErrorCodes: ["0xc0042363"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-144196-0339-wf1",
@@ -6367,7 +6367,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Laserfiche Server/Repository Server", "Version 10"],
     extractedErrorCodes: ["0339-WF1"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-147300-0x800a03ec",
@@ -6377,7 +6377,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Web Client", "Laserfiche Server/Repository Server", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0x800A03EC"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-127037-0x80042335",
@@ -6387,7 +6387,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80042335"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-174910-0x5e30b158",
@@ -6397,7 +6397,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 10", "Version 11", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x5e30b158", "0xf0fb96d7", "0xc06d007e", "0x00122552", "0x5cdf1ea5", "0x51671cfe", "0x001143d2"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-67882-0x80040310",
@@ -6407,7 +6407,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Windows Client/Desktop Client", "Version 10", "Version 11", "Version 12"],
     extractedErrorCodes: ["0x80040310"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-143095-0x80004003",
@@ -6417,7 +6417,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80004003"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-82628-0xc0042335",
@@ -6427,7 +6427,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0xc0042335"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-82889-0x80070483",
@@ -6437,7 +6437,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 11", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80070483"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-114704-0x8009030e",
@@ -6447,7 +6447,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Version 12", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x8009030e"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-83628-0x80020006",
@@ -6457,7 +6457,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80020006"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-150152-0x54880652",
@@ -6467,7 +6467,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Version 11", "Version 12", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x54880652", "0x5098858e", "0xc0000409", "0x000a326c"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-111668-0x57e478b1",
@@ -6477,7 +6477,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x57e478b1", "0x57f7bb79", "0xc00000fd", "0x0002df76"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-122540-0x80004002",
@@ -6487,7 +6487,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80004002"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-107433-0x80131700",
@@ -6497,7 +6497,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 9", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80131700"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-55615-499",
@@ -6507,7 +6507,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["499"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-111405-0x54efddd9",
@@ -6517,7 +6517,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x54efddd9", "0x56cc16f5", "0xc0000005", "0x00049f83"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-112558-0x56cf9fcf",
@@ -6527,7 +6527,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Version 11", "Version 12", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x56cf9fcf", "0x5098858e", "0xc0000005", "0x00012194"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-95148-0x80070057",
@@ -6537,7 +6537,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Laserfiche Server/Repository Server", "Version 9", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80070057"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-86494-0x80131600",
@@ -6547,7 +6547,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Version 9", "Version 10", "Windows Client/Desktop Client"],
     extractedErrorCodes: ["0x80131600"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-199757-lff3004-licensing-service",
@@ -6557,7 +6557,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10"],
     extractedErrorCodes: ["LFF3004"],
-    reviewStatus: "curated-unresolved"
+    reviewStatus: "curated-partial"
   },
   {
     id: "answers-168241-http-response-body-cross-product",
@@ -6997,7 +6997,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Version 10"],
     extractedErrorCodes: ["LFF502"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },
   {
     id: "answers-180800-forms-reports-download-error-500",
@@ -7077,7 +7077,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Workflow", "Version 9"],
     extractedErrorCodes: ["9051"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-135957-workflow-9000-record-series-move-entry",
@@ -7107,7 +7107,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Workflow", "Version 10"],
     extractedErrorCodes: ["LFF5203"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated",
   },,
   {
     id: "answers-116203-web-client-6000",

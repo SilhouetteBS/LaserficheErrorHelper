@@ -13,6 +13,7 @@
     "progress": "node tools/generate-progress-report.mjs",
     "quality": "node tools/generate-quality-report.mjs",
     "quality:promotion-queue": "node tools/generate-source-promotion-queue.mjs",
+    "quality:complete-promotion-queue": "node tools/complete-source-promotion-queue.mjs",
     "validation:batches": "node tools/generate-validation-batches.mjs 50",
     "curation:priority": "node tools/generate-priority-source-curation.mjs",
     "curation:community": "node tools/generate-community-fix-curation.mjs",

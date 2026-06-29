@@ -23,10 +23,9 @@ Generated: 2026-06-28
 | Review status | Sources |
 | --- | --- |
 | cross-product | 65 |
-| curated | 355 |
-| curated-partial | 133 |
-| curated-unresolved | 365 |
-| no-matching-posts | 1 |
+| curated | 410 |
+| curated-partial | 442 |
+| no-matching-posts | 2 |
 | not-actionable | 4 |
 
 ## Reviewed Source Types

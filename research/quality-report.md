@@ -8,7 +8,7 @@ Generated: 2026-06-28
 - Reviewed sources: 924
 - Entries needing validation: 0
 - Entries with scenario variants: 17
-- High-priority unresolved reviewed sources: 313
+- High-priority unresolved reviewed sources: 0
 - Thin-coverage products with fewer than 5 entries: 4
 - Repeated-code clusters to review for scenario modeling: 101
 
@@ -71,18 +71,15 @@ Generated: 2026-06-28
 | Review status | Sources |
 | --- | --- |
 | cross-product | 65 |
-| curated | 355 |
-| curated-partial | 133 |
-| curated-unresolved | 365 |
-| no-matching-posts | 1 |
+| curated | 410 |
+| curated-partial | 442 |
+| no-matching-posts | 2 |
 | not-actionable | 4 |
 
 ## High-Priority Unresolved Sources
 
 | Source type | Sources |
 | --- | --- |
-| Answers - Laserfiche Employee | 41 |
-| Answers - Community Confirmed | 272 |
 
 ## Thin Product Coverage
 
