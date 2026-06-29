@@ -2397,7 +2397,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Full Text Search", "Version 9"],
     extractedErrorCodes: ["9498"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-113278-fts-7801-readonly-crash",
@@ -3057,7 +3057,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Forms", "Directory Server"],
     extractedErrorCodes: ["LFF3004-UnableToOpenServiceProxy"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-168026-lff501-routing-engine-down",
@@ -3147,7 +3147,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client", "Version 10"],
     extractedErrorCodes: ["9036"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-232169-web-client-9013-upgrade",
@@ -3167,7 +3167,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-28",
     productTags: ["Web Client"],
     extractedErrorCodes: ["6720"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-153895-web-client-http-response-body",

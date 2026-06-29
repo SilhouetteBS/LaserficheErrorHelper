@@ -6,10 +6,10 @@ This queue ranks curated-unresolved Answers sources for the next manual promotio
 
 ## Summary
 
-- Curated unresolved sources: 377
+- Curated unresolved sources: 373
 - Laserfiche employee unresolved sources: 43
 - Community-confirmed unresolved sources: 272
-- Sources with matching published entries: 376
+- Sources with matching published entries: 372
 
 ## Top Promotion Candidates
 

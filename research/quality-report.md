@@ -24,10 +24,10 @@ Generated: 2026-06-28
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 338 |
+| diagnostic-only | 342 |
 | known-fix | 105 |
 | needs-review | 1135 |
-| unresolved | 12 |
+| unresolved | 8 |
 | workaround | 315 |
 
 ## Validation Triage Coverage
@@ -73,8 +73,8 @@ Generated: 2026-06-28
 | --- | --- |
 | cross-product | 65 |
 | curated | 355 |
-| curated-partial | 121 |
-| curated-unresolved | 377 |
+| curated-partial | 125 |
+| curated-unresolved | 373 |
 | no-matching-posts | 1 |
 | not-actionable | 4 |
 
@@ -98,7 +98,7 @@ Generated: 2026-06-28
 
 | Product | Published entries | Linked sources |
 | --- | --- | --- |
-| Laserfiche Server/Repository Server | 1081 | 1160 |
+| Laserfiche Server/Repository Server | 1081 | 1164 |
 | Windows Client/Desktop Client | 234 | 236 |
 | Forms | 122 | 154 |
 | Directory Server | 76 | 77 |

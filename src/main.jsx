@@ -315,6 +315,7 @@ function entryHasReviewStatus(entry, reviewStatus) {
 }
 
 function activeFilterItems({
+  query,
   product,
   version,
   source,
@@ -327,16 +328,17 @@ function activeFilterItems({
   ledgerSource,
 }) {
   return [
-    product !== allOption && ["Product", product],
-    version !== allOption && ["Version", version],
-    source !== allOption && ["Source", sourceTypeLabel(source)],
-    confidence !== allOption && ["Confidence", confidence],
-    fixStatus !== allOption && ["Fix Status", fixStatusLabel(fixStatus)],
-    scenarioFilter !== allOption && ["Scenario Coverage", scenarioFilterLabel(scenarioFilter)],
-    researchFilter !== allOption && ["Fix Research", researchFilterLabel(researchFilter)],
-    validationFilter !== allOption && ["Validation", validationFilterLabel(validationFilter)],
-    reviewStatusFilter !== allOption && ["Review Status", reviewStatusLabel(reviewStatusFilter)],
-    ledgerSource !== allOption && ["Ledger Source", sourceTypeLabel(ledgerSource)],
+    query.trim() && { key: "query", label: "Search", value: query.trim() },
+    product !== allOption && { key: "product", label: "Product", value: product },
+    version !== allOption && { key: "version", label: "Version", value: version },
+    source !== allOption && { key: "source", label: "Source", value: sourceTypeLabel(source) },
+    confidence !== allOption && { key: "confidence", label: "Confidence", value: confidence },
+    fixStatus !== allOption && { key: "fixStatus", label: "Fix Status", value: fixStatusLabel(fixStatus) },
+    scenarioFilter !== allOption && { key: "scenarioFilter", label: "Scenario Coverage", value: scenarioFilterLabel(scenarioFilter) },
+    researchFilter !== allOption && { key: "researchFilter", label: "Fix Research", value: researchFilterLabel(researchFilter) },
+    validationFilter !== allOption && { key: "validationFilter", label: "Validation", value: validationFilterLabel(validationFilter) },
+    reviewStatusFilter !== allOption && { key: "reviewStatusFilter", label: "Review Status", value: reviewStatusLabel(reviewStatusFilter) },
+    ledgerSource !== allOption && { key: "ledgerSource", label: "Ledger Source", value: sourceTypeLabel(ledgerSource) },
   ].filter(Boolean);
 }
 
@@ -479,6 +481,25 @@ function App() {
     };
   }
 
+  function clearActiveFilter(key) {
+    const clearers = {
+      query: () => setQuery(""),
+      product: () => setProduct(allOption),
+      version: () => setVersion(allOption),
+      source: () => setSource(allOption),
+      confidence: () => setConfidence(allOption),
+      fixStatus: () => setFixStatus(allOption),
+      scenarioFilter: () => setScenarioFilter(allOption),
+      researchFilter: () => setResearchFilter(allOption),
+      validationFilter: () => setValidationFilter(allOption),
+      reviewStatusFilter: () => setReviewStatusFilter(allOption),
+      ledgerSource: () => setLedgerSource(allOption),
+    };
+
+    clearers[key]?.();
+    setUsageStats(recordUsageEvent("filters"));
+  }
+
   function selectEntry(entryId) {
     setSelectedId(entryId);
     setErrorUrl(entryId);
@@ -553,6 +574,7 @@ function App() {
   );
   const ledgerRows = isLedgerExpanded ? displayedReviewedSources : displayedReviewedSources.slice(0, 5);
   const activeFilters = activeFilterItems({
+    query,
     product,
     version,
     source,
@@ -730,11 +752,18 @@ function App() {
           <section className="active-filters" aria-label="Active filters">
             <span>Active filters</span>
             <div>
-              {activeFilters.map(([label, value]) => (
-                <span className="filter-chip" key={`${label}-${value}`}>
-                  <strong>{label}</strong>
-                  {value}
-                </span>
+              {activeFilters.map((item) => (
+                <button
+                  aria-label={`Clear ${item.label} filter`}
+                  className="filter-chip"
+                  key={`${item.key}-${item.value}`}
+                  onClick={() => clearActiveFilter(item.key)}
+                  type="button"
+                >
+                  <strong>{item.label}</strong>
+                  <span>{item.value}</span>
+                  <X aria-hidden="true" size={13} />
+                </button>
               ))}
             </div>
           </section>

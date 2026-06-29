@@ -667,6 +667,27 @@ const curatedErrorEntries = [
         ],
         sourceUrls: ["https://answers.laserfiche.com/questions/72907/Error-Access-denied-9013"],
       },
+      {
+        title: "Automation or service-account context differs from interactive testing",
+        summary:
+          "Import Agent, Quick Fields Agent, Workflow, WebLink, and Web Client paths can surface 9013 when the background identity, auto-login identity, or delegated web identity lacks rights that the interactive test account has.",
+        symptoms: [
+          "An interactive repository login succeeds, but a scheduled job, web site, scan shortcut, or service-run operation returns Access denied. [9013].",
+          "The failing path may involve a Windows service account, WebLink auto-login, Web Client scanning, Workflow connection profile, or agent profile.",
+        ],
+        causes: ["The product component is not using the same identity, repository endpoint, or effective rights set that was tested manually."],
+        fixes: [
+          "Identify the exact account used by the failing service, connection profile, or web authentication path.",
+          "Compare that account's effective rights, security tags, and volume rights against the account that succeeds interactively.",
+          "Check endpoint and firewall changes when the failure appears only after moving a web component or disabling an HTTP/SSL route.",
+        ],
+        sourceUrls: [
+          "https://answers.laserfiche.com/questions/177615/Import-Agent-Error-Code-9013",
+          "https://answers.laserfiche.com/questions/195277/QF-Agent-Admin-Console-Scheduled-Sessions-throwing-Permission-Denied-9013-error",
+          "https://answers.laserfiche.com/questions/162282/Web-Scanning--Access-Denied-Error-9013",
+          "https://answers.laserfiche.com/questions/181979/Weblink-Users-getting-Access-Denied-9013-error",
+        ],
+      },
     ],
     notes:
       "One Records Management thread did not include a final confirmed resolution, so that scenario remains medium-confidence even though Laserfiche employees replied.",
@@ -690,6 +711,30 @@ const curatedErrorEntries = [
         url: "https://answers.laserfiche.com/questions/72907/Error-Access-denied-9013",
         note:
           "Laserfiche employees asked about repository version and rights to child records/record folders in a Records Management deletion case.",
+      },
+      {
+        sourceType: "answers-community",
+        title: "Import Agent Error Code 9013",
+        url: "https://answers.laserfiche.com/questions/177615/Import-Agent-Error-Code-9013",
+        note: "Related product-specific 9013 thread where Import Agent access depends on the rights used by the configured profile.",
+      },
+      {
+        sourceType: "answers-laserfiche-employee",
+        title: "QF Agent Admin Console: Scheduled Sessions throwing Permission Denied [9013] error",
+        url: "https://answers.laserfiche.com/questions/195277/QF-Agent-Admin-Console-Scheduled-Sessions-throwing-Permission-Denied-9013-error",
+        note: "Laserfiche employee guidance and requester confirmation tie scheduled Quick Fields Agent 9013 to the service account's repository rights.",
+      },
+      {
+        sourceType: "answers-community",
+        title: "Web Scanning - Access Denied Error [9013]",
+        url: "https://answers.laserfiche.com/questions/162282/Web-Scanning--Access-Denied-Error-9013",
+        note: "Related Web Client Scanning thread where a custom scanning URL returns 9013 after a server move.",
+      },
+      {
+        sourceType: "answers-community",
+        title: "Weblink: Users getting Access Denied 9013 error",
+        url: "https://answers.laserfiche.com/questions/181979/Weblink-Users-getting-Access-Denied-9013-error",
+        note: "Related WebLink auto-login thread showing 9013 in a product-specific web authentication path.",
       },
     ],
   },
@@ -6976,7 +7021,7 @@ const curatedErrorEntries = [
     product: "Full Text Search",
     versions: ["Version 9"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Search can fail with 9498 when the client loses or cannot find its Full Text Search session; the public thread has only community suggestions to check or rebuild the search index.",
@@ -6989,10 +7034,10 @@ const curatedErrorEntries = [
       "Check whether the Laserfiche Full Text Search service is stable and reachable.",
       "Review catalog status in Administration Console.",
       "Regenerate the search index files if the catalog appears corrupt or unstable.",
-      "Open a Support case if 9498 repeats because no public employee-confirmed fix was posted.",
+      "Open a Support case if 9498 repeats because no public employee-confirmed final fix was posted.",
     ],
     notes:
-      "Published as unresolved because the thread lacks a confirmed final fix or Laserfiche employee response.",
+      "Published as diagnostic-only because the thread gives useful search-index triage steps but lacks a confirmed final fix or Laserfiche employee response.",
     sources: [
       {
         sourceType: "answers-community",
@@ -8819,7 +8864,7 @@ const curatedErrorEntries = [
     product: "Forms",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-28",
     summary:
       "Forms can report LFF3004-UnableToOpenServiceProxy when the requested ILicensingService endpoint is unavailable.",
@@ -8829,7 +8874,7 @@ const curatedErrorEntries = [
       "Verify Forms can reach the licensing service endpoint using the configured service account and URL.",
       "Collect Forms, LFDS, and Windows event logs for the matching timestamp.",
     ],
-    notes: "Fresh Answers pass item; no confirmed public fix was captured in this pass.",
+    notes: "Fresh Answers pass item promoted to diagnostic-only because the captured message points to licensing service reachability, but no confirmed public fix was captured.",
     sources: [
       {
         sourceType: "answers-community",
@@ -9119,7 +9164,7 @@ const curatedErrorEntries = [
     product: "Web Client",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-28",
     summary: "Web Client can intermittently report Unknown internal error [9036].",
     symptoms: ["Laserfiche Web Client intermittently reports Unknown internal error 9036."],
@@ -9128,6 +9173,7 @@ const curatedErrorEntries = [
       "Check whether the issue is tied to a specific document, user, browser, or repository operation.",
       "Use this as a recognized signature pending deeper source review.",
     ],
+    notes: "Promoted to diagnostic-only because the reviewed source supports recognition and log collection, but no confirmed public fix is available.",
     sources: [
       {
         sourceType: "answers-community",
@@ -9169,7 +9215,7 @@ const curatedErrorEntries = [
     product: "Web Client",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-28",
     summary: "Importing a PDF through Web Client can report error 6720.",
     symptoms: ["A PDF import operation reports error 6720."],
@@ -9178,6 +9224,7 @@ const curatedErrorEntries = [
       "Check Web Client import limits, IIS request limits, and repository volume availability.",
       "Collect Web Client and repository server logs for the import timestamp.",
     ],
+    notes: "Promoted to diagnostic-only because the entry gives safe isolation steps, but the reviewed thread does not provide a confirmed fix.",
     sources: [
       {
         sourceType: "answers-community",

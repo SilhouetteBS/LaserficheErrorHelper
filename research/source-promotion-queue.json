@@ -9002,32 +9002,6 @@
     "score": 340
   },
   {
-    "id": "answers-108214-web-client-6720-pdf",
-    "title": "error 6720 when importing PDF",
-    "url": "https://answers.laserfiche.com/questions/108214/error-6720-when-importing-PDF",
-    "sourceType": "answers-community",
-    "sourceTypeLabel": "Answers - Community",
-    "reviewedDate": "2026-06-28",
-    "productTags": [
-      "Web Client"
-    ],
-    "extractedErrorCodes": [
-      "6720"
-    ],
-    "matchingEntryIds": [
-      "web-client-6720-importing-pdf",
-      "web-client-6720-error-6720-when-importing-pdf"
-    ],
-    "matchingProducts": [
-      "Web Client"
-    ],
-    "matchingFixStatuses": [
-      "unresolved",
-      "workaround"
-    ],
-    "score": 340
-  },
-  {
     "id": "answers-163653-records-9193-uncutoff",
     "title": "Error Message: The record or record folder cannot be uncutoff at this point. [9193]",
     "url": "https://answers.laserfiche.com/questions/163653/Error-Message-The-record-or-record-folder-cannot-be-uncutoff-at-this-point-9193",
@@ -9104,56 +9078,6 @@
     "score": 340
   },
   {
-    "id": "answers-157313-web-client-9036",
-    "title": "Intermittent Unknown internal error 9036 on laserfiche web client",
-    "url": "https://answers.laserfiche.com/questions/157313/Intermittent--Unknown-internal-error-9036-on-laserfiche-web-client",
-    "sourceType": "answers-community",
-    "sourceTypeLabel": "Answers - Community",
-    "reviewedDate": "2026-06-28",
-    "productTags": [
-      "Web Client",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "9036"
-    ],
-    "matchingEntryIds": [
-      "web-client-9036-unknown-internal-error"
-    ],
-    "matchingProducts": [
-      "Web Client"
-    ],
-    "matchingFixStatuses": [
-      "unresolved"
-    ],
-    "score": 340
-  },
-  {
-    "id": "answers-80739-fts-9498-session",
-    "title": "Laserfiche Error 9498",
-    "url": "https://answers.laserfiche.com/questions/80739/Laserfiche-Error-9498",
-    "sourceType": "answers-community",
-    "sourceTypeLabel": "Answers - Community",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "Full Text Search",
-      "Version 9"
-    ],
-    "extractedErrorCodes": [
-      "9498"
-    ],
-    "matchingEntryIds": [
-      "full-text-search-9498-session-reset"
-    ],
-    "matchingProducts": [
-      "Full Text Search"
-    ],
-    "matchingFixStatuses": [
-      "unresolved"
-    ],
-    "score": 340
-  },
-  {
     "id": "answers-126452-web-scanning-9039",
     "title": "Multistatus response.[9039] Using Web Scan URL shortcut",
     "url": "https://answers.laserfiche.com/questions/126452/Multistatus-response9039-Using-Web-Scan-URL-shortcut",
@@ -9201,61 +9125,6 @@
     ],
     "matchingFixStatuses": [
       "unresolved"
-    ],
-    "score": 340
-  },
-  {
-    "id": "answers-135953-lff3004-licensing-service",
-    "title": "The requested service ILicensingService may not be running",
-    "url": "https://answers.laserfiche.com/questions/135953/The-requested-service-ILicensingService-may-not-be-running",
-    "sourceType": "answers-community",
-    "sourceTypeLabel": "Answers - Community",
-    "reviewedDate": "2026-06-28",
-    "productTags": [
-      "Forms",
-      "Directory Server"
-    ],
-    "extractedErrorCodes": [
-      "LFF3004-UnableToOpenServiceProxy"
-    ],
-    "matchingEntryIds": [
-      "forms-lff3004-licensing-service-proxy",
-      "forms-lff3004-unabletoopenserviceproxy-forms-dmz-limited-functionality"
-    ],
-    "matchingProducts": [
-      "Forms"
-    ],
-    "matchingFixStatuses": [
-      "unresolved",
-      "workaround"
-    ],
-    "score": 340
-  },
-  {
-    "id": "answers-199757-lff3004-licensing-service",
-    "title": "The requested service ILicensingService may not be running LFF3004",
-    "url": "https://answers.laserfiche.com/questions/199757/The-requested-service-ILicensingService-may-not-be-running-LFF3004UnableToOpenServiceProxy",
-    "sourceType": "answers-community",
-    "sourceTypeLabel": "Answers - Community",
-    "reviewedDate": "2026-06-28",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFF3004"
-    ],
-    "matchingEntryIds": [
-      "forms-lff3004-autotrigger-service-proxy",
-      "forms-lff3004-licensing-service-proxy",
-      "forms-lff3004-unabletoopenserviceproxy-lff3004-the-requested-service-ilicensingservice-may-not-be-running-lff3004-una"
-    ],
-    "matchingProducts": [
-      "Forms"
-    ],
-    "matchingFixStatuses": [
-      "unresolved",
-      "workaround"
     ],
     "score": 340
   },
@@ -10270,6 +10139,34 @@
     ],
     "matchingProducts": [
       "Directory Server"
+    ],
+    "matchingFixStatuses": [
+      "diagnostic-only",
+      "workaround"
+    ],
+    "score": 260
+  },
+  {
+    "id": "answers-199757-lff3004-licensing-service",
+    "title": "The requested service ILicensingService may not be running LFF3004",
+    "url": "https://answers.laserfiche.com/questions/199757/The-requested-service-ILicensingService-may-not-be-running-LFF3004UnableToOpenServiceProxy",
+    "sourceType": "answers-community",
+    "sourceTypeLabel": "Answers - Community",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFF3004"
+    ],
+    "matchingEntryIds": [
+      "forms-lff3004-autotrigger-service-proxy",
+      "forms-lff3004-licensing-service-proxy",
+      "forms-lff3004-unabletoopenserviceproxy-lff3004-the-requested-service-ilicensingservice-may-not-be-running-lff3004-una"
+    ],
+    "matchingProducts": [
+      "Forms"
     ],
     "matchingFixStatuses": [
       "diagnostic-only",
