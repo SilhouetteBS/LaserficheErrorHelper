@@ -1143,7 +1143,7 @@ function ErrorDetail({ entry, allEntries, reviewedSources, sourceCandidateReview
     <article className="detail-pane">
       <div className="detail-main">
         <div className="detail-header">
-          <div>
+          <div className="detail-title-block">
             <span className="selected-label">Selected error</span>
             {entry.scenarios?.length > 0 && <span className="scenario-count detail-scenario-count">{entry.scenarios.length} scenarios</span>}
             {candidateSummary && (
@@ -1152,9 +1152,7 @@ function ErrorDetail({ entry, allEntries, reviewedSources, sourceCandidateReview
                 <TooltipIcon text="A related Laserfiche Answers source was reviewed for this entry. Accepted candidates may add scenario-specific fixes; reviewed candidates may simply rule out a source." />
               </span>
             )}
-            <h2>
-              {entry.code} <span>{entry.message}</span>
-            </h2>
+            <h2>{entry.code}</h2>
           </div>
           <div className="detail-actions">
             <button onClick={() => onShare(entry)} type="button">
@@ -1167,6 +1165,7 @@ function ErrorDetail({ entry, allEntries, reviewedSources, sourceCandidateReview
             </a>
           </div>
         </div>
+        <p className="error-description">{entry.message}</p>
 
         <div className="meta-strip">
           <span>

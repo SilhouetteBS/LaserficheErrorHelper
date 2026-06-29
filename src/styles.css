@@ -613,6 +613,10 @@ h3 {
   gap: 18px;
 }
 
+.detail-title-block {
+  min-width: 0;
+}
+
 .selected-label {
   display: inline-flex;
   align-items: center;
@@ -633,11 +637,11 @@ h3 {
   line-height: 1.08;
 }
 
-.detail-header h2 span {
-  display: block;
-  margin-top: 4px;
+.error-description {
+  margin: 4px 14px 0 0;
   color: #29313b;
   font-size: clamp(1.05rem, 1.5vw, 1.28rem);
+  line-height: 1.1;
   font-weight: 500;
 }
 
