@@ -5822,8 +5822,8 @@ const curatedErrorEntries = [
     message: "The supplied credential is invalid when saving or using an LFDS LDAP connection.",
     product: "Directory Server",
     versions: ["Version 10"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Directory Server can reject LDAP credentials even when Administration Console can use the same username and password; the reviewed discussion did not publish a final root cause.",
@@ -5835,6 +5835,7 @@ const curatedErrorEntries = [
     likelyFixes: [
       "Collect Directory Server event logs and a screen recording of the failing save/search path.",
       "Compare the LDAP method, host, port, SSL/TLS, and credential format used by Directory Server with the working Administration Console path.",
+      "Test alternate credential formats, such as user principal name versus domain\\user, and verify the bind account can search the target LDAP container from the Directory Server host.",
       "Open a Support case if no event-log detail is written, because the public thread has no confirmed fix.",
     ],
     notes:
@@ -7347,8 +7348,8 @@ const curatedErrorEntries = [
     message: "Writing the value to the target application control failed because the value is not valid.",
     product: "Connector",
     versions: ["Version 10"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Connector write-to-application profiles can fail when the selected analysis/write method cannot set a value into the target application control.",
@@ -7360,6 +7361,7 @@ const curatedErrorEntries = [
     likelyFixes: [
       "Try alternate target application analysis methods, including JavaScript where supported.",
       "Confirm the value being written matches what the target control accepts.",
+      "Retest with a minimal profile that writes a known static value before adding Laserfiche field-token values.",
       "Collect screenshots and target application details for Support or a product enhancement request when the control is unsupported.",
     ],
     notes:
@@ -8472,8 +8474,8 @@ const curatedErrorEntries = [
     message: "Unable to connect to the remote server when adding a DCC worker.",
     product: "Distributed Computing Cluster",
     versions: ["Version 11"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "DCC 11 can fail to add a worker with endpoint/remote-server errors on port 8108; the reviewed thread has Laserfiche employee follow-up but no public final resolution.",
@@ -8482,6 +8484,7 @@ const curatedErrorEntries = [
       "Confirm the worker and Scheduler services are running and listening on the configured DCC ports.",
       "Verify hostname/FQDN resolution and firewall rules for port 8108 from the Scheduler to the worker.",
       "Check whether DCC is running under a non-default service identity.",
+      "Compare the worker URL registered in DCC with the address that actually resolves from the Scheduler server.",
       "Open Support with DCC event logs when the endpoint and firewall look correct.",
     ],
     sources: [

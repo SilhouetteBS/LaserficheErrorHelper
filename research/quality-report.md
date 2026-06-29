@@ -8,7 +8,7 @@ Generated: 2026-06-28
 - Reviewed sources: 924
 - Entries needing validation: 0
 - Entries with scenario variants: 15
-- High-priority unresolved reviewed sources: 325
+- High-priority unresolved reviewed sources: 322
 - Thin-coverage products with fewer than 5 entries: 4
 - Repeated-code clusters to review for scenario modeling: 101
 
@@ -17,17 +17,17 @@ Generated: 2026-06-28
 | Confidence | Entries |
 | --- | --- |
 | high | 64 |
-| low | 1489 |
-| medium | 352 |
+| low | 1486 |
+| medium | 355 |
 
 ## Fix Status Coverage
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 328 |
+| diagnostic-only | 331 |
 | known-fix | 105 |
 | needs-review | 1135 |
-| unresolved | 22 |
+| unresolved | 19 |
 | workaround | 315 |
 
 ## Validation Triage Coverage
@@ -73,8 +73,8 @@ Generated: 2026-06-28
 | --- | --- |
 | cross-product | 65 |
 | curated | 355 |
-| curated-partial | 111 |
-| curated-unresolved | 387 |
+| curated-partial | 114 |
+| curated-unresolved | 384 |
 | no-matching-posts | 1 |
 | not-actionable | 4 |
 
@@ -82,7 +82,7 @@ Generated: 2026-06-28
 
 | Source type | Sources |
 | --- | --- |
-| Answers - Laserfiche Employee | 53 |
+| Answers - Laserfiche Employee | 50 |
 | Answers - Community Confirmed | 272 |
 
 ## Thin Product Coverage

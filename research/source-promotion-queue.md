@@ -6,10 +6,10 @@ This queue ranks curated-unresolved Answers sources for the next manual promotio
 
 ## Summary
 
-- Curated unresolved sources: 387
-- Laserfiche employee unresolved sources: 53
+- Curated unresolved sources: 384
+- Laserfiche employee unresolved sources: 50
 - Community-confirmed unresolved sources: 272
-- Sources with matching published entries: 386
+- Sources with matching published entries: 383
 
 ## Top Promotion Candidates
 
@@ -18,9 +18,6 @@ This queue ranks curated-unresolved Answers sources for the next manual promotio
 | 550 | Answers - Laserfiche Employee | 01000, 42000 | Audit Trail, Discussions, Forms | diagnostic-only, unresolved, workaround | [Audit Trail: Error EDBCC SHRINKDATABASE](https://answers.laserfiche.com/questions/74521/Audit-Trail-Error-EDBCC-SHRINKDATABASE-) |
 | 550 | Answers - Laserfiche Employee | HTTP 500.19, 0x800700b7 | Forms, Web Client | diagnostic-only, unresolved | [Forms HTTP error 500.19/Error code: 0x800700b7](https://answers.laserfiche.com/questions/157969/Forms-HTTP-error-50019Error-code-0x800700b7) |
 | 550 | Answers - Laserfiche Employee | 0544-WF0, 0604-WFSO0 | Workflow | unresolved, workaround | [Workflow Designer Connection Fail Error:[0604-WFSO0]](https://answers.laserfiche.com/questions/49235/Workflow-Designer-Connection-Fail-Error0604WFSO0) |
-| 540 | Answers - Laserfiche Employee | CONNECTOR-CONTROL-VALUE-INVALID | Connector | unresolved | [Connector Profile Error - Writing the value to the control token failed because the value is not valid](https://answers.laserfiche.com/questions/181928/Connector-Profile-Error--Writing-the-value-to-the-control-token-name-failed-because-the-value-is-not-valid) |
-| 540 | Answers - Laserfiche Employee | DCC-WORKER-REMOTE-SERVER | Distributed Computing Cluster | unresolved | [DCC 11-"Unable to connect to the remote server" Error when adding worker machine](https://answers.laserfiche.com/questions/194380/DCC-11Unable-to-connect-to-the-remote-server-Error-when-adding--worker-machine) |
-| 540 | Answers - Laserfiche Employee | LFDS-LDAP-CREDENTIAL-INVALID | Directory Server | unresolved | [Directory Server - False Error on LDAP Connection?](https://answers.laserfiche.com/questions/190818/Directory-Server---False-Error-on-LDAP-Connection) |
 | 540 | Answers - Laserfiche Employee | TEXT-EXTRACTOR-LOAD-FAILED | Windows Client/Desktop Client | unresolved | [Failed to Load Text Extractor](https://answers.laserfiche.com/questions/61140/Failed-to-Load-Text-Extractor) |
 | 540 | Answers - Laserfiche Employee | 9133 | Import Agent | unresolved | [Import Agent - Maximum file size - Error Code: 9133](https://answers.laserfiche.com/questions/205490/Import-Agent--Maximum-file-size--Error-Code-9133) |
 | 540 | Answers - Laserfiche Employee | OFFICE-REPOSITORY-NOT-FOUND | Office Integration | unresolved | [Office plugin error - cannot find the repository](https://answers.laserfiche.com/questions/59039/Office-plugin-error--cannot-find-the-repository) |
@@ -90,4 +87,7 @@ This queue ranks curated-unresolved Answers sources for the next manual promotio
 | 370 | Answers - Community Confirmed | 0xc0042330, 0x80042330 | Laserfiche Installer, Laserfiche Server/Repository Server, Windows Client/Desktop Client | diagnostic-only | [Getting database error when trying to login to Laserfiche](https://answers.laserfiche.com/questions/175852/Getting-database-error-when-trying-to-login-to-Laserfiche) |
 | 370 | Answers - Community Confirmed | 0639-WF1, 639 | Workflow | workaround | [How many instances of a Workflow run at a time?](https://answers.laserfiche.com/questions/89628/How-many-instances-of-a-Workflow-run-at-a-time) |
 | 370 | Answers - Community Confirmed | 0xc0042330, 0x80042330 | Laserfiche Installer, Laserfiche Server/Repository Server, Windows Client/Desktop Client | diagnostic-only | [How to configure Laserfiche (server) to NOT be db_owner - least privileges](https://answers.laserfiche.com/questions/182333/How-to-configure-Laserfiche-server-to-NOT-be-dbowner--least-privileges) |
+| 370 | Answers - Community Confirmed | HTTP Error 403.14, 403 | Web Client | workaround | [HTTP Error 403.14 - Forbidden Error - Anonymous User Can't Access Web Access](https://answers.laserfiche.com/questions/119868/HTTP-Error-40314--Forbidden-Error--Anonymous-User-Cant-Access-Web-Access) |
+| 370 | Answers - Community Confirmed | HTTP Error 503, 503 | Forms | workaround | [HTTP Error 503. The service is unavailable](https://answers.laserfiche.com/questions/65896/HTTP-Error-503-The-service-is-unavailable) |
+| 370 | Answers - Community Confirmed | 0x5a55ed59, 0x5c92f34f | Import Agent | diagnostic-only | [Import Agent .net runtime error](https://answers.laserfiche.com/questions/159369/Import-Agent-net-runtime-error) |
 

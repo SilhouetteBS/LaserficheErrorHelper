@@ -2037,7 +2037,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Directory Server", "Version 10"],
     extractedErrorCodes: ["LFDS-LDAP-CREDENTIAL-INVALID"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-105795-lfds3-cannot-get-user",
@@ -2557,7 +2557,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Connector", "Version 10"],
     extractedErrorCodes: ["CONNECTOR-CONTROL-VALUE-INVALID"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-69640-office-com-800700c1",
@@ -2957,7 +2957,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Distributed Computing Cluster", "Version 11"],
     extractedErrorCodes: ["DCC-WORKER-REMOTE-SERVER"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-59626-dcc-ocr-scheduler-license",

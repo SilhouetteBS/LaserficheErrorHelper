@@ -304,6 +304,10 @@ function reviewStatusLabel(value) {
   return labels[value] ?? value;
 }
 
+function sourceReviewStatusFor(sourceItem) {
+  return reviewedSources.find((reviewedSource) => reviewedSource.url === sourceItem.url)?.reviewStatus ?? "curated";
+}
+
 function App() {
   const [query, setQuery] = useState(() => initialParam("q", ""));
   const [product, setProduct] = useState(() => initialParam("product"));
@@ -769,6 +773,7 @@ function App() {
         {selectedEntry ? (
           <ErrorDetail
             entry={selectedEntry}
+            onSelect={selectEntry}
             onShare={shareEntry}
           />
         ) : (
@@ -927,8 +932,12 @@ function InstructionsPane() {
   );
 }
 
-function ErrorDetail({ entry, onShare }) {
+function ErrorDetail({ entry, onSelect, onShare }) {
   const candidateSummary = candidateReviewSummary(entry.id);
+  const sameCodeEntries = errorEntries
+    .filter((candidate) => candidate.id !== entry.id && normalizeCode(candidate.code) === normalizeCode(entry.code))
+    .sort((a, b) => a.product.localeCompare(b.product) || fixStatusValue(a).localeCompare(fixStatusValue(b)) || a.message.localeCompare(b.message))
+    .slice(0, 8);
 
   return (
     <article className="detail-pane">
@@ -1124,13 +1133,35 @@ function ErrorDetail({ entry, onShare }) {
               >
                 <span className="source-card-content">
                   <span>{sourceItem.title}</span>
-                  <SourceBadge sourceType={sourceItem.sourceType} />
+                  <span className="source-card-meta">
+                    <SourceBadge sourceType={sourceItem.sourceType} />
+                    <ReviewStatusBadge value={sourceReviewStatusFor(sourceItem)} />
+                  </span>
                 </span>
                 <ExternalLink aria-hidden="true" size={16} />
               </a>
             ))}
           </div>
         </section>
+        {sameCodeEntries.length > 0 && (
+          <section className="side-card">
+            <h3 className="with-tooltip">
+              Same Code, Other Contexts
+              <TooltipIcon text="The same numeric or product code can have different causes and fixes depending on product, version, and source context." />
+            </h3>
+            <div className="same-code-list">
+              {sameCodeEntries.map((relatedEntry) => (
+                <button key={relatedEntry.id} onClick={() => onSelect(relatedEntry.id)} type="button">
+                  <span>
+                    <strong>{relatedEntry.product}</strong>
+                    {relatedEntry.message}
+                  </span>
+                  <FixStatusBadge value={fixStatusValue(relatedEntry)} />
+                </button>
+              ))}
+            </div>
+          </section>
+        )}
         {entry.notes && (
           <div className="caution">
             <AlertTriangle aria-hidden="true" size={18} />

@@ -13,10 +13,10 @@ Generated: 2026-06-28
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 328 |
+| diagnostic-only | 331 |
 | known-fix | 105 |
 | needs-review | 1135 |
-| unresolved | 22 |
+| unresolved | 19 |
 | workaround | 315 |
 
 ## Source Ledger Review Status
@@ -25,8 +25,8 @@ Generated: 2026-06-28
 | --- | --- |
 | cross-product | 65 |
 | curated | 355 |
-| curated-partial | 111 |
-| curated-unresolved | 387 |
+| curated-partial | 114 |
+| curated-unresolved | 384 |
 | no-matching-posts | 1 |
 | not-actionable | 4 |
 
