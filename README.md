@@ -49,9 +49,9 @@ See `docs/known-limitations.md` for the current limitations and safety notes.
 - Report an incorrect or missing error entry with the `Report an error entry` issue template.
 - Suggest a source-backed fix with the `Suggest a fix source` issue template.
 - Correct source metadata with the `Correct a source` issue template.
-- Open a pull request when you can include source evidence and run the checks below.
+- Do not open pull requests for catalog or troubleshooting changes unless a maintainer asks for one.
 
-Read `CONTRIBUTING.md` before submitting larger changes.
+Read `CONTRIBUTING.md` before submitting changes.
 
 ## Development
 

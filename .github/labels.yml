@@ -1,0 +1,30 @@
+- name: needs-review
+  color: "fbca04"
+  description: Needs maintainer review.
+- name: source-review
+  color: "1c73fe"
+  description: Source evidence needs review before curation.
+- name: accepted-source
+  color: "0e8a16"
+  description: Source evidence was accepted for curation.
+- name: needs-more-info
+  color: "d4c5f9"
+  description: Waiting for reporter details.
+- name: duplicate
+  color: "cfd3d7"
+  description: Duplicates an existing issue or source.
+- name: not-actionable
+  color: "eeeeee"
+  description: Not actionable with current evidence.
+- name: curated
+  color: "5319e7"
+  description: Reviewed and included in a curated change.
+- name: privacy-risk
+  color: "b60205"
+  description: Contains or may contain private or sensitive information.
+- name: catalog
+  color: "e35205"
+  description: Catalog entry report or correction.
+- name: source-ledger
+  color: "0052cc"
+  description: Reviewed source ledger correction.

@@ -6,6 +6,7 @@
 2. Open the entry and use the correction link when the entry is incomplete or incorrect.
 3. Include product, version, symptom, source URL, and suggested correction.
 4. Remove private data, credentials, hostnames, repository names, license details, and customer-identifying information.
+5. Submit the report as a GitHub Issue. Do not open a pull request unless a maintainer asks for one.
 
 ## Maintainer Review
 
@@ -17,6 +18,19 @@ Maintainers should classify submissions into one of these outcomes:
 - Scenario needed: source describes another cause or remediation path for an existing code.
 - Rejected cross-product: source belongs to a different product context.
 - Rejected low-signal: source does not add actionable evidence.
+
+## Issue Labels
+
+Use these labels to track issue-only community contributions:
+
+- `needs-review`
+- `source-review`
+- `accepted-source`
+- `needs-more-info`
+- `duplicate`
+- `not-actionable`
+- `curated`
+- `privacy-risk`
 
 ## Source Promotion Rules
 
@@ -33,4 +47,4 @@ When the same code has multiple causes, add a scenario instead of replacing the 
 
 ## Privacy Rules
 
-Public issues and pull requests must not include credentials, license files, customer names, server names, repository names, private URLs, or full logs with identifying data.
+Public issues must not include credentials, license files, customer names, server names, repository names, private URLs, or full logs with identifying data.

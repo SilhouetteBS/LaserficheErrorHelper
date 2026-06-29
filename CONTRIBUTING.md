@@ -1,14 +1,30 @@
 # Contributing
 
-Thank you for helping improve the FicheBait Laserfiche Error Helper. Contributions should make the catalog more accurate, easier to verify, or easier to maintain.
+Thank you for helping improve the FicheBait Laserfiche Error Helper.
 
-## Good Contributions
+## Contribution Model
 
-- Correct an error code, message, product, version, symptom, or source link.
-- Add a source-backed fix, workaround, or diagnostic step.
-- Add a scenario when the same error has more than one cause or fix.
-- Improve public documentation, accessibility, tests, or release checks.
-- Report a search term that should find an existing entry but does not.
+Public contributions should be submitted as GitHub Issues, not pull requests.
+
+Maintainers make the actual catalog, source-ledger, and code changes after reviewing the issue. This keeps troubleshooting guidance consistent, source-backed, and auditable.
+
+## Use These Issue Templates
+
+- `Report an error entry`: incorrect product, version, code, message, symptom, or missing entry.
+- `Suggest a fix source`: official documentation or Laserfiche Answers source that supports a fix, workaround, diagnostic step, or scenario.
+- `Correct a source`: broken link, wrong source type, duplicate source, or source metadata correction.
+
+## What To Include
+
+- Exact error code or message.
+- Laserfiche product.
+- Laserfiche version, if known.
+- Where the error appeared.
+- Source links, preferably official docs or Laserfiche Answers.
+- Suggested correction.
+- Confirmation that private data was removed.
+
+Do not include credentials, license details, repository names, server names, customer names, private URLs, screenshots with sensitive data, or full logs with identifying information.
 
 ## Evidence Standards
 
@@ -19,36 +35,25 @@ Every new or promoted fix needs source evidence. Preferred source order:
 3. Accepted or corroborated Laserfiche Answers community replies.
 4. Community-only diagnostic reports.
 
-Do not mark an entry as `known-fix` or `workaround` unless the source supports the product, version when available, symptom, and remediation.
+Maintainers will not mark an entry as `known-fix` or `workaround` unless the source supports the product, version when available, symptom, and remediation.
 
-## Before Opening a Pull Request
+## Pull Requests
 
-Run:
+Unrequested pull requests are not accepted for catalog edits, source-ledger edits, or troubleshooting guidance.
 
-```powershell
-npm install
-npm run lint:data
-npm run quality
-npm run progress
-npm run smoke
-npm run build
-npm run render:check
-```
+A maintainer may request a pull request for narrow project-maintenance work, such as documentation cleanup, tests, or tooling. If a maintainer did not ask for the pull request, please open an issue instead.
 
-For user-facing changes, update `CHANGELOG.md`.
+## Maintainer Workflow
 
-## Data Model Notes
+Maintainers review issues, classify the evidence, make the curated repo change, run launch checks, and close the issue with the commit or release reference.
 
-- Published entries live in `src/data/errors.js`.
-- Reviewed source ledger rows live in `src/data/reviewedSources.js`.
-- Source-backed candidate promotions live in `src/data/sourceCandidateReviews.js`.
-- Multiple causes or fixes for the same code should be represented with `scenarios` on the best matching entry.
-- Raw discovery artifacts stay under `research/` and should not be treated as final evidence without review.
+Useful labels:
 
-## Pull Request Checklist
-
-- The change is source-backed or clearly marked diagnostic-only.
-- Every published source URL has a reviewed source ledger row.
-- Product names and version labels match the approved lists.
-- Public guidance does not imply official Laserfiche endorsement.
-- Risky database or configuration steps include backup/change-control language.
+- `needs-review`
+- `source-review`
+- `accepted-source`
+- `needs-more-info`
+- `duplicate`
+- `not-actionable`
+- `curated`
+- `privacy-risk`

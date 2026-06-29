@@ -2,6 +2,7 @@
 
 ## 2026-06-29
 
+- Changed community contributions to an issue-only model and added a pull request template that redirects unrequested PRs to the issue templates.
 - Added community readiness governance files, issue templates, contribution guidance, security policy, known limitations, maintenance plan, product aliases, data quality roadmap, and launch announcement draft.
 - Added a public correction workflow in the app so users can open a prefilled GitHub issue for the selected error.
 - Added launch-readiness smoke checks and data quality checks for source URLs, products, source types, aliases, and issue-template presence.
