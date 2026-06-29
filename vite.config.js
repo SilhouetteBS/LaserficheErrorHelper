@@ -5,6 +5,7 @@ export default defineConfig({
   base: "/LaserficheErrorHelper/",
   plugins: [react()],
   build: {
+    modulePreload: false,
     rollupOptions: {
       output: {
         manualChunks(id) {

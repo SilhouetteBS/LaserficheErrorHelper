@@ -19,14 +19,11 @@ import {
   X,
 } from "lucide-react";
 import {
-  errorEntries,
   productOptions,
   sourcePriority,
   sourceTypeOptions,
   versionOptions,
-} from "./data/errors.js";
-import { reviewedSources } from "./data/reviewedSources.js";
-import { sourceCandidateReviews } from "./data/sourceCandidateReviews.js";
+} from "./data/catalogMetadata.js";
 import "./styles.css";
 
 const allOption = "All";
@@ -38,6 +35,20 @@ const defaultUsageStats = {
   filters: 0,
   lastEventAt: null,
 };
+
+async function loadCatalogData() {
+  const [errorsModule, sourcesModule, candidateReviewsModule] = await Promise.all([
+    import("./data/errors.js"),
+    import("./data/reviewedSources.js"),
+    import("./data/sourceCandidateReviews.js"),
+  ]);
+
+  return {
+    errorEntries: errorsModule.errorEntries,
+    reviewedSources: sourcesModule.reviewedSources,
+    sourceCandidateReviews: candidateReviewsModule.sourceCandidateReviews,
+  };
+}
 
 function uniqueSorted(values) {
   return [allOption, ...Array.from(new Set(values.filter(Boolean))).sort()];
@@ -164,7 +175,7 @@ function validationStatusDescription(value) {
   return descriptions[value] ?? "This entry has not been included in a validation triage pass yet.";
 }
 
-function candidateReviewSummary(entryId) {
+function candidateReviewSummary(entryId, sourceCandidateReviews) {
   const reviews = Object.values(sourceCandidateReviews).filter((review) => review.entryId === entryId);
   if (reviews.length === 0) return null;
   const accepted = reviews.filter((review) => review.disposition.startsWith("accepted-")).length;
@@ -220,8 +231,7 @@ function filterOptionLabel(value, label) {
 
 function initialSelectedErrorId() {
   const url = new URL(window.location.href);
-  const requestedId = url.searchParams.get("error");
-  return errorEntries.some((entry) => entry.id === requestedId) ? requestedId : null;
+  return url.searchParams.get("error");
 }
 
 function initialParam(name, fallback = allOption) {
@@ -305,13 +315,13 @@ function reviewStatusLabel(value) {
   return labels[value] ?? value;
 }
 
-function sourceReviewStatusFor(sourceItem) {
+function sourceReviewStatusFor(sourceItem, reviewedSources) {
   if (!sourceItem?.url) return "curated";
   return reviewedSources.find((reviewedSource) => reviewedSource?.url === sourceItem.url)?.reviewStatus ?? "curated";
 }
 
-function entryHasReviewStatus(entry, reviewStatus) {
-  return entry.sources.some((sourceItem) => sourceReviewStatusFor(sourceItem) === reviewStatus);
+function entryHasReviewStatus(entry, reviewStatus, reviewedSources) {
+  return entry.sources.some((sourceItem) => sourceReviewStatusFor(sourceItem, reviewedSources) === reviewStatus);
 }
 
 function activeFilterItems({
@@ -362,6 +372,34 @@ function App() {
   const [isMoreFiltersOpen, setIsMoreFiltersOpen] = useState(false);
   const [infoDialog, setInfoDialog] = useState(null);
   const [usageStats, setUsageStats] = useState(readUsageStats);
+  const [catalog, setCatalog] = useState(null);
+  const [catalogError, setCatalogError] = useState("");
+
+  const errorEntries = catalog?.errorEntries ?? [];
+  const reviewedSources = catalog?.reviewedSources ?? [];
+  const sourceCandidateReviews = catalog?.sourceCandidateReviews ?? {};
+  const isCatalogLoading = !catalog && !catalogError;
+
+  useEffect(() => {
+    let isCurrent = true;
+
+    loadCatalogData()
+      .then((loadedCatalog) => {
+        if (isCurrent) setCatalog(loadedCatalog);
+      })
+      .catch(() => {
+        if (isCurrent) setCatalogError("The error catalog could not be loaded. Refresh the page and try again.");
+      });
+
+    return () => {
+      isCurrent = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!catalog || !selectedId) return;
+    if (!errorEntries.some((entry) => entry.id === selectedId)) setSelectedId(null);
+  }, [catalog, errorEntries, selectedId]);
 
   useEffect(() => {
     if (!notification) return undefined;
@@ -418,7 +456,7 @@ function App() {
       validationStates: withAll(["source-research-needed", "reviewed-diagnostic", "official-doc-baseline"]),
       reviewStatuses: withAll(["curated", "curated-partial", "curated-unresolved", "cross-product", "not-actionable", "no-matching-posts"]),
     }),
-    [],
+    [errorEntries, reviewedSources],
   );
 
   const filteredEntries = useMemo(() => {
@@ -446,14 +484,14 @@ function App() {
         return true;
       })
       .filter((entry) => validationFilter === allOption || entry.validationStatus === validationFilter)
-      .filter((entry) => reviewStatusFilter === allOption || entryHasReviewStatus(entry, reviewStatusFilter))
+      .filter((entry) => reviewStatusFilter === allOption || entryHasReviewStatus(entry, reviewStatusFilter, reviewedSources))
       .sort((a, b) => {
         if (sortBy === "code") return a.code.localeCompare(b.code, undefined, { numeric: true });
         if (sortBy === "confidence") return confidenceWeight(a.confidence) - confidenceWeight(b.confidence);
         if (sortBy === "product") return a.product.localeCompare(b.product) || a.code.localeCompare(b.code);
         return b.searchScore - a.searchScore || sourceRank(a) - sourceRank(b) || a.code.localeCompare(b.code, undefined, { numeric: true });
       });
-  }, [query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, validationFilter, reviewStatusFilter, sortBy]);
+  }, [errorEntries, reviewedSources, query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, validationFilter, reviewStatusFilter, sortBy]);
 
   const selectedEntry = selectedId ? errorEntries.find((entry) => entry.id === selectedId) : null;
   const qualitySummary = useMemo(() => {
@@ -472,7 +510,7 @@ function App() {
       officialBaseline: officialBaseline.length,
       reviewedDiagnostic: reviewedDiagnostic.length,
     };
-  }, []);
+  }, [errorEntries]);
 
   function trackFilterChange(setter) {
     return (value) => {
@@ -799,7 +837,7 @@ function App() {
         <aside className="results-pane" aria-label="Error results">
           <div className="pane-heading">
             <div>
-              <h2>{filteredEntries.length} results</h2>
+              <h2>{isCatalogLoading ? "Loading results" : `${filteredEntries.length} results`}</h2>
             </div>
             <div className="sort-control">
               <label>
@@ -814,7 +852,17 @@ function App() {
               <Filter aria-hidden="true" size={18} />
             </div>
           </div>
-          {filteredEntries.length === 0 ? (
+          {isCatalogLoading ? (
+            <div className="empty-state">
+              <RefreshCw aria-hidden="true" size={22} />
+              <p>Loading the error catalog.</p>
+            </div>
+          ) : catalogError ? (
+            <div className="empty-state">
+              <AlertTriangle aria-hidden="true" size={22} />
+              <p>{catalogError}</p>
+            </div>
+          ) : filteredEntries.length === 0 ? (
             <div className="empty-state">
               <AlertTriangle aria-hidden="true" size={22} />
               <p>No curated entries match the current filters.</p>
@@ -858,11 +906,7 @@ function App() {
                           <small>{entry.summary}</small>
                         </span>
                         <span className="result-badges">
-                          {candidateReviewSummary(entry.id) && (
-                            <span className={`candidate-status ${candidateReviewSummary(entry.id).className}`}>
-                              {candidateReviewSummary(entry.id).label}
-                            </span>
-                          )}
+                          <CandidateStatusBadge entryId={entry.id} sourceCandidateReviews={sourceCandidateReviews} />
                           {entry.scenarios?.length > 0 && <span className="scenario-count">{entry.scenarios.length} scenarios</span>}
                           <FixStatusBadge value={fixStatusValue(entry)} />
                           <ConfidenceBadge value={entry.confidence} />
@@ -878,6 +922,9 @@ function App() {
         {selectedEntry ? (
           <ErrorDetail
             entry={selectedEntry}
+            allEntries={errorEntries}
+            reviewedSources={reviewedSources}
+            sourceCandidateReviews={sourceCandidateReviews}
             onSelect={selectEntry}
             onShare={shareEntry}
           />
@@ -996,6 +1043,13 @@ function SourceBadge({ sourceType }) {
   return <span className={`source-badge ${sourceType}`}>{labels[sourceType] ?? sourceType}</span>;
 }
 
+function CandidateStatusBadge({ entryId, sourceCandidateReviews }) {
+  const summary = candidateReviewSummary(entryId, sourceCandidateReviews);
+  if (!summary) return null;
+
+  return <span className={`candidate-status ${summary.className}`}>{summary.label}</span>;
+}
+
 function InstructionsPane() {
   return (
     <article className="detail-pane instructions-pane">
@@ -1037,9 +1091,9 @@ function InstructionsPane() {
   );
 }
 
-function ErrorDetail({ entry, onSelect, onShare }) {
-  const candidateSummary = candidateReviewSummary(entry.id);
-  const sameCodeEntries = errorEntries
+function ErrorDetail({ entry, allEntries, reviewedSources, sourceCandidateReviews, onSelect, onShare }) {
+  const candidateSummary = candidateReviewSummary(entry.id, sourceCandidateReviews);
+  const sameCodeEntries = allEntries
     .filter((candidate) => candidate.id !== entry.id && normalizeCode(candidate.code) === normalizeCode(entry.code))
     .sort((a, b) => a.product.localeCompare(b.product) || fixStatusValue(a).localeCompare(fixStatusValue(b)) || a.message.localeCompare(b.message))
     .slice(0, 8);
@@ -1240,7 +1294,7 @@ function ErrorDetail({ entry, onSelect, onShare }) {
                   <span>{sourceItem.title}</span>
                   <span className="source-card-meta">
                     <SourceBadge sourceType={sourceItem.sourceType} />
-                    <ReviewStatusBadge value={sourceReviewStatusFor(sourceItem)} />
+                    <ReviewStatusBadge value={sourceReviewStatusFor(sourceItem, reviewedSources)} />
                   </span>
                 </span>
                 <ExternalLink aria-hidden="true" size={16} />
