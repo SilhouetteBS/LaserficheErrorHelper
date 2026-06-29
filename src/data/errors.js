@@ -3549,7 +3549,7 @@ const curatedErrorEntries = [
   },
   {
     id: "forms-lff502-unexpected-error",
-    code: "LFF502",
+    code: "LFF502-UnexpectedError",
     message: "Laserfiche Forms has encountered a problem. Unexpected error.",
     product: "Forms",
     versions: ["Version 10", "Version 11", "Version 12"],

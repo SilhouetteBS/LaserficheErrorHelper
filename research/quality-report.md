@@ -10,7 +10,7 @@ Generated: 2026-06-28
 - Entries with scenario variants: 20
 - High-priority unresolved reviewed sources: 0
 - Thin-coverage products with fewer than 5 entries: 2
-- Repeated-code clusters to review for scenario modeling: 101
+- Repeated-code clusters to review for scenario modeling: 100
 
 ## Confidence Coverage
 
@@ -107,7 +107,7 @@ Generated: 2026-06-28
 
 | Code | Entries | Products | Entries with scenarios |
 | --- | --- | --- | --- |
-| LFF502-UnexpectedError | 21 | Directory Server, Forms, Laserfiche Server/Repository Server | 0 |
+| LFF502-UnexpectedError | 22 | Directory Server, Forms, Laserfiche Server/Repository Server | 1 |
 | 9013 | 16 | Connector, Import Agent, Laserfiche Server/Repository Server, Quick Fields, Records Management, Web Client, WebLink, Windows Client/Desktop Client, Workflow | 1 |
 | 0x80040310 | 7 | Laserfiche Installer, Web Client, Windows Client/Desktop Client | 0 |
 | 9010 | 7 | API Server, Laserfiche Server/Repository Server, Mobile, Quick Fields, Workflow | 1 |
