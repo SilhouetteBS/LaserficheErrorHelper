@@ -423,6 +423,23 @@ h3 {
   cursor: pointer;
 }
 
+.sort-filter-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+}
+
+.sort-filter-button:hover,
+.sort-filter-button:focus-visible,
+.sort-filter-button.active {
+  color: var(--brand-blue);
+  background: var(--brand-blue-soft);
+  outline: 1px solid var(--brand-blue-border);
+}
+
 .result-group {
   padding: 0;
 }

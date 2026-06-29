@@ -71,6 +71,10 @@ try {
   await page.getByRole("button", { name: "More Filters" }).click();
   await expectVisible(page.getByLabel("More filters"), "More Filters panel did not open.");
 
+  await page.getByRole("button", { name: "More Filters" }).click();
+  await page.getByRole("button", { name: "Open result filters" }).click();
+  await expectVisible(page.getByLabel("More filters"), "Result-pane filter icon did not open More Filters.");
+
   await page.getByPlaceholder("Search code, message, symptom, product, or fix").fill("Web Access");
   await page.waitForURL(/q=Web\+Access/);
   await expectVisible(page.getByRole("button", { name: /Web Client/ }).first(), "Web Access alias did not return Web Client results.");

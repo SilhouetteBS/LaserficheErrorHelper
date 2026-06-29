@@ -884,7 +884,17 @@ function App() {
                   <option value="product">Product</option>
                 </select>
               </label>
-              <Filter aria-hidden="true" size={18} />
+              <button
+                aria-controls="advanced-filters"
+                aria-expanded={isMoreFiltersOpen}
+                aria-label="Open result filters"
+                className={`sort-filter-button ${isMoreFiltersOpen ? "active" : ""}`}
+                onClick={() => setIsMoreFiltersOpen(true)}
+                title="Open more filters"
+                type="button"
+              >
+                <Filter aria-hidden="true" size={18} />
+              </button>
             </div>
           </div>
           {isCatalogLoading ? (
