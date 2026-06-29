@@ -4,8 +4,8 @@ Generated: 2026-06-28
 
 ## Summary
 
-- Published helper entries: 1905
-- Reviewed source ledger rows: 923
+- Published helper entries: 1911
+- Reviewed source ledger rows: 930
 - Discovery rows tracked: 3931
 - Remaining candidate rows: 0
 
@@ -13,8 +13,8 @@ Generated: 2026-06-28
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 350 |
-| known-fix | 105 |
+| diagnostic-only | 355 |
+| known-fix | 106 |
 | needs-review | 1135 |
 | workaround | 315 |
 
@@ -23,8 +23,8 @@ Generated: 2026-06-28
 | Review status | Sources |
 | --- | --- |
 | cross-product | 65 |
-| curated | 410 |
-| curated-partial | 442 |
+| curated | 411 |
+| curated-partial | 448 |
 | no-matching-posts | 2 |
 | not-actionable | 4 |
 
@@ -32,8 +32,8 @@ Generated: 2026-06-28
 
 | Source type | Sources |
 | --- | --- |
-| answers-community | 81 |
-| answers-community-confirmed | 545 |
+| answers-community | 87 |
+| answers-community-confirmed | 546 |
 | answers-laserfiche-employee | 280 |
 | answers-search | 1 |
 | official-docs | 16 |
@@ -42,7 +42,7 @@ Generated: 2026-06-28
 
 | Product | Published entries | Remaining candidates |
 | --- | --- | --- |
-| Administration Hub | 4 | 0 |
+| Administration Hub | 5 | 0 |
 | AI Service | 1 | 0 |
 | API Server | 15 | 0 |
 | Audit Trail | 20 | 0 |
@@ -51,7 +51,7 @@ Generated: 2026-06-28
 | Directory Server | 76 | 0 |
 | Discussions | 7 | 0 |
 | Distributed Computing Cluster | 11 | 0 |
-| Federated Search | 4 | 0 |
+| Federated Search | 7 | 0 |
 | Forms | 122 | 0 |
 | Full Text Search | 17 | 0 |
 | Import Agent | 24 | 0 |
@@ -64,7 +64,7 @@ Generated: 2026-06-28
 | Snapshot | 10 | 0 |
 | Web Client | 60 | 0 |
 | WebLink | 24 | 0 |
-| Webtools Agent | 2 | 0 |
+| Webtools Agent | 4 | 0 |
 | Windows Client/Desktop Client | 234 | 0 |
 | Workflow | 62 | 0 |
 

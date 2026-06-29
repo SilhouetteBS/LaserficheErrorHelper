@@ -4,28 +4,28 @@ Generated: 2026-06-28
 
 ## Summary
 
-- Published entries: 1905
-- Reviewed sources: 923
-- Entries needing validation: 0
+- Published entries: 1911
+- Reviewed sources: 930
+- Entries needing validation: 5
 - Entries with scenario variants: 20
 - High-priority unresolved reviewed sources: 0
-- Thin-coverage products with fewer than 5 entries: 4
+- Thin-coverage products with fewer than 5 entries: 2
 - Repeated-code clusters to review for scenario modeling: 101
 
 ## Confidence Coverage
 
 | Confidence | Entries |
 | --- | --- |
-| high | 64 |
-| low | 1479 |
-| medium | 362 |
+| high | 65 |
+| low | 1481 |
+| medium | 365 |
 
 ## Fix Status Coverage
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 350 |
-| known-fix | 105 |
+| diagnostic-only | 355 |
+| known-fix | 106 |
 | needs-review | 1135 |
 | workaround | 315 |
 
@@ -40,7 +40,7 @@ Generated: 2026-06-28
 
 | Product | Needs validation |
 | --- | --- |
-| Administration Hub | 0 |
+| Administration Hub | 1 |
 | AI Service | 0 |
 | API Server | 0 |
 | Audit Trail | 0 |
@@ -49,7 +49,7 @@ Generated: 2026-06-28
 | Directory Server | 0 |
 | Discussions | 0 |
 | Distributed Computing Cluster | 0 |
-| Federated Search | 0 |
+| Federated Search | 2 |
 | Forms | 0 |
 | Full Text Search | 0 |
 | Import Agent | 0 |
@@ -62,7 +62,7 @@ Generated: 2026-06-28
 | Snapshot | 0 |
 | Web Client | 0 |
 | WebLink | 0 |
-| Webtools Agent | 0 |
+| Webtools Agent | 2 |
 | Windows Client/Desktop Client | 0 |
 | Workflow | 0 |
 
@@ -71,8 +71,8 @@ Generated: 2026-06-28
 | Review status | Sources |
 | --- | --- |
 | cross-product | 65 |
-| curated | 410 |
-| curated-partial | 442 |
+| curated | 411 |
+| curated-partial | 448 |
 | no-matching-posts | 2 |
 | not-actionable | 4 |
 
@@ -86,9 +86,7 @@ Generated: 2026-06-28
 | Product | Published entries |
 | --- | --- |
 | AI Service | 1 |
-| Webtools Agent | 2 |
-| Administration Hub | 4 |
-| Federated Search | 4 |
+| Webtools Agent | 4 |
 
 ## Product-Level Lazy Load Candidates
 
@@ -139,6 +137,11 @@ Generated: 2026-06-28
 
 | Product | Code | Fix status | Confidence | Best source | Title |
 | --- | --- | --- | --- | --- | --- |
+| Administration Hub | ADMIN-HUB-SERVER-LIST | diagnostic-only | low | Answers - Community | Administration Hub shows unexpected servers or machines that are not running the agent. |
+| Federated Search | FEDSEARCH-NETWORK-DRIVE-ACCESS | diagnostic-only | low | Answers - Community | Federated Search cannot access configured network drive content. |
+| Federated Search | FEDSEARCH-SECURITYPERMISSION-FAILED | diagnostic-only | medium | Answers - Community | Request for the permission of type System.Security.Permissions.SecurityPermission failed. |
+| Webtools Agent | WEBTOOLS-EDGE-OFFICE-LAUNCH | diagnostic-only | medium | Answers - Community | Web Client cannot launch Office documents through Webtools Agent in Edge. |
+| Webtools Agent | WEBTOOLS-SCANNING-NOT-DETECTED | diagnostic-only | medium | Answers - Community | Web Client does not recognize Webtools Agent for scanning. |
 
 ## Review Rules
 

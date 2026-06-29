@@ -20641,6 +20641,203 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "adminhub-unexpected-server-list",
+    code: "ADMIN-HUB-SERVER-LIST",
+    message: "Administration Hub shows unexpected servers or machines that are not running the agent.",
+    product: "Administration Hub",
+    versions: ["Version 12"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Administration Hub 12 can surface confusing server-list behavior, including machines that are not expected to be running the Administration Hub agent. The reviewed search candidates document the symptom but do not provide a public confirmed fix.",
+    symptoms: [
+      "Administration Hub shows machines that are not running the agent.",
+      "The server list includes unexpected machines or does not match the administrator's expected Administration Hub inventory.",
+      "The issue is reported in self-hosted Version 12 environments.",
+    ],
+    likelyFixes: [
+      "Verify which machines have the Administration Hub agent installed and currently running.",
+      "Compare the Administration Hub server list against installed services, agent logs, and the expected self-hosted deployment topology.",
+      "Check whether old server registrations, renamed hosts, or decommissioned machines remain visible.",
+      "Open Support with screenshots, agent logs, and the Administration Hub version when the stale or unexpected entries cannot be explained.",
+    ],
+    notes:
+      "Published as diagnostic-only because the source candidates establish the symptom but not a verified remediation.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Administration Hub 12 showing machines that aren't running the agent",
+        url: "https://answers.laserfiche.com/questions/229947/Administration-Hub-12-showing-machines-that-arent-running-the-agent",
+        note: "Search-reviewed Answers candidate documents Administration Hub 12 showing machines that are not running the agent.",
+      },
+      {
+        sourceType: "answers-community",
+        title: "Administration Hub server list",
+        url: "https://answers.laserfiche.com/questions/225013/Administration-Hub-server-list",
+        note: "Search-reviewed Answers candidate documents Administration Hub Version 12 server-list questions.",
+      },
+    ],
+  },
+  {
+    id: "federated-search-uri-prefix-not-recognized",
+    code: "FEDSEARCH-URI-PREFIX",
+    message: "The URI prefix is not recognized.",
+    product: "Federated Search",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Federated Search URL validation can return The URI prefix is not recognized when the configured URL scheme is misspelled, such as htps instead of https.",
+    symptoms: [
+      "Federated Search URL verification reports that the URL is not valid.",
+      "The error says The URI prefix is not recognized.",
+      "The configured URL begins with an invalid scheme such as htps://.",
+    ],
+    likelyFixes: [
+      "Correct the URL scheme to https:// before the Federated Search server name.",
+      "Retest the Federated Search URL after correcting the typo.",
+      "If the corrected URL still fails, validate the certificate binding, DNS name, and Federated Search endpoint configuration separately.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-community-confirmed",
+        title: "Laserfiche Federated Search URL \"The URI prefix is not recognized\"",
+        url: "https://answers.laserfiche.com/questions/166540/Laserfiche-Federated-Search-URL-The-URI-prefix-is-not-recognized",
+        note: "Selected answer identifies the missing t in https as the cause of the URI prefix error.",
+      },
+    ],
+  },
+  {
+    id: "federated-search-dotnet-trust-securitypermission",
+    code: "FEDSEARCH-SECURITYPERMISSION-FAILED",
+    message: "Request for the permission of type System.Security.Permissions.SecurityPermission failed.",
+    product: "Federated Search",
+    versions: ["Version 10"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Federated Search and Audit Trail can stop working after IIS .NET Trust Level is reduced to Medium as part of hardening, with logs showing a SecurityPermission failure.",
+    symptoms: [
+      "Federated Search stops working after the IIS .NET Trust Level is changed to Medium.",
+      "Audit Trail may fail at the same time in the same hardened IIS environment.",
+      "Logs include Request for the permission of type System.Security.Permissions.SecurityPermission failed.",
+    ],
+    likelyFixes: [
+      "Review any CIS or hardening change that lowered .NET Trust Level for Laserfiche web applications.",
+      "Test reverting the affected Laserfiche IIS applications to their supported trust level in a controlled maintenance window.",
+      "Document the exact hardening exception required for the affected Laserfiche applications before reapplying security baselines.",
+      "Open Support with IIS configuration, hardening baseline details, and the SecurityPermission exception if a lower trust level is required.",
+    ],
+    notes:
+      "This is a cross-product IIS hardening symptom. The public source establishes the trust-level failure pattern but does not include a Laserfiche-confirmed supported hardening exception.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Audit trail and Federated Search are not working after changing .NET Trust Level in IIS",
+        url: "https://answers.laserfiche.com/questions/188332/Audit-trail-and-Federated-Search-are-not-working-after-changing-NET-Trust-Level--in-IIS",
+        note: "Thread documents Federated Search and Audit Trail failures after changing IIS .NET Trust Level to Medium, with a SecurityPermission exception.",
+      },
+    ],
+  },
+  {
+    id: "federated-search-network-drive-access",
+    code: "FEDSEARCH-NETWORK-DRIVE-ACCESS",
+    message: "Federated Search cannot access configured network drive content.",
+    product: "Federated Search",
+    versions: ["Version 10"],
+    confidence: "low",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "Federated Search access to network-drive locations can fail when the service or web application identity cannot reach the same path the administrator configured.",
+    symptoms: [
+      "Federated Search is configured to include content on network drives.",
+      "Search configuration or search results do not behave as expected for those network locations.",
+      "The issue is reported for Laserfiche Version 10 environments.",
+    ],
+    likelyFixes: [
+      "Use UNC paths rather than user-mapped drive letters for shared network content.",
+      "Verify the Federated Search service or application pool identity has share and NTFS permissions to the network path.",
+      "Test access to the network path from the Federated Search server under the service identity when possible.",
+      "Check for double-hop, delegation, or credential restrictions if the path works interactively but not from the service.",
+    ],
+    notes:
+      "The search-reviewed source identifies the network-drive access scenario, but the available local evidence does not include a final public resolution.",
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Configuring Access for Federated Search when using Network Drives",
+        url: "https://answers.laserfiche.com/questions/166097/Configuring-Access-for-Federated-Search-when-using-Network-Drives",
+        note: "Search-reviewed Answers candidate documents Federated Search access configuration for network drives.",
+      },
+    ],
+  },
+  {
+    id: "webtools-agent-edge-office-launch",
+    code: "WEBTOOLS-EDGE-OFFICE-LAUNCH",
+    message: "Web Client cannot launch Office documents through Webtools Agent in Edge.",
+    product: "Webtools Agent",
+    versions: ["Version 11"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "In Version 11 environments, browser extension troubleshooting can be misleading because the Laserfiche Webtools Agent process handles the integration. If Office documents do not open from Web Client in Edge, the local agent process, browser console, and agent logs are better first checks.",
+    symptoms: [
+      "Users try to install or troubleshoot a Laserfiche browser extension in Edge.",
+      "Opening an Office document in the full desktop application from Web Client fails.",
+      "Laserfiche Webtools Agent may not appear to be running on the workstation.",
+    ],
+    likelyFixes: [
+      "For Version 11, verify Laserfiche Webtools Agent is installed and visible in Task Manager instead of focusing first on a browser extension.",
+      "Check the browser console for errors when attempting to open the Office document.",
+      "Restart Webtools Agent and review its local logs for launch or connectivity failures.",
+      "If the agent is running but launch still fails, check local HTTPS certificate and port behavior using the Webtools Agent port guidance.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Installing LF Webtools extension into new Edge browser hit and miss",
+        url: "https://answers.laserfiche.com/questions/208240/Installing-LF-Webtools-extension-into-new-Edge-browser-hit-and-miss",
+        note: "Thread notes that Version 11 should rely on Laserfiche Webtools Agent rather than the older browser extension and recommends checking the browser console.",
+      },
+    ],
+  },
+  {
+    id: "webtools-agent-web-client-scanning-not-detected",
+    code: "WEBTOOLS-SCANNING-NOT-DETECTED",
+    message: "Web Client does not recognize Webtools Agent for scanning.",
+    product: "Webtools Agent",
+    versions: ["Version 11", "Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-06-28",
+    summary:
+      "When Web Client is accessed from outside the network, it may report that scanning components need to be installed even though Webtools Agent is present. The reviewed thread says Webtools Agent communicates with the remote Web Client server over HTTPS/443 while browser-side code attempts to reach the local agent.",
+    symptoms: [
+      "Web Client says the scanning component or Webtools Agent needs to be installed again.",
+      "The workstation already has Webtools Agent installed.",
+      "The behavior is observed when using Web Client from outside the network.",
+    ],
+    likelyFixes: [
+      "Confirm the workstation can reach the remote Web Client server over HTTPS/443.",
+      "Check browser console errors from the scanning page to see whether local agent detection is failing.",
+      "Verify Webtools Agent is running locally and can bind its localhost HTTPS endpoint.",
+      "Review proxy, VPN, and endpoint security rules that may block browser access to plugin.laserfichelocalhost.com or Web Client HTTPS traffic.",
+    ],
+    sources: [
+      {
+        sourceType: "answers-community",
+        title: "Webtools Agent Scanning Packet Type",
+        url: "https://answers.laserfiche.com/questions/213405/Webtools-Agent-Scanning-Packet-Type",
+        note: "Thread discusses Web Client not recognizing Webtools Agent for scanning from outside the network and notes HTTPS/443 communication to the remote Web Client server.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
