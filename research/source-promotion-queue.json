@@ -1,67 +1,5 @@
 [
   {
-    "id": "answers-74521-audit-trail-shrinkdatabase",
-    "title": "Audit Trail: Error EDBCC SHRINKDATABASE",
-    "url": "https://answers.laserfiche.com/questions/74521/Audit-Trail-Error-EDBCC-SHRINKDATABASE-",
-    "sourceType": "answers-laserfiche-employee",
-    "sourceTypeLabel": "Answers - Laserfiche Employee",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "Audit Trail"
-    ],
-    "extractedErrorCodes": [
-      "01000",
-      "42000"
-    ],
-    "matchingEntryIds": [
-      "audit-trail-01000-audit-trail-configuration-tls-1-2",
-      "forms-01000-lf-forms-and-workflow-query-linked-sql-or-mysql-server-possible-at-all",
-      "audit-trail-42000-always-on-availability-group-support-in-audit-trail",
-      "audit-trail-sql-shrinkdatabase",
-      "discussions-42000-when-attempting-to-install-socialbpm-preview-i-get-sql-error",
-      "forms-sql-create-database-permission-42000"
-    ],
-    "matchingProducts": [
-      "Audit Trail",
-      "Discussions",
-      "Forms"
-    ],
-    "matchingFixStatuses": [
-      "diagnostic-only",
-      "unresolved",
-      "workaround"
-    ],
-    "score": 550
-  },
-  {
-    "id": "answers-157969-forms-500-19",
-    "title": "Forms HTTP error 500.19/Error code: 0x800700b7",
-    "url": "https://answers.laserfiche.com/questions/157969/Forms-HTTP-error-50019Error-code-0x800700b7",
-    "sourceType": "answers-laserfiche-employee",
-    "sourceTypeLabel": "Answers - Laserfiche Employee",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "Forms"
-    ],
-    "extractedErrorCodes": [
-      "HTTP 500.19",
-      "0x800700b7"
-    ],
-    "matchingEntryIds": [
-      "web-client-http-50019-0x8007000d",
-      "forms-http-500-19-0x800700b7"
-    ],
-    "matchingProducts": [
-      "Forms",
-      "Web Client"
-    ],
-    "matchingFixStatuses": [
-      "diagnostic-only",
-      "unresolved"
-    ],
-    "score": 550
-  },
-  {
     "id": "answers-234855-adminhub-cannot-get-server-list",
     "title": "Administration Hub - Cannot get server list",
     "url": "https://answers.laserfiche.com/questions/234855/Administration-Hub--Cannot-get-server-list",
@@ -8894,6 +8832,57 @@
     "score": 360
   },
   {
+    "id": "answers-205717-forms-lff5206",
+    "title": "Connecting Workflow To Forms LB Address Gives 401 Unauthorized Error",
+    "url": "https://answers.laserfiche.com/questions/205717/Connecting-Workflow-To-Forms-LB-Address-Gives-401-Unauthorized-Error",
+    "sourceType": "answers-community-confirmed",
+    "sourceTypeLabel": "Answers - Community Confirmed",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Forms",
+      "Workflow"
+    ],
+    "extractedErrorCodes": [
+      "LFF5206-WFAPIAccessDenied"
+    ],
+    "matchingEntryIds": [
+      "forms-lff5206-workflow-api-access-denied",
+      "forms-lff5206-wfapiaccessdenied-workflow-not-connecting-to-ssl-enabled-forms-server"
+    ],
+    "matchingProducts": [
+      "Forms"
+    ],
+    "matchingFixStatuses": [
+      "workaround"
+    ],
+    "score": 320
+  },
+  {
+    "id": "answers-216301-weblink-9-tiles",
+    "title": "Weblink 9 - random tiles not loading, connection error",
+    "url": "https://answers.laserfiche.com/questions/216301/Weblink-9--random-tiles-not-loading-connection-error",
+    "sourceType": "answers-community-confirmed",
+    "sourceTypeLabel": "Answers - Community Confirmed",
+    "reviewedDate": "2026-06-27",
+    "productTags": [
+      "WebLink",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-LOST-CONNECTION"
+    ],
+    "matchingEntryIds": [
+      "weblink-9-lost-connection-tiles"
+    ],
+    "matchingProducts": [
+      "WebLink"
+    ],
+    "matchingFixStatuses": [
+      "workaround"
+    ],
+    "score": 300
+  },
+  {
     "id": "answers-231672-9011-effective-rights",
     "title": "Access Rights Effective Rights Showing \"Account locked. [9011]\"",
     "url": "https://answers.laserfiche.com/questions/231672/Access-Rights-Effective-Rights-Showing-Account-locked-9011#236898",
@@ -8945,341 +8934,9 @@
     "matchingFixStatuses": [
       "diagnostic-only",
       "known-fix",
-      "unresolved",
       "workaround"
     ],
-    "score": 350
-  },
-  {
-    "id": "answers-232169-web-client-9013-upgrade",
-    "title": "Access Denied 9013 error after Laserfiche 12 upgrade of web client",
-    "url": "https://answers.laserfiche.com/questions/232169/Access-Denied-9013-error-after-Laserfiche-12-upgrade-of-web-client",
-    "sourceType": "answers-community",
-    "sourceTypeLabel": "Answers - Community",
-    "reviewedDate": "2026-06-28",
-    "productTags": [
-      "Web Client",
-      "Version 12"
-    ],
-    "extractedErrorCodes": [
-      "9013"
-    ],
-    "matchingEntryIds": [
-      "connector-9013-import-content-rights",
-      "import-agent-9013-folder-create-permission",
-      "import-agent-9013-port80-ssl-schedule",
-      "laserfiche-server-repository-server-9013-workflow-error-9013-after-it-performs-tasks",
-      "lf-server-9013-access-denied",
-      "quick-fields-agent-9013-unidentified-doc-auth",
-      "quick-fields-agent-document-class-9013",
-      "quick-fields-agent-scheduled-9013-service-account",
-      "records-9013-delete-record-series-rights",
-      "web-client-9013-after-upgrade",
-      "web-client-9013-getsecurity-informational-log",
-      "web-client-scanning-9013-custom-url",
-      "weblink-auto-login-9013",
-      "windows-client-desktop-client-9013-lf-windows-client-10-2-4-1",
-      "workflow-field-access-denied-9013",
-      "workflow-subscriber-9013-access-denied"
-    ],
-    "matchingProducts": [
-      "Connector",
-      "Import Agent",
-      "Laserfiche Server/Repository Server",
-      "Quick Fields",
-      "Records Management",
-      "Web Client",
-      "WebLink",
-      "Windows Client/Desktop Client",
-      "Workflow"
-    ],
-    "matchingFixStatuses": [
-      "diagnostic-only",
-      "known-fix",
-      "unresolved",
-      "workaround"
-    ],
-    "score": 340
-  },
-  {
-    "id": "answers-163653-records-9193-uncutoff",
-    "title": "Error Message: The record or record folder cannot be uncutoff at this point. [9193]",
-    "url": "https://answers.laserfiche.com/questions/163653/Error-Message-The-record-or-record-folder-cannot-be-uncutoff-at-this-point-9193",
-    "sourceType": "answers-community",
-    "sourceTypeLabel": "Answers - Community",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "Records Management",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "9193"
-    ],
-    "matchingEntryIds": [
-      "records-9193-uncutoff-blocked"
-    ],
-    "matchingProducts": [
-      "Records Management"
-    ],
-    "matchingFixStatuses": [
-      "unresolved"
-    ],
-    "score": 340
-  },
-  {
-    "id": "answers-131696-import-agent-9013-port80",
-    "title": "import agent - access denied error after disabling pot 80 on the firewall to laserfiche server",
-    "url": "https://answers.laserfiche.com/questions/131696/import-agent--access-denied-error-after-disabling-pot-80-on-the-firewall-to-laserfiche-server",
-    "sourceType": "answers-community",
-    "sourceTypeLabel": "Answers - Community",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "Import Agent",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "9013"
-    ],
-    "matchingEntryIds": [
-      "connector-9013-import-content-rights",
-      "import-agent-9013-folder-create-permission",
-      "import-agent-9013-port80-ssl-schedule",
-      "laserfiche-server-repository-server-9013-workflow-error-9013-after-it-performs-tasks",
-      "lf-server-9013-access-denied",
-      "quick-fields-agent-9013-unidentified-doc-auth",
-      "quick-fields-agent-document-class-9013",
-      "quick-fields-agent-scheduled-9013-service-account",
-      "records-9013-delete-record-series-rights",
-      "web-client-9013-after-upgrade",
-      "web-client-9013-getsecurity-informational-log",
-      "web-client-scanning-9013-custom-url",
-      "weblink-auto-login-9013",
-      "windows-client-desktop-client-9013-lf-windows-client-10-2-4-1",
-      "workflow-field-access-denied-9013",
-      "workflow-subscriber-9013-access-denied"
-    ],
-    "matchingProducts": [
-      "Connector",
-      "Import Agent",
-      "Laserfiche Server/Repository Server",
-      "Quick Fields",
-      "Records Management",
-      "Web Client",
-      "WebLink",
-      "Windows Client/Desktop Client",
-      "Workflow"
-    ],
-    "matchingFixStatuses": [
-      "diagnostic-only",
-      "known-fix",
-      "unresolved",
-      "workaround"
-    ],
-    "score": 340
-  },
-  {
-    "id": "answers-126452-web-scanning-9039",
-    "title": "Multistatus response.[9039] Using Web Scan URL shortcut",
-    "url": "https://answers.laserfiche.com/questions/126452/Multistatus-response9039-Using-Web-Scan-URL-shortcut",
-    "sourceType": "answers-community",
-    "sourceTypeLabel": "Answers - Community",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "Web Client",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "9039"
-    ],
-    "matchingEntryIds": [
-      "web-client-scanning-9039-date-field"
-    ],
-    "matchingProducts": [
-      "Web Client"
-    ],
-    "matchingFixStatuses": [
-      "unresolved"
-    ],
-    "score": 340
-  },
-  {
-    "id": "answers-205479-records-filing-date-9234",
-    "title": "Receiving \"Filing date cannot be changed after cutoff\" on record that is not cutoff",
-    "url": "https://answers.laserfiche.com/questions/205479/Receiving-Filing-date-cannot-be-changed-after-cutoff-on-record-that-is-not-cutoff",
-    "sourceType": "answers-community",
-    "sourceTypeLabel": "Answers - Community",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "Records Management",
-      "Workflow",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "9234"
-    ],
-    "matchingEntryIds": [
-      "records-9234-filing-date-after-cutoff"
-    ],
-    "matchingProducts": [
-      "Records Management"
-    ],
-    "matchingFixStatuses": [
-      "unresolved"
-    ],
-    "score": 340
-  },
-  {
-    "id": "answers-162282-web-scanning-9013",
-    "title": "Web Scanning - Access Denied Error [9013]",
-    "url": "https://answers.laserfiche.com/questions/162282/Web-Scanning--Access-Denied-Error-9013",
-    "sourceType": "answers-community",
-    "sourceTypeLabel": "Answers - Community",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "Web Client",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "9013"
-    ],
-    "matchingEntryIds": [
-      "connector-9013-import-content-rights",
-      "import-agent-9013-folder-create-permission",
-      "import-agent-9013-port80-ssl-schedule",
-      "laserfiche-server-repository-server-9013-workflow-error-9013-after-it-performs-tasks",
-      "lf-server-9013-access-denied",
-      "quick-fields-agent-9013-unidentified-doc-auth",
-      "quick-fields-agent-document-class-9013",
-      "quick-fields-agent-scheduled-9013-service-account",
-      "records-9013-delete-record-series-rights",
-      "web-client-9013-after-upgrade",
-      "web-client-9013-getsecurity-informational-log",
-      "web-client-scanning-9013-custom-url",
-      "weblink-auto-login-9013",
-      "windows-client-desktop-client-9013-lf-windows-client-10-2-4-1",
-      "workflow-field-access-denied-9013",
-      "workflow-subscriber-9013-access-denied"
-    ],
-    "matchingProducts": [
-      "Connector",
-      "Import Agent",
-      "Laserfiche Server/Repository Server",
-      "Quick Fields",
-      "Records Management",
-      "Web Client",
-      "WebLink",
-      "Windows Client/Desktop Client",
-      "Workflow"
-    ],
-    "matchingFixStatuses": [
-      "diagnostic-only",
-      "known-fix",
-      "unresolved",
-      "workaround"
-    ],
-    "score": 340
-  },
-  {
-    "id": "answers-181979-weblink-9013",
-    "title": "Weblink: Users getting Access Denied 9013 error",
-    "url": "https://answers.laserfiche.com/questions/181979/Weblink-Users-getting-Access-Denied-9013-error",
-    "sourceType": "answers-community",
-    "sourceTypeLabel": "Answers - Community",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "WebLink",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "9013"
-    ],
-    "matchingEntryIds": [
-      "connector-9013-import-content-rights",
-      "import-agent-9013-folder-create-permission",
-      "import-agent-9013-port80-ssl-schedule",
-      "laserfiche-server-repository-server-9013-workflow-error-9013-after-it-performs-tasks",
-      "lf-server-9013-access-denied",
-      "quick-fields-agent-9013-unidentified-doc-auth",
-      "quick-fields-agent-document-class-9013",
-      "quick-fields-agent-scheduled-9013-service-account",
-      "records-9013-delete-record-series-rights",
-      "web-client-9013-after-upgrade",
-      "web-client-9013-getsecurity-informational-log",
-      "web-client-scanning-9013-custom-url",
-      "weblink-auto-login-9013",
-      "windows-client-desktop-client-9013-lf-windows-client-10-2-4-1",
-      "workflow-field-access-denied-9013",
-      "workflow-subscriber-9013-access-denied"
-    ],
-    "matchingProducts": [
-      "Connector",
-      "Import Agent",
-      "Laserfiche Server/Repository Server",
-      "Quick Fields",
-      "Records Management",
-      "Web Client",
-      "WebLink",
-      "Windows Client/Desktop Client",
-      "Workflow"
-    ],
-    "matchingFixStatuses": [
-      "diagnostic-only",
-      "known-fix",
-      "unresolved",
-      "workaround"
-    ],
-    "score": 340
-  },
-  {
-    "id": "answers-205717-forms-lff5206",
-    "title": "Connecting Workflow To Forms LB Address Gives 401 Unauthorized Error",
-    "url": "https://answers.laserfiche.com/questions/205717/Connecting-Workflow-To-Forms-LB-Address-Gives-401-Unauthorized-Error",
-    "sourceType": "answers-community-confirmed",
-    "sourceTypeLabel": "Answers - Community Confirmed",
-    "reviewedDate": "2026-06-28",
-    "productTags": [
-      "Forms",
-      "Workflow"
-    ],
-    "extractedErrorCodes": [
-      "LFF5206-WFAPIAccessDenied"
-    ],
-    "matchingEntryIds": [
-      "forms-lff5206-workflow-api-access-denied",
-      "forms-lff5206-wfapiaccessdenied-workflow-not-connecting-to-ssl-enabled-forms-server"
-    ],
-    "matchingProducts": [
-      "Forms"
-    ],
-    "matchingFixStatuses": [
-      "workaround"
-    ],
-    "score": 320
-  },
-  {
-    "id": "answers-216301-weblink-9-tiles",
-    "title": "Weblink 9 - random tiles not loading, connection error",
-    "url": "https://answers.laserfiche.com/questions/216301/Weblink-9--random-tiles-not-loading-connection-error",
-    "sourceType": "answers-community-confirmed",
-    "sourceTypeLabel": "Answers - Community Confirmed",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "WebLink",
-      "Version 9"
-    ],
-    "extractedErrorCodes": [
-      "WEBLINK-LOST-CONNECTION"
-    ],
-    "matchingEntryIds": [
-      "weblink-9-lost-connection-tiles"
-    ],
-    "matchingProducts": [
-      "WebLink"
-    ],
-    "matchingFixStatuses": [
-      "workaround"
-    ],
-    "score": 300
+    "score": 270
   },
   {
     "id": "answers-235341-api-import-timeout-500",
@@ -9612,6 +9269,56 @@
     ],
     "matchingFixStatuses": [
       "diagnostic-only"
+    ],
+    "score": 260
+  },
+  {
+    "id": "answers-232169-web-client-9013-upgrade",
+    "title": "Access Denied 9013 error after Laserfiche 12 upgrade of web client",
+    "url": "https://answers.laserfiche.com/questions/232169/Access-Denied-9013-error-after-Laserfiche-12-upgrade-of-web-client",
+    "sourceType": "answers-community",
+    "sourceTypeLabel": "Answers - Community",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Web Client",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "9013"
+    ],
+    "matchingEntryIds": [
+      "connector-9013-import-content-rights",
+      "import-agent-9013-folder-create-permission",
+      "import-agent-9013-port80-ssl-schedule",
+      "laserfiche-server-repository-server-9013-workflow-error-9013-after-it-performs-tasks",
+      "lf-server-9013-access-denied",
+      "quick-fields-agent-9013-unidentified-doc-auth",
+      "quick-fields-agent-document-class-9013",
+      "quick-fields-agent-scheduled-9013-service-account",
+      "records-9013-delete-record-series-rights",
+      "web-client-9013-after-upgrade",
+      "web-client-9013-getsecurity-informational-log",
+      "web-client-scanning-9013-custom-url",
+      "weblink-auto-login-9013",
+      "windows-client-desktop-client-9013-lf-windows-client-10-2-4-1",
+      "workflow-field-access-denied-9013",
+      "workflow-subscriber-9013-access-denied"
+    ],
+    "matchingProducts": [
+      "Connector",
+      "Import Agent",
+      "Laserfiche Server/Repository Server",
+      "Quick Fields",
+      "Records Management",
+      "Web Client",
+      "WebLink",
+      "Windows Client/Desktop Client",
+      "Workflow"
+    ],
+    "matchingFixStatuses": [
+      "diagnostic-only",
+      "known-fix",
+      "workaround"
     ],
     "score": 260
   },

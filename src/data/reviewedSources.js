@@ -1307,7 +1307,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["WebLink", "Version 10"],
     extractedErrorCodes: ["9013"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-87831-forms-lff3004",
@@ -1347,7 +1347,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Forms"],
     extractedErrorCodes: ["HTTP 500.19", "0x800700b7"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-50156-weblink-6502-lfe",
@@ -1557,7 +1557,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Web Client", "Version 10"],
     extractedErrorCodes: ["9013"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-126452-web-scanning-9039",
@@ -1567,7 +1567,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Web Client", "Version 10"],
     extractedErrorCodes: ["9039"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-158476-scanconnect-failed-load",
@@ -1607,7 +1607,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Audit Trail"],
     extractedErrorCodes: ["01000", "42000"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-85867-audit-trail-native-client",
@@ -2647,7 +2647,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Records Management", "Version 10"],
     extractedErrorCodes: ["9193"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-135036-records-cycle-9196",
@@ -2667,7 +2667,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Records Management", "Workflow", "Version 10"],
     extractedErrorCodes: ["9234"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-160811-records-delete-1041-bug",
@@ -2767,7 +2767,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Import Agent", "Version 10"],
     extractedErrorCodes: ["9013"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-205490-import-agent-9133-max-file",

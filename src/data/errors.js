@@ -3811,7 +3811,7 @@ const curatedErrorEntries = [
     product: "WebLink",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "WebLink users can get Access Denied 9013 in an Auto Login to Windows configuration. The reviewed thread is product-specific but does not publish a confirmed fix.",
@@ -3823,9 +3823,9 @@ const curatedErrorEntries = [
     likelyFixes: [
       "Verify the WebLink identity, repository permissions, and auto-login configuration used by the site.",
       "Compare Windows-authentication and Laserfiche-authentication behavior for the same repository path.",
-      "No confirmed public fix was posted in the reviewed thread.",
+      "Open a Support case if identity and WebLink configuration checks do not explain the denial; no confirmed public fix was posted in the reviewed thread.",
     ],
-    notes: "Published as unresolved documentation because it is a searchable WebLink-specific access-denied scenario.",
+    notes: "Promoted to diagnostic-only because the entry gives a safe WebLink identity and authentication triage path, but no confirmed public fix is posted.",
     sources: [
       {
         sourceType: "answers-community",
@@ -3937,7 +3937,7 @@ const curatedErrorEntries = [
     product: "Forms",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Forms can fail immediately after installation with IIS HTTP 500.19 and 0x800700b7. The reviewed thread documents the symptom but only points to support escalation.",
@@ -3951,7 +3951,7 @@ const curatedErrorEntries = [
       "Collect the Forms web.config and IIS detailed error screenshot for a support case.",
       "No confirmed public fix was posted in the reviewed Answers thread.",
     ],
-    notes: "Laserfiche employee reply recommends opening a support case; this entry is included for recognition and evidence gathering.",
+    notes: "Promoted to diagnostic-only because IIS/web.config evidence gathering is useful, but the Laserfiche employee reply recommends opening a support case and no public fix is posted.",
     sources: [
       {
         sourceType: "answers-laserfiche-employee",
@@ -4599,7 +4599,7 @@ const curatedErrorEntries = [
     product: "Web Client",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Web Client Scanning can return Access denied 9013 only when launched from a custom scanning URL after moving Web Client to a separate server.",
@@ -4611,9 +4611,9 @@ const curatedErrorEntries = [
     likelyFixes: [
       "Compare Web Client authentication mode and repository auto-logon behavior between the old and new server.",
       "Check Windows Integrated Authentication, delegation, and repository login behavior for ScanningService.asmx.",
-      "No confirmed public fix was posted in the reviewed thread.",
+      "Open a Support case if authentication and delegation checks do not explain the denial; no confirmed public fix was posted in the reviewed thread.",
     ],
-    notes: "Published as unresolved because the exact scanning custom-URL stack is useful for administrators to recognize.",
+    notes: "Promoted to diagnostic-only because the exact scanning custom-URL stack gives a safe authentication/delegation triage path, but no confirmed public fix is posted.",
     sources: [
       {
         sourceType: "answers-community",
@@ -4630,7 +4630,7 @@ const curatedErrorEntries = [
     product: "Web Client",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Web Client Scanning can return 9039 when storing documents launched from a custom scan URL, especially when a required Date field is prefilled with a token.",
@@ -4642,9 +4642,9 @@ const curatedErrorEntries = [
     likelyFixes: [
       "Test whether required Date fields and token casing such as %(Date) versus %(date) are involved.",
       "Compare the failing custom scan URL against a working custom scan URL using different storage paths/templates.",
-      "No confirmed public fix was posted in the reviewed thread.",
+      "Open a Support case if Date-field and URL comparisons do not explain the failure; no confirmed public fix was posted in the reviewed thread.",
     ],
-    notes: "Published as unresolved for a Web Client Scanning URL-shortcut-specific 9039 pattern.",
+    notes: "Promoted to diagnostic-only because the requester narrowed a likely Date-field/custom-URL pattern, but no confirmed public fix is posted.",
     sources: [
       {
         sourceType: "answers-community",
@@ -4754,7 +4754,7 @@ const curatedErrorEntries = [
     product: "Audit Trail",
     versions: ["Version 9"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Audit Trail database purging can log SQL Native Client 42000 and 01000 messages while running DBCC SHRINKDATABASE.",
@@ -4768,7 +4768,7 @@ const curatedErrorEntries = [
       "Review SQL free space, database growth settings, and Audit Trail purge behavior before attempting manual database changes.",
       "Do not treat this thread as a confirmed self-service fix; no public resolution was posted.",
     ],
-    notes: "Published as unresolved because the Laserfiche employee reply directed the issue to Support; the thread does not expose an exact product version.",
+    notes: "Promoted to diagnostic-only because SQL free-space and purge/shrink context checks are useful, but the Laserfiche employee reply directed the issue to Support and no public fix is posted.",
     sources: [
       {
         sourceType: "answers-laserfiche-employee",
@@ -7706,7 +7706,7 @@ const curatedErrorEntries = [
     product: "Records Management",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "A Records Management thread documents 9193 when trying to uncutoff a folder that has already been cutoff, but it has no public replies or confirmed fix.",
@@ -7721,7 +7721,7 @@ const curatedErrorEntries = [
       "Escalate to Support when the record state does not explain the block.",
     ],
     notes:
-      "Included as an unresolved documented Records Management error so administrators can recognize the code and collect the right state details.",
+      "Promoted to diagnostic-only because record state and retention checks are useful, but the public thread has no replies or confirmed fix.",
     sources: [
       {
         sourceType: "answers-community",
@@ -7771,7 +7771,7 @@ const curatedErrorEntries = [
     product: "Records Management",
     versions: ["Version 10"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "A Version 10 Records Management and Workflow scenario documents 9234 when changing a filing date, even though the requester believed the record was not cutoff. The public thread has no replies.",
@@ -7786,7 +7786,7 @@ const curatedErrorEntries = [
       "Collect the full LFSO stack and record status details for Support if the UI state appears inconsistent.",
     ],
     notes:
-      "This is intentionally documented without a confirmed fix because the public Answers thread contains no replies.",
+      "Promoted to diagnostic-only because record, parent folder, transfer, and cutoff state checks are useful, but the public Answers thread contains no replies.",
     sources: [
       {
         sourceType: "answers-community",
@@ -8104,7 +8104,7 @@ const curatedErrorEntries = [
     product: "Import Agent",
     versions: ["Version 10", "Version 12"],
     confidence: "low",
-    fixStatus: "unresolved",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "A Version 10 Import Agent thread documents 9013 access denied after inbound port 80 was blocked, even though the user could connect to the repository with SSL enabled. The public thread has no replies.",
@@ -8120,7 +8120,7 @@ const curatedErrorEntries = [
       "Collect Import Agent event logs and repository connection settings for Support if rights and connectivity look correct.",
     ],
     notes:
-      "Documented as unresolved because the Answers thread contains the symptom but no public solution.",
+      "Promoted to diagnostic-only because endpoint, firewall, and scheduled-service account checks are useful, but the Answers thread contains no public solution.",
     sources: [
       {
         sourceType: "answers-community",

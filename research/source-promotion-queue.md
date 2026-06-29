@@ -6,17 +6,15 @@ This queue ranks curated-unresolved Answers sources for the next manual promotio
 
 ## Summary
 
-- Curated unresolved sources: 373
-- Laserfiche employee unresolved sources: 43
+- Curated unresolved sources: 365
+- Laserfiche employee unresolved sources: 41
 - Community-confirmed unresolved sources: 272
-- Sources with matching published entries: 372
+- Sources with matching published entries: 364
 
 ## Top Promotion Candidates
 
 | Score | Source type | Codes | Products | Current fix states | Title |
 | --- | --- | --- | --- | --- | --- |
-| 550 | Answers - Laserfiche Employee | 01000, 42000 | Audit Trail, Discussions, Forms | diagnostic-only, unresolved, workaround | [Audit Trail: Error EDBCC SHRINKDATABASE](https://answers.laserfiche.com/questions/74521/Audit-Trail-Error-EDBCC-SHRINKDATABASE-) |
-| 550 | Answers - Laserfiche Employee | HTTP 500.19, 0x800700b7 | Forms, Web Client | diagnostic-only, unresolved | [Forms HTTP error 500.19/Error code: 0x800700b7](https://answers.laserfiche.com/questions/157969/Forms-HTTP-error-50019Error-code-0x800700b7) |
 | 470 | Answers - Laserfiche Employee | LFAH3800, SCPError | Administration Hub | diagnostic-only | [Administration Hub - Cannot get server list](https://answers.laserfiche.com/questions/234855/Administration-Hub--Cannot-get-server-list) |
 | 470 | Answers - Laserfiche Employee | 0x80029c4a, 0x80070057 | Laserfiche Installer, Windows Client/Desktop Client | diagnostic-only | [Error code 6000 (library\DLL) & Error code 0 / MAPI_E_FAILURE when trying to email out of Laserfiche](https://answers.laserfiche.com/questions/128570/Error-code-6000-libraryDLL--Error-code-0--MAPIEFAILURE-when-trying-to-email-out-of-Laserfiche) |
 | 470 | Answers - Laserfiche Employee | HTTP 503, LFDS-ENDPOINT | Directory Server, Forms | workaround | [Forms Configuration LFDS Error: The remote server returned an error: (503) Server Unavailable.](https://answers.laserfiche.com/questions/207499/Forms-Configuration-LFDS-Error-The-remote-server-returned-an-error-503-Server-Unavailable) |
@@ -90,4 +88,6 @@ This queue ranks curated-unresolved Answers sources for the next manual promotio
 | 370 | Answers - Community Confirmed | 0x54880652, 0x5098858e, 0xc0000409, 0x000a326c | Windows Client/Desktop Client | diagnostic-only | [LF Client crashing on win10 when saving/closing doc with ‘open’ text box annotation](https://answers.laserfiche.com/questions/150152/LF-Client-crashing-on-win10-when-savingclosing-doc-with-%E2%80%98open%E2%80%99-text-box-annotation) |
 | 370 | Answers - Community Confirmed | 0x80004003, 0x80040205 | Import Agent, Windows Client/Desktop Client | diagnostic-only | [LF Email Archiver: Could not get document information, Invalid Pointer [6000:0x80004003]](https://answers.laserfiche.com/questions/150358/LF-Email-Archiver-Could-not-get-document-information-Invalid-Pointer-60000x80004003) |
 | 370 | Answers - Community Confirmed | LFF0337, LFF1006-InvalidArgumentCount | Laserfiche Installer | diagnostic-only | [LFF0337 error](https://answers.laserfiche.com/questions/141909/LFF0337-error) |
+| 370 | Answers - Community Confirmed | LFF1018, LFF1018-ErrorOccuredDuringFormulaCalculation, LFF502-UnexpectedError | Directory Server, Forms, Laserfiche Server/Repository Server | workaround | [LFF1018 Error When Submitting Form with Calculation](https://answers.laserfiche.com/questions/175670/LFF1018-Error-When-Submitting-Form-with-Calculation) |
+| 370 | Answers - Community Confirmed | LFF348-MemberNotChild, LFF502-UnexpectedError | Directory Server, Forms, Laserfiche Server/Repository Server | workaround | [LFF348-MemberNotChild](https://answers.laserfiche.com/questions/178905/LFF348MemberNotChild) |
 
