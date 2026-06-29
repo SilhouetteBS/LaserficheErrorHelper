@@ -1180,10 +1180,6 @@ function ErrorDetail({ entry, allEntries, reviewedSources, sourceCandidateReview
             <strong>Last Reviewed</strong>
             {entry.reviewedDate}
           </span>
-          <span>
-            <strong>Fix Status</strong>
-            {fixStatusLabel(fixStatusValue(entry))}
-          </span>
         </div>
 
         <DetailSection title="Symptoms">
