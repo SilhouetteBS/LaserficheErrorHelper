@@ -640,6 +640,34 @@ const curatedErrorEntries = [
       "Check security tags and volume rights in addition to entry access rights.",
       "For Records Management deletion cases, check whether child records or record folders still have rights or locks that prevent deletion.",
     ],
+    scenarios: [
+      {
+        title: "Repository permission, tag, or volume-right denial",
+        summary:
+          "A user can have broad repository rights and still be blocked by effective rights, security tags, or volume rights on the specific entry or operation.",
+        symptoms: ["The action returns Access denied. [9013].", "The user's configured rights appear sufficient at first glance."],
+        causes: ["Effective rights differ from assigned rights because of inheritance, groups, tags, or volume access."],
+        fixes: [
+          "Use Effective Rights on the affected entry to evaluate the exact user account.",
+          "Check security tags and volume rights, not only entry access rights.",
+          "Retest with the same user after adjusting the narrow missing permission.",
+        ],
+        sourceUrls: ["https://answers.laserfiche.com/questions/221051/9013"],
+      },
+      {
+        title: "Records Management deletion blocked by child records or folders",
+        summary:
+          "Deleting record folders or series can surface 9013 when child records, folders, locks, or inherited rights still prevent the operation.",
+        symptoms: ["A Records Management delete operation returns Access denied. [9013].", "The parent folder or series rights look correct."],
+        causes: ["A child record, record folder, or retained item may still block deletion even when the parent is accessible."],
+        fixes: [
+          "Check rights and locks on child records and record folders.",
+          "Confirm disposition, cutoff, and retention state before retrying deletion.",
+          "Escalate with repository version and affected record hierarchy if child rights do not explain the denial.",
+        ],
+        sourceUrls: ["https://answers.laserfiche.com/questions/72907/Error-Access-denied-9013"],
+      },
+    ],
     notes:
       "One Records Management thread did not include a final confirmed resolution, so that scenario remains medium-confidence even though Laserfiche employees replied.",
     sources: [
@@ -3975,8 +4003,8 @@ const curatedErrorEntries = [
     message: "Unexpected end-of-file or end-of-input in WebLink search URL.",
     product: "WebLink",
     versions: ["Version 10"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "WebLink 10.2 can return 9091 for encoded search URLs that worked in earlier versions. The reviewed thread does not include a confirmed product fix.",
@@ -3988,7 +4016,7 @@ const curatedErrorEntries = [
     likelyFixes: [
       "Rebuild the same search in WebLink 10.2 and compare the generated URL.",
       "Confirm repository/dbid parameters and URL encoding match the new WebLink-generated format.",
-      "No confirmed public fix was posted in the reviewed thread.",
+      "Treat this as a URL-generation or encoding investigation unless a later support case identifies a product defect.",
     ],
     notes: "Laserfiche employee reply gives a comparison step; the public thread ends without a confirmed fix.",
     sources: [
@@ -5660,8 +5688,8 @@ const curatedErrorEntries = [
     message: "The communication object ServiceChannel cannot be used because it is in the Faulted state.",
     product: "Workflow",
     versions: ["Version 11"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Workflow Subscriber can log 0604-WFSO0 and a WCF ServiceChannel fault when it cannot communicate with Workflow Server, but the reviewed public thread does not include a confirmed root cause.",
@@ -6382,8 +6410,8 @@ const curatedErrorEntries = [
     message: "Invalid connection when launching Web Client Scanning.",
     product: "Web Client",
     versions: ["Version 11"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Web Client Scanning 11 can fail at launch with repeated Invalid connection messages and a NullReferenceException while reading repository tags; the public thread has employee follow-up but no confirmed fix.",
@@ -6395,6 +6423,7 @@ const curatedErrorEntries = [
     likelyFixes: [
       "Check whether the latest Web Client, WebTools Agent, and Desktop Scanning updates are installed together.",
       "Review repository tag configuration and whether the Web Client service can retrieve all tags.",
+      "Check whether the repository has malformed or inaccessible tag metadata that could trigger the RetrieveAllTags stack.",
       "Collect Web Client Scanning logs and open a Support case because no confirmed public fix was posted.",
     ],
     notes:
@@ -6639,8 +6668,8 @@ const curatedErrorEntries = [
     message: "Failed to load Text Extractor.",
     product: "Windows Client/Desktop Client",
     versions: ["Version 9"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "The Windows Client can fail to load the Text Extractor while OCR/text extraction works on another workstation; the public thread has diagnostic guidance but no confirmed fix.",
@@ -8019,8 +8048,8 @@ const curatedErrorEntries = [
     message: "Page text out of range while importing large text files.",
     product: "Import Agent",
     versions: ["Version 12"],
-    confidence: "low",
-    fixStatus: "unresolved",
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
     reviewedDate: "2026-06-27",
     summary:
       "Import Agent can fail with 9133 Page text out of range when importing large .txt files; the reviewed thread was locked as a duplicate and did not publish the duplicate thread's resolution.",
@@ -8032,6 +8061,7 @@ const curatedErrorEntries = [
     likelyFixes: [
       "Review the linked Page text out of range [9133] duplicate thread if available.",
       "Test whether splitting the text file or importing it as an electronic document avoids page-text limits.",
+      "Confirm whether the business requirement is to store the file, index the full text, or both; the remediation may differ.",
       "Collect the source text file and Import Agent profile for Support if the import must preserve full text extraction.",
     ],
     notes:

@@ -7,8 +7,8 @@ Generated: 2026-06-28
 - Published entries: 1905
 - Reviewed sources: 924
 - Entries needing validation: 0
-- Entries with scenario variants: 15
-- High-priority unresolved reviewed sources: 322
+- Entries with scenario variants: 16
+- High-priority unresolved reviewed sources: 317
 - Thin-coverage products with fewer than 5 entries: 4
 - Repeated-code clusters to review for scenario modeling: 101
 
@@ -17,17 +17,17 @@ Generated: 2026-06-28
 | Confidence | Entries |
 | --- | --- |
 | high | 64 |
-| low | 1486 |
-| medium | 355 |
+| low | 1481 |
+| medium | 360 |
 
 ## Fix Status Coverage
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 331 |
+| diagnostic-only | 336 |
 | known-fix | 105 |
 | needs-review | 1135 |
-| unresolved | 19 |
+| unresolved | 14 |
 | workaround | 315 |
 
 ## Validation Triage Coverage
@@ -73,8 +73,8 @@ Generated: 2026-06-28
 | --- | --- |
 | cross-product | 65 |
 | curated | 355 |
-| curated-partial | 114 |
-| curated-unresolved | 384 |
+| curated-partial | 119 |
+| curated-unresolved | 379 |
 | no-matching-posts | 1 |
 | not-actionable | 4 |
 
@@ -82,7 +82,7 @@ Generated: 2026-06-28
 
 | Source type | Sources |
 | --- | --- |
-| Answers - Laserfiche Employee | 50 |
+| Answers - Laserfiche Employee | 45 |
 | Answers - Community Confirmed | 272 |
 
 ## Thin Product Coverage
@@ -94,12 +94,27 @@ Generated: 2026-06-28
 | Administration Hub | 4 |
 | Federated Search | 4 |
 
+## Product-Level Lazy Load Candidates
+
+| Product | Published entries | Linked sources |
+| --- | --- | --- |
+| Laserfiche Server/Repository Server | 1081 | 1160 |
+| Windows Client/Desktop Client | 234 | 236 |
+| Forms | 122 | 154 |
+| Directory Server | 76 | 77 |
+| Workflow | 62 | 69 |
+| Web Client | 60 | 67 |
+| Laserfiche Installer | 41 | 41 |
+| Quick Fields | 34 | 35 |
+| WebLink | 24 | 27 |
+| Import Agent | 24 | 25 |
+
 ## Repeated-Code Scenario Review
 
 | Code | Entries | Products | Entries with scenarios |
 | --- | --- | --- | --- |
 | LFF502-UnexpectedError | 21 | Directory Server, Forms, Laserfiche Server/Repository Server | 0 |
-| 9013 | 16 | Connector, Import Agent, Laserfiche Server/Repository Server, Quick Fields, Records Management, Web Client, WebLink, Windows Client/Desktop Client, Workflow | 0 |
+| 9013 | 16 | Connector, Import Agent, Laserfiche Server/Repository Server, Quick Fields, Records Management, Web Client, WebLink, Windows Client/Desktop Client, Workflow | 1 |
 | 0x80040310 | 7 | Laserfiche Installer, Web Client, Windows Client/Desktop Client | 0 |
 | 9010 | 7 | API Server, Laserfiche Server/Repository Server, Mobile, Quick Fields, Workflow | 0 |
 | 0x80004002 | 6 | Laserfiche Server/Repository Server, Windows Client/Desktop Client, Workflow | 1 |
@@ -136,4 +151,5 @@ Generated: 2026-06-28
 - Add scenario variants when the same code has different causes or fixes.
 - Keep unresolved diagnostic entries visible when they help users identify the error but do not imply a confirmed fix.
 - Catalog data is already split into Vite chunks for errors, reviewed sources, official docs, and vendor code; keep large new datasets in separate importable modules.
+- If product-level lazy loading is implemented later, start with the largest products in the Product-Level Lazy Load Candidates section.
 

@@ -1397,7 +1397,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["WebLink", "Version 10"],
     extractedErrorCodes: ["9091"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-64586-weblink-500-19",
@@ -1947,7 +1947,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Workflow", "Version 11"],
     extractedErrorCodes: ["0604-WFSO0"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-134334-workflow-querydata-null-collection",
@@ -2237,7 +2237,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Web Client", "Version 11"],
     extractedErrorCodes: ["WEBSCAN-INVALID-CONNECTION"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-183391-webscan-could-not-find-file",
@@ -2317,7 +2317,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Windows Client/Desktop Client", "Version 9"],
     extractedErrorCodes: ["TEXT-EXTRACTOR-LOAD-FAILED"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-136138-federated-search-endpoint",
@@ -2777,7 +2777,7 @@ export const reviewedSources = [
     reviewedDate: "2026-06-27",
     productTags: ["Import Agent", "Version 12"],
     extractedErrorCodes: ["9133"],
-    reviewStatus: "curated-unresolved",
+    reviewStatus: "curated-partial",
   },
   {
     id: "answers-159981-import-agent-compare-array",

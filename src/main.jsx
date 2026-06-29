@@ -214,6 +214,7 @@ function filterOptionLabel(value, label) {
   if (label === "Source Confidence") return "All Confidence";
   if (label === "Fix Status") return "All Fix Statuses";
   if (label === "Source") return "All Sources";
+  if (label === "Source Review Status") return "All Review Statuses";
   return value;
 }
 
@@ -305,7 +306,12 @@ function reviewStatusLabel(value) {
 }
 
 function sourceReviewStatusFor(sourceItem) {
-  return reviewedSources.find((reviewedSource) => reviewedSource.url === sourceItem.url)?.reviewStatus ?? "curated";
+  if (!sourceItem?.url) return "curated";
+  return reviewedSources.find((reviewedSource) => reviewedSource?.url === sourceItem.url)?.reviewStatus ?? "curated";
+}
+
+function entryHasReviewStatus(entry, reviewStatus) {
+  return entry.sources.some((sourceItem) => sourceReviewStatusFor(sourceItem) === reviewStatus);
 }
 
 function App() {
@@ -320,6 +326,7 @@ function App() {
   const [validationFilter, setValidationFilter] = useState(() => initialParam("validation"));
   const [sortBy, setSortBy] = useState(() => initialParam("sort", "relevance"));
   const [ledgerSource, setLedgerSource] = useState(() => initialParam("ledger"));
+  const [reviewStatusFilter, setReviewStatusFilter] = useState(() => initialParam("review"));
   const [isLedgerExpanded, setIsLedgerExpanded] = useState(false);
   const [collapsedGroups, setCollapsedGroups] = useState({});
   const [selectedId, setSelectedId] = useState(initialSelectedErrorId);
@@ -347,11 +354,12 @@ function App() {
     setQueryParam(url, "validation", validationFilter);
     setQueryParam(url, "sort", sortBy, "relevance");
     setQueryParam(url, "ledger", ledgerSource);
+    setQueryParam(url, "review", reviewStatusFilter);
     if (selectedId) url.searchParams.set("error", selectedId);
     else url.searchParams.delete("error");
     url.hash = "";
     window.history.replaceState({}, "", url);
-  }, [query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, validationFilter, sortBy, ledgerSource, selectedId]);
+  }, [query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, validationFilter, sortBy, ledgerSource, reviewStatusFilter, selectedId]);
 
   useEffect(() => {
     const term = query.trim();
@@ -380,6 +388,7 @@ function App() {
       scenarioStates: withAll(["has-scenarios", "single-scenario"]),
       researchStates: withAll(["needs-fix-research", "has-fix-guidance"]),
       validationStates: withAll(["source-research-needed", "reviewed-diagnostic", "official-doc-baseline"]),
+      reviewStatuses: withAll(["curated", "curated-partial", "curated-unresolved", "cross-product", "not-actionable", "no-matching-posts"]),
     }),
     [],
   );
@@ -409,13 +418,14 @@ function App() {
         return true;
       })
       .filter((entry) => validationFilter === allOption || entry.validationStatus === validationFilter)
+      .filter((entry) => reviewStatusFilter === allOption || entryHasReviewStatus(entry, reviewStatusFilter))
       .sort((a, b) => {
         if (sortBy === "code") return a.code.localeCompare(b.code, undefined, { numeric: true });
         if (sortBy === "confidence") return confidenceWeight(a.confidence) - confidenceWeight(b.confidence);
         if (sortBy === "product") return a.product.localeCompare(b.product) || a.code.localeCompare(b.code);
         return b.searchScore - a.searchScore || sourceRank(a) - sourceRank(b) || a.code.localeCompare(b.code, undefined, { numeric: true });
       });
-  }, [query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, validationFilter, sortBy]);
+  }, [query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, validationFilter, reviewStatusFilter, sortBy]);
 
   const selectedEntry = selectedId ? errorEntries.find((entry) => entry.id === selectedId) : null;
   const qualitySummary = useMemo(() => {
@@ -460,6 +470,7 @@ function App() {
     setConfidence("Needs validation");
     setResearchFilter("needs-fix-research");
     setValidationFilter("source-research-needed");
+    setReviewStatusFilter(allOption);
     setSortBy("confidence");
     setSelectedId(null);
     setIsMoreFiltersOpen(true);
@@ -470,6 +481,7 @@ function App() {
     setConfidence(allOption);
     setResearchFilter("has-fix-guidance");
     setFixStatus(allOption);
+    setReviewStatusFilter(allOption);
     setSortBy("relevance");
     setSelectedId(null);
     setUsageStats(recordUsageEvent("filters"));
@@ -477,6 +489,7 @@ function App() {
 
   function focusScenarios() {
     setScenarioFilter("has-scenarios");
+    setReviewStatusFilter(allOption);
     setSelectedId(null);
     setIsMoreFiltersOpen(true);
     setUsageStats(recordUsageEvent("filters"));
@@ -487,6 +500,7 @@ function App() {
     setFixStatus("unresolved");
     setResearchFilter("needs-fix-research");
     setValidationFilter(allOption);
+    setReviewStatusFilter(allOption);
     setSortBy("confidence");
     setSelectedId(null);
     setIsMoreFiltersOpen(true);
@@ -507,7 +521,9 @@ function App() {
   );
 
   const displayedReviewedSources = reviewedSources.filter(
-    (sourceItem) => ledgerSource === allOption || sourceItem.sourceType === ledgerSource,
+    (sourceItem) =>
+      (ledgerSource === allOption || sourceItem.sourceType === ledgerSource) &&
+      (reviewStatusFilter === allOption || sourceItem.reviewStatus === reviewStatusFilter),
   );
   const ledgerRows = isLedgerExpanded ? displayedReviewedSources : displayedReviewedSources.slice(0, 5);
 
@@ -601,6 +617,7 @@ function App() {
               setResearchFilter(allOption);
               setSortBy("relevance");
               setLedgerSource(allOption);
+              setReviewStatusFilter(allOption);
               setIsLedgerExpanded(false);
               setIsMoreFiltersOpen(false);
               setSelectedId(null);
@@ -651,6 +668,13 @@ function App() {
               onChange={trackFilterChange(setValidationFilter)}
               options={filters.validationStates}
               formatOption={validationFilterLabel}
+            />
+            <FilterSelect
+              label="Source Review Status"
+              value={reviewStatusFilter}
+              onChange={trackFilterChange(setReviewStatusFilter)}
+              options={filters.reviewStatuses}
+              formatOption={reviewStatusLabel}
             />
             <label className="filter-control">
               <span>Result Sort</span>

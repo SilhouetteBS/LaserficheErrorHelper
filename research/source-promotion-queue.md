@@ -6,10 +6,10 @@ This queue ranks curated-unresolved Answers sources for the next manual promotio
 
 ## Summary
 
-- Curated unresolved sources: 384
-- Laserfiche employee unresolved sources: 50
+- Curated unresolved sources: 379
+- Laserfiche employee unresolved sources: 45
 - Community-confirmed unresolved sources: 272
-- Sources with matching published entries: 383
+- Sources with matching published entries: 378
 
 ## Top Promotion Candidates
 
@@ -17,14 +17,8 @@ This queue ranks curated-unresolved Answers sources for the next manual promotio
 | --- | --- | --- | --- | --- | --- |
 | 550 | Answers - Laserfiche Employee | 01000, 42000 | Audit Trail, Discussions, Forms | diagnostic-only, unresolved, workaround | [Audit Trail: Error EDBCC SHRINKDATABASE](https://answers.laserfiche.com/questions/74521/Audit-Trail-Error-EDBCC-SHRINKDATABASE-) |
 | 550 | Answers - Laserfiche Employee | HTTP 500.19, 0x800700b7 | Forms, Web Client | diagnostic-only, unresolved | [Forms HTTP error 500.19/Error code: 0x800700b7](https://answers.laserfiche.com/questions/157969/Forms-HTTP-error-50019Error-code-0x800700b7) |
-| 550 | Answers - Laserfiche Employee | 0544-WF0, 0604-WFSO0 | Workflow | unresolved, workaround | [Workflow Designer Connection Fail Error:[0604-WFSO0]](https://answers.laserfiche.com/questions/49235/Workflow-Designer-Connection-Fail-Error0604WFSO0) |
-| 540 | Answers - Laserfiche Employee | TEXT-EXTRACTOR-LOAD-FAILED | Windows Client/Desktop Client | unresolved | [Failed to Load Text Extractor](https://answers.laserfiche.com/questions/61140/Failed-to-Load-Text-Extractor) |
-| 540 | Answers - Laserfiche Employee | 9133 | Import Agent | unresolved | [Import Agent - Maximum file size - Error Code: 9133](https://answers.laserfiche.com/questions/205490/Import-Agent--Maximum-file-size--Error-Code-9133) |
 | 540 | Answers - Laserfiche Employee | OFFICE-REPOSITORY-NOT-FOUND | Office Integration | unresolved | [Office plugin error - cannot find the repository](https://answers.laserfiche.com/questions/59039/Office-plugin-error--cannot-find-the-repository) |
 | 540 | Answers - Laserfiche Employee | 784 | Full Text Search, Laserfiche Server/Repository Server | unresolved, workaround | [Page Search Broken?](https://answers.laserfiche.com/questions/53800/Page-Search-Broken) |
-| 540 | Answers - Laserfiche Employee | 0604-WFSO0 | Workflow | unresolved | [The communication object System.ServiceModel.Channels.ServiceChannel cannot be used because it is in the Faulted state](https://answers.laserfiche.com/questions/223668/The-communication-object-SystemServiceModelChannelsServiceChannel-cannot-be-used-for-communication-because-it-is-in-the-Faulted-state) |
-| 540 | Answers - Laserfiche Employee | WEBSCAN-INVALID-CONNECTION | Web Client | unresolved | [Web Client Scanning gives Invalid connection error](https://answers.laserfiche.com/questions/212027/Web-Client-Scanning-gives-Invalid-connection-error) |
-| 540 | Answers - Laserfiche Employee | 9091 | WebLink | unresolved | [Weblink Error 9091](https://answers.laserfiche.com/questions/170443/Weblink-Error-9091) |
 | 470 | Answers - Laserfiche Employee | LFAH3800, SCPError | Administration Hub | diagnostic-only | [Administration Hub - Cannot get server list](https://answers.laserfiche.com/questions/234855/Administration-Hub--Cannot-get-server-list) |
 | 470 | Answers - Laserfiche Employee | 0x80029c4a, 0x80070057 | Laserfiche Installer, Windows Client/Desktop Client | diagnostic-only | [Error code 6000 (library\DLL) & Error code 0 / MAPI_E_FAILURE when trying to email out of Laserfiche](https://answers.laserfiche.com/questions/128570/Error-code-6000-libraryDLL--Error-code-0--MAPIEFAILURE-when-trying-to-email-out-of-Laserfiche) |
 | 470 | Answers - Laserfiche Employee | HTTP 503, LFDS-ENDPOINT | Directory Server, Forms | workaround | [Forms Configuration LFDS Error: The remote server returned an error: (503) Server Unavailable.](https://answers.laserfiche.com/questions/207499/Forms-Configuration-LFDS-Error-The-remote-server-returned-an-error-503-Server-Unavailable) |
@@ -48,6 +42,7 @@ This queue ranks curated-unresolved Answers sources for the next manual promotio
 | 430 | Answers - Laserfiche Employee | 0x80040155, 341 | Windows Client/Desktop Client | known-fix, workaround | [error trying to e-mail a document](https://answers.laserfiche.com/questions/87421/error-trying-to-email-a-document) |
 | 430 | Answers - Laserfiche Employee | 0xe0434352, 0x4b9c08e8, 0x57e2061a, 0x0011fd82 | Office Integration | known-fix | [Laserfiche Tab missing in Excel](https://answers.laserfiche.com/questions/163545/Laserfiche-Tab-missing-in-Excel) |
 | 430 | Answers - Laserfiche Employee | 0x4b9c08e8, 0x57e2061a, 0x0011fd82 | Office Integration | diagnostic-only | [Missing Laserfiche tag in Excel](https://answers.laserfiche.com/questions/47940/Missing-Laserfiche-tag-in-Excel) |
+| 430 | Answers - Laserfiche Employee | 0544-WF0, 0604-WFSO0 | Workflow | diagnostic-only, workaround | [Workflow Designer Connection Fail Error:[0604-WFSO0]](https://answers.laserfiche.com/questions/49235/Workflow-Designer-Connection-Fail-Error0604WFSO0) |
 | 430 | Answers - Community Confirmed | 0xC00503EA, 9128 | Laserfiche Server/Repository Server, Web Client | needs-review, workaround | [There was an error decompressing the briefcase. The briefcase may be corrupted. error 9128](https://answers.laserfiche.com/questions/195302/There-was-an-error-decompressing-the-briefcase-The-briefcase-may-be-corrupted-error-9128) |
 | 420 | Answers - Laserfiche Employee | LFF2400-DataSourceConnectionError | Forms | workaround | [Adding an ODBC Data Source to Laserfiche Forms](https://answers.laserfiche.com/questions/214285/Adding-an-ODBC-Data-Source-to-Laserfiche-Forms) |
 | 420 | Answers - Laserfiche Employee | 9528 | Laserfiche Server/Repository Server | known-fix | [Cannot View Effective Rights; Directory Server Error](https://answers.laserfiche.com/questions/146237/Cannot-View-Effective-Rights-Directory-Server-Error) |
@@ -90,4 +85,9 @@ This queue ranks curated-unresolved Answers sources for the next manual promotio
 | 370 | Answers - Community Confirmed | HTTP Error 403.14, 403 | Web Client | workaround | [HTTP Error 403.14 - Forbidden Error - Anonymous User Can't Access Web Access](https://answers.laserfiche.com/questions/119868/HTTP-Error-40314--Forbidden-Error--Anonymous-User-Cant-Access-Web-Access) |
 | 370 | Answers - Community Confirmed | HTTP Error 503, 503 | Forms | workaround | [HTTP Error 503. The service is unavailable](https://answers.laserfiche.com/questions/65896/HTTP-Error-503-The-service-is-unavailable) |
 | 370 | Answers - Community Confirmed | 0x5a55ed59, 0x5c92f34f | Import Agent | diagnostic-only | [Import Agent .net runtime error](https://answers.laserfiche.com/questions/159369/Import-Agent-net-runtime-error) |
+| 370 | Answers - Community Confirmed | 0x54efddd9, 0x54e33ed6, 0xc0000005, 0x000cce0c, 0x51b50f28, 0x56cf9fcf, 0x541c1f8e, 0x0000e780 | Office Integration | diagnostic-only | [Laserfiche Client (32-bit) has stopped working](https://answers.laserfiche.com/questions/76270/Laserfiche-Client-32bit-has-stopped-working) |
+| 370 | Answers - Community Confirmed | 0x52fdcbab, 0xc0000005, 0x0008f5bc | Windows Client/Desktop Client | diagnostic-only | [Laserfiche Client Crashes after trying to save document](https://answers.laserfiche.com/questions/108166/Laserfiche-Client-Crashes-after-trying-to-save-document) |
+| 370 | Answers - Community Confirmed | 0x54efddd9, 0x56cc16f5, 0xc0000005, 0x00049f83 | Windows Client/Desktop Client | diagnostic-only | [Laserfiche Client Crashes when opening documents](https://answers.laserfiche.com/questions/111405/Laserfiche-Client-Crashes-when-opening-documents) |
+| 370 | Answers - Community Confirmed | 0645-WF1, 0644-WF1, 0645 | Directory Server, Laserfiche Installer, Laserfiche Server/Repository Server | diagnostic-only | [Laserfiche Workflow 9.1 License Error 0645-WF1](https://answers.laserfiche.com/questions/53229/Laserfiche-Workflow-91-License-Error-0645WF1) |
+| 370 | Answers - Community Confirmed | 0x54880652, 0x5098858e, 0xc0000409, 0x000a326c | Windows Client/Desktop Client | diagnostic-only | [LF Client crashing on win10 when saving/closing doc with ‘open’ text box annotation](https://answers.laserfiche.com/questions/150152/LF-Client-crashing-on-win10-when-savingclosing-doc-with-%E2%80%98open%E2%80%99-text-box-annotation) |
 

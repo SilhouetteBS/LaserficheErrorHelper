@@ -62,84 +62,6 @@
     "score": 550
   },
   {
-    "id": "answers-49235-workflow-0544-wf0",
-    "title": "Workflow Designer Connection Fail Error:[0604-WFSO0]",
-    "url": "https://answers.laserfiche.com/questions/49235/Workflow-Designer-Connection-Fail-Error0604WFSO0",
-    "sourceType": "answers-laserfiche-employee",
-    "sourceTypeLabel": "Answers - Laserfiche Employee",
-    "reviewedDate": "2026-06-28",
-    "productTags": [
-      "Workflow",
-      "Version 9"
-    ],
-    "extractedErrorCodes": [
-      "0544-WF0",
-      "0604-WFSO0"
-    ],
-    "matchingEntryIds": [
-      "workflow-0544-wf0-designer-connection",
-      "workflow-servicechannel-faulted-0604-wfso0"
-    ],
-    "matchingProducts": [
-      "Workflow"
-    ],
-    "matchingFixStatuses": [
-      "unresolved",
-      "workaround"
-    ],
-    "score": 550
-  },
-  {
-    "id": "answers-61140-text-extractor-load",
-    "title": "Failed to Load Text Extractor",
-    "url": "https://answers.laserfiche.com/questions/61140/Failed-to-Load-Text-Extractor",
-    "sourceType": "answers-laserfiche-employee",
-    "sourceTypeLabel": "Answers - Laserfiche Employee",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "Windows Client/Desktop Client",
-      "Version 9"
-    ],
-    "extractedErrorCodes": [
-      "TEXT-EXTRACTOR-LOAD-FAILED"
-    ],
-    "matchingEntryIds": [
-      "windows-client-text-extractor-load-failed"
-    ],
-    "matchingProducts": [
-      "Windows Client/Desktop Client"
-    ],
-    "matchingFixStatuses": [
-      "unresolved"
-    ],
-    "score": 540
-  },
-  {
-    "id": "answers-205490-import-agent-9133-max-file",
-    "title": "Import Agent - Maximum file size - Error Code: 9133",
-    "url": "https://answers.laserfiche.com/questions/205490/Import-Agent--Maximum-file-size--Error-Code-9133",
-    "sourceType": "answers-laserfiche-employee",
-    "sourceTypeLabel": "Answers - Laserfiche Employee",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "Import Agent",
-      "Version 12"
-    ],
-    "extractedErrorCodes": [
-      "9133"
-    ],
-    "matchingEntryIds": [
-      "import-agent-9133-large-text-file"
-    ],
-    "matchingProducts": [
-      "Import Agent"
-    ],
-    "matchingFixStatuses": [
-      "unresolved"
-    ],
-    "score": 540
-  },
-  {
     "id": "answers-59039-office-repository-not-found",
     "title": "Office plugin error - cannot find the repository",
     "url": "https://answers.laserfiche.com/questions/59039/Office-plugin-error--cannot-find-the-repository",
@@ -191,81 +113,6 @@
     "matchingFixStatuses": [
       "unresolved",
       "workaround"
-    ],
-    "score": 540
-  },
-  {
-    "id": "answers-223668-workflow-servicechannel-faulted",
-    "title": "The communication object System.ServiceModel.Channels.ServiceChannel cannot be used because it is in the Faulted state",
-    "url": "https://answers.laserfiche.com/questions/223668/The-communication-object-SystemServiceModelChannelsServiceChannel-cannot-be-used-for-communication-because-it-is-in-the-Faulted-state",
-    "sourceType": "answers-laserfiche-employee",
-    "sourceTypeLabel": "Answers - Laserfiche Employee",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "Workflow",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "0604-WFSO0"
-    ],
-    "matchingEntryIds": [
-      "workflow-servicechannel-faulted-0604-wfso0"
-    ],
-    "matchingProducts": [
-      "Workflow"
-    ],
-    "matchingFixStatuses": [
-      "unresolved"
-    ],
-    "score": 540
-  },
-  {
-    "id": "answers-212027-webscan-invalid-connection",
-    "title": "Web Client Scanning gives Invalid connection error",
-    "url": "https://answers.laserfiche.com/questions/212027/Web-Client-Scanning-gives-Invalid-connection-error",
-    "sourceType": "answers-laserfiche-employee",
-    "sourceTypeLabel": "Answers - Laserfiche Employee",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "Web Client",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WEBSCAN-INVALID-CONNECTION"
-    ],
-    "matchingEntryIds": [
-      "web-client-scanning-invalid-connection-tags"
-    ],
-    "matchingProducts": [
-      "Web Client"
-    ],
-    "matchingFixStatuses": [
-      "unresolved"
-    ],
-    "score": 540
-  },
-  {
-    "id": "answers-170443-weblink-9091",
-    "title": "Weblink Error 9091",
-    "url": "https://answers.laserfiche.com/questions/170443/Weblink-Error-9091",
-    "sourceType": "answers-laserfiche-employee",
-    "sourceTypeLabel": "Answers - Laserfiche Employee",
-    "reviewedDate": "2026-06-27",
-    "productTags": [
-      "WebLink",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "9091"
-    ],
-    "matchingEntryIds": [
-      "weblink-9091-search-url"
-    ],
-    "matchingProducts": [
-      "WebLink"
-    ],
-    "matchingFixStatuses": [
-      "unresolved"
     ],
     "score": 540
   },
@@ -896,6 +743,34 @@
     ],
     "matchingFixStatuses": [
       "diagnostic-only"
+    ],
+    "score": 430
+  },
+  {
+    "id": "answers-49235-workflow-0544-wf0",
+    "title": "Workflow Designer Connection Fail Error:[0604-WFSO0]",
+    "url": "https://answers.laserfiche.com/questions/49235/Workflow-Designer-Connection-Fail-Error0604WFSO0",
+    "sourceType": "answers-laserfiche-employee",
+    "sourceTypeLabel": "Answers - Laserfiche Employee",
+    "reviewedDate": "2026-06-28",
+    "productTags": [
+      "Workflow",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "0544-WF0",
+      "0604-WFSO0"
+    ],
+    "matchingEntryIds": [
+      "workflow-0544-wf0-designer-connection",
+      "workflow-servicechannel-faulted-0604-wfso0"
+    ],
+    "matchingProducts": [
+      "Workflow"
+    ],
+    "matchingFixStatuses": [
+      "diagnostic-only",
+      "workaround"
     ],
     "score": 430
   },

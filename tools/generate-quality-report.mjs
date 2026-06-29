@@ -84,6 +84,13 @@ const thinCoverageProducts = productOptions
   .map((product) => [product, publishedByProduct[product] || 0])
   .filter(([, count]) => count < 5)
   .sort(([, a], [, b]) => a - b);
+const productSplitCandidates = productOptions
+  .map((product) => {
+    const entries = errorEntries.filter((entry) => entry.product === product);
+    const sourceCount = entries.reduce((total, entry) => total + entry.sources.length, 0);
+    return [product, entries.length, sourceCount];
+  })
+  .sort(([, entryCountA, sourceCountA], [, entryCountB, sourceCountB]) => entryCountB - entryCountA || sourceCountB - sourceCountA);
 const repeatedCodeClusters = Object.values(
   errorEntries.reduce((groups, entry) => {
     groups[entry.code] ??= [];
@@ -163,6 +170,13 @@ const report = [
   "",
   table(["Product", "Published entries"], thinCoverageProducts.map(([product, count]) => [product, count])),
   "",
+  "## Product-Level Lazy Load Candidates",
+  "",
+  table(
+    ["Product", "Published entries", "Linked sources"],
+    productSplitCandidates.slice(0, 10).map(([product, entryCount, sourceCount]) => [product, entryCount, sourceCount]),
+  ),
+  "",
   "## Repeated-Code Scenario Review",
   "",
   table(
@@ -199,6 +213,7 @@ const report = [
   "- Add scenario variants when the same code has different causes or fixes.",
   "- Keep unresolved diagnostic entries visible when they help users identify the error but do not imply a confirmed fix.",
   "- Catalog data is already split into Vite chunks for errors, reviewed sources, official docs, and vendor code; keep large new datasets in separate importable modules.",
+  "- If product-level lazy loading is implemented later, start with the largest products in the Product-Level Lazy Load Candidates section.",
   "",
 ];
 
