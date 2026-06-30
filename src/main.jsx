@@ -682,7 +682,7 @@ function App() {
           <p>
             This community research aid is for read-only reporting, troubleshooting, and education. It is not
             affiliated with or endorsed by Laserfiche. Manually modifying Laserfiche databases is unsupported and
-            may violate your support plan; validate changes in a test environment.{" "}
+            violates your support plan; validate changes in a test environment.{" "}
             <a href="https://github.com/SilhouetteBS/LaserficheErrorHelper/blob/main/docs/known-limitations.md" rel="noreferrer" target="_blank">
               Known limitations
               <ExternalLink aria-hidden="true" size={13} />
