@@ -680,10 +680,9 @@ function App() {
         <section className="notice helper-warning" aria-label="Important helper notice">
           <ShieldCheck aria-hidden="true" size={18} />
           <p>
-            This documentation is for read-only reporting, troubleshooting, and education. Manually writing to or
-            modifying Laserfiche product databases, tables, etc. will violate your Laserfiche Support plan and is
-            not supported. This helper is a community research aid and is not affiliated with or endorsed by
-            Laserfiche. Validate fixes in a test or maintenance window before changing production systems.{" "}
+            This community research aid is for read-only reporting, troubleshooting, and education. It is not
+            affiliated with or endorsed by Laserfiche. Manually modifying Laserfiche databases is unsupported and
+            may violate your support plan; validate changes in a test environment.{" "}
             <a href="https://github.com/SilhouetteBS/LaserficheErrorHelper/blob/main/docs/known-limitations.md" rel="noreferrer" target="_blank">
               Known limitations
               <ExternalLink aria-hidden="true" size={13} />
