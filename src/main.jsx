@@ -14,7 +14,7 @@ import {
   RefreshCw,
   Search,
   Share2,
-  ShieldCheck,
+  ShieldAlert,
   Stethoscope,
   Wrench,
   X,
@@ -678,7 +678,7 @@ function App() {
 
       <main className="app-shell">
         <section className="notice helper-warning" aria-label="Important helper notice">
-          <ShieldCheck aria-hidden="true" size={18} />
+          <ShieldAlert aria-hidden="true" size={18} />
           <p>
             This community research aid is for read-only reporting, troubleshooting, and education. It is not
             affiliated with or endorsed by Laserfiche. Manually modifying Laserfiche databases is unsupported and

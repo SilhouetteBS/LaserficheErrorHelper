@@ -852,8 +852,8 @@ li + li {
   align-items: flex-start;
   gap: 10px;
   border: 1px solid #e35205;
-  background: #fff5ee;
-  color: #5a2100;
+  background: #fff5ec;
+  color: #582500;
   padding: 11px 12px;
   border-radius: 7px;
 }
@@ -861,7 +861,7 @@ li + li {
 .notice svg {
   flex: 0 0 auto;
   margin-top: 1px;
-  color: #8a3a00;
+  color: #582500;
 }
 
 .notice p,
@@ -882,7 +882,7 @@ li + li {
   align-items: center;
   gap: 3px;
   color: #0645c0;
-  font-weight: 800;
+  font-weight: 400;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
