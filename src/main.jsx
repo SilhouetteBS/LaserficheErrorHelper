@@ -862,7 +862,7 @@ function App() {
           </button>
           <button type="button" onClick={focusUnresolved}>
             <strong>{qualitySummary.unresolvedEntries}</strong>
-            <span>Unresolved or needs review</span>
+            <span>Needs review</span>
           </button>
           <span className="quality-note">
             {qualitySummary.lowConfidence} low-confidence entries remain visible for discovery; {qualitySummary.hasGuidance} entries have a known fix or workaround.
