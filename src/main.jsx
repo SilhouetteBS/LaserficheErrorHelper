@@ -11,6 +11,7 @@ import {
   HelpCircle,
   Info,
   MessageSquare,
+  MessageSquarePlus,
   RefreshCw,
   Search,
   Share2,
@@ -1160,7 +1161,7 @@ function ErrorDetail({ entry, allEntries, reviewedSources, sourceCandidateReview
               Share
             </button>
             <a href={correctionIssueUrl(entry)} rel="noreferrer" target="_blank">
-              <ExternalLink aria-hidden="true" size={20} />
+              <MessageSquarePlus aria-hidden="true" size={20} />
               Report Correction
             </a>
           </div>
