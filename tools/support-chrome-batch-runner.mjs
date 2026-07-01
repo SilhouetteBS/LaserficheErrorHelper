@@ -511,6 +511,20 @@ export async function runSupportChromeQueryBatch(tab, query = "error", batchSize
   state.queryCursors[cursorKey] = cursor;
   state.updatedAt = new Date().toISOString();
 
+  if (batch.length === 0 && startingCount === 0) {
+    writeJson(statePath, state);
+    return {
+      batchNumber,
+      count: 0,
+      appended: 0,
+      query,
+      cursor,
+      batchPath: path.relative(cwd, batchPath),
+      mdPath: path.relative(cwd, mdPath),
+      statusCounts: {},
+    };
+  }
+
   writeJson(batchPath, { batchNumber, reviewedDate: today, count: batch.length, cursor, rows: batch });
 
   const report = [

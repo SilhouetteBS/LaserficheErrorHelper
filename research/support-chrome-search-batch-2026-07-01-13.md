@@ -2,7 +2,7 @@
 
 Batch: 13
 Reviewed: 2026-07-01
-Rows: 21
+Rows: 25
 
 | KB | Status | Codes | Products | Title |
 | --- | --- | --- | --- | --- |
@@ -27,3 +27,7 @@ Rows: 21
 | 1013873 | support-candidate | 2026 | None | [- Knowledge Base](https://support.laserfiche.com/kb/1013873/list-of-changes-for-quick-fields-10-1-hotfix-1013873) |
 | 1014141 | support-candidate | 2020, 123543, 221091, 188019, 231920, 108, 156, 2026 | Quick Fields | [List of Changes for Quick Fields 10.3 Hotfix 1014141](https://support.laserfiche.com/kb/1014141/list-of-changes-for-quick-fields-10-3-hotfix-1014141) |
 | 1013756 | support-candidate | 2026 | None | [- Knowledge Base](https://support.laserfiche.com/kb/1013756/release-notes-for-quick-fields-10) |
+| 1012805 | support-candidate | 2026 | None | [- Knowledge Base](https://support.laserfiche.com/kb/1012805/changing-the-number-of-context-hits-displayed-in-weblink-) |
+| 1001002 | support-candidate | 2026 | None | [- Knowledge Base](https://support.laserfiche.com/kb/1001002/known-issues-with-weblink-7-0-2-) |
+| 1011186 | support-candidate | 2026 | None | [- Knowledge Base](https://support.laserfiche.com/kb/1011186/configuring-weblink-to-be-firewall-compatible-) |
+| 1012795 | support-candidate | 2011, 68470, 72411, 71098, 71019, 71443, 72073, 53780, 73131, 59176, 57828, 70903 | Laserfiche Server, WebLink | [List of Changes for Laserfiche WebLink 8.2](https://support.laserfiche.com/kb/1012795/list-of-changes-for-laserfiche-weblink-8-2) |

@@ -78,6 +78,722 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
+    "id": "support-promoted-1013331-connector-connector-kb-1013331-release-notes-for-the-laserfiche-connector-for-ricoh-1-0",
+    "code": "CONNECTOR-KB-1013331",
+    "message": "Release Notes for the Laserfiche Connector for Ricoh 1.0",
+    "product": "Connector",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for the Laserfiche Connector for Ricoh 1.0.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for the Laserfiche Connector for Ricoh 1.0",
+        "url": "https://support.laserfiche.com/kb/1013331/release-notes-for-the-laserfiche-connector-for-ricoh-1-0",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013557-connector-connector-kb-1013557-release-notes-for-the-laserfiche-connector-for-ricoh-1-1",
+    "code": "CONNECTOR-KB-1013557",
+    "message": "Release Notes for the Laserfiche Connector for Ricoh 1.1.",
+    "product": "Connector",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for the Laserfiche Connector for Ricoh 1.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for the Laserfiche Connector for Ricoh 1.1.",
+        "url": "https://support.laserfiche.com/kb/1013557/release-notes-for-the-laserfiche-connector-for-ricoh-1-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013558-connector-connector-kb-1013558-list-of-changes-for-the-laserfiche-connector-for-ricoh-1-1",
+    "code": "CONNECTOR-KB-1013558",
+    "message": "List of Changes for the Laserfiche Connector for Ricoh 1.1",
+    "product": "Connector",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for the Laserfiche Connector for Ricoh 1.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for the Laserfiche Connector for Ricoh 1.1",
+        "url": "https://support.laserfiche.com/kb/1013558/list-of-changes-for-the-laserfiche-connector-for-ricoh-1-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013581-connector-connector-kb-1013581-release-notes-for-laserfiche-connector-9",
+    "code": "CONNECTOR-KB-1013581",
+    "message": "Release Notes for Laserfiche Connector 9",
+    "product": "Connector",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector 9.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector 9",
+        "url": "https://support.laserfiche.com/kb/1013581/release-notes-for-laserfiche-connector-9",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013644-connector-connector-kb-1013644-release-notes-for-laserfiche-connector-9-0-1",
+    "code": "CONNECTOR-KB-1013644",
+    "message": "Release Notes for Laserfiche Connector 9.0.1",
+    "product": "Connector",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector 9.0.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector 9.0.1",
+        "url": "https://support.laserfiche.com/kb/1013644/release-notes-for-laserfiche-connector-9-0-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013648-connector-connector-kb-1013648-release-notes-for-laserfiche-connector-for-samsung-10",
+    "code": "CONNECTOR-KB-1013648",
+    "message": "Release Notes for Laserfiche Connector for Samsung 10",
+    "product": "Connector",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector for Samsung 10.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector for Samsung 10",
+        "url": "https://support.laserfiche.com/kb/1013648/release-notes-for-laserfiche-connector-for-samsung-10",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013656-connector-connector-kb-1013656-release-notes-for-laserfiche-connector-9-1",
+    "code": "CONNECTOR-KB-1013656",
+    "message": "Release Notes for Laserfiche Connector 9.1",
+    "product": "Connector",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector 9.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector 9.1",
+        "url": "https://support.laserfiche.com/kb/1013656/release-notes-for-laserfiche-connector-9-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013742-connector-connector-kb-1013742-release-notes-for-laserfiche-connector-10",
+    "code": "CONNECTOR-KB-1013742",
+    "message": "Release Notes for Laserfiche Connector 10",
+    "product": "Connector",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector 10.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector 10",
+        "url": "https://support.laserfiche.com/kb/1013742/release-notes-for-laserfiche-connector-10",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013793-connector-connector-kb-1013793-list-of-changes-for-laserfiche-connector-10-2",
+    "code": "CONNECTOR-KB-1013793",
+    "message": "List of Changes for Laserfiche Connector 10.2",
+    "product": "Connector",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Connector 10.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Connector 10.2",
+        "url": "https://support.laserfiche.com/kb/1013793/list-of-changes-for-laserfiche-connector-10-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013794-connector-connector-kb-1013794-release-notes-for-laserfiche-connector-10-2",
+    "code": "CONNECTOR-KB-1013794",
+    "message": "Release Notes for Laserfiche Connector 10.2",
+    "product": "Connector",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector 10.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector 10.2",
+        "url": "https://support.laserfiche.com/kb/1013794/release-notes-for-laserfiche-connector-10-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013849-connector-connector-kb-1013849-release-notes-for-laserfiche-connector-10-2-1",
+    "code": "CONNECTOR-KB-1013849",
+    "message": "Release Notes for Laserfiche Connector 10.2.1",
+    "product": "Connector",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector 10.2.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector 10.2.1",
+        "url": "https://support.laserfiche.com/kb/1013849/release-notes-for-laserfiche-connector-10-2-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013897-connector-connector-kb-1013897-release-notes-for-laserfiche-connector-10-3",
+    "code": "CONNECTOR-KB-1013897",
+    "message": "Release Notes for Laserfiche Connector 10.3",
+    "product": "Connector",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector 10.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector 10.3",
+        "url": "https://support.laserfiche.com/kb/1013897/release-notes-for-laserfiche-connector-10-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014126-connector-connector-kb-1014126-list-of-changes-for-laserfiche-connector-10-3-update-3",
+    "code": "CONNECTOR-KB-1014126",
+    "message": "List of Changes for Laserfiche Connector 10.3 Update 3",
+    "product": "Connector",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Connector 10.3 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Connector 10.3 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014126/list-of-changes-for-laserfiche-connector-10-3-update-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014194-connector-connector-kb-1014194-list-of-changes-for-laserfiche-connector-10-3-update-4",
+    "code": "CONNECTOR-KB-1014194",
+    "message": "List of Changes for Laserfiche Connector 10.3 Update 4",
+    "product": "Connector",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Connector 10.3 Update 4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Connector 10.3 Update 4",
+        "url": "https://support.laserfiche.com/kb/1014194/list-of-changes-for-laserfiche-connector-10-3-update-4",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014233-connector-connector-kb-1014233-list-of-changes-for-laserfiche-connector-10-3-update-5",
+    "code": "CONNECTOR-KB-1014233",
+    "message": "List of Changes for Laserfiche Connector 10.3 Update 5",
+    "product": "Connector",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Connector 10.3 Update 5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Connector 10.3 Update 5",
+        "url": "https://support.laserfiche.com/kb/1014233/list-of-changes-for-laserfiche-connector-10-3-update-5",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014247-connector-connector-kb-1014247-list-of-changes-for-connector-11",
+    "code": "CONNECTOR-KB-1014247",
+    "message": "List of Changes for Connector 11",
+    "product": "Connector",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Connector 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Connector 11",
+        "url": "https://support.laserfiche.com/kb/1014247/list-of-changes-for-connector-11",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014248-connector-connector-kb-1014248-release-notes-for-connector-11",
+    "code": "CONNECTOR-KB-1014248",
+    "message": "Release Notes for Connector 11",
+    "product": "Connector",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Connector 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Connector 11",
+        "url": "https://support.laserfiche.com/kb/1014248/release-notes-for-connector-11",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014379-connector-connector-kb-1014379-list-of-changes-for-laserfiche-connector-11-update-1",
+    "code": "CONNECTOR-KB-1014379",
+    "message": "List of Changes for Laserfiche Connector 11 Update 1",
+    "product": "Connector",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Connector 11 Update 1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Connector 11 Update 1",
+        "url": "https://support.laserfiche.com/kb/1014379/list-of-changes-for-laserfiche-connector-11-update-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014489-connector-connector-kb-1014489-list-of-changes-for-laserfiche-connector-11-update-2",
+    "code": "CONNECTOR-KB-1014489",
+    "message": "List of Changes for Laserfiche Connector 11 Update 2",
+    "product": "Connector",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Connector 11 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Connector 11 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014489/list-of-changes-for-laserfiche-connector-11-update-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014585-connector-connector-kb-1014585-list-of-changes-for-laserfiche-connector-11-update-3",
+    "code": "CONNECTOR-KB-1014585",
+    "message": "List of Changes for Laserfiche Connector 11 Update 3",
+    "product": "Connector",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Connector fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Connector 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Connector 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014585/list-of-changes-for-laserfiche-connector-11-update-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
     "id": "support-promoted-1014436-connector-connector-laserfiche-connector-may-not-detec-laserfiche-connector-may-not-detect-webpage-elements-in-edge-or-chrome-111-0-5563-65-or-la",
     "code": "CONNECTOR-LASERFICHE_CONNECTOR_MAY_NOT_DETEC",
     "message": "Laserfiche Connector May Not Detect Webpage Elements in Edge or Chrome 111.0.5563.65 or Later.",
@@ -111,722 +827,6 @@ export const supportChromePromotedErrorEntries = [
         "sourceType": "support-knowledge-base",
         "title": "Laserfiche Connector May Not Detect Webpage Elements in Edge or Chrome 111.0.5563.65 or Later.",
         "url": "https://support.laserfiche.com/kb/1014436/laserfiche-connector-may-not-detect-webpage-elements-in-edge-or-chrome-111-0-5563-65-or-later-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014247-connector-connector-list-of-changes-for-connector-11-list-of-changes-for-connector-11",
-    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_CONNECTOR_11",
-    "message": "List of Changes for Connector 11",
-    "product": "Connector",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Connector 11 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Connector 11.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Connector 11",
-        "url": "https://support.laserfiche.com/kb/1014247/list-of-changes-for-connector-11",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014379-connector-connector-list-of-changes-for-laserfiche-con-list-of-changes-for-laserfiche-connector-11-update-1",
-    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON",
-    "message": "List of Changes for Laserfiche Connector 11 Update 1",
-    "product": "Connector",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Connector 11 Update 1 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Connector 11 Update 1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Connector 11 Update 1",
-        "url": "https://support.laserfiche.com/kb/1014379/list-of-changes-for-laserfiche-connector-11-update-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014585-connector-connector-list-of-changes-for-laserfiche-con-list-of-changes-for-laserfiche-connector-11-update-3",
-    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON",
-    "message": "List of Changes for Laserfiche Connector 11 Update 3",
-    "product": "Connector",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Connector 11 Update 3 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Connector 11 Update 3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Connector 11 Update 3",
-        "url": "https://support.laserfiche.com/kb/1014585/list-of-changes-for-laserfiche-connector-11-update-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014489-connector-connector-list-of-changes-for-laserfiche-con-list-of-changes-for-laserfiche-connector-11-update-2",
-    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON",
-    "message": "List of Changes for Laserfiche Connector 11 Update 2",
-    "product": "Connector",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Connector 11 Update 2 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Connector 11 Update 2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Connector 11 Update 2",
-        "url": "https://support.laserfiche.com/kb/1014489/list-of-changes-for-laserfiche-connector-11-update-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014233-connector-connector-list-of-changes-for-laserfiche-con-list-of-changes-for-laserfiche-connector-10-3-update-5",
-    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON",
-    "message": "List of Changes for Laserfiche Connector 10.3 Update 5",
-    "product": "Connector",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Connector 10.3 Update 5 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Connector 10.3 Update 5.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Connector 10.3 Update 5",
-        "url": "https://support.laserfiche.com/kb/1014233/list-of-changes-for-laserfiche-connector-10-3-update-5",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014194-connector-connector-list-of-changes-for-laserfiche-con-list-of-changes-for-laserfiche-connector-10-3-update-4",
-    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON",
-    "message": "List of Changes for Laserfiche Connector 10.3 Update 4",
-    "product": "Connector",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Connector 10.3 Update 4 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Connector 10.3 Update 4.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Connector 10.3 Update 4",
-        "url": "https://support.laserfiche.com/kb/1014194/list-of-changes-for-laserfiche-connector-10-3-update-4",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014126-connector-connector-list-of-changes-for-laserfiche-con-list-of-changes-for-laserfiche-connector-10-3-update-3",
-    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON",
-    "message": "List of Changes for Laserfiche Connector 10.3 Update 3",
-    "product": "Connector",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Connector 10.3 Update 3 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Connector 10.3 Update 3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Connector 10.3 Update 3",
-        "url": "https://support.laserfiche.com/kb/1014126/list-of-changes-for-laserfiche-connector-10-3-update-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013793-connector-connector-list-of-changes-for-laserfiche-con-list-of-changes-for-laserfiche-connector-10-2",
-    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON",
-    "message": "List of Changes for Laserfiche Connector 10.2",
-    "product": "Connector",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Connector 10.2 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Connector 10.2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Connector 10.2",
-        "url": "https://support.laserfiche.com/kb/1013793/list-of-changes-for-laserfiche-connector-10-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013558-connector-connector-list-of-changes-for-the-laserfiche-list-of-changes-for-the-laserfiche-connector-for-ricoh-1-1",
-    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_THE_LASERFICHE",
-    "message": "List of Changes for the Laserfiche Connector for Ricoh 1.1",
-    "product": "Connector",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the Laserfiche Connector for Ricoh 1.1 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for the Laserfiche Connector for Ricoh 1.1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for the Laserfiche Connector for Ricoh 1.1",
-        "url": "https://support.laserfiche.com/kb/1013558/list-of-changes-for-the-laserfiche-connector-for-ricoh-1-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014248-connector-connector-release-notes-for-connector-11-release-notes-for-connector-11",
-    "code": "CONNECTOR-RELEASE_NOTES_FOR_CONNECTOR_11",
-    "message": "Release Notes for Connector 11",
-    "product": "Connector",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Connector 11 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Connector 11.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Connector 11",
-        "url": "https://support.laserfiche.com/kb/1014248/release-notes-for-connector-11",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013897-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-10-3",
-    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
-    "message": "Release Notes for Laserfiche Connector 10.3",
-    "product": "Connector",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector 10.3 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Connector 10.3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Connector 10.3",
-        "url": "https://support.laserfiche.com/kb/1013897/release-notes-for-laserfiche-connector-10-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013849-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-10-2-1",
-    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
-    "message": "Release Notes for Laserfiche Connector 10.2.1",
-    "product": "Connector",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector 10.2.1 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Connector 10.2.1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Connector 10.2.1",
-        "url": "https://support.laserfiche.com/kb/1013849/release-notes-for-laserfiche-connector-10-2-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013794-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-10-2",
-    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
-    "message": "Release Notes for Laserfiche Connector 10.2",
-    "product": "Connector",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector 10.2 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Connector 10.2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Connector 10.2",
-        "url": "https://support.laserfiche.com/kb/1013794/release-notes-for-laserfiche-connector-10-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013742-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-10",
-    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
-    "message": "Release Notes for Laserfiche Connector 10",
-    "product": "Connector",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector 10 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Connector 10.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Connector 10",
-        "url": "https://support.laserfiche.com/kb/1013742/release-notes-for-laserfiche-connector-10",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013581-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-9",
-    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
-    "message": "Release Notes for Laserfiche Connector 9",
-    "product": "Connector",
-    "versions": [
-      "Version 9"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector 9 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Connector 9.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Connector 9",
-        "url": "https://support.laserfiche.com/kb/1013581/release-notes-for-laserfiche-connector-9",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013644-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-9-0-1",
-    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
-    "message": "Release Notes for Laserfiche Connector 9.0.1",
-    "product": "Connector",
-    "versions": [
-      "Version 9"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector 9.0.1 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Connector 9.0.1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Connector 9.0.1",
-        "url": "https://support.laserfiche.com/kb/1013644/release-notes-for-laserfiche-connector-9-0-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013656-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-9-1",
-    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
-    "message": "Release Notes for Laserfiche Connector 9.1",
-    "product": "Connector",
-    "versions": [
-      "Version 9"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector 9.1 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Connector 9.1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Connector 9.1",
-        "url": "https://support.laserfiche.com/kb/1013656/release-notes-for-laserfiche-connector-9-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013648-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-for-samsung-10",
-    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
-    "message": "Release Notes for Laserfiche Connector for Samsung 10",
-    "product": "Connector",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector for Samsung 10 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Connector for Samsung 10.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Connector for Samsung 10",
-        "url": "https://support.laserfiche.com/kb/1013648/release-notes-for-laserfiche-connector-for-samsung-10",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013557-connector-connector-release-notes-for-the-laserfiche-c-release-notes-for-the-laserfiche-connector-for-ricoh-1-1",
-    "code": "CONNECTOR-RELEASE_NOTES_FOR_THE_LASERFICHE_C",
-    "message": "Release Notes for the Laserfiche Connector for Ricoh 1.1.",
-    "product": "Connector",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for the Laserfiche Connector for Ricoh 1.1. for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for the Laserfiche Connector for Ricoh 1.1..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for the Laserfiche Connector for Ricoh 1.1.",
-        "url": "https://support.laserfiche.com/kb/1013557/release-notes-for-the-laserfiche-connector-for-ricoh-1-1-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013331-connector-connector-release-notes-for-the-laserfiche-c-release-notes-for-the-laserfiche-connector-for-ricoh-1-0",
-    "code": "CONNECTOR-RELEASE_NOTES_FOR_THE_LASERFICHE_C",
-    "message": "Release Notes for the Laserfiche Connector for Ricoh 1.0",
-    "product": "Connector",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for the Laserfiche Connector for Ricoh 1.0 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for the Laserfiche Connector for Ricoh 1.0.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for the Laserfiche Connector for Ricoh 1.0",
-        "url": "https://support.laserfiche.com/kb/1013331/release-notes-for-the-laserfiche-connector-for-ricoh-1-0",
         "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
       }
     ]
@@ -986,30 +986,30 @@ export const supportChromePromotedErrorEntries = [
     "versions": [
       "Version 9"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 9.2.1. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for Directory Server 9.2.1..",
       "Reported code or token: HTTP404."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for Directory Server 9.2.1.",
         "url": "https://support.laserfiche.com/kb/1013625/list-of-changes-for-directory-server-9-2-1-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
@@ -1160,6 +1160,1059 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
+    "id": "support-promoted-1013805-directory-server-lfds-kb-1013805-list-of-changes-for-directory-server-10-0-update-2",
+    "code": "LFDS-KB-1013805",
+    "message": "List of Changes for Directory Server 10.0 Update 2",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 10.0 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 10.0 Update 2",
+        "url": "https://support.laserfiche.com/kb/1013805/list-of-changes-for-directory-server-10-0-update-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013877-directory-server-lfds-kb-1013877-release-notes-for-laserfiche-directory-server-10-2",
+    "code": "LFDS-KB-1013877",
+    "message": "Release Notes for Laserfiche Directory Server 10.2.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Directory Server 10.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Directory Server 10.2.",
+        "url": "https://support.laserfiche.com/kb/1013877/release-notes-for-laserfiche-directory-server-10-2-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013927-directory-server-lfds-kb-1013927-release-notes-for-directory-server-10-3",
+    "code": "LFDS-KB-1013927",
+    "message": "Release Notes For Directory Server 10.3.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes For Directory Server 10.3..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes For Directory Server 10.3.",
+        "url": "https://support.laserfiche.com/kb/1013927/release-notes-for-directory-server-10-3-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013928-directory-server-lfds-kb-1013928-list-of-changes-for-directory-server-10-3",
+    "code": "LFDS-KB-1013928",
+    "message": "List of Changes for Directory Server 10.3.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 10.3..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 10.3.",
+        "url": "https://support.laserfiche.com/kb/1013928/list-of-changes-for-directory-server-10-3-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013976-directory-server-lfds-kb-1013976-release-notes-for-laserfiche-directory-server-10-3-1",
+    "code": "LFDS-KB-1013976",
+    "message": "Release Notes for Laserfiche Directory Server 10.3.1.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Directory Server 10.3.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Directory Server 10.3.1.",
+        "url": "https://support.laserfiche.com/kb/1013976/release-notes-for-laserfiche-directory-server-10-3-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013977-directory-server-lfds-kb-1013977-list-of-changes-for-laserfiche-directory-server-10-3-1",
+    "code": "LFDS-KB-1013977",
+    "message": "List of Changes for Laserfiche Directory Server 10.3.1.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Directory Server 10.3.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Directory Server 10.3.1.",
+        "url": "https://support.laserfiche.com/kb/1013977/list-of-changes-for-laserfiche-directory-server-10-3-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014022-directory-server-lfds-kb-1014022-release-notes-for-directory-server-10-4",
+    "code": "LFDS-KB-1014022",
+    "message": "Release Notes for Directory Server 10.4.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 10.4..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 10.4.",
+        "url": "https://support.laserfiche.com/kb/1014022",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014023-directory-server-lfds-kb-1014023-list-of-changes-for-directory-server-10-4",
+    "code": "LFDS-KB-1014023",
+    "message": "List of Changes for Directory Server 10.4",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 10.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 10.4",
+        "url": "https://support.laserfiche.com/kb/1014023/list-of-changes-for-directory-server-10-4",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014044-directory-server-lfds-kb-1014044-release-notes-for-directory-server-10-4-2",
+    "code": "LFDS-KB-1014044",
+    "message": "Release Notes for Directory Server 10.4.2.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 10.4.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 10.4.2.",
+        "url": "https://support.laserfiche.com/kb/1014044",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014096-directory-server-lfds-kb-1014096-list-of-changes-for-directory-server-10-4-3",
+    "code": "LFDS-KB-1014096",
+    "message": "List of Changes for Directory Server 10.4.3",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 10.4.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 10.4.3",
+        "url": "https://support.laserfiche.com/kb/1014096/list-of-changes-for-directory-server-10-4-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014097-directory-server-lfds-kb-1014097-release-notes-for-directory-server-10-4-3",
+    "code": "LFDS-KB-1014097",
+    "message": "Release Notes for Directory Server 10.4.3",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 10.4.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 10.4.3",
+        "url": "https://support.laserfiche.com/kb/1014097/release-notes-for-directory-server-10-4-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014115-directory-server-lfds-kb-1014115-release-notes-for-laserfiche-forms-10-4-3",
+    "code": "LFDS-KB-1014115",
+    "message": "Release Notes for Laserfiche Forms 10.4.3",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.4.3",
+        "url": "https://support.laserfiche.com/kb/1014115/release-notes-for-laserfiche-forms-10-4-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014160-directory-server-lfds-kb-1014160-release-notes-for-directory-server-10-4-4",
+    "code": "LFDS-KB-1014160",
+    "message": "Release Notes for Directory Server 10.4.4",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 10.4.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 10.4.4",
+        "url": "https://support.laserfiche.com/kb/1014160/release-notes-for-directory-server-10-4-4",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014161-directory-server-lfds-kb-1014161-list-of-changes-for-directory-server-10-4-4",
+    "code": "LFDS-KB-1014161",
+    "message": "List of Changes for Directory Server 10.4.4",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 10.4.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 10.4.4",
+        "url": "https://support.laserfiche.com/kb/1014161/list-of-changes-for-directory-server-10-4-4",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014172-directory-server-lfds-kb-1014172-release-notes-for-laserfiche-forms-10-4-4",
+    "code": "LFDS-KB-1014172",
+    "message": "Release Notes for Laserfiche Forms 10.4.4",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.4.4",
+        "url": "https://support.laserfiche.com/kb/1014172/release-notes-for-laserfiche-forms-10-4-4",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014192-directory-server-lfds-kb-1014192-release-notes-for-directory-server-10-4-5",
+    "code": "LFDS-KB-1014192",
+    "message": "Release Notes for Directory Server 10.4.5",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9",
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 10.4.5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 10.4.5",
+        "url": "https://support.laserfiche.com/kb/1014192/release-notes-for-directory-server-10-4-5",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014193-directory-server-lfds-kb-1014193-list-of-changes-for-directory-server-10-4-5",
+    "code": "LFDS-KB-1014193",
+    "message": "List of Changes for Directory Server 10.4.5",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 10.4.5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 10.4.5",
+        "url": "https://support.laserfiche.com/kb/1014193/list-of-changes-for-directory-server-10-4-5",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014201-directory-server-lfds-kb-1014201-release-notes-for-laserfiche-forms-10-4-5",
+    "code": "LFDS-KB-1014201",
+    "message": "Release Notes for Laserfiche Forms 10.4.5",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.4.5",
+        "url": "https://support.laserfiche.com/kb/1014201/release-notes-for-laserfiche-forms-10-4-5",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014249-directory-server-lfds-kb-1014249-release-notes-for-directory-server-11",
+    "code": "LFDS-KB-1014249",
+    "message": "Release Notes for Directory Server 11",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 11",
+        "url": "https://support.laserfiche.com/kb/1014249/release-notes-for-directory-server-11",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014250-directory-server-lfds-kb-1014250-list-of-changes-for-directory-server-11",
+    "code": "LFDS-KB-1014250",
+    "message": "List of Changes for Directory Server 11",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 11",
+        "url": "https://support.laserfiche.com/kb/1014250/list-of-changes-for-directory-server-11",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014373-directory-server-lfds-kb-1014373-release-notes-for-directory-server-11-update-2",
+    "code": "LFDS-KB-1014373",
+    "message": "Release Notes for Directory Server 11 Update 2",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 11 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 11 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014373/release-notes-for-directory-server-11-update-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014374-directory-server-lfds-kb-1014374-list-of-changes-for-directory-server-11-update-2",
+    "code": "LFDS-KB-1014374",
+    "message": "List of Changes for Directory Server 11 Update 2",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 11 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 11 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014374/list-of-changes-for-directory-server-11-update-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014443-directory-server-lfds-kb-1014443-list-of-changes-for-directory-server-11-update-3",
+    "code": "LFDS-KB-1014443",
+    "message": "List of Changes for Directory Server 11 Update 3",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014443/list-of-changes-for-directory-server-11-update-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014444-directory-server-lfds-kb-1014444-release-notes-for-directory-server-11-update-3",
+    "code": "LFDS-KB-1014444",
+    "message": "Release Notes for Directory Server 11 Update 3",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014444/release-notes-for-directory-server-11-update-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014475-directory-server-lfds-kb-1014475-list-of-changes-for-laserfiche-directory-server-11-update-4",
+    "code": "LFDS-KB-1014475",
+    "message": "List of Changes for Laserfiche Directory Server 11 Update 4",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Directory Server 11 Update 4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Directory Server 11 Update 4",
+        "url": "https://support.laserfiche.com/kb/1014475/list-of-changes-for-laserfiche-directory-server-11-update-4",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014490-directory-server-lfds-kb-1014490-list-of-changes-for-directory-server-11-update-5",
+    "code": "LFDS-KB-1014490",
+    "message": "List of Changes for Directory Server 11 Update 5",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 11 Update 5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 11 Update 5",
+        "url": "https://support.laserfiche.com/kb/1014490/list-of-changes-for-directory-server-11-update-5",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014491-directory-server-lfds-kb-1014491-release-notes-for-directory-server-11-update-5",
+    "code": "LFDS-KB-1014491",
+    "message": "Release Notes for Directory Server 11 Update 5",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 11 Update 5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 11 Update 5",
+        "url": "https://support.laserfiche.com/kb/1014491/release-notes-for-directory-server-11-update-5",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014511-directory-server-lfds-kb-1014511-list-of-changes-for-directory-server-11-update-6",
+    "code": "LFDS-KB-1014511",
+    "message": "List of Changes for Directory Server 11 Update 6",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 11 Update 6.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 11 Update 6",
+        "url": "https://support.laserfiche.com/kb/1014511/list-of-changes-for-directory-server-11-update-6",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014512-directory-server-lfds-kb-1014512-release-notes-for-directory-server-11-update-6",
+    "code": "LFDS-KB-1014512",
+    "message": "Release Notes for Directory Server 11 Update 6",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 11 Update 6.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 11 Update 6",
+        "url": "https://support.laserfiche.com/kb/1014512/release-notes-for-directory-server-11-update-6",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014580-directory-server-lfds-kb-1014580-list-of-changes-for-the-april-21-2026-laserfiche-app",
+    "code": "LFDS-KB-1014580",
+    "message": "List of Changes for the April 21, 2026 Laserfiche App",
+    "product": "Directory Server",
+    "versions": [
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Directory Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for the April 21, 2026 Laserfiche App.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for the April 21, 2026 Laserfiche App",
+        "url": "https://support.laserfiche.com/kb/1014580/list-of-changes-for-the-april-21-2026-laserfiche-app",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
     "id": "support-promoted-1014036-directory-server-lfds-laserfiche-account-migration-tool-laserfiche-account-migration-tool",
     "code": "LFDS-LASERFICHE_ACCOUNT_MIGRATION_TOOL",
     "message": "Laserfiche Account Migration Tool",
@@ -1261,496 +2314,6 @@ export const supportChromePromotedErrorEntries = [
         "sourceType": "support-knowledge-base",
         "title": "Laserfiche Directory Server fails to validate email addresses from some valid top-level domains",
         "url": "https://support.laserfiche.com/kb/1014566/laserfiche-directory-server-fails-to-validate-email-addresses-from-some-valid-top-level-domains",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014443-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-11-update-3",
-    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
-    "message": "List of Changes for Directory Server 11 Update 3",
-    "product": "Directory Server",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 11 Update 3 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Directory Server 11 Update 3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Directory Server 11 Update 3",
-        "url": "https://support.laserfiche.com/kb/1014443/list-of-changes-for-directory-server-11-update-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014490-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-11-update-5",
-    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
-    "message": "List of Changes for Directory Server 11 Update 5",
-    "product": "Directory Server",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 11 Update 5 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Directory Server 11 Update 5.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Directory Server 11 Update 5",
-        "url": "https://support.laserfiche.com/kb/1014490/list-of-changes-for-directory-server-11-update-5",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014374-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-11-update-2",
-    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
-    "message": "List of Changes for Directory Server 11 Update 2",
-    "product": "Directory Server",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 11 Update 2 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Directory Server 11 Update 2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Directory Server 11 Update 2",
-        "url": "https://support.laserfiche.com/kb/1014374/list-of-changes-for-directory-server-11-update-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014250-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-11",
-    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
-    "message": "List of Changes for Directory Server 11",
-    "product": "Directory Server",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 11 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Directory Server 11.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Directory Server 11",
-        "url": "https://support.laserfiche.com/kb/1014250/list-of-changes-for-directory-server-11",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013928-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-10-3",
-    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
-    "message": "List of Changes for Directory Server 10.3.",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 10.3. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Directory Server 10.3..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Directory Server 10.3.",
-        "url": "https://support.laserfiche.com/kb/1013928/list-of-changes-for-directory-server-10-3-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014096-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-10-4-3",
-    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
-    "message": "List of Changes for Directory Server 10.4.3",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 10.4.3 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Directory Server 10.4.3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Directory Server 10.4.3",
-        "url": "https://support.laserfiche.com/kb/1014096/list-of-changes-for-directory-server-10-4-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014511-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-11-update-6",
-    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
-    "message": "List of Changes for Directory Server 11 Update 6",
-    "product": "Directory Server",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 11 Update 6 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Directory Server 11 Update 6.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Directory Server 11 Update 6",
-        "url": "https://support.laserfiche.com/kb/1014511/list-of-changes-for-directory-server-11-update-6",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013805-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-10-0-update-2",
-    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
-    "message": "List of Changes for Directory Server 10.0 Update 2",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 10.0 Update 2 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Directory Server 10.0 Update 2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Directory Server 10.0 Update 2",
-        "url": "https://support.laserfiche.com/kb/1013805/list-of-changes-for-directory-server-10-0-update-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014193-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-10-4-5",
-    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
-    "message": "List of Changes for Directory Server 10.4.5",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 10.4.5 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Directory Server 10.4.5.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Directory Server 10.4.5",
-        "url": "https://support.laserfiche.com/kb/1014193/list-of-changes-for-directory-server-10-4-5",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014161-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-10-4-4",
-    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
-    "message": "List of Changes for Directory Server 10.4.4",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 10.4.4 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Directory Server 10.4.4.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Directory Server 10.4.4",
-        "url": "https://support.laserfiche.com/kb/1014161/list-of-changes-for-directory-server-10-4-4",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014023-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-10-4",
-    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
-    "message": "List of Changes for Directory Server 10.4",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 10.4 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Directory Server 10.4.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Directory Server 10.4",
-        "url": "https://support.laserfiche.com/kb/1014023/list-of-changes-for-directory-server-10-4",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014475-directory-server-lfds-list-of-changes-for-laserfiche-dir-list-of-changes-for-laserfiche-directory-server-11-update-4",
-    "code": "LFDS-LIST_OF_CHANGES_FOR_LASERFICHE_DIR",
-    "message": "List of Changes for Laserfiche Directory Server 11 Update 4",
-    "product": "Directory Server",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Directory Server 11 Update 4 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Directory Server 11 Update 4.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Directory Server 11 Update 4",
-        "url": "https://support.laserfiche.com/kb/1014475/list-of-changes-for-laserfiche-directory-server-11-update-4",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013977-directory-server-lfds-list-of-changes-for-laserfiche-dir-list-of-changes-for-laserfiche-directory-server-10-3-1",
-    "code": "LFDS-LIST_OF_CHANGES_FOR_LASERFICHE_DIR",
-    "message": "List of Changes for Laserfiche Directory Server 10.3.1.",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Directory Server 10.3.1. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Directory Server 10.3.1..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Directory Server 10.3.1.",
-        "url": "https://support.laserfiche.com/kb/1013977/list-of-changes-for-laserfiche-directory-server-10-3-1-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014580-directory-server-lfds-list-of-changes-for-the-april-21-2-list-of-changes-for-the-april-21-2026-laserfiche-app",
-    "code": "LFDS-LIST_OF_CHANGES_FOR_THE_APRIL_21_2",
-    "message": "List of Changes for the April 21, 2026 Laserfiche App",
-    "product": "Directory Server",
-    "versions": [
-      "Version 12"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the April 21, 2026 Laserfiche App for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for the April 21, 2026 Laserfiche App.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for the April 21, 2026 Laserfiche App",
-        "url": "https://support.laserfiche.com/kb/1014580/list-of-changes-for-the-april-21-2026-laserfiche-app",
         "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
       }
     ]
@@ -1891,569 +2454,6 @@ export const supportChromePromotedErrorEntries = [
         "sourceType": "support-knowledge-base",
         "title": "Release Information for Laserfiche 10.4",
         "url": "https://support.laserfiche.com/kb/1014389/release-information-for-laserfiche-10-4",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014512-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-11-update-6",
-    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
-    "message": "Release Notes for Directory Server 11 Update 6",
-    "product": "Directory Server",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 11 Update 6 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Directory Server 11 Update 6.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Directory Server 11 Update 6",
-        "url": "https://support.laserfiche.com/kb/1014512/release-notes-for-directory-server-11-update-6",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014491-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-11-update-5",
-    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
-    "message": "Release Notes for Directory Server 11 Update 5",
-    "product": "Directory Server",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 11 Update 5 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Directory Server 11 Update 5.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Directory Server 11 Update 5",
-        "url": "https://support.laserfiche.com/kb/1014491/release-notes-for-directory-server-11-update-5",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014373-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-11-update-2",
-    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
-    "message": "Release Notes for Directory Server 11 Update 2",
-    "product": "Directory Server",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 11 Update 2 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Directory Server 11 Update 2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Directory Server 11 Update 2",
-        "url": "https://support.laserfiche.com/kb/1014373/release-notes-for-directory-server-11-update-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014444-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-11-update-3",
-    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
-    "message": "Release Notes for Directory Server 11 Update 3",
-    "product": "Directory Server",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 11 Update 3 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Directory Server 11 Update 3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Directory Server 11 Update 3",
-        "url": "https://support.laserfiche.com/kb/1014444/release-notes-for-directory-server-11-update-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014097-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-10-4-3",
-    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
-    "message": "Release Notes for Directory Server 10.4.3",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 10.4.3 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Directory Server 10.4.3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Directory Server 10.4.3",
-        "url": "https://support.laserfiche.com/kb/1014097/release-notes-for-directory-server-10-4-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014249-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-11",
-    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
-    "message": "Release Notes for Directory Server 11",
-    "product": "Directory Server",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 11 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Directory Server 11.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Directory Server 11",
-        "url": "https://support.laserfiche.com/kb/1014249/release-notes-for-directory-server-11",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014192-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-10-4-5",
-    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
-    "message": "Release Notes for Directory Server 10.4.5",
-    "product": "Directory Server",
-    "versions": [
-      "Version 9",
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 10.4.5 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Directory Server 10.4.5.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Directory Server 10.4.5",
-        "url": "https://support.laserfiche.com/kb/1014192/release-notes-for-directory-server-10-4-5",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014160-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-10-4-4",
-    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
-    "message": "Release Notes for Directory Server 10.4.4",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 10.4.4 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Directory Server 10.4.4.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Directory Server 10.4.4",
-        "url": "https://support.laserfiche.com/kb/1014160/release-notes-for-directory-server-10-4-4",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013927-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-10-3",
-    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
-    "message": "Release Notes For Directory Server 10.3.",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes For Directory Server 10.3. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes For Directory Server 10.3..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes For Directory Server 10.3.",
-        "url": "https://support.laserfiche.com/kb/1013927/release-notes-for-directory-server-10-3-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014022-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-10-4",
-    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
-    "message": "Release Notes for Directory Server 10.4.",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 10.4. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Directory Server 10.4..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Directory Server 10.4.",
-        "url": "https://support.laserfiche.com/kb/1014022",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014044-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-10-4-2",
-    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
-    "message": "Release Notes for Directory Server 10.4.2.",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 10.4.2. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Directory Server 10.4.2..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Directory Server 10.4.2.",
-        "url": "https://support.laserfiche.com/kb/1014044",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013976-directory-server-lfds-release-notes-for-laserfiche-direc-release-notes-for-laserfiche-directory-server-10-3-1",
-    "code": "LFDS-RELEASE_NOTES_FOR_LASERFICHE_DIREC",
-    "message": "Release Notes for Laserfiche Directory Server 10.3.1.",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Directory Server 10.3.1. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Directory Server 10.3.1..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Directory Server 10.3.1.",
-        "url": "https://support.laserfiche.com/kb/1013976/release-notes-for-laserfiche-directory-server-10-3-1-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013877-directory-server-lfds-release-notes-for-laserfiche-direc-release-notes-for-laserfiche-directory-server-10-2",
-    "code": "LFDS-RELEASE_NOTES_FOR_LASERFICHE_DIREC",
-    "message": "Release Notes for Laserfiche Directory Server 10.2.",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Directory Server 10.2. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Directory Server 10.2..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Directory Server 10.2.",
-        "url": "https://support.laserfiche.com/kb/1013877/release-notes-for-laserfiche-directory-server-10-2-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014201-directory-server-lfds-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-10-4-5",
-    "code": "LFDS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
-    "message": "Release Notes for Laserfiche Forms 10.4.5",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 10.4.5 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.5.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Forms 10.4.5",
-        "url": "https://support.laserfiche.com/kb/1014201/release-notes-for-laserfiche-forms-10-4-5",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014172-directory-server-lfds-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-10-4-4",
-    "code": "LFDS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
-    "message": "Release Notes for Laserfiche Forms 10.4.4",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 10.4.4 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.4.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Forms 10.4.4",
-        "url": "https://support.laserfiche.com/kb/1014172/release-notes-for-laserfiche-forms-10-4-4",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014115-directory-server-lfds-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-10-4-3",
-    "code": "LFDS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
-    "message": "Release Notes for Laserfiche Forms 10.4.3",
-    "product": "Directory Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 10.4.3 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Forms 10.4.3",
-        "url": "https://support.laserfiche.com/kb/1014115/release-notes-for-laserfiche-forms-10-4-3",
         "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
       }
     ]
@@ -3089,6 +3089,1168 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
+    "id": "support-promoted-1013775-forms-forms-kb-1013775-list-of-changes-for-laserfiche-forms-10-1-update-1",
+    "code": "FORMS-KB-1013775",
+    "message": "List of Changes for Laserfiche Forms 10.1 Update 1.",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.1 Update 1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.1 Update 1.",
+        "url": "https://support.laserfiche.com/kb/1013775/list-of-changes-for-laserfiche-forms-10-1-update-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013806-forms-forms-kb-1013806-list-of-changes-for-laserfiche-forms-10-1-update-3",
+    "code": "FORMS-KB-1013806",
+    "message": "List of Changes for Laserfiche Forms 10.1 Update 3.",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.1 Update 3..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.1 Update 3.",
+        "url": "https://support.laserfiche.com/kb/1013806/list-of-changes-for-laserfiche-forms-10-1-update-3-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013834-forms-forms-kb-1013834-list-of-changes-for-laserfiche-forms-10-2-update-1",
+    "code": "FORMS-KB-1013834",
+    "message": "List of Changes for Laserfiche Forms 10.2 Update 1.",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.2 Update 1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.2 Update 1.",
+        "url": "https://support.laserfiche.com/kb/1013834/list-of-changes-for-laserfiche-forms-10-2-update-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013870-forms-forms-kb-1013870-list-of-changes-for-laserfiche-forms-10-2-1-update-1",
+    "code": "FORMS-KB-1013870",
+    "message": "List of Changes for Laserfiche Forms 10.2.1 Update 1.",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.2.1 Update 1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.2.1 Update 1.",
+        "url": "https://support.laserfiche.com/kb/1013870/list-of-changes-for-laserfiche-forms-10-2-1-update-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013880-forms-forms-kb-1013880-list-of-changes-for-laserfiche-forms-10-2-1-update-2",
+    "code": "FORMS-KB-1013880",
+    "message": "List of Changes for Laserfiche Forms 10.2.1 Update 2.",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.2.1 Update 2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.2.1 Update 2.",
+        "url": "https://support.laserfiche.com/kb/1013880/list-of-changes-for-laserfiche-forms-10-2-1-update-2-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013902-forms-forms-kb-1013902-release-notes-for-laserfiche-forms-10-3",
+    "code": "FORMS-KB-1013902",
+    "message": "Release Notes for Laserfiche Forms 10.3",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.3",
+        "url": "https://support.laserfiche.com/kb/1013902/release-notes-for-laserfiche-forms-10-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013903-forms-forms-kb-1013903-list-of-changes-for-laserfiche-forms-10-3",
+    "code": "FORMS-KB-1013903",
+    "message": "List of Changes for Laserfiche Forms 10.3",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.3",
+        "url": "https://support.laserfiche.com/kb/1013903/list-of-changes-for-laserfiche-forms-10-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013929-forms-forms-kb-1013929-release-notes-for-laserfiche-forms-10-3-1",
+    "code": "FORMS-KB-1013929",
+    "message": "Release Notes for Laserfiche Forms 10.3.1",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.3.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.3.1",
+        "url": "https://support.laserfiche.com/kb/1013929/release-notes-for-laserfiche-forms-10-3-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013930-forms-forms-kb-1013930-list-of-changes-for-laserfiche-forms-10-3-1",
+    "code": "FORMS-KB-1013930",
+    "message": "List of Changes for Laserfiche Forms 10.3.1",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.3.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.3.1",
+        "url": "https://support.laserfiche.com/kb/1013930/list-of-changes-for-laserfiche-forms-10-3-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013981-forms-forms-kb-1013981-list-of-changes-for-laserfiche-forms-10-4",
+    "code": "FORMS-KB-1013981",
+    "message": "List of Changes for Laserfiche Forms 10.4",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.4",
+        "url": "https://support.laserfiche.com/kb/1013981/list-of-changes-for-laserfiche-forms-10-4",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013982-forms-forms-kb-1013982-release-notes-for-laserfiche-forms-10-4",
+    "code": "FORMS-KB-1013982",
+    "message": "Release Notes for Laserfiche Forms 10.4",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.4",
+        "url": "https://support.laserfiche.com/kb/1013982/release-notes-for-laserfiche-forms-10-4",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014017-forms-forms-kb-1014017-list-of-changes-for-laserfiche-forms-10-3-1-update-2",
+    "code": "FORMS-KB-1014017",
+    "message": "List of Changes for Laserfiche Forms 10.3.1 Update 2",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.3.1 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.3.1 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014017/list-of-changes-for-laserfiche-forms-10-3-1-update-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014053-forms-forms-kb-1014053-release-notes-for-laserfiche-forms-10-4-1",
+    "code": "FORMS-KB-1014053",
+    "message": "Release Notes for Laserfiche Forms 10.4.1",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.4.1",
+        "url": "https://support.laserfiche.com/kb/1014053/release-notes-for-laserfiche-forms-10-4-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014084-forms-forms-kb-1014084-release-notes-for-laserfiche-forms-10-4-2",
+    "code": "FORMS-KB-1014084",
+    "message": "Release Notes for Laserfiche Forms 10.4.2",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.4.2",
+        "url": "https://support.laserfiche.com/kb/1014084/release-notes-for-laserfiche-forms-10-4-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014095-forms-forms-kb-1014095-list-of-changes-for-laserfiche-forms-10-2-1-update-5",
+    "code": "FORMS-KB-1014095",
+    "message": "List of Changes for Laserfiche Forms 10.2.1 Update 5",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.2.1 Update 5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.2.1 Update 5",
+        "url": "https://support.laserfiche.com/kb/1014095/list-of-changes-for-laserfiche-forms-10-2-1-update-5",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014098-forms-forms-kb-1014098-list-of-changes-for-laserfiche-forms-10-3-1-update-3",
+    "code": "FORMS-KB-1014098",
+    "message": "List of Changes for Laserfiche Forms 10.3.1 Update 3",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.3.1 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.3.1 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014098/list-of-changes-for-laserfiche-forms-10-3-1-update-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014109-forms-forms-kb-1014109-list-of-changes-for-laserfiche-forms-10-4-1-update-2",
+    "code": "FORMS-KB-1014109",
+    "message": "List of Changes for Laserfiche Forms 10.4.1 Update 2",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.1 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.4.1 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014109/list-of-changes-for-laserfiche-forms-10-4-1-update-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014151-forms-forms-kb-1014151-list-of-changes-for-laserfiche-forms-10-4-3-update-1",
+    "code": "FORMS-KB-1014151",
+    "message": "List of Changes for Laserfiche Forms 10.4.3 Update 1",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.3 Update 1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.4.3 Update 1",
+        "url": "https://support.laserfiche.com/kb/1014151/list-of-changes-for-laserfiche-forms-10-4-3-update-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014169-forms-forms-kb-1014169-list-of-changes-for-laserfiche-forms-10-4-4",
+    "code": "FORMS-KB-1014169",
+    "message": "List of Changes for Laserfiche Forms 10.4.4",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.4.4",
+        "url": "https://support.laserfiche.com/kb/1014169/list-of-changes-for-laserfiche-forms-10-4-4",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014191-forms-forms-kb-1014191-list-of-changes-for-the-july-17-2020-laserfiche-ios-app",
+    "code": "FORMS-KB-1014191",
+    "message": "List of Changes for the July 17, 2020 Laserfiche iOS App",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for the July 17, 2020 Laserfiche iOS App.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for the July 17, 2020 Laserfiche iOS App",
+        "url": "https://support.laserfiche.com/kb/1014191/list-of-changes-for-the-july-17-2020-laserfiche-ios-app",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014265-forms-forms-kb-1014265-list-of-changes-for-laserfiche-forms-11",
+    "code": "FORMS-KB-1014265",
+    "message": "List of Changes for Laserfiche Forms 11",
+    "product": "Forms",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 11",
+        "url": "https://support.laserfiche.com/kb/1014265/list-of-changes-for-laserfiche-forms-11",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014302-forms-forms-kb-1014302-release-notes-for-laserfiche-forms-11-update-1",
+    "code": "FORMS-KB-1014302",
+    "message": "Release Notes for Laserfiche Forms 11 Update 1",
+    "product": "Forms",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 11 Update 1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 11 Update 1",
+        "url": "https://support.laserfiche.com/kb/1014302/release-notes-for-laserfiche-forms-11-update-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014318-forms-forms-kb-1014318-list-of-changes-for-forms-10-4-5-hotfix-1014318",
+    "code": "FORMS-KB-1014318",
+    "message": "List of Changes for Forms 10.4.5 Hotfix 1014318",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Forms 10.4.5 Hotfix 1014318.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Forms 10.4.5 Hotfix 1014318",
+        "url": "https://support.laserfiche.com/kb/1014318/list-of-changes-for-forms-10-4-5-hotfix-1014318",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014320-forms-forms-kb-1014320-list-of-changes-for-laserfiche-forms-10-4-4-update-1",
+    "code": "FORMS-KB-1014320",
+    "message": "List of Changes for Laserfiche Forms 10.4.4 Update 1",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.4 Update 1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.4.4 Update 1",
+        "url": "https://support.laserfiche.com/kb/1014320/list-of-changes-for-laserfiche-forms-10-4-4-update-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014333-forms-forms-kb-1014333-list-of-changes-for-laserfiche-forms-10-4-5-update-1",
+    "code": "FORMS-KB-1014333",
+    "message": "List of Changes for Laserfiche Forms 10.4.5 Update 1",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.5 Update 1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.4.5 Update 1",
+        "url": "https://support.laserfiche.com/kb/1014333/list-of-changes-for-laserfiche-forms-10-4-5-update-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014351-forms-forms-kb-1014351-release-notes-for-laserfiche-forms-11-update-2",
+    "code": "FORMS-KB-1014351",
+    "message": "Release Notes for Laserfiche Forms 11 Update 2",
+    "product": "Forms",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 11 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 11 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014351/release-notes-for-laserfiche-forms-11-update-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014413-forms-forms-kb-1014413-list-of-changes-for-laserfiche-forms-11-update-3",
+    "code": "FORMS-KB-1014413",
+    "message": "List of Changes for Laserfiche Forms 11 Update 3",
+    "product": "Forms",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014413/list-of-changes-for-laserfiche-forms-11-update-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014414-forms-forms-kb-1014414-release-notes-for-laserfiche-forms-11-update-3",
+    "code": "FORMS-KB-1014414",
+    "message": "Release Notes for Laserfiche Forms 11 Update 3",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014414/release-notes-for-laserfiche-forms-11-update-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014421-forms-forms-kb-1014421-list-of-changes-for-laserfiche-forms-10-4-5-update-2",
+    "code": "FORMS-KB-1014421",
+    "message": "List of Changes for Laserfiche Forms 10.4.5 Update 2",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.5 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.4.5 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014421/list-of-changes-for-laserfiche-forms-10-4-5-update-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014449-forms-forms-kb-1014449-list-of-changes-for-laserfiche-forms-11-update-3-hotfix-1014449",
+    "code": "FORMS-KB-1014449",
+    "message": "List of Changes for Laserfiche Forms 11 Update 3 Hotfix 1014449",
+    "product": "Forms",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11 Update 3 Hotfix 1014449.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 11 Update 3 Hotfix 1014449",
+        "url": "https://support.laserfiche.com/kb/1014449/list-of-changes-for-laserfiche-forms-11-update-3-hotfix-1014449",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014469-forms-forms-kb-1014469-list-of-changes-for-laserfiche-forms-11-update-4",
+    "code": "FORMS-KB-1014469",
+    "message": "List of Changes for Laserfiche Forms 11 Update 4",
+    "product": "Forms",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11 Update 4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 11 Update 4",
+        "url": "https://support.laserfiche.com/kb/1014469/list-of-changes-for-laserfiche-forms-11-update-4",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014496-forms-forms-kb-1014496-list-of-changes-for-laserfiche-forms-11-update-5",
+    "code": "FORMS-KB-1014496",
+    "message": "List of Changes for Laserfiche Forms 11 Update 5",
+    "product": "Forms",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11 Update 5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 11 Update 5",
+        "url": "https://support.laserfiche.com/kb/1014496/list-of-changes-for-laserfiche-forms-11-update-5",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014497-forms-forms-kb-1014497-release-notes-for-laserfiche-forms-11-update-5",
+    "code": "FORMS-KB-1014497",
+    "message": "Release Notes for Laserfiche Forms 11 Update 5",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 11 Update 5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 11 Update 5",
+        "url": "https://support.laserfiche.com/kb/1014497/release-notes-for-laserfiche-forms-11-update-5",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
     "id": "support-promoted-1014485-forms-forms-laserfiche-forms-technical-support-laserfiche-forms-technical-support-checklist",
     "code": "FORMS-LASERFICHE_FORMS_TECHNICAL_SUPPORT",
     "message": "Laserfiche Forms Technical Support Checklist",
@@ -3127,849 +4289,6 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
-    "id": "support-promoted-1014318-forms-forms-list-of-changes-for-forms-10-4-5-h-list-of-changes-for-forms-10-4-5-hotfix-1014318",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_FORMS_10_4_5_H",
-    "message": "List of Changes for Forms 10.4.5 Hotfix 1014318",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Forms 10.4.5 Hotfix 1014318 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Forms 10.4.5 Hotfix 1014318.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Forms 10.4.5 Hotfix 1014318",
-        "url": "https://support.laserfiche.com/kb/1014318/list-of-changes-for-forms-10-4-5-hotfix-1014318",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014496-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-11-update-5",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 11 Update 5",
-    "product": "Forms",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 11 Update 5 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11 Update 5.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 11 Update 5",
-        "url": "https://support.laserfiche.com/kb/1014496/list-of-changes-for-laserfiche-forms-11-update-5",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014413-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-11-update-3",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 11 Update 3",
-    "product": "Forms",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 11 Update 3 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11 Update 3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 11 Update 3",
-        "url": "https://support.laserfiche.com/kb/1014413/list-of-changes-for-laserfiche-forms-11-update-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014469-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-11-update-4",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 11 Update 4",
-    "product": "Forms",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 11 Update 4 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11 Update 4.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 11 Update 4",
-        "url": "https://support.laserfiche.com/kb/1014469/list-of-changes-for-laserfiche-forms-11-update-4",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014265-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-11",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 11",
-    "product": "Forms",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 11 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 11",
-        "url": "https://support.laserfiche.com/kb/1014265/list-of-changes-for-laserfiche-forms-11",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014449-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-11-update-3-hotfix-1014449",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 11 Update 3 Hotfix 1014449",
-    "product": "Forms",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 11 Update 3 Hotfix 1014449 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11 Update 3 Hotfix 1014449.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 11 Update 3 Hotfix 1014449",
-        "url": "https://support.laserfiche.com/kb/1014449/list-of-changes-for-laserfiche-forms-11-update-3-hotfix-1014449",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014333-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-4-5-update-1",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.4.5 Update 1",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.4.5 Update 1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.5 Update 1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.4.5 Update 1",
-        "url": "https://support.laserfiche.com/kb/1014333/list-of-changes-for-laserfiche-forms-10-4-5-update-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013806-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-1-update-3",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.1 Update 3.",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.1 Update 3. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.1 Update 3..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.1 Update 3.",
-        "url": "https://support.laserfiche.com/kb/1013806/list-of-changes-for-laserfiche-forms-10-1-update-3-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013870-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-2-1-update-1",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.2.1 Update 1.",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.2.1 Update 1. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.2.1 Update 1..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.2.1 Update 1.",
-        "url": "https://support.laserfiche.com/kb/1013870/list-of-changes-for-laserfiche-forms-10-2-1-update-1-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013775-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-1-update-1",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.1 Update 1.",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.1 Update 1. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.1 Update 1..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.1 Update 1.",
-        "url": "https://support.laserfiche.com/kb/1013775/list-of-changes-for-laserfiche-forms-10-1-update-1-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013981-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-4",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.4",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.4 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.4",
-        "url": "https://support.laserfiche.com/kb/1013981/list-of-changes-for-laserfiche-forms-10-4",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013930-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-3-1",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.3.1",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.3.1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.3.1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.3.1",
-        "url": "https://support.laserfiche.com/kb/1013930/list-of-changes-for-laserfiche-forms-10-3-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013903-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-3",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.3",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.3 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.3",
-        "url": "https://support.laserfiche.com/kb/1013903/list-of-changes-for-laserfiche-forms-10-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014421-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-4-5-update-2",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.4.5 Update 2",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.4.5 Update 2 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.5 Update 2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.4.5 Update 2",
-        "url": "https://support.laserfiche.com/kb/1014421/list-of-changes-for-laserfiche-forms-10-4-5-update-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014017-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-3-1-update-2",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.3.1 Update 2",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.3.1 Update 2 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.3.1 Update 2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.3.1 Update 2",
-        "url": "https://support.laserfiche.com/kb/1014017/list-of-changes-for-laserfiche-forms-10-3-1-update-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014320-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-4-4-update-1",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.4.4 Update 1",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.4.4 Update 1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.4 Update 1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.4.4 Update 1",
-        "url": "https://support.laserfiche.com/kb/1014320/list-of-changes-for-laserfiche-forms-10-4-4-update-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013834-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-2-update-1",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.2 Update 1.",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.2 Update 1. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.2 Update 1..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.2 Update 1.",
-        "url": "https://support.laserfiche.com/kb/1013834/list-of-changes-for-laserfiche-forms-10-2-update-1-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013880-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-2-1-update-2",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.2.1 Update 2.",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.2.1 Update 2. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.2.1 Update 2..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.2.1 Update 2.",
-        "url": "https://support.laserfiche.com/kb/1013880/list-of-changes-for-laserfiche-forms-10-2-1-update-2-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014169-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-4-4",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.4.4",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.4.4 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.4.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.4.4",
-        "url": "https://support.laserfiche.com/kb/1014169/list-of-changes-for-laserfiche-forms-10-4-4",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014151-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-4-3-update-1",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.4.3 Update 1",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.4.3 Update 1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.3 Update 1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.4.3 Update 1",
-        "url": "https://support.laserfiche.com/kb/1014151/list-of-changes-for-laserfiche-forms-10-4-3-update-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014109-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-4-1-update-2",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.4.1 Update 2",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.4.1 Update 2 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.1 Update 2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.4.1 Update 2",
-        "url": "https://support.laserfiche.com/kb/1014109/list-of-changes-for-laserfiche-forms-10-4-1-update-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014098-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-3-1-update-3",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.3.1 Update 3",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.3.1 Update 3 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.3.1 Update 3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.3.1 Update 3",
-        "url": "https://support.laserfiche.com/kb/1014098/list-of-changes-for-laserfiche-forms-10-3-1-update-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014095-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-2-1-update-5",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
-    "message": "List of Changes for Laserfiche Forms 10.2.1 Update 5",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.2.1 Update 5 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.2.1 Update 5.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Forms 10.2.1 Update 5",
-        "url": "https://support.laserfiche.com/kb/1014095/list-of-changes-for-laserfiche-forms-10-2-1-update-5",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014191-forms-forms-list-of-changes-for-the-july-17-20-list-of-changes-for-the-july-17-2020-laserfiche-ios-app",
-    "code": "FORMS-LIST_OF_CHANGES_FOR_THE_JULY_17_20",
-    "message": "List of Changes for the July 17, 2020 Laserfiche iOS App",
-    "product": "Forms",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the July 17, 2020 Laserfiche iOS App for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for the July 17, 2020 Laserfiche iOS App.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for the July 17, 2020 Laserfiche iOS App",
-        "url": "https://support.laserfiche.com/kb/1014191/list-of-changes-for-the-july-17-2020-laserfiche-ios-app",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
     "id": "support-promoted-1014543-forms-forms-pdf-generation-fails-when-using-go-pdf-generation-fails-when-using-google-chrome-or-microsoft-edge-for-puppeteerexecutablepat",
     "code": "FORMS-PDF_GENERATION_FAILS_WHEN_USING_GO",
     "message": "PDF generation fails when using Google Chrome or Microsoft Edge for PuppeteerExecutablePath in Forms 11 Update 2 or later",
@@ -4001,289 +4320,6 @@ export const supportChromePromotedErrorEntries = [
         "sourceType": "support-knowledge-base",
         "title": "PDF generation fails when using Google Chrome or Microsoft Edge for PuppeteerExecutablePath in Forms 11 Update 2 or later",
         "url": "https://support.laserfiche.com/kb/1014543/pdf-generation-fails-when-using-google-chrome-or-microsoft-edge-for-puppeteerexecutablepath-in-forms-11-update-2-or-later",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014497-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-11-update-5",
-    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
-    "message": "Release Notes for Laserfiche Forms 11 Update 5",
-    "product": "Forms",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 11 Update 5 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Forms 11 Update 5.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Forms 11 Update 5",
-        "url": "https://support.laserfiche.com/kb/1014497/release-notes-for-laserfiche-forms-11-update-5",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014414-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-11-update-3",
-    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
-    "message": "Release Notes for Laserfiche Forms 11 Update 3",
-    "product": "Forms",
-    "versions": [
-      "Version 9",
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 11 Update 3 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Forms 11 Update 3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Forms 11 Update 3",
-        "url": "https://support.laserfiche.com/kb/1014414/release-notes-for-laserfiche-forms-11-update-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014302-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-11-update-1",
-    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
-    "message": "Release Notes for Laserfiche Forms 11 Update 1",
-    "product": "Forms",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 11 Update 1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Forms 11 Update 1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Forms 11 Update 1",
-        "url": "https://support.laserfiche.com/kb/1014302/release-notes-for-laserfiche-forms-11-update-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014351-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-11-update-2",
-    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
-    "message": "Release Notes for Laserfiche Forms 11 Update 2",
-    "product": "Forms",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 11 Update 2 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Forms 11 Update 2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Forms 11 Update 2",
-        "url": "https://support.laserfiche.com/kb/1014351/release-notes-for-laserfiche-forms-11-update-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014084-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-10-4-2",
-    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
-    "message": "Release Notes for Laserfiche Forms 10.4.2",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 10.4.2 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Forms 10.4.2",
-        "url": "https://support.laserfiche.com/kb/1014084/release-notes-for-laserfiche-forms-10-4-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014053-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-10-4-1",
-    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
-    "message": "Release Notes for Laserfiche Forms 10.4.1",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 10.4.1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Forms 10.4.1",
-        "url": "https://support.laserfiche.com/kb/1014053/release-notes-for-laserfiche-forms-10-4-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013982-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-10-4",
-    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
-    "message": "Release Notes for Laserfiche Forms 10.4",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 10.4 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Forms 10.4",
-        "url": "https://support.laserfiche.com/kb/1013982/release-notes-for-laserfiche-forms-10-4",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013929-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-10-3-1",
-    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
-    "message": "Release Notes for Laserfiche Forms 10.3.1",
-    "product": "Forms",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 10.3.1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.3.1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Forms 10.3.1",
-        "url": "https://support.laserfiche.com/kb/1013929/release-notes-for-laserfiche-forms-10-3-1",
         "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
       }
     ]
@@ -4372,30 +4408,30 @@ export const supportChromePromotedErrorEntries = [
     "versions": [
       "Version 10"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.3.1 Hotfix 1014002. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.3.1 Hotfix 1014002..",
       "Reported code or token: LFF502."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for Laserfiche Forms 10.3.1 Hotfix 1014002.",
         "url": "https://support.laserfiche.com/kb/1014002/list-of-changes-for-laserfiche-forms-10-3-1-hotfix-1014002-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
@@ -4408,30 +4444,30 @@ export const supportChromePromotedErrorEntries = [
       "Version 9",
       "Version 11"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 11 Update 4 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: Release Notes for Laserfiche Forms 11 Update 4.",
       "Reported code or token: LFF2105."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "Release Notes for Laserfiche Forms 11 Update 4",
         "url": "https://support.laserfiche.com/kb/1014470/release-notes-for-laserfiche-forms-11-update-4",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
@@ -4444,30 +4480,30 @@ export const supportChromePromotedErrorEntries = [
       "Version 10",
       "Version 11"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Forms 11 Update 1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for Forms 11 Update 1.",
       "Reported code or token: LFF3602."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for Forms 11 Update 1",
         "url": "https://support.laserfiche.com/kb/1014301/list-of-changes-for-forms-11-update-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
@@ -4481,30 +4517,30 @@ export const supportChromePromotedErrorEntries = [
       "Version 10",
       "Version 11"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 11 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Forms fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: Release Notes for Laserfiche Forms 11.",
       "Reported code or token: LFF3602."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "Release Notes for Laserfiche Forms 11",
         "url": "https://support.laserfiche.com/kb/1014266/release-notes-for-laserfiche-forms-11",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
@@ -4547,37 +4583,37 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
-    "id": "support-promoted-1014408-import-agent-import-list-of-changes-for-import-agent-1-list-of-changes-for-import-agent-10-4-0-update-7",
-    "code": "IMPORT-LIST_OF_CHANGES_FOR_IMPORT_AGENT_1",
+    "id": "support-promoted-1014408-import-agent-import-kb-1014408-list-of-changes-for-import-agent-10-4-0-update-7",
+    "code": "IMPORT-KB-1014408",
     "message": "List of Changes for Import Agent 10.4.0 Update 7",
     "product": "Import Agent",
     "versions": [
       "Version 10"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Import Agent 10.4.0 Update 7 for Import Agent. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Import Agent fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for Import Agent 10.4.0 Update 7.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for Import Agent 10.4.0 Update 7",
         "url": "https://support.laserfiche.com/kb/1014408/list-of-changes-for-import-agent-10-4-0-update-7",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
@@ -4658,6 +4694,44 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
+    "id": "support-promoted-1012734-laserfiche-installer-installer-kb-1012734-list-of-changes-for-license-manager-8-2",
+    "code": "INSTALLER-KB-1012734",
+    "message": "List of Changes for License Manager 8.2",
+    "product": "Laserfiche Installer",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Installer fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for License Manager 8.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for License Manager 8.2",
+        "url": "https://support.laserfiche.com/kb/1012734/list-of-changes-for-license-manager-8-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
     "id": "support-promoted-1000988-laserfiche-installer-installer-license-file-locations-license-file-locations",
     "code": "INSTALLER-LICENSE_FILE_LOCATIONS",
     "message": "License File Locations.",
@@ -4691,44 +4765,6 @@ export const supportChromePromotedErrorEntries = [
         "sourceType": "support-knowledge-base",
         "title": "License File Locations.",
         "url": "https://support.laserfiche.com/kb/1000988/license-file-locations-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1012734-laserfiche-installer-installer-list-of-changes-for-license-manage-list-of-changes-for-license-manager-8-2",
-    "code": "INSTALLER-LIST_OF_CHANGES_FOR_LICENSE_MANAGE",
-    "message": "List of Changes for License Manager 8.2",
-    "product": "Laserfiche Installer",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for License Manager 8.2 for Laserfiche Installer. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for License Manager 8.2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for License Manager 8.2",
-        "url": "https://support.laserfiche.com/kb/1012734/list-of-changes-for-license-manager-8-2",
         "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
       }
     ]
@@ -7310,6 +7346,1083 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
+    "id": "support-promoted-1012334-laserfiche-server-repository-server-lfserver-kb-1012334-list-of-changes-for-license-manager-8-1",
+    "code": "LFSERVER-KB-1012334",
+    "message": "List of Changes for License Manager 8.1.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for License Manager 8.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for License Manager 8.1.",
+        "url": "https://support.laserfiche.com/kb/1012334/list-of-changes-for-license-manager-8-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012690-laserfiche-server-repository-server-lfserver-kb-1012690-release-notes-for-laserfiche-8-2-0",
+    "code": "LFSERVER-KB-1012690",
+    "message": "Release Notes for Laserfiche 8.2.0.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 8.2.0..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 8.2.0.",
+        "url": "https://support.laserfiche.com/kb/1012690/release-notes-for-laserfiche-8-2-0-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012787-laserfiche-server-repository-server-lfserver-kb-1012787-release-notes-for-laserfiche-8-2-1",
+    "code": "LFSERVER-KB-1012787",
+    "message": "Release Notes For Laserfiche 8.2.1.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes For Laserfiche 8.2.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes For Laserfiche 8.2.1.",
+        "url": "https://support.laserfiche.com/kb/1012787/release-notes-for-laserfiche-8-2-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012849-laserfiche-server-repository-server-lfserver-kb-1012849-release-notes-for-laserfiche-8-3-0",
+    "code": "LFSERVER-KB-1012849",
+    "message": "Release Notes for Laserfiche 8.3.0.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 8.3.0..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 8.3.0.",
+        "url": "https://support.laserfiche.com/kb/1012849/release-notes-for-laserfiche-8-3-0-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012943-laserfiche-server-repository-server-lfserver-kb-1012943-release-notes-for-laserfiche-8-3-1",
+    "code": "LFSERVER-KB-1012943",
+    "message": "Release Notes For Laserfiche 8.3.1.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes For Laserfiche 8.3.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes For Laserfiche 8.3.1.",
+        "url": "https://support.laserfiche.com/kb/1012943/release-notes-for-laserfiche-8-3-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013089-laserfiche-server-repository-server-lfserver-kb-1013089-release-notes-for-laserfiche-8-3-2",
+    "code": "LFSERVER-KB-1013089",
+    "message": "Release Notes for Laserfiche 8.3.2.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 8.3.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 8.3.2.",
+        "url": "https://support.laserfiche.com/kb/1013089/release-notes-for-laserfiche-8-3-2-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013130-laserfiche-server-repository-server-lfserver-kb-1013130-list-of-changes-for-laserfiche-9-0-1",
+    "code": "LFSERVER-KB-1013130",
+    "message": "List of Changes for Laserfiche 9.0.1",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche 9.0.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche 9.0.1",
+        "url": "https://support.laserfiche.com/kb/1013130/list-of-changes-for-laserfiche-9-0-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013325-laserfiche-server-repository-server-lfserver-kb-1013325-release-notes-for-laserfiche-9-0-3",
+    "code": "LFSERVER-KB-1013325",
+    "message": "Release Notes For Laserfiche 9.0.3.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes For Laserfiche 9.0.3..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes For Laserfiche 9.0.3.",
+        "url": "https://support.laserfiche.com/kb/1013325/release-notes-for-laserfiche-9-0-3-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013369-laserfiche-server-repository-server-lfserver-kb-1013369-release-notes-for-laserfiche-9-1",
+    "code": "LFSERVER-KB-1013369",
+    "message": "Release Notes for Laserfiche 9.1.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 9.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 9.1.",
+        "url": "https://support.laserfiche.com/kb/1013369/release-notes-for-laserfiche-9-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013416-laserfiche-server-repository-server-lfserver-kb-1013416-release-notes-for-laserfiche-9-1-1",
+    "code": "LFSERVER-KB-1013416",
+    "message": "Release Notes for Laserfiche 9.1.1.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 9.1.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 9.1.1.",
+        "url": "https://support.laserfiche.com/kb/1013416/release-notes-for-laserfiche-9-1-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013527-laserfiche-server-repository-server-lfserver-kb-1013527-release-notes-for-laserfiche-9-2",
+    "code": "LFSERVER-KB-1013527",
+    "message": "Release Notes for Laserfiche 9.2.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 9.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 9.2.",
+        "url": "https://support.laserfiche.com/kb/1013527/release-notes-for-laserfiche-9-2-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013608-laserfiche-server-repository-server-lfserver-kb-1013608-release-notes-for-laserfiche-9-2-1",
+    "code": "LFSERVER-KB-1013608",
+    "message": "Release Notes for Laserfiche 9.2.1.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 9.2.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 9.2.1.",
+        "url": "https://support.laserfiche.com/kb/1013608/release-notes-for-laserfiche-9-2-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013707-laserfiche-server-repository-server-lfserver-kb-1013707-release-notes-for-laserfiche-10",
+    "code": "LFSERVER-KB-1013707",
+    "message": "Release Notes for Laserfiche 10.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.",
+        "url": "https://support.laserfiche.com/kb/1013707/release-notes-for-laserfiche-10-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013819-laserfiche-server-repository-server-lfserver-kb-1013819-release-notes-for-laserfiche-10-2",
+    "code": "LFSERVER-KB-1013819",
+    "message": "Release Notes for Laserfiche 10.2",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.2",
+        "url": "https://support.laserfiche.com/kb/1013819/release-notes-for-laserfiche-10-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013859-laserfiche-server-repository-server-lfserver-kb-1013859-release-notes-for-laserfiche-10-2-1",
+    "code": "LFSERVER-KB-1013859",
+    "message": "Release Notes for Laserfiche 10.2.1",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10.2.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.2.1",
+        "url": "https://support.laserfiche.com/kb/1013859/release-notes-for-laserfiche-10-2-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013908-laserfiche-server-repository-server-lfserver-kb-1013908-release-notes-for-laserfiche-10-3",
+    "code": "LFSERVER-KB-1013908",
+    "message": "Release Notes for Laserfiche 10.3",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.3",
+        "url": "https://support.laserfiche.com/kb/1013908/release-notes-for-laserfiche-10-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013909-laserfiche-server-repository-server-lfserver-kb-1013909-list-of-changes-for-laserfiche-10-3",
+    "code": "LFSERVER-KB-1013909",
+    "message": "List of Changes for Laserfiche 10.3",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche 10.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche 10.3",
+        "url": "https://support.laserfiche.com/kb/1013909/list-of-changes-for-laserfiche-10-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013948-laserfiche-server-repository-server-lfserver-kb-1013948-release-notes-for-laserfiche-10-3-1",
+    "code": "LFSERVER-KB-1013948",
+    "message": "Release Notes for Laserfiche 10.3.1",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10.3.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.3.1",
+        "url": "https://support.laserfiche.com/kb/1013948/release-notes-for-laserfiche-10-3-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013996-laserfiche-server-repository-server-lfserver-kb-1013996-list-of-changes-for-laserfiche-10-3-1-update-2",
+    "code": "LFSERVER-KB-1013996",
+    "message": "List of Changes for Laserfiche 10.3.1 Update 2",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche 10.3.1 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche 10.3.1 Update 2",
+        "url": "https://support.laserfiche.com/kb/1013996/list-of-changes-for-laserfiche-10-3-1-update-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014026-laserfiche-server-repository-server-lfserver-kb-1014026-release-notes-for-laserfiche-10-4",
+    "code": "LFSERVER-KB-1014026",
+    "message": "Release Notes for Laserfiche 10.4",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.4",
+        "url": "https://support.laserfiche.com/kb/1014026/release-notes-for-laserfiche-10-4",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014049-laserfiche-server-repository-server-lfserver-kb-1014049-release-notes-for-laserfiche-10-4-1",
+    "code": "LFSERVER-KB-1014049",
+    "message": "Release Notes for Laserfiche 10.4.1",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10.4.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.4.1",
+        "url": "https://support.laserfiche.com/kb/1014049/release-notes-for-laserfiche-10-4-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014082-laserfiche-server-repository-server-lfserver-kb-1014082-release-notes-for-laserfiche-10-4-2",
+    "code": "LFSERVER-KB-1014082",
+    "message": "Release Notes for Laserfiche 10.4.2",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10.4.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.4.2",
+        "url": "https://support.laserfiche.com/kb/1014082/release-notes-for-laserfiche-10-4-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014086-laserfiche-server-repository-server-lfserver-kb-1014086-list-of-changes-for-laserfiche-10-4-2",
+    "code": "LFSERVER-KB-1014086",
+    "message": "List of Changes for Laserfiche 10.4.2.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche 10.4.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche 10.4.2.",
+        "url": "https://support.laserfiche.com/kb/1014086/list-of-changes-for-laserfiche-10-4-2-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014107-laserfiche-server-repository-server-lfserver-kb-1014107-release-notes-for-laserfiche-cloud-2020-1",
+    "code": "LFSERVER-KB-1014107",
+    "message": "Release Notes for Laserfiche Cloud 2020.1",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Cloud 2020.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Cloud 2020.1",
+        "url": "https://support.laserfiche.com/kb/1014107/release-notes-for-laserfiche-cloud-2020-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014182-laserfiche-server-repository-server-lfserver-kb-1014182-release-notes-for-laserfiche-cloud-2020-3",
+    "code": "LFSERVER-KB-1014182",
+    "message": "Release Notes for Laserfiche Cloud 2020.3",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Cloud 2020.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Cloud 2020.3",
+        "url": "https://support.laserfiche.com/kb/1014182/release-notes-for-laserfiche-cloud-2020-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014198-laserfiche-server-repository-server-lfserver-kb-1014198-release-notes-for-laserfiche-server-10-4-3",
+    "code": "LFSERVER-KB-1014198",
+    "message": "Release Notes for Laserfiche Server 10.4.3",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Server 10.4.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Server 10.4.3",
+        "url": "https://support.laserfiche.com/kb/1014198/release-notes-for-laserfiche-server-10-4-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014267-laserfiche-server-repository-server-lfserver-kb-1014267-release-notes-for-laserfiche-11",
+    "code": "LFSERVER-KB-1014267",
+    "message": "Release Notes for Laserfiche 11",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 11",
+        "url": "https://support.laserfiche.com/kb/1014267/release-notes-for-laserfiche-11",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014268-laserfiche-server-repository-server-lfserver-kb-1014268-list-of-changes-for-laserfiche-11",
+    "code": "LFSERVER-KB-1014268",
+    "message": "List of Changes for Laserfiche 11",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche 11",
+        "url": "https://support.laserfiche.com/kb/1014268/list-of-changes-for-laserfiche-11",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014418-laserfiche-server-repository-server-lfserver-kb-1014418-list-of-changes-for-laserfiche-windows-client-11-update-3",
+    "code": "LFSERVER-KB-1014418",
+    "message": "List of Changes for Laserfiche Windows Client 11 Update 3",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Windows Client 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Windows Client 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014418/list-of-changes-for-laserfiche-windows-client-11-update-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014568-laserfiche-server-repository-server-lfserver-kb-1014568-list-of-changes-for-laserfiche-server-11-update-3",
+    "code": "LFSERVER-KB-1014568",
+    "message": "List of Changes for Laserfiche Server 11 Update 3",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Laserfiche Server/Repository Server fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Server 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Server 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014568/list-of-changes-for-laserfiche-server-11-update-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
     "id": "support-promoted-1013034-laserfiche-server-repository-server-lfserver-laserfiche-cannot-generate-page-im-laserfiche-cannot-generate-page-images-for-dynamic-xfa-form-pdf-files",
     "code": "LFSERVER-LASERFICHE_CANNOT_GENERATE_PAGE_IM",
     "message": "Laserfiche Cannot Generate Page Images For Dynamic XFA Form PDF Files.",
@@ -7533,254 +8646,6 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
-    "id": "support-promoted-1013996-laserfiche-server-repository-server-lfserver-list-of-changes-for-laserfiche-10-list-of-changes-for-laserfiche-10-3-1-update-2",
-    "code": "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_10_",
-    "message": "List of Changes for Laserfiche 10.3.1 Update 2",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche 10.3.1 Update 2 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche 10.3.1 Update 2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche 10.3.1 Update 2",
-        "url": "https://support.laserfiche.com/kb/1013996/list-of-changes-for-laserfiche-10-3-1-update-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014086-laserfiche-server-repository-server-lfserver-list-of-changes-for-laserfiche-10-list-of-changes-for-laserfiche-10-4-2",
-    "code": "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_10_",
-    "message": "List of Changes for Laserfiche 10.4.2.",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche 10.4.2. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche 10.4.2..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche 10.4.2.",
-        "url": "https://support.laserfiche.com/kb/1014086/list-of-changes-for-laserfiche-10-4-2-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013909-laserfiche-server-repository-server-lfserver-list-of-changes-for-laserfiche-10-list-of-changes-for-laserfiche-10-3",
-    "code": "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_10_",
-    "message": "List of Changes for Laserfiche 10.3",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche 10.3 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche 10.3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche 10.3",
-        "url": "https://support.laserfiche.com/kb/1013909/list-of-changes-for-laserfiche-10-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014268-laserfiche-server-repository-server-lfserver-list-of-changes-for-laserfiche-11-list-of-changes-for-laserfiche-11",
-    "code": "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_11",
-    "message": "List of Changes for Laserfiche 11",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche 11 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche 11.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche 11",
-        "url": "https://support.laserfiche.com/kb/1014268/list-of-changes-for-laserfiche-11",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014568-laserfiche-server-repository-server-lfserver-list-of-changes-for-laserfiche-ser-list-of-changes-for-laserfiche-server-11-update-3",
-    "code": "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_SER",
-    "message": "List of Changes for Laserfiche Server 11 Update 3",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Server 11 Update 3 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Server 11 Update 3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Server 11 Update 3",
-        "url": "https://support.laserfiche.com/kb/1014568/list-of-changes-for-laserfiche-server-11-update-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014418-laserfiche-server-repository-server-lfserver-list-of-changes-for-laserfiche-win-list-of-changes-for-laserfiche-windows-client-11-update-3",
-    "code": "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_WIN",
-    "message": "List of Changes for Laserfiche Windows Client 11 Update 3",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Windows Client 11 Update 3 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Windows Client 11 Update 3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Windows Client 11 Update 3",
-        "url": "https://support.laserfiche.com/kb/1014418/list-of-changes-for-laserfiche-windows-client-11-update-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1012334-laserfiche-server-repository-server-lfserver-list-of-changes-for-license-manage-list-of-changes-for-license-manager-8-1",
-    "code": "LFSERVER-LIST_OF_CHANGES_FOR_LICENSE_MANAGE",
-    "message": "List of Changes for License Manager 8.1.",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for License Manager 8.1. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for License Manager 8.1..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for License Manager 8.1.",
-        "url": "https://support.laserfiche.com/kb/1012334/list-of-changes-for-license-manager-8-1-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
     "id": "support-promoted-1014273-laserfiche-server-repository-server-lfserver-release-information-for-laserfiche-release-information-for-laserfiche-11",
     "code": "LFSERVER-RELEASE_INFORMATION_FOR_LASERFICHE",
     "message": "Release Information for Laserfiche 11",
@@ -7811,362 +8676,6 @@ export const supportChromePromotedErrorEntries = [
         "sourceType": "support-knowledge-base",
         "title": "Release Information for Laserfiche 11",
         "url": "https://support.laserfiche.com/kb/1014273/release-information-for-laserfiche-11",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013819-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-10-2-release-notes-for-laserfiche-10-2",
-    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_2",
-    "message": "Release Notes for Laserfiche 10.2",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche 10.2 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche 10.2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche 10.2",
-        "url": "https://support.laserfiche.com/kb/1013819/release-notes-for-laserfiche-10-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013908-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-10-3-release-notes-for-laserfiche-10-3",
-    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_3",
-    "message": "Release Notes for Laserfiche 10.3",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche 10.3 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche 10.3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche 10.3",
-        "url": "https://support.laserfiche.com/kb/1013908/release-notes-for-laserfiche-10-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013948-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-10-3-release-notes-for-laserfiche-10-3-1",
-    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_3_",
-    "message": "Release Notes for Laserfiche 10.3.1",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche 10.3.1 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche 10.3.1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche 10.3.1",
-        "url": "https://support.laserfiche.com/kb/1013948/release-notes-for-laserfiche-10-3-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014026-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-10-4-release-notes-for-laserfiche-10-4",
-    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_4",
-    "message": "Release Notes for Laserfiche 10.4",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche 10.4 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche 10.4.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche 10.4",
-        "url": "https://support.laserfiche.com/kb/1014026/release-notes-for-laserfiche-10-4",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014082-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-10-4-release-notes-for-laserfiche-10-4-2",
-    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_4_",
-    "message": "Release Notes for Laserfiche 10.4.2",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche 10.4.2 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche 10.4.2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche 10.4.2",
-        "url": "https://support.laserfiche.com/kb/1014082/release-notes-for-laserfiche-10-4-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014049-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-10-4-release-notes-for-laserfiche-10-4-1",
-    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_4_",
-    "message": "Release Notes for Laserfiche 10.4.1",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche 10.4.1 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche 10.4.1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche 10.4.1",
-        "url": "https://support.laserfiche.com/kb/1014049/release-notes-for-laserfiche-10-4-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014267-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-11-release-notes-for-laserfiche-11",
-    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_11",
-    "message": "Release Notes for Laserfiche 11",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche 11 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche 11.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche 11",
-        "url": "https://support.laserfiche.com/kb/1014267/release-notes-for-laserfiche-11",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014107-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-cloud-release-notes-for-laserfiche-cloud-2020-1",
-    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_CLOUD",
-    "message": "Release Notes for Laserfiche Cloud 2020.1",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Cloud 2020.1 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Cloud 2020.1.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Cloud 2020.1",
-        "url": "https://support.laserfiche.com/kb/1014107/release-notes-for-laserfiche-cloud-2020-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014182-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-cloud-release-notes-for-laserfiche-cloud-2020-3",
-    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_CLOUD",
-    "message": "Release Notes for Laserfiche Cloud 2020.3",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Cloud 2020.3 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Cloud 2020.3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Cloud 2020.3",
-        "url": "https://support.laserfiche.com/kb/1014182/release-notes-for-laserfiche-cloud-2020-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014198-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-serve-release-notes-for-laserfiche-server-10-4-3",
-    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_SERVE",
-    "message": "Release Notes for Laserfiche Server 10.4.3",
-    "product": "Laserfiche Server/Repository Server",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Server 10.4.3 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche Server 10.4.3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche Server 10.4.3",
-        "url": "https://support.laserfiche.com/kb/1014198/release-notes-for-laserfiche-server-10-4-3",
         "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
       }
     ]
@@ -8438,8 +8947,8 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
-    "id": "support-promoted-1014225-mobile-mobile-list-of-changes-for-the-august-202-list-of-changes-for-the-august-2020-laserfiche-app",
-    "code": "MOBILE-LIST_OF_CHANGES_FOR_THE_AUGUST_202",
+    "id": "support-promoted-1014225-mobile-mobile-kb-1014225-list-of-changes-for-the-august-2020-laserfiche-app",
+    "code": "MOBILE-KB-1014225",
     "message": "List of Changes for the August 2020 Laserfiche App",
     "product": "Mobile",
     "versions": [
@@ -8448,36 +8957,36 @@ export const supportChromePromotedErrorEntries = [
       "Version 11",
       "Version 12"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the August 2020 Laserfiche App for Mobile. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Mobile fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for the August 2020 Laserfiche App.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for the August 2020 Laserfiche App",
         "url": "https://support.laserfiche.com/kb/1014225/list-of-changes-for-the-august-2020-laserfiche-app",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
   {
-    "id": "support-promoted-1014425-mobile-mobile-list-of-changes-for-the-february-1-list-of-changes-for-the-february-15-2023-laserfiche-ios-and-android-app",
-    "code": "MOBILE-LIST_OF_CHANGES_FOR_THE_FEBRUARY_1",
+    "id": "support-promoted-1014425-mobile-mobile-kb-1014425-list-of-changes-for-the-february-15-2023-laserfiche-ios-and-android-app",
+    "code": "MOBILE-KB-1014425",
     "message": "List of Changes for the February 15, 2023 Laserfiche iOS and Android App",
     "product": "Mobile",
     "versions": [
@@ -8486,110 +8995,72 @@ export const supportChromePromotedErrorEntries = [
       "Version 11",
       "Version 12"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the February 15, 2023 Laserfiche iOS and Android App for Mobile. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Mobile fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for the February 15, 2023 Laserfiche iOS and Android App.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for the February 15, 2023 Laserfiche iOS and Android App",
         "url": "https://support.laserfiche.com/kb/1014425/list-of-changes-for-the-february-15-2023-laserfiche-ios-and-android-app",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
   {
-    "id": "support-promoted-1014555-mobile-mobile-list-of-changes-for-the-january-31-list-of-changes-for-the-january-31-2025-laserfiche-app",
-    "code": "MOBILE-LIST_OF_CHANGES_FOR_THE_JANUARY_31",
-    "message": "List of Changes for the January 31, 2025 Laserfiche App",
-    "product": "Mobile",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the January 31, 2025 Laserfiche App for Mobile. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for the January 31, 2025 Laserfiche App.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for the January 31, 2025 Laserfiche App",
-        "url": "https://support.laserfiche.com/kb/1014555/list-of-changes-for-the-january-31-2025-laserfiche-app",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014494-mobile-mobile-list-of-changes-for-the-november-3-list-of-changes-for-the-november-3-2023-laserfiche-windows-and-android-app",
-    "code": "MOBILE-LIST_OF_CHANGES_FOR_THE_NOVEMBER_3",
+    "id": "support-promoted-1014494-mobile-mobile-kb-1014494-list-of-changes-for-the-november-3-2023-laserfiche-windows-and-android-app",
+    "code": "MOBILE-KB-1014494",
     "message": "List of Changes for the November 3, 2023 Laserfiche Windows and Android App",
     "product": "Mobile",
     "versions": [
       "Version 10",
       "Version 11"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the November 3, 2023 Laserfiche Windows and Android App for Mobile. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Mobile fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for the November 3, 2023 Laserfiche Windows and Android App.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for the November 3, 2023 Laserfiche Windows and Android App",
         "url": "https://support.laserfiche.com/kb/1014494/list-of-changes-for-the-november-3-2023-laserfiche-windows-and-android-app",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
   {
-    "id": "support-promoted-1014541-mobile-mobile-list-of-changes-for-the-september-list-of-changes-for-the-september-6-2024-laserfiche-app",
-    "code": "MOBILE-LIST_OF_CHANGES_FOR_THE_SEPTEMBER_",
+    "id": "support-promoted-1014541-mobile-mobile-kb-1014541-list-of-changes-for-the-september-6-2024-laserfiche-app",
+    "code": "MOBILE-KB-1014541",
     "message": "List of Changes for the September 6, 2024 Laserfiche App",
     "product": "Mobile",
     "versions": [
@@ -8598,30 +9069,103 @@ export const supportChromePromotedErrorEntries = [
       "Version 11",
       "Version 12"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the September 6, 2024 Laserfiche App for Mobile. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Mobile fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for the September 6, 2024 Laserfiche App.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for the September 6, 2024 Laserfiche App",
         "url": "https://support.laserfiche.com/kb/1014541/list-of-changes-for-the-september-6-2024-laserfiche-app",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014555-mobile-mobile-kb-1014555-list-of-changes-for-the-january-31-2025-laserfiche-app",
+    "code": "MOBILE-KB-1014555",
+    "message": "List of Changes for the January 31, 2025 Laserfiche App",
+    "product": "Mobile",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Mobile fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for the January 31, 2025 Laserfiche App.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for the January 31, 2025 Laserfiche App",
+        "url": "https://support.laserfiche.com/kb/1014555/list-of-changes-for-the-january-31-2025-laserfiche-app",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014452-office-integration-office-kb-1014452-list-of-changes-for-laserfiche-office-integration-11-may-2023-update",
+    "code": "OFFICE-KB-1014452",
+    "message": "List of Changes for Laserfiche Office Integration 11 May 2023 Update",
+    "product": "Office Integration",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Office Integration fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Office Integration 11 May 2023 Update.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Office Integration 11 May 2023 Update",
+        "url": "https://support.laserfiche.com/kb/1014452/list-of-changes-for-laserfiche-office-integration-11-may-2023-update",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
@@ -8656,41 +9200,6 @@ export const supportChromePromotedErrorEntries = [
         "sourceType": "support-knowledge-base",
         "title": "Laserfiche Office Integration 11",
         "url": "https://support.laserfiche.com/kb/1014488/laserfiche-office-integration-11",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014452-office-integration-office-list-of-changes-for-laserfiche-off-list-of-changes-for-laserfiche-office-integration-11-may-2023-update",
-    "code": "OFFICE-LIST_OF_CHANGES_FOR_LASERFICHE_OFF",
-    "message": "List of Changes for Laserfiche Office Integration 11 May 2023 Update",
-    "product": "Office Integration",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Office Integration 11 May 2023 Update for Office Integration. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Office Integration 11 May 2023 Update.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Office Integration 11 May 2023 Update",
-        "url": "https://support.laserfiche.com/kb/1014452/list-of-changes-for-laserfiche-office-integration-11-may-2023-update",
         "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
       }
     ]
@@ -8818,30 +9327,30 @@ export const supportChromePromotedErrorEntries = [
       "Version 9",
       "Version 10"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Quick Fields 10.3 Hotfix 1014204 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Quick Fields fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for Quick Fields 10.3 Hotfix 1014204.",
       "Reported code or token: LFSO103."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for Quick Fields 10.3 Hotfix 1014204",
         "url": "https://support.laserfiche.com/kb/1014204/list-of-changes-for-quick-fields-10-3-hotfix-1014204",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
@@ -8958,212 +9467,247 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
-    "id": "support-promoted-1013824-quick-fields-qf-list-of-changes-for-quick-fields-1-list-of-changes-for-quick-fields-10-1",
-    "code": "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1",
-    "message": "List of Changes for Quick Fields 10.1",
+    "id": "support-promoted-1013756-quick-fields-qf-kb-1013756-release-notes-for-quick-fields-10",
+    "code": "QF-KB-1013756",
+    "message": "Release Notes for Quick Fields 10",
     "product": "Quick Fields",
     "versions": [
       "Version 10"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Quick Fields 10.1 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Quick Fields fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
-      "The linked Support KB article reports: List of Changes for Quick Fields 10.1.",
+      "The linked Support KB article reports: Release Notes for Quick Fields 10.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Quick Fields 10.1",
-        "url": "https://support.laserfiche.com/kb/1013824/list-of-changes-for-quick-fields-10-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "title": "Release Notes for Quick Fields 10",
+        "url": "https://support.laserfiche.com/kb/1013756/release-notes-for-quick-fields-10",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
   {
-    "id": "support-promoted-1013788-quick-fields-qf-list-of-changes-for-quick-fields-1-list-of-changes-for-quick-fields-10-update-1",
-    "code": "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1",
+    "id": "support-promoted-1013788-quick-fields-qf-kb-1013788-list-of-changes-for-quick-fields-10-update-1",
+    "code": "QF-KB-1013788",
     "message": "List of Changes for Quick Fields 10 Update 1",
     "product": "Quick Fields",
     "versions": [
       "Version 10"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Quick Fields 10 Update 1 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Quick Fields fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for Quick Fields 10 Update 1.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for Quick Fields 10 Update 1",
         "url": "https://support.laserfiche.com/kb/1013788/list-of-changes-for-quick-fields-10-update-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
   {
-    "id": "support-promoted-1014105-quick-fields-qf-list-of-changes-for-quick-fields-1-list-of-changes-for-quick-fields-10-3-hotfix-1014105",
-    "code": "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1",
-    "message": "List of Changes for Quick Fields 10.3 Hotfix 1014105",
+    "id": "support-promoted-1013824-quick-fields-qf-kb-1013824-list-of-changes-for-quick-fields-10-1",
+    "code": "QF-KB-1013824",
+    "message": "List of Changes for Quick Fields 10.1",
     "product": "Quick Fields",
     "versions": [
       "Version 10"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Quick Fields 10.3 Hotfix 1014105 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Quick Fields fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
-      "The linked Support KB article reports: List of Changes for Quick Fields 10.3 Hotfix 1014105.",
+      "The linked Support KB article reports: List of Changes for Quick Fields 10.1.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Quick Fields 10.3 Hotfix 1014105",
-        "url": "https://support.laserfiche.com/kb/1014105/list-of-changes-for-quick-fields-10-3-hotfix-1014105",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "title": "List of Changes for Quick Fields 10.1",
+        "url": "https://support.laserfiche.com/kb/1013824/list-of-changes-for-quick-fields-10-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
   {
-    "id": "support-promoted-1013952-quick-fields-qf-list-of-changes-for-quick-fields-1-list-of-changes-for-quick-fields-10-3-hotfix-1013952",
-    "code": "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1",
-    "message": "List of Changes for Quick Fields 10.3 Hotfix 1013952",
-    "product": "Quick Fields",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Quick Fields 10.3 Hotfix 1013952 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Quick Fields 10.3 Hotfix 1013952.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Quick Fields 10.3 Hotfix 1013952",
-        "url": "https://support.laserfiche.com/kb/1013952/list-of-changes-for-quick-fields-10-3-hotfix-1013952",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013873-quick-fields-qf-list-of-changes-for-quick-fields-1-list-of-changes-for-quick-fields-10-1-hotfix-1013873",
-    "code": "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1",
+    "id": "support-promoted-1013873-quick-fields-qf-kb-1013873-list-of-changes-for-quick-fields-10-1-hotfix-1013873",
+    "code": "QF-KB-1013873",
     "message": "List of Changes for Quick Fields 10.1 Hotfix 1013873",
     "product": "Quick Fields",
     "versions": [
       "Version 10"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Quick Fields 10.1 Hotfix 1013873 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Quick Fields fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for Quick Fields 10.1 Hotfix 1013873.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for Quick Fields 10.1 Hotfix 1013873",
         "url": "https://support.laserfiche.com/kb/1013873/list-of-changes-for-quick-fields-10-1-hotfix-1013873",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
   {
-    "id": "support-promoted-1014141-quick-fields-qf-list-of-changes-for-quick-fields-1-list-of-changes-for-quick-fields-10-3-hotfix-1014141",
-    "code": "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1",
+    "id": "support-promoted-1013952-quick-fields-qf-kb-1013952-list-of-changes-for-quick-fields-10-3-hotfix-1013952",
+    "code": "QF-KB-1013952",
+    "message": "List of Changes for Quick Fields 10.3 Hotfix 1013952",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Quick Fields fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Quick Fields 10.3 Hotfix 1013952.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Quick Fields 10.3 Hotfix 1013952",
+        "url": "https://support.laserfiche.com/kb/1013952/list-of-changes-for-quick-fields-10-3-hotfix-1013952",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014105-quick-fields-qf-kb-1014105-list-of-changes-for-quick-fields-10-3-hotfix-1014105",
+    "code": "QF-KB-1014105",
+    "message": "List of Changes for Quick Fields 10.3 Hotfix 1014105",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Quick Fields fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Quick Fields 10.3 Hotfix 1014105.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Quick Fields 10.3 Hotfix 1014105",
+        "url": "https://support.laserfiche.com/kb/1014105/list-of-changes-for-quick-fields-10-3-hotfix-1014105",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014141-quick-fields-qf-kb-1014141-list-of-changes-for-quick-fields-10-3-hotfix-1014141",
+    "code": "QF-KB-1014141",
     "message": "List of Changes for Quick Fields 10.3 Hotfix 1014141",
     "product": "Quick Fields",
     "versions": [
       "Version 10"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Quick Fields 10.3 Hotfix 1014141 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Quick Fields fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for Quick Fields 10.3 Hotfix 1014141.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for Quick Fields 10.3 Hotfix 1014141",
         "url": "https://support.laserfiche.com/kb/1014141/list-of-changes-for-quick-fields-10-3-hotfix-1014141",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
@@ -9236,41 +9780,6 @@ export const supportChromePromotedErrorEntries = [
         "sourceType": "support-knowledge-base",
         "title": "Release and Hotfix Information for Laserfiche Quick Fields 11",
         "url": "https://support.laserfiche.com/kb/1014432/release-and-hotfix-information-for-laserfiche-quick-fields-11",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013756-quick-fields-qf-release-notes-for-quick-fields-10-release-notes-for-quick-fields-10",
-    "code": "QF-RELEASE_NOTES_FOR_QUICK_FIELDS_10",
-    "message": "Release Notes for Quick Fields 10",
-    "product": "Quick Fields",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Quick Fields 10 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Quick Fields 10.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Quick Fields 10",
-        "url": "https://support.laserfiche.com/kb/1013756/release-notes-for-quick-fields-10",
         "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
       }
     ]
@@ -9577,37 +10086,146 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
-    "id": "support-promoted-1013798-snapshot-snapshot-list-of-changes-for-laserfiche-10-list-of-changes-for-laserfiche-10-1-update-2",
-    "code": "SNAPSHOT-LIST_OF_CHANGES_FOR_LASERFICHE_10_",
+    "id": "support-promoted-1013055-snapshot-snapshot-kb-1013055-release-notes-for-laserfiche-9-0-0",
+    "code": "SNAPSHOT-KB-1013055",
+    "message": "Release Notes for Laserfiche 9.0.0.",
+    "product": "Snapshot",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Snapshot fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 9.0.0..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 9.0.0.",
+        "url": "https://support.laserfiche.com/kb/1013055/release-notes-for-laserfiche-9-0-0-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013131-snapshot-snapshot-kb-1013131-release-notes-for-laserfiche-9-0-1",
+    "code": "SNAPSHOT-KB-1013131",
+    "message": "Release Notes for Laserfiche 9.0.1",
+    "product": "Snapshot",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Snapshot fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 9.0.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 9.0.1",
+        "url": "https://support.laserfiche.com/kb/1013131/release-notes-for-laserfiche-9-0-1",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013197-snapshot-snapshot-kb-1013197-release-notes-for-laserfiche-9-0-2",
+    "code": "SNAPSHOT-KB-1013197",
+    "message": "Release Notes for Laserfiche 9.0.2.",
+    "product": "Snapshot",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Snapshot fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 9.0.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 9.0.2.",
+        "url": "https://support.laserfiche.com/kb/1013197/release-notes-for-laserfiche-9-0-2-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013798-snapshot-snapshot-kb-1013798-list-of-changes-for-laserfiche-10-1-update-2",
+    "code": "SNAPSHOT-KB-1013798",
     "message": "List of Changes for Laserfiche 10.1 Update 2.",
     "product": "Snapshot",
     "versions": [
       "Version 10"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche 10.1 Update 2. for Snapshot. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Snapshot fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for Laserfiche 10.1 Update 2..",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for Laserfiche 10.1 Update 2.",
         "url": "https://support.laserfiche.com/kb/1013798/list-of-changes-for-laserfiche-10-1-update-2-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
@@ -9837,317 +10455,422 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
-    "id": "support-promoted-1014025-web-client-webclient-list-of-changes-for-laserfiche-10-list-of-changes-for-laserfiche-10-4",
-    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_10_",
+    "id": "support-promoted-1013760-web-client-webclient-kb-1013760-release-notes-for-laserfiche-10-1",
+    "code": "WEBCLIENT-KB-1013760",
+    "message": "Release Notes for Laserfiche 10.1.",
+    "product": "Web Client",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Web Client fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.1.",
+        "url": "https://support.laserfiche.com/kb/1013760/release-notes-for-laserfiche-10-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013761-web-client-webclient-kb-1013761-list-of-changes-for-laserfiche-10-1",
+    "code": "WEBCLIENT-KB-1013761",
+    "message": "List of Changes for Laserfiche 10.1.",
+    "product": "Web Client",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Web Client fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche 10.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche 10.1.",
+        "url": "https://support.laserfiche.com/kb/1013761/list-of-changes-for-laserfiche-10-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014025-web-client-webclient-kb-1014025-list-of-changes-for-laserfiche-10-4",
+    "code": "WEBCLIENT-KB-1014025",
     "message": "List of Changes for Laserfiche 10.4",
     "product": "Web Client",
     "versions": [
       "Version 10"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche 10.4 for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Web Client fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for Laserfiche 10.4.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for Laserfiche 10.4",
         "url": "https://support.laserfiche.com/kb/1014025/list-of-changes-for-laserfiche-10-4",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
   {
-    "id": "support-promoted-1014544-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-9",
-    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
-    "message": "List of Changes for Laserfiche Web Client 11 Update 9",
+    "id": "support-promoted-1014200-web-client-webclient-kb-1014200-software-versions-and-fixes-included-in-the-laserfiche-10-4-3-download-package",
+    "code": "WEBCLIENT-KB-1014200",
+    "message": "Software versions and fixes included in the Laserfiche 10.4.3 Download Package",
     "product": "Web Client",
     "versions": [
-      "Version 11"
+      "Version 10"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 9 for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Web Client fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 9.",
+      "The linked Support KB article reports: Software versions and fixes included in the Laserfiche 10.4.3 Download Package.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Web Client 11 Update 9",
-        "url": "https://support.laserfiche.com/kb/1014544/list-of-changes-for-laserfiche-web-client-11-update-9",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "title": "Software versions and fixes included in the Laserfiche 10.4.3 Download Package",
+        "url": "https://support.laserfiche.com/kb/1014200/software-versions-and-fixes-included-in-the-laserfiche-10-4-3-download-package",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
   {
-    "id": "support-promoted-1014559-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-10",
-    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
-    "message": "List of Changes for Laserfiche Web Client 11 Update 10",
-    "product": "Web Client",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 10 for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 10.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Web Client 11 Update 10",
-        "url": "https://support.laserfiche.com/kb/1014559/list-of-changes-for-laserfiche-web-client-11-update-10",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014502-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-8",
-    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
-    "message": "List of Changes for Laserfiche Web Client 11 Update 8",
-    "product": "Web Client",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 8 for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 8.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Web Client 11 Update 8",
-        "url": "https://support.laserfiche.com/kb/1014502/list-of-changes-for-laserfiche-web-client-11-update-8",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014483-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-7",
-    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
-    "message": "List of Changes for Laserfiche Web Client 11 Update 7",
-    "product": "Web Client",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 7 for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 7.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Web Client 11 Update 7",
-        "url": "https://support.laserfiche.com/kb/1014483/list-of-changes-for-laserfiche-web-client-11-update-7",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014446-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-6",
-    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
-    "message": "List of Changes for Laserfiche Web Client 11 Update 6.",
-    "product": "Web Client",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 6. for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 6..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Web Client 11 Update 6.",
-        "url": "https://support.laserfiche.com/kb/1014446/list-of-changes-for-laserfiche-web-client-11-update-6-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014441-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-5",
-    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
-    "message": "List of Changes for Laserfiche Web Client 11 Update 5.",
-    "product": "Web Client",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 5. for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 5..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Web Client 11 Update 5.",
-        "url": "https://support.laserfiche.com/kb/1014441/list-of-changes-for-laserfiche-web-client-11-update-5-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014317-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-3",
-    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
-    "message": "List of Changes for Laserfiche Web Client 11 Update 3",
-    "product": "Web Client",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 3 for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Web Client 11 Update 3",
-        "url": "https://support.laserfiche.com/kb/1014317/list-of-changes-for-laserfiche-web-client-11-update-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014300-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-2",
-    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
+    "id": "support-promoted-1014300-web-client-webclient-kb-1014300-list-of-changes-for-laserfiche-web-client-11-update-2",
+    "code": "WEBCLIENT-KB-1014300",
     "message": "List of Changes for Laserfiche Web Client 11 Update 2",
     "product": "Web Client",
     "versions": [
       "Version 11"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 2 for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Web Client fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 2.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for Laserfiche Web Client 11 Update 2",
         "url": "https://support.laserfiche.com/kb/1014300/list-of-changes-for-laserfiche-web-client-11-update-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014317-web-client-webclient-kb-1014317-list-of-changes-for-laserfiche-web-client-11-update-3",
+    "code": "WEBCLIENT-KB-1014317",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 3",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Web Client fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014317/list-of-changes-for-laserfiche-web-client-11-update-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014441-web-client-webclient-kb-1014441-list-of-changes-for-laserfiche-web-client-11-update-5",
+    "code": "WEBCLIENT-KB-1014441",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 5.",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Web Client fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 5..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 5.",
+        "url": "https://support.laserfiche.com/kb/1014441/list-of-changes-for-laserfiche-web-client-11-update-5-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014446-web-client-webclient-kb-1014446-list-of-changes-for-laserfiche-web-client-11-update-6",
+    "code": "WEBCLIENT-KB-1014446",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 6.",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Web Client fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 6..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 6.",
+        "url": "https://support.laserfiche.com/kb/1014446/list-of-changes-for-laserfiche-web-client-11-update-6-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014483-web-client-webclient-kb-1014483-list-of-changes-for-laserfiche-web-client-11-update-7",
+    "code": "WEBCLIENT-KB-1014483",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 7",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Web Client fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 7.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 7",
+        "url": "https://support.laserfiche.com/kb/1014483/list-of-changes-for-laserfiche-web-client-11-update-7",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014502-web-client-webclient-kb-1014502-list-of-changes-for-laserfiche-web-client-11-update-8",
+    "code": "WEBCLIENT-KB-1014502",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 8",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Web Client fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 8.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 8",
+        "url": "https://support.laserfiche.com/kb/1014502/list-of-changes-for-laserfiche-web-client-11-update-8",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014544-web-client-webclient-kb-1014544-list-of-changes-for-laserfiche-web-client-11-update-9",
+    "code": "WEBCLIENT-KB-1014544",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 9",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Web Client fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 9.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 9",
+        "url": "https://support.laserfiche.com/kb/1014544/list-of-changes-for-laserfiche-web-client-11-update-9",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014559-web-client-webclient-kb-1014559-list-of-changes-for-laserfiche-web-client-11-update-10",
+    "code": "WEBCLIENT-KB-1014559",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 10",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Web Client fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 10.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 10",
+        "url": "https://support.laserfiche.com/kb/1014559/list-of-changes-for-laserfiche-web-client-11-update-10",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
@@ -10182,41 +10905,6 @@ export const supportChromePromotedErrorEntries = [
         "sourceType": "support-knowledge-base",
         "title": "Online Laserfiche Product Help Files For Previous Product Versions.",
         "url": "https://support.laserfiche.com/kb/1013073/online-laserfiche-product-help-files-for-previous-product-versions-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014200-web-client-webclient-software-versions-and-fixes-includ-software-versions-and-fixes-included-in-the-laserfiche-10-4-3-download-package",
-    "code": "WEBCLIENT-SOFTWARE_VERSIONS_AND_FIXES_INCLUD",
-    "message": "Software versions and fixes included in the Laserfiche 10.4.3 Download Package",
-    "product": "Web Client",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Software versions and fixes included in the Laserfiche 10.4.3 Download Package for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Software versions and fixes included in the Laserfiche 10.4.3 Download Package.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Software versions and fixes included in the Laserfiche 10.4.3 Download Package",
-        "url": "https://support.laserfiche.com/kb/1014200/software-versions-and-fixes-included-in-the-laserfiche-10-4-3-download-package",
         "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
       }
     ]
@@ -10406,6 +11094,120 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
+    "id": "support-promoted-1012805-weblink-weblink-changing-the-number-of-context-hit-changing-the-number-of-context-hits-displayed-in-weblink",
+    "code": "WEBLINK-CHANGING_THE_NUMBER_OF_CONTEXT_HIT",
+    "message": "Changing the Number of Context Hits Displayed in WebLink.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Changing the Number of Context Hits Displayed in WebLink. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Changing the Number of Context Hits Displayed in WebLink..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Changing the Number of Context Hits Displayed in WebLink.",
+        "url": "https://support.laserfiche.com/kb/1012805/changing-the-number-of-context-hits-displayed-in-weblink-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012775-weblink-weblink-changing-the-number-of-context-hit-changing-the-number-of-context-hits-displayed-on-weblink-8-s-search-results-page",
+    "code": "WEBLINK-CHANGING_THE_NUMBER_OF_CONTEXT_HIT",
+    "message": "Changing the Number of Context Hits Displayed on WebLink 8's Search Results Page.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Changing the Number of Context Hits Displayed on WebLink 8's Search Results Page. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Changing the Number of Context Hits Displayed on WebLink 8's Search Results Page..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Changing the Number of Context Hits Displayed on WebLink 8's Search Results Page.",
+        "url": "https://support.laserfiche.com/kb/1012775/changing-the-number-of-context-hits-displayed-on-weblink-8s-search-results-page-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011186-weblink-weblink-configuring-weblink-to-be-firewall-configuring-weblink-to-be-firewall-compatible",
+    "code": "WEBLINK-CONFIGURING_WEBLINK_TO_BE_FIREWALL",
+    "message": "Configuring WebLink to be Firewall Compatible.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Configuring WebLink to be Firewall Compatible. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Configuring WebLink to be Firewall Compatible..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Configuring WebLink to be Firewall Compatible.",
+        "url": "https://support.laserfiche.com/kb/1011186/configuring-weblink-to-be-firewall-compatible-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
     "id": "support-promoted-1013986-weblink-weblink-displaying-more-context-hits-when-displaying-more-context-hits-when-searching-in-weblink-10",
     "code": "WEBLINK-DISPLAYING_MORE_CONTEXT_HITS_WHEN_",
     "message": "Displaying more context hits when searching in WebLink 10",
@@ -10478,6 +11280,624 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
+    "id": "support-promoted-1000550-weblink-weblink-issues-fixed-by-weblink-6-15-issues-fixed-by-weblink-6-15",
+    "code": "WEBLINK-ISSUES_FIXED_BY_WEBLINK_6_15",
+    "message": "Issues Fixed by WebLink 6.15.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Issues Fixed by WebLink 6.15. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Issues Fixed by WebLink 6.15..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Issues Fixed by WebLink 6.15.",
+        "url": "https://support.laserfiche.com/kb/1000550",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1001001-weblink-weblink-kb-1001001-list-of-changes-for-weblink-7-0-2",
+    "code": "WEBLINK-KB-1001001",
+    "message": "List of Changes for WebLink 7.0.2.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for WebLink 7.0.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for WebLink 7.0.2.",
+        "url": "https://support.laserfiche.com/kb/1001001",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012795-weblink-weblink-kb-1012795-list-of-changes-for-laserfiche-weblink-8-2",
+    "code": "WEBLINK-KB-1012795",
+    "message": "List of Changes for Laserfiche WebLink 8.2",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 8.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche WebLink 8.2",
+        "url": "https://support.laserfiche.com/kb/1012795/list-of-changes-for-laserfiche-weblink-8-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012796-weblink-weblink-kb-1012796-release-notes-for-laserfiche-weblink-8-2",
+    "code": "WEBLINK-KB-1012796",
+    "message": "Release Notes for Laserfiche WebLink 8.2",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche WebLink 8.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche WebLink 8.2",
+        "url": "https://support.laserfiche.com/kb/1012796",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012940-weblink-weblink-kb-1012940-release-notes-for-weblink-8-2-1",
+    "code": "WEBLINK-KB-1012940",
+    "message": "Release Notes for WebLink 8.2.1.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for WebLink 8.2.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for WebLink 8.2.1.",
+        "url": "https://support.laserfiche.com/kb/1012940/release-notes-for-weblink-8-2-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013209-weblink-weblink-kb-1013209-release-notes-for-weblink-8-2-2",
+    "code": "WEBLINK-KB-1013209",
+    "message": "Release Notes for WebLink 8.2.2.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for WebLink 8.2.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for WebLink 8.2.2.",
+        "url": "https://support.laserfiche.com/kb/1013209/release-notes-for-weblink-8-2-2-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013923-weblink-weblink-kb-1013923-list-of-changes-for-weblink-10",
+    "code": "WEBLINK-KB-1013923",
+    "message": "List of Changes for WebLink 10",
+    "product": "WebLink",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for WebLink 10.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for WebLink 10",
+        "url": "https://support.laserfiche.com/kb/1013923/list-of-changes-for-weblink-10",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013953-weblink-weblink-kb-1013953-list-of-changes-for-weblink-10-1",
+    "code": "WEBLINK-KB-1013953",
+    "message": "List of Changes for WebLink 10.1.",
+    "product": "WebLink",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for WebLink 10.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for WebLink 10.1.",
+        "url": "https://support.laserfiche.com/kb/1013953/list-of-changes-for-weblink-10-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014123-weblink-weblink-kb-1014123-list-of-changes-for-weblink-10-2",
+    "code": "WEBLINK-KB-1014123",
+    "message": "List of Changes for WebLink 10.2",
+    "product": "WebLink",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for WebLink 10.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for WebLink 10.2",
+        "url": "https://support.laserfiche.com/kb/1014123",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014124-weblink-weblink-kb-1014124-release-notes-for-weblink-10-2",
+    "code": "WEBLINK-KB-1014124",
+    "message": "Release Notes for WebLink 10.2",
+    "product": "WebLink",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for WebLink 10.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for WebLink 10.2",
+        "url": "https://support.laserfiche.com/kb/1014124/release-notes-for-weblink-10-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014330-weblink-weblink-kb-1014330-list-of-changes-for-weblink-11",
+    "code": "WEBLINK-KB-1014330",
+    "message": "List of Changes for WebLink 11",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for WebLink 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for WebLink 11",
+        "url": "https://support.laserfiche.com/kb/1014330/list-of-changes-for-weblink-11",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014438-weblink-weblink-kb-1014438-list-of-changes-for-laserfiche-weblink-11-update-1",
+    "code": "WEBLINK-KB-1014438",
+    "message": "List of Changes for Laserfiche WebLink 11 Update 1.",
+    "product": "WebLink",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche WebLink 11 Update 1.",
+        "url": "https://support.laserfiche.com/kb/1014438/list-of-changes-for-laserfiche-weblink-11-update-1-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014456-weblink-weblink-kb-1014456-list-of-changes-for-laserfiche-weblink-11-update-2",
+    "code": "WEBLINK-KB-1014456",
+    "message": "List of Changes for Laserfiche WebLink 11 Update 2.",
+    "product": "WebLink",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche WebLink 11 Update 2.",
+        "url": "https://support.laserfiche.com/kb/1014456/list-of-changes-for-laserfiche-weblink-11-update-2-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014465-weblink-weblink-kb-1014465-list-of-changes-for-laserfiche-weblink-11-update-3",
+    "code": "WEBLINK-KB-1014465",
+    "message": "List of Changes for Laserfiche WebLink 11 Update 3.",
+    "product": "WebLink",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 3..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche WebLink 11 Update 3.",
+        "url": "https://support.laserfiche.com/kb/1014465/list-of-changes-for-laserfiche-weblink-11-update-3-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014574-weblink-weblink-kb-1014574-list-of-changes-for-laserfiche-weblink-11-update-5",
+    "code": "WEBLINK-KB-1014574",
+    "message": "List of Changes for Laserfiche WebLink 11 Update 5.",
+    "product": "WebLink",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 5..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche WebLink 11 Update 5.",
+        "url": "https://support.laserfiche.com/kb/1014574/list-of-changes-for-laserfiche-weblink-11-update-5-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014577-weblink-weblink-kb-1014577-list-of-changes-for-laserfiche-weblink-11-update-6",
+    "code": "WEBLINK-KB-1014577",
+    "message": "List of Changes for Laserfiche WebLink 11 Update 6.",
+    "product": "WebLink",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a WebLink fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 6..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche WebLink 11 Update 6.",
+        "url": "https://support.laserfiche.com/kb/1014577/list-of-changes-for-laserfiche-weblink-11-update-6-",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1001002-weblink-weblink-known-issues-with-weblink-7-0-2-known-issues-with-weblink-7-0-2",
+    "code": "WEBLINK-KNOWN_ISSUES_WITH_WEBLINK_7_0_2",
+    "message": "Known Issues with WebLink 7.0.2.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Known Issues with WebLink 7.0.2. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Known Issues with WebLink 7.0.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Known Issues with WebLink 7.0.2.",
+        "url": "https://support.laserfiche.com/kb/1001002/known-issues-with-weblink-7-0-2-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
     "id": "support-promoted-1013988-weblink-weblink-laserfiche-web-client-and-weblink-laserfiche-web-client-and-weblink-10-and-higher-technical-support-checklist",
     "code": "WEBLINK-LASERFICHE_WEB_CLIENT_AND_WEBLINK_",
     "message": "Laserfiche Web Client and WebLink 10 and Higher Technical Support Checklist.",
@@ -10513,326 +11933,9 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
-    "id": "support-promoted-1014456-weblink-weblink-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-weblink-11-update-2",
-    "code": "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
-    "message": "List of Changes for Laserfiche WebLink 11 Update 2.",
-    "product": "WebLink",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche WebLink 11 Update 2. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 2..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche WebLink 11 Update 2.",
-        "url": "https://support.laserfiche.com/kb/1014456/list-of-changes-for-laserfiche-weblink-11-update-2-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014577-weblink-weblink-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-weblink-11-update-6",
-    "code": "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
-    "message": "List of Changes for Laserfiche WebLink 11 Update 6.",
-    "product": "WebLink",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche WebLink 11 Update 6. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 6..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche WebLink 11 Update 6.",
-        "url": "https://support.laserfiche.com/kb/1014577/list-of-changes-for-laserfiche-weblink-11-update-6-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014574-weblink-weblink-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-weblink-11-update-5",
-    "code": "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
-    "message": "List of Changes for Laserfiche WebLink 11 Update 5.",
-    "product": "WebLink",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche WebLink 11 Update 5. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 5..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche WebLink 11 Update 5.",
-        "url": "https://support.laserfiche.com/kb/1014574/list-of-changes-for-laserfiche-weblink-11-update-5-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014465-weblink-weblink-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-weblink-11-update-3",
-    "code": "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
-    "message": "List of Changes for Laserfiche WebLink 11 Update 3.",
-    "product": "WebLink",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche WebLink 11 Update 3. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 3..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche WebLink 11 Update 3.",
-        "url": "https://support.laserfiche.com/kb/1014465/list-of-changes-for-laserfiche-weblink-11-update-3-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014438-weblink-weblink-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-weblink-11-update-1",
-    "code": "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
-    "message": "List of Changes for Laserfiche WebLink 11 Update 1.",
-    "product": "WebLink",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche WebLink 11 Update 1. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 1..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche WebLink 11 Update 1.",
-        "url": "https://support.laserfiche.com/kb/1014438/list-of-changes-for-laserfiche-weblink-11-update-1-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013923-weblink-weblink-list-of-changes-for-weblink-10-list-of-changes-for-weblink-10",
-    "code": "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_10",
-    "message": "List of Changes for WebLink 10",
-    "product": "WebLink",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for WebLink 10 for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for WebLink 10.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for WebLink 10",
-        "url": "https://support.laserfiche.com/kb/1013923/list-of-changes-for-weblink-10",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013953-weblink-weblink-list-of-changes-for-weblink-10-1-list-of-changes-for-weblink-10-1",
-    "code": "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_10_1",
-    "message": "List of Changes for WebLink 10.1.",
-    "product": "WebLink",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for WebLink 10.1. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for WebLink 10.1..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for WebLink 10.1.",
-        "url": "https://support.laserfiche.com/kb/1013953/list-of-changes-for-weblink-10-1-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014123-weblink-weblink-list-of-changes-for-weblink-10-2-list-of-changes-for-weblink-10-2",
-    "code": "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_10_2",
-    "message": "List of Changes for WebLink 10.2",
-    "product": "WebLink",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for WebLink 10.2 for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for WebLink 10.2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for WebLink 10.2",
-        "url": "https://support.laserfiche.com/kb/1014123",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014330-weblink-weblink-list-of-changes-for-weblink-11-list-of-changes-for-weblink-11",
-    "code": "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_11",
-    "message": "List of Changes for WebLink 11",
-    "product": "WebLink",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for WebLink 11 for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for WebLink 11.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for WebLink 11",
-        "url": "https://support.laserfiche.com/kb/1014330/list-of-changes-for-weblink-11",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1012796-weblink-weblink-release-notes-for-laserfiche-webli-release-notes-for-laserfiche-weblink-8-2",
-    "code": "WEBLINK-RELEASE_NOTES_FOR_LASERFICHE_WEBLI",
-    "message": "Release Notes for Laserfiche WebLink 8.2",
+    "id": "support-promoted-1011627-weblink-weblink-limiting-connections-to-weblink-or-limiting-connections-to-weblink-or-web-access-through-iis",
+    "code": "WEBLINK-LIMITING_CONNECTIONS_TO_WEBLINK_OR",
+    "message": "Limiting Connections to WebLink or Web Access Through IIS.",
     "product": "WebLink",
     "versions": [
       "Version 9",
@@ -10843,9 +11946,9 @@ export const supportChromePromotedErrorEntries = [
     "confidence": "medium",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche WebLink 8.2 for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base article reports Limiting Connections to WebLink or Web Access Through IIS. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
     "symptoms": [
-      "The linked Support KB article reports: Release Notes for Laserfiche WebLink 8.2.",
+      "The linked Support KB article reports: Limiting Connections to WebLink or Web Access Through IIS..",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
@@ -10853,7 +11956,7 @@ export const supportChromePromotedErrorEntries = [
     ],
     "likelyFixes": [
       "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
       "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
     ],
     "validationStatus": "reviewed-diagnostic",
@@ -10861,16 +11964,16 @@ export const supportChromePromotedErrorEntries = [
     "sources": [
       {
         "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Laserfiche WebLink 8.2",
-        "url": "https://support.laserfiche.com/kb/1012796",
+        "title": "Limiting Connections to WebLink or Web Access Through IIS.",
+        "url": "https://support.laserfiche.com/kb/1011627/limiting-connections-to-weblink-or-web-access-through-iis-",
         "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
       }
     ]
   },
   {
-    "id": "support-promoted-1012940-weblink-weblink-release-notes-for-weblink-8-2-1-release-notes-for-weblink-8-2-1",
-    "code": "WEBLINK-RELEASE_NOTES_FOR_WEBLINK_8_2_1",
-    "message": "Release Notes for WebLink 8.2.1.",
+    "id": "support-promoted-1011830-weblink-weblink-pdf-files-generated-by-weblink-use-pdf-files-generated-by-weblink-use-the-same-resolution-as-the-scanned-images",
+    "code": "WEBLINK-PDF_FILES_GENERATED_BY_WEBLINK_USE",
+    "message": "PDF Files Generated by WebLink use the Same Resolution as the Scanned Images.",
     "product": "WebLink",
     "versions": [
       "Version 9",
@@ -10881,9 +11984,9 @@ export const supportChromePromotedErrorEntries = [
     "confidence": "medium",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for WebLink 8.2.1. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base article reports PDF Files Generated by WebLink use the Same Resolution as the Scanned Images. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
     "symptoms": [
-      "The linked Support KB article reports: Release Notes for WebLink 8.2.1..",
+      "The linked Support KB article reports: PDF Files Generated by WebLink use the Same Resolution as the Scanned Images..",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
@@ -10891,7 +11994,7 @@ export const supportChromePromotedErrorEntries = [
     ],
     "likelyFixes": [
       "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
       "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
     ],
     "validationStatus": "reviewed-diagnostic",
@@ -10899,81 +12002,8 @@ export const supportChromePromotedErrorEntries = [
     "sources": [
       {
         "sourceType": "support-knowledge-base",
-        "title": "Release Notes for WebLink 8.2.1.",
-        "url": "https://support.laserfiche.com/kb/1012940/release-notes-for-weblink-8-2-1-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1013209-weblink-weblink-release-notes-for-weblink-8-2-2-release-notes-for-weblink-8-2-2",
-    "code": "WEBLINK-RELEASE_NOTES_FOR_WEBLINK_8_2_2",
-    "message": "Release Notes for WebLink 8.2.2.",
-    "product": "WebLink",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for WebLink 8.2.2. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for WebLink 8.2.2..",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for WebLink 8.2.2.",
-        "url": "https://support.laserfiche.com/kb/1013209/release-notes-for-weblink-8-2-2-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014124-weblink-weblink-release-notes-for-weblink-10-2-release-notes-for-weblink-10-2",
-    "code": "WEBLINK-RELEASE_NOTES_FOR_WEBLINK_10_2",
-    "message": "Release Notes for WebLink 10.2",
-    "product": "WebLink",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for WebLink 10.2 for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for WebLink 10.2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for WebLink 10.2",
-        "url": "https://support.laserfiche.com/kb/1014124/release-notes-for-weblink-10-2",
+        "title": "PDF Files Generated by WebLink use the Same Resolution as the Scanned Images.",
+        "url": "https://support.laserfiche.com/kb/1011830/pdf-files-generated-by-weblink-use-the-same-resolution-as-the-scanned-images-",
         "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
       }
     ]
@@ -11082,6 +12112,44 @@ export const supportChromePromotedErrorEntries = [
         "sourceType": "support-knowledge-base",
         "title": "WebLink Error Code Format.",
         "url": "https://support.laserfiche.com/kb/1000211/weblink-error-code-format-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011234-weblink-weblink-you-cannot-customize-which-columns-you-cannot-customize-which-columns-to-display-when-you-access-weblink-using-localhost-as-t",
+    "code": "WEBLINK-YOU_CANNOT_CUSTOMIZE_WHICH_COLUMNS",
+    "message": "You Cannot Customize Which Columns to Display When You Access WebLink Using \"Localhost\" as the URL.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports You Cannot Customize Which Columns to Display When You Access WebLink Using \"Localhost\" as the URL. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: You Cannot Customize Which Columns to Display When You Access WebLink Using \"Localhost\" as the URL..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "You Cannot Customize Which Columns to Display When You Access WebLink Using \"Localhost\" as the URL.",
+        "url": "https://support.laserfiche.com/kb/1011234/you-cannot-customize-which-columns-to-display-when-you-access-weblink-using-localhost-as-the-url-",
         "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
       }
     ]
@@ -11198,148 +12266,43 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
-    "id": "support-promoted-1013837-workflow-workflow-list-of-changes-for-laserfiche-wor-list-of-changes-for-laserfiche-workflow-10-2-hotfix-1013837",
-    "code": "WORKFLOW-LIST_OF_CHANGES_FOR_LASERFICHE_WOR",
+    "id": "support-promoted-1013837-workflow-workflow-kb-1013837-list-of-changes-for-laserfiche-workflow-10-2-hotfix-1013837",
+    "code": "WORKFLOW-KB-1013837",
     "message": "List of Changes for Laserfiche Workflow 10.2 Hotfix 1013837.",
     "product": "Workflow",
     "versions": [
       "Version 10"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Workflow 10.2 Hotfix 1013837. for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Workflow fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: List of Changes for Laserfiche Workflow 10.2 Hotfix 1013837..",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "List of Changes for Laserfiche Workflow 10.2 Hotfix 1013837.",
         "url": "https://support.laserfiche.com/kb/1013837/list-of-changes-for-laserfiche-workflow-10-2-hotfix-1013837-",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
   {
-    "id": "support-promoted-1014131-workflow-workflow-list-of-changes-for-laserfiche-wor-list-of-changes-for-laserfiche-workflow-10-4-2-update-2",
-    "code": "WORKFLOW-LIST_OF_CHANGES_FOR_LASERFICHE_WOR",
-    "message": "List of Changes for Laserfiche Workflow 10.4.2 Update 2",
-    "product": "Workflow",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Workflow 10.4.2 Update 2 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Workflow 10.4.2 Update 2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Workflow 10.4.2 Update 2",
-        "url": "https://support.laserfiche.com/kb/1014131/list-of-changes-for-laserfiche-workflow-10-4-2-update-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014243-workflow-workflow-list-of-changes-for-laserfiche-wor-list-of-changes-for-laserfiche-workflow-10-4-3",
-    "code": "WORKFLOW-LIST_OF_CHANGES_FOR_LASERFICHE_WOR",
-    "message": "List of Changes for Laserfiche Workflow 10.4.3",
-    "product": "Workflow",
-    "versions": [
-      "Version 10"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Workflow 10.4.3 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Laserfiche Workflow 10.4.3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Laserfiche Workflow 10.4.3",
-        "url": "https://support.laserfiche.com/kb/1014243/list-of-changes-for-laserfiche-workflow-10-4-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014461-workflow-workflow-list-of-changes-for-workflow-11-up-list-of-changes-for-workflow-11-update-3",
-    "code": "WORKFLOW-LIST_OF_CHANGES_FOR_WORKFLOW_11_UP",
-    "message": "List of Changes for Workflow 11 Update 3",
-    "product": "Workflow",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Workflow 11 Update 3 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: List of Changes for Workflow 11 Update 3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "List of Changes for Workflow 11 Update 3",
-        "url": "https://support.laserfiche.com/kb/1014461/list-of-changes-for-workflow-11-update-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014101-workflow-workflow-release-notes-for-laserfiche-workf-release-notes-for-laserfiche-workflow-10-4-2",
-    "code": "WORKFLOW-RELEASE_NOTES_FOR_LASERFICHE_WORKF",
+    "id": "support-promoted-1014101-workflow-workflow-kb-1014101-release-notes-for-laserfiche-workflow-10-4-2",
+    "code": "WORKFLOW-KB-1014101",
     "message": "Release Notes for Laserfiche Workflow 10.4.2",
     "product": "Workflow",
     "versions": [
@@ -11347,107 +12310,141 @@ export const supportChromePromotedErrorEntries = [
       "Version 10",
       "Version 11"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Workflow 10.4.2 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Workflow fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: Release Notes for Laserfiche Workflow 10.4.2.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "Release Notes for Laserfiche Workflow 10.4.2",
         "url": "https://support.laserfiche.com/kb/1014101",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
   {
-    "id": "support-promoted-1014244-workflow-workflow-release-notes-for-laserfiche-workf-release-notes-for-laserfiche-workflow-10-4-3",
-    "code": "WORKFLOW-RELEASE_NOTES_FOR_LASERFICHE_WORKF",
+    "id": "support-promoted-1014131-workflow-workflow-kb-1014131-list-of-changes-for-laserfiche-workflow-10-4-2-update-2",
+    "code": "WORKFLOW-KB-1014131",
+    "message": "List of Changes for Laserfiche Workflow 10.4.2 Update 2",
+    "product": "Workflow",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Workflow fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Workflow 10.4.2 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Workflow 10.4.2 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014131/list-of-changes-for-laserfiche-workflow-10-4-2-update-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014243-workflow-workflow-kb-1014243-list-of-changes-for-laserfiche-workflow-10-4-3",
+    "code": "WORKFLOW-KB-1014243",
+    "message": "List of Changes for Laserfiche Workflow 10.4.3",
+    "product": "Workflow",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Workflow fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Workflow 10.4.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Workflow 10.4.3",
+        "url": "https://support.laserfiche.com/kb/1014243/list-of-changes-for-laserfiche-workflow-10-4-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014244-workflow-workflow-kb-1014244-release-notes-for-laserfiche-workflow-10-4-3",
+    "code": "WORKFLOW-KB-1014244",
     "message": "Release Notes for Laserfiche Workflow 10.4.3",
     "product": "Workflow",
     "versions": [
       "Version 10"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Workflow 10.4.3 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Workflow fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: Release Notes for Laserfiche Workflow 10.4.3.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "Release Notes for Laserfiche Workflow 10.4.3",
         "url": "https://support.laserfiche.com/kb/1014244/release-notes-for-laserfiche-workflow-10-4-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
   {
-    "id": "support-promoted-1014522-workflow-workflow-release-notes-for-the-laserfiche-c-release-notes-for-the-laserfiche-cloud-migration-readiness-assessment-tool",
-    "code": "WORKFLOW-RELEASE_NOTES_FOR_THE_LASERFICHE_C",
-    "message": "Release Notes for the Laserfiche Cloud Migration Readiness Assessment Tool",
-    "product": "Workflow",
-    "versions": [
-      "Version 10",
-      "Version 12"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for the Laserfiche Cloud Migration Readiness Assessment Tool for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for the Laserfiche Cloud Migration Readiness Assessment Tool.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for the Laserfiche Cloud Migration Readiness Assessment Tool",
-        "url": "https://support.laserfiche.com/kb/1014522/release-notes-for-the-laserfiche-cloud-migration-readiness-assessment-tool",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014246-workflow-workflow-release-notes-for-workflow-11-release-notes-for-workflow-11",
-    "code": "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11",
+    "id": "support-promoted-1014246-workflow-workflow-kb-1014246-release-notes-for-workflow-11",
+    "code": "WORKFLOW-KB-1014246",
     "message": "Release Notes for Workflow 11",
     "product": "Workflow",
     "versions": [
@@ -11455,108 +12452,36 @@ export const supportChromePromotedErrorEntries = [
       "Version 10",
       "Version 11"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Workflow 11 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Workflow fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: Release Notes for Workflow 11.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "Release Notes for Workflow 11",
         "url": "https://support.laserfiche.com/kb/1014246/release-notes-for-workflow-11",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
   {
-    "id": "support-promoted-1014462-workflow-workflow-release-notes-for-workflow-11-upda-release-notes-for-workflow-11-update-3",
-    "code": "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11_UPDA",
-    "message": "Release Notes for Workflow 11 Update 3",
-    "product": "Workflow",
-    "versions": [
-      "Version 9",
-      "Version 10",
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Workflow 11 Update 3 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Workflow 11 Update 3.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Workflow 11 Update 3",
-        "url": "https://support.laserfiche.com/kb/1014462/release-notes-for-workflow-11-update-3",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014395-workflow-workflow-release-notes-for-workflow-11-upda-release-notes-for-workflow-11-update-2",
-    "code": "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11_UPDA",
-    "message": "Release Notes for Workflow 11 Update 2",
-    "product": "Workflow",
-    "versions": [
-      "Version 11"
-    ],
-    "confidence": "medium",
-    "fixStatus": "needs-review",
-    "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Workflow 11 Update 2 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
-    "symptoms": [
-      "The linked Support KB article reports: Release Notes for Workflow 11 Update 2.",
-      "No stable numeric error code was extracted from the article title or summary."
-    ],
-    "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
-    ],
-    "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
-    ],
-    "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
-    "sources": [
-      {
-        "sourceType": "support-knowledge-base",
-        "title": "Release Notes for Workflow 11 Update 2",
-        "url": "https://support.laserfiche.com/kb/1014395/release-notes-for-workflow-11-update-2",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
-      }
-    ]
-  },
-  {
-    "id": "support-promoted-1014339-workflow-workflow-release-notes-for-workflow-11-upda-release-notes-for-workflow-11-update-1",
-    "code": "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11_UPDA",
+    "id": "support-promoted-1014339-workflow-workflow-kb-1014339-release-notes-for-workflow-11-update-1",
+    "code": "WORKFLOW-KB-1014339",
     "message": "Release Notes for Workflow 11 Update 1",
     "product": "Workflow",
     "versions": [
@@ -11564,30 +12489,173 @@ export const supportChromePromotedErrorEntries = [
       "Version 10",
       "Version 11"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "fixStatus": "needs-review",
     "reviewedDate": "2026-07-01",
-    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Workflow 11 Update 1 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Workflow fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
     "symptoms": [
       "The linked Support KB article reports: Release Notes for Workflow 11 Update 1.",
       "No stable numeric error code was extracted from the article title or summary."
     ],
     "likelyCauses": [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
     ],
     "likelyFixes": [
-      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
-      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
-      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
     ],
     "validationStatus": "reviewed-diagnostic",
-    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
     "sources": [
       {
         "sourceType": "support-knowledge-base",
         "title": "Release Notes for Workflow 11 Update 1",
         "url": "https://support.laserfiche.com/kb/1014339/release-notes-for-workflow-11-update-1",
-        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014395-workflow-workflow-kb-1014395-release-notes-for-workflow-11-update-2",
+    "code": "WORKFLOW-KB-1014395",
+    "message": "Release Notes for Workflow 11 Update 2",
+    "product": "Workflow",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Workflow fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Workflow 11 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Workflow 11 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014395/release-notes-for-workflow-11-update-2",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014461-workflow-workflow-kb-1014461-list-of-changes-for-workflow-11-update-3",
+    "code": "WORKFLOW-KB-1014461",
+    "message": "List of Changes for Workflow 11 Update 3",
+    "product": "Workflow",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Workflow fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Workflow 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Workflow 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014461/list-of-changes-for-workflow-11-update-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014462-workflow-workflow-kb-1014462-release-notes-for-workflow-11-update-3",
+    "code": "WORKFLOW-KB-1014462",
+    "message": "Release Notes for Workflow 11 Update 3",
+    "product": "Workflow",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Workflow fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Workflow 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Workflow 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014462/release-notes-for-workflow-11-update-3",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014522-workflow-workflow-kb-1014522-release-notes-for-the-laserfiche-cloud-migration-readiness-assessment-tool",
+    "code": "WORKFLOW-KB-1014522",
+    "message": "Release Notes for the Laserfiche Cloud Migration Readiness Assessment Tool",
+    "product": "Workflow",
+    "versions": [
+      "Version 10",
+      "Version 12"
+    ],
+    "confidence": "low",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base release-note article may contain a Workflow fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for the Laserfiche Cloud Migration Readiness Assessment Tool.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for the Laserfiche Cloud Migration Readiness Assessment Tool",
+        "url": "https://support.laserfiche.com/kb/1014522/release-notes-for-the-laserfiche-cloud-migration-readiness-assessment-tool",
+        "note": "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
       }
     ]
   },
@@ -11707,9 +12775,9 @@ export const supportChromePromotedReviewedSources = [
     "reviewStatus": "curated-unresolved"
   },
   {
-    "id": "support-promoted-source-1014436",
-    "title": "Laserfiche Connector May Not Detect Webpage Elements in Edge or Chrome 111.0.5563.65 or Later.",
-    "url": "https://support.laserfiche.com/kb/1014436/laserfiche-connector-may-not-detect-webpage-elements-in-edge-or-chrome-111-0-5563-65-or-later-",
+    "id": "support-promoted-source-1013331",
+    "title": "Release Notes for the Laserfiche Connector for Ricoh 1.0",
+    "url": "https://support.laserfiche.com/kb/1013331/release-notes-for-the-laserfiche-connector-for-ricoh-1-0",
     "sourceType": "support-knowledge-base",
     "reviewedDate": "2026-07-01",
     "productTags": [
@@ -11720,287 +12788,7 @@ export const supportChromePromotedReviewedSources = [
       "Version 12"
     ],
     "extractedErrorCodes": [
-      "CONNECTOR-LASERFICHE_CONNECTOR_MAY_NOT_DETEC"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014247",
-    "title": "List of Changes for Connector 11",
-    "url": "https://support.laserfiche.com/kb/1014247/list-of-changes-for-connector-11",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-LIST_OF_CHANGES_FOR_CONNECTOR_11"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014379",
-    "title": "List of Changes for Laserfiche Connector 11 Update 1",
-    "url": "https://support.laserfiche.com/kb/1014379/list-of-changes-for-laserfiche-connector-11-update-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014585",
-    "title": "List of Changes for Laserfiche Connector 11 Update 3",
-    "url": "https://support.laserfiche.com/kb/1014585/list-of-changes-for-laserfiche-connector-11-update-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014489",
-    "title": "List of Changes for Laserfiche Connector 11 Update 2",
-    "url": "https://support.laserfiche.com/kb/1014489/list-of-changes-for-laserfiche-connector-11-update-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014233",
-    "title": "List of Changes for Laserfiche Connector 10.3 Update 5",
-    "url": "https://support.laserfiche.com/kb/1014233/list-of-changes-for-laserfiche-connector-10-3-update-5",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014194",
-    "title": "List of Changes for Laserfiche Connector 10.3 Update 4",
-    "url": "https://support.laserfiche.com/kb/1014194/list-of-changes-for-laserfiche-connector-10-3-update-4",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014126",
-    "title": "List of Changes for Laserfiche Connector 10.3 Update 3",
-    "url": "https://support.laserfiche.com/kb/1014126/list-of-changes-for-laserfiche-connector-10-3-update-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013793",
-    "title": "List of Changes for Laserfiche Connector 10.2",
-    "url": "https://support.laserfiche.com/kb/1013793/list-of-changes-for-laserfiche-connector-10-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013558",
-    "title": "List of Changes for the Laserfiche Connector for Ricoh 1.1",
-    "url": "https://support.laserfiche.com/kb/1013558/list-of-changes-for-the-laserfiche-connector-for-ricoh-1-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-LIST_OF_CHANGES_FOR_THE_LASERFICHE"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014248",
-    "title": "Release Notes for Connector 11",
-    "url": "https://support.laserfiche.com/kb/1014248/release-notes-for-connector-11",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 9",
-      "Version 10",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-RELEASE_NOTES_FOR_CONNECTOR_11"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013897",
-    "title": "Release Notes for Laserfiche Connector 10.3",
-    "url": "https://support.laserfiche.com/kb/1013897/release-notes-for-laserfiche-connector-10-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 9",
-      "Version 10",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013849",
-    "title": "Release Notes for Laserfiche Connector 10.2.1",
-    "url": "https://support.laserfiche.com/kb/1013849/release-notes-for-laserfiche-connector-10-2-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013794",
-    "title": "Release Notes for Laserfiche Connector 10.2",
-    "url": "https://support.laserfiche.com/kb/1013794/release-notes-for-laserfiche-connector-10-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013742",
-    "title": "Release Notes for Laserfiche Connector 10",
-    "url": "https://support.laserfiche.com/kb/1013742/release-notes-for-laserfiche-connector-10",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013581",
-    "title": "Release Notes for Laserfiche Connector 9",
-    "url": "https://support.laserfiche.com/kb/1013581/release-notes-for-laserfiche-connector-9",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 9"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013644",
-    "title": "Release Notes for Laserfiche Connector 9.0.1",
-    "url": "https://support.laserfiche.com/kb/1013644/release-notes-for-laserfiche-connector-9-0-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 9"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013656",
-    "title": "Release Notes for Laserfiche Connector 9.1",
-    "url": "https://support.laserfiche.com/kb/1013656/release-notes-for-laserfiche-connector-9-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 9"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013648",
-    "title": "Release Notes for Laserfiche Connector for Samsung 10",
-    "url": "https://support.laserfiche.com/kb/1013648/release-notes-for-laserfiche-connector-for-samsung-10",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Connector",
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "extractedErrorCodes": [
-      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
+      "CONNECTOR-KB-1013331"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -12018,14 +12806,14 @@ export const supportChromePromotedReviewedSources = [
       "Version 12"
     ],
     "extractedErrorCodes": [
-      "CONNECTOR-RELEASE_NOTES_FOR_THE_LASERFICHE_C"
+      "CONNECTOR-KB-1013557"
     ],
     "reviewStatus": "curated-unresolved"
   },
   {
-    "id": "support-promoted-source-1013331",
-    "title": "Release Notes for the Laserfiche Connector for Ricoh 1.0",
-    "url": "https://support.laserfiche.com/kb/1013331/release-notes-for-the-laserfiche-connector-for-ricoh-1-0",
+    "id": "support-promoted-source-1013558",
+    "title": "List of Changes for the Laserfiche Connector for Ricoh 1.1",
+    "url": "https://support.laserfiche.com/kb/1013558/list-of-changes-for-the-laserfiche-connector-for-ricoh-1-1",
     "sourceType": "support-knowledge-base",
     "reviewedDate": "2026-07-01",
     "productTags": [
@@ -12036,7 +12824,287 @@ export const supportChromePromotedReviewedSources = [
       "Version 12"
     ],
     "extractedErrorCodes": [
-      "CONNECTOR-RELEASE_NOTES_FOR_THE_LASERFICHE_C"
+      "CONNECTOR-KB-1013558"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013581",
+    "title": "Release Notes for Laserfiche Connector 9",
+    "url": "https://support.laserfiche.com/kb/1013581/release-notes-for-laserfiche-connector-9",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1013581"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013644",
+    "title": "Release Notes for Laserfiche Connector 9.0.1",
+    "url": "https://support.laserfiche.com/kb/1013644/release-notes-for-laserfiche-connector-9-0-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1013644"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013648",
+    "title": "Release Notes for Laserfiche Connector for Samsung 10",
+    "url": "https://support.laserfiche.com/kb/1013648/release-notes-for-laserfiche-connector-for-samsung-10",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1013648"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013656",
+    "title": "Release Notes for Laserfiche Connector 9.1",
+    "url": "https://support.laserfiche.com/kb/1013656/release-notes-for-laserfiche-connector-9-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1013656"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013742",
+    "title": "Release Notes for Laserfiche Connector 10",
+    "url": "https://support.laserfiche.com/kb/1013742/release-notes-for-laserfiche-connector-10",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1013742"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013793",
+    "title": "List of Changes for Laserfiche Connector 10.2",
+    "url": "https://support.laserfiche.com/kb/1013793/list-of-changes-for-laserfiche-connector-10-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1013793"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013794",
+    "title": "Release Notes for Laserfiche Connector 10.2",
+    "url": "https://support.laserfiche.com/kb/1013794/release-notes-for-laserfiche-connector-10-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1013794"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013849",
+    "title": "Release Notes for Laserfiche Connector 10.2.1",
+    "url": "https://support.laserfiche.com/kb/1013849/release-notes-for-laserfiche-connector-10-2-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1013849"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013897",
+    "title": "Release Notes for Laserfiche Connector 10.3",
+    "url": "https://support.laserfiche.com/kb/1013897/release-notes-for-laserfiche-connector-10-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1013897"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014126",
+    "title": "List of Changes for Laserfiche Connector 10.3 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014126/list-of-changes-for-laserfiche-connector-10-3-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1014126"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014194",
+    "title": "List of Changes for Laserfiche Connector 10.3 Update 4",
+    "url": "https://support.laserfiche.com/kb/1014194/list-of-changes-for-laserfiche-connector-10-3-update-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1014194"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014233",
+    "title": "List of Changes for Laserfiche Connector 10.3 Update 5",
+    "url": "https://support.laserfiche.com/kb/1014233/list-of-changes-for-laserfiche-connector-10-3-update-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1014233"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014247",
+    "title": "List of Changes for Connector 11",
+    "url": "https://support.laserfiche.com/kb/1014247/list-of-changes-for-connector-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1014247"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014248",
+    "title": "Release Notes for Connector 11",
+    "url": "https://support.laserfiche.com/kb/1014248/release-notes-for-connector-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1014248"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014379",
+    "title": "List of Changes for Laserfiche Connector 11 Update 1",
+    "url": "https://support.laserfiche.com/kb/1014379/list-of-changes-for-laserfiche-connector-11-update-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1014379"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014489",
+    "title": "List of Changes for Laserfiche Connector 11 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014489/list-of-changes-for-laserfiche-connector-11-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1014489"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014585",
+    "title": "List of Changes for Laserfiche Connector 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014585/list-of-changes-for-laserfiche-connector-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-KB-1014585"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014436",
+    "title": "Laserfiche Connector May Not Detect Webpage Elements in Edge or Chrome 111.0.5563.65 or Later.",
+    "url": "https://support.laserfiche.com/kb/1014436/laserfiche-connector-may-not-detect-webpage-elements-in-edge-or-chrome-111-0-5563-65-or-later-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-LASERFICHE_CONNECTOR_MAY_NOT_DETEC"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -12189,6 +13257,459 @@ export const supportChromePromotedReviewedSources = [
     "reviewStatus": "curated-unresolved"
   },
   {
+    "id": "support-promoted-source-1013805",
+    "title": "List of Changes for Directory Server 10.0 Update 2",
+    "url": "https://support.laserfiche.com/kb/1013805/list-of-changes-for-directory-server-10-0-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1013805"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013877",
+    "title": "Release Notes for Laserfiche Directory Server 10.2.",
+    "url": "https://support.laserfiche.com/kb/1013877/release-notes-for-laserfiche-directory-server-10-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1013877"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013927",
+    "title": "Release Notes For Directory Server 10.3.",
+    "url": "https://support.laserfiche.com/kb/1013927/release-notes-for-directory-server-10-3-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1013927"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013928",
+    "title": "List of Changes for Directory Server 10.3.",
+    "url": "https://support.laserfiche.com/kb/1013928/list-of-changes-for-directory-server-10-3-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1013928"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013976",
+    "title": "Release Notes for Laserfiche Directory Server 10.3.1.",
+    "url": "https://support.laserfiche.com/kb/1013976/release-notes-for-laserfiche-directory-server-10-3-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1013976"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013977",
+    "title": "List of Changes for Laserfiche Directory Server 10.3.1.",
+    "url": "https://support.laserfiche.com/kb/1013977/list-of-changes-for-laserfiche-directory-server-10-3-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1013977"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014022",
+    "title": "Release Notes for Directory Server 10.4.",
+    "url": "https://support.laserfiche.com/kb/1014022",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014022"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014023",
+    "title": "List of Changes for Directory Server 10.4",
+    "url": "https://support.laserfiche.com/kb/1014023/list-of-changes-for-directory-server-10-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014023"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014044",
+    "title": "Release Notes for Directory Server 10.4.2.",
+    "url": "https://support.laserfiche.com/kb/1014044",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014044"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014096",
+    "title": "List of Changes for Directory Server 10.4.3",
+    "url": "https://support.laserfiche.com/kb/1014096/list-of-changes-for-directory-server-10-4-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014096"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014097",
+    "title": "Release Notes for Directory Server 10.4.3",
+    "url": "https://support.laserfiche.com/kb/1014097/release-notes-for-directory-server-10-4-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014097"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014115",
+    "title": "Release Notes for Laserfiche Forms 10.4.3",
+    "url": "https://support.laserfiche.com/kb/1014115/release-notes-for-laserfiche-forms-10-4-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014115"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014160",
+    "title": "Release Notes for Directory Server 10.4.4",
+    "url": "https://support.laserfiche.com/kb/1014160/release-notes-for-directory-server-10-4-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014160"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014161",
+    "title": "List of Changes for Directory Server 10.4.4",
+    "url": "https://support.laserfiche.com/kb/1014161/list-of-changes-for-directory-server-10-4-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014161"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014172",
+    "title": "Release Notes for Laserfiche Forms 10.4.4",
+    "url": "https://support.laserfiche.com/kb/1014172/release-notes-for-laserfiche-forms-10-4-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014172"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014192",
+    "title": "Release Notes for Directory Server 10.4.5",
+    "url": "https://support.laserfiche.com/kb/1014192/release-notes-for-directory-server-10-4-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014192"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014193",
+    "title": "List of Changes for Directory Server 10.4.5",
+    "url": "https://support.laserfiche.com/kb/1014193/list-of-changes-for-directory-server-10-4-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014193"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014201",
+    "title": "Release Notes for Laserfiche Forms 10.4.5",
+    "url": "https://support.laserfiche.com/kb/1014201/release-notes-for-laserfiche-forms-10-4-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014201"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014249",
+    "title": "Release Notes for Directory Server 11",
+    "url": "https://support.laserfiche.com/kb/1014249/release-notes-for-directory-server-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014249"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014250",
+    "title": "List of Changes for Directory Server 11",
+    "url": "https://support.laserfiche.com/kb/1014250/list-of-changes-for-directory-server-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014250"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014373",
+    "title": "Release Notes for Directory Server 11 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014373/release-notes-for-directory-server-11-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014373"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014374",
+    "title": "List of Changes for Directory Server 11 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014374/list-of-changes-for-directory-server-11-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014374"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014443",
+    "title": "List of Changes for Directory Server 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014443/list-of-changes-for-directory-server-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014443"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014444",
+    "title": "Release Notes for Directory Server 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014444/release-notes-for-directory-server-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014444"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014475",
+    "title": "List of Changes for Laserfiche Directory Server 11 Update 4",
+    "url": "https://support.laserfiche.com/kb/1014475/list-of-changes-for-laserfiche-directory-server-11-update-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014475"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014490",
+    "title": "List of Changes for Directory Server 11 Update 5",
+    "url": "https://support.laserfiche.com/kb/1014490/list-of-changes-for-directory-server-11-update-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014490"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014491",
+    "title": "Release Notes for Directory Server 11 Update 5",
+    "url": "https://support.laserfiche.com/kb/1014491/release-notes-for-directory-server-11-update-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014491"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014511",
+    "title": "List of Changes for Directory Server 11 Update 6",
+    "url": "https://support.laserfiche.com/kb/1014511/list-of-changes-for-directory-server-11-update-6",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014511"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014512",
+    "title": "Release Notes for Directory Server 11 Update 6",
+    "url": "https://support.laserfiche.com/kb/1014512/release-notes-for-directory-server-11-update-6",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014512"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014580",
+    "title": "List of Changes for the April 21, 2026 Laserfiche App",
+    "url": "https://support.laserfiche.com/kb/1014580/list-of-changes-for-the-april-21-2026-laserfiche-app",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-KB-1014580"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
     "id": "support-promoted-source-1014036",
     "title": "Laserfiche Account Migration Tool",
     "url": "https://support.laserfiche.com/kb/1014036/laserfiche-account-migration-tool",
@@ -12231,216 +13752,6 @@ export const supportChromePromotedReviewedSources = [
     ],
     "extractedErrorCodes": [
       "LFDS-LASERFICHE_DIRECTORY_SERVER_FAILS_"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014443",
-    "title": "List of Changes for Directory Server 11 Update 3",
-    "url": "https://support.laserfiche.com/kb/1014443/list-of-changes-for-directory-server-11-update-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014490",
-    "title": "List of Changes for Directory Server 11 Update 5",
-    "url": "https://support.laserfiche.com/kb/1014490/list-of-changes-for-directory-server-11-update-5",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014374",
-    "title": "List of Changes for Directory Server 11 Update 2",
-    "url": "https://support.laserfiche.com/kb/1014374/list-of-changes-for-directory-server-11-update-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014250",
-    "title": "List of Changes for Directory Server 11",
-    "url": "https://support.laserfiche.com/kb/1014250/list-of-changes-for-directory-server-11",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013928",
-    "title": "List of Changes for Directory Server 10.3.",
-    "url": "https://support.laserfiche.com/kb/1013928/list-of-changes-for-directory-server-10-3-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014096",
-    "title": "List of Changes for Directory Server 10.4.3",
-    "url": "https://support.laserfiche.com/kb/1014096/list-of-changes-for-directory-server-10-4-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014511",
-    "title": "List of Changes for Directory Server 11 Update 6",
-    "url": "https://support.laserfiche.com/kb/1014511/list-of-changes-for-directory-server-11-update-6",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013805",
-    "title": "List of Changes for Directory Server 10.0 Update 2",
-    "url": "https://support.laserfiche.com/kb/1013805/list-of-changes-for-directory-server-10-0-update-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014193",
-    "title": "List of Changes for Directory Server 10.4.5",
-    "url": "https://support.laserfiche.com/kb/1014193/list-of-changes-for-directory-server-10-4-5",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014161",
-    "title": "List of Changes for Directory Server 10.4.4",
-    "url": "https://support.laserfiche.com/kb/1014161/list-of-changes-for-directory-server-10-4-4",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014023",
-    "title": "List of Changes for Directory Server 10.4",
-    "url": "https://support.laserfiche.com/kb/1014023/list-of-changes-for-directory-server-10-4",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014475",
-    "title": "List of Changes for Laserfiche Directory Server 11 Update 4",
-    "url": "https://support.laserfiche.com/kb/1014475/list-of-changes-for-laserfiche-directory-server-11-update-4",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-LIST_OF_CHANGES_FOR_LASERFICHE_DIR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013977",
-    "title": "List of Changes for Laserfiche Directory Server 10.3.1.",
-    "url": "https://support.laserfiche.com/kb/1013977/list-of-changes-for-laserfiche-directory-server-10-3-1-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-LIST_OF_CHANGES_FOR_LASERFICHE_DIR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014580",
-    "title": "List of Changes for the April 21, 2026 Laserfiche App",
-    "url": "https://support.laserfiche.com/kb/1014580/list-of-changes-for-the-april-21-2026-laserfiche-app",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 12"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-LIST_OF_CHANGES_FOR_THE_APRIL_21_2"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -12501,249 +13812,6 @@ export const supportChromePromotedReviewedSources = [
     ],
     "extractedErrorCodes": [
       "LFDS-RELEASE_INFORMATION_FOR_LASERFICHE"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014512",
-    "title": "Release Notes for Directory Server 11 Update 6",
-    "url": "https://support.laserfiche.com/kb/1014512/release-notes-for-directory-server-11-update-6",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 9",
-      "Version 10",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014491",
-    "title": "Release Notes for Directory Server 11 Update 5",
-    "url": "https://support.laserfiche.com/kb/1014491/release-notes-for-directory-server-11-update-5",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014373",
-    "title": "Release Notes for Directory Server 11 Update 2",
-    "url": "https://support.laserfiche.com/kb/1014373/release-notes-for-directory-server-11-update-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014444",
-    "title": "Release Notes for Directory Server 11 Update 3",
-    "url": "https://support.laserfiche.com/kb/1014444/release-notes-for-directory-server-11-update-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014097",
-    "title": "Release Notes for Directory Server 10.4.3",
-    "url": "https://support.laserfiche.com/kb/1014097/release-notes-for-directory-server-10-4-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014249",
-    "title": "Release Notes for Directory Server 11",
-    "url": "https://support.laserfiche.com/kb/1014249/release-notes-for-directory-server-11",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014192",
-    "title": "Release Notes for Directory Server 10.4.5",
-    "url": "https://support.laserfiche.com/kb/1014192/release-notes-for-directory-server-10-4-5",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 9",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014160",
-    "title": "Release Notes for Directory Server 10.4.4",
-    "url": "https://support.laserfiche.com/kb/1014160/release-notes-for-directory-server-10-4-4",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013927",
-    "title": "Release Notes For Directory Server 10.3.",
-    "url": "https://support.laserfiche.com/kb/1013927/release-notes-for-directory-server-10-3-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014022",
-    "title": "Release Notes for Directory Server 10.4.",
-    "url": "https://support.laserfiche.com/kb/1014022",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014044",
-    "title": "Release Notes for Directory Server 10.4.2.",
-    "url": "https://support.laserfiche.com/kb/1014044",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013976",
-    "title": "Release Notes for Laserfiche Directory Server 10.3.1.",
-    "url": "https://support.laserfiche.com/kb/1013976/release-notes-for-laserfiche-directory-server-10-3-1-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_LASERFICHE_DIREC"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013877",
-    "title": "Release Notes for Laserfiche Directory Server 10.2.",
-    "url": "https://support.laserfiche.com/kb/1013877/release-notes-for-laserfiche-directory-server-10-2-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_LASERFICHE_DIREC"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014201",
-    "title": "Release Notes for Laserfiche Forms 10.4.5",
-    "url": "https://support.laserfiche.com/kb/1014201/release-notes-for-laserfiche-forms-10-4-5",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014172",
-    "title": "Release Notes for Laserfiche Forms 10.4.4",
-    "url": "https://support.laserfiche.com/kb/1014172/release-notes-for-laserfiche-forms-10-4-4",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014115",
-    "title": "Release Notes for Laserfiche Forms 10.4.3",
-    "url": "https://support.laserfiche.com/kb/1014115/release-notes-for-laserfiche-forms-10-4-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Directory Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFDS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -13038,6 +14106,508 @@ export const supportChromePromotedReviewedSources = [
     "reviewStatus": "curated-unresolved"
   },
   {
+    "id": "support-promoted-source-1013775",
+    "title": "List of Changes for Laserfiche Forms 10.1 Update 1.",
+    "url": "https://support.laserfiche.com/kb/1013775/list-of-changes-for-laserfiche-forms-10-1-update-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1013775"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013806",
+    "title": "List of Changes for Laserfiche Forms 10.1 Update 3.",
+    "url": "https://support.laserfiche.com/kb/1013806/list-of-changes-for-laserfiche-forms-10-1-update-3-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1013806"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013834",
+    "title": "List of Changes for Laserfiche Forms 10.2 Update 1.",
+    "url": "https://support.laserfiche.com/kb/1013834/list-of-changes-for-laserfiche-forms-10-2-update-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1013834"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013870",
+    "title": "List of Changes for Laserfiche Forms 10.2.1 Update 1.",
+    "url": "https://support.laserfiche.com/kb/1013870/list-of-changes-for-laserfiche-forms-10-2-1-update-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1013870"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013880",
+    "title": "List of Changes for Laserfiche Forms 10.2.1 Update 2.",
+    "url": "https://support.laserfiche.com/kb/1013880/list-of-changes-for-laserfiche-forms-10-2-1-update-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1013880"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013902",
+    "title": "Release Notes for Laserfiche Forms 10.3",
+    "url": "https://support.laserfiche.com/kb/1013902/release-notes-for-laserfiche-forms-10-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1013902"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013903",
+    "title": "List of Changes for Laserfiche Forms 10.3",
+    "url": "https://support.laserfiche.com/kb/1013903/list-of-changes-for-laserfiche-forms-10-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1013903"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013929",
+    "title": "Release Notes for Laserfiche Forms 10.3.1",
+    "url": "https://support.laserfiche.com/kb/1013929/release-notes-for-laserfiche-forms-10-3-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1013929"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013930",
+    "title": "List of Changes for Laserfiche Forms 10.3.1",
+    "url": "https://support.laserfiche.com/kb/1013930/list-of-changes-for-laserfiche-forms-10-3-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1013930"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013981",
+    "title": "List of Changes for Laserfiche Forms 10.4",
+    "url": "https://support.laserfiche.com/kb/1013981/list-of-changes-for-laserfiche-forms-10-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1013981"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013982",
+    "title": "Release Notes for Laserfiche Forms 10.4",
+    "url": "https://support.laserfiche.com/kb/1013982/release-notes-for-laserfiche-forms-10-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1013982"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014017",
+    "title": "List of Changes for Laserfiche Forms 10.3.1 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014017/list-of-changes-for-laserfiche-forms-10-3-1-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014017"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014053",
+    "title": "Release Notes for Laserfiche Forms 10.4.1",
+    "url": "https://support.laserfiche.com/kb/1014053/release-notes-for-laserfiche-forms-10-4-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014053"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014084",
+    "title": "Release Notes for Laserfiche Forms 10.4.2",
+    "url": "https://support.laserfiche.com/kb/1014084/release-notes-for-laserfiche-forms-10-4-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014084"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014095",
+    "title": "List of Changes for Laserfiche Forms 10.2.1 Update 5",
+    "url": "https://support.laserfiche.com/kb/1014095/list-of-changes-for-laserfiche-forms-10-2-1-update-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014095"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014098",
+    "title": "List of Changes for Laserfiche Forms 10.3.1 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014098/list-of-changes-for-laserfiche-forms-10-3-1-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014098"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014109",
+    "title": "List of Changes for Laserfiche Forms 10.4.1 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014109/list-of-changes-for-laserfiche-forms-10-4-1-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014109"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014151",
+    "title": "List of Changes for Laserfiche Forms 10.4.3 Update 1",
+    "url": "https://support.laserfiche.com/kb/1014151/list-of-changes-for-laserfiche-forms-10-4-3-update-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014151"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014169",
+    "title": "List of Changes for Laserfiche Forms 10.4.4",
+    "url": "https://support.laserfiche.com/kb/1014169/list-of-changes-for-laserfiche-forms-10-4-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014169"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014191",
+    "title": "List of Changes for the July 17, 2020 Laserfiche iOS App",
+    "url": "https://support.laserfiche.com/kb/1014191/list-of-changes-for-the-july-17-2020-laserfiche-ios-app",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014191"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014265",
+    "title": "List of Changes for Laserfiche Forms 11",
+    "url": "https://support.laserfiche.com/kb/1014265/list-of-changes-for-laserfiche-forms-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014265"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014302",
+    "title": "Release Notes for Laserfiche Forms 11 Update 1",
+    "url": "https://support.laserfiche.com/kb/1014302/release-notes-for-laserfiche-forms-11-update-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014302"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014318",
+    "title": "List of Changes for Forms 10.4.5 Hotfix 1014318",
+    "url": "https://support.laserfiche.com/kb/1014318/list-of-changes-for-forms-10-4-5-hotfix-1014318",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014318"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014320",
+    "title": "List of Changes for Laserfiche Forms 10.4.4 Update 1",
+    "url": "https://support.laserfiche.com/kb/1014320/list-of-changes-for-laserfiche-forms-10-4-4-update-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014320"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014333",
+    "title": "List of Changes for Laserfiche Forms 10.4.5 Update 1",
+    "url": "https://support.laserfiche.com/kb/1014333/list-of-changes-for-laserfiche-forms-10-4-5-update-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014333"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014351",
+    "title": "Release Notes for Laserfiche Forms 11 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014351/release-notes-for-laserfiche-forms-11-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014351"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014413",
+    "title": "List of Changes for Laserfiche Forms 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014413/list-of-changes-for-laserfiche-forms-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014413"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014414",
+    "title": "Release Notes for Laserfiche Forms 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014414/release-notes-for-laserfiche-forms-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014414"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014421",
+    "title": "List of Changes for Laserfiche Forms 10.4.5 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014421/list-of-changes-for-laserfiche-forms-10-4-5-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014421"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014449",
+    "title": "List of Changes for Laserfiche Forms 11 Update 3 Hotfix 1014449",
+    "url": "https://support.laserfiche.com/kb/1014449/list-of-changes-for-laserfiche-forms-11-update-3-hotfix-1014449",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014449"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014469",
+    "title": "List of Changes for Laserfiche Forms 11 Update 4",
+    "url": "https://support.laserfiche.com/kb/1014469/list-of-changes-for-laserfiche-forms-11-update-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014469"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014496",
+    "title": "List of Changes for Laserfiche Forms 11 Update 5",
+    "url": "https://support.laserfiche.com/kb/1014496/list-of-changes-for-laserfiche-forms-11-update-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014496"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014497",
+    "title": "Release Notes for Laserfiche Forms 11 Update 5",
+    "url": "https://support.laserfiche.com/kb/1014497/release-notes-for-laserfiche-forms-11-update-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-KB-1014497"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
     "id": "support-promoted-source-1014485",
     "title": "Laserfiche Forms Technical Support Checklist",
     "url": "https://support.laserfiche.com/kb/1014485/laserfiche-forms-technical-support-checklist",
@@ -13056,369 +14626,6 @@ export const supportChromePromotedReviewedSources = [
     "reviewStatus": "curated-unresolved"
   },
   {
-    "id": "support-promoted-source-1014318",
-    "title": "List of Changes for Forms 10.4.5 Hotfix 1014318",
-    "url": "https://support.laserfiche.com/kb/1014318/list-of-changes-for-forms-10-4-5-hotfix-1014318",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_FORMS_10_4_5_H"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014496",
-    "title": "List of Changes for Laserfiche Forms 11 Update 5",
-    "url": "https://support.laserfiche.com/kb/1014496/list-of-changes-for-laserfiche-forms-11-update-5",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014413",
-    "title": "List of Changes for Laserfiche Forms 11 Update 3",
-    "url": "https://support.laserfiche.com/kb/1014413/list-of-changes-for-laserfiche-forms-11-update-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014469",
-    "title": "List of Changes for Laserfiche Forms 11 Update 4",
-    "url": "https://support.laserfiche.com/kb/1014469/list-of-changes-for-laserfiche-forms-11-update-4",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014265",
-    "title": "List of Changes for Laserfiche Forms 11",
-    "url": "https://support.laserfiche.com/kb/1014265/list-of-changes-for-laserfiche-forms-11",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014449",
-    "title": "List of Changes for Laserfiche Forms 11 Update 3 Hotfix 1014449",
-    "url": "https://support.laserfiche.com/kb/1014449/list-of-changes-for-laserfiche-forms-11-update-3-hotfix-1014449",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014333",
-    "title": "List of Changes for Laserfiche Forms 10.4.5 Update 1",
-    "url": "https://support.laserfiche.com/kb/1014333/list-of-changes-for-laserfiche-forms-10-4-5-update-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013806",
-    "title": "List of Changes for Laserfiche Forms 10.1 Update 3.",
-    "url": "https://support.laserfiche.com/kb/1013806/list-of-changes-for-laserfiche-forms-10-1-update-3-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013870",
-    "title": "List of Changes for Laserfiche Forms 10.2.1 Update 1.",
-    "url": "https://support.laserfiche.com/kb/1013870/list-of-changes-for-laserfiche-forms-10-2-1-update-1-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013775",
-    "title": "List of Changes for Laserfiche Forms 10.1 Update 1.",
-    "url": "https://support.laserfiche.com/kb/1013775/list-of-changes-for-laserfiche-forms-10-1-update-1-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013981",
-    "title": "List of Changes for Laserfiche Forms 10.4",
-    "url": "https://support.laserfiche.com/kb/1013981/list-of-changes-for-laserfiche-forms-10-4",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013930",
-    "title": "List of Changes for Laserfiche Forms 10.3.1",
-    "url": "https://support.laserfiche.com/kb/1013930/list-of-changes-for-laserfiche-forms-10-3-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013903",
-    "title": "List of Changes for Laserfiche Forms 10.3",
-    "url": "https://support.laserfiche.com/kb/1013903/list-of-changes-for-laserfiche-forms-10-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014421",
-    "title": "List of Changes for Laserfiche Forms 10.4.5 Update 2",
-    "url": "https://support.laserfiche.com/kb/1014421/list-of-changes-for-laserfiche-forms-10-4-5-update-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014017",
-    "title": "List of Changes for Laserfiche Forms 10.3.1 Update 2",
-    "url": "https://support.laserfiche.com/kb/1014017/list-of-changes-for-laserfiche-forms-10-3-1-update-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014320",
-    "title": "List of Changes for Laserfiche Forms 10.4.4 Update 1",
-    "url": "https://support.laserfiche.com/kb/1014320/list-of-changes-for-laserfiche-forms-10-4-4-update-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013834",
-    "title": "List of Changes for Laserfiche Forms 10.2 Update 1.",
-    "url": "https://support.laserfiche.com/kb/1013834/list-of-changes-for-laserfiche-forms-10-2-update-1-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013880",
-    "title": "List of Changes for Laserfiche Forms 10.2.1 Update 2.",
-    "url": "https://support.laserfiche.com/kb/1013880/list-of-changes-for-laserfiche-forms-10-2-1-update-2-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014169",
-    "title": "List of Changes for Laserfiche Forms 10.4.4",
-    "url": "https://support.laserfiche.com/kb/1014169/list-of-changes-for-laserfiche-forms-10-4-4",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014151",
-    "title": "List of Changes for Laserfiche Forms 10.4.3 Update 1",
-    "url": "https://support.laserfiche.com/kb/1014151/list-of-changes-for-laserfiche-forms-10-4-3-update-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014109",
-    "title": "List of Changes for Laserfiche Forms 10.4.1 Update 2",
-    "url": "https://support.laserfiche.com/kb/1014109/list-of-changes-for-laserfiche-forms-10-4-1-update-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014098",
-    "title": "List of Changes for Laserfiche Forms 10.3.1 Update 3",
-    "url": "https://support.laserfiche.com/kb/1014098/list-of-changes-for-laserfiche-forms-10-3-1-update-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014095",
-    "title": "List of Changes for Laserfiche Forms 10.2.1 Update 5",
-    "url": "https://support.laserfiche.com/kb/1014095/list-of-changes-for-laserfiche-forms-10-2-1-update-5",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014191",
-    "title": "List of Changes for the July 17, 2020 Laserfiche iOS App",
-    "url": "https://support.laserfiche.com/kb/1014191/list-of-changes-for-the-july-17-2020-laserfiche-ios-app",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-LIST_OF_CHANGES_FOR_THE_JULY_17_20"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
     "id": "support-promoted-source-1014543",
     "title": "PDF generation fails when using Google Chrome or Microsoft Edge for PuppeteerExecutablePath in Forms 11 Update 2 or later",
     "url": "https://support.laserfiche.com/kb/1014543/pdf-generation-fails-when-using-google-chrome-or-microsoft-edge-for-puppeteerexecutablepath-in-forms-11-update-2-or-later",
@@ -13431,129 +14638,6 @@ export const supportChromePromotedReviewedSources = [
     ],
     "extractedErrorCodes": [
       "FORMS-PDF_GENERATION_FAILS_WHEN_USING_GO"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014497",
-    "title": "Release Notes for Laserfiche Forms 11 Update 5",
-    "url": "https://support.laserfiche.com/kb/1014497/release-notes-for-laserfiche-forms-11-update-5",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 9",
-      "Version 10",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014414",
-    "title": "Release Notes for Laserfiche Forms 11 Update 3",
-    "url": "https://support.laserfiche.com/kb/1014414/release-notes-for-laserfiche-forms-11-update-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 9",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014302",
-    "title": "Release Notes for Laserfiche Forms 11 Update 1",
-    "url": "https://support.laserfiche.com/kb/1014302/release-notes-for-laserfiche-forms-11-update-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014351",
-    "title": "Release Notes for Laserfiche Forms 11 Update 2",
-    "url": "https://support.laserfiche.com/kb/1014351/release-notes-for-laserfiche-forms-11-update-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014084",
-    "title": "Release Notes for Laserfiche Forms 10.4.2",
-    "url": "https://support.laserfiche.com/kb/1014084/release-notes-for-laserfiche-forms-10-4-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014053",
-    "title": "Release Notes for Laserfiche Forms 10.4.1",
-    "url": "https://support.laserfiche.com/kb/1014053/release-notes-for-laserfiche-forms-10-4-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013982",
-    "title": "Release Notes for Laserfiche Forms 10.4",
-    "url": "https://support.laserfiche.com/kb/1013982/release-notes-for-laserfiche-forms-10-4",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013929",
-    "title": "Release Notes for Laserfiche Forms 10.3.1",
-    "url": "https://support.laserfiche.com/kb/1013929/release-notes-for-laserfiche-forms-10-3-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Forms",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -13686,7 +14770,7 @@ export const supportChromePromotedReviewedSources = [
       "Version 10"
     ],
     "extractedErrorCodes": [
-      "IMPORT-LIST_OF_CHANGES_FOR_IMPORT_AGENT_1"
+      "IMPORT-KB-1014408"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -13727,6 +14811,24 @@ export const supportChromePromotedReviewedSources = [
     "reviewStatus": "curated-unresolved"
   },
   {
+    "id": "support-promoted-source-1012734",
+    "title": "List of Changes for License Manager 8.2",
+    "url": "https://support.laserfiche.com/kb/1012734/list-of-changes-for-license-manager-8-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Installer",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "INSTALLER-KB-1012734"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
     "id": "support-promoted-source-1000988",
     "title": "License File Locations.",
     "url": "https://support.laserfiche.com/kb/1000988/license-file-locations-",
@@ -13741,24 +14843,6 @@ export const supportChromePromotedReviewedSources = [
     ],
     "extractedErrorCodes": [
       "INSTALLER-LICENSE_FILE_LOCATIONS"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1012734",
-    "title": "List of Changes for License Manager 8.2",
-    "url": "https://support.laserfiche.com/kb/1012734/list-of-changes-for-license-manager-8-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Installer",
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "extractedErrorCodes": [
-      "INSTALLER-LIST_OF_CHANGES_FOR_LICENSE_MANAGE"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -14962,6 +16046,483 @@ export const supportChromePromotedReviewedSources = [
     "reviewStatus": "curated-unresolved"
   },
   {
+    "id": "support-promoted-source-1012334",
+    "title": "List of Changes for License Manager 8.1.",
+    "url": "https://support.laserfiche.com/kb/1012334/list-of-changes-for-license-manager-8-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1012334"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012690",
+    "title": "Release Notes for Laserfiche 8.2.0.",
+    "url": "https://support.laserfiche.com/kb/1012690/release-notes-for-laserfiche-8-2-0-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1012690"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012787",
+    "title": "Release Notes For Laserfiche 8.2.1.",
+    "url": "https://support.laserfiche.com/kb/1012787/release-notes-for-laserfiche-8-2-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1012787"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012849",
+    "title": "Release Notes for Laserfiche 8.3.0.",
+    "url": "https://support.laserfiche.com/kb/1012849/release-notes-for-laserfiche-8-3-0-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1012849"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012943",
+    "title": "Release Notes For Laserfiche 8.3.1.",
+    "url": "https://support.laserfiche.com/kb/1012943/release-notes-for-laserfiche-8-3-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1012943"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013089",
+    "title": "Release Notes for Laserfiche 8.3.2.",
+    "url": "https://support.laserfiche.com/kb/1013089/release-notes-for-laserfiche-8-3-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1013089"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013130",
+    "title": "List of Changes for Laserfiche 9.0.1",
+    "url": "https://support.laserfiche.com/kb/1013130/list-of-changes-for-laserfiche-9-0-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1013130"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013325",
+    "title": "Release Notes For Laserfiche 9.0.3.",
+    "url": "https://support.laserfiche.com/kb/1013325/release-notes-for-laserfiche-9-0-3-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1013325"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013369",
+    "title": "Release Notes for Laserfiche 9.1.",
+    "url": "https://support.laserfiche.com/kb/1013369/release-notes-for-laserfiche-9-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1013369"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013416",
+    "title": "Release Notes for Laserfiche 9.1.1.",
+    "url": "https://support.laserfiche.com/kb/1013416/release-notes-for-laserfiche-9-1-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1013416"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013527",
+    "title": "Release Notes for Laserfiche 9.2.",
+    "url": "https://support.laserfiche.com/kb/1013527/release-notes-for-laserfiche-9-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1013527"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013608",
+    "title": "Release Notes for Laserfiche 9.2.1.",
+    "url": "https://support.laserfiche.com/kb/1013608/release-notes-for-laserfiche-9-2-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1013608"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013707",
+    "title": "Release Notes for Laserfiche 10.",
+    "url": "https://support.laserfiche.com/kb/1013707/release-notes-for-laserfiche-10-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1013707"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013819",
+    "title": "Release Notes for Laserfiche 10.2",
+    "url": "https://support.laserfiche.com/kb/1013819/release-notes-for-laserfiche-10-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1013819"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013859",
+    "title": "Release Notes for Laserfiche 10.2.1",
+    "url": "https://support.laserfiche.com/kb/1013859/release-notes-for-laserfiche-10-2-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1013859"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013908",
+    "title": "Release Notes for Laserfiche 10.3",
+    "url": "https://support.laserfiche.com/kb/1013908/release-notes-for-laserfiche-10-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1013908"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013909",
+    "title": "List of Changes for Laserfiche 10.3",
+    "url": "https://support.laserfiche.com/kb/1013909/list-of-changes-for-laserfiche-10-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1013909"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013948",
+    "title": "Release Notes for Laserfiche 10.3.1",
+    "url": "https://support.laserfiche.com/kb/1013948/release-notes-for-laserfiche-10-3-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1013948"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013996",
+    "title": "List of Changes for Laserfiche 10.3.1 Update 2",
+    "url": "https://support.laserfiche.com/kb/1013996/list-of-changes-for-laserfiche-10-3-1-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1013996"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014026",
+    "title": "Release Notes for Laserfiche 10.4",
+    "url": "https://support.laserfiche.com/kb/1014026/release-notes-for-laserfiche-10-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1014026"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014049",
+    "title": "Release Notes for Laserfiche 10.4.1",
+    "url": "https://support.laserfiche.com/kb/1014049/release-notes-for-laserfiche-10-4-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1014049"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014082",
+    "title": "Release Notes for Laserfiche 10.4.2",
+    "url": "https://support.laserfiche.com/kb/1014082/release-notes-for-laserfiche-10-4-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1014082"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014086",
+    "title": "List of Changes for Laserfiche 10.4.2.",
+    "url": "https://support.laserfiche.com/kb/1014086/list-of-changes-for-laserfiche-10-4-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1014086"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014107",
+    "title": "Release Notes for Laserfiche Cloud 2020.1",
+    "url": "https://support.laserfiche.com/kb/1014107/release-notes-for-laserfiche-cloud-2020-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1014107"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014182",
+    "title": "Release Notes for Laserfiche Cloud 2020.3",
+    "url": "https://support.laserfiche.com/kb/1014182/release-notes-for-laserfiche-cloud-2020-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1014182"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014198",
+    "title": "Release Notes for Laserfiche Server 10.4.3",
+    "url": "https://support.laserfiche.com/kb/1014198/release-notes-for-laserfiche-server-10-4-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1014198"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014267",
+    "title": "Release Notes for Laserfiche 11",
+    "url": "https://support.laserfiche.com/kb/1014267/release-notes-for-laserfiche-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1014267"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014268",
+    "title": "List of Changes for Laserfiche 11",
+    "url": "https://support.laserfiche.com/kb/1014268/list-of-changes-for-laserfiche-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1014268"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014418",
+    "title": "List of Changes for Laserfiche Windows Client 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014418/list-of-changes-for-laserfiche-windows-client-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1014418"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014568",
+    "title": "List of Changes for Laserfiche Server 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014568/list-of-changes-for-laserfiche-server-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-KB-1014568"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
     "id": "support-promoted-source-1013034",
     "title": "Laserfiche Cannot Generate Page Images For Dynamic XFA Form PDF Files.",
     "url": "https://support.laserfiche.com/kb/1013034/laserfiche-cannot-generate-page-images-for-dynamic-xfa-form-pdf-files-",
@@ -15065,114 +16626,6 @@ export const supportChromePromotedReviewedSources = [
     "reviewStatus": "curated-unresolved"
   },
   {
-    "id": "support-promoted-source-1013996",
-    "title": "List of Changes for Laserfiche 10.3.1 Update 2",
-    "url": "https://support.laserfiche.com/kb/1013996/list-of-changes-for-laserfiche-10-3-1-update-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_10_"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014086",
-    "title": "List of Changes for Laserfiche 10.4.2.",
-    "url": "https://support.laserfiche.com/kb/1014086/list-of-changes-for-laserfiche-10-4-2-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_10_"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013909",
-    "title": "List of Changes for Laserfiche 10.3",
-    "url": "https://support.laserfiche.com/kb/1013909/list-of-changes-for-laserfiche-10-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_10_"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014268",
-    "title": "List of Changes for Laserfiche 11",
-    "url": "https://support.laserfiche.com/kb/1014268/list-of-changes-for-laserfiche-11",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_11"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014568",
-    "title": "List of Changes for Laserfiche Server 11 Update 3",
-    "url": "https://support.laserfiche.com/kb/1014568/list-of-changes-for-laserfiche-server-11-update-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_SER"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014418",
-    "title": "List of Changes for Laserfiche Windows Client 11 Update 3",
-    "url": "https://support.laserfiche.com/kb/1014418/list-of-changes-for-laserfiche-windows-client-11-update-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_WIN"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1012334",
-    "title": "List of Changes for License Manager 8.1.",
-    "url": "https://support.laserfiche.com/kb/1012334/list-of-changes-for-license-manager-8-1-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-LIST_OF_CHANGES_FOR_LICENSE_MANAGE"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
     "id": "support-promoted-source-1014273",
     "title": "Release Information for Laserfiche 11",
     "url": "https://support.laserfiche.com/kb/1014273/release-information-for-laserfiche-11",
@@ -15184,162 +16637,6 @@ export const supportChromePromotedReviewedSources = [
     ],
     "extractedErrorCodes": [
       "LFSERVER-RELEASE_INFORMATION_FOR_LASERFICHE"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013819",
-    "title": "Release Notes for Laserfiche 10.2",
-    "url": "https://support.laserfiche.com/kb/1013819/release-notes-for-laserfiche-10-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_2"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013908",
-    "title": "Release Notes for Laserfiche 10.3",
-    "url": "https://support.laserfiche.com/kb/1013908/release-notes-for-laserfiche-10-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_3"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013948",
-    "title": "Release Notes for Laserfiche 10.3.1",
-    "url": "https://support.laserfiche.com/kb/1013948/release-notes-for-laserfiche-10-3-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_3_"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014026",
-    "title": "Release Notes for Laserfiche 10.4",
-    "url": "https://support.laserfiche.com/kb/1014026/release-notes-for-laserfiche-10-4",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_4"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014082",
-    "title": "Release Notes for Laserfiche 10.4.2",
-    "url": "https://support.laserfiche.com/kb/1014082/release-notes-for-laserfiche-10-4-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_4_"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014049",
-    "title": "Release Notes for Laserfiche 10.4.1",
-    "url": "https://support.laserfiche.com/kb/1014049/release-notes-for-laserfiche-10-4-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_4_"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014267",
-    "title": "Release Notes for Laserfiche 11",
-    "url": "https://support.laserfiche.com/kb/1014267/release-notes-for-laserfiche-11",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_11"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014107",
-    "title": "Release Notes for Laserfiche Cloud 2020.1",
-    "url": "https://support.laserfiche.com/kb/1014107/release-notes-for-laserfiche-cloud-2020-1",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_CLOUD"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014182",
-    "title": "Release Notes for Laserfiche Cloud 2020.3",
-    "url": "https://support.laserfiche.com/kb/1014182/release-notes-for-laserfiche-cloud-2020-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_CLOUD"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014198",
-    "title": "Release Notes for Laserfiche Server 10.4.3",
-    "url": "https://support.laserfiche.com/kb/1014198/release-notes-for-laserfiche-server-10-4-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Laserfiche Server/Repository Server",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_SERVE"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -15483,7 +16780,7 @@ export const supportChromePromotedReviewedSources = [
       "Version 12"
     ],
     "extractedErrorCodes": [
-      "MOBILE-LIST_OF_CHANGES_FOR_THE_AUGUST_202"
+      "MOBILE-KB-1014225"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -15501,25 +16798,7 @@ export const supportChromePromotedReviewedSources = [
       "Version 12"
     ],
     "extractedErrorCodes": [
-      "MOBILE-LIST_OF_CHANGES_FOR_THE_FEBRUARY_1"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014555",
-    "title": "List of Changes for the January 31, 2025 Laserfiche App",
-    "url": "https://support.laserfiche.com/kb/1014555/list-of-changes-for-the-january-31-2025-laserfiche-app",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Mobile",
-      "Version 9",
-      "Version 10",
-      "Version 11",
-      "Version 12"
-    ],
-    "extractedErrorCodes": [
-      "MOBILE-LIST_OF_CHANGES_FOR_THE_JANUARY_31"
+      "MOBILE-KB-1014425"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -15535,7 +16814,7 @@ export const supportChromePromotedReviewedSources = [
       "Version 11"
     ],
     "extractedErrorCodes": [
-      "MOBILE-LIST_OF_CHANGES_FOR_THE_NOVEMBER_3"
+      "MOBILE-KB-1014494"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -15553,7 +16832,40 @@ export const supportChromePromotedReviewedSources = [
       "Version 12"
     ],
     "extractedErrorCodes": [
-      "MOBILE-LIST_OF_CHANGES_FOR_THE_SEPTEMBER_"
+      "MOBILE-KB-1014541"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014555",
+    "title": "List of Changes for the January 31, 2025 Laserfiche App",
+    "url": "https://support.laserfiche.com/kb/1014555/list-of-changes-for-the-january-31-2025-laserfiche-app",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Mobile",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "MOBILE-KB-1014555"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014452",
+    "title": "List of Changes for Laserfiche Office Integration 11 May 2023 Update",
+    "url": "https://support.laserfiche.com/kb/1014452/list-of-changes-for-laserfiche-office-integration-11-may-2023-update",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Office Integration",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "OFFICE-KB-1014452"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -15569,21 +16881,6 @@ export const supportChromePromotedReviewedSources = [
     ],
     "extractedErrorCodes": [
       "OFFICE-LASERFICHE_OFFICE_INTEGRATION_11"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014452",
-    "title": "List of Changes for Laserfiche Office Integration 11 May 2023 Update",
-    "url": "https://support.laserfiche.com/kb/1014452/list-of-changes-for-laserfiche-office-integration-11-may-2023-update",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Office Integration",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "OFFICE-LIST_OF_CHANGES_FOR_LASERFICHE_OFF"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -15710,9 +17007,9 @@ export const supportChromePromotedReviewedSources = [
     "reviewStatus": "curated-unresolved"
   },
   {
-    "id": "support-promoted-source-1013824",
-    "title": "List of Changes for Quick Fields 10.1",
-    "url": "https://support.laserfiche.com/kb/1013824/list-of-changes-for-quick-fields-10-1",
+    "id": "support-promoted-source-1013756",
+    "title": "Release Notes for Quick Fields 10",
+    "url": "https://support.laserfiche.com/kb/1013756/release-notes-for-quick-fields-10",
     "sourceType": "support-knowledge-base",
     "reviewedDate": "2026-07-01",
     "productTags": [
@@ -15720,7 +17017,7 @@ export const supportChromePromotedReviewedSources = [
       "Version 10"
     ],
     "extractedErrorCodes": [
-      "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1"
+      "QF-KB-1013756"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -15735,14 +17032,14 @@ export const supportChromePromotedReviewedSources = [
       "Version 10"
     ],
     "extractedErrorCodes": [
-      "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1"
+      "QF-KB-1013788"
     ],
     "reviewStatus": "curated-unresolved"
   },
   {
-    "id": "support-promoted-source-1014105",
-    "title": "List of Changes for Quick Fields 10.3 Hotfix 1014105",
-    "url": "https://support.laserfiche.com/kb/1014105/list-of-changes-for-quick-fields-10-3-hotfix-1014105",
+    "id": "support-promoted-source-1013824",
+    "title": "List of Changes for Quick Fields 10.1",
+    "url": "https://support.laserfiche.com/kb/1013824/list-of-changes-for-quick-fields-10-1",
     "sourceType": "support-knowledge-base",
     "reviewedDate": "2026-07-01",
     "productTags": [
@@ -15750,22 +17047,7 @@ export const supportChromePromotedReviewedSources = [
       "Version 10"
     ],
     "extractedErrorCodes": [
-      "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013952",
-    "title": "List of Changes for Quick Fields 10.3 Hotfix 1013952",
-    "url": "https://support.laserfiche.com/kb/1013952/list-of-changes-for-quick-fields-10-3-hotfix-1013952",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Quick Fields",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1"
+      "QF-KB-1013824"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -15780,7 +17062,37 @@ export const supportChromePromotedReviewedSources = [
       "Version 10"
     ],
     "extractedErrorCodes": [
-      "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1"
+      "QF-KB-1013873"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013952",
+    "title": "List of Changes for Quick Fields 10.3 Hotfix 1013952",
+    "url": "https://support.laserfiche.com/kb/1013952/list-of-changes-for-quick-fields-10-3-hotfix-1013952",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "QF-KB-1013952"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014105",
+    "title": "List of Changes for Quick Fields 10.3 Hotfix 1014105",
+    "url": "https://support.laserfiche.com/kb/1014105/list-of-changes-for-quick-fields-10-3-hotfix-1014105",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "QF-KB-1014105"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -15795,7 +17107,7 @@ export const supportChromePromotedReviewedSources = [
       "Version 10"
     ],
     "extractedErrorCodes": [
-      "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1"
+      "QF-KB-1014141"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -15829,21 +17141,6 @@ export const supportChromePromotedReviewedSources = [
     ],
     "extractedErrorCodes": [
       "QF-RELEASE_AND_HOTFIX_INFORMATION_FOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013756",
-    "title": "Release Notes for Quick Fields 10",
-    "url": "https://support.laserfiche.com/kb/1013756/release-notes-for-quick-fields-10",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Quick Fields",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "QF-RELEASE_NOTES_FOR_QUICK_FIELDS_10"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -15989,6 +17286,55 @@ export const supportChromePromotedReviewedSources = [
     "reviewStatus": "curated-unresolved"
   },
   {
+    "id": "support-promoted-source-1013055",
+    "title": "Release Notes for Laserfiche 9.0.0.",
+    "url": "https://support.laserfiche.com/kb/1013055/release-notes-for-laserfiche-9-0-0-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Snapshot",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "SNAPSHOT-KB-1013055"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013131",
+    "title": "Release Notes for Laserfiche 9.0.1",
+    "url": "https://support.laserfiche.com/kb/1013131/release-notes-for-laserfiche-9-0-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Snapshot",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "SNAPSHOT-KB-1013131"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013197",
+    "title": "Release Notes for Laserfiche 9.0.2.",
+    "url": "https://support.laserfiche.com/kb/1013197/release-notes-for-laserfiche-9-0-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Snapshot",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "SNAPSHOT-KB-1013197"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
     "id": "support-promoted-source-1013798",
     "title": "List of Changes for Laserfiche 10.1 Update 2.",
     "url": "https://support.laserfiche.com/kb/1013798/list-of-changes-for-laserfiche-10-1-update-2-",
@@ -15999,7 +17345,7 @@ export const supportChromePromotedReviewedSources = [
       "Version 10"
     ],
     "extractedErrorCodes": [
-      "SNAPSHOT-LIST_OF_CHANGES_FOR_LASERFICHE_10_"
+      "SNAPSHOT-KB-1013798"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -16110,6 +17456,36 @@ export const supportChromePromotedReviewedSources = [
     "reviewStatus": "curated-unresolved"
   },
   {
+    "id": "support-promoted-source-1013760",
+    "title": "Release Notes for Laserfiche 10.1.",
+    "url": "https://support.laserfiche.com/kb/1013760/release-notes-for-laserfiche-10-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-KB-1013760"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013761",
+    "title": "List of Changes for Laserfiche 10.1.",
+    "url": "https://support.laserfiche.com/kb/1013761/list-of-changes-for-laserfiche-10-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-KB-1013761"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
     "id": "support-promoted-source-1014025",
     "title": "List of Changes for Laserfiche 10.4",
     "url": "https://support.laserfiche.com/kb/1014025/list-of-changes-for-laserfiche-10-4",
@@ -16120,112 +17496,22 @@ export const supportChromePromotedReviewedSources = [
       "Version 10"
     ],
     "extractedErrorCodes": [
-      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_10_"
+      "WEBCLIENT-KB-1014025"
     ],
     "reviewStatus": "curated-unresolved"
   },
   {
-    "id": "support-promoted-source-1014544",
-    "title": "List of Changes for Laserfiche Web Client 11 Update 9",
-    "url": "https://support.laserfiche.com/kb/1014544/list-of-changes-for-laserfiche-web-client-11-update-9",
+    "id": "support-promoted-source-1014200",
+    "title": "Software versions and fixes included in the Laserfiche 10.4.3 Download Package",
+    "url": "https://support.laserfiche.com/kb/1014200/software-versions-and-fixes-included-in-the-laserfiche-10-4-3-download-package",
     "sourceType": "support-knowledge-base",
     "reviewedDate": "2026-07-01",
     "productTags": [
       "Web Client",
-      "Version 11"
+      "Version 10"
     ],
     "extractedErrorCodes": [
-      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014559",
-    "title": "List of Changes for Laserfiche Web Client 11 Update 10",
-    "url": "https://support.laserfiche.com/kb/1014559/list-of-changes-for-laserfiche-web-client-11-update-10",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Web Client",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014502",
-    "title": "List of Changes for Laserfiche Web Client 11 Update 8",
-    "url": "https://support.laserfiche.com/kb/1014502/list-of-changes-for-laserfiche-web-client-11-update-8",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Web Client",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014483",
-    "title": "List of Changes for Laserfiche Web Client 11 Update 7",
-    "url": "https://support.laserfiche.com/kb/1014483/list-of-changes-for-laserfiche-web-client-11-update-7",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Web Client",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014446",
-    "title": "List of Changes for Laserfiche Web Client 11 Update 6.",
-    "url": "https://support.laserfiche.com/kb/1014446/list-of-changes-for-laserfiche-web-client-11-update-6-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Web Client",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014441",
-    "title": "List of Changes for Laserfiche Web Client 11 Update 5.",
-    "url": "https://support.laserfiche.com/kb/1014441/list-of-changes-for-laserfiche-web-client-11-update-5-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Web Client",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014317",
-    "title": "List of Changes for Laserfiche Web Client 11 Update 3",
-    "url": "https://support.laserfiche.com/kb/1014317/list-of-changes-for-laserfiche-web-client-11-update-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Web Client",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+      "WEBCLIENT-KB-1014200"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -16240,7 +17526,112 @@ export const supportChromePromotedReviewedSources = [
       "Version 11"
     ],
     "extractedErrorCodes": [
-      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+      "WEBCLIENT-KB-1014300"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014317",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014317/list-of-changes-for-laserfiche-web-client-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-KB-1014317"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014441",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 5.",
+    "url": "https://support.laserfiche.com/kb/1014441/list-of-changes-for-laserfiche-web-client-11-update-5-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-KB-1014441"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014446",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 6.",
+    "url": "https://support.laserfiche.com/kb/1014446/list-of-changes-for-laserfiche-web-client-11-update-6-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-KB-1014446"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014483",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 7",
+    "url": "https://support.laserfiche.com/kb/1014483/list-of-changes-for-laserfiche-web-client-11-update-7",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-KB-1014483"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014502",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 8",
+    "url": "https://support.laserfiche.com/kb/1014502/list-of-changes-for-laserfiche-web-client-11-update-8",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-KB-1014502"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014544",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 9",
+    "url": "https://support.laserfiche.com/kb/1014544/list-of-changes-for-laserfiche-web-client-11-update-9",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-KB-1014544"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014559",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 10",
+    "url": "https://support.laserfiche.com/kb/1014559/list-of-changes-for-laserfiche-web-client-11-update-10",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-KB-1014559"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -16256,21 +17647,6 @@ export const supportChromePromotedReviewedSources = [
     ],
     "extractedErrorCodes": [
       "WEBCLIENT-ONLINE_LASERFICHE_PRODUCT_HELP_FIL"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014200",
-    "title": "Software versions and fixes included in the Laserfiche 10.4.3 Download Package",
-    "url": "https://support.laserfiche.com/kb/1014200/software-versions-and-fixes-included-in-the-laserfiche-10-4-3-download-package",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Web Client",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "WEBCLIENT-SOFTWARE_VERSIONS_AND_FIXES_INCLUD"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -16359,6 +17735,60 @@ export const supportChromePromotedReviewedSources = [
     "reviewStatus": "curated-unresolved"
   },
   {
+    "id": "support-promoted-source-1012805",
+    "title": "Changing the Number of Context Hits Displayed in WebLink.",
+    "url": "https://support.laserfiche.com/kb/1012805/changing-the-number-of-context-hits-displayed-in-weblink-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-CHANGING_THE_NUMBER_OF_CONTEXT_HIT"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012775",
+    "title": "Changing the Number of Context Hits Displayed on WebLink 8's Search Results Page.",
+    "url": "https://support.laserfiche.com/kb/1012775/changing-the-number-of-context-hits-displayed-on-weblink-8s-search-results-page-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-CHANGING_THE_NUMBER_OF_CONTEXT_HIT"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011186",
+    "title": "Configuring WebLink to be Firewall Compatible.",
+    "url": "https://support.laserfiche.com/kb/1011186/configuring-weblink-to-be-firewall-compatible-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-CONFIGURING_WEBLINK_TO_BE_FIREWALL"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
     "id": "support-promoted-source-1013986",
     "title": "Displaying more context hits when searching in WebLink 10",
     "url": "https://support.laserfiche.com/kb/1013986/displaying-more-context-hits-when-searching-in-weblink-10",
@@ -16391,154 +17821,56 @@ export const supportChromePromotedReviewedSources = [
     "reviewStatus": "curated-unresolved"
   },
   {
-    "id": "support-promoted-source-1013988",
-    "title": "Laserfiche Web Client and WebLink 10 and Higher Technical Support Checklist.",
-    "url": "https://support.laserfiche.com/kb/1013988/laserfiche-web-client-and-weblink-10-and-higher-technical-support-checklist-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "WebLink",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "WEBLINK-LASERFICHE_WEB_CLIENT_AND_WEBLINK_"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014456",
-    "title": "List of Changes for Laserfiche WebLink 11 Update 2.",
-    "url": "https://support.laserfiche.com/kb/1014456/list-of-changes-for-laserfiche-weblink-11-update-2-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "WebLink",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014577",
-    "title": "List of Changes for Laserfiche WebLink 11 Update 6.",
-    "url": "https://support.laserfiche.com/kb/1014577/list-of-changes-for-laserfiche-weblink-11-update-6-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "WebLink",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014574",
-    "title": "List of Changes for Laserfiche WebLink 11 Update 5.",
-    "url": "https://support.laserfiche.com/kb/1014574/list-of-changes-for-laserfiche-weblink-11-update-5-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "WebLink",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014465",
-    "title": "List of Changes for Laserfiche WebLink 11 Update 3.",
-    "url": "https://support.laserfiche.com/kb/1014465/list-of-changes-for-laserfiche-weblink-11-update-3-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "WebLink",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014438",
-    "title": "List of Changes for Laserfiche WebLink 11 Update 1.",
-    "url": "https://support.laserfiche.com/kb/1014438/list-of-changes-for-laserfiche-weblink-11-update-1-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "WebLink",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013923",
-    "title": "List of Changes for WebLink 10",
-    "url": "https://support.laserfiche.com/kb/1013923/list-of-changes-for-weblink-10",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "WebLink",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_10"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1013953",
-    "title": "List of Changes for WebLink 10.1.",
-    "url": "https://support.laserfiche.com/kb/1013953/list-of-changes-for-weblink-10-1-",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "WebLink",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_10_1"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014123",
-    "title": "List of Changes for WebLink 10.2",
-    "url": "https://support.laserfiche.com/kb/1014123",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "WebLink",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_10_2"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014330",
-    "title": "List of Changes for WebLink 11",
-    "url": "https://support.laserfiche.com/kb/1014330/list-of-changes-for-weblink-11",
+    "id": "support-promoted-source-1000550",
+    "title": "Issues Fixed by WebLink 6.15.",
+    "url": "https://support.laserfiche.com/kb/1000550",
     "sourceType": "support-knowledge-base",
     "reviewedDate": "2026-07-01",
     "productTags": [
       "WebLink",
       "Version 9",
       "Version 10",
-      "Version 11"
+      "Version 11",
+      "Version 12"
     ],
     "extractedErrorCodes": [
-      "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_11"
+      "WEBLINK-ISSUES_FIXED_BY_WEBLINK_6_15"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1001001",
+    "title": "List of Changes for WebLink 7.0.2.",
+    "url": "https://support.laserfiche.com/kb/1001001",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-KB-1001001"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012795",
+    "title": "List of Changes for Laserfiche WebLink 8.2",
+    "url": "https://support.laserfiche.com/kb/1012795/list-of-changes-for-laserfiche-weblink-8-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-KB-1012795"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -16556,7 +17888,7 @@ export const supportChromePromotedReviewedSources = [
       "Version 12"
     ],
     "extractedErrorCodes": [
-      "WEBLINK-RELEASE_NOTES_FOR_LASERFICHE_WEBLI"
+      "WEBLINK-KB-1012796"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -16574,7 +17906,7 @@ export const supportChromePromotedReviewedSources = [
       "Version 12"
     ],
     "extractedErrorCodes": [
-      "WEBLINK-RELEASE_NOTES_FOR_WEBLINK_8_2_1"
+      "WEBLINK-KB-1012940"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -16592,7 +17924,52 @@ export const supportChromePromotedReviewedSources = [
       "Version 12"
     ],
     "extractedErrorCodes": [
-      "WEBLINK-RELEASE_NOTES_FOR_WEBLINK_8_2_2"
+      "WEBLINK-KB-1013209"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013923",
+    "title": "List of Changes for WebLink 10",
+    "url": "https://support.laserfiche.com/kb/1013923/list-of-changes-for-weblink-10",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-KB-1013923"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013953",
+    "title": "List of Changes for WebLink 10.1.",
+    "url": "https://support.laserfiche.com/kb/1013953/list-of-changes-for-weblink-10-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-KB-1013953"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014123",
+    "title": "List of Changes for WebLink 10.2",
+    "url": "https://support.laserfiche.com/kb/1014123",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-KB-1014123"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -16607,7 +17984,168 @@ export const supportChromePromotedReviewedSources = [
       "Version 10"
     ],
     "extractedErrorCodes": [
-      "WEBLINK-RELEASE_NOTES_FOR_WEBLINK_10_2"
+      "WEBLINK-KB-1014124"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014330",
+    "title": "List of Changes for WebLink 11",
+    "url": "https://support.laserfiche.com/kb/1014330/list-of-changes-for-weblink-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-KB-1014330"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014438",
+    "title": "List of Changes for Laserfiche WebLink 11 Update 1.",
+    "url": "https://support.laserfiche.com/kb/1014438/list-of-changes-for-laserfiche-weblink-11-update-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-KB-1014438"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014456",
+    "title": "List of Changes for Laserfiche WebLink 11 Update 2.",
+    "url": "https://support.laserfiche.com/kb/1014456/list-of-changes-for-laserfiche-weblink-11-update-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-KB-1014456"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014465",
+    "title": "List of Changes for Laserfiche WebLink 11 Update 3.",
+    "url": "https://support.laserfiche.com/kb/1014465/list-of-changes-for-laserfiche-weblink-11-update-3-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-KB-1014465"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014574",
+    "title": "List of Changes for Laserfiche WebLink 11 Update 5.",
+    "url": "https://support.laserfiche.com/kb/1014574/list-of-changes-for-laserfiche-weblink-11-update-5-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-KB-1014574"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014577",
+    "title": "List of Changes for Laserfiche WebLink 11 Update 6.",
+    "url": "https://support.laserfiche.com/kb/1014577/list-of-changes-for-laserfiche-weblink-11-update-6-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-KB-1014577"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1001002",
+    "title": "Known Issues with WebLink 7.0.2.",
+    "url": "https://support.laserfiche.com/kb/1001002/known-issues-with-weblink-7-0-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-KNOWN_ISSUES_WITH_WEBLINK_7_0_2"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013988",
+    "title": "Laserfiche Web Client and WebLink 10 and Higher Technical Support Checklist.",
+    "url": "https://support.laserfiche.com/kb/1013988/laserfiche-web-client-and-weblink-10-and-higher-technical-support-checklist-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-LASERFICHE_WEB_CLIENT_AND_WEBLINK_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011627",
+    "title": "Limiting Connections to WebLink or Web Access Through IIS.",
+    "url": "https://support.laserfiche.com/kb/1011627/limiting-connections-to-weblink-or-web-access-through-iis-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-LIMITING_CONNECTIONS_TO_WEBLINK_OR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011830",
+    "title": "PDF Files Generated by WebLink use the Same Resolution as the Scanned Images.",
+    "url": "https://support.laserfiche.com/kb/1011830/pdf-files-generated-by-weblink-use-the-same-resolution-as-the-scanned-images-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-PDF_FILES_GENERATED_BY_WEBLINK_USE"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -16656,6 +18194,24 @@ export const supportChromePromotedReviewedSources = [
     ],
     "extractedErrorCodes": [
       "WEBLINK-WEBLINK_ERROR_CODE_FORMAT"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011234",
+    "title": "You Cannot Customize Which Columns to Display When You Access WebLink Using \"Localhost\" as the URL.",
+    "url": "https://support.laserfiche.com/kb/1011234/you-cannot-customize-which-columns-to-display-when-you-access-weblink-using-localhost-as-the-url-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-YOU_CANNOT_CUSTOMIZE_WHICH_COLUMNS"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -16721,52 +18277,7 @@ export const supportChromePromotedReviewedSources = [
       "Version 10"
     ],
     "extractedErrorCodes": [
-      "WORKFLOW-LIST_OF_CHANGES_FOR_LASERFICHE_WOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014131",
-    "title": "List of Changes for Laserfiche Workflow 10.4.2 Update 2",
-    "url": "https://support.laserfiche.com/kb/1014131/list-of-changes-for-laserfiche-workflow-10-4-2-update-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Workflow",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "WORKFLOW-LIST_OF_CHANGES_FOR_LASERFICHE_WOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014243",
-    "title": "List of Changes for Laserfiche Workflow 10.4.3",
-    "url": "https://support.laserfiche.com/kb/1014243/list-of-changes-for-laserfiche-workflow-10-4-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Workflow",
-      "Version 10"
-    ],
-    "extractedErrorCodes": [
-      "WORKFLOW-LIST_OF_CHANGES_FOR_LASERFICHE_WOR"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014461",
-    "title": "List of Changes for Workflow 11 Update 3",
-    "url": "https://support.laserfiche.com/kb/1014461/list-of-changes-for-workflow-11-update-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Workflow",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WORKFLOW-LIST_OF_CHANGES_FOR_WORKFLOW_11_UP"
+      "WORKFLOW-KB-1013837"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -16783,7 +18294,37 @@ export const supportChromePromotedReviewedSources = [
       "Version 11"
     ],
     "extractedErrorCodes": [
-      "WORKFLOW-RELEASE_NOTES_FOR_LASERFICHE_WORKF"
+      "WORKFLOW-KB-1014101"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014131",
+    "title": "List of Changes for Laserfiche Workflow 10.4.2 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014131/list-of-changes-for-laserfiche-workflow-10-4-2-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-KB-1014131"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014243",
+    "title": "List of Changes for Laserfiche Workflow 10.4.3",
+    "url": "https://support.laserfiche.com/kb/1014243/list-of-changes-for-laserfiche-workflow-10-4-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-KB-1014243"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -16798,23 +18339,7 @@ export const supportChromePromotedReviewedSources = [
       "Version 10"
     ],
     "extractedErrorCodes": [
-      "WORKFLOW-RELEASE_NOTES_FOR_LASERFICHE_WORKF"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014522",
-    "title": "Release Notes for the Laserfiche Cloud Migration Readiness Assessment Tool",
-    "url": "https://support.laserfiche.com/kb/1014522/release-notes-for-the-laserfiche-cloud-migration-readiness-assessment-tool",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Workflow",
-      "Version 10",
-      "Version 12"
-    ],
-    "extractedErrorCodes": [
-      "WORKFLOW-RELEASE_NOTES_FOR_THE_LASERFICHE_C"
+      "WORKFLOW-KB-1014244"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -16831,39 +18356,7 @@ export const supportChromePromotedReviewedSources = [
       "Version 11"
     ],
     "extractedErrorCodes": [
-      "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014462",
-    "title": "Release Notes for Workflow 11 Update 3",
-    "url": "https://support.laserfiche.com/kb/1014462/release-notes-for-workflow-11-update-3",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Workflow",
-      "Version 9",
-      "Version 10",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11_UPDA"
-    ],
-    "reviewStatus": "curated-unresolved"
-  },
-  {
-    "id": "support-promoted-source-1014395",
-    "title": "Release Notes for Workflow 11 Update 2",
-    "url": "https://support.laserfiche.com/kb/1014395/release-notes-for-workflow-11-update-2",
-    "sourceType": "support-knowledge-base",
-    "reviewedDate": "2026-07-01",
-    "productTags": [
-      "Workflow",
-      "Version 11"
-    ],
-    "extractedErrorCodes": [
-      "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11_UPDA"
+      "WORKFLOW-KB-1014246"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -16880,7 +18373,70 @@ export const supportChromePromotedReviewedSources = [
       "Version 11"
     ],
     "extractedErrorCodes": [
-      "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11_UPDA"
+      "WORKFLOW-KB-1014339"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014395",
+    "title": "Release Notes for Workflow 11 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014395/release-notes-for-workflow-11-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-KB-1014395"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014461",
+    "title": "List of Changes for Workflow 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014461/list-of-changes-for-workflow-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-KB-1014461"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014462",
+    "title": "Release Notes for Workflow 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014462/release-notes-for-workflow-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-KB-1014462"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014522",
+    "title": "Release Notes for the Laserfiche Cloud Migration Readiness Assessment Tool",
+    "url": "https://support.laserfiche.com/kb/1014522/release-notes-for-the-laserfiche-cloud-migration-readiness-assessment-tool",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 10",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-KB-1014522"
     ],
     "reviewStatus": "curated-unresolved"
   },

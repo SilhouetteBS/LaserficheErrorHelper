@@ -325,7 +325,36 @@
     "1013952",
     "1013873",
     "1014141",
-    "1013756"
+    "1013756",
+    "1012805",
+    "1001002",
+    "1011186",
+    "1012795",
+    "1011627",
+    "1011234",
+    "1012775",
+    "1011830",
+    "1000550",
+    "1001001",
+    "1013859",
+    "1013707",
+    "1013760",
+    "1013902",
+    "1013761",
+    "1012690",
+    "1012787",
+    "1013055",
+    "1013130",
+    "1013416",
+    "1012849",
+    "1012943",
+    "1013369",
+    "1013527",
+    "1013608",
+    "1013325",
+    "1013197",
+    "1013089",
+    "1013131"
   ],
   "visitedUrls": [
     "https://support.laserfiche.com/kb/1014571/using-chrome-or-edge-136-and-higher-with-laserfiche-connector-may-result-in-an-error-stating-the-browser-is-not-configured-correctly",
@@ -648,7 +677,36 @@
     "https://support.laserfiche.com/kb/1013952/list-of-changes-for-quick-fields-10-3-hotfix-1013952",
     "https://support.laserfiche.com/kb/1013873/list-of-changes-for-quick-fields-10-1-hotfix-1013873",
     "https://support.laserfiche.com/kb/1014141/list-of-changes-for-quick-fields-10-3-hotfix-1014141",
-    "https://support.laserfiche.com/kb/1013756/release-notes-for-quick-fields-10"
+    "https://support.laserfiche.com/kb/1013756/release-notes-for-quick-fields-10",
+    "https://support.laserfiche.com/kb/1012805/changing-the-number-of-context-hits-displayed-in-weblink-",
+    "https://support.laserfiche.com/kb/1001002/known-issues-with-weblink-7-0-2-",
+    "https://support.laserfiche.com/kb/1011186/configuring-weblink-to-be-firewall-compatible-",
+    "https://support.laserfiche.com/kb/1012795/list-of-changes-for-laserfiche-weblink-8-2",
+    "https://support.laserfiche.com/kb/1011627/limiting-connections-to-weblink-or-web-access-through-iis-",
+    "https://support.laserfiche.com/kb/1011234/you-cannot-customize-which-columns-to-display-when-you-access-weblink-using-localhost-as-the-url-",
+    "https://support.laserfiche.com/kb/1012775/changing-the-number-of-context-hits-displayed-on-weblink-8s-search-results-page-",
+    "https://support.laserfiche.com/kb/1011830/pdf-files-generated-by-weblink-use-the-same-resolution-as-the-scanned-images-",
+    "https://support.laserfiche.com/kb/1000550",
+    "https://support.laserfiche.com/kb/1001001",
+    "https://support.laserfiche.com/kb/1013859/release-notes-for-laserfiche-10-2-1",
+    "https://support.laserfiche.com/kb/1013707/release-notes-for-laserfiche-10-",
+    "https://support.laserfiche.com/kb/1013760/release-notes-for-laserfiche-10-1-",
+    "https://support.laserfiche.com/kb/1013902/release-notes-for-laserfiche-forms-10-3",
+    "https://support.laserfiche.com/kb/1013761/list-of-changes-for-laserfiche-10-1-",
+    "https://support.laserfiche.com/kb/1012690/release-notes-for-laserfiche-8-2-0-",
+    "https://support.laserfiche.com/kb/1012787/release-notes-for-laserfiche-8-2-1-",
+    "https://support.laserfiche.com/kb/1013055/release-notes-for-laserfiche-9-0-0-",
+    "https://support.laserfiche.com/kb/1013130/list-of-changes-for-laserfiche-9-0-1",
+    "https://support.laserfiche.com/kb/1013416/release-notes-for-laserfiche-9-1-1-",
+    "https://support.laserfiche.com/kb/1012849/release-notes-for-laserfiche-8-3-0-",
+    "https://support.laserfiche.com/kb/1012943/release-notes-for-laserfiche-8-3-1-",
+    "https://support.laserfiche.com/kb/1013369/release-notes-for-laserfiche-9-1-",
+    "https://support.laserfiche.com/kb/1013527/release-notes-for-laserfiche-9-2-",
+    "https://support.laserfiche.com/kb/1013608/release-notes-for-laserfiche-9-2-1-",
+    "https://support.laserfiche.com/kb/1013325/release-notes-for-laserfiche-9-0-3-",
+    "https://support.laserfiche.com/kb/1013197/release-notes-for-laserfiche-9-0-2-",
+    "https://support.laserfiche.com/kb/1013089/release-notes-for-laserfiche-8-3-2-",
+    "https://support.laserfiche.com/kb/1013131/release-notes-for-laserfiche-9-0-1"
   ],
   "batches": [
     {
@@ -751,12 +809,20 @@
       "batchNumber": 13,
       "batchPath": "research/support-chrome-search-batch-2026-07-01-13.json",
       "mdPath": "research/support-chrome-search-batch-2026-07-01-13.md",
-      "count": 21,
+      "count": 25,
       "createdAt": "2026-07-01T21:27:36.159Z",
-      "updatedAt": "2026-07-01T21:29:23.190Z"
+      "updatedAt": "2026-07-01T21:55:39.865Z"
+    },
+    {
+      "batchNumber": 14,
+      "batchPath": "research/support-chrome-search-batch-2026-07-01-14.json",
+      "mdPath": "research/support-chrome-search-batch-2026-07-01-14.md",
+      "count": 25,
+      "createdAt": "2026-07-01T21:56:34.405Z",
+      "updatedAt": "2026-07-01T21:59:16.138Z"
     }
   ],
-  "updatedAt": "2026-07-01T21:29:23.189Z",
+  "updatedAt": "2026-07-01T21:59:16.136Z",
   "notes": "Restarted from batch 1 for manual validation of support search result detection.",
   "queryCursors": {
     "query:error": {
@@ -836,15 +902,15 @@
       "done": true
     },
     "query:LFDS": {
-      "page": 6,
-      "done": false
+      "page": 7,
+      "done": true
     },
     "query:0x800": {
       "page": 2,
       "done": true
     },
     "query:HTTP 500": {
-      "page": 4,
+      "page": 13,
       "done": false
     },
     "query:SQL error": {
@@ -892,12 +958,12 @@
       "done": true
     },
     "query:WebLink 11": {
-      "page": 4,
-      "done": false
+      "page": 8,
+      "done": true
     },
     "query:Connector 11": {
-      "page": 4,
-      "done": false
+      "page": 5,
+      "done": true
     },
     "query:Quick Fields 11": {
       "page": 2,
@@ -908,7 +974,7 @@
       "done": true
     },
     "query:Snapshot 10": {
-      "page": 6,
+      "page": 11,
       "done": false
     },
     "query:Laserfiche Server 11": {
@@ -916,24 +982,24 @@
       "done": true
     },
     "query:Web Client 11": {
-      "page": 4,
-      "done": false
+      "page": 5,
+      "done": true
     },
     "query:Forms 10": {
-      "page": 5,
-      "done": false
+      "page": 6,
+      "done": true
     },
     "query:Workflow 10": {
-      "page": 3,
-      "done": false
+      "page": 4,
+      "done": true
     },
     "query:Directory Server 10": {
       "page": 3,
       "done": true
     },
     "query:WebLink 10": {
-      "page": 3,
-      "done": false
+      "page": 4,
+      "done": true
     },
     "query:Quick Fields 10": {
       "page": 3,

@@ -224,13 +224,47 @@ function syntheticCode(row, product) {
   return `${prefixes[product] ?? "SUPPORT"}-${token}`.slice(0, 48);
 }
 
+function productPrefix(product) {
+  return (
+    {
+      "Administration Hub": "ADMINHUB",
+      "AI Service": "AI",
+      "API Server": "API",
+      "Audit Trail": "AUDIT",
+      Connector: "CONNECTOR",
+      "Directory Server": "LFDS",
+      Forms: "FORMS",
+      "Full Text Search": "FTS",
+      "Import Agent": "IMPORT",
+      "Laserfiche Installer": "INSTALLER",
+      "Laserfiche Server/Repository Server": "LFSERVER",
+      Mobile: "MOBILE",
+      "Office Integration": "OFFICE",
+      "Quick Fields": "QF",
+      Snapshot: "SNAPSHOT",
+      "Web Client": "WEBCLIENT",
+      WebLink: "WEBLINK",
+      "Webtools Agent": "WEBTOOLS",
+      "Windows Client/Desktop Client": "CLIENT",
+      Workflow: "WORKFLOW",
+    }[product] ?? "SUPPORT"
+  );
+}
+
 function entryMessage(row) {
   return title(row).slice(0, 180);
 }
 
-function likelyFixes(row) {
+function likelyFixes(row, isReleaseSummary = false) {
   const text = row.detailText ?? "";
   const hasResolution = /\b(resolution|workaround|solution)\b/i.test(text);
+  if (isReleaseSummary) {
+    return [
+      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
+      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
+      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production.",
+    ];
+  }
   return [
     "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
     hasResolution
@@ -242,9 +276,9 @@ function likelyFixes(row) {
 
 function buildEntry(row) {
   const product = inferProduct(row);
-  const isReleaseSummary = /^(release notes|list of changes|software versions and fixes)\b/i.test(title(row));
+  const isReleaseSummary = /^(release notes|list of change(?:s)?|software versions and fixes)\b/i.test(title(row));
   const codes = isReleaseSummary ? meaningfulCodes({ ...row, detailText: "", snippet: "" }) : meaningfulCodes(row);
-  const code = codes[0] || syntheticCode(row, product);
+  const code = codes[0] || (isReleaseSummary && row.kbId ? `${productPrefix(product)}-KB-${row.kbId}` : syntheticCode(row, product));
   const versions = inferVersions(row);
   const message = entryMessage(row);
   const sourceId = `support-promoted-source-${row.kbId || slugify(message)}`;
@@ -255,10 +289,12 @@ function buildEntry(row) {
     message,
     product,
     versions,
-    confidence: "medium",
+    confidence: isReleaseSummary ? "low" : "medium",
     fixStatus: "needs-review",
     reviewedDate,
-    summary: `A Laserfiche Support Knowledge Base article reports ${message} for ${product}. This entry is published so users can discover the source while the exact remediation is still being curated.`,
+    summary: isReleaseSummary
+      ? `A Laserfiche Support Knowledge Base release-note article may contain a ${product} fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.`
+      : `A Laserfiche Support Knowledge Base article reports ${message} for ${product}. This entry is published so users can discover the source while the exact remediation is still being curated.`,
     symptoms: [
       `The linked Support KB article reports: ${message}.`,
       codes.length > 0
@@ -266,12 +302,16 @@ function buildEntry(row) {
         : "No stable numeric error code was extracted from the article title or summary.",
     ],
     likelyCauses: [
-      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation.",
+      isReleaseSummary
+        ? "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
+        : "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation.",
     ],
-    likelyFixes: likelyFixes(row),
+    likelyFixes: likelyFixes(row, isReleaseSummary),
     validationStatus: "reviewed-diagnostic",
     notes:
-      versions.length === allowedVersions.length
+      isReleaseSummary
+        ? "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail."
+        : versions.length === allowedVersions.length
         ? "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments."
         : "Version scope is based on version text found in the Support KB article title or body.",
     sources: [
@@ -279,7 +319,9 @@ function buildEntry(row) {
         sourceType: "support-knowledge-base",
         title: message,
         url: row.url,
-        note: "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix.",
+        note: isReleaseSummary
+          ? "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
+          : "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix.",
       },
     ],
     sourceId,
