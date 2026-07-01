@@ -229,6 +229,7 @@ function filterOptionLabel(value, label) {
   if (label === "Version") return "All Versions";
   if (label === "Source Confidence") return "All Confidence";
   if (label === "Fix Status") return "All Fix Statuses";
+  if (label === "Fix Status / Research") return "All Fix Statuses / Research";
   if (label === "Source") return "All Sources";
   if (label === "Source Review Status") return "All Review Statuses";
   return value;
@@ -360,15 +361,19 @@ function activeFilterItems({
   validationFilter,
   reviewStatusFilter,
 }) {
+  const fixResearchValue =
+    fixStatus !== allOption
+      ? { key: "fixResearch", label: "Fix Status / Research", value: fixStatusLabel(fixStatus) }
+      : researchFilter !== allOption && { key: "fixResearch", label: "Fix Status / Research", value: researchFilterLabel(researchFilter) };
+
   return [
     query.trim() && { key: "query", label: "Search", value: query.trim() },
     product !== allOption && { key: "product", label: "Product", value: product },
     version !== allOption && { key: "version", label: "Version", value: version },
     source !== allOption && { key: "source", label: "Source", value: sourceTypeLabel(source) },
     confidence !== allOption && { key: "confidence", label: "Confidence", value: confidence },
-    fixStatus !== allOption && { key: "fixStatus", label: "Fix Status", value: fixStatusLabel(fixStatus) },
+    fixResearchValue,
     scenarioFilter !== allOption && { key: "scenarioFilter", label: "Scenario Coverage", value: scenarioFilterLabel(scenarioFilter) },
-    researchFilter !== allOption && { key: "researchFilter", label: "Fix Research", value: researchFilterLabel(researchFilter) },
     validationFilter !== allOption && { key: "validationFilter", label: "Validation", value: validationFilterLabel(validationFilter) },
     reviewStatusFilter !== allOption && { key: "reviewStatusFilter", label: "Review Status", value: reviewStatusLabel(reviewStatusFilter) },
   ].filter(Boolean);
@@ -475,6 +480,7 @@ function App() {
       fixStatuses: withAll(["known-fix", "workaround", "diagnostic-only", "unresolved", "needs-review"]),
       scenarioStates: withAll(["has-scenarios", "single-scenario"]),
       researchStates: withAll(["needs-fix-research", "has-fix-guidance"]),
+      fixResearchStates: withAll(["known-fix", "workaround", "diagnostic-only", "unresolved", "needs-review", "has-fix-guidance", "needs-fix-research"]),
       validationStates: withAll(["source-research-needed", "reviewed-diagnostic", "official-doc-baseline"]),
       reviewStatuses: withAll(["curated", "curated-partial", "curated-unresolved", "cross-product", "not-actionable", "no-matching-posts"]),
     }),
@@ -549,6 +555,10 @@ function App() {
       source: () => setSource(allOption),
       confidence: () => setConfidence(allOption),
       fixStatus: () => setFixStatus(allOption),
+      fixResearch: () => {
+        setFixStatus(allOption);
+        setResearchFilter(allOption);
+      },
       scenarioFilter: () => setScenarioFilter(allOption),
       researchFilter: () => setResearchFilter(allOption),
       validationFilter: () => setValidationFilter(allOption),
@@ -610,6 +620,21 @@ function App() {
     setSortBy("confidence");
     setSelectedId(null);
     setIsMoreFiltersOpen(true);
+    setUsageStats(recordUsageEvent("filters"));
+  }
+
+  function handleFixResearchFilter(value) {
+    if (value === allOption) {
+      setFixStatus(allOption);
+      setResearchFilter(allOption);
+    } else if (filters.researchStates.includes(value)) {
+      setFixStatus(allOption);
+      setResearchFilter(value);
+    } else {
+      setFixStatus(value);
+      setResearchFilter(allOption);
+    }
+
     setUsageStats(recordUsageEvent("filters"));
   }
 
@@ -712,13 +737,6 @@ function App() {
             options={filters.sources}
             formatOption={sourceTypeLabel}
           />
-          <FilterSelect
-            label="Fix Status"
-            value={fixStatus}
-            onChange={trackFilterChange(setFixStatus)}
-            options={filters.fixStatuses}
-            formatOption={fixStatusLabel}
-          />
           <button
             aria-controls="advanced-filters"
             aria-expanded={isMoreFiltersOpen}
@@ -766,11 +784,11 @@ function App() {
               options={filters.confidences}
             />
             <FilterSelect
-              label="Fix Status"
-              value={fixStatus}
-              onChange={trackFilterChange(setFixStatus)}
-              options={filters.fixStatuses}
-              formatOption={fixStatusLabel}
+              label="Fix Status / Research"
+              value={fixStatus !== allOption ? fixStatus : researchFilter}
+              onChange={handleFixResearchFilter}
+              options={filters.fixResearchStates}
+              formatOption={(value) => (filters.researchStates.includes(value) ? researchFilterLabel(value) : fixStatusLabel(value))}
             />
             <FilterSelect
               label="Scenario Coverage"
@@ -778,13 +796,6 @@ function App() {
               onChange={trackFilterChange(setScenarioFilter)}
               options={filters.scenarioStates}
               formatOption={scenarioFilterLabel}
-            />
-            <FilterSelect
-              label="Fix Research"
-              value={researchFilter}
-              onChange={trackFilterChange(setResearchFilter)}
-              options={filters.researchStates}
-              formatOption={researchFilterLabel}
             />
             <FilterSelect
               label="Validation"

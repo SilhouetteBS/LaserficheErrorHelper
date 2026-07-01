@@ -6,8 +6,8 @@ Generated: 2026-07-01
 
 - Published helper entries: 1936
 - Reviewed source ledger rows: 949
-- Discovery rows tracked: 3931
-- Remaining candidate rows: 0
+- Discovery rows tracked: 4081
+- Remaining candidate rows: 71
 
 ## Fix Status Coverage
 
@@ -46,31 +46,41 @@ Generated: 2026-07-01
 | Administration Hub | 5 | 0 |
 | AI Service | 1 | 0 |
 | API Server | 16 | 0 |
-| Audit Trail | 20 | 0 |
+| Audit Trail | 20 | 4 |
 | Common Dialog | 9 | 0 |
-| Connector | 12 | 0 |
-| Directory Server | 77 | 0 |
+| Connector | 12 | 3 |
+| Directory Server | 77 | 3 |
 | Discussions | 7 | 0 |
 | Distributed Computing Cluster | 11 | 0 |
 | Federated Search | 7 | 0 |
-| Forms | 122 | 0 |
+| Forms | 122 | 4 |
 | Full Text Search | 17 | 0 |
-| Import Agent | 26 | 0 |
-| Laserfiche Installer | 43 | 0 |
-| Laserfiche Server/Repository Server | 1081 | 0 |
-| Mobile | 13 | 0 |
+| Import Agent | 26 | 3 |
+| Laserfiche Installer | 43 | 1 |
+| Laserfiche Server/Repository Server | 1081 | 24 |
+| Mobile | 13 | 2 |
 | Office Integration | 11 | 0 |
-| Quick Fields | 38 | 0 |
+| Quick Fields | 38 | 6 |
 | Records Management | 12 | 0 |
-| Snapshot | 11 | 0 |
-| Web Client | 66 | 0 |
-| WebLink | 25 | 0 |
+| Snapshot | 11 | 1 |
+| Web Client | 66 | 4 |
+| WebLink | 25 | 12 |
 | Webtools Agent | 5 | 0 |
 | Windows Client/Desktop Client | 236 | 0 |
-| Workflow | 65 | 0 |
+| Workflow | 65 | 4 |
 
 ## Next Batch Targets
 
 | Product | Remaining candidates |
 | --- | --- |
+| Laserfiche Server/Repository Server | 24 |
+| WebLink | 12 |
+| Quick Fields | 6 |
+| Audit Trail | 4 |
+| Forms | 4 |
+| Web Client | 4 |
+| Workflow | 4 |
+| Connector | 3 |
+| Directory Server | 3 |
+| Import Agent | 3 |
 
