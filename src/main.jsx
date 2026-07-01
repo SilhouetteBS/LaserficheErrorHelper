@@ -359,7 +359,6 @@ function activeFilterItems({
   researchFilter,
   validationFilter,
   reviewStatusFilter,
-  ledgerSource,
 }) {
   return [
     query.trim() && { key: "query", label: "Search", value: query.trim() },
@@ -372,7 +371,6 @@ function activeFilterItems({
     researchFilter !== allOption && { key: "researchFilter", label: "Fix Research", value: researchFilterLabel(researchFilter) },
     validationFilter !== allOption && { key: "validationFilter", label: "Validation", value: validationFilterLabel(validationFilter) },
     reviewStatusFilter !== allOption && { key: "reviewStatusFilter", label: "Review Status", value: reviewStatusLabel(reviewStatusFilter) },
-    ledgerSource !== allOption && { key: "ledgerSource", label: "Ledger Source", value: sourceTypeLabel(ledgerSource) },
   ].filter(Boolean);
 }
 
@@ -492,7 +490,6 @@ function App() {
       .filter((entry) => product === allOption || entry.product === product)
       .filter((entry) => version === allOption || entry.versions.includes(version))
       .filter((entry) => source === allOption || entry.sources.some((item) => item.sourceType === source))
-      .filter((entry) => ledgerSource === allOption || entry.sources.some((item) => item.sourceType === ledgerSource))
       .filter((entry) => confidence === allOption || confidenceLabel(entry.confidence) === confidence)
       .filter((entry) => fixStatus === allOption || fixStatusValue(entry) === fixStatus)
       .filter((entry) => {
@@ -516,7 +513,7 @@ function App() {
         if (sortBy === "product") return a.product.localeCompare(b.product) || a.code.localeCompare(b.code);
         return b.searchScore - a.searchScore || sourceRank(a) - sourceRank(b) || a.code.localeCompare(b.code, undefined, { numeric: true });
       });
-  }, [errorEntries, reviewedSources, query, product, version, source, ledgerSource, confidence, fixStatus, scenarioFilter, researchFilter, validationFilter, reviewStatusFilter, sortBy]);
+  }, [errorEntries, reviewedSources, query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, validationFilter, reviewStatusFilter, sortBy]);
 
   const selectedEntry = selectedId ? errorEntries.find((entry) => entry.id === selectedId) : null;
   const qualitySummary = useMemo(() => {
@@ -556,7 +553,6 @@ function App() {
       researchFilter: () => setResearchFilter(allOption),
       validationFilter: () => setValidationFilter(allOption),
       reviewStatusFilter: () => setReviewStatusFilter(allOption),
-      ledgerSource: () => setLedgerSource(allOption),
     };
 
     clearers[key]?.();
@@ -647,7 +643,6 @@ function App() {
     researchFilter,
     validationFilter,
     reviewStatusFilter,
-    ledgerSource,
   });
 
   return (
@@ -768,7 +763,7 @@ function App() {
           <section className="advanced-filters" id="advanced-filters" aria-label="More filters">
             <div className="advanced-filter-summary">
               <h2>More Filters</h2>
-              <p>Use these filters to narrow results by fix maturity or reviewed-source ledger type.</p>
+              <p>Use these filters to narrow results by fix maturity, scenario coverage, and review status.</p>
             </div>
             <FilterSelect
               label="Fix Status"
@@ -776,13 +771,6 @@ function App() {
               onChange={trackFilterChange(setFixStatus)}
               options={filters.fixStatuses}
               formatOption={fixStatusLabel}
-            />
-            <FilterSelect
-              label="Reviewed Ledger Source"
-              value={ledgerSource}
-              onChange={trackFilterChange(setLedgerSource)}
-              options={filters.sources}
-              formatOption={sourceTypeLabel}
             />
             <FilterSelect
               label="Scenario Coverage"
