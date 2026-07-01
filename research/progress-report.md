@@ -4,8 +4,8 @@ Generated: 2026-07-01
 
 ## Summary
 
-- Published helper entries: 2006
-- Reviewed source ledger rows: 1020
+- Published helper entries: 2322
+- Reviewed source ledger rows: 1341
 - Discovery rows tracked: 4081
 - Remaining candidate rows: 71
 
@@ -15,7 +15,7 @@ Generated: 2026-07-01
 | --- | --- |
 | diagnostic-only | 356 |
 | known-fix | 121 |
-| needs-review | 1205 |
+| needs-review | 1521 |
 | workaround | 324 |
 
 ## Source Ledger Review Status
@@ -25,7 +25,7 @@ Generated: 2026-07-01
 | cross-product | 65 |
 | curated | 428 |
 | curated-partial | 450 |
-| curated-unresolved | 71 |
+| curated-unresolved | 392 |
 | no-matching-posts | 2 |
 | not-actionable | 4 |
 
@@ -38,7 +38,7 @@ Generated: 2026-07-01
 | answers-laserfiche-employee | 282 |
 | answers-search | 70 |
 | official-docs | 16 |
-| support-knowledge-base | 19 |
+| support-knowledge-base | 340 |
 
 ## Product Coverage
 
@@ -47,28 +47,28 @@ Generated: 2026-07-01
 | Administration Hub | 5 | 0 |
 | AI Service | 1 | 0 |
 | API Server | 16 | 0 |
-| Audit Trail | 23 | 4 |
+| Audit Trail | 25 | 4 |
 | Common Dialog | 9 | 0 |
-| Connector | 15 | 3 |
-| Directory Server | 81 | 3 |
+| Connector | 37 | 3 |
+| Directory Server | 136 | 3 |
 | Discussions | 7 | 0 |
 | Distributed Computing Cluster | 11 | 0 |
 | Federated Search | 7 | 0 |
-| Forms | 129 | 4 |
+| Forms | 176 | 4 |
 | Full Text Search | 17 | 0 |
-| Import Agent | 29 | 3 |
-| Laserfiche Installer | 44 | 1 |
-| Laserfiche Server/Repository Server | 1098 | 24 |
-| Mobile | 15 | 2 |
-| Office Integration | 11 | 0 |
-| Quick Fields | 45 | 6 |
+| Import Agent | 31 | 3 |
+| Laserfiche Installer | 48 | 1 |
+| Laserfiche Server/Repository Server | 1192 | 24 |
+| Mobile | 21 | 2 |
+| Office Integration | 14 | 0 |
+| Quick Fields | 62 | 6 |
 | Records Management | 12 | 0 |
-| Snapshot | 12 | 1 |
-| Web Client | 71 | 4 |
-| WebLink | 37 | 12 |
+| Snapshot | 20 | 1 |
+| Web Client | 87 | 4 |
+| WebLink | 61 | 12 |
 | Webtools Agent | 5 | 0 |
 | Windows Client/Desktop Client | 235 | 0 |
-| Workflow | 71 | 4 |
+| Workflow | 87 | 4 |
 
 ## Next Batch Targets
 

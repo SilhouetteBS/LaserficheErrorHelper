@@ -1,0 +1,16920 @@
+// Generated from research/support-chrome-search-batch-2026-07-01-*.json.
+// These entries are diagnostic-only/needs-review until each Support KB source is manually curated into a confirmed fix.
+export const supportChromePromotedErrorEntries = [
+  {
+    "id": "support-promoted-1012657-audit-trail-500-an-http-error-500-19-internal-server-error-error-page-displays-when-loading-the-audit-trai",
+    "code": "500",
+    "message": "An \"HTTP Error 500.19 - Internal Server Error\" Error Page Displays When Loading The Audit Trail 8 Configuration Page.",
+    "product": "Audit Trail",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"HTTP Error 500.19 - Internal Server Error\" Error Page Displays When Loading The Audit Trail 8 Configuration Page. for Audit Trail. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"HTTP Error 500.19 - Internal Server Error\" Error Page Displays When Loading The Audit Trail 8 Configuration Page..",
+      "Reported code or token: 500."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"HTTP Error 500.19 - Internal Server Error\" Error Page Displays When Loading The Audit Trail 8 Configuration Page.",
+        "url": "https://support.laserfiche.com/kb/1012657/an-http-error-500-19-internal-server-error-error-page-displays-when-loading-the-audit-trail-8-configuration-page-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012684-audit-trail-http500-a-http-500-19-error-occurs-when-loading-laserfiche-8-web-applications-hosted-on-a-64-bit-s",
+    "code": "HTTP500",
+    "message": "A \"HTTP 500.19\" Error Occurs When Loading Laserfiche 8 Web Applications Hosted on a 64-bit Server with Windows Server Update Services.",
+    "product": "Audit Trail",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"HTTP 500.19\" Error Occurs When Loading Laserfiche 8 Web Applications Hosted on a 64-bit Server with Windows Server Update Services. for Audit Trail. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"HTTP 500.19\" Error Occurs When Loading Laserfiche 8 Web Applications Hosted on a 64-bit Server with Windows Server Update Services..",
+      "Reported code or token: HTTP500, 0x8007007e, HTTP500, 500."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"HTTP 500.19\" Error Occurs When Loading Laserfiche 8 Web Applications Hosted on a 64-bit Server with Windows Server Update Services.",
+        "url": "https://support.laserfiche.com/kb/1012684/a-http-500-19-error-occurs-when-loading-laserfiche-8-web-applications-hosted-on-a-64-bit-server-with-windows-server-update-services-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014436-connector-connector-laserfiche-connector-may-not-detec-laserfiche-connector-may-not-detect-webpage-elements-in-edge-or-chrome-111-0-5563-65-or-la",
+    "code": "CONNECTOR-LASERFICHE_CONNECTOR_MAY_NOT_DETEC",
+    "message": "Laserfiche Connector May Not Detect Webpage Elements in Edge or Chrome 111.0.5563.65 or Later.",
+    "product": "Connector",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Laserfiche Connector May Not Detect Webpage Elements in Edge or Chrome 111.0.5563.65 or Later. for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Laserfiche Connector May Not Detect Webpage Elements in Edge or Chrome 111.0.5563.65 or Later..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Laserfiche Connector May Not Detect Webpage Elements in Edge or Chrome 111.0.5563.65 or Later.",
+        "url": "https://support.laserfiche.com/kb/1014436/laserfiche-connector-may-not-detect-webpage-elements-in-edge-or-chrome-111-0-5563-65-or-later-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014247-connector-connector-list-of-changes-for-connector-11-list-of-changes-for-connector-11",
+    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_CONNECTOR_11",
+    "message": "List of Changes for Connector 11",
+    "product": "Connector",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Connector 11 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Connector 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Connector 11",
+        "url": "https://support.laserfiche.com/kb/1014247/list-of-changes-for-connector-11",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014379-connector-connector-list-of-changes-for-laserfiche-con-list-of-changes-for-laserfiche-connector-11-update-1",
+    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON",
+    "message": "List of Changes for Laserfiche Connector 11 Update 1",
+    "product": "Connector",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Connector 11 Update 1 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Connector 11 Update 1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Connector 11 Update 1",
+        "url": "https://support.laserfiche.com/kb/1014379/list-of-changes-for-laserfiche-connector-11-update-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014585-connector-connector-list-of-changes-for-laserfiche-con-list-of-changes-for-laserfiche-connector-11-update-3",
+    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON",
+    "message": "List of Changes for Laserfiche Connector 11 Update 3",
+    "product": "Connector",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Connector 11 Update 3 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Connector 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Connector 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014585/list-of-changes-for-laserfiche-connector-11-update-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014489-connector-connector-list-of-changes-for-laserfiche-con-list-of-changes-for-laserfiche-connector-11-update-2",
+    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON",
+    "message": "List of Changes for Laserfiche Connector 11 Update 2",
+    "product": "Connector",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Connector 11 Update 2 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Connector 11 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Connector 11 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014489/list-of-changes-for-laserfiche-connector-11-update-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014233-connector-connector-list-of-changes-for-laserfiche-con-list-of-changes-for-laserfiche-connector-10-3-update-5",
+    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON",
+    "message": "List of Changes for Laserfiche Connector 10.3 Update 5",
+    "product": "Connector",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Connector 10.3 Update 5 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Connector 10.3 Update 5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Connector 10.3 Update 5",
+        "url": "https://support.laserfiche.com/kb/1014233/list-of-changes-for-laserfiche-connector-10-3-update-5",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014194-connector-connector-list-of-changes-for-laserfiche-con-list-of-changes-for-laserfiche-connector-10-3-update-4",
+    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON",
+    "message": "List of Changes for Laserfiche Connector 10.3 Update 4",
+    "product": "Connector",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Connector 10.3 Update 4 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Connector 10.3 Update 4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Connector 10.3 Update 4",
+        "url": "https://support.laserfiche.com/kb/1014194/list-of-changes-for-laserfiche-connector-10-3-update-4",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014126-connector-connector-list-of-changes-for-laserfiche-con-list-of-changes-for-laserfiche-connector-10-3-update-3",
+    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON",
+    "message": "List of Changes for Laserfiche Connector 10.3 Update 3",
+    "product": "Connector",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Connector 10.3 Update 3 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Connector 10.3 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Connector 10.3 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014126/list-of-changes-for-laserfiche-connector-10-3-update-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013793-connector-connector-list-of-changes-for-laserfiche-con-list-of-changes-for-laserfiche-connector-10-2",
+    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON",
+    "message": "List of Changes for Laserfiche Connector 10.2",
+    "product": "Connector",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Connector 10.2 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Connector 10.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Connector 10.2",
+        "url": "https://support.laserfiche.com/kb/1013793/list-of-changes-for-laserfiche-connector-10-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013558-connector-connector-list-of-changes-for-the-laserfiche-list-of-changes-for-the-laserfiche-connector-for-ricoh-1-1",
+    "code": "CONNECTOR-LIST_OF_CHANGES_FOR_THE_LASERFICHE",
+    "message": "List of Changes for the Laserfiche Connector for Ricoh 1.1",
+    "product": "Connector",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the Laserfiche Connector for Ricoh 1.1 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for the Laserfiche Connector for Ricoh 1.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for the Laserfiche Connector for Ricoh 1.1",
+        "url": "https://support.laserfiche.com/kb/1013558/list-of-changes-for-the-laserfiche-connector-for-ricoh-1-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014248-connector-connector-release-notes-for-connector-11-release-notes-for-connector-11",
+    "code": "CONNECTOR-RELEASE_NOTES_FOR_CONNECTOR_11",
+    "message": "Release Notes for Connector 11",
+    "product": "Connector",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Connector 11 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Connector 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Connector 11",
+        "url": "https://support.laserfiche.com/kb/1014248/release-notes-for-connector-11",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013897-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-10-3",
+    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
+    "message": "Release Notes for Laserfiche Connector 10.3",
+    "product": "Connector",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector 10.3 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector 10.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector 10.3",
+        "url": "https://support.laserfiche.com/kb/1013897/release-notes-for-laserfiche-connector-10-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013849-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-10-2-1",
+    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
+    "message": "Release Notes for Laserfiche Connector 10.2.1",
+    "product": "Connector",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector 10.2.1 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector 10.2.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector 10.2.1",
+        "url": "https://support.laserfiche.com/kb/1013849/release-notes-for-laserfiche-connector-10-2-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013794-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-10-2",
+    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
+    "message": "Release Notes for Laserfiche Connector 10.2",
+    "product": "Connector",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector 10.2 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector 10.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector 10.2",
+        "url": "https://support.laserfiche.com/kb/1013794/release-notes-for-laserfiche-connector-10-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013742-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-10",
+    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
+    "message": "Release Notes for Laserfiche Connector 10",
+    "product": "Connector",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector 10 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector 10.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector 10",
+        "url": "https://support.laserfiche.com/kb/1013742/release-notes-for-laserfiche-connector-10",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013581-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-9",
+    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
+    "message": "Release Notes for Laserfiche Connector 9",
+    "product": "Connector",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector 9 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector 9.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector 9",
+        "url": "https://support.laserfiche.com/kb/1013581/release-notes-for-laserfiche-connector-9",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013644-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-9-0-1",
+    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
+    "message": "Release Notes for Laserfiche Connector 9.0.1",
+    "product": "Connector",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector 9.0.1 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector 9.0.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector 9.0.1",
+        "url": "https://support.laserfiche.com/kb/1013644/release-notes-for-laserfiche-connector-9-0-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013656-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-9-1",
+    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
+    "message": "Release Notes for Laserfiche Connector 9.1",
+    "product": "Connector",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector 9.1 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector 9.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector 9.1",
+        "url": "https://support.laserfiche.com/kb/1013656/release-notes-for-laserfiche-connector-9-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013648-connector-connector-release-notes-for-laserfiche-conne-release-notes-for-laserfiche-connector-for-samsung-10",
+    "code": "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE",
+    "message": "Release Notes for Laserfiche Connector for Samsung 10",
+    "product": "Connector",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Connector for Samsung 10 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Connector for Samsung 10.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Connector for Samsung 10",
+        "url": "https://support.laserfiche.com/kb/1013648/release-notes-for-laserfiche-connector-for-samsung-10",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013557-connector-connector-release-notes-for-the-laserfiche-c-release-notes-for-the-laserfiche-connector-for-ricoh-1-1",
+    "code": "CONNECTOR-RELEASE_NOTES_FOR_THE_LASERFICHE_C",
+    "message": "Release Notes for the Laserfiche Connector for Ricoh 1.1.",
+    "product": "Connector",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for the Laserfiche Connector for Ricoh 1.1. for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for the Laserfiche Connector for Ricoh 1.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for the Laserfiche Connector for Ricoh 1.1.",
+        "url": "https://support.laserfiche.com/kb/1013557/release-notes-for-the-laserfiche-connector-for-ricoh-1-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013331-connector-connector-release-notes-for-the-laserfiche-c-release-notes-for-the-laserfiche-connector-for-ricoh-1-0",
+    "code": "CONNECTOR-RELEASE_NOTES_FOR_THE_LASERFICHE_C",
+    "message": "Release Notes for the Laserfiche Connector for Ricoh 1.0",
+    "product": "Connector",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for the Laserfiche Connector for Ricoh 1.0 for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for the Laserfiche Connector for Ricoh 1.0.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for the Laserfiche Connector for Ricoh 1.0",
+        "url": "https://support.laserfiche.com/kb/1013331/release-notes-for-the-laserfiche-connector-for-ricoh-1-0",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014571-connector-connector-using-chrome-or-edge-136-and-highe-using-chrome-or-edge-136-and-higher-with-laserfiche-connector-may-result-in-an-error-stati",
+    "code": "CONNECTOR-USING_CHROME_OR_EDGE_136_AND_HIGHE",
+    "message": "Using Chrome or Edge 136 and higher with Laserfiche Connector may result in an error stating the browser is not configured correctly",
+    "product": "Connector",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Using Chrome or Edge 136 and higher with Laserfiche Connector may result in an error stating the browser is not configured correctly for Connector. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Using Chrome or Edge 136 and higher with Laserfiche Connector may result in an error stating the browser is not configured correctly.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Using Chrome or Edge 136 and higher with Laserfiche Connector may result in an error stating the browser is not configured correctly",
+        "url": "https://support.laserfiche.com/kb/1014571/using-chrome-or-edge-136-and-higher-with-laserfiche-connector-may-result-in-an-error-stating-the-browser-is-not-configured-correctly",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014090-directory-server-405-when-signing-in-to-laserfiche-web-client-through-laserfiche-directory-server-you-may-see-t",
+    "code": "405",
+    "message": "When Signing in to Laserfiche Web Client Through Laserfiche Directory Server, You May See the Following Error Message: \"Error 405- HTTP verb used to access this page is not allowed",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports When Signing in to Laserfiche Web Client Through Laserfiche Directory Server, You May See the Following Error Message: \"Error 405- HTTP verb used to access this page is not allowed for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: When Signing in to Laserfiche Web Client Through Laserfiche Directory Server, You May See the Following Error Message: \"Error 405- HTTP verb used to access this page is not allowed.",
+      "Reported code or token: 405."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "When Signing in to Laserfiche Web Client Through Laserfiche Directory Server, You May See the Following Error Message: \"Error 405- HTTP verb used to access this page is not allowed",
+        "url": "https://support.laserfiche.com/kb/1014090/when-signing-in-to-laserfiche-web-client-through-laserfiche-directory-server-you-may-see-the-following-error-message-error-405-http-verb-used-to-access-this-page-is-not-allowed-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014515-directory-server-1064-error-1064-an-exception-occurred-in-the-service-when-handling-the-control-request",
+    "code": "1064",
+    "message": "Error - 1064: An exception occurred in the service when handling the control request.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Error - 1064: An exception occurred in the service when handling the control request. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Error - 1064: An exception occurred in the service when handling the control request..",
+      "Reported code or token: 1064."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Error - 1064: An exception occurred in the service when handling the control request.",
+        "url": "https://support.laserfiche.com/kb/1014515/error-1064-an-exception-occurred-in-the-service-when-handling-the-control-request-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014005-directory-server-1067-when-starting-laserfiche-directory-server-10-0-and-above-you-may-receive-the-following-err",
+    "code": "1067",
+    "message": "When Starting Laserfiche Directory Server 10.0 and Above, You May Receive the Following Error Message: \"Error 1067: 'The process terminated unexpectedly'\"",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports When Starting Laserfiche Directory Server 10.0 and Above, You May Receive the Following Error Message: \"Error 1067: 'The process terminated unexpectedly'\" for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: When Starting Laserfiche Directory Server 10.0 and Above, You May Receive the Following Error Message: \"Error 1067: 'The process terminated unexpectedly'\".",
+      "Reported code or token: 1067."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "When Starting Laserfiche Directory Server 10.0 and Above, You May Receive the Following Error Message: \"Error 1067: 'The process terminated unexpectedly'\"",
+        "url": "https://support.laserfiche.com/kb/1014005/when-starting-laserfiche-directory-server-10-0-and-above-you-may-receive-the-following-error-message-error-1067-the-process-terminated-unexpectedly",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013625-directory-server-http404-list-of-changes-for-directory-server-9-2-1",
+    "code": "HTTP404",
+    "message": "List of Changes for Directory Server 9.2.1.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 9.2.1. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 9.2.1..",
+      "Reported code or token: HTTP404."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 9.2.1.",
+        "url": "https://support.laserfiche.com/kb/1013625/list-of-changes-for-directory-server-9-2-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013931-directory-server-lfds-a-the-federation-service-encounter-a-the-federation-service-encountered-an-error-while-processing-the-saml-authentication-req",
+    "code": "LFDS-A_THE_FEDERATION_SERVICE_ENCOUNTER",
+    "message": "A \"The Federation Service encountered an error while processing the SAML authentication request.\" Error Occurs After Upgrading From Directory Server 10.2 to 10.3 And Active Directo",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"The Federation Service encountered an error while processing the SAML authentication request.\" Error Occurs After Upgrading From Directory Server 10.2 to 10.3 And Active Directo for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"The Federation Service encountered an error while processing the SAML authentication request.\" Error Occurs After Upgrading From Directory Server 10.2 to 10.3 And Active Directo.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"The Federation Service encountered an error while processing the SAML authentication request.\" Error Occurs After Upgrading From Directory Server 10.2 to 10.3 And Active Directo",
+        "url": "https://support.laserfiche.com/kb/1013931/a-the-federation-service-encountered-an-error-while-processing-the-saml-authentication-request-error-occurs-after-upgrading-from-directory-server-10-2-to-10-3-and-active-directory-federation-services-is-turned-on-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014094-directory-server-lfds-additional-configuration-for-chrom-additional-configuration-for-chrome-80",
+    "code": "LFDS-ADDITIONAL_CONFIGURATION_FOR_CHROM",
+    "message": "Additional Configuration for Chrome 80.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Additional Configuration for Chrome 80. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Additional Configuration for Chrome 80..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Additional Configuration for Chrome 80.",
+        "url": "https://support.laserfiche.com/kb/1014094/additional-configuration-for-chrome-80-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013920-directory-server-lfds-after-upgrading-laserfiche-directo-after-upgrading-laserfiche-directory-server-you-may-receive-the-following-error-message-up",
+    "code": "LFDS-AFTER_UPGRADING_LASERFICHE_DIRECTO",
+    "message": "After Upgrading Laserfiche Directory Server, You May Receive the Following Error Message Upon Signing In with the Laserfiche Web Client: \"Received an invalid or untrusted SAML toke",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports After Upgrading Laserfiche Directory Server, You May Receive the Following Error Message Upon Signing In with the Laserfiche Web Client: \"Received an invalid or untrusted SAML toke for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: After Upgrading Laserfiche Directory Server, You May Receive the Following Error Message Upon Signing In with the Laserfiche Web Client: \"Received an invalid or untrusted SAML toke.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "After Upgrading Laserfiche Directory Server, You May Receive the Following Error Message Upon Signing In with the Laserfiche Web Client: \"Received an invalid or untrusted SAML toke",
+        "url": "https://support.laserfiche.com/kb/1013920/after-upgrading-laserfiche-directory-server-you-may-receive-the-following-error-message-upon-signing-in-with-the-laserfiche-web-client-received-an-invalid-or-untrusted-saml-token-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014366-directory-server-lfds-directory-server-saml-login-throws-directory-server-saml-login-throws-keyset-does-not-exist-error-when-authentication-request",
+    "code": "LFDS-DIRECTORY_SERVER_SAML_LOGIN_THROWS",
+    "message": "Directory Server SAML login throws \"Keyset does not exist\" error when authentication request signing is enabled",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Directory Server SAML login throws \"Keyset does not exist\" error when authentication request signing is enabled for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Directory Server SAML login throws \"Keyset does not exist\" error when authentication request signing is enabled.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Directory Server SAML login throws \"Keyset does not exist\" error when authentication request signing is enabled",
+        "url": "https://support.laserfiche.com/kb/1014366/directory-server-saml-login-throws-keyset-does-not-exist-error-when-authentication-request-signing-is-enabled",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014036-directory-server-lfds-laserfiche-account-migration-tool-laserfiche-account-migration-tool",
+    "code": "LFDS-LASERFICHE_ACCOUNT_MIGRATION_TOOL",
+    "message": "Laserfiche Account Migration Tool",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Laserfiche Account Migration Tool for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Laserfiche Account Migration Tool.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Laserfiche Account Migration Tool",
+        "url": "https://support.laserfiche.com/kb/1014036/laserfiche-account-migration-tool",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014147-directory-server-lfds-laserfiche-directory-server-10-4-3-laserfiche-directory-server-10-4-3-update-2",
+    "code": "LFDS-LASERFICHE_DIRECTORY_SERVER_10_4_3",
+    "message": "Laserfiche Directory Server 10.4.3 Update 2",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Laserfiche Directory Server 10.4.3 Update 2 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Laserfiche Directory Server 10.4.3 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Laserfiche Directory Server 10.4.3 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014147/laserfiche-directory-server-10-4-3-update-2-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014566-directory-server-lfds-laserfiche-directory-server-fails-laserfiche-directory-server-fails-to-validate-email-addresses-from-some-valid-top-level-do",
+    "code": "LFDS-LASERFICHE_DIRECTORY_SERVER_FAILS_",
+    "message": "Laserfiche Directory Server fails to validate email addresses from some valid top-level domains",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Laserfiche Directory Server fails to validate email addresses from some valid top-level domains for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Laserfiche Directory Server fails to validate email addresses from some valid top-level domains.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Laserfiche Directory Server fails to validate email addresses from some valid top-level domains",
+        "url": "https://support.laserfiche.com/kb/1014566/laserfiche-directory-server-fails-to-validate-email-addresses-from-some-valid-top-level-domains",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014443-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-11-update-3",
+    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
+    "message": "List of Changes for Directory Server 11 Update 3",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 11 Update 3 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014443/list-of-changes-for-directory-server-11-update-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014490-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-11-update-5",
+    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
+    "message": "List of Changes for Directory Server 11 Update 5",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 11 Update 5 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 11 Update 5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 11 Update 5",
+        "url": "https://support.laserfiche.com/kb/1014490/list-of-changes-for-directory-server-11-update-5",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014374-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-11-update-2",
+    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
+    "message": "List of Changes for Directory Server 11 Update 2",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 11 Update 2 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 11 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 11 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014374/list-of-changes-for-directory-server-11-update-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014250-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-11",
+    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
+    "message": "List of Changes for Directory Server 11",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 11 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 11",
+        "url": "https://support.laserfiche.com/kb/1014250/list-of-changes-for-directory-server-11",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013928-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-10-3",
+    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
+    "message": "List of Changes for Directory Server 10.3.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 10.3. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 10.3..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 10.3.",
+        "url": "https://support.laserfiche.com/kb/1013928/list-of-changes-for-directory-server-10-3-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014096-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-10-4-3",
+    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
+    "message": "List of Changes for Directory Server 10.4.3",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 10.4.3 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 10.4.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 10.4.3",
+        "url": "https://support.laserfiche.com/kb/1014096/list-of-changes-for-directory-server-10-4-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014511-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-11-update-6",
+    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
+    "message": "List of Changes for Directory Server 11 Update 6",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 11 Update 6 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 11 Update 6.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 11 Update 6",
+        "url": "https://support.laserfiche.com/kb/1014511/list-of-changes-for-directory-server-11-update-6",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013805-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-10-0-update-2",
+    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
+    "message": "List of Changes for Directory Server 10.0 Update 2",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 10.0 Update 2 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 10.0 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 10.0 Update 2",
+        "url": "https://support.laserfiche.com/kb/1013805/list-of-changes-for-directory-server-10-0-update-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014193-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-10-4-5",
+    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
+    "message": "List of Changes for Directory Server 10.4.5",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 10.4.5 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 10.4.5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 10.4.5",
+        "url": "https://support.laserfiche.com/kb/1014193/list-of-changes-for-directory-server-10-4-5",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014161-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-10-4-4",
+    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
+    "message": "List of Changes for Directory Server 10.4.4",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 10.4.4 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 10.4.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 10.4.4",
+        "url": "https://support.laserfiche.com/kb/1014161/list-of-changes-for-directory-server-10-4-4",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014023-directory-server-lfds-list-of-changes-for-directory-serv-list-of-changes-for-directory-server-10-4",
+    "code": "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV",
+    "message": "List of Changes for Directory Server 10.4",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Directory Server 10.4 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Directory Server 10.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Directory Server 10.4",
+        "url": "https://support.laserfiche.com/kb/1014023/list-of-changes-for-directory-server-10-4",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014475-directory-server-lfds-list-of-changes-for-laserfiche-dir-list-of-changes-for-laserfiche-directory-server-11-update-4",
+    "code": "LFDS-LIST_OF_CHANGES_FOR_LASERFICHE_DIR",
+    "message": "List of Changes for Laserfiche Directory Server 11 Update 4",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Directory Server 11 Update 4 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Directory Server 11 Update 4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Directory Server 11 Update 4",
+        "url": "https://support.laserfiche.com/kb/1014475/list-of-changes-for-laserfiche-directory-server-11-update-4",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013977-directory-server-lfds-list-of-changes-for-laserfiche-dir-list-of-changes-for-laserfiche-directory-server-10-3-1",
+    "code": "LFDS-LIST_OF_CHANGES_FOR_LASERFICHE_DIR",
+    "message": "List of Changes for Laserfiche Directory Server 10.3.1.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Directory Server 10.3.1. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Directory Server 10.3.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Directory Server 10.3.1.",
+        "url": "https://support.laserfiche.com/kb/1013977/list-of-changes-for-laserfiche-directory-server-10-3-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014580-directory-server-lfds-list-of-changes-for-the-april-21-2-list-of-changes-for-the-april-21-2026-laserfiche-app",
+    "code": "LFDS-LIST_OF_CHANGES_FOR_THE_APRIL_21_2",
+    "message": "List of Changes for the April 21, 2026 Laserfiche App",
+    "product": "Directory Server",
+    "versions": [
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the April 21, 2026 Laserfiche App for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for the April 21, 2026 Laserfiche App.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for the April 21, 2026 Laserfiche App",
+        "url": "https://support.laserfiche.com/kb/1014580/list-of-changes-for-the-april-21-2026-laserfiche-app",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013536-directory-server-lfds-new-features-for-laserfiche-direct-new-features-for-laserfiche-directory-server-9-2",
+    "code": "LFDS-NEW_FEATURES_FOR_LASERFICHE_DIRECT",
+    "message": "New Features for Laserfiche Directory Server 9.2.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports New Features for Laserfiche Directory Server 9.2. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: New Features for Laserfiche Directory Server 9.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "New Features for Laserfiche Directory Server 9.2.",
+        "url": "https://support.laserfiche.com/kb/1013536/new-features-for-laserfiche-directory-server-9-2-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014206-directory-server-lfds-object-reference-not-set-to-an-ins-object-reference-not-set-to-an-instance-of-an-object-error-when-creating-a-new-licensing-s",
+    "code": "LFDS-OBJECT_REFERENCE_NOT_SET_TO_AN_INS",
+    "message": "\"Object reference not set to an instance of an object.\" error when creating a new licensing site",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports \"Object reference not set to an instance of an object.\" error when creating a new licensing site for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: \"Object reference not set to an instance of an object.\" error when creating a new licensing site.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "\"Object reference not set to an instance of an object.\" error when creating a new licensing site",
+        "url": "https://support.laserfiche.com/kb/1014206/object-reference-not-set-to-an-instance-of-an-object-error-when-creating-a-new-licensing-site-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014027-directory-server-lfds-release-information-for-laserfiche-release-information-for-laserfiche-10-4-products",
+    "code": "LFDS-RELEASE_INFORMATION_FOR_LASERFICHE",
+    "message": "Release Information for Laserfiche 10.4 Products",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Information for Laserfiche 10.4 Products for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Information for Laserfiche 10.4 Products.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Information for Laserfiche 10.4 Products",
+        "url": "https://support.laserfiche.com/kb/1014027/release-information-for-laserfiche-10-4-products",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014389-directory-server-lfds-release-information-for-laserfiche-release-information-for-laserfiche-10-4",
+    "code": "LFDS-RELEASE_INFORMATION_FOR_LASERFICHE",
+    "message": "Release Information for Laserfiche 10.4",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Information for Laserfiche 10.4 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Information for Laserfiche 10.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Information for Laserfiche 10.4",
+        "url": "https://support.laserfiche.com/kb/1014389/release-information-for-laserfiche-10-4",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014512-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-11-update-6",
+    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
+    "message": "Release Notes for Directory Server 11 Update 6",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 11 Update 6 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 11 Update 6.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 11 Update 6",
+        "url": "https://support.laserfiche.com/kb/1014512/release-notes-for-directory-server-11-update-6",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014491-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-11-update-5",
+    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
+    "message": "Release Notes for Directory Server 11 Update 5",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 11 Update 5 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 11 Update 5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 11 Update 5",
+        "url": "https://support.laserfiche.com/kb/1014491/release-notes-for-directory-server-11-update-5",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014373-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-11-update-2",
+    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
+    "message": "Release Notes for Directory Server 11 Update 2",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 11 Update 2 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 11 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 11 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014373/release-notes-for-directory-server-11-update-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014444-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-11-update-3",
+    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
+    "message": "Release Notes for Directory Server 11 Update 3",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 11 Update 3 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014444/release-notes-for-directory-server-11-update-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014097-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-10-4-3",
+    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
+    "message": "Release Notes for Directory Server 10.4.3",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 10.4.3 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 10.4.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 10.4.3",
+        "url": "https://support.laserfiche.com/kb/1014097/release-notes-for-directory-server-10-4-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014249-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-11",
+    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
+    "message": "Release Notes for Directory Server 11",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 11 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 11",
+        "url": "https://support.laserfiche.com/kb/1014249/release-notes-for-directory-server-11",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014192-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-10-4-5",
+    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
+    "message": "Release Notes for Directory Server 10.4.5",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9",
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 10.4.5 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 10.4.5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 10.4.5",
+        "url": "https://support.laserfiche.com/kb/1014192/release-notes-for-directory-server-10-4-5",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014160-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-10-4-4",
+    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
+    "message": "Release Notes for Directory Server 10.4.4",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 10.4.4 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 10.4.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 10.4.4",
+        "url": "https://support.laserfiche.com/kb/1014160/release-notes-for-directory-server-10-4-4",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013927-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-10-3",
+    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
+    "message": "Release Notes For Directory Server 10.3.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes For Directory Server 10.3. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes For Directory Server 10.3..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes For Directory Server 10.3.",
+        "url": "https://support.laserfiche.com/kb/1013927/release-notes-for-directory-server-10-3-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014022-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-10-4",
+    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
+    "message": "Release Notes for Directory Server 10.4.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 10.4. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 10.4..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 10.4.",
+        "url": "https://support.laserfiche.com/kb/1014022",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014044-directory-server-lfds-release-notes-for-directory-server-release-notes-for-directory-server-10-4-2",
+    "code": "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER",
+    "message": "Release Notes for Directory Server 10.4.2.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Directory Server 10.4.2. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Directory Server 10.4.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Directory Server 10.4.2.",
+        "url": "https://support.laserfiche.com/kb/1014044",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013976-directory-server-lfds-release-notes-for-laserfiche-direc-release-notes-for-laserfiche-directory-server-10-3-1",
+    "code": "LFDS-RELEASE_NOTES_FOR_LASERFICHE_DIREC",
+    "message": "Release Notes for Laserfiche Directory Server 10.3.1.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Directory Server 10.3.1. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Directory Server 10.3.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Directory Server 10.3.1.",
+        "url": "https://support.laserfiche.com/kb/1013976/release-notes-for-laserfiche-directory-server-10-3-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013877-directory-server-lfds-release-notes-for-laserfiche-direc-release-notes-for-laserfiche-directory-server-10-2",
+    "code": "LFDS-RELEASE_NOTES_FOR_LASERFICHE_DIREC",
+    "message": "Release Notes for Laserfiche Directory Server 10.2.",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Directory Server 10.2. for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Directory Server 10.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Directory Server 10.2.",
+        "url": "https://support.laserfiche.com/kb/1013877/release-notes-for-laserfiche-directory-server-10-2-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014201-directory-server-lfds-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-10-4-5",
+    "code": "LFDS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
+    "message": "Release Notes for Laserfiche Forms 10.4.5",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 10.4.5 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.4.5",
+        "url": "https://support.laserfiche.com/kb/1014201/release-notes-for-laserfiche-forms-10-4-5",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014172-directory-server-lfds-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-10-4-4",
+    "code": "LFDS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
+    "message": "Release Notes for Laserfiche Forms 10.4.4",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 10.4.4 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.4.4",
+        "url": "https://support.laserfiche.com/kb/1014172/release-notes-for-laserfiche-forms-10-4-4",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014115-directory-server-lfds-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-10-4-3",
+    "code": "LFDS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
+    "message": "Release Notes for Laserfiche Forms 10.4.3",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 10.4.3 for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.4.3",
+        "url": "https://support.laserfiche.com/kb/1014115/release-notes-for-laserfiche-forms-10-4-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014288-directory-server-lfds-the-laserfiche-directory-server-s-the-laserfiche-directory-server-s-primary-license-automatic-renewal-is-not-successful",
+    "code": "LFDS-THE_LASERFICHE_DIRECTORY_SERVER_S_",
+    "message": "The Laserfiche Directory Server's primary license automatic renewal is not successful",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports The Laserfiche Directory Server's primary license automatic renewal is not successful for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: The Laserfiche Directory Server's primary license automatic renewal is not successful.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "The Laserfiche Directory Server's primary license automatic renewal is not successful",
+        "url": "https://support.laserfiche.com/kb/1014288/the-laserfiche-directory-servers-primary-license-automatic-renewal-is-not-successful",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014506-directory-server-lfds-troubleshooting-license-renewal-troubleshooting-license-renewal",
+    "code": "LFDS-TROUBLESHOOTING_LICENSE_RENEWAL",
+    "message": "Troubleshooting License Renewal",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Troubleshooting License Renewal for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Troubleshooting License Renewal.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Troubleshooting License Renewal",
+        "url": "https://support.laserfiche.com/kb/1014506/troubleshooting-license-renewal",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013915-directory-server-lfds-users-may-not-be-able-to-sign-in-t-users-may-not-be-able-to-sign-in-to-the-laserfiche-app-if-authenticating-through-laserfich",
+    "code": "LFDS-USERS_MAY_NOT_BE_ABLE_TO_SIGN_IN_T",
+    "message": "Users may not be able to sign in to the Laserfiche app if authenticating through Laserfiche Directory Server without an alternate service configured or a UPN that matches the Laser",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Users may not be able to sign in to the Laserfiche app if authenticating through Laserfiche Directory Server without an alternate service configured or a UPN that matches the Laser for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Users may not be able to sign in to the Laserfiche app if authenticating through Laserfiche Directory Server without an alternate service configured or a UPN that matches the Laser.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Users may not be able to sign in to the Laserfiche app if authenticating through Laserfiche Directory Server without an alternate service configured or a UPN that matches the Laser",
+        "url": "https://support.laserfiche.com/kb/1013915/users-may-not-be-able-to-sign-in-to-the-laserfiche-app-if-authenticating-through-laserfiche-directory-server-without-an-alternate-service-configured-or-a-upn-that-matches-the-laserfiche-directory-server",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014223-directory-server-lfds-when-accessing-the-laserfiche-dire-when-accessing-the-laserfiche-directory-server-security-token-service-configuration-page-y",
+    "code": "LFDS-WHEN_ACCESSING_THE_LASERFICHE_DIRE",
+    "message": "When Accessing the Laserfiche Directory Server Security Token Service Configuration Page, You May Receive the Following Error Message: \"The resource cannot be found.\"",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports When Accessing the Laserfiche Directory Server Security Token Service Configuration Page, You May Receive the Following Error Message: \"The resource cannot be found.\" for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: When Accessing the Laserfiche Directory Server Security Token Service Configuration Page, You May Receive the Following Error Message: \"The resource cannot be found.\".",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "When Accessing the Laserfiche Directory Server Security Token Service Configuration Page, You May Receive the Following Error Message: \"The resource cannot be found.\"",
+        "url": "https://support.laserfiche.com/kb/1014223/when-accessing-the-laserfiche-directory-server-security-token-service-configuration-page-you-may-receive-the-following-error-message-the-resource-cannot-be-found-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014165-directory-server-lfds-when-trying-to-attach-a-licensing-when-trying-to-attach-a-licensing-site-in-laserfiche-directory-server-10-4-3-you-may-recei",
+    "code": "LFDS-WHEN_TRYING_TO_ATTACH_A_LICENSING_",
+    "message": "When Trying to Attach a Licensing Site in Laserfiche Directory Server 10.4.3, You May Receive the Following Error Message: \"The licensing site is in a locked down state with limite",
+    "product": "Directory Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports When Trying to Attach a Licensing Site in Laserfiche Directory Server 10.4.3, You May Receive the Following Error Message: \"The licensing site is in a locked down state with limite for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: When Trying to Attach a Licensing Site in Laserfiche Directory Server 10.4.3, You May Receive the Following Error Message: \"The licensing site is in a locked down state with limite.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "When Trying to Attach a Licensing Site in Laserfiche Directory Server 10.4.3, You May Receive the Following Error Message: \"The licensing site is in a locked down state with limite",
+        "url": "https://support.laserfiche.com/kb/1014165",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014041-directory-server-lfds-while-making-changes-in-laserfiche-while-making-changes-in-laserfiche-directory-server-you-receive-the-error-the-given-key-wa",
+    "code": "LFDS-WHILE_MAKING_CHANGES_IN_LASERFICHE",
+    "message": "While Making Changes in Laserfiche Directory Server, You Receive the Error \"The given key was not present in the dictionary.\"",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports While Making Changes in Laserfiche Directory Server, You Receive the Error \"The given key was not present in the dictionary.\" for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: While Making Changes in Laserfiche Directory Server, You Receive the Error \"The given key was not present in the dictionary.\".",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "While Making Changes in Laserfiche Directory Server, You Receive the Error \"The given key was not present in the dictionary.\"",
+        "url": "https://support.laserfiche.com/kb/1014041/while-making-changes-in-laserfiche-directory-server-you-receive-the-error-the-given-key-was-not-present-in-the-dictionary-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014312-directory-server-lfds-why-does-laserfiche-directory-serv-why-does-laserfiche-directory-server-prompt-for-credentials-when-attempting-to-query-activ",
+    "code": "LFDS-WHY_DOES_LASERFICHE_DIRECTORY_SERV",
+    "message": "Why does Laserfiche Directory Server prompt for Credentials when attempting to query Active Directory?",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Why does Laserfiche Directory Server prompt for Credentials when attempting to query Active Directory? for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Why does Laserfiche Directory Server prompt for Credentials when attempting to query Active Directory?.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Why does Laserfiche Directory Server prompt for Credentials when attempting to query Active Directory?",
+        "url": "https://support.laserfiche.com/kb/1014312/why-does-laserfiche-directory-server-prompt-for-credentials-when-attempting-to-query-active-directory-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014262-directory-server-lfds-windows-authentication-fails-after-windows-authentication-fails-after-upgrading-directory-server",
+    "code": "LFDS-WINDOWS_AUTHENTICATION_FAILS_AFTER",
+    "message": "Windows Authentication fails after upgrading Directory Server",
+    "product": "Directory Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Windows Authentication fails after upgrading Directory Server for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Windows Authentication fails after upgrading Directory Server.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Windows Authentication fails after upgrading Directory Server",
+        "url": "https://support.laserfiche.com/kb/1014262/windows-authentication-fails-after-upgrading-directory-server",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014252-directory-server-lfds-windows-authentication-fails-due-t-windows-authentication-fails-due-to-an-incorrect-automatic-setting-in-the-usersettings-con",
+    "code": "LFDS-WINDOWS_AUTHENTICATION_FAILS_DUE_T",
+    "message": "Windows Authentication fails due to an incorrect automatic setting in the UserSettings.config file",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Windows Authentication fails due to an incorrect automatic setting in the UserSettings.config file for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Windows Authentication fails due to an incorrect automatic setting in the UserSettings.config file.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Windows Authentication fails due to an incorrect automatic setting in the UserSettings.config file",
+        "url": "https://support.laserfiche.com/kb/1014252/windows-authentication-fails-due-to-an-incorrect-automatic-setting-in-the-usersettings-config-file-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014149-directory-server-lfds-workflow-custom-activity-setup-for-workflow-custom-activity-setup-for-laserfiche-directory-server-sdk",
+    "code": "LFDS-WORKFLOW_CUSTOM_ACTIVITY_SETUP_FOR",
+    "message": "Workflow Custom Activity Setup for Laserfiche Directory Server SDK",
+    "product": "Directory Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Workflow Custom Activity Setup for Laserfiche Directory Server SDK for Directory Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Workflow Custom Activity Setup for Laserfiche Directory Server SDK.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Workflow Custom Activity Setup for Laserfiche Directory Server SDK",
+        "url": "https://support.laserfiche.com/kb/1014149/workflow-custom-activity-setup-for-laserfiche-directory-server-sdk",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013804-forms-0x800706ba-a-the-rpc-server-is-unavailable-exception-from-hresult-0x800706ba-error-occurs-when-access",
+    "code": "0x800706BA",
+    "message": "A \"The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)\" Error Occurs when Accessing Forms.",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)\" Error Occurs when Accessing Forms. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)\" Error Occurs when Accessing Forms..",
+      "Reported code or token: 0x800706BA."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)\" Error Occurs when Accessing Forms.",
+        "url": "https://support.laserfiche.com/kb/1013804/a-the-rpc-server-is-unavailable-exception-from-hresult-0x800706ba-error-occurs-when-accessing-forms-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013148-forms-503-a-service-unavailable-http-error-503-the-service-is-unavailable-error-displays-when-loadin",
+    "code": "503",
+    "message": "A \"Service Unavailable HTTP Error 503. The service is unavailable\" Error Displays When Loading the Laserfiche Forms Configuration Page.",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Service Unavailable HTTP Error 503. The service is unavailable\" Error Displays When Loading the Laserfiche Forms Configuration Page. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Service Unavailable HTTP Error 503. The service is unavailable\" Error Displays When Loading the Laserfiche Forms Configuration Page..",
+      "Reported code or token: 503."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Service Unavailable HTTP Error 503. The service is unavailable\" Error Displays When Loading the Laserfiche Forms Configuration Page.",
+        "url": "https://support.laserfiche.com/kb/1013148/a-service-unavailable-http-error-503-the-service-is-unavailable-error-displays-when-loading-the-laserfiche-forms-configuration-page-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000532-forms-1355-an-error-1355-error-occurs-in-the-application-event-viewer",
+    "code": "1355",
+    "message": "An \"Error 1355.\" Error Occurs in the Application Event Viewer.",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error 1355.\" Error Occurs in the Application Event Viewer. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error 1355.\" Error Occurs in the Application Event Viewer..",
+      "Reported code or token: 1355."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error 1355.\" Error Occurs in the Application Event Viewer.",
+        "url": "https://support.laserfiche.com/kb/1000532/an-error-1355-error-occurs-in-the-application-event-viewer-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014066-forms-1923-while-installing-laserfiche-forms-you-may-receive-the-following-error-message-error-1923-s",
+    "code": "1923",
+    "message": "While Installing Laserfiche Forms, You May Receive the Following Error Message: \"Error 1923. Service 'Laserfiche Forms Routing Service' (Laserfiche Forms Routing Service) could not",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports While Installing Laserfiche Forms, You May Receive the Following Error Message: \"Error 1923. Service 'Laserfiche Forms Routing Service' (Laserfiche Forms Routing Service) could not for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: While Installing Laserfiche Forms, You May Receive the Following Error Message: \"Error 1923. Service 'Laserfiche Forms Routing Service' (Laserfiche Forms Routing Service) could not.",
+      "Reported code or token: 1923."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "While Installing Laserfiche Forms, You May Receive the Following Error Message: \"Error 1923. Service 'Laserfiche Forms Routing Service' (Laserfiche Forms Routing Service) could not",
+        "url": "https://support.laserfiche.com/kb/1014066/while-installing-laserfiche-forms-you-may-receive-the-following-error-message-error-1923-service-laserfiche-forms-routing-service-laserfiche-forms-routing-service-could-not-be-installed-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014143-forms-9004-when-running-the-save-to-repository-service-task-on-laserfiche-forms-you-may-receive-the-f",
+    "code": "9004",
+    "message": "When Running the \"Save to Repository\" Service Task on Laserfiche Forms, You May Receive the Following Error Message: \"File input/output error. [9004].\"",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports When Running the \"Save to Repository\" Service Task on Laserfiche Forms, You May Receive the Following Error Message: \"File input/output error. [9004].\" for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: When Running the \"Save to Repository\" Service Task on Laserfiche Forms, You May Receive the Following Error Message: \"File input/output error. [9004].\".",
+      "Reported code or token: 9004."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "When Running the \"Save to Repository\" Service Task on Laserfiche Forms, You May Receive the Following Error Message: \"File input/output error. [9004].\"",
+        "url": "https://support.laserfiche.com/kb/1014143/when-running-the-save-to-repository-service-task-on-laserfiche-forms-you-may-receive-the-following-error-message-file-input-output-error-9004-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013640-forms-forms-a-forms-the-underlying-connection-a-forms-the-underlying-connection-was-closed-could-not-establish-trust-relationship-for-th",
+    "code": "FORMS-A_FORMS_THE_UNDERLYING_CONNECTION_",
+    "message": "A \"Forms: The underlying connection was closed, Could not establish trust relationship for the SSL/TLS secure channel\" Error Occurs When Adding a Forms Server On the Mobile Configu",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Forms: The underlying connection was closed, Could not establish trust relationship for the SSL/TLS secure channel\" Error Occurs When Adding a Forms Server On the Mobile Configu for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Forms: The underlying connection was closed, Could not establish trust relationship for the SSL/TLS secure channel\" Error Occurs When Adding a Forms Server On the Mobile Configu.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Forms: The underlying connection was closed, Could not establish trust relationship for the SSL/TLS secure channel\" Error Occurs When Adding a Forms Server On the Mobile Configu",
+        "url": "https://support.laserfiche.com/kb/1013640/a-forms-the-underlying-connection-was-closed-could-not-establish-trust-relationship-for-the-ssl-tls-secure-channel-error-occurs-when-adding-a-forms-server-on-the-mobile-configuration-page",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014518-forms-forms-improving-performance-in-laserfich-improving-performance-in-laserfiche-forms-versions-10-3-1-onward",
+    "code": "FORMS-IMPROVING_PERFORMANCE_IN_LASERFICH",
+    "message": "Improving performance in Laserfiche Forms versions 10.3.1 onward",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Improving performance in Laserfiche Forms versions 10.3.1 onward for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Improving performance in Laserfiche Forms versions 10.3.1 onward.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Improving performance in Laserfiche Forms versions 10.3.1 onward",
+        "url": "https://support.laserfiche.com/kb/1014518/improving-performance-in-laserfiche-forms-versions-10-3-1-onward",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014485-forms-forms-laserfiche-forms-technical-support-laserfiche-forms-technical-support-checklist",
+    "code": "FORMS-LASERFICHE_FORMS_TECHNICAL_SUPPORT",
+    "message": "Laserfiche Forms Technical Support Checklist",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Laserfiche Forms Technical Support Checklist for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Laserfiche Forms Technical Support Checklist.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Laserfiche Forms Technical Support Checklist",
+        "url": "https://support.laserfiche.com/kb/1014485/laserfiche-forms-technical-support-checklist",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014318-forms-forms-list-of-changes-for-forms-10-4-5-h-list-of-changes-for-forms-10-4-5-hotfix-1014318",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_FORMS_10_4_5_H",
+    "message": "List of Changes for Forms 10.4.5 Hotfix 1014318",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Forms 10.4.5 Hotfix 1014318 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Forms 10.4.5 Hotfix 1014318.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Forms 10.4.5 Hotfix 1014318",
+        "url": "https://support.laserfiche.com/kb/1014318/list-of-changes-for-forms-10-4-5-hotfix-1014318",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014496-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-11-update-5",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 11 Update 5",
+    "product": "Forms",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 11 Update 5 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11 Update 5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 11 Update 5",
+        "url": "https://support.laserfiche.com/kb/1014496/list-of-changes-for-laserfiche-forms-11-update-5",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014413-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-11-update-3",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 11 Update 3",
+    "product": "Forms",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 11 Update 3 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014413/list-of-changes-for-laserfiche-forms-11-update-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014469-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-11-update-4",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 11 Update 4",
+    "product": "Forms",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 11 Update 4 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11 Update 4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 11 Update 4",
+        "url": "https://support.laserfiche.com/kb/1014469/list-of-changes-for-laserfiche-forms-11-update-4",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014265-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-11",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 11",
+    "product": "Forms",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 11 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 11",
+        "url": "https://support.laserfiche.com/kb/1014265/list-of-changes-for-laserfiche-forms-11",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014449-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-11-update-3-hotfix-1014449",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 11 Update 3 Hotfix 1014449",
+    "product": "Forms",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 11 Update 3 Hotfix 1014449 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 11 Update 3 Hotfix 1014449.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 11 Update 3 Hotfix 1014449",
+        "url": "https://support.laserfiche.com/kb/1014449/list-of-changes-for-laserfiche-forms-11-update-3-hotfix-1014449",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014333-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-4-5-update-1",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.4.5 Update 1",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.4.5 Update 1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.5 Update 1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.4.5 Update 1",
+        "url": "https://support.laserfiche.com/kb/1014333/list-of-changes-for-laserfiche-forms-10-4-5-update-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013806-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-1-update-3",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.1 Update 3.",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.1 Update 3. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.1 Update 3..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.1 Update 3.",
+        "url": "https://support.laserfiche.com/kb/1013806/list-of-changes-for-laserfiche-forms-10-1-update-3-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013870-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-2-1-update-1",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.2.1 Update 1.",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.2.1 Update 1. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.2.1 Update 1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.2.1 Update 1.",
+        "url": "https://support.laserfiche.com/kb/1013870/list-of-changes-for-laserfiche-forms-10-2-1-update-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013775-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-1-update-1",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.1 Update 1.",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.1 Update 1. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.1 Update 1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.1 Update 1.",
+        "url": "https://support.laserfiche.com/kb/1013775/list-of-changes-for-laserfiche-forms-10-1-update-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013981-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-4",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.4",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.4 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.4",
+        "url": "https://support.laserfiche.com/kb/1013981/list-of-changes-for-laserfiche-forms-10-4",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013930-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-3-1",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.3.1",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.3.1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.3.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.3.1",
+        "url": "https://support.laserfiche.com/kb/1013930/list-of-changes-for-laserfiche-forms-10-3-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013903-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-3",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.3",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.3 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.3",
+        "url": "https://support.laserfiche.com/kb/1013903/list-of-changes-for-laserfiche-forms-10-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014421-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-4-5-update-2",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.4.5 Update 2",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.4.5 Update 2 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.5 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.4.5 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014421/list-of-changes-for-laserfiche-forms-10-4-5-update-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014017-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-3-1-update-2",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.3.1 Update 2",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.3.1 Update 2 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.3.1 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.3.1 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014017/list-of-changes-for-laserfiche-forms-10-3-1-update-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014320-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-4-4-update-1",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.4.4 Update 1",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.4.4 Update 1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.4 Update 1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.4.4 Update 1",
+        "url": "https://support.laserfiche.com/kb/1014320/list-of-changes-for-laserfiche-forms-10-4-4-update-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013834-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-2-update-1",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.2 Update 1.",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.2 Update 1. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.2 Update 1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.2 Update 1.",
+        "url": "https://support.laserfiche.com/kb/1013834/list-of-changes-for-laserfiche-forms-10-2-update-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013880-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-2-1-update-2",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.2.1 Update 2.",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.2.1 Update 2. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.2.1 Update 2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.2.1 Update 2.",
+        "url": "https://support.laserfiche.com/kb/1013880/list-of-changes-for-laserfiche-forms-10-2-1-update-2-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014169-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-4-4",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.4.4",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.4.4 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.4.4",
+        "url": "https://support.laserfiche.com/kb/1014169/list-of-changes-for-laserfiche-forms-10-4-4",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014151-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-4-3-update-1",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.4.3 Update 1",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.4.3 Update 1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.3 Update 1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.4.3 Update 1",
+        "url": "https://support.laserfiche.com/kb/1014151/list-of-changes-for-laserfiche-forms-10-4-3-update-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014109-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-4-1-update-2",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.4.1 Update 2",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.4.1 Update 2 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.4.1 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.4.1 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014109/list-of-changes-for-laserfiche-forms-10-4-1-update-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014098-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-3-1-update-3",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.3.1 Update 3",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.3.1 Update 3 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.3.1 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.3.1 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014098/list-of-changes-for-laserfiche-forms-10-3-1-update-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014095-forms-forms-list-of-changes-for-laserfiche-for-list-of-changes-for-laserfiche-forms-10-2-1-update-5",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR",
+    "message": "List of Changes for Laserfiche Forms 10.2.1 Update 5",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.2.1 Update 5 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.2.1 Update 5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.2.1 Update 5",
+        "url": "https://support.laserfiche.com/kb/1014095/list-of-changes-for-laserfiche-forms-10-2-1-update-5",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014191-forms-forms-list-of-changes-for-the-july-17-20-list-of-changes-for-the-july-17-2020-laserfiche-ios-app",
+    "code": "FORMS-LIST_OF_CHANGES_FOR_THE_JULY_17_20",
+    "message": "List of Changes for the July 17, 2020 Laserfiche iOS App",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the July 17, 2020 Laserfiche iOS App for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for the July 17, 2020 Laserfiche iOS App.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for the July 17, 2020 Laserfiche iOS App",
+        "url": "https://support.laserfiche.com/kb/1014191/list-of-changes-for-the-july-17-2020-laserfiche-ios-app",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014543-forms-forms-pdf-generation-fails-when-using-go-pdf-generation-fails-when-using-google-chrome-or-microsoft-edge-for-puppeteerexecutablepat",
+    "code": "FORMS-PDF_GENERATION_FAILS_WHEN_USING_GO",
+    "message": "PDF generation fails when using Google Chrome or Microsoft Edge for PuppeteerExecutablePath in Forms 11 Update 2 or later",
+    "product": "Forms",
+    "versions": [
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports PDF generation fails when using Google Chrome or Microsoft Edge for PuppeteerExecutablePath in Forms 11 Update 2 or later for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: PDF generation fails when using Google Chrome or Microsoft Edge for PuppeteerExecutablePath in Forms 11 Update 2 or later.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "PDF generation fails when using Google Chrome or Microsoft Edge for PuppeteerExecutablePath in Forms 11 Update 2 or later",
+        "url": "https://support.laserfiche.com/kb/1014543/pdf-generation-fails-when-using-google-chrome-or-microsoft-edge-for-puppeteerexecutablepath-in-forms-11-update-2-or-later",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014497-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-11-update-5",
+    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
+    "message": "Release Notes for Laserfiche Forms 11 Update 5",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 11 Update 5 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 11 Update 5.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 11 Update 5",
+        "url": "https://support.laserfiche.com/kb/1014497/release-notes-for-laserfiche-forms-11-update-5",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014414-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-11-update-3",
+    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
+    "message": "Release Notes for Laserfiche Forms 11 Update 3",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 11 Update 3 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014414/release-notes-for-laserfiche-forms-11-update-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014302-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-11-update-1",
+    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
+    "message": "Release Notes for Laserfiche Forms 11 Update 1",
+    "product": "Forms",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 11 Update 1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 11 Update 1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 11 Update 1",
+        "url": "https://support.laserfiche.com/kb/1014302/release-notes-for-laserfiche-forms-11-update-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014351-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-11-update-2",
+    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
+    "message": "Release Notes for Laserfiche Forms 11 Update 2",
+    "product": "Forms",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 11 Update 2 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 11 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 11 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014351/release-notes-for-laserfiche-forms-11-update-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014084-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-10-4-2",
+    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
+    "message": "Release Notes for Laserfiche Forms 10.4.2",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 10.4.2 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.4.2",
+        "url": "https://support.laserfiche.com/kb/1014084/release-notes-for-laserfiche-forms-10-4-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014053-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-10-4-1",
+    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
+    "message": "Release Notes for Laserfiche Forms 10.4.1",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 10.4.1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.4.1",
+        "url": "https://support.laserfiche.com/kb/1014053/release-notes-for-laserfiche-forms-10-4-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013982-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-10-4",
+    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
+    "message": "Release Notes for Laserfiche Forms 10.4",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 10.4 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.4",
+        "url": "https://support.laserfiche.com/kb/1013982/release-notes-for-laserfiche-forms-10-4",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013929-forms-forms-release-notes-for-laserfiche-forms-release-notes-for-laserfiche-forms-10-3-1",
+    "code": "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS",
+    "message": "Release Notes for Laserfiche Forms 10.3.1",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 10.3.1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 10.3.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 10.3.1",
+        "url": "https://support.laserfiche.com/kb/1013929/release-notes-for-laserfiche-forms-10-3-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014420-forms-lff317-a-error-reading-xml-file-name-cannot-begin-with-the-character-error-occurs-when-attempting",
+    "code": "LFF317",
+    "message": "A \"Error reading XML file - Name cannot begin with the ';' character” Error Occurs When Attempting to Upload Process",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Error reading XML file - Name cannot begin with the ';' character” Error Occurs When Attempting to Upload Process for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Error reading XML file - Name cannot begin with the ';' character” Error Occurs When Attempting to Upload Process.",
+      "Reported code or token: LFF317."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Error reading XML file - Name cannot begin with the ';' character” Error Occurs When Attempting to Upload Process",
+        "url": "https://support.laserfiche.com/kb/1014420/a-error-reading-xml-file-name-cannot-begin-with-the-character-error-occurs-when-attempting-to-upload-process",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014406-forms-lff326-the-chromium-browser-used-by-the-pdf-generator-was-not-installed-correctly-lff326-htmltopd",
+    "code": "LFF326",
+    "message": "The Chromium browser used by the PDF generator was not installed correctly. [LFF326-HTMLtoPDFDirectoryNotFound] when using Forms to save to a repository",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports The Chromium browser used by the PDF generator was not installed correctly. [LFF326-HTMLtoPDFDirectoryNotFound] when using Forms to save to a repository for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: The Chromium browser used by the PDF generator was not installed correctly. [LFF326-HTMLtoPDFDirectoryNotFound] when using Forms to save to a repository.",
+      "Reported code or token: LFF326."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "The Chromium browser used by the PDF generator was not installed correctly. [LFF326-HTMLtoPDFDirectoryNotFound] when using Forms to save to a repository",
+        "url": "https://support.laserfiche.com/kb/1014406/the-chromium-browser-used-by-the-pdf-generator-was-not-installed-correctly-lff326-htmltopdfdirectorynotfound-when-using-forms-to-save-to-a-repository",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014002-forms-lff502-list-of-changes-for-laserfiche-forms-10-3-1-hotfix-1014002",
+    "code": "LFF502",
+    "message": "List of Changes for Laserfiche Forms 10.3.1 Hotfix 1014002.",
+    "product": "Forms",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Forms 10.3.1 Hotfix 1014002. for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Forms 10.3.1 Hotfix 1014002..",
+      "Reported code or token: LFF502."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Forms 10.3.1 Hotfix 1014002.",
+        "url": "https://support.laserfiche.com/kb/1014002/list-of-changes-for-laserfiche-forms-10-3-1-hotfix-1014002-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014470-forms-lff2105-release-notes-for-laserfiche-forms-11-update-4",
+    "code": "LFF2105",
+    "message": "Release Notes for Laserfiche Forms 11 Update 4",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 11 Update 4 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 11 Update 4.",
+      "Reported code or token: LFF2105."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 11 Update 4",
+        "url": "https://support.laserfiche.com/kb/1014470/release-notes-for-laserfiche-forms-11-update-4",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014301-forms-lff3602-list-of-changes-for-forms-11-update-1",
+    "code": "LFF3602",
+    "message": "List of Changes for Forms 11 Update 1",
+    "product": "Forms",
+    "versions": [
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Forms 11 Update 1 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Forms 11 Update 1.",
+      "Reported code or token: LFF3602."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Forms 11 Update 1",
+        "url": "https://support.laserfiche.com/kb/1014301/list-of-changes-for-forms-11-update-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014266-forms-lff3602-release-notes-for-laserfiche-forms-11",
+    "code": "LFF3602",
+    "message": "Release Notes for Laserfiche Forms 11",
+    "product": "Forms",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Forms 11 for Forms. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Forms 11.",
+      "Reported code or token: LFF3602."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Forms 11",
+        "url": "https://support.laserfiche.com/kb/1014266/release-notes-for-laserfiche-forms-11",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012283-import-agent-import-a-class-not-licensed-error-occurs-a-class-not-licensed-error-occurs-when-using-import-agent-7-after-installing-laserfiche-cl",
+    "code": "IMPORT-A_CLASS_NOT_LICENSED_ERROR_OCCURS_",
+    "message": "A \"Class not licensed.\" Error Occurs When Using Import Agent 7 after Installing Laserfiche Client 8.1.x.",
+    "product": "Import Agent",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Class not licensed.\" Error Occurs When Using Import Agent 7 after Installing Laserfiche Client 8.1.x. for Import Agent. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Class not licensed.\" Error Occurs When Using Import Agent 7 after Installing Laserfiche Client 8.1.x..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Class not licensed.\" Error Occurs When Using Import Agent 7 after Installing Laserfiche Client 8.1.x.",
+        "url": "https://support.laserfiche.com/kb/1012283/a-class-not-licensed-error-occurs-when-using-import-agent-7-after-installing-laserfiche-client-8-1-x-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014408-import-agent-import-list-of-changes-for-import-agent-1-list-of-changes-for-import-agent-10-4-0-update-7",
+    "code": "IMPORT-LIST_OF_CHANGES_FOR_IMPORT_AGENT_1",
+    "message": "List of Changes for Import Agent 10.4.0 Update 7",
+    "product": "Import Agent",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Import Agent 10.4.0 Update 7 for Import Agent. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Import Agent 10.4.0 Update 7.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Import Agent 10.4.0 Update 7",
+        "url": "https://support.laserfiche.com/kb/1014408/list-of-changes-for-import-agent-10-4-0-update-7",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000989-laserfiche-installer-2755-an-internal-error-2755-3-path-myapp-msi-error-occurs-during-installation",
+    "code": "2755",
+    "message": "An \"Internal Error 2755. 3 Path\\myapp.msi\" Error Occurs During Installation.",
+    "product": "Laserfiche Installer",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Internal Error 2755. 3 Path\\myapp.msi\" Error Occurs During Installation. for Laserfiche Installer. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Internal Error 2755. 3 Path\\myapp.msi\" Error Occurs During Installation..",
+      "Reported code or token: 2755."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Internal Error 2755. 3 Path\\myapp.msi\" Error Occurs During Installation.",
+        "url": "https://support.laserfiche.com/kb/1000989/an-internal-error-2755-3-path-myapp-msi-error-occurs-during-installation-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011654-laserfiche-installer-2908-an-internal-error-2908-error-occurs-during-installation",
+    "code": "2908",
+    "message": "An \"Internal Error 2908\" Error Occurs During Installation.",
+    "product": "Laserfiche Installer",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Internal Error 2908\" Error Occurs During Installation. for Laserfiche Installer. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Internal Error 2908\" Error Occurs During Installation..",
+      "Reported code or token: 2908."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Internal Error 2908\" Error Occurs During Installation.",
+        "url": "https://support.laserfiche.com/kb/1011654/an-internal-error-2908-error-occurs-during-installation-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000988-laserfiche-installer-installer-license-file-locations-license-file-locations",
+    "code": "INSTALLER-LICENSE_FILE_LOCATIONS",
+    "message": "License File Locations.",
+    "product": "Laserfiche Installer",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports License File Locations. for Laserfiche Installer. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: License File Locations..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "License File Locations.",
+        "url": "https://support.laserfiche.com/kb/1000988/license-file-locations-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012734-laserfiche-installer-installer-list-of-changes-for-license-manage-list-of-changes-for-license-manager-8-2",
+    "code": "INSTALLER-LIST_OF_CHANGES_FOR_LICENSE_MANAGE",
+    "message": "List of Changes for License Manager 8.2",
+    "product": "Laserfiche Installer",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for License Manager 8.2 for Laserfiche Installer. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for License Manager 8.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for License Manager 8.2",
+        "url": "https://support.laserfiche.com/kb/1012734/list-of-changes-for-license-manager-8-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011752-laserfiche-server-repository-server-0x80040082-an-error-80040082-error-occurs-when-publishing-a-packet-with-multi-page-tiff-reports",
+    "code": "0x80040082",
+    "message": "An \"Error 80040082\" Error Occurs when Publishing a Packet with Multi-Page TIFF Reports.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error 80040082\" Error Occurs when Publishing a Packet with Multi-Page TIFF Reports. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error 80040082\" Error Occurs when Publishing a Packet with Multi-Page TIFF Reports..",
+      "Reported code or token: 0x80040082."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error 80040082\" Error Occurs when Publishing a Packet with Multi-Page TIFF Reports.",
+        "url": "https://support.laserfiche.com/kb/1011752/an-error-80040082-error-occurs-when-publishing-a-packet-with-multi-page-tiff-reports-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000787-laserfiche-server-repository-server-261-an-error-261-error-occurs-when-registering-a-repository",
+    "code": "261",
+    "message": "An \"Error 261\" Error Occurs When Registering a Repository.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error 261\" Error Occurs When Registering a Repository. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error 261\" Error Occurs When Registering a Repository..",
+      "Reported code or token: 261."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error 261\" Error Occurs When Registering a Repository.",
+        "url": "https://support.laserfiche.com/kb/1000787/an-error-261-error-occurs-when-registering-a-repository-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012452-laserfiche-server-repository-server-400-laserfiche-server-specifications-system-limits",
+    "code": "400",
+    "message": "Laserfiche Server Specifications/System Limits",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Laserfiche Server Specifications/System Limits for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Laserfiche Server Specifications/System Limits.",
+      "Reported code or token: 400."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Laserfiche Server Specifications/System Limits",
+        "url": "https://support.laserfiche.com/kb/1012452/laserfiche-server-specifications-system-limits",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013363-laserfiche-server-repository-server-404-a-network-error-the-remote-server-returned-an-error-404-not-found-error-occurs-when-starti",
+    "code": "404",
+    "message": "A \"Network Error: The remote server returned an error: (404) Not Found.\" Error Occurs When Starting a Business Process From Laserfiche Client 9.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Network Error: The remote server returned an error: (404) Not Found.\" Error Occurs When Starting a Business Process From Laserfiche Client 9. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Network Error: The remote server returned an error: (404) Not Found.\" Error Occurs When Starting a Business Process From Laserfiche Client 9..",
+      "Reported code or token: 404."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Network Error: The remote server returned an error: (404) Not Found.\" Error Occurs When Starting a Business Process From Laserfiche Client 9.",
+        "url": "https://support.laserfiche.com/kb/1013363/a-network-error-the-remote-server-returned-an-error-404-not-found-error-occurs-when-starting-a-business-process-from-laserfiche-client-9-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013442-laserfiche-server-repository-server-500-a-calling-loadlibraryex-on-isapi-filter-c-windows-microsoft-net-framework-v4-0-30319-aspne",
+    "code": "500",
+    "message": "A \"Calling LoadLibraryEx on ISAPI filter \"C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\\\aspnet_filter.dll\" failed\" Error Occurs When Loading A Laserfiche Web Application Hosted On",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Calling LoadLibraryEx on ISAPI filter \"C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\\\aspnet_filter.dll\" failed\" Error Occurs When Loading A Laserfiche Web Application Hosted On for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Calling LoadLibraryEx on ISAPI filter \"C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\\\aspnet_filter.dll\" failed\" Error Occurs When Loading A Laserfiche Web Application Hosted On.",
+      "Reported code or token: 500."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Calling LoadLibraryEx on ISAPI filter \"C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\\\aspnet_filter.dll\" failed\" Error Occurs When Loading A Laserfiche Web Application Hosted On",
+        "url": "https://support.laserfiche.com/kb/1013442/a-calling-loadlibraryex-on-isapi-filter-c-windows-microsoft-net-framework-v4-0-30319-aspnet_filter-dll-failed-error-occurs-when-loading-a-laserfiche-web-application-hosted-on-a-64-bit-web-server-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012708-laserfiche-server-repository-server-780-a-no-response-receive-from-the-server-780-error-occurs-when-merging-field-definitions-in-t",
+    "code": "780",
+    "message": "A \"No response receive from the server. [780]\" Error Occurs When Merging Field Definitions in the Laserfiche 8 Administration Console.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"No response receive from the server. [780]\" Error Occurs When Merging Field Definitions in the Laserfiche 8 Administration Console. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"No response receive from the server. [780]\" Error Occurs When Merging Field Definitions in the Laserfiche 8 Administration Console..",
+      "Reported code or token: 780."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"No response receive from the server. [780]\" Error Occurs When Merging Field Definitions in the Laserfiche 8 Administration Console.",
+        "url": "https://support.laserfiche.com/kb/1012708/a-no-response-receive-from-the-server-780-error-occurs-when-merging-field-definitions-in-the-laserfiche-8-administration-console-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012887-laserfiche-server-repository-server-784-an-operation-timed-out-784-error-occurs-when-logging-in-to-laserfiche-8-or-higher-using-wi",
+    "code": "784",
+    "message": "An \"Operation timed out. [784]\" Error Occurs When Logging In To Laserfiche 8 Or Higher Using Windows Authentication.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Operation timed out. [784]\" Error Occurs When Logging In To Laserfiche 8 Or Higher Using Windows Authentication. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Operation timed out. [784]\" Error Occurs When Logging In To Laserfiche 8 Or Higher Using Windows Authentication..",
+      "Reported code or token: 784."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Operation timed out. [784]\" Error Occurs When Logging In To Laserfiche 8 Or Higher Using Windows Authentication.",
+        "url": "https://support.laserfiche.com/kb/1012887/an-operation-timed-out-784-error-occurs-when-logging-in-to-laserfiche-8-or-higher-using-windows-authentication-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014064-laserfiche-server-repository-server-784-404-not-found",
+    "code": "784",
+    "message": "404: Not Found",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports 404: Not Found for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: 404: Not Found.",
+      "Reported code or token: 784."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "404: Not Found",
+        "url": "https://support.laserfiche.com/kb/1014064/while-performing-actions-that-modify-record-folders-in-laserfiche-windows-client-you-may-see-errors-in-the-client-application-similar-to-error-784-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012568-laserfiche-server-repository-server-797-an-error-797-occurs-when-connecting-to-laserfiche-server",
+    "code": "797",
+    "message": "An \"Error 797\" Occurs When Connecting to Laserfiche Server.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error 797\" Occurs When Connecting to Laserfiche Server. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error 797\" Occurs When Connecting to Laserfiche Server..",
+      "Reported code or token: 797."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error 797\" Occurs When Connecting to Laserfiche Server.",
+        "url": "https://support.laserfiche.com/kb/1012568/an-error-797-occurs-when-connecting-to-laserfiche-server-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011969-laserfiche-server-repository-server-1304-an-error-1304-error-writing-to-file-interop-lfso80lib-dll-error-occurs-when-installing-las",
+    "code": "1304",
+    "message": "An \"Error 1304 Error writing to file: Interop.LFSO80Lib.dll\" Error Occurs When Installing Laserfiche Server.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error 1304 Error writing to file: Interop.LFSO80Lib.dll\" Error Occurs When Installing Laserfiche Server. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error 1304 Error writing to file: Interop.LFSO80Lib.dll\" Error Occurs When Installing Laserfiche Server..",
+      "Reported code or token: 1304."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error 1304 Error writing to file: Interop.LFSO80Lib.dll\" Error Occurs When Installing Laserfiche Server.",
+        "url": "https://support.laserfiche.com/kb/1011969/an-error-1304-error-writing-to-file-interop-lfso80lib-dll-error-occurs-when-installing-laserfiche-server-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012070-laserfiche-server-repository-server-1324-an-error-1324-the-folder-path-foldername-contains-an-invalid-character-error-occurs-when-i",
+    "code": "1324",
+    "message": "An \"Error 1324. The folder path 'FolderName' contains an invalid character.\" Error Occurs When Installing Laserfiche.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error 1324. The folder path 'FolderName' contains an invalid character.\" Error Occurs When Installing Laserfiche. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error 1324. The folder path 'FolderName' contains an invalid character.\" Error Occurs When Installing Laserfiche..",
+      "Reported code or token: 1324."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error 1324. The folder path 'FolderName' contains an invalid character.\" Error Occurs When Installing Laserfiche.",
+        "url": "https://support.laserfiche.com/kb/1012070/an-error-1324-the-folder-path-i-foldername-i-contains-an-invalid-character-error-occurs-when-installing-laserfiche-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012562-laserfiche-server-repository-server-1609-a-error-1609-an-error-occurred-while-applying-security-settings-users-is-not-a-valid-user-",
+    "code": "1609",
+    "message": "A \"Error 1609. An error occurred while applying security settings. Users is not a valid user or group.\" Error Message Occurs When Installing the Laserfiche Records Center SharePoin",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Error 1609. An error occurred while applying security settings. Users is not a valid user or group.\" Error Message Occurs When Installing the Laserfiche Records Center SharePoin for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Error 1609. An error occurred while applying security settings. Users is not a valid user or group.\" Error Message Occurs When Installing the Laserfiche Records Center SharePoin.",
+      "Reported code or token: 1609."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Error 1609. An error occurred while applying security settings. Users is not a valid user or group.\" Error Message Occurs When Installing the Laserfiche Records Center SharePoin",
+        "url": "https://support.laserfiche.com/kb/1012562/a-error-1609-an-error-occurred-while-applying-security-settings-users-is-not-a-valid-user-or-group-error-message-occurs-when-installing-the-laserfiche-records-center-sharepoint-integration-on-a-non-english-version-of-windows-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011730-laserfiche-server-repository-server-1904-an-error-1904-error-occurs-when-installing-the-laserfiche-client",
+    "code": "1904",
+    "message": "An \"Error 1904\" Error Occurs When Installing the Laserfiche Client.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error 1904\" Error Occurs When Installing the Laserfiche Client. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error 1904\" Error Occurs When Installing the Laserfiche Client..",
+      "Reported code or token: 1904."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error 1904\" Error Occurs When Installing the Laserfiche Client.",
+        "url": "https://support.laserfiche.com/kb/1011730/an-error-1904-error-occurs-when-installing-the-laserfiche-client-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012829-laserfiche-server-repository-server-1935-an-error-1935-error-message-occurs-when-installing-laserfiche-8-on-a-windows-vista-or-wind",
+    "code": "1935",
+    "message": "An \"Error 1935\" Error Message Occurs When Installing Laserfiche 8 on a Windows Vista or Windows 7 Computer.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error 1935\" Error Message Occurs When Installing Laserfiche 8 on a Windows Vista or Windows 7 Computer. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error 1935\" Error Message Occurs When Installing Laserfiche 8 on a Windows Vista or Windows 7 Computer..",
+      "Reported code or token: 1935."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error 1935\" Error Message Occurs When Installing Laserfiche 8 on a Windows Vista or Windows 7 Computer.",
+        "url": "https://support.laserfiche.com/kb/1012829/an-error-1935-error-message-occurs-when-installing-laserfiche-8-on-a-windows-vista-or-windows-7-computer-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011707-laserfiche-server-repository-server-2203-an-internal-error-2203-error-occurs-when-installing-laserfiche",
+    "code": "2203",
+    "message": "An \"Internal Error 2203\" Error Occurs When Installing Laserfiche.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Internal Error 2203\" Error Occurs When Installing Laserfiche. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Internal Error 2203\" Error Occurs When Installing Laserfiche..",
+      "Reported code or token: 2203."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Internal Error 2203\" Error Occurs When Installing Laserfiche.",
+        "url": "https://support.laserfiche.com/kb/1011707/an-internal-error-2203-error-occurs-when-installing-laserfiche-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011232-laserfiche-server-repository-server-3169-an-error-3169-the-backed-up-database-has-on-disk-structure-version-611-error-occurs-when-r",
+    "code": "3169",
+    "message": "An \"Error:3169 The backed up database has on-disk structure version 611.\" Error Occurs When Restoring Your SQL Database Backup.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error:3169 The backed up database has on-disk structure version 611.\" Error Occurs When Restoring Your SQL Database Backup. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error:3169 The backed up database has on-disk structure version 611.\" Error Occurs When Restoring Your SQL Database Backup..",
+      "Reported code or token: 3169."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error:3169 The backed up database has on-disk structure version 611.\" Error Occurs When Restoring Your SQL Database Backup.",
+        "url": "https://support.laserfiche.com/kb/1011232/an-error-3169-the-backed-up-database-has-on-disk-structure-version-611-error-occurs-when-restoring-your-sql-database-backup-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000547-laserfiche-server-repository-server-4001-an-error-code-4001-0-or-error-code-4003-0-error-occurs-when-ocring",
+    "code": "4001",
+    "message": "An \"Error Code 4001. (0)\" or \"Error Code 4003. (0)\" Error Occurs When OCRing.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error Code 4001. (0)\" or \"Error Code 4003. (0)\" Error Occurs When OCRing. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error Code 4001. (0)\" or \"Error Code 4003. (0)\" Error Occurs When OCRing..",
+      "Reported code or token: 4001, 4003."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error Code 4001. (0)\" or \"Error Code 4003. (0)\" Error Occurs When OCRing.",
+        "url": "https://support.laserfiche.com/kb/1000547/an-error-code-4001-0-or-error-code-4003-0-error-occurs-when-ocring-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000737-laserfiche-server-repository-server-6000-an-error-6000-unknown-error-error-occurs-when-logging-in-to-a-repository",
+    "code": "6000",
+    "message": "An \"Error 6000: Unknown Error\" Error Occurs When Logging in to a Repository.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error 6000: Unknown Error\" Error Occurs When Logging in to a Repository. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error 6000: Unknown Error\" Error Occurs When Logging in to a Repository..",
+      "Reported code or token: 6000."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error 6000: Unknown Error\" Error Occurs When Logging in to a Repository.",
+        "url": "https://support.laserfiche.com/kb/1000737/an-error-6000-unknown-error-error-occurs-when-logging-in-to-a-repository-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012169-laserfiche-server-repository-server-6000-an-unknown-error-6000-3221225477-error-occurs-when-printing-from-laserfiche",
+    "code": "6000",
+    "message": "An \"Unknown error. [6000:3221225477]\" Error Occurs When Printing From Laserfiche.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Unknown error. [6000:3221225477]\" Error Occurs When Printing From Laserfiche. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Unknown error. [6000:3221225477]\" Error Occurs When Printing From Laserfiche..",
+      "Reported code or token: 6000."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Unknown error. [6000:3221225477]\" Error Occurs When Printing From Laserfiche.",
+        "url": "https://support.laserfiche.com/kb/1012169/an-unknown-error-6000-3221225477-error-occurs-when-printing-from-laserfiche-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011052-laserfiche-server-repository-server-7024-a-7024-attach-repository-failed-the-number-of-repositories-would-exceed-the-licensed-limit",
+    "code": "7024",
+    "message": "A \"[7024] Attach repository failed: The number of repositories would exceed the licensed limit\" Error Occurs When Registering or Creating a Repository.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"[7024] Attach repository failed: The number of repositories would exceed the licensed limit\" Error Occurs When Registering or Creating a Repository. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"[7024] Attach repository failed: The number of repositories would exceed the licensed limit\" Error Occurs When Registering or Creating a Repository..",
+      "Reported code or token: 7024."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"[7024] Attach repository failed: The number of repositories would exceed the licensed limit\" Error Occurs When Registering or Creating a Repository.",
+        "url": "https://support.laserfiche.com/kb/1011052/a-7024-attach-repository-failed-the-number-of-repositories-would-exceed-the-licensed-limit-error-occurs-when-registering-or-creating-a-repository-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011038-laserfiche-server-repository-server-7050-an-error-determining-word-locations-error-executing-sql-command-7050-error-occurs-when-app",
+    "code": "7050",
+    "message": "An \"Error determining word locations. Error executing SQL command [7050]\" Error Occurs When Applying Linked Text Annotations",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error determining word locations. Error executing SQL command [7050]\" Error Occurs When Applying Linked Text Annotations for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error determining word locations. Error executing SQL command [7050]\" Error Occurs When Applying Linked Text Annotations.",
+      "Reported code or token: 7050."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error determining word locations. Error executing SQL command [7050]\" Error Occurs When Applying Linked Text Annotations",
+        "url": "https://support.laserfiche.com/kb/1011038/an-error-determining-word-locations-error-executing-sql-command-7050-error-occurs-when-applying-linked-text-annotations",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000852-laserfiche-server-repository-server-7050-an-error-7050-error-occurs-when-registering-a-repository",
+    "code": "7050",
+    "message": "An \"Error 7050.\" Error Occurs When Registering a Repository.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error 7050.\" Error Occurs When Registering a Repository. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error 7050.\" Error Occurs When Registering a Repository..",
+      "Reported code or token: 7050."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error 7050.\" Error Occurs When Registering a Repository.",
+        "url": "https://support.laserfiche.com/kb/1000852/an-error-7050-error-occurs-when-registering-a-repository-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1001024-laserfiche-server-repository-server-7050-a-error-executing-sql-command-7050-error-occurs-when-performing-records-management-actions",
+    "code": "7050",
+    "message": "A \"Error executing SQL command [7050]\" Error Occurs When Performing Records Management Actions on a Deeply-Nested Folder.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Error executing SQL command [7050]\" Error Occurs When Performing Records Management Actions on a Deeply-Nested Folder. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Error executing SQL command [7050]\" Error Occurs When Performing Records Management Actions on a Deeply-Nested Folder..",
+      "Reported code or token: 7050."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Error executing SQL command [7050]\" Error Occurs When Performing Records Management Actions on a Deeply-Nested Folder.",
+        "url": "https://support.laserfiche.com/kb/1001024/a-error-executing-sql-command-7050-error-occurs-when-performing-records-management-actions-on-a-deeply-nested-folder-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011870-laserfiche-server-repository-server-7050-an-error-executing-sql-command-7050-error-occurs-when-copying-or-moving-a-document",
+    "code": "7050",
+    "message": "An \"Error executing SQL command [7050].\" Error Occurs When Copying or Moving a Document.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error executing SQL command [7050].\" Error Occurs When Copying or Moving a Document. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error executing SQL command [7050].\" Error Occurs When Copying or Moving a Document..",
+      "Reported code or token: 7050."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error executing SQL command [7050].\" Error Occurs When Copying or Moving a Document.",
+        "url": "https://support.laserfiche.com/kb/1011870/an-error-executing-sql-command-7050-error-occurs-when-copying-or-moving-a-document-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011015-laserfiche-server-repository-server-7050-a-failed-to-load-thumbnails-error-executing-sql-command-7050-error-occurs-when-opening-a-d",
+    "code": "7050",
+    "message": "A \"Failed to load thumbnails. Error executing SQL command [7050]\" Error Occurs When Opening a Document.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Failed to load thumbnails. Error executing SQL command [7050]\" Error Occurs When Opening a Document. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Failed to load thumbnails. Error executing SQL command [7050]\" Error Occurs When Opening a Document..",
+      "Reported code or token: 7050, 7582."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Failed to load thumbnails. Error executing SQL command [7050]\" Error Occurs When Opening a Document.",
+        "url": "https://support.laserfiche.com/kb/1011015/a-failed-to-load-thumbnails-error-executing-sql-command-7050-error-occurs-when-opening-a-document-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-90200-laserfiche-server-repository-server-7050-7050-microsoft-sql-server-error",
+    "code": "7050",
+    "message": "7050: Microsoft SQL Server Error",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports 7050: Microsoft SQL Server Error for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: 7050: Microsoft SQL Server Error.",
+      "Reported code or token: 7050."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "7050: Microsoft SQL Server Error",
+        "url": "https://support.laserfiche.com/kb/90200/7050-microsoft-sql-server-error",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011860-laserfiche-server-repository-server-7361-an-error-cannot-open-files-7361-error-occurs-when-sending-documents-from-laserfiche-scanni",
+    "code": "7361",
+    "message": "An \"Error: Cannot open files (7361)\" Error Occurs When Sending Documents From Laserfiche Scanning.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error: Cannot open files (7361)\" Error Occurs When Sending Documents From Laserfiche Scanning. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error: Cannot open files (7361)\" Error Occurs When Sending Documents From Laserfiche Scanning..",
+      "Reported code or token: 7361."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error: Cannot open files (7361)\" Error Occurs When Sending Documents From Laserfiche Scanning.",
+        "url": "https://support.laserfiche.com/kb/1011860/an-error-cannot-open-files-7361-error-occurs-when-sending-documents-from-laserfiche-scanning-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000662-laserfiche-server-repository-server-7366-an-error-cannot-create-file-7366-error-occurs-when-publishing",
+    "code": "7366",
+    "message": "An \"Error cannot create file 7366.\" Error Occurs When Publishing.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error cannot create file 7366.\" Error Occurs When Publishing. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error cannot create file 7366.\" Error Occurs When Publishing..",
+      "Reported code or token: 7366."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error cannot create file 7366.\" Error Occurs When Publishing.",
+        "url": "https://support.laserfiche.com/kb/1000662/an-error-cannot-create-file-7366-error-occurs-when-publishing-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000844-laserfiche-server-repository-server-7826-a-the-laserfiche-server-encountered-an-error-when-trying-to-attach-the-repository-error-78",
+    "code": "7826",
+    "message": "A \"The Laserfiche Server encountered an error when trying to attach the repository. Error 7826.\" Error Occurs When Attaching a Repository.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"The Laserfiche Server encountered an error when trying to attach the repository. Error 7826.\" Error Occurs When Attaching a Repository. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"The Laserfiche Server encountered an error when trying to attach the repository. Error 7826.\" Error Occurs When Attaching a Repository..",
+      "Reported code or token: 7826."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"The Laserfiche Server encountered an error when trying to attach the repository. Error 7826.\" Error Occurs When Attaching a Repository.",
+        "url": "https://support.laserfiche.com/kb/1000844/a-the-laserfiche-server-encountered-an-error-when-trying-to-attach-the-repository-error-7826-error-occurs-when-attaching-a-repository-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000451-laserfiche-server-repository-server-8000-an-8000-unknown-error-error-occurs-when-logging-in-to-a-repository",
+    "code": "8000",
+    "message": "An \"8000: Unknown error.\" Error Occurs When Logging in to a Repository.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"8000: Unknown error.\" Error Occurs When Logging in to a Repository. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"8000: Unknown error.\" Error Occurs When Logging in to a Repository..",
+      "Reported code or token: 8000."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"8000: Unknown error.\" Error Occurs When Logging in to a Repository.",
+        "url": "https://support.laserfiche.com/kb/1000451/an-8000-unknown-error-error-occurs-when-logging-in-to-a-repository-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013181-laserfiche-server-repository-server-9001-an-error-encountered-while-confirming-final-disposition-see-the-error-log-for-details-entr",
+    "code": "9001",
+    "message": "An \"Error encountered while confirming final disposition. See the error log for details. Entry not found. [9001]\" Error Occurs When Performing Final Disposition On A Record Folder.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error encountered while confirming final disposition. See the error log for details. Entry not found. [9001]\" Error Occurs When Performing Final Disposition On A Record Folder. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error encountered while confirming final disposition. See the error log for details. Entry not found. [9001]\" Error Occurs When Performing Final Disposition On A Record Folder..",
+      "Reported code or token: 9001."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error encountered while confirming final disposition. See the error log for details. Entry not found. [9001]\" Error Occurs When Performing Final Disposition On A Record Folder.",
+        "url": "https://support.laserfiche.com/kb/1013181/an-error-encountered-while-confirming-final-disposition-see-the-error-log-for-details-entry-not-found-9001-error-occurs-when-performing-final-disposition-on-a-record-folder-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012162-laserfiche-server-repository-server-9008-an-error-9008-error-executing-sql-command-error-occurs-when-migrating-multi-page-documents",
+    "code": "9008",
+    "message": "An \"Error 9008 (error executing SQL command)\" Error Occurs When Migrating Multi-Page Documents.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error 9008 (error executing SQL command)\" Error Occurs When Migrating Multi-Page Documents. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error 9008 (error executing SQL command)\" Error Occurs When Migrating Multi-Page Documents..",
+      "Reported code or token: 9008."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error 9008 (error executing SQL command)\" Error Occurs When Migrating Multi-Page Documents.",
+        "url": "https://support.laserfiche.com/kb/1012162/an-error-9008-error-executing-sql-command-error-occurs-when-migrating-multi-page-documents-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012566-laserfiche-server-repository-server-9008-troubleshooting-general-database-error-9008-errors-in-laserfiche-8",
+    "code": "9008",
+    "message": "Troubleshooting \"General database error. [9008]\" Errors in Laserfiche 8.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Troubleshooting \"General database error. [9008]\" Errors in Laserfiche 8. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Troubleshooting \"General database error. [9008]\" Errors in Laserfiche 8..",
+      "Reported code or token: 9008."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Troubleshooting \"General database error. [9008]\" Errors in Laserfiche 8.",
+        "url": "https://support.laserfiche.com/kb/1012566/troubleshooting-general-database-error-9008-errors-in-laserfiche-8-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012136-laserfiche-server-repository-server-9008-a-general-database-error-9008-error-occurs-when-using-laserfiche",
+    "code": "9008",
+    "message": "A \"General Database Error [9008].\" Error Occurs When Using Laserfiche.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"General Database Error [9008].\" Error Occurs When Using Laserfiche. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"General Database Error [9008].\" Error Occurs When Using Laserfiche..",
+      "Reported code or token: 9008."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"General Database Error [9008].\" Error Occurs When Using Laserfiche.",
+        "url": "https://support.laserfiche.com/kb/1012136/a-general-database-error-9008-error-occurs-when-using-laserfiche-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012259-laserfiche-server-repository-server-9025-an-error-reading-repository-information-or-repository-misconfigured-9025-error-occurs-when",
+    "code": "9025",
+    "message": "An \"Error reading repository information, or repository misconfigured [9025].\" Error Occurs When the Laserfiche Server Starts on a Failover Computer.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error reading repository information, or repository misconfigured [9025].\" Error Occurs When the Laserfiche Server Starts on a Failover Computer. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error reading repository information, or repository misconfigured [9025].\" Error Occurs When the Laserfiche Server Starts on a Failover Computer..",
+      "Reported code or token: 9025."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error reading repository information, or repository misconfigured [9025].\" Error Occurs When the Laserfiche Server Starts on a Failover Computer.",
+        "url": "https://support.laserfiche.com/kb/1012259/an-error-reading-repository-information-or-repository-misconfigured-9025-error-occurs-when-the-laserfiche-server-starts-on-a-failover-computer-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013412-laserfiche-server-repository-server-9132-a-the-search-engine-encountered-an-internal-error-please-check-the-search-engine-error-log",
+    "code": "9132",
+    "message": "A \"The search engine encountered an internal error. Please check the search engine error log for more details. [9132]\" Error Occurs When Creating A Search Catalog After Migrating F",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"The search engine encountered an internal error. Please check the search engine error log for more details. [9132]\" Error Occurs When Creating A Search Catalog After Migrating F for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"The search engine encountered an internal error. Please check the search engine error log for more details. [9132]\" Error Occurs When Creating A Search Catalog After Migrating F.",
+      "Reported code or token: 9132."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"The search engine encountered an internal error. Please check the search engine error log for more details. [9132]\" Error Occurs When Creating A Search Catalog After Migrating F",
+        "url": "https://support.laserfiche.com/kb/1013412/a-the-search-engine-encountered-an-internal-error-please-check-the-search-engine-error-log-for-more-details-9132-error-occurs-when-creating-a-search-catalog-after-migrating-from-laserfiche-7-to-laserfiche-9-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013549-laserfiche-server-repository-server-18456-an-error-reading-repository-information-or-the-repository-is-misconfigured-9025-error-occu",
+    "code": "18456",
+    "message": "An \"Error reading repository information, or the repository is misconfigured. [9025]\" Error Occurs When Creating A Repository And The Laserfiche Server Is Running As A Local Machin",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error reading repository information, or the repository is misconfigured. [9025]\" Error Occurs When Creating A Repository And The Laserfiche Server Is Running As A Local Machin for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error reading repository information, or the repository is misconfigured. [9025]\" Error Occurs When Creating A Repository And The Laserfiche Server Is Running As A Local Machin.",
+      "Reported code or token: 18456, 9025."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error reading repository information, or the repository is misconfigured. [9025]\" Error Occurs When Creating A Repository And The Laserfiche Server Is Running As A Local Machin",
+        "url": "https://support.laserfiche.com/kb/1013549/an-error-reading-repository-information-or-the-repository-is-misconfigured-9025-error-occurs-when-creating-a-repository-and-the-laserfiche-server-is-running-as-a-local-machine-account-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013637-laserfiche-server-repository-server-42000-the-laserfiche-social-bpm-9-2-preview-configuration-page-displays-an-error-42000-microsoft",
+    "code": "42000",
+    "message": "The Laserfiche Social BPM 9.2 Preview Configuration Page Displays An \"ERROR [42000] [Microsoft][SQL Native Client][SQL Server]Invalid filegroup 'LfAnswersStreamGroup1' specified\" M",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports The Laserfiche Social BPM 9.2 Preview Configuration Page Displays An \"ERROR [42000] [Microsoft][SQL Native Client][SQL Server]Invalid filegroup 'LfAnswersStreamGroup1' specified\" M for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: The Laserfiche Social BPM 9.2 Preview Configuration Page Displays An \"ERROR [42000] [Microsoft][SQL Native Client][SQL Server]Invalid filegroup 'LfAnswersStreamGroup1' specified\" M.",
+      "Reported code or token: 42000."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "The Laserfiche Social BPM 9.2 Preview Configuration Page Displays An \"ERROR [42000] [Microsoft][SQL Native Client][SQL Server]Invalid filegroup 'LfAnswersStreamGroup1' specified\" M",
+        "url": "https://support.laserfiche.com/kb/1013637/the-laserfiche-social-bpm-9-2-preview-configuration-page-displays-an-error-42000-microsoft-sql-native-client-sql-server-invalid-filegroup-lfanswersstreamgroup1-specified-message-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-90190-laserfiche-server-repository-server-lfserver-7030-the-sql-database-engine-has-e-7030-the-sql-database-engine-has-encountered-an-unexpected-error-and-is-unable-to-continue",
+    "code": "LFSERVER-7030_THE_SQL_DATABASE_ENGINE_HAS_E",
+    "message": "7030: The SQL Database Engine has encountered an unexpected error and is unable to continue. Check error log for more information.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports 7030: The SQL Database Engine has encountered an unexpected error and is unable to continue. Check error log for more information. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: 7030: The SQL Database Engine has encountered an unexpected error and is unable to continue. Check error log for more information..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "7030: The SQL Database Engine has encountered an unexpected error and is unable to continue. Check error log for more information.",
+        "url": "https://support.laserfiche.com/kb/90190/7030-the-sql-database-engine-has-encountered-an-unexpected-error-and-is-unable-to-continue-check-error-log-for-more-information-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000255-laserfiche-server-repository-server-lfserver-a-5851-internal-security-error-err-a-5851-internal-security-error-error-occurs-when-selecting-a-user-name-in-the-user-manager",
+    "code": "LFSERVER-A_5851_INTERNAL_SECURITY_ERROR_ERR",
+    "message": "A \"5851: Internal security error.\" Error Occurs When Selecting a User Name in the User Manager.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"5851: Internal security error.\" Error Occurs When Selecting a User Name in the User Manager. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"5851: Internal security error.\" Error Occurs When Selecting a User Name in the User Manager..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"5851: Internal security error.\" Error Occurs When Selecting a User Name in the User Manager.",
+        "url": "https://support.laserfiche.com/kb/1000255/a-5851-internal-security-error-error-occurs-when-selecting-a-user-name-in-the-user-manager-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000443-laserfiche-server-repository-server-lfserver-a-6516-error-loading-library-error-a-6516-error-loading-library-error-occurs-when-scanning",
+    "code": "LFSERVER-A_6516_ERROR_LOADING_LIBRARY_ERROR",
+    "message": "A \"6516: Error loading library.\" Error Occurs When Scanning.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"6516: Error loading library.\" Error Occurs When Scanning. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"6516: Error loading library.\" Error Occurs When Scanning..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"6516: Error loading library.\" Error Occurs When Scanning.",
+        "url": "https://support.laserfiche.com/kb/1000443/a-6516-error-loading-library-error-occurs-when-scanning-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000595-laserfiche-server-repository-server-lfserver-a-7030-the-sql-database-engine-has-a-7030-the-sql-database-engine-has-encountered-an-unexpected-error-and-is-unable-to-contin",
+    "code": "LFSERVER-A_7030_THE_SQL_DATABASE_ENGINE_HAS",
+    "message": "A \"7030: The SQL Database Engine has encountered an unexpected error and is unable to continue.\" Error Occurs When Creating a Database.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"7030: The SQL Database Engine has encountered an unexpected error and is unable to continue.\" Error Occurs When Creating a Database. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"7030: The SQL Database Engine has encountered an unexpected error and is unable to continue.\" Error Occurs When Creating a Database..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"7030: The SQL Database Engine has encountered an unexpected error and is unable to continue.\" Error Occurs When Creating a Database.",
+        "url": "https://support.laserfiche.com/kb/1000595/a-7030-the-sql-database-engine-has-encountered-an-unexpected-error-and-is-unable-to-continue-error-occurs-when-creating-a-database-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011190-laserfiche-server-repository-server-lfserver-a-7050-error-executing-sql-command-a-7050-error-executing-sql-command-error-occurs-when-viewing-a-folder",
+    "code": "LFSERVER-A_7050_ERROR_EXECUTING_SQL_COMMAND",
+    "message": "A \"7050 error executing SQL command\" Error Occurs When Viewing a Folder.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"7050 error executing SQL command\" Error Occurs When Viewing a Folder. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"7050 error executing SQL command\" Error Occurs When Viewing a Folder..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"7050 error executing SQL command\" Error Occurs When Viewing a Folder.",
+        "url": "https://support.laserfiche.com/kb/1011190/a-7050-error-executing-sql-command-error-occurs-when-viewing-a-folder-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000363-laserfiche-server-repository-server-lfserver-a-8000-unknown-error-error-occurs-a-8000-unknown-error-error-occurs-when-ocring-documents",
+    "code": "LFSERVER-A_8000_UNKNOWN_ERROR_ERROR_OCCURS_",
+    "message": "A \"8000: Unknown error.\" Error Occurs when OCRing Documents.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"8000: Unknown error.\" Error Occurs when OCRing Documents. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"8000: Unknown error.\" Error Occurs when OCRing Documents..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"8000: Unknown error.\" Error Occurs when OCRing Documents.",
+        "url": "https://support.laserfiche.com/kb/1000363/a-8000-unknown-error-error-occurs-when-ocring-documents-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013052-laserfiche-server-repository-server-lfserver-a-cannot-find-row-in-sysindexes-fo-a-cannot-find-row-in-sysindexes-for-database-id-error-occurs-when-attaching-or-restoring-a",
+    "code": "LFSERVER-A_CANNOT_FIND_ROW_IN_SYSINDEXES_FO",
+    "message": "A \"Cannot find row in sysindexes for database ID\" Error Occurs When Attaching Or Restoring A Microsoft SQL Server Database.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Cannot find row in sysindexes for database ID\" Error Occurs When Attaching Or Restoring A Microsoft SQL Server Database. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Cannot find row in sysindexes for database ID\" Error Occurs When Attaching Or Restoring A Microsoft SQL Server Database..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Cannot find row in sysindexes for database ID\" Error Occurs When Attaching Or Restoring A Microsoft SQL Server Database.",
+        "url": "https://support.laserfiche.com/kb/1013052/a-cannot-find-row-in-sysindexes-for-database-id-error-occurs-when-attaching-or-restoring-a-microsoft-sql-server-database-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011702-laserfiche-server-repository-server-lfserver-a-catastrophic-failure-error-occur-a-catastrophic-failure-error-occurs-when-sending-documents",
+    "code": "LFSERVER-A_CATASTROPHIC_FAILURE_ERROR_OCCUR",
+    "message": "A \"Catastrophic failure\" Error Occurs When Sending Documents.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Catastrophic failure\" Error Occurs When Sending Documents. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Catastrophic failure\" Error Occurs When Sending Documents..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Catastrophic failure\" Error Occurs When Sending Documents.",
+        "url": "https://support.laserfiche.com/kb/1011702/a-catastrophic-failure-error-occurs-when-sending-documents-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012402-laserfiche-server-repository-server-lfserver-a-database-already-has-an-active-l-a-database-already-has-an-active-license-2108-error-occurs-when-adding-a-new-primary-licen",
+    "code": "LFSERVER-A_DATABASE_ALREADY_HAS_AN_ACTIVE_L",
+    "message": "A \"Database already has an active license. 2108\" Error Occurs When Adding a New Primary License with Laserfiche Rio 8.1.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Database already has an active license. 2108\" Error Occurs When Adding a New Primary License with Laserfiche Rio 8.1. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Database already has an active license. 2108\" Error Occurs When Adding a New Primary License with Laserfiche Rio 8.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Database already has an active license. 2108\" Error Occurs When Adding a New Primary License with Laserfiche Rio 8.1.",
+        "url": "https://support.laserfiche.com/kb/1012402/a-database-already-has-an-active-license-2108-error-occurs-when-adding-a-new-primary-license-with-laserfiche-rio-8-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1001041-laserfiche-server-repository-server-lfserver-a-dbnetlib-connectionopen-connect-a-dbnetlib-connectionopen-connect-specified-sql-server-not-found-error-occurs-during-sql-d",
+    "code": "LFSERVER-A_DBNETLIB_CONNECTIONOPEN_CONNECT_",
+    "message": "A \"[DBNETLIB][ConnectionOpen (Connect()).] Specified SQL server not found\" Error Occurs During SQL Database Creation.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"[DBNETLIB][ConnectionOpen (Connect()).] Specified SQL server not found\" Error Occurs During SQL Database Creation. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"[DBNETLIB][ConnectionOpen (Connect()).] Specified SQL server not found\" Error Occurs During SQL Database Creation..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"[DBNETLIB][ConnectionOpen (Connect()).] Specified SQL server not found\" Error Occurs During SQL Database Creation.",
+        "url": "https://support.laserfiche.com/kb/1001041/a-dbnetlib-connectionopen-connect-specified-sql-server-not-found-error-occurs-during-sql-database-creation-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011847-laserfiche-server-repository-server-lfserver-a-feature-transfer-error-error-occ-a-feature-transfer-error-error-occurs-when-installing-laserfiche-scanning",
+    "code": "LFSERVER-A_FEATURE_TRANSFER_ERROR_ERROR_OCC",
+    "message": "A \"Feature Transfer Error\" Error Occurs When Installing Laserfiche Scanning.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Feature Transfer Error\" Error Occurs When Installing Laserfiche Scanning. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Feature Transfer Error\" Error Occurs When Installing Laserfiche Scanning..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Feature Transfer Error\" Error Occurs When Installing Laserfiche Scanning.",
+        "url": "https://support.laserfiche.com/kb/1011847/a-feature-transfer-error-error-occurs-when-installing-laserfiche-scanning-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012325-laserfiche-server-repository-server-lfserver-a-license-expired-error-occurs-whe-a-license-expired-error-occurs-when-using-laserfiche-on-windows-vista",
+    "code": "LFSERVER-A_LICENSE_EXPIRED_ERROR_OCCURS_WHE",
+    "message": "A \"License expired.\" Error Occurs When Using Laserfiche On Windows Vista.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"License expired.\" Error Occurs When Using Laserfiche On Windows Vista. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"License expired.\" Error Occurs When Using Laserfiche On Windows Vista..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"License expired.\" Error Occurs When Using Laserfiche On Windows Vista.",
+        "url": "https://support.laserfiche.com/kb/1012325/a-license-expired-error-occurs-when-using-laserfiche-on-windows-vista-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000553-laserfiche-server-repository-server-lfserver-a-mdiapp-error-received-error-code-a-mdiapp-error-received-error-code-5-error-occurs-when-starting-the-laserfiche-client",
+    "code": "LFSERVER-A_MDIAPP_ERROR_RECEIVED_ERROR_CODE",
+    "message": "A \"MDIAPP Error received: error code = -5\" Error Occurs When Starting the LaserFiche Client.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"MDIAPP Error received: error code = -5\" Error Occurs When Starting the LaserFiche Client. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"MDIAPP Error received: error code = -5\" Error Occurs When Starting the LaserFiche Client..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"MDIAPP Error received: error code = -5\" Error Occurs When Starting the LaserFiche Client.",
+        "url": "https://support.laserfiche.com/kb/1000553/a-mdiapp-error-received-error-code-5-error-occurs-when-starting-the-laserfiche-client-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014412-laserfiche-server-repository-server-lfserver-a-microsoft-odbc-sql-server-driver-a-microsoft-odbc-sql-server-driver-protocol-error-in-tds-stream-error-occurs-when-attempti",
+    "code": "LFSERVER-A_MICROSOFT_ODBC_SQL_SERVER_DRIVER",
+    "message": "A \"[Microsoft][ODBC SQL Server Driver] Protocol error in TDS Stream\" Error Occurs When Attempting to Connect to a Database through Microsoft ODBC SQL Server Driver.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"[Microsoft][ODBC SQL Server Driver] Protocol error in TDS Stream\" Error Occurs When Attempting to Connect to a Database through Microsoft ODBC SQL Server Driver. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"[Microsoft][ODBC SQL Server Driver] Protocol error in TDS Stream\" Error Occurs When Attempting to Connect to a Database through Microsoft ODBC SQL Server Driver..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"[Microsoft][ODBC SQL Server Driver] Protocol error in TDS Stream\" Error Occurs When Attempting to Connect to a Database through Microsoft ODBC SQL Server Driver.",
+        "url": "https://support.laserfiche.com/kb/1014412/a-microsoft-odbc-sql-server-driver-protocol-error-in-tds-stream-error-occurs-when-attempting-to-connect-to-a-database-through-microsoft-odbc-sql-server-driver-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013569-laserfiche-server-repository-server-lfserver-a-retrieving-the-com-class-factory-a-retrieving-the-com-class-factory-for-component-with-clsid-d94d3976-b933-495e-ad3e-9d6fa6",
+    "code": "LFSERVER-A_RETRIEVING_THE_COM_CLASS_FACTORY",
+    "message": "A \"Retrieving the COM class factory for component with CLSID {D94D3976-B933-495E-AD3E-9D6FA6CB418D} failed due to the following error: 80080005\" Error Occurs In Laserfiche Scanning",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Retrieving the COM class factory for component with CLSID {D94D3976-B933-495E-AD3E-9D6FA6CB418D} failed due to the following error: 80080005\" Error Occurs In Laserfiche Scanning for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Retrieving the COM class factory for component with CLSID {D94D3976-B933-495E-AD3E-9D6FA6CB418D} failed due to the following error: 80080005\" Error Occurs In Laserfiche Scanning.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Retrieving the COM class factory for component with CLSID {D94D3976-B933-495E-AD3E-9D6FA6CB418D} failed due to the following error: 80080005\" Error Occurs In Laserfiche Scanning",
+        "url": "https://support.laserfiche.com/kb/1013569/a-retrieving-the-com-class-factory-for-component-with-clsid-d94d3976-b933-495e-ad3e-9d6fa6cb418d-failed-due-to-the-following-error-80080005-error-occurs-in-laserfiche-scanning-9-1-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011112-laserfiche-server-repository-server-lfserver-a-sql-cannot-create-the-database-e-a-sql-cannot-create-the-database-error-occurs-when-creating-a-new-repository",
+    "code": "LFSERVER-A_SQL_CANNOT_CREATE_THE_DATABASE_E",
+    "message": "A \"SQL cannot create the database\" Error Occurs When Creating a New Repository.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"SQL cannot create the database\" Error Occurs When Creating a New Repository. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"SQL cannot create the database\" Error Occurs When Creating a New Repository..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"SQL cannot create the database\" Error Occurs When Creating a New Repository.",
+        "url": "https://support.laserfiche.com/kb/1011112/a-sql-cannot-create-the-database-error-occurs-when-creating-a-new-repository-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013516-laserfiche-server-repository-server-lfserver-a-the-named-user-account-license-d-a-the-named-user-account-license-database-could-not-be-opened-error-occurs-when-starting-t",
+    "code": "LFSERVER-A_THE_NAMED_USER_ACCOUNT_LICENSE_D",
+    "message": "A \"The named user account license database could not be opened.\" Error Occurs When Starting The Laserfiche Server Service.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"The named user account license database could not be opened.\" Error Occurs When Starting The Laserfiche Server Service. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"The named user account license database could not be opened.\" Error Occurs When Starting The Laserfiche Server Service..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"The named user account license database could not be opened.\" Error Occurs When Starting The Laserfiche Server Service.",
+        "url": "https://support.laserfiche.com/kb/1013516/a-the-named-user-account-license-database-could-not-be-opened-error-occurs-when-starting-the-laserfiche-server-service-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013178-laserfiche-server-repository-server-lfserver-a-the-request-exceeds-the-full-nam-a-the-request-exceeds-the-full-named-user-license-limit-2071-error-occurs-when-registering",
+    "code": "LFSERVER-A_THE_REQUEST_EXCEEDS_THE_FULL_NAM",
+    "message": "A \"The request exceeds the full named user license limit. [2071]\" Error Occurs When Registering a New Named User.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"The request exceeds the full named user license limit. [2071]\" Error Occurs When Registering a New Named User. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"The request exceeds the full named user license limit. [2071]\" Error Occurs When Registering a New Named User..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"The request exceeds the full named user license limit. [2071]\" Error Occurs When Registering a New Named User.",
+        "url": "https://support.laserfiche.com/kb/1013178/a-the-request-exceeds-the-full-named-user-license-limit-2071-error-occurs-when-registering-a-new-named-user-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012434-laserfiche-server-repository-server-lfserver-a-the-resources-allocated-by-the-l-a-the-resources-allocated-by-the-licensing-database-databasename-exceed-the-limits-specifi",
+    "code": "LFSERVER-A_THE_RESOURCES_ALLOCATED_BY_THE_L",
+    "message": "A \"The resources allocated by the licensing database 'DatabaseName' exceed the limits specified by the primary license. (2061)\" Error Occurs When Adding a New Primary License.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"The resources allocated by the licensing database 'DatabaseName' exceed the limits specified by the primary license. (2061)\" Error Occurs When Adding a New Primary License. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"The resources allocated by the licensing database 'DatabaseName' exceed the limits specified by the primary license. (2061)\" Error Occurs When Adding a New Primary License..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"The resources allocated by the licensing database 'DatabaseName' exceed the limits specified by the primary license. (2061)\" Error Occurs When Adding a New Primary License.",
+        "url": "https://support.laserfiche.com/kb/1012434/a-the-resources-allocated-by-the-licensing-database-databasename-exceed-the-limits-specified-by-the-primary-license-2061-error-occurs-when-adding-a-new-primary-license-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012767-laserfiche-server-repository-server-lfserver-a-the-xml-digital-signature-checke-a-the-xml-digital-signature-checker-failed-to-initialize-2038-error-occurs-when-adding-a-p",
+    "code": "LFSERVER-A_THE_XML_DIGITAL_SIGNATURE_CHECKE",
+    "message": "A \"The XML digital signature checker failed to initialize. (2038)\" Error Occurs When Adding A Primary License In The License Manager 8 Administration Console.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"The XML digital signature checker failed to initialize. (2038)\" Error Occurs When Adding A Primary License In The License Manager 8 Administration Console. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"The XML digital signature checker failed to initialize. (2038)\" Error Occurs When Adding A Primary License In The License Manager 8 Administration Console..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"The XML digital signature checker failed to initialize. (2038)\" Error Occurs When Adding A Primary License In The License Manager 8 Administration Console.",
+        "url": "https://support.laserfiche.com/kb/1012767/a-the-xml-digital-signature-checker-failed-to-initialize-2038-error-occurs-when-adding-a-primary-license-in-the-license-manager-8-administration-console-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000600-laserfiche-server-repository-server-lfserver-an-7030-7023-dbnet-lib-connectiono-an-7030-7023-dbnet-lib-connectionopen-connect-sql-server-does-not-exist-or-access-denied-e",
+    "code": "LFSERVER-AN_7030_7023_DBNET_LIB_CONNECTIONO",
+    "message": "An \"[7030.7023] [DBNET LIB][ConnectionOpen (Connect()).]SQL Server Does Not Exist or Access Denied.\" Error Occurs When Starting the LaserFIche for Microsoft SQL Server Service.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"[7030.7023] [DBNET LIB][ConnectionOpen (Connect()).]SQL Server Does Not Exist or Access Denied.\" Error Occurs When Starting the LaserFIche for Microsoft SQL Server Service. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"[7030.7023] [DBNET LIB][ConnectionOpen (Connect()).]SQL Server Does Not Exist or Access Denied.\" Error Occurs When Starting the LaserFIche for Microsoft SQL Server Service..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"[7030.7023] [DBNET LIB][ConnectionOpen (Connect()).]SQL Server Does Not Exist or Access Denied.\" Error Occurs When Starting the LaserFIche for Microsoft SQL Server Service.",
+        "url": "https://support.laserfiche.com/kb/1000600/an-7030-7023-dbnet-lib-connectionopen-connect-sql-server-does-not-exist-or-access-denied-error-occurs-when-starting-the-laserfiche-for-microsoft-sql-server-service-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013682-laserfiche-server-repository-server-lfserver-an-9004-file-input-output-error-er-an-9004-file-input-output-error-error-occurs-when-registering-a-laserfiche-9-repository",
+    "code": "LFSERVER-AN_9004_FILE_INPUT_OUTPUT_ERROR_ER",
+    "message": "An \"9004 - File input/output error.\" Error Occurs When Registering a Laserfiche 9 Repository.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"9004 - File input/output error.\" Error Occurs When Registering a Laserfiche 9 Repository. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"9004 - File input/output error.\" Error Occurs When Registering a Laserfiche 9 Repository..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"9004 - File input/output error.\" Error Occurs When Registering a Laserfiche 9 Repository.",
+        "url": "https://support.laserfiche.com/kb/1013682/an-9004-file-input-output-error-error-occurs-when-registering-a-laserfiche-9-repository-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000848-laserfiche-server-repository-server-lfserver-an-ado-error-occurred-error-occurs-an-ado-error-occurred-error-occurs-when-upgrading-a-laserfiche-repository",
+    "code": "LFSERVER-AN_ADO_ERROR_OCCURRED_ERROR_OCCURS",
+    "message": "An \"ADO Error Occurred.\" Error Occurs When Upgrading a Laserfiche Repository.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"ADO Error Occurred.\" Error Occurs When Upgrading a Laserfiche Repository. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"ADO Error Occurred.\" Error Occurs When Upgrading a Laserfiche Repository..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"ADO Error Occurred.\" Error Occurs When Upgrading a Laserfiche Repository.",
+        "url": "https://support.laserfiche.com/kb/1000848/an-ado-error-occurred-error-occurs-when-upgrading-a-laserfiche-repository-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012658-laserfiche-server-repository-server-lfserver-an-an-installation-package-for-the-an-an-installation-package-for-the-product-microsoft-sql-server-native-client-cannot-be-fo",
+    "code": "LFSERVER-AN_AN_INSTALLATION_PACKAGE_FOR_THE",
+    "message": "An \"An Installation package for the product Microsoft SQL Server Native Client cannot be found.\" Error Occurs When Installing SQL Server 2005 Express.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"An Installation package for the product Microsoft SQL Server Native Client cannot be found.\" Error Occurs When Installing SQL Server 2005 Express. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"An Installation package for the product Microsoft SQL Server Native Client cannot be found.\" Error Occurs When Installing SQL Server 2005 Express..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"An Installation package for the product Microsoft SQL Server Native Client cannot be found.\" Error Occurs When Installing SQL Server 2005 Express.",
+        "url": "https://support.laserfiche.com/kb/1012658/an-an-installation-package-for-the-product-microsoft-sql-server-native-client-cannot-be-found-error-occurs-when-installing-sql-server-2005-express-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000642-laserfiche-server-repository-server-lfserver-an-error-could-not-find-object-err-an-error-could-not-find-object-error-occurs-when-processing",
+    "code": "LFSERVER-AN_ERROR_COULD_NOT_FIND_OBJECT_ERR",
+    "message": "An \"Error: could not find object.\" Error Occurs When Processing.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error: could not find object.\" Error Occurs When Processing. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error: could not find object.\" Error Occurs When Processing..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error: could not find object.\" Error Occurs When Processing.",
+        "url": "https://support.laserfiche.com/kb/1000642/an-error-could-not-find-object-error-occurs-when-processing-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013377-laserfiche-server-repository-server-lfserver-an-error-logging-in-the-laserfiche-an-error-logging-in-the-laserfiche-client-was-unable-to-intercept-the-print-screen-hot-key",
+    "code": "LFSERVER-AN_ERROR_LOGGING_IN_THE_LASERFICHE",
+    "message": "An \"Error logging in. The Laserfiche client was unable to intercept the Print Screen hot key\" Error Occurs When You Log In With A Second Instance Of Laserfiche Client 9.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error logging in. The Laserfiche client was unable to intercept the Print Screen hot key\" Error Occurs When You Log In With A Second Instance Of Laserfiche Client 9. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error logging in. The Laserfiche client was unable to intercept the Print Screen hot key\" Error Occurs When You Log In With A Second Instance Of Laserfiche Client 9..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error logging in. The Laserfiche client was unable to intercept the Print Screen hot key\" Error Occurs When You Log In With A Second Instance Of Laserfiche Client 9.",
+        "url": "https://support.laserfiche.com/kb/1013377/an-error-logging-in-the-laserfiche-client-was-unable-to-intercept-the-print-screen-hot-key-error-occurs-when-you-log-in-with-a-second-instance-of-laserfiche-client-9-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011936-laserfiche-server-repository-server-lfserver-an-invalid-license-file-error-occu-an-invalid-license-file-error-occurs-when-trying-to-activate-laserfiche-plus",
+    "code": "LFSERVER-AN_INVALID_LICENSE_FILE_ERROR_OCCU",
+    "message": "An \"invalid license file\" Error Occurs When Trying to Activate Laserfiche Plus.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"invalid license file\" Error Occurs When Trying to Activate Laserfiche Plus. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"invalid license file\" Error Occurs When Trying to Activate Laserfiche Plus..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"invalid license file\" Error Occurs When Trying to Activate Laserfiche Plus.",
+        "url": "https://support.laserfiche.com/kb/1011936/an-invalid-license-file-error-occurs-when-trying-to-activate-laserfiche-plus-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014391-laserfiche-server-repository-server-lfserver-deprecation-of-basic-authenticatio-deprecation-of-basic-authentication-in-exchange-online",
+    "code": "LFSERVER-DEPRECATION_OF_BASIC_AUTHENTICATIO",
+    "message": "Deprecation of Basic authentication in Exchange Online",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Deprecation of Basic authentication in Exchange Online for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Deprecation of Basic authentication in Exchange Online.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Deprecation of Basic authentication in Exchange Online",
+        "url": "https://support.laserfiche.com/kb/1014391/deprecation-of-basic-authentication-in-exchange-online",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014516-laserfiche-server-repository-server-lfserver-error-there-is-a-problem-with-adob-error-there-is-a-problem-with-adobe-acrobat-reader-if-it-is-running-please-exit-and-try-ag",
+    "code": "LFSERVER-ERROR_THERE_IS_A_PROBLEM_WITH_ADOB",
+    "message": "Error - There is a problem with Adobe/Acrobat Reader. If it is running, please exit and try again. (523:523)",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Error - There is a problem with Adobe/Acrobat Reader. If it is running, please exit and try again. (523:523) for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Error - There is a problem with Adobe/Acrobat Reader. If it is running, please exit and try again. (523:523).",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Error - There is a problem with Adobe/Acrobat Reader. If it is running, please exit and try again. (523:523)",
+        "url": "https://support.laserfiche.com/kb/1014516/error-there-is-a-problem-with-adobe-acrobat-reader-if-it-is-running-please-exit-and-try-again-523-523-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014509-laserfiche-server-repository-server-lfserver-general-technical-support-checklis-general-technical-support-checklist-for-laserfiche-cloud",
+    "code": "LFSERVER-GENERAL_TECHNICAL_SUPPORT_CHECKLIS",
+    "message": "General Technical Support Checklist for Laserfiche Cloud",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports General Technical Support Checklist for Laserfiche Cloud for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: General Technical Support Checklist for Laserfiche Cloud.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "General Technical Support Checklist for Laserfiche Cloud",
+        "url": "https://support.laserfiche.com/kb/1014509/general-technical-support-checklist-for-laserfiche-cloud",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013987-laserfiche-server-repository-server-lfserver-general-technical-support-checklis-general-technical-support-checklist-for-laserfiche-10-and-higher",
+    "code": "LFSERVER-GENERAL_TECHNICAL_SUPPORT_CHECKLIS",
+    "message": "General Technical Support Checklist for Laserfiche 10 and Higher",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports General Technical Support Checklist for Laserfiche 10 and Higher for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: General Technical Support Checklist for Laserfiche 10 and Higher.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "General Technical Support Checklist for Laserfiche 10 and Higher",
+        "url": "https://support.laserfiche.com/kb/1013987/general-technical-support-checklist-for-laserfiche-10-and-higher",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013034-laserfiche-server-repository-server-lfserver-laserfiche-cannot-generate-page-im-laserfiche-cannot-generate-page-images-for-dynamic-xfa-form-pdf-files",
+    "code": "LFSERVER-LASERFICHE_CANNOT_GENERATE_PAGE_IM",
+    "message": "Laserfiche Cannot Generate Page Images For Dynamic XFA Form PDF Files.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Laserfiche Cannot Generate Page Images For Dynamic XFA Form PDF Files. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Laserfiche Cannot Generate Page Images For Dynamic XFA Form PDF Files..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Laserfiche Cannot Generate Page Images For Dynamic XFA Form PDF Files.",
+        "url": "https://support.laserfiche.com/kb/1013034/laserfiche-cannot-generate-page-images-for-dynamic-xfa-form-pdf-files-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014520-laserfiche-server-repository-server-lfserver-laserfiche-cloud-remote-agents-wit-laserfiche-cloud-remote-agents-with-version-numbers-before-11-7-2405-42009-will-not-be-abl",
+    "code": "LFSERVER-LASERFICHE_CLOUD_REMOTE_AGENTS_WIT",
+    "message": "Laserfiche Cloud Remote Agents with version numbers before 11.7.2405.42009 Will Not Be Able to Connect to Laserfiche Cloud After August 28, 2024.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Laserfiche Cloud Remote Agents with version numbers before 11.7.2405.42009 Will Not Be Able to Connect to Laserfiche Cloud After August 28, 2024. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Laserfiche Cloud Remote Agents with version numbers before 11.7.2405.42009 Will Not Be Able to Connect to Laserfiche Cloud After August 28, 2024..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Laserfiche Cloud Remote Agents with version numbers before 11.7.2405.42009 Will Not Be Able to Connect to Laserfiche Cloud After August 28, 2024.",
+        "url": "https://support.laserfiche.com/kb/1014520/laserfiche-cloud-remote-agents-with-version-numbers-before-11-7-2405-42009-will-not-be-able-to-connect-to-laserfiche-cloud-after-august-28-2024-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012785-laserfiche-server-repository-server-lfserver-laserfiche-localization-release-in-laserfiche-localization-release-information",
+    "code": "LFSERVER-LASERFICHE_LOCALIZATION_RELEASE_IN",
+    "message": "Laserfiche Localization Release Information",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Laserfiche Localization Release Information for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Laserfiche Localization Release Information.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Laserfiche Localization Release Information",
+        "url": "https://support.laserfiche.com/kb/1012785/laserfiche-localization-release-information",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012888-laserfiche-server-repository-server-lfserver-laserfiche-solution-provider-demo-laserfiche-solution-provider-demo-limitations",
+    "code": "LFSERVER-LASERFICHE_SOLUTION_PROVIDER_DEMO_",
+    "message": "Laserfiche Solution Provider Demo Limitations.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Laserfiche Solution Provider Demo Limitations. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Laserfiche Solution Provider Demo Limitations..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Laserfiche Solution Provider Demo Limitations.",
+        "url": "https://support.laserfiche.com/kb/1012888/laserfiche-solution-provider-demo-limitations-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000782-laserfiche-server-repository-server-lfserver-laserfiche-supported-scanners-laserfiche-supported-scanners",
+    "code": "LFSERVER-LASERFICHE_SUPPORTED_SCANNERS",
+    "message": "Laserfiche Supported Scanners.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Laserfiche Supported Scanners. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Laserfiche Supported Scanners..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Laserfiche Supported Scanners.",
+        "url": "https://support.laserfiche.com/kb/1000782/laserfiche-supported-scanners-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013493-laserfiche-server-repository-server-lfserver-license-manager-reports-there-was-license-manager-reports-there-was-a-sql-error-in-the-application-event-log",
+    "code": "LFSERVER-LICENSE_MANAGER_REPORTS_THERE_WAS_",
+    "message": "License Manager Reports \"There was a SQL error.\" in the Application Event Log",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports License Manager Reports \"There was a SQL error.\" in the Application Event Log for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: License Manager Reports \"There was a SQL error.\" in the Application Event Log.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "License Manager Reports \"There was a SQL error.\" in the Application Event Log",
+        "url": "https://support.laserfiche.com/kb/1013493/license-manager-reports-there-was-a-sql-error-in-the-application-event-log",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013996-laserfiche-server-repository-server-lfserver-list-of-changes-for-laserfiche-10-list-of-changes-for-laserfiche-10-3-1-update-2",
+    "code": "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_10_",
+    "message": "List of Changes for Laserfiche 10.3.1 Update 2",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche 10.3.1 Update 2 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche 10.3.1 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche 10.3.1 Update 2",
+        "url": "https://support.laserfiche.com/kb/1013996/list-of-changes-for-laserfiche-10-3-1-update-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014086-laserfiche-server-repository-server-lfserver-list-of-changes-for-laserfiche-10-list-of-changes-for-laserfiche-10-4-2",
+    "code": "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_10_",
+    "message": "List of Changes for Laserfiche 10.4.2.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche 10.4.2. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche 10.4.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche 10.4.2.",
+        "url": "https://support.laserfiche.com/kb/1014086/list-of-changes-for-laserfiche-10-4-2-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013909-laserfiche-server-repository-server-lfserver-list-of-changes-for-laserfiche-10-list-of-changes-for-laserfiche-10-3",
+    "code": "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_10_",
+    "message": "List of Changes for Laserfiche 10.3",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche 10.3 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche 10.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche 10.3",
+        "url": "https://support.laserfiche.com/kb/1013909/list-of-changes-for-laserfiche-10-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014268-laserfiche-server-repository-server-lfserver-list-of-changes-for-laserfiche-11-list-of-changes-for-laserfiche-11",
+    "code": "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_11",
+    "message": "List of Changes for Laserfiche 11",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche 11 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche 11",
+        "url": "https://support.laserfiche.com/kb/1014268/list-of-changes-for-laserfiche-11",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014568-laserfiche-server-repository-server-lfserver-list-of-changes-for-laserfiche-ser-list-of-changes-for-laserfiche-server-11-update-3",
+    "code": "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_SER",
+    "message": "List of Changes for Laserfiche Server 11 Update 3",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Server 11 Update 3 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Server 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Server 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014568/list-of-changes-for-laserfiche-server-11-update-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014418-laserfiche-server-repository-server-lfserver-list-of-changes-for-laserfiche-win-list-of-changes-for-laserfiche-windows-client-11-update-3",
+    "code": "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_WIN",
+    "message": "List of Changes for Laserfiche Windows Client 11 Update 3",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Windows Client 11 Update 3 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Windows Client 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Windows Client 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014418/list-of-changes-for-laserfiche-windows-client-11-update-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012334-laserfiche-server-repository-server-lfserver-list-of-changes-for-license-manage-list-of-changes-for-license-manager-8-1",
+    "code": "LFSERVER-LIST_OF_CHANGES_FOR_LICENSE_MANAGE",
+    "message": "List of Changes for License Manager 8.1.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for License Manager 8.1. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for License Manager 8.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for License Manager 8.1.",
+        "url": "https://support.laserfiche.com/kb/1012334/list-of-changes-for-license-manager-8-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014273-laserfiche-server-repository-server-lfserver-release-information-for-laserfiche-release-information-for-laserfiche-11",
+    "code": "LFSERVER-RELEASE_INFORMATION_FOR_LASERFICHE",
+    "message": "Release Information for Laserfiche 11",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Information for Laserfiche 11 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Information for Laserfiche 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Information for Laserfiche 11",
+        "url": "https://support.laserfiche.com/kb/1014273/release-information-for-laserfiche-11",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013819-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-10-2-release-notes-for-laserfiche-10-2",
+    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_2",
+    "message": "Release Notes for Laserfiche 10.2",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche 10.2 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.2",
+        "url": "https://support.laserfiche.com/kb/1013819/release-notes-for-laserfiche-10-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013908-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-10-3-release-notes-for-laserfiche-10-3",
+    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_3",
+    "message": "Release Notes for Laserfiche 10.3",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche 10.3 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.3",
+        "url": "https://support.laserfiche.com/kb/1013908/release-notes-for-laserfiche-10-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013948-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-10-3-release-notes-for-laserfiche-10-3-1",
+    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_3_",
+    "message": "Release Notes for Laserfiche 10.3.1",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche 10.3.1 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10.3.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.3.1",
+        "url": "https://support.laserfiche.com/kb/1013948/release-notes-for-laserfiche-10-3-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014026-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-10-4-release-notes-for-laserfiche-10-4",
+    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_4",
+    "message": "Release Notes for Laserfiche 10.4",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche 10.4 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.4",
+        "url": "https://support.laserfiche.com/kb/1014026/release-notes-for-laserfiche-10-4",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014082-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-10-4-release-notes-for-laserfiche-10-4-2",
+    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_4_",
+    "message": "Release Notes for Laserfiche 10.4.2",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche 10.4.2 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10.4.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.4.2",
+        "url": "https://support.laserfiche.com/kb/1014082/release-notes-for-laserfiche-10-4-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014049-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-10-4-release-notes-for-laserfiche-10-4-1",
+    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_4_",
+    "message": "Release Notes for Laserfiche 10.4.1",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche 10.4.1 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 10.4.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 10.4.1",
+        "url": "https://support.laserfiche.com/kb/1014049/release-notes-for-laserfiche-10-4-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014267-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-11-release-notes-for-laserfiche-11",
+    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_11",
+    "message": "Release Notes for Laserfiche 11",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche 11 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche 11",
+        "url": "https://support.laserfiche.com/kb/1014267/release-notes-for-laserfiche-11",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014107-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-cloud-release-notes-for-laserfiche-cloud-2020-1",
+    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_CLOUD",
+    "message": "Release Notes for Laserfiche Cloud 2020.1",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Cloud 2020.1 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Cloud 2020.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Cloud 2020.1",
+        "url": "https://support.laserfiche.com/kb/1014107/release-notes-for-laserfiche-cloud-2020-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014182-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-cloud-release-notes-for-laserfiche-cloud-2020-3",
+    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_CLOUD",
+    "message": "Release Notes for Laserfiche Cloud 2020.3",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Cloud 2020.3 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Cloud 2020.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Cloud 2020.3",
+        "url": "https://support.laserfiche.com/kb/1014182/release-notes-for-laserfiche-cloud-2020-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014198-laserfiche-server-repository-server-lfserver-release-notes-for-laserfiche-serve-release-notes-for-laserfiche-server-10-4-3",
+    "code": "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_SERVE",
+    "message": "Release Notes for Laserfiche Server 10.4.3",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Server 10.4.3 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Server 10.4.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Server 10.4.3",
+        "url": "https://support.laserfiche.com/kb/1014198/release-notes-for-laserfiche-server-10-4-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-100141-laserfiche-server-repository-server-lfserver-sql-informational-and-error-messag-sql-informational-and-error-messages-are-not-logged",
+    "code": "LFSERVER-SQL_INFORMATIONAL_AND_ERROR_MESSAG",
+    "message": "SQL Informational and Error Messages are Not Logged.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports SQL Informational and Error Messages are Not Logged. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: SQL Informational and Error Messages are Not Logged..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "SQL Informational and Error Messages are Not Logged.",
+        "url": "https://support.laserfiche.com/kb/100141/sql-informational-and-error-messages-are-not-logged-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012582-laserfiche-server-repository-server-lfserver-the-laserfiche-server-8-may-fail-t-the-laserfiche-server-8-may-fail-to-start-due-to-a-wmi-provider-module-registration-failed",
+    "code": "LFSERVER-THE_LASERFICHE_SERVER_8_MAY_FAIL_T",
+    "message": "The Laserfiche Server 8 May Fail to Start Due to a \"WMI provider module registration failed\" Error (Error Code -2147217390).",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports The Laserfiche Server 8 May Fail to Start Due to a \"WMI provider module registration failed\" Error (Error Code -2147217390). for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: The Laserfiche Server 8 May Fail to Start Due to a \"WMI provider module registration failed\" Error (Error Code -2147217390)..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "The Laserfiche Server 8 May Fail to Start Due to a \"WMI provider module registration failed\" Error (Error Code -2147217390).",
+        "url": "https://support.laserfiche.com/kb/1012582/the-laserfiche-server-8-may-fail-to-start-due-to-a-wmi-provider-module-registration-failed-error-error-code-2147217390-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014503-laserfiche-server-repository-server-lfserver-understanding-a-laserfiche-reposit-understanding-a-laserfiche-repository-consistency-check-report",
+    "code": "LFSERVER-UNDERSTANDING_A_LASERFICHE_REPOSIT",
+    "message": "Understanding a Laserfiche Repository Consistency Check Report",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Understanding a Laserfiche Repository Consistency Check Report for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Understanding a Laserfiche Repository Consistency Check Report.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Understanding a Laserfiche Repository Consistency Check Report",
+        "url": "https://support.laserfiche.com/kb/1014503/understanding-a-laserfiche-repository-consistency-check-report",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014164-laserfiche-server-repository-server-lfserver-when-using-distributed-computing-c-when-using-distributed-computing-cluster-you-may-receive-the-following-error-message-licen",
+    "code": "LFSERVER-WHEN_USING_DISTRIBUTED_COMPUTING_C",
+    "message": "When Using Distributed Computing Cluster, You May Receive the Following Error Message: \"License error: 'Validation Error code: 'ConnectionFailed'.\"",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports When Using Distributed Computing Cluster, You May Receive the Following Error Message: \"License error: 'Validation Error code: 'ConnectionFailed'.\" for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: When Using Distributed Computing Cluster, You May Receive the Following Error Message: \"License error: 'Validation Error code: 'ConnectionFailed'.\".",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "When Using Distributed Computing Cluster, You May Receive the Following Error Message: \"License error: 'Validation Error code: 'ConnectionFailed'.\"",
+        "url": "https://support.laserfiche.com/kb/1014164/when-using-distributed-computing-cluster-you-may-receive-the-following-error-message-license-error-validation-error-code-connectionfailed-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014534-laserfiche-server-repository-server-lfserver-you-are-redirected-back-to-the-sig-you-are-redirected-back-to-the-sign-in-page-when-attempting-to-sign-in-with-a-username-and",
+    "code": "LFSERVER-YOU_ARE_REDIRECTED_BACK_TO_THE_SIG",
+    "message": "You are Redirected Back to the Sign-in Page When Attempting to Sign In With a Username and Password in Firefox version 127",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports You are Redirected Back to the Sign-in Page When Attempting to Sign In With a Username and Password in Firefox version 127 for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: You are Redirected Back to the Sign-in Page When Attempting to Sign In With a Username and Password in Firefox version 127.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "You are Redirected Back to the Sign-in Page When Attempting to Sign In With a Username and Password in Firefox version 127",
+        "url": "https://support.laserfiche.com/kb/1014534/you-are-redirected-back-to-the-sign-in-page-when-attempting-to-sign-in-with-a-username-and-password-in-firefox-version-127",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014058-laserfiche-server-repository-server-lfserver-you-receive-a-failed-to-login-erro-you-receive-a-failed-to-login-error-message-when-find-entries-activity-runs-in-laserfiche-",
+    "code": "LFSERVER-YOU_RECEIVE_A_FAILED_TO_LOGIN_ERRO",
+    "message": "You receive a \"Failed to Login\" error message when Find Entries activity runs in Laserfiche Cloud.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports You receive a \"Failed to Login\" error message when Find Entries activity runs in Laserfiche Cloud. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: You receive a \"Failed to Login\" error message when Find Entries activity runs in Laserfiche Cloud..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "You receive a \"Failed to Login\" error message when Find Entries activity runs in Laserfiche Cloud.",
+        "url": "https://support.laserfiche.com/kb/1014058/you-receive-a-failed-to-login-error-message-when-find-entries-activity-runs-in-laserfiche-cloud-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012823-mobile-500-an-error-500-internal-server-error-error-message-displays-when-logging-in-with-the-laserfi",
+    "code": "500",
+    "message": "An \"Error 500 - internal server error\" Error Message Displays When Logging In With The Laserfiche Mobile iPhone App.",
+    "product": "Mobile",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error 500 - internal server error\" Error Message Displays When Logging In With The Laserfiche Mobile iPhone App. for Mobile. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error 500 - internal server error\" Error Message Displays When Logging In With The Laserfiche Mobile iPhone App..",
+      "Reported code or token: 500."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error 500 - internal server error\" Error Message Displays When Logging In With The Laserfiche Mobile iPhone App.",
+        "url": "https://support.laserfiche.com/kb/1012823/an-error-500-internal-server-error-error-message-displays-when-logging-in-with-the-laserfiche-mobile-iphone-app-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014225-mobile-mobile-list-of-changes-for-the-august-202-list-of-changes-for-the-august-2020-laserfiche-app",
+    "code": "MOBILE-LIST_OF_CHANGES_FOR_THE_AUGUST_202",
+    "message": "List of Changes for the August 2020 Laserfiche App",
+    "product": "Mobile",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the August 2020 Laserfiche App for Mobile. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for the August 2020 Laserfiche App.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for the August 2020 Laserfiche App",
+        "url": "https://support.laserfiche.com/kb/1014225/list-of-changes-for-the-august-2020-laserfiche-app",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014425-mobile-mobile-list-of-changes-for-the-february-1-list-of-changes-for-the-february-15-2023-laserfiche-ios-and-android-app",
+    "code": "MOBILE-LIST_OF_CHANGES_FOR_THE_FEBRUARY_1",
+    "message": "List of Changes for the February 15, 2023 Laserfiche iOS and Android App",
+    "product": "Mobile",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the February 15, 2023 Laserfiche iOS and Android App for Mobile. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for the February 15, 2023 Laserfiche iOS and Android App.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for the February 15, 2023 Laserfiche iOS and Android App",
+        "url": "https://support.laserfiche.com/kb/1014425/list-of-changes-for-the-february-15-2023-laserfiche-ios-and-android-app",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014555-mobile-mobile-list-of-changes-for-the-january-31-list-of-changes-for-the-january-31-2025-laserfiche-app",
+    "code": "MOBILE-LIST_OF_CHANGES_FOR_THE_JANUARY_31",
+    "message": "List of Changes for the January 31, 2025 Laserfiche App",
+    "product": "Mobile",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the January 31, 2025 Laserfiche App for Mobile. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for the January 31, 2025 Laserfiche App.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for the January 31, 2025 Laserfiche App",
+        "url": "https://support.laserfiche.com/kb/1014555/list-of-changes-for-the-january-31-2025-laserfiche-app",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014494-mobile-mobile-list-of-changes-for-the-november-3-list-of-changes-for-the-november-3-2023-laserfiche-windows-and-android-app",
+    "code": "MOBILE-LIST_OF_CHANGES_FOR_THE_NOVEMBER_3",
+    "message": "List of Changes for the November 3, 2023 Laserfiche Windows and Android App",
+    "product": "Mobile",
+    "versions": [
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the November 3, 2023 Laserfiche Windows and Android App for Mobile. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for the November 3, 2023 Laserfiche Windows and Android App.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for the November 3, 2023 Laserfiche Windows and Android App",
+        "url": "https://support.laserfiche.com/kb/1014494/list-of-changes-for-the-november-3-2023-laserfiche-windows-and-android-app",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014541-mobile-mobile-list-of-changes-for-the-september-list-of-changes-for-the-september-6-2024-laserfiche-app",
+    "code": "MOBILE-LIST_OF_CHANGES_FOR_THE_SEPTEMBER_",
+    "message": "List of Changes for the September 6, 2024 Laserfiche App",
+    "product": "Mobile",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for the September 6, 2024 Laserfiche App for Mobile. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for the September 6, 2024 Laserfiche App.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for the September 6, 2024 Laserfiche App",
+        "url": "https://support.laserfiche.com/kb/1014541/list-of-changes-for-the-september-6-2024-laserfiche-app",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014488-office-integration-office-laserfiche-office-integration-11-laserfiche-office-integration-11",
+    "code": "OFFICE-LASERFICHE_OFFICE_INTEGRATION_11",
+    "message": "Laserfiche Office Integration 11",
+    "product": "Office Integration",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Laserfiche Office Integration 11 for Office Integration. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Laserfiche Office Integration 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Laserfiche Office Integration 11",
+        "url": "https://support.laserfiche.com/kb/1014488/laserfiche-office-integration-11",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014452-office-integration-office-list-of-changes-for-laserfiche-off-list-of-changes-for-laserfiche-office-integration-11-may-2023-update",
+    "code": "OFFICE-LIST_OF_CHANGES_FOR_LASERFICHE_OFF",
+    "message": "List of Changes for Laserfiche Office Integration 11 May 2023 Update",
+    "product": "Office Integration",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Office Integration 11 May 2023 Update for Office Integration. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Office Integration 11 May 2023 Update.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Office Integration 11 May 2023 Update",
+        "url": "https://support.laserfiche.com/kb/1014452/list-of-changes-for-laserfiche-office-integration-11-may-2023-update",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014224-office-integration-office-when-launching-the-laserfiche-offi-when-launching-the-laserfiche-office-integration-you-may-receive-the-following-error-messa",
+    "code": "OFFICE-WHEN_LAUNCHING_THE_LASERFICHE_OFFI",
+    "message": "When Launching the Laserfiche Office Integration, You May Receive the Following Error Message: \"Not loaded. A runtime error occurred during the loading of the COM Add-in.\"",
+    "product": "Office Integration",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports When Launching the Laserfiche Office Integration, You May Receive the Following Error Message: \"Not loaded. A runtime error occurred during the loading of the COM Add-in.\" for Office Integration. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: When Launching the Laserfiche Office Integration, You May Receive the Following Error Message: \"Not loaded. A runtime error occurred during the loading of the COM Add-in.\".",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "When Launching the Laserfiche Office Integration, You May Receive the Following Error Message: \"Not loaded. A runtime error occurred during the loading of the COM Add-in.\"",
+        "url": "https://support.laserfiche.com/kb/1014224/when-launching-the-laserfiche-office-integration-you-may-receive-the-following-error-message-not-loaded-a-runtime-error-occurred-during-the-loading-of-the-com-add-in-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011165-quick-fields-5006-an-error-5006-0x8007005-error-occurs-when-installing-or-uninstalling-quick-fields",
+    "code": "5006",
+    "message": "An \"Error 5006 (0x8007005)\" Error Occurs When Installing or Uninstalling Quick Fields.",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error 5006 (0x8007005)\" Error Occurs When Installing or Uninstalling Quick Fields. for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error 5006 (0x8007005)\" Error Occurs When Installing or Uninstalling Quick Fields..",
+      "Reported code or token: 5006."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error 5006 (0x8007005)\" Error Occurs When Installing or Uninstalling Quick Fields.",
+        "url": "https://support.laserfiche.com/kb/1011165/an-error-5006-0x8007005-error-occurs-when-installing-or-uninstalling-quick-fields-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012794-quick-fields-42000-an-error-42000-microsoft-odbc-text-driver-syntax-error-in-from-clause-error-occurs-on-a-qu",
+    "code": "42000",
+    "message": "An \"ERROR [42000] [Microsoft][ODBC Text Driver] Syntax error in FROM clause.\" Error Occurs On A Quick Fields 8 Real-Time Lookup Process.",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"ERROR [42000] [Microsoft][ODBC Text Driver] Syntax error in FROM clause.\" Error Occurs On A Quick Fields 8 Real-Time Lookup Process. for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"ERROR [42000] [Microsoft][ODBC Text Driver] Syntax error in FROM clause.\" Error Occurs On A Quick Fields 8 Real-Time Lookup Process..",
+      "Reported code or token: 42000."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"ERROR [42000] [Microsoft][ODBC Text Driver] Syntax error in FROM clause.\" Error Occurs On A Quick Fields 8 Real-Time Lookup Process.",
+        "url": "https://support.laserfiche.com/kb/1012794/an-error-42000-microsoft-odbc-text-driver-syntax-error-in-from-clause-error-occurs-on-a-quick-fields-8-real-time-lookup-process-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014204-quick-fields-lfso103-list-of-changes-for-quick-fields-10-3-hotfix-1014204",
+    "code": "LFSO103",
+    "message": "List of Changes for Quick Fields 10.3 Hotfix 1014204",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 9",
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Quick Fields 10.3 Hotfix 1014204 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Quick Fields 10.3 Hotfix 1014204.",
+      "Reported code or token: LFSO103."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Quick Fields 10.3 Hotfix 1014204",
+        "url": "https://support.laserfiche.com/kb/1014204/list-of-changes-for-quick-fields-10-3-hotfix-1014204",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012812-quick-fields-qf-an-invalid-license-error-occurs-wh-an-invalid-license-error-occurs-when-loading-quick-fields-8-if-you-previously-activated-qu",
+    "code": "QF-AN_INVALID_LICENSE_ERROR_OCCURS_WH",
+    "message": "An \"Invalid license\" Error Occurs When Loading Quick Fields 8 If You Previously Activated Quick Fields With Microsoft Windows Set To Display A Different Language.",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Invalid license\" Error Occurs When Loading Quick Fields 8 If You Previously Activated Quick Fields With Microsoft Windows Set To Display A Different Language. for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Invalid license\" Error Occurs When Loading Quick Fields 8 If You Previously Activated Quick Fields With Microsoft Windows Set To Display A Different Language..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Invalid license\" Error Occurs When Loading Quick Fields 8 If You Previously Activated Quick Fields With Microsoft Windows Set To Display A Different Language.",
+        "url": "https://support.laserfiche.com/kb/1012812/an-invalid-license-error-occurs-when-loading-quick-fields-8-if-you-previously-activated-quick-fields-with-microsoft-windows-set-to-display-a-different-language-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013781-quick-fields-qf-an-ip2-unhandled-exception-in-cdib-an-ip2-unhandled-exception-in-cdibfilterimpl-runex-error-occurs-when-using-barcode-9-1-in-",
+    "code": "QF-AN_IP2_UNHANDLED_EXCEPTION_IN_CDIB",
+    "message": "An \"IP2: Unhandled Exception in CDIBFilterImpl::RunEx\" error occurs when using Barcode 9.1 in Quick Fields on Windows 10",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 9",
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"IP2: Unhandled Exception in CDIBFilterImpl::RunEx\" error occurs when using Barcode 9.1 in Quick Fields on Windows 10 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"IP2: Unhandled Exception in CDIBFilterImpl::RunEx\" error occurs when using Barcode 9.1 in Quick Fields on Windows 10.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"IP2: Unhandled Exception in CDIBFilterImpl::RunEx\" error occurs when using Barcode 9.1 in Quick Fields on Windows 10",
+        "url": "https://support.laserfiche.com/kb/1013781/an-ip2-unhandled-exception-in-cdibfilterimpl-runex-error-occurs-when-using-barcode-9-1-in-quick-fields-on-windows-10",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014387-quick-fields-qf-issue-configuring-real-time-lookup-issue-configuring-real-time-lookup-when-using-a-sql-connection-string",
+    "code": "QF-ISSUE_CONFIGURING_REAL_TIME_LOOKUP",
+    "message": "Issue configuring Real Time Lookup when using a SQL connection string",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Issue configuring Real Time Lookup when using a SQL connection string for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Issue configuring Real Time Lookup when using a SQL connection string.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Issue configuring Real Time Lookup when using a SQL connection string",
+        "url": "https://support.laserfiche.com/kb/1014387/issue-configuring-real-time-lookup-when-using-a-sql-connection-string",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013824-quick-fields-qf-list-of-changes-for-quick-fields-1-list-of-changes-for-quick-fields-10-1",
+    "code": "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1",
+    "message": "List of Changes for Quick Fields 10.1",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Quick Fields 10.1 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Quick Fields 10.1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Quick Fields 10.1",
+        "url": "https://support.laserfiche.com/kb/1013824/list-of-changes-for-quick-fields-10-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013788-quick-fields-qf-list-of-changes-for-quick-fields-1-list-of-changes-for-quick-fields-10-update-1",
+    "code": "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1",
+    "message": "List of Changes for Quick Fields 10 Update 1",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Quick Fields 10 Update 1 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Quick Fields 10 Update 1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Quick Fields 10 Update 1",
+        "url": "https://support.laserfiche.com/kb/1013788/list-of-changes-for-quick-fields-10-update-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014105-quick-fields-qf-list-of-changes-for-quick-fields-1-list-of-changes-for-quick-fields-10-3-hotfix-1014105",
+    "code": "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1",
+    "message": "List of Changes for Quick Fields 10.3 Hotfix 1014105",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Quick Fields 10.3 Hotfix 1014105 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Quick Fields 10.3 Hotfix 1014105.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Quick Fields 10.3 Hotfix 1014105",
+        "url": "https://support.laserfiche.com/kb/1014105/list-of-changes-for-quick-fields-10-3-hotfix-1014105",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013952-quick-fields-qf-list-of-changes-for-quick-fields-1-list-of-changes-for-quick-fields-10-3-hotfix-1013952",
+    "code": "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1",
+    "message": "List of Changes for Quick Fields 10.3 Hotfix 1013952",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Quick Fields 10.3 Hotfix 1013952 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Quick Fields 10.3 Hotfix 1013952.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Quick Fields 10.3 Hotfix 1013952",
+        "url": "https://support.laserfiche.com/kb/1013952/list-of-changes-for-quick-fields-10-3-hotfix-1013952",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013873-quick-fields-qf-list-of-changes-for-quick-fields-1-list-of-changes-for-quick-fields-10-1-hotfix-1013873",
+    "code": "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1",
+    "message": "List of Changes for Quick Fields 10.1 Hotfix 1013873",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Quick Fields 10.1 Hotfix 1013873 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Quick Fields 10.1 Hotfix 1013873.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Quick Fields 10.1 Hotfix 1013873",
+        "url": "https://support.laserfiche.com/kb/1013873/list-of-changes-for-quick-fields-10-1-hotfix-1013873",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014141-quick-fields-qf-list-of-changes-for-quick-fields-1-list-of-changes-for-quick-fields-10-3-hotfix-1014141",
+    "code": "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1",
+    "message": "List of Changes for Quick Fields 10.3 Hotfix 1014141",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Quick Fields 10.3 Hotfix 1014141 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Quick Fields 10.3 Hotfix 1014141.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Quick Fields 10.3 Hotfix 1014141",
+        "url": "https://support.laserfiche.com/kb/1014141/list-of-changes-for-quick-fields-10-3-hotfix-1014141",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013993-quick-fields-qf-quick-fields-technical-support-che-quick-fields-technical-support-checklist",
+    "code": "QF-QUICK_FIELDS_TECHNICAL_SUPPORT_CHE",
+    "message": "Quick Fields Technical Support Checklist.",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Quick Fields Technical Support Checklist. for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Quick Fields Technical Support Checklist..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Quick Fields Technical Support Checklist.",
+        "url": "https://support.laserfiche.com/kb/1013993/quick-fields-technical-support-checklist-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014432-quick-fields-qf-release-and-hotfix-information-for-release-and-hotfix-information-for-laserfiche-quick-fields-11",
+    "code": "QF-RELEASE_AND_HOTFIX_INFORMATION_FOR",
+    "message": "Release and Hotfix Information for Laserfiche Quick Fields 11",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release and Hotfix Information for Laserfiche Quick Fields 11 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release and Hotfix Information for Laserfiche Quick Fields 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release and Hotfix Information for Laserfiche Quick Fields 11",
+        "url": "https://support.laserfiche.com/kb/1014432/release-and-hotfix-information-for-laserfiche-quick-fields-11",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013756-quick-fields-qf-release-notes-for-quick-fields-10-release-notes-for-quick-fields-10",
+    "code": "QF-RELEASE_NOTES_FOR_QUICK_FIELDS_10",
+    "message": "Release Notes for Quick Fields 10",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Quick Fields 10 for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Quick Fields 10.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Quick Fields 10",
+        "url": "https://support.laserfiche.com/kb/1013756/release-notes-for-quick-fields-10",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014519-quick-fields-qf-users-may-see-an-unspecified-error-users-may-see-an-unspecified-error-message-when-storing-documents-from-quick-fields-to-a-l",
+    "code": "QF-USERS_MAY_SEE_AN_UNSPECIFIED_ERROR",
+    "message": "Users may see an \"Unspecified error\" message when storing documents from Quick Fields to a Laserfiche Cloud Repository",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Users may see an \"Unspecified error\" message when storing documents from Quick Fields to a Laserfiche Cloud Repository for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Users may see an \"Unspecified error\" message when storing documents from Quick Fields to a Laserfiche Cloud Repository.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Users may see an \"Unspecified error\" message when storing documents from Quick Fields to a Laserfiche Cloud Repository",
+        "url": "https://support.laserfiche.com/kb/1014519/users-may-see-an-unspecified-error-message-when-storing-documents-from-quick-fields-to-a-laserfiche-cloud-repository",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014112-quick-fields-qf-while-updating-an-existing-record-while-updating-an-existing-record-in-microsoft-access-database-via-laserfiche-workflow-qui",
+    "code": "QF-WHILE_UPDATING_AN_EXISTING_RECORD_",
+    "message": "While Updating an Existing Record in Microsoft Access database via Laserfiche Workflow, Quick Fields or Laserfiche Forms, You May Get the Following Error: \"Query 'query name' is co",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports While Updating an Existing Record in Microsoft Access database via Laserfiche Workflow, Quick Fields or Laserfiche Forms, You May Get the Following Error: \"Query 'query name' is co for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: While Updating an Existing Record in Microsoft Access database via Laserfiche Workflow, Quick Fields or Laserfiche Forms, You May Get the Following Error: \"Query 'query name' is co.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "While Updating an Existing Record in Microsoft Access database via Laserfiche Workflow, Quick Fields or Laserfiche Forms, You May Get the Following Error: \"Query 'query name' is co",
+        "url": "https://support.laserfiche.com/kb/1014112/while-updating-an-existing-record-in-microsoft-access-database-via-laserfiche-workflow-quick-fields-or-laserfiche-forms-you-may-get-the-following-error-query-query-name-is-corrupt-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011822-snapshot-1805-an-error-in-function-daddportmonitor-error-code-1805-error-occurs-when-installing-snapshot",
+    "code": "1805",
+    "message": "An \"Error in function: dAddPortMonitor, Error code: 1805.\" Error Occurs When Installing Snapshot on a 64-bit Edition of Windows.",
+    "product": "Snapshot",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error in function: dAddPortMonitor, Error code: 1805.\" Error Occurs When Installing Snapshot on a 64-bit Edition of Windows. for Snapshot. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error in function: dAddPortMonitor, Error code: 1805.\" Error Occurs When Installing Snapshot on a 64-bit Edition of Windows..",
+      "Reported code or token: 1805."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error in function: dAddPortMonitor, Error code: 1805.\" Error Occurs When Installing Snapshot on a 64-bit Edition of Windows.",
+        "url": "https://support.laserfiche.com/kb/1011822/an-error-in-function-daddportmonitor-error-code-1805-error-occurs-when-installing-snapshot-on-a-64-bit-edition-of-windows-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012965-snapshot-snapshot-an-error-in-function-daddportmonit-an-error-in-function-daddportmonitor-error-code-5-error-occurs-when-installing-snapshot-8",
+    "code": "SNAPSHOT-AN_ERROR_IN_FUNCTION_DADDPORTMONIT",
+    "message": "An \"Error in function: dAddPortMonitor, Error code: 5\" Error Occurs When Installing Snapshot 8.",
+    "product": "Snapshot",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error in function: dAddPortMonitor, Error code: 5\" Error Occurs When Installing Snapshot 8. for Snapshot. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error in function: dAddPortMonitor, Error code: 5\" Error Occurs When Installing Snapshot 8..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error in function: dAddPortMonitor, Error code: 5\" Error Occurs When Installing Snapshot 8.",
+        "url": "https://support.laserfiche.com/kb/1012965/an-error-in-function-daddportmonitor-error-code-5-error-occurs-when-installing-snapshot-8-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012246-snapshot-snapshot-an-ole-error-error-occurs-when-sta-an-ole-error-error-occurs-when-starting-snapshot-8-1",
+    "code": "SNAPSHOT-AN_OLE_ERROR_ERROR_OCCURS_WHEN_STA",
+    "message": "An \"OLE Error.\" Error Occurs When Starting Snapshot 8.1.",
+    "product": "Snapshot",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"OLE Error.\" Error Occurs When Starting Snapshot 8.1. for Snapshot. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"OLE Error.\" Error Occurs When Starting Snapshot 8.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"OLE Error.\" Error Occurs When Starting Snapshot 8.1.",
+        "url": "https://support.laserfiche.com/kb/1012246/an-ole-error-error-occurs-when-starting-snapshot-8-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1010999-snapshot-snapshot-configuring-security-for-laserfich-configuring-security-for-laserfiche-snapshot",
+    "code": "SNAPSHOT-CONFIGURING_SECURITY_FOR_LASERFICH",
+    "message": "Configuring Security for Laserfiche Snapshot",
+    "product": "Snapshot",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Configuring Security for Laserfiche Snapshot for Snapshot. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Configuring Security for Laserfiche Snapshot.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Configuring Security for Laserfiche Snapshot",
+        "url": "https://support.laserfiche.com/kb/1010999/configuring-security-for-laserfiche-snapshot",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014383-snapshot-snapshot-documents-printed-to-laserfiche-sn-documents-printed-to-laserfiche-snapshot-may-remain-in-the-print-queue-for-an-extended-per",
+    "code": "SNAPSHOT-DOCUMENTS_PRINTED_TO_LASERFICHE_SN",
+    "message": "Documents Printed to Laserfiche Snapshot May Remain in the Print Queue for an Extended Period of Time",
+    "product": "Snapshot",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Documents Printed to Laserfiche Snapshot May Remain in the Print Queue for an Extended Period of Time for Snapshot. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Documents Printed to Laserfiche Snapshot May Remain in the Print Queue for an Extended Period of Time.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Documents Printed to Laserfiche Snapshot May Remain in the Print Queue for an Extended Period of Time",
+        "url": "https://support.laserfiche.com/kb/1014383/documents-printed-to-laserfiche-snapshot-may-remain-in-the-print-queue-for-an-extended-period-of-time",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014205-snapshot-snapshot-end-of-support-for-tls-1-0-and-1-1-end-of-support-for-tls-1-0-and-1-1-for-laserfiche-cloud",
+    "code": "SNAPSHOT-END_OF_SUPPORT_FOR_TLS_1_0_AND_1_1",
+    "message": "End-of-Support for TLS 1.0 and 1.1 for Laserfiche Cloud",
+    "product": "Snapshot",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports End-of-Support for TLS 1.0 and 1.1 for Laserfiche Cloud for Snapshot. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: End-of-Support for TLS 1.0 and 1.1 for Laserfiche Cloud.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "End-of-Support for TLS 1.0 and 1.1 for Laserfiche Cloud",
+        "url": "https://support.laserfiche.com/kb/1014205/end-of-support-for-tls-1-0-and-1-1-for-laserfiche-cloud",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013798-snapshot-snapshot-list-of-changes-for-laserfiche-10-list-of-changes-for-laserfiche-10-1-update-2",
+    "code": "SNAPSHOT-LIST_OF_CHANGES_FOR_LASERFICHE_10_",
+    "message": "List of Changes for Laserfiche 10.1 Update 2.",
+    "product": "Snapshot",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche 10.1 Update 2. for Snapshot. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche 10.1 Update 2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche 10.1 Update 2.",
+        "url": "https://support.laserfiche.com/kb/1013798/list-of-changes-for-laserfiche-10-1-update-2-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014278-snapshot-snapshot-microsoft-windows-updates-kb500080-microsoft-windows-updates-kb5000802-kb5000803-kb5000808-kb5000822-and-kb5000848-may-cause-",
+    "code": "SNAPSHOT-MICROSOFT_WINDOWS_UPDATES_KB500080",
+    "message": "Microsoft Windows Updates KB5000802, KB5000803, KB5000808, KB5000822 and KB5000848 May Cause Laserfiche Snapshot to Only Print the First Page of a Multi-Page Document.",
+    "product": "Snapshot",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Microsoft Windows Updates KB5000802, KB5000803, KB5000808, KB5000822 and KB5000848 May Cause Laserfiche Snapshot to Only Print the First Page of a Multi-Page Document. for Snapshot. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Microsoft Windows Updates KB5000802, KB5000803, KB5000808, KB5000822 and KB5000848 May Cause Laserfiche Snapshot to Only Print the First Page of a Multi-Page Document..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Microsoft Windows Updates KB5000802, KB5000803, KB5000808, KB5000822 and KB5000848 May Cause Laserfiche Snapshot to Only Print the First Page of a Multi-Page Document.",
+        "url": "https://support.laserfiche.com/kb/1014278/microsoft-windows-updates-kb5000802-kb5000803-kb5000808-kb5000822-and-kb5000848-may-cause-laserfiche-snapshot-to-only-print-the-first-page-of-a-multi-page-document-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013454-web-client-0x80070002-a-writeiis7configchanges-error-0x80070002-site-not-found-for-create-application-error-occu",
+    "code": "0x80070002",
+    "message": "A \"WriteIIS7ConfigChanges: Error 0x80070002: Site not found for create application.\" Error Occurs When Installing The Laserfiche Mobile 9 Add-on For Web Access.",
+    "product": "Web Client",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"WriteIIS7ConfigChanges: Error 0x80070002: Site not found for create application.\" Error Occurs When Installing The Laserfiche Mobile 9 Add-on For Web Access. for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"WriteIIS7ConfigChanges: Error 0x80070002: Site not found for create application.\" Error Occurs When Installing The Laserfiche Mobile 9 Add-on For Web Access..",
+      "Reported code or token: 0x80070002."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"WriteIIS7ConfigChanges: Error 0x80070002: Site not found for create application.\" Error Occurs When Installing The Laserfiche Mobile 9 Add-on For Web Access.",
+        "url": "https://support.laserfiche.com/kb/1013454/a-writeiis7configchanges-error-0x80070002-site-not-found-for-create-application-error-occurs-when-installing-the-laserfiche-mobile-9-add-on-for-web-access-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013252-web-client-0xc00ce556-an-error-parsing-lfefilename-lfe-unknown-error-6000-0xc00ce556-error-occurs-when-opening-a",
+    "code": "0xc00ce556",
+    "message": "An \"Error parsing 'LFEFilename.lfe' Unknown error. [6000:0xc00ce556]\" Error Occurs When Opening A Laserfiche Shortcut File (.LFE) From Outlook Web Access.",
+    "product": "Web Client",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Error parsing 'LFEFilename.lfe' Unknown error. [6000:0xc00ce556]\" Error Occurs When Opening A Laserfiche Shortcut File (.LFE) From Outlook Web Access. for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Error parsing 'LFEFilename.lfe' Unknown error. [6000:0xc00ce556]\" Error Occurs When Opening A Laserfiche Shortcut File (.LFE) From Outlook Web Access..",
+      "Reported code or token: 0xc00ce556, 6000."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Error parsing 'LFEFilename.lfe' Unknown error. [6000:0xc00ce556]\" Error Occurs When Opening A Laserfiche Shortcut File (.LFE) From Outlook Web Access.",
+        "url": "https://support.laserfiche.com/kb/1013252/an-error-parsing-lfefilename-lfe-unknown-error-6000-0xc00ce556-error-occurs-when-opening-a-laserfiche-shortcut-file-lfe-from-outlook-web-access-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013069-web-client-503-a-http-error-503-the-service-is-unavailable-error-occurs-when-loading-web-access-8",
+    "code": "503",
+    "message": "A \"HTTP Error 503. The service is unavailable.\" Error Occurs When Loading Web Access 8.",
+    "product": "Web Client",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"HTTP Error 503. The service is unavailable.\" Error Occurs When Loading Web Access 8. for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"HTTP Error 503. The service is unavailable.\" Error Occurs When Loading Web Access 8..",
+      "Reported code or token: 503."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"HTTP Error 503. The service is unavailable.\" Error Occurs When Loading Web Access 8.",
+        "url": "https://support.laserfiche.com/kb/1013069/a-http-error-503-the-service-is-unavailable-error-occurs-when-loading-web-access-8-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014375-web-client-webclient-a-method-not-allowed-error-occurs-a-method-not-allowed-error-occurs-when-importing-through-the-laserfiche-web-client",
+    "code": "WEBCLIENT-A_METHOD_NOT_ALLOWED_ERROR_OCCURS_",
+    "message": "A \"Method Not Allowed\" Error Occurs When Importing through the Laserfiche Web Client.",
+    "product": "Web Client",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"Method Not Allowed\" Error Occurs When Importing through the Laserfiche Web Client. for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"Method Not Allowed\" Error Occurs When Importing through the Laserfiche Web Client..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"Method Not Allowed\" Error Occurs When Importing through the Laserfiche Web Client.",
+        "url": "https://support.laserfiche.com/kb/1014375/a-method-not-allowed-error-occurs-when-importing-through-the-laserfiche-web-client-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014513-web-client-webclient-how-to-troubleshoot-the-laserfiche-how-to-troubleshoot-the-laserfiche-11-web-client-folder-browser-not-automatically-refreshi",
+    "code": "WEBCLIENT-HOW_TO_TROUBLESHOOT_THE_LASERFICHE",
+    "message": "How to Troubleshoot the Laserfiche 11 Web Client Folder Browser Not Automatically Refreshing when Folder Contents Change",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports How to Troubleshoot the Laserfiche 11 Web Client Folder Browser Not Automatically Refreshing when Folder Contents Change for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: How to Troubleshoot the Laserfiche 11 Web Client Folder Browser Not Automatically Refreshing when Folder Contents Change.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "How to Troubleshoot the Laserfiche 11 Web Client Folder Browser Not Automatically Refreshing when Folder Contents Change",
+        "url": "https://support.laserfiche.com/kb/1014513/how-to-troubleshoot-the-laserfiche-11-web-client-folder-browser-not-automatically-refreshing-when-folder-contents-change",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014025-web-client-webclient-list-of-changes-for-laserfiche-10-list-of-changes-for-laserfiche-10-4",
+    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_10_",
+    "message": "List of Changes for Laserfiche 10.4",
+    "product": "Web Client",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche 10.4 for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche 10.4.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche 10.4",
+        "url": "https://support.laserfiche.com/kb/1014025/list-of-changes-for-laserfiche-10-4",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014544-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-9",
+    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 9",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 9 for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 9.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 9",
+        "url": "https://support.laserfiche.com/kb/1014544/list-of-changes-for-laserfiche-web-client-11-update-9",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014559-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-10",
+    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 10",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 10 for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 10.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 10",
+        "url": "https://support.laserfiche.com/kb/1014559/list-of-changes-for-laserfiche-web-client-11-update-10",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014502-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-8",
+    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 8",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 8 for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 8.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 8",
+        "url": "https://support.laserfiche.com/kb/1014502/list-of-changes-for-laserfiche-web-client-11-update-8",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014483-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-7",
+    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 7",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 7 for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 7.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 7",
+        "url": "https://support.laserfiche.com/kb/1014483/list-of-changes-for-laserfiche-web-client-11-update-7",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014446-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-6",
+    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 6.",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 6. for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 6..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 6.",
+        "url": "https://support.laserfiche.com/kb/1014446/list-of-changes-for-laserfiche-web-client-11-update-6-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014441-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-5",
+    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 5.",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 5. for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 5..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 5.",
+        "url": "https://support.laserfiche.com/kb/1014441/list-of-changes-for-laserfiche-web-client-11-update-5-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014317-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-3",
+    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 3",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 3 for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014317/list-of-changes-for-laserfiche-web-client-11-update-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014300-web-client-webclient-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-web-client-11-update-2",
+    "code": "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
+    "message": "List of Changes for Laserfiche Web Client 11 Update 2",
+    "product": "Web Client",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Web Client 11 Update 2 for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Web Client 11 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Web Client 11 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014300/list-of-changes-for-laserfiche-web-client-11-update-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013073-web-client-webclient-online-laserfiche-product-help-fil-online-laserfiche-product-help-files-for-previous-product-versions",
+    "code": "WEBCLIENT-ONLINE_LASERFICHE_PRODUCT_HELP_FIL",
+    "message": "Online Laserfiche Product Help Files For Previous Product Versions.",
+    "product": "Web Client",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Online Laserfiche Product Help Files For Previous Product Versions. for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Online Laserfiche Product Help Files For Previous Product Versions..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Online Laserfiche Product Help Files For Previous Product Versions.",
+        "url": "https://support.laserfiche.com/kb/1013073/online-laserfiche-product-help-files-for-previous-product-versions-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014200-web-client-webclient-software-versions-and-fixes-includ-software-versions-and-fixes-included-in-the-laserfiche-10-4-3-download-package",
+    "code": "WEBCLIENT-SOFTWARE_VERSIONS_AND_FIXES_INCLUD",
+    "message": "Software versions and fixes included in the Laserfiche 10.4.3 Download Package",
+    "product": "Web Client",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Software versions and fixes included in the Laserfiche 10.4.3 Download Package for Web Client. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Software versions and fixes included in the Laserfiche 10.4.3 Download Package.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Software versions and fixes included in the Laserfiche 10.4.3 Download Package",
+        "url": "https://support.laserfiche.com/kb/1014200/software-versions-and-fixes-included-in-the-laserfiche-10-4-3-download-package",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013473-weblink-404-an-exception-of-type-system-exception-was-thrown-error-occurs-when-opening-an-electronic-d",
+    "code": "404",
+    "message": "An \"Exception of type 'System.Exception' was thrown.\" Error Occurs When Opening an Electronic Document In WebLink 8.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Exception of type 'System.Exception' was thrown.\" Error Occurs When Opening an Electronic Document In WebLink 8. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Exception of type 'System.Exception' was thrown.\" Error Occurs When Opening an Electronic Document In WebLink 8..",
+      "Reported code or token: 404."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Exception of type 'System.Exception' was thrown.\" Error Occurs When Opening an Electronic Document In WebLink 8.",
+        "url": "https://support.laserfiche.com/kb/1013473/an-exception-of-type-system-exception-was-thrown-error-occurs-when-opening-an-electronic-document-in-weblink-8-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-90100-weblink-weblink-6507-maximum-users-exceeded-6507-maximum-users-exceeded",
+    "code": "WEBLINK-6507_MAXIMUM_USERS_EXCEEDED",
+    "message": "6507: Maximum users exceeded.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports 6507: Maximum users exceeded. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: 6507: Maximum users exceeded..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "6507: Maximum users exceeded.",
+        "url": "https://support.laserfiche.com/kb/90100/6507-maximum-users-exceeded-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013828-weblink-weblink-a-the-system-has-encountered-an-er-a-the-system-has-encountered-an-error-and-could-not-complete-your-request-error-occurs-wit",
+    "code": "WEBLINK-A_THE_SYSTEM_HAS_ENCOUNTERED_AN_ER",
+    "message": "A \"The system has encountered an error and could not complete your request.\" Error Occurs With WebLink 9 On Mobile Device Web Browsers When Viewing a Document in a Folder Tunneling",
+    "product": "WebLink",
+    "versions": [
+      "Version 9"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"The system has encountered an error and could not complete your request.\" Error Occurs With WebLink 9 On Mobile Device Web Browsers When Viewing a Document in a Folder Tunneling for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"The system has encountered an error and could not complete your request.\" Error Occurs With WebLink 9 On Mobile Device Web Browsers When Viewing a Document in a Folder Tunneling.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"The system has encountered an error and could not complete your request.\" Error Occurs With WebLink 9 On Mobile Device Web Browsers When Viewing a Document in a Folder Tunneling",
+        "url": "https://support.laserfiche.com/kb/1013828/a-the-system-has-encountered-an-error-and-could-not-complete-your-request-error-occurs-with-weblink-9-on-mobile-device-web-browsers-when-viewing-a-document-in-a-folder-tunneling-scenario-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014166-weblink-weblink-after-updating-to-weblink-10-2-you-after-updating-to-weblink-10-2-you-may-notice-that-custom-links-do-not-display-when-weblin",
+    "code": "WEBLINK-AFTER_UPDATING_TO_WEBLINK_10_2_YOU",
+    "message": "After Updating to WebLink 10.2, You May Notice that Custom Links Do Not Display When WebLink is Configured for Automatic Login",
+    "product": "WebLink",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports After Updating to WebLink 10.2, You May Notice that Custom Links Do Not Display When WebLink is Configured for Automatic Login for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: After Updating to WebLink 10.2, You May Notice that Custom Links Do Not Display When WebLink is Configured for Automatic Login.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "After Updating to WebLink 10.2, You May Notice that Custom Links Do Not Display When WebLink is Configured for Automatic Login",
+        "url": "https://support.laserfiche.com/kb/1014166/after-updating-to-weblink-10-2-you-may-notice-that-custom-links-do-not-display-when-weblink-is-configured-for-automatic-login",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000229-weblink-weblink-an-asp-0115-unexpected-error-error-an-asp-0115-unexpected-error-error-occurs-when-opening-a-folder",
+    "code": "WEBLINK-AN_ASP_0115_UNEXPECTED_ERROR_ERROR",
+    "message": "An \"ASP 0115: Unexpected error\" Error Occurs When Opening a Folder.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"ASP 0115: Unexpected error\" Error Occurs When Opening a Folder. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"ASP 0115: Unexpected error\" Error Occurs When Opening a Folder..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"ASP 0115: Unexpected error\" Error Occurs When Opening a Folder.",
+        "url": "https://support.laserfiche.com/kb/1000229/an-asp-0115-unexpected-error-error-occurs-when-opening-a-folder-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013986-weblink-weblink-displaying-more-context-hits-when-displaying-more-context-hits-when-searching-in-weblink-10",
+    "code": "WEBLINK-DISPLAYING_MORE_CONTEXT_HITS_WHEN_",
+    "message": "Displaying more context hits when searching in WebLink 10",
+    "product": "WebLink",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Displaying more context hits when searching in WebLink 10 for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Displaying more context hits when searching in WebLink 10.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Displaying more context hits when searching in WebLink 10",
+        "url": "https://support.laserfiche.com/kb/1013986/displaying-more-context-hits-when-searching-in-weblink-10",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014551-weblink-weblink-enabling-http-strict-transport-sec-enabling-http-strict-transport-security-hsts-in-iis-10-0",
+    "code": "WEBLINK-ENABLING_HTTP_STRICT_TRANSPORT_SEC",
+    "message": "Enabling HTTP Strict Transport Security (HSTS) in IIS 10.0.",
+    "product": "WebLink",
+    "versions": [
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Enabling HTTP Strict Transport Security (HSTS) in IIS 10.0. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Enabling HTTP Strict Transport Security (HSTS) in IIS 10.0..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Enabling HTTP Strict Transport Security (HSTS) in IIS 10.0.",
+        "url": "https://support.laserfiche.com/kb/1014551/enabling-http-strict-transport-security-hsts-in-iis-10-0-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013988-weblink-weblink-laserfiche-web-client-and-weblink-laserfiche-web-client-and-weblink-10-and-higher-technical-support-checklist",
+    "code": "WEBLINK-LASERFICHE_WEB_CLIENT_AND_WEBLINK_",
+    "message": "Laserfiche Web Client and WebLink 10 and Higher Technical Support Checklist.",
+    "product": "WebLink",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Laserfiche Web Client and WebLink 10 and Higher Technical Support Checklist. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Laserfiche Web Client and WebLink 10 and Higher Technical Support Checklist..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Laserfiche Web Client and WebLink 10 and Higher Technical Support Checklist.",
+        "url": "https://support.laserfiche.com/kb/1013988/laserfiche-web-client-and-weblink-10-and-higher-technical-support-checklist-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014456-weblink-weblink-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-weblink-11-update-2",
+    "code": "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
+    "message": "List of Changes for Laserfiche WebLink 11 Update 2.",
+    "product": "WebLink",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche WebLink 11 Update 2. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche WebLink 11 Update 2.",
+        "url": "https://support.laserfiche.com/kb/1014456/list-of-changes-for-laserfiche-weblink-11-update-2-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014577-weblink-weblink-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-weblink-11-update-6",
+    "code": "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
+    "message": "List of Changes for Laserfiche WebLink 11 Update 6.",
+    "product": "WebLink",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche WebLink 11 Update 6. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 6..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche WebLink 11 Update 6.",
+        "url": "https://support.laserfiche.com/kb/1014577/list-of-changes-for-laserfiche-weblink-11-update-6-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014574-weblink-weblink-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-weblink-11-update-5",
+    "code": "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
+    "message": "List of Changes for Laserfiche WebLink 11 Update 5.",
+    "product": "WebLink",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche WebLink 11 Update 5. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 5..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche WebLink 11 Update 5.",
+        "url": "https://support.laserfiche.com/kb/1014574/list-of-changes-for-laserfiche-weblink-11-update-5-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014465-weblink-weblink-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-weblink-11-update-3",
+    "code": "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
+    "message": "List of Changes for Laserfiche WebLink 11 Update 3.",
+    "product": "WebLink",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche WebLink 11 Update 3. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 3..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche WebLink 11 Update 3.",
+        "url": "https://support.laserfiche.com/kb/1014465/list-of-changes-for-laserfiche-weblink-11-update-3-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014438-weblink-weblink-list-of-changes-for-laserfiche-web-list-of-changes-for-laserfiche-weblink-11-update-1",
+    "code": "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB",
+    "message": "List of Changes for Laserfiche WebLink 11 Update 1.",
+    "product": "WebLink",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche WebLink 11 Update 1. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche WebLink 11 Update 1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche WebLink 11 Update 1.",
+        "url": "https://support.laserfiche.com/kb/1014438/list-of-changes-for-laserfiche-weblink-11-update-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013923-weblink-weblink-list-of-changes-for-weblink-10-list-of-changes-for-weblink-10",
+    "code": "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_10",
+    "message": "List of Changes for WebLink 10",
+    "product": "WebLink",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for WebLink 10 for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for WebLink 10.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for WebLink 10",
+        "url": "https://support.laserfiche.com/kb/1013923/list-of-changes-for-weblink-10",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013953-weblink-weblink-list-of-changes-for-weblink-10-1-list-of-changes-for-weblink-10-1",
+    "code": "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_10_1",
+    "message": "List of Changes for WebLink 10.1.",
+    "product": "WebLink",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for WebLink 10.1. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for WebLink 10.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for WebLink 10.1.",
+        "url": "https://support.laserfiche.com/kb/1013953/list-of-changes-for-weblink-10-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014123-weblink-weblink-list-of-changes-for-weblink-10-2-list-of-changes-for-weblink-10-2",
+    "code": "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_10_2",
+    "message": "List of Changes for WebLink 10.2",
+    "product": "WebLink",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for WebLink 10.2 for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for WebLink 10.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for WebLink 10.2",
+        "url": "https://support.laserfiche.com/kb/1014123",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014330-weblink-weblink-list-of-changes-for-weblink-11-list-of-changes-for-weblink-11",
+    "code": "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_11",
+    "message": "List of Changes for WebLink 11",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for WebLink 11 for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for WebLink 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for WebLink 11",
+        "url": "https://support.laserfiche.com/kb/1014330/list-of-changes-for-weblink-11",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012796-weblink-weblink-release-notes-for-laserfiche-webli-release-notes-for-laserfiche-weblink-8-2",
+    "code": "WEBLINK-RELEASE_NOTES_FOR_LASERFICHE_WEBLI",
+    "message": "Release Notes for Laserfiche WebLink 8.2",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche WebLink 8.2 for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche WebLink 8.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche WebLink 8.2",
+        "url": "https://support.laserfiche.com/kb/1012796",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1012940-weblink-weblink-release-notes-for-weblink-8-2-1-release-notes-for-weblink-8-2-1",
+    "code": "WEBLINK-RELEASE_NOTES_FOR_WEBLINK_8_2_1",
+    "message": "Release Notes for WebLink 8.2.1.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for WebLink 8.2.1. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for WebLink 8.2.1..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for WebLink 8.2.1.",
+        "url": "https://support.laserfiche.com/kb/1012940/release-notes-for-weblink-8-2-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013209-weblink-weblink-release-notes-for-weblink-8-2-2-release-notes-for-weblink-8-2-2",
+    "code": "WEBLINK-RELEASE_NOTES_FOR_WEBLINK_8_2_2",
+    "message": "Release Notes for WebLink 8.2.2.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for WebLink 8.2.2. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for WebLink 8.2.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for WebLink 8.2.2.",
+        "url": "https://support.laserfiche.com/kb/1013209/release-notes-for-weblink-8-2-2-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014124-weblink-weblink-release-notes-for-weblink-10-2-release-notes-for-weblink-10-2",
+    "code": "WEBLINK-RELEASE_NOTES_FOR_WEBLINK_10_2",
+    "message": "Release Notes for WebLink 10.2",
+    "product": "WebLink",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for WebLink 10.2 for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for WebLink 10.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for WebLink 10.2",
+        "url": "https://support.laserfiche.com/kb/1014124/release-notes-for-weblink-10-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014562-weblink-weblink-viewing-documents-in-public-portal-viewing-documents-in-public-portal-weblink-may-show-a-white-grid-across-every-page",
+    "code": "WEBLINK-VIEWING_DOCUMENTS_IN_PUBLIC_PORTAL",
+    "message": "Viewing documents in Public Portal/WebLink may show a white grid across every page",
+    "product": "WebLink",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Viewing documents in Public Portal/WebLink may show a white grid across every page for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Viewing documents in Public Portal/WebLink may show a white grid across every page.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Viewing documents in Public Portal/WebLink may show a white grid across every page",
+        "url": "https://support.laserfiche.com/kb/1014562/viewing-documents-in-public-portal-weblink-may-show-a-white-grid-across-every-page",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014439-weblink-weblink-weblink-11-updates-weblink-11-updates",
+    "code": "WEBLINK-WEBLINK_11_UPDATES",
+    "message": "WebLink 11 Updates",
+    "product": "WebLink",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports WebLink 11 Updates for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: WebLink 11 Updates.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "WebLink 11 Updates",
+        "url": "https://support.laserfiche.com/kb/1014439/weblink-11-updates",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000211-weblink-weblink-weblink-error-code-format-weblink-error-code-format",
+    "code": "WEBLINK-WEBLINK_ERROR_CODE_FORMAT",
+    "message": "WebLink Error Code Format.",
+    "product": "WebLink",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports WebLink Error Code Format. for WebLink. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: WebLink Error Code Format..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "WebLink Error Code Format.",
+        "url": "https://support.laserfiche.com/kb/1000211/weblink-error-code-format-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013562-workflow-0x80005000-an-unknown-error-0x80005000-0339-wf1-error-occurs-when-searching-for-specific-active-direc",
+    "code": "0x80005000",
+    "message": "An \"Unknown error (0x80005000)[0339-WF1]\" Error Occurs When Searching for Specific Active Directory User Accounts In A Workflow.",
+    "product": "Workflow",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"Unknown error (0x80005000)[0339-WF1]\" Error Occurs When Searching for Specific Active Directory User Accounts In A Workflow. for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"Unknown error (0x80005000)[0339-WF1]\" Error Occurs When Searching for Specific Active Directory User Accounts In A Workflow..",
+      "Reported code or token: 0x80005000."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"Unknown error (0x80005000)[0339-WF1]\" Error Occurs When Searching for Specific Active Directory User Accounts In A Workflow.",
+        "url": "https://support.laserfiche.com/kb/1013562/an-unknown-error-0x80005000-0339-wf1-error-occurs-when-searching-for-specific-active-directory-user-accounts-in-a-workflow-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013863-workflow-404-a-the-remote-server-returned-an-error-404-not-found-error-occurs-when-running-workflows-wi",
+    "code": "404",
+    "message": "A \"The remote server returned an error: (404) Not Found\" Error Occurs When Running Workflows With Activities that Connect to Laserfiche Forms 10.2.1.",
+    "product": "Workflow",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports A \"The remote server returned an error: (404) Not Found\" Error Occurs When Running Workflows With Activities that Connect to Laserfiche Forms 10.2.1. for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: A \"The remote server returned an error: (404) Not Found\" Error Occurs When Running Workflows With Activities that Connect to Laserfiche Forms 10.2.1..",
+      "Reported code or token: 404."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "A \"The remote server returned an error: (404) Not Found\" Error Occurs When Running Workflows With Activities that Connect to Laserfiche Forms 10.2.1.",
+        "url": "https://support.laserfiche.com/kb/1013863/a-the-remote-server-returned-an-error-404-not-found-error-occurs-when-running-workflows-with-activities-that-connect-to-laserfiche-forms-10-2-1-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013259-workflow-http500-an-http-500-19-error-occurs-when-loading-the-workflow-web-service-when-the-service-is-inst",
+    "code": "HTTP500",
+    "message": "An \"HTTP 500.19\" Error Occurs When Loading The Workflow Web Service When The Service Is Installed On Windows Server 2008.",
+    "product": "Workflow",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports An \"HTTP 500.19\" Error Occurs When Loading The Workflow Web Service When The Service Is Installed On Windows Server 2008. for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: An \"HTTP 500.19\" Error Occurs When Loading The Workflow Web Service When The Service Is Installed On Windows Server 2008..",
+      "Reported code or token: HTTP500."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "An \"HTTP 500.19\" Error Occurs When Loading The Workflow Web Service When The Service Is Installed On Windows Server 2008.",
+        "url": "https://support.laserfiche.com/kb/1013259/an-http-500-19-error-occurs-when-loading-the-workflow-web-service-when-the-service-is-installed-on-windows-server-2008-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1013837-workflow-workflow-list-of-changes-for-laserfiche-wor-list-of-changes-for-laserfiche-workflow-10-2-hotfix-1013837",
+    "code": "WORKFLOW-LIST_OF_CHANGES_FOR_LASERFICHE_WOR",
+    "message": "List of Changes for Laserfiche Workflow 10.2 Hotfix 1013837.",
+    "product": "Workflow",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Workflow 10.2 Hotfix 1013837. for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Workflow 10.2 Hotfix 1013837..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Workflow 10.2 Hotfix 1013837.",
+        "url": "https://support.laserfiche.com/kb/1013837/list-of-changes-for-laserfiche-workflow-10-2-hotfix-1013837-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014131-workflow-workflow-list-of-changes-for-laserfiche-wor-list-of-changes-for-laserfiche-workflow-10-4-2-update-2",
+    "code": "WORKFLOW-LIST_OF_CHANGES_FOR_LASERFICHE_WOR",
+    "message": "List of Changes for Laserfiche Workflow 10.4.2 Update 2",
+    "product": "Workflow",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Workflow 10.4.2 Update 2 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Workflow 10.4.2 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Workflow 10.4.2 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014131/list-of-changes-for-laserfiche-workflow-10-4-2-update-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014243-workflow-workflow-list-of-changes-for-laserfiche-wor-list-of-changes-for-laserfiche-workflow-10-4-3",
+    "code": "WORKFLOW-LIST_OF_CHANGES_FOR_LASERFICHE_WOR",
+    "message": "List of Changes for Laserfiche Workflow 10.4.3",
+    "product": "Workflow",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Laserfiche Workflow 10.4.3 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Laserfiche Workflow 10.4.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Laserfiche Workflow 10.4.3",
+        "url": "https://support.laserfiche.com/kb/1014243/list-of-changes-for-laserfiche-workflow-10-4-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014461-workflow-workflow-list-of-changes-for-workflow-11-up-list-of-changes-for-workflow-11-update-3",
+    "code": "WORKFLOW-LIST_OF_CHANGES_FOR_WORKFLOW_11_UP",
+    "message": "List of Changes for Workflow 11 Update 3",
+    "product": "Workflow",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports List of Changes for Workflow 11 Update 3 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: List of Changes for Workflow 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "List of Changes for Workflow 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014461/list-of-changes-for-workflow-11-update-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014101-workflow-workflow-release-notes-for-laserfiche-workf-release-notes-for-laserfiche-workflow-10-4-2",
+    "code": "WORKFLOW-RELEASE_NOTES_FOR_LASERFICHE_WORKF",
+    "message": "Release Notes for Laserfiche Workflow 10.4.2",
+    "product": "Workflow",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Workflow 10.4.2 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Workflow 10.4.2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Workflow 10.4.2",
+        "url": "https://support.laserfiche.com/kb/1014101",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014244-workflow-workflow-release-notes-for-laserfiche-workf-release-notes-for-laserfiche-workflow-10-4-3",
+    "code": "WORKFLOW-RELEASE_NOTES_FOR_LASERFICHE_WORKF",
+    "message": "Release Notes for Laserfiche Workflow 10.4.3",
+    "product": "Workflow",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Laserfiche Workflow 10.4.3 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Laserfiche Workflow 10.4.3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Laserfiche Workflow 10.4.3",
+        "url": "https://support.laserfiche.com/kb/1014244/release-notes-for-laserfiche-workflow-10-4-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014522-workflow-workflow-release-notes-for-the-laserfiche-c-release-notes-for-the-laserfiche-cloud-migration-readiness-assessment-tool",
+    "code": "WORKFLOW-RELEASE_NOTES_FOR_THE_LASERFICHE_C",
+    "message": "Release Notes for the Laserfiche Cloud Migration Readiness Assessment Tool",
+    "product": "Workflow",
+    "versions": [
+      "Version 10",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for the Laserfiche Cloud Migration Readiness Assessment Tool for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for the Laserfiche Cloud Migration Readiness Assessment Tool.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for the Laserfiche Cloud Migration Readiness Assessment Tool",
+        "url": "https://support.laserfiche.com/kb/1014522/release-notes-for-the-laserfiche-cloud-migration-readiness-assessment-tool",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014246-workflow-workflow-release-notes-for-workflow-11-release-notes-for-workflow-11",
+    "code": "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11",
+    "message": "Release Notes for Workflow 11",
+    "product": "Workflow",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Workflow 11 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Workflow 11.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Workflow 11",
+        "url": "https://support.laserfiche.com/kb/1014246/release-notes-for-workflow-11",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014462-workflow-workflow-release-notes-for-workflow-11-upda-release-notes-for-workflow-11-update-3",
+    "code": "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11_UPDA",
+    "message": "Release Notes for Workflow 11 Update 3",
+    "product": "Workflow",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Workflow 11 Update 3 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Workflow 11 Update 3.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Workflow 11 Update 3",
+        "url": "https://support.laserfiche.com/kb/1014462/release-notes-for-workflow-11-update-3",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014395-workflow-workflow-release-notes-for-workflow-11-upda-release-notes-for-workflow-11-update-2",
+    "code": "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11_UPDA",
+    "message": "Release Notes for Workflow 11 Update 2",
+    "product": "Workflow",
+    "versions": [
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Workflow 11 Update 2 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Workflow 11 Update 2.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Workflow 11 Update 2",
+        "url": "https://support.laserfiche.com/kb/1014395/release-notes-for-workflow-11-update-2",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014339-workflow-workflow-release-notes-for-workflow-11-upda-release-notes-for-workflow-11-update-1",
+    "code": "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11_UPDA",
+    "message": "Release Notes for Workflow 11 Update 1",
+    "product": "Workflow",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Release Notes for Workflow 11 Update 1 for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Release Notes for Workflow 11 Update 1.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Release Notes for Workflow 11 Update 1",
+        "url": "https://support.laserfiche.com/kb/1014339/release-notes-for-workflow-11-update-1",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014445-workflow-workflow-remote-agent-technical-support-che-remote-agent-technical-support-checklist",
+    "code": "WORKFLOW-REMOTE_AGENT_TECHNICAL_SUPPORT_CHE",
+    "message": "Remote Agent Technical Support Checklist",
+    "product": "Workflow",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Remote Agent Technical Support Checklist for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Remote Agent Technical Support Checklist.",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Remote Agent Technical Support Checklist",
+        "url": "https://support.laserfiche.com/kb/1014445/remote-agent-technical-support-checklist",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1014128-workflow-workflow-you-may-receive-the-following-erro-you-may-receive-the-following-error-message-in-workflow-10-4-when-installing-or-upgrading-",
+    "code": "WORKFLOW-YOU_MAY_RECEIVE_THE_FOLLOWING_ERRO",
+    "message": "You May Receive the Following Error Message in Workflow 10.4 when installing or upgrading newer versions of Laserfiche products: \"Could not load file or assembly.\"",
+    "product": "Workflow",
+    "versions": [
+      "Version 10"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports You May Receive the Following Error Message in Workflow 10.4 when installing or upgrading newer versions of Laserfiche products: \"Could not load file or assembly.\" for Workflow. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: You May Receive the Following Error Message in Workflow 10.4 when installing or upgrading newer versions of Laserfiche products: \"Could not load file or assembly.\".",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "Version scope is based on version text found in the Support KB article title or body.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "You May Receive the Following Error Message in Workflow 10.4 when installing or upgrading newer versions of Laserfiche products: \"Could not load file or assembly.\"",
+        "url": "https://support.laserfiche.com/kb/1014128/you-may-receive-the-following-error-message-in-workflow-10-4-when-installing-or-upgrading-newer-versions-of-laserfiche-products-could-not-load-file-or-assembly-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  }
+];
+
+export const supportChromePromotedReviewedSources = [
+  {
+    "id": "support-promoted-source-1012657",
+    "title": "An \"HTTP Error 500.19 - Internal Server Error\" Error Page Displays When Loading The Audit Trail 8 Configuration Page.",
+    "url": "https://support.laserfiche.com/kb/1012657/an-http-error-500-19-internal-server-error-error-page-displays-when-loading-the-audit-trail-8-configuration-page-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Audit Trail",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "500"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012684",
+    "title": "A \"HTTP 500.19\" Error Occurs When Loading Laserfiche 8 Web Applications Hosted on a 64-bit Server with Windows Server Update Services.",
+    "url": "https://support.laserfiche.com/kb/1012684/a-http-500-19-error-occurs-when-loading-laserfiche-8-web-applications-hosted-on-a-64-bit-server-with-windows-server-update-services-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Audit Trail",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "HTTP500",
+      "0x8007007e",
+      "HTTP500",
+      "500"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014436",
+    "title": "Laserfiche Connector May Not Detect Webpage Elements in Edge or Chrome 111.0.5563.65 or Later.",
+    "url": "https://support.laserfiche.com/kb/1014436/laserfiche-connector-may-not-detect-webpage-elements-in-edge-or-chrome-111-0-5563-65-or-later-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-LASERFICHE_CONNECTOR_MAY_NOT_DETEC"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014247",
+    "title": "List of Changes for Connector 11",
+    "url": "https://support.laserfiche.com/kb/1014247/list-of-changes-for-connector-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-LIST_OF_CHANGES_FOR_CONNECTOR_11"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014379",
+    "title": "List of Changes for Laserfiche Connector 11 Update 1",
+    "url": "https://support.laserfiche.com/kb/1014379/list-of-changes-for-laserfiche-connector-11-update-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014585",
+    "title": "List of Changes for Laserfiche Connector 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014585/list-of-changes-for-laserfiche-connector-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014489",
+    "title": "List of Changes for Laserfiche Connector 11 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014489/list-of-changes-for-laserfiche-connector-11-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014233",
+    "title": "List of Changes for Laserfiche Connector 10.3 Update 5",
+    "url": "https://support.laserfiche.com/kb/1014233/list-of-changes-for-laserfiche-connector-10-3-update-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014194",
+    "title": "List of Changes for Laserfiche Connector 10.3 Update 4",
+    "url": "https://support.laserfiche.com/kb/1014194/list-of-changes-for-laserfiche-connector-10-3-update-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014126",
+    "title": "List of Changes for Laserfiche Connector 10.3 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014126/list-of-changes-for-laserfiche-connector-10-3-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013793",
+    "title": "List of Changes for Laserfiche Connector 10.2",
+    "url": "https://support.laserfiche.com/kb/1013793/list-of-changes-for-laserfiche-connector-10-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-LIST_OF_CHANGES_FOR_LASERFICHE_CON"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013558",
+    "title": "List of Changes for the Laserfiche Connector for Ricoh 1.1",
+    "url": "https://support.laserfiche.com/kb/1013558/list-of-changes-for-the-laserfiche-connector-for-ricoh-1-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-LIST_OF_CHANGES_FOR_THE_LASERFICHE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014248",
+    "title": "Release Notes for Connector 11",
+    "url": "https://support.laserfiche.com/kb/1014248/release-notes-for-connector-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-RELEASE_NOTES_FOR_CONNECTOR_11"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013897",
+    "title": "Release Notes for Laserfiche Connector 10.3",
+    "url": "https://support.laserfiche.com/kb/1013897/release-notes-for-laserfiche-connector-10-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013849",
+    "title": "Release Notes for Laserfiche Connector 10.2.1",
+    "url": "https://support.laserfiche.com/kb/1013849/release-notes-for-laserfiche-connector-10-2-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013794",
+    "title": "Release Notes for Laserfiche Connector 10.2",
+    "url": "https://support.laserfiche.com/kb/1013794/release-notes-for-laserfiche-connector-10-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013742",
+    "title": "Release Notes for Laserfiche Connector 10",
+    "url": "https://support.laserfiche.com/kb/1013742/release-notes-for-laserfiche-connector-10",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013581",
+    "title": "Release Notes for Laserfiche Connector 9",
+    "url": "https://support.laserfiche.com/kb/1013581/release-notes-for-laserfiche-connector-9",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013644",
+    "title": "Release Notes for Laserfiche Connector 9.0.1",
+    "url": "https://support.laserfiche.com/kb/1013644/release-notes-for-laserfiche-connector-9-0-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013656",
+    "title": "Release Notes for Laserfiche Connector 9.1",
+    "url": "https://support.laserfiche.com/kb/1013656/release-notes-for-laserfiche-connector-9-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013648",
+    "title": "Release Notes for Laserfiche Connector for Samsung 10",
+    "url": "https://support.laserfiche.com/kb/1013648/release-notes-for-laserfiche-connector-for-samsung-10",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-RELEASE_NOTES_FOR_LASERFICHE_CONNE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013557",
+    "title": "Release Notes for the Laserfiche Connector for Ricoh 1.1.",
+    "url": "https://support.laserfiche.com/kb/1013557/release-notes-for-the-laserfiche-connector-for-ricoh-1-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-RELEASE_NOTES_FOR_THE_LASERFICHE_C"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013331",
+    "title": "Release Notes for the Laserfiche Connector for Ricoh 1.0",
+    "url": "https://support.laserfiche.com/kb/1013331/release-notes-for-the-laserfiche-connector-for-ricoh-1-0",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-RELEASE_NOTES_FOR_THE_LASERFICHE_C"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014571",
+    "title": "Using Chrome or Edge 136 and higher with Laserfiche Connector may result in an error stating the browser is not configured correctly",
+    "url": "https://support.laserfiche.com/kb/1014571/using-chrome-or-edge-136-and-higher-with-laserfiche-connector-may-result-in-an-error-stating-the-browser-is-not-configured-correctly",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Connector",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "CONNECTOR-USING_CHROME_OR_EDGE_136_AND_HIGHE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014090",
+    "title": "When Signing in to Laserfiche Web Client Through Laserfiche Directory Server, You May See the Following Error Message: \"Error 405- HTTP verb used to access this page is not allowed",
+    "url": "https://support.laserfiche.com/kb/1014090/when-signing-in-to-laserfiche-web-client-through-laserfiche-directory-server-you-may-see-the-following-error-message-error-405-http-verb-used-to-access-this-page-is-not-allowed-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "405"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014515",
+    "title": "Error - 1064: An exception occurred in the service when handling the control request.",
+    "url": "https://support.laserfiche.com/kb/1014515/error-1064-an-exception-occurred-in-the-service-when-handling-the-control-request-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "1064"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014005",
+    "title": "When Starting Laserfiche Directory Server 10.0 and Above, You May Receive the Following Error Message: \"Error 1067: 'The process terminated unexpectedly'\"",
+    "url": "https://support.laserfiche.com/kb/1014005/when-starting-laserfiche-directory-server-10-0-and-above-you-may-receive-the-following-error-message-error-1067-the-process-terminated-unexpectedly",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "1067"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013625",
+    "title": "List of Changes for Directory Server 9.2.1.",
+    "url": "https://support.laserfiche.com/kb/1013625/list-of-changes-for-directory-server-9-2-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "HTTP404"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013931",
+    "title": "A \"The Federation Service encountered an error while processing the SAML authentication request.\" Error Occurs After Upgrading From Directory Server 10.2 to 10.3 And Active Directo",
+    "url": "https://support.laserfiche.com/kb/1013931/a-the-federation-service-encountered-an-error-while-processing-the-saml-authentication-request-error-occurs-after-upgrading-from-directory-server-10-2-to-10-3-and-active-directory-federation-services-is-turned-on-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-A_THE_FEDERATION_SERVICE_ENCOUNTER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014094",
+    "title": "Additional Configuration for Chrome 80.",
+    "url": "https://support.laserfiche.com/kb/1014094/additional-configuration-for-chrome-80-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-ADDITIONAL_CONFIGURATION_FOR_CHROM"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013920",
+    "title": "After Upgrading Laserfiche Directory Server, You May Receive the Following Error Message Upon Signing In with the Laserfiche Web Client: \"Received an invalid or untrusted SAML toke",
+    "url": "https://support.laserfiche.com/kb/1013920/after-upgrading-laserfiche-directory-server-you-may-receive-the-following-error-message-upon-signing-in-with-the-laserfiche-web-client-received-an-invalid-or-untrusted-saml-token-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-AFTER_UPGRADING_LASERFICHE_DIRECTO"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014366",
+    "title": "Directory Server SAML login throws \"Keyset does not exist\" error when authentication request signing is enabled",
+    "url": "https://support.laserfiche.com/kb/1014366/directory-server-saml-login-throws-keyset-does-not-exist-error-when-authentication-request-signing-is-enabled",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-DIRECTORY_SERVER_SAML_LOGIN_THROWS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014036",
+    "title": "Laserfiche Account Migration Tool",
+    "url": "https://support.laserfiche.com/kb/1014036/laserfiche-account-migration-tool",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LASERFICHE_ACCOUNT_MIGRATION_TOOL"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014147",
+    "title": "Laserfiche Directory Server 10.4.3 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014147/laserfiche-directory-server-10-4-3-update-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LASERFICHE_DIRECTORY_SERVER_10_4_3"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014566",
+    "title": "Laserfiche Directory Server fails to validate email addresses from some valid top-level domains",
+    "url": "https://support.laserfiche.com/kb/1014566/laserfiche-directory-server-fails-to-validate-email-addresses-from-some-valid-top-level-domains",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LASERFICHE_DIRECTORY_SERVER_FAILS_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014443",
+    "title": "List of Changes for Directory Server 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014443/list-of-changes-for-directory-server-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014490",
+    "title": "List of Changes for Directory Server 11 Update 5",
+    "url": "https://support.laserfiche.com/kb/1014490/list-of-changes-for-directory-server-11-update-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014374",
+    "title": "List of Changes for Directory Server 11 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014374/list-of-changes-for-directory-server-11-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014250",
+    "title": "List of Changes for Directory Server 11",
+    "url": "https://support.laserfiche.com/kb/1014250/list-of-changes-for-directory-server-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013928",
+    "title": "List of Changes for Directory Server 10.3.",
+    "url": "https://support.laserfiche.com/kb/1013928/list-of-changes-for-directory-server-10-3-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014096",
+    "title": "List of Changes for Directory Server 10.4.3",
+    "url": "https://support.laserfiche.com/kb/1014096/list-of-changes-for-directory-server-10-4-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014511",
+    "title": "List of Changes for Directory Server 11 Update 6",
+    "url": "https://support.laserfiche.com/kb/1014511/list-of-changes-for-directory-server-11-update-6",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013805",
+    "title": "List of Changes for Directory Server 10.0 Update 2",
+    "url": "https://support.laserfiche.com/kb/1013805/list-of-changes-for-directory-server-10-0-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014193",
+    "title": "List of Changes for Directory Server 10.4.5",
+    "url": "https://support.laserfiche.com/kb/1014193/list-of-changes-for-directory-server-10-4-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014161",
+    "title": "List of Changes for Directory Server 10.4.4",
+    "url": "https://support.laserfiche.com/kb/1014161/list-of-changes-for-directory-server-10-4-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014023",
+    "title": "List of Changes for Directory Server 10.4",
+    "url": "https://support.laserfiche.com/kb/1014023/list-of-changes-for-directory-server-10-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LIST_OF_CHANGES_FOR_DIRECTORY_SERV"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014475",
+    "title": "List of Changes for Laserfiche Directory Server 11 Update 4",
+    "url": "https://support.laserfiche.com/kb/1014475/list-of-changes-for-laserfiche-directory-server-11-update-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LIST_OF_CHANGES_FOR_LASERFICHE_DIR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013977",
+    "title": "List of Changes for Laserfiche Directory Server 10.3.1.",
+    "url": "https://support.laserfiche.com/kb/1013977/list-of-changes-for-laserfiche-directory-server-10-3-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LIST_OF_CHANGES_FOR_LASERFICHE_DIR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014580",
+    "title": "List of Changes for the April 21, 2026 Laserfiche App",
+    "url": "https://support.laserfiche.com/kb/1014580/list-of-changes-for-the-april-21-2026-laserfiche-app",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-LIST_OF_CHANGES_FOR_THE_APRIL_21_2"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013536",
+    "title": "New Features for Laserfiche Directory Server 9.2.",
+    "url": "https://support.laserfiche.com/kb/1013536/new-features-for-laserfiche-directory-server-9-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-NEW_FEATURES_FOR_LASERFICHE_DIRECT"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014206",
+    "title": "\"Object reference not set to an instance of an object.\" error when creating a new licensing site",
+    "url": "https://support.laserfiche.com/kb/1014206/object-reference-not-set-to-an-instance-of-an-object-error-when-creating-a-new-licensing-site-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-OBJECT_REFERENCE_NOT_SET_TO_AN_INS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014027",
+    "title": "Release Information for Laserfiche 10.4 Products",
+    "url": "https://support.laserfiche.com/kb/1014027/release-information-for-laserfiche-10-4-products",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_INFORMATION_FOR_LASERFICHE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014389",
+    "title": "Release Information for Laserfiche 10.4",
+    "url": "https://support.laserfiche.com/kb/1014389/release-information-for-laserfiche-10-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_INFORMATION_FOR_LASERFICHE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014512",
+    "title": "Release Notes for Directory Server 11 Update 6",
+    "url": "https://support.laserfiche.com/kb/1014512/release-notes-for-directory-server-11-update-6",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014491",
+    "title": "Release Notes for Directory Server 11 Update 5",
+    "url": "https://support.laserfiche.com/kb/1014491/release-notes-for-directory-server-11-update-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014373",
+    "title": "Release Notes for Directory Server 11 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014373/release-notes-for-directory-server-11-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014444",
+    "title": "Release Notes for Directory Server 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014444/release-notes-for-directory-server-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014097",
+    "title": "Release Notes for Directory Server 10.4.3",
+    "url": "https://support.laserfiche.com/kb/1014097/release-notes-for-directory-server-10-4-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014249",
+    "title": "Release Notes for Directory Server 11",
+    "url": "https://support.laserfiche.com/kb/1014249/release-notes-for-directory-server-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014192",
+    "title": "Release Notes for Directory Server 10.4.5",
+    "url": "https://support.laserfiche.com/kb/1014192/release-notes-for-directory-server-10-4-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014160",
+    "title": "Release Notes for Directory Server 10.4.4",
+    "url": "https://support.laserfiche.com/kb/1014160/release-notes-for-directory-server-10-4-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013927",
+    "title": "Release Notes For Directory Server 10.3.",
+    "url": "https://support.laserfiche.com/kb/1013927/release-notes-for-directory-server-10-3-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014022",
+    "title": "Release Notes for Directory Server 10.4.",
+    "url": "https://support.laserfiche.com/kb/1014022",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014044",
+    "title": "Release Notes for Directory Server 10.4.2.",
+    "url": "https://support.laserfiche.com/kb/1014044",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_DIRECTORY_SERVER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013976",
+    "title": "Release Notes for Laserfiche Directory Server 10.3.1.",
+    "url": "https://support.laserfiche.com/kb/1013976/release-notes-for-laserfiche-directory-server-10-3-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_LASERFICHE_DIREC"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013877",
+    "title": "Release Notes for Laserfiche Directory Server 10.2.",
+    "url": "https://support.laserfiche.com/kb/1013877/release-notes-for-laserfiche-directory-server-10-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_LASERFICHE_DIREC"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014201",
+    "title": "Release Notes for Laserfiche Forms 10.4.5",
+    "url": "https://support.laserfiche.com/kb/1014201/release-notes-for-laserfiche-forms-10-4-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014172",
+    "title": "Release Notes for Laserfiche Forms 10.4.4",
+    "url": "https://support.laserfiche.com/kb/1014172/release-notes-for-laserfiche-forms-10-4-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014115",
+    "title": "Release Notes for Laserfiche Forms 10.4.3",
+    "url": "https://support.laserfiche.com/kb/1014115/release-notes-for-laserfiche-forms-10-4-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014288",
+    "title": "The Laserfiche Directory Server's primary license automatic renewal is not successful",
+    "url": "https://support.laserfiche.com/kb/1014288/the-laserfiche-directory-servers-primary-license-automatic-renewal-is-not-successful",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-THE_LASERFICHE_DIRECTORY_SERVER_S_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014506",
+    "title": "Troubleshooting License Renewal",
+    "url": "https://support.laserfiche.com/kb/1014506/troubleshooting-license-renewal",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-TROUBLESHOOTING_LICENSE_RENEWAL"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013915",
+    "title": "Users may not be able to sign in to the Laserfiche app if authenticating through Laserfiche Directory Server without an alternate service configured or a UPN that matches the Laser",
+    "url": "https://support.laserfiche.com/kb/1013915/users-may-not-be-able-to-sign-in-to-the-laserfiche-app-if-authenticating-through-laserfiche-directory-server-without-an-alternate-service-configured-or-a-upn-that-matches-the-laserfiche-directory-server",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-USERS_MAY_NOT_BE_ABLE_TO_SIGN_IN_T"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014223",
+    "title": "When Accessing the Laserfiche Directory Server Security Token Service Configuration Page, You May Receive the Following Error Message: \"The resource cannot be found.\"",
+    "url": "https://support.laserfiche.com/kb/1014223/when-accessing-the-laserfiche-directory-server-security-token-service-configuration-page-you-may-receive-the-following-error-message-the-resource-cannot-be-found-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-WHEN_ACCESSING_THE_LASERFICHE_DIRE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014165",
+    "title": "When Trying to Attach a Licensing Site in Laserfiche Directory Server 10.4.3, You May Receive the Following Error Message: \"The licensing site is in a locked down state with limite",
+    "url": "https://support.laserfiche.com/kb/1014165",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-WHEN_TRYING_TO_ATTACH_A_LICENSING_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014041",
+    "title": "While Making Changes in Laserfiche Directory Server, You Receive the Error \"The given key was not present in the dictionary.\"",
+    "url": "https://support.laserfiche.com/kb/1014041/while-making-changes-in-laserfiche-directory-server-you-receive-the-error-the-given-key-was-not-present-in-the-dictionary-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-WHILE_MAKING_CHANGES_IN_LASERFICHE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014312",
+    "title": "Why does Laserfiche Directory Server prompt for Credentials when attempting to query Active Directory?",
+    "url": "https://support.laserfiche.com/kb/1014312/why-does-laserfiche-directory-server-prompt-for-credentials-when-attempting-to-query-active-directory-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-WHY_DOES_LASERFICHE_DIRECTORY_SERV"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014262",
+    "title": "Windows Authentication fails after upgrading Directory Server",
+    "url": "https://support.laserfiche.com/kb/1014262/windows-authentication-fails-after-upgrading-directory-server",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-WINDOWS_AUTHENTICATION_FAILS_AFTER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014252",
+    "title": "Windows Authentication fails due to an incorrect automatic setting in the UserSettings.config file",
+    "url": "https://support.laserfiche.com/kb/1014252/windows-authentication-fails-due-to-an-incorrect-automatic-setting-in-the-usersettings-config-file-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-WINDOWS_AUTHENTICATION_FAILS_DUE_T"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014149",
+    "title": "Workflow Custom Activity Setup for Laserfiche Directory Server SDK",
+    "url": "https://support.laserfiche.com/kb/1014149/workflow-custom-activity-setup-for-laserfiche-directory-server-sdk",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Directory Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFDS-WORKFLOW_CUSTOM_ACTIVITY_SETUP_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013804",
+    "title": "A \"The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)\" Error Occurs when Accessing Forms.",
+    "url": "https://support.laserfiche.com/kb/1013804/a-the-rpc-server-is-unavailable-exception-from-hresult-0x800706ba-error-occurs-when-accessing-forms-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "0x800706BA"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013148",
+    "title": "A \"Service Unavailable HTTP Error 503. The service is unavailable\" Error Displays When Loading the Laserfiche Forms Configuration Page.",
+    "url": "https://support.laserfiche.com/kb/1013148/a-service-unavailable-http-error-503-the-service-is-unavailable-error-displays-when-loading-the-laserfiche-forms-configuration-page-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "503"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000532",
+    "title": "An \"Error 1355.\" Error Occurs in the Application Event Viewer.",
+    "url": "https://support.laserfiche.com/kb/1000532/an-error-1355-error-occurs-in-the-application-event-viewer-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "1355"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014066",
+    "title": "While Installing Laserfiche Forms, You May Receive the Following Error Message: \"Error 1923. Service 'Laserfiche Forms Routing Service' (Laserfiche Forms Routing Service) could not",
+    "url": "https://support.laserfiche.com/kb/1014066/while-installing-laserfiche-forms-you-may-receive-the-following-error-message-error-1923-service-laserfiche-forms-routing-service-laserfiche-forms-routing-service-could-not-be-installed-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "1923"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014143",
+    "title": "When Running the \"Save to Repository\" Service Task on Laserfiche Forms, You May Receive the Following Error Message: \"File input/output error. [9004].\"",
+    "url": "https://support.laserfiche.com/kb/1014143/when-running-the-save-to-repository-service-task-on-laserfiche-forms-you-may-receive-the-following-error-message-file-input-output-error-9004-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "9004"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013640",
+    "title": "A \"Forms: The underlying connection was closed, Could not establish trust relationship for the SSL/TLS secure channel\" Error Occurs When Adding a Forms Server On the Mobile Configu",
+    "url": "https://support.laserfiche.com/kb/1013640/a-forms-the-underlying-connection-was-closed-could-not-establish-trust-relationship-for-the-ssl-tls-secure-channel-error-occurs-when-adding-a-forms-server-on-the-mobile-configuration-page",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-A_FORMS_THE_UNDERLYING_CONNECTION_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014518",
+    "title": "Improving performance in Laserfiche Forms versions 10.3.1 onward",
+    "url": "https://support.laserfiche.com/kb/1014518/improving-performance-in-laserfiche-forms-versions-10-3-1-onward",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-IMPROVING_PERFORMANCE_IN_LASERFICH"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014485",
+    "title": "Laserfiche Forms Technical Support Checklist",
+    "url": "https://support.laserfiche.com/kb/1014485/laserfiche-forms-technical-support-checklist",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LASERFICHE_FORMS_TECHNICAL_SUPPORT"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014318",
+    "title": "List of Changes for Forms 10.4.5 Hotfix 1014318",
+    "url": "https://support.laserfiche.com/kb/1014318/list-of-changes-for-forms-10-4-5-hotfix-1014318",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_FORMS_10_4_5_H"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014496",
+    "title": "List of Changes for Laserfiche Forms 11 Update 5",
+    "url": "https://support.laserfiche.com/kb/1014496/list-of-changes-for-laserfiche-forms-11-update-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014413",
+    "title": "List of Changes for Laserfiche Forms 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014413/list-of-changes-for-laserfiche-forms-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014469",
+    "title": "List of Changes for Laserfiche Forms 11 Update 4",
+    "url": "https://support.laserfiche.com/kb/1014469/list-of-changes-for-laserfiche-forms-11-update-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014265",
+    "title": "List of Changes for Laserfiche Forms 11",
+    "url": "https://support.laserfiche.com/kb/1014265/list-of-changes-for-laserfiche-forms-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014449",
+    "title": "List of Changes for Laserfiche Forms 11 Update 3 Hotfix 1014449",
+    "url": "https://support.laserfiche.com/kb/1014449/list-of-changes-for-laserfiche-forms-11-update-3-hotfix-1014449",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014333",
+    "title": "List of Changes for Laserfiche Forms 10.4.5 Update 1",
+    "url": "https://support.laserfiche.com/kb/1014333/list-of-changes-for-laserfiche-forms-10-4-5-update-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013806",
+    "title": "List of Changes for Laserfiche Forms 10.1 Update 3.",
+    "url": "https://support.laserfiche.com/kb/1013806/list-of-changes-for-laserfiche-forms-10-1-update-3-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013870",
+    "title": "List of Changes for Laserfiche Forms 10.2.1 Update 1.",
+    "url": "https://support.laserfiche.com/kb/1013870/list-of-changes-for-laserfiche-forms-10-2-1-update-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013775",
+    "title": "List of Changes for Laserfiche Forms 10.1 Update 1.",
+    "url": "https://support.laserfiche.com/kb/1013775/list-of-changes-for-laserfiche-forms-10-1-update-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013981",
+    "title": "List of Changes for Laserfiche Forms 10.4",
+    "url": "https://support.laserfiche.com/kb/1013981/list-of-changes-for-laserfiche-forms-10-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013930",
+    "title": "List of Changes for Laserfiche Forms 10.3.1",
+    "url": "https://support.laserfiche.com/kb/1013930/list-of-changes-for-laserfiche-forms-10-3-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013903",
+    "title": "List of Changes for Laserfiche Forms 10.3",
+    "url": "https://support.laserfiche.com/kb/1013903/list-of-changes-for-laserfiche-forms-10-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014421",
+    "title": "List of Changes for Laserfiche Forms 10.4.5 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014421/list-of-changes-for-laserfiche-forms-10-4-5-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014017",
+    "title": "List of Changes for Laserfiche Forms 10.3.1 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014017/list-of-changes-for-laserfiche-forms-10-3-1-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014320",
+    "title": "List of Changes for Laserfiche Forms 10.4.4 Update 1",
+    "url": "https://support.laserfiche.com/kb/1014320/list-of-changes-for-laserfiche-forms-10-4-4-update-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013834",
+    "title": "List of Changes for Laserfiche Forms 10.2 Update 1.",
+    "url": "https://support.laserfiche.com/kb/1013834/list-of-changes-for-laserfiche-forms-10-2-update-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013880",
+    "title": "List of Changes for Laserfiche Forms 10.2.1 Update 2.",
+    "url": "https://support.laserfiche.com/kb/1013880/list-of-changes-for-laserfiche-forms-10-2-1-update-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014169",
+    "title": "List of Changes for Laserfiche Forms 10.4.4",
+    "url": "https://support.laserfiche.com/kb/1014169/list-of-changes-for-laserfiche-forms-10-4-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014151",
+    "title": "List of Changes for Laserfiche Forms 10.4.3 Update 1",
+    "url": "https://support.laserfiche.com/kb/1014151/list-of-changes-for-laserfiche-forms-10-4-3-update-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014109",
+    "title": "List of Changes for Laserfiche Forms 10.4.1 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014109/list-of-changes-for-laserfiche-forms-10-4-1-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014098",
+    "title": "List of Changes for Laserfiche Forms 10.3.1 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014098/list-of-changes-for-laserfiche-forms-10-3-1-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014095",
+    "title": "List of Changes for Laserfiche Forms 10.2.1 Update 5",
+    "url": "https://support.laserfiche.com/kb/1014095/list-of-changes-for-laserfiche-forms-10-2-1-update-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_LASERFICHE_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014191",
+    "title": "List of Changes for the July 17, 2020 Laserfiche iOS App",
+    "url": "https://support.laserfiche.com/kb/1014191/list-of-changes-for-the-july-17-2020-laserfiche-ios-app",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-LIST_OF_CHANGES_FOR_THE_JULY_17_20"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014543",
+    "title": "PDF generation fails when using Google Chrome or Microsoft Edge for PuppeteerExecutablePath in Forms 11 Update 2 or later",
+    "url": "https://support.laserfiche.com/kb/1014543/pdf-generation-fails-when-using-google-chrome-or-microsoft-edge-for-puppeteerexecutablepath-in-forms-11-update-2-or-later",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-PDF_GENERATION_FAILS_WHEN_USING_GO"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014497",
+    "title": "Release Notes for Laserfiche Forms 11 Update 5",
+    "url": "https://support.laserfiche.com/kb/1014497/release-notes-for-laserfiche-forms-11-update-5",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014414",
+    "title": "Release Notes for Laserfiche Forms 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014414/release-notes-for-laserfiche-forms-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014302",
+    "title": "Release Notes for Laserfiche Forms 11 Update 1",
+    "url": "https://support.laserfiche.com/kb/1014302/release-notes-for-laserfiche-forms-11-update-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014351",
+    "title": "Release Notes for Laserfiche Forms 11 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014351/release-notes-for-laserfiche-forms-11-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014084",
+    "title": "Release Notes for Laserfiche Forms 10.4.2",
+    "url": "https://support.laserfiche.com/kb/1014084/release-notes-for-laserfiche-forms-10-4-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014053",
+    "title": "Release Notes for Laserfiche Forms 10.4.1",
+    "url": "https://support.laserfiche.com/kb/1014053/release-notes-for-laserfiche-forms-10-4-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013982",
+    "title": "Release Notes for Laserfiche Forms 10.4",
+    "url": "https://support.laserfiche.com/kb/1013982/release-notes-for-laserfiche-forms-10-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013929",
+    "title": "Release Notes for Laserfiche Forms 10.3.1",
+    "url": "https://support.laserfiche.com/kb/1013929/release-notes-for-laserfiche-forms-10-3-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "FORMS-RELEASE_NOTES_FOR_LASERFICHE_FORMS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014420",
+    "title": "A \"Error reading XML file - Name cannot begin with the ';' character” Error Occurs When Attempting to Upload Process",
+    "url": "https://support.laserfiche.com/kb/1014420/a-error-reading-xml-file-name-cannot-begin-with-the-character-error-occurs-when-attempting-to-upload-process",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFF317"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014406",
+    "title": "The Chromium browser used by the PDF generator was not installed correctly. [LFF326-HTMLtoPDFDirectoryNotFound] when using Forms to save to a repository",
+    "url": "https://support.laserfiche.com/kb/1014406/the-chromium-browser-used-by-the-pdf-generator-was-not-installed-correctly-lff326-htmltopdfdirectorynotfound-when-using-forms-to-save-to-a-repository",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFF326"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014002",
+    "title": "List of Changes for Laserfiche Forms 10.3.1 Hotfix 1014002.",
+    "url": "https://support.laserfiche.com/kb/1014002/list-of-changes-for-laserfiche-forms-10-3-1-hotfix-1014002-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFF502"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014470",
+    "title": "Release Notes for Laserfiche Forms 11 Update 4",
+    "url": "https://support.laserfiche.com/kb/1014470/release-notes-for-laserfiche-forms-11-update-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFF2105"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014301",
+    "title": "List of Changes for Forms 11 Update 1",
+    "url": "https://support.laserfiche.com/kb/1014301/list-of-changes-for-forms-11-update-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFF3602"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014266",
+    "title": "Release Notes for Laserfiche Forms 11",
+    "url": "https://support.laserfiche.com/kb/1014266/release-notes-for-laserfiche-forms-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Forms",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFF3602"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012283",
+    "title": "A \"Class not licensed.\" Error Occurs When Using Import Agent 7 after Installing Laserfiche Client 8.1.x.",
+    "url": "https://support.laserfiche.com/kb/1012283/a-class-not-licensed-error-occurs-when-using-import-agent-7-after-installing-laserfiche-client-8-1-x-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Import Agent",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "IMPORT-A_CLASS_NOT_LICENSED_ERROR_OCCURS_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014408",
+    "title": "List of Changes for Import Agent 10.4.0 Update 7",
+    "url": "https://support.laserfiche.com/kb/1014408/list-of-changes-for-import-agent-10-4-0-update-7",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Import Agent",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "IMPORT-LIST_OF_CHANGES_FOR_IMPORT_AGENT_1"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000989",
+    "title": "An \"Internal Error 2755. 3 Path\\myapp.msi\" Error Occurs During Installation.",
+    "url": "https://support.laserfiche.com/kb/1000989/an-internal-error-2755-3-path-myapp-msi-error-occurs-during-installation-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Installer",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "2755"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011654",
+    "title": "An \"Internal Error 2908\" Error Occurs During Installation.",
+    "url": "https://support.laserfiche.com/kb/1011654/an-internal-error-2908-error-occurs-during-installation-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Installer",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "2908"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000988",
+    "title": "License File Locations.",
+    "url": "https://support.laserfiche.com/kb/1000988/license-file-locations-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Installer",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "INSTALLER-LICENSE_FILE_LOCATIONS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012734",
+    "title": "List of Changes for License Manager 8.2",
+    "url": "https://support.laserfiche.com/kb/1012734/list-of-changes-for-license-manager-8-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Installer",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "INSTALLER-LIST_OF_CHANGES_FOR_LICENSE_MANAGE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011752",
+    "title": "An \"Error 80040082\" Error Occurs when Publishing a Packet with Multi-Page TIFF Reports.",
+    "url": "https://support.laserfiche.com/kb/1011752/an-error-80040082-error-occurs-when-publishing-a-packet-with-multi-page-tiff-reports-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "0x80040082"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000787",
+    "title": "An \"Error 261\" Error Occurs When Registering a Repository.",
+    "url": "https://support.laserfiche.com/kb/1000787/an-error-261-error-occurs-when-registering-a-repository-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "261"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012452",
+    "title": "Laserfiche Server Specifications/System Limits",
+    "url": "https://support.laserfiche.com/kb/1012452/laserfiche-server-specifications-system-limits",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "400"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013363",
+    "title": "A \"Network Error: The remote server returned an error: (404) Not Found.\" Error Occurs When Starting a Business Process From Laserfiche Client 9.",
+    "url": "https://support.laserfiche.com/kb/1013363/a-network-error-the-remote-server-returned-an-error-404-not-found-error-occurs-when-starting-a-business-process-from-laserfiche-client-9-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "404"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013442",
+    "title": "A \"Calling LoadLibraryEx on ISAPI filter \"C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\\\aspnet_filter.dll\" failed\" Error Occurs When Loading A Laserfiche Web Application Hosted On",
+    "url": "https://support.laserfiche.com/kb/1013442/a-calling-loadlibraryex-on-isapi-filter-c-windows-microsoft-net-framework-v4-0-30319-aspnet_filter-dll-failed-error-occurs-when-loading-a-laserfiche-web-application-hosted-on-a-64-bit-web-server-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "500"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012708",
+    "title": "A \"No response receive from the server. [780]\" Error Occurs When Merging Field Definitions in the Laserfiche 8 Administration Console.",
+    "url": "https://support.laserfiche.com/kb/1012708/a-no-response-receive-from-the-server-780-error-occurs-when-merging-field-definitions-in-the-laserfiche-8-administration-console-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "780"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012887",
+    "title": "An \"Operation timed out. [784]\" Error Occurs When Logging In To Laserfiche 8 Or Higher Using Windows Authentication.",
+    "url": "https://support.laserfiche.com/kb/1012887/an-operation-timed-out-784-error-occurs-when-logging-in-to-laserfiche-8-or-higher-using-windows-authentication-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "784"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014064",
+    "title": "404: Not Found",
+    "url": "https://support.laserfiche.com/kb/1014064/while-performing-actions-that-modify-record-folders-in-laserfiche-windows-client-you-may-see-errors-in-the-client-application-similar-to-error-784-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "784"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012568",
+    "title": "An \"Error 797\" Occurs When Connecting to Laserfiche Server.",
+    "url": "https://support.laserfiche.com/kb/1012568/an-error-797-occurs-when-connecting-to-laserfiche-server-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "797"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011969",
+    "title": "An \"Error 1304 Error writing to file: Interop.LFSO80Lib.dll\" Error Occurs When Installing Laserfiche Server.",
+    "url": "https://support.laserfiche.com/kb/1011969/an-error-1304-error-writing-to-file-interop-lfso80lib-dll-error-occurs-when-installing-laserfiche-server-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "1304"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012070",
+    "title": "An \"Error 1324. The folder path 'FolderName' contains an invalid character.\" Error Occurs When Installing Laserfiche.",
+    "url": "https://support.laserfiche.com/kb/1012070/an-error-1324-the-folder-path-i-foldername-i-contains-an-invalid-character-error-occurs-when-installing-laserfiche-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "1324"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012562",
+    "title": "A \"Error 1609. An error occurred while applying security settings. Users is not a valid user or group.\" Error Message Occurs When Installing the Laserfiche Records Center SharePoin",
+    "url": "https://support.laserfiche.com/kb/1012562/a-error-1609-an-error-occurred-while-applying-security-settings-users-is-not-a-valid-user-or-group-error-message-occurs-when-installing-the-laserfiche-records-center-sharepoint-integration-on-a-non-english-version-of-windows-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "1609"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011730",
+    "title": "An \"Error 1904\" Error Occurs When Installing the Laserfiche Client.",
+    "url": "https://support.laserfiche.com/kb/1011730/an-error-1904-error-occurs-when-installing-the-laserfiche-client-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "1904"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012829",
+    "title": "An \"Error 1935\" Error Message Occurs When Installing Laserfiche 8 on a Windows Vista or Windows 7 Computer.",
+    "url": "https://support.laserfiche.com/kb/1012829/an-error-1935-error-message-occurs-when-installing-laserfiche-8-on-a-windows-vista-or-windows-7-computer-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "1935"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011707",
+    "title": "An \"Internal Error 2203\" Error Occurs When Installing Laserfiche.",
+    "url": "https://support.laserfiche.com/kb/1011707/an-internal-error-2203-error-occurs-when-installing-laserfiche-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "2203"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011232",
+    "title": "An \"Error:3169 The backed up database has on-disk structure version 611.\" Error Occurs When Restoring Your SQL Database Backup.",
+    "url": "https://support.laserfiche.com/kb/1011232/an-error-3169-the-backed-up-database-has-on-disk-structure-version-611-error-occurs-when-restoring-your-sql-database-backup-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "3169"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000547",
+    "title": "An \"Error Code 4001. (0)\" or \"Error Code 4003. (0)\" Error Occurs When OCRing.",
+    "url": "https://support.laserfiche.com/kb/1000547/an-error-code-4001-0-or-error-code-4003-0-error-occurs-when-ocring-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "4001",
+      "4003"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000737",
+    "title": "An \"Error 6000: Unknown Error\" Error Occurs When Logging in to a Repository.",
+    "url": "https://support.laserfiche.com/kb/1000737/an-error-6000-unknown-error-error-occurs-when-logging-in-to-a-repository-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "6000"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012169",
+    "title": "An \"Unknown error. [6000:3221225477]\" Error Occurs When Printing From Laserfiche.",
+    "url": "https://support.laserfiche.com/kb/1012169/an-unknown-error-6000-3221225477-error-occurs-when-printing-from-laserfiche-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "6000"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011052",
+    "title": "A \"[7024] Attach repository failed: The number of repositories would exceed the licensed limit\" Error Occurs When Registering or Creating a Repository.",
+    "url": "https://support.laserfiche.com/kb/1011052/a-7024-attach-repository-failed-the-number-of-repositories-would-exceed-the-licensed-limit-error-occurs-when-registering-or-creating-a-repository-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "7024"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011038",
+    "title": "An \"Error determining word locations. Error executing SQL command [7050]\" Error Occurs When Applying Linked Text Annotations",
+    "url": "https://support.laserfiche.com/kb/1011038/an-error-determining-word-locations-error-executing-sql-command-7050-error-occurs-when-applying-linked-text-annotations",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "7050"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000852",
+    "title": "An \"Error 7050.\" Error Occurs When Registering a Repository.",
+    "url": "https://support.laserfiche.com/kb/1000852/an-error-7050-error-occurs-when-registering-a-repository-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "7050"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1001024",
+    "title": "A \"Error executing SQL command [7050]\" Error Occurs When Performing Records Management Actions on a Deeply-Nested Folder.",
+    "url": "https://support.laserfiche.com/kb/1001024/a-error-executing-sql-command-7050-error-occurs-when-performing-records-management-actions-on-a-deeply-nested-folder-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "7050"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011870",
+    "title": "An \"Error executing SQL command [7050].\" Error Occurs When Copying or Moving a Document.",
+    "url": "https://support.laserfiche.com/kb/1011870/an-error-executing-sql-command-7050-error-occurs-when-copying-or-moving-a-document-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "7050"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011015",
+    "title": "A \"Failed to load thumbnails. Error executing SQL command [7050]\" Error Occurs When Opening a Document.",
+    "url": "https://support.laserfiche.com/kb/1011015/a-failed-to-load-thumbnails-error-executing-sql-command-7050-error-occurs-when-opening-a-document-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "7050",
+      "7582"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-90200",
+    "title": "7050: Microsoft SQL Server Error",
+    "url": "https://support.laserfiche.com/kb/90200/7050-microsoft-sql-server-error",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "7050"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011860",
+    "title": "An \"Error: Cannot open files (7361)\" Error Occurs When Sending Documents From Laserfiche Scanning.",
+    "url": "https://support.laserfiche.com/kb/1011860/an-error-cannot-open-files-7361-error-occurs-when-sending-documents-from-laserfiche-scanning-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "7361"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000662",
+    "title": "An \"Error cannot create file 7366.\" Error Occurs When Publishing.",
+    "url": "https://support.laserfiche.com/kb/1000662/an-error-cannot-create-file-7366-error-occurs-when-publishing-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "7366"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000844",
+    "title": "A \"The Laserfiche Server encountered an error when trying to attach the repository. Error 7826.\" Error Occurs When Attaching a Repository.",
+    "url": "https://support.laserfiche.com/kb/1000844/a-the-laserfiche-server-encountered-an-error-when-trying-to-attach-the-repository-error-7826-error-occurs-when-attaching-a-repository-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "7826"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000451",
+    "title": "An \"8000: Unknown error.\" Error Occurs When Logging in to a Repository.",
+    "url": "https://support.laserfiche.com/kb/1000451/an-8000-unknown-error-error-occurs-when-logging-in-to-a-repository-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "8000"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013181",
+    "title": "An \"Error encountered while confirming final disposition. See the error log for details. Entry not found. [9001]\" Error Occurs When Performing Final Disposition On A Record Folder.",
+    "url": "https://support.laserfiche.com/kb/1013181/an-error-encountered-while-confirming-final-disposition-see-the-error-log-for-details-entry-not-found-9001-error-occurs-when-performing-final-disposition-on-a-record-folder-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "9001"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012162",
+    "title": "An \"Error 9008 (error executing SQL command)\" Error Occurs When Migrating Multi-Page Documents.",
+    "url": "https://support.laserfiche.com/kb/1012162/an-error-9008-error-executing-sql-command-error-occurs-when-migrating-multi-page-documents-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "9008"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012566",
+    "title": "Troubleshooting \"General database error. [9008]\" Errors in Laserfiche 8.",
+    "url": "https://support.laserfiche.com/kb/1012566/troubleshooting-general-database-error-9008-errors-in-laserfiche-8-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "9008"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012136",
+    "title": "A \"General Database Error [9008].\" Error Occurs When Using Laserfiche.",
+    "url": "https://support.laserfiche.com/kb/1012136/a-general-database-error-9008-error-occurs-when-using-laserfiche-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "9008"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012259",
+    "title": "An \"Error reading repository information, or repository misconfigured [9025].\" Error Occurs When the Laserfiche Server Starts on a Failover Computer.",
+    "url": "https://support.laserfiche.com/kb/1012259/an-error-reading-repository-information-or-repository-misconfigured-9025-error-occurs-when-the-laserfiche-server-starts-on-a-failover-computer-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "9025"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013412",
+    "title": "A \"The search engine encountered an internal error. Please check the search engine error log for more details. [9132]\" Error Occurs When Creating A Search Catalog After Migrating F",
+    "url": "https://support.laserfiche.com/kb/1013412/a-the-search-engine-encountered-an-internal-error-please-check-the-search-engine-error-log-for-more-details-9132-error-occurs-when-creating-a-search-catalog-after-migrating-from-laserfiche-7-to-laserfiche-9-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "9132"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013549",
+    "title": "An \"Error reading repository information, or the repository is misconfigured. [9025]\" Error Occurs When Creating A Repository And The Laserfiche Server Is Running As A Local Machin",
+    "url": "https://support.laserfiche.com/kb/1013549/an-error-reading-repository-information-or-the-repository-is-misconfigured-9025-error-occurs-when-creating-a-repository-and-the-laserfiche-server-is-running-as-a-local-machine-account-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "18456",
+      "9025"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013637",
+    "title": "The Laserfiche Social BPM 9.2 Preview Configuration Page Displays An \"ERROR [42000] [Microsoft][SQL Native Client][SQL Server]Invalid filegroup 'LfAnswersStreamGroup1' specified\" M",
+    "url": "https://support.laserfiche.com/kb/1013637/the-laserfiche-social-bpm-9-2-preview-configuration-page-displays-an-error-42000-microsoft-sql-native-client-sql-server-invalid-filegroup-lfanswersstreamgroup1-specified-message-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "42000"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-90190",
+    "title": "7030: The SQL Database Engine has encountered an unexpected error and is unable to continue. Check error log for more information.",
+    "url": "https://support.laserfiche.com/kb/90190/7030-the-sql-database-engine-has-encountered-an-unexpected-error-and-is-unable-to-continue-check-error-log-for-more-information-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-7030_THE_SQL_DATABASE_ENGINE_HAS_E"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000255",
+    "title": "A \"5851: Internal security error.\" Error Occurs When Selecting a User Name in the User Manager.",
+    "url": "https://support.laserfiche.com/kb/1000255/a-5851-internal-security-error-error-occurs-when-selecting-a-user-name-in-the-user-manager-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_5851_INTERNAL_SECURITY_ERROR_ERR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000443",
+    "title": "A \"6516: Error loading library.\" Error Occurs When Scanning.",
+    "url": "https://support.laserfiche.com/kb/1000443/a-6516-error-loading-library-error-occurs-when-scanning-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_6516_ERROR_LOADING_LIBRARY_ERROR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000595",
+    "title": "A \"7030: The SQL Database Engine has encountered an unexpected error and is unable to continue.\" Error Occurs When Creating a Database.",
+    "url": "https://support.laserfiche.com/kb/1000595/a-7030-the-sql-database-engine-has-encountered-an-unexpected-error-and-is-unable-to-continue-error-occurs-when-creating-a-database-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_7030_THE_SQL_DATABASE_ENGINE_HAS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011190",
+    "title": "A \"7050 error executing SQL command\" Error Occurs When Viewing a Folder.",
+    "url": "https://support.laserfiche.com/kb/1011190/a-7050-error-executing-sql-command-error-occurs-when-viewing-a-folder-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_7050_ERROR_EXECUTING_SQL_COMMAND"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000363",
+    "title": "A \"8000: Unknown error.\" Error Occurs when OCRing Documents.",
+    "url": "https://support.laserfiche.com/kb/1000363/a-8000-unknown-error-error-occurs-when-ocring-documents-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_8000_UNKNOWN_ERROR_ERROR_OCCURS_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013052",
+    "title": "A \"Cannot find row in sysindexes for database ID\" Error Occurs When Attaching Or Restoring A Microsoft SQL Server Database.",
+    "url": "https://support.laserfiche.com/kb/1013052/a-cannot-find-row-in-sysindexes-for-database-id-error-occurs-when-attaching-or-restoring-a-microsoft-sql-server-database-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_CANNOT_FIND_ROW_IN_SYSINDEXES_FO"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011702",
+    "title": "A \"Catastrophic failure\" Error Occurs When Sending Documents.",
+    "url": "https://support.laserfiche.com/kb/1011702/a-catastrophic-failure-error-occurs-when-sending-documents-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_CATASTROPHIC_FAILURE_ERROR_OCCUR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012402",
+    "title": "A \"Database already has an active license. 2108\" Error Occurs When Adding a New Primary License with Laserfiche Rio 8.1.",
+    "url": "https://support.laserfiche.com/kb/1012402/a-database-already-has-an-active-license-2108-error-occurs-when-adding-a-new-primary-license-with-laserfiche-rio-8-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_DATABASE_ALREADY_HAS_AN_ACTIVE_L"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1001041",
+    "title": "A \"[DBNETLIB][ConnectionOpen (Connect()).] Specified SQL server not found\" Error Occurs During SQL Database Creation.",
+    "url": "https://support.laserfiche.com/kb/1001041/a-dbnetlib-connectionopen-connect-specified-sql-server-not-found-error-occurs-during-sql-database-creation-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_DBNETLIB_CONNECTIONOPEN_CONNECT_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011847",
+    "title": "A \"Feature Transfer Error\" Error Occurs When Installing Laserfiche Scanning.",
+    "url": "https://support.laserfiche.com/kb/1011847/a-feature-transfer-error-error-occurs-when-installing-laserfiche-scanning-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_FEATURE_TRANSFER_ERROR_ERROR_OCC"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012325",
+    "title": "A \"License expired.\" Error Occurs When Using Laserfiche On Windows Vista.",
+    "url": "https://support.laserfiche.com/kb/1012325/a-license-expired-error-occurs-when-using-laserfiche-on-windows-vista-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_LICENSE_EXPIRED_ERROR_OCCURS_WHE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000553",
+    "title": "A \"MDIAPP Error received: error code = -5\" Error Occurs When Starting the LaserFiche Client.",
+    "url": "https://support.laserfiche.com/kb/1000553/a-mdiapp-error-received-error-code-5-error-occurs-when-starting-the-laserfiche-client-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_MDIAPP_ERROR_RECEIVED_ERROR_CODE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014412",
+    "title": "A \"[Microsoft][ODBC SQL Server Driver] Protocol error in TDS Stream\" Error Occurs When Attempting to Connect to a Database through Microsoft ODBC SQL Server Driver.",
+    "url": "https://support.laserfiche.com/kb/1014412/a-microsoft-odbc-sql-server-driver-protocol-error-in-tds-stream-error-occurs-when-attempting-to-connect-to-a-database-through-microsoft-odbc-sql-server-driver-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_MICROSOFT_ODBC_SQL_SERVER_DRIVER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013569",
+    "title": "A \"Retrieving the COM class factory for component with CLSID {D94D3976-B933-495E-AD3E-9D6FA6CB418D} failed due to the following error: 80080005\" Error Occurs In Laserfiche Scanning",
+    "url": "https://support.laserfiche.com/kb/1013569/a-retrieving-the-com-class-factory-for-component-with-clsid-d94d3976-b933-495e-ad3e-9d6fa6cb418d-failed-due-to-the-following-error-80080005-error-occurs-in-laserfiche-scanning-9-1-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_RETRIEVING_THE_COM_CLASS_FACTORY"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011112",
+    "title": "A \"SQL cannot create the database\" Error Occurs When Creating a New Repository.",
+    "url": "https://support.laserfiche.com/kb/1011112/a-sql-cannot-create-the-database-error-occurs-when-creating-a-new-repository-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_SQL_CANNOT_CREATE_THE_DATABASE_E"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013516",
+    "title": "A \"The named user account license database could not be opened.\" Error Occurs When Starting The Laserfiche Server Service.",
+    "url": "https://support.laserfiche.com/kb/1013516/a-the-named-user-account-license-database-could-not-be-opened-error-occurs-when-starting-the-laserfiche-server-service-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_THE_NAMED_USER_ACCOUNT_LICENSE_D"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013178",
+    "title": "A \"The request exceeds the full named user license limit. [2071]\" Error Occurs When Registering a New Named User.",
+    "url": "https://support.laserfiche.com/kb/1013178/a-the-request-exceeds-the-full-named-user-license-limit-2071-error-occurs-when-registering-a-new-named-user-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_THE_REQUEST_EXCEEDS_THE_FULL_NAM"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012434",
+    "title": "A \"The resources allocated by the licensing database 'DatabaseName' exceed the limits specified by the primary license. (2061)\" Error Occurs When Adding a New Primary License.",
+    "url": "https://support.laserfiche.com/kb/1012434/a-the-resources-allocated-by-the-licensing-database-databasename-exceed-the-limits-specified-by-the-primary-license-2061-error-occurs-when-adding-a-new-primary-license-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_THE_RESOURCES_ALLOCATED_BY_THE_L"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012767",
+    "title": "A \"The XML digital signature checker failed to initialize. (2038)\" Error Occurs When Adding A Primary License In The License Manager 8 Administration Console.",
+    "url": "https://support.laserfiche.com/kb/1012767/a-the-xml-digital-signature-checker-failed-to-initialize-2038-error-occurs-when-adding-a-primary-license-in-the-license-manager-8-administration-console-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-A_THE_XML_DIGITAL_SIGNATURE_CHECKE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000600",
+    "title": "An \"[7030.7023] [DBNET LIB][ConnectionOpen (Connect()).]SQL Server Does Not Exist or Access Denied.\" Error Occurs When Starting the LaserFIche for Microsoft SQL Server Service.",
+    "url": "https://support.laserfiche.com/kb/1000600/an-7030-7023-dbnet-lib-connectionopen-connect-sql-server-does-not-exist-or-access-denied-error-occurs-when-starting-the-laserfiche-for-microsoft-sql-server-service-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-AN_7030_7023_DBNET_LIB_CONNECTIONO"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013682",
+    "title": "An \"9004 - File input/output error.\" Error Occurs When Registering a Laserfiche 9 Repository.",
+    "url": "https://support.laserfiche.com/kb/1013682/an-9004-file-input-output-error-error-occurs-when-registering-a-laserfiche-9-repository-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-AN_9004_FILE_INPUT_OUTPUT_ERROR_ER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000848",
+    "title": "An \"ADO Error Occurred.\" Error Occurs When Upgrading a Laserfiche Repository.",
+    "url": "https://support.laserfiche.com/kb/1000848/an-ado-error-occurred-error-occurs-when-upgrading-a-laserfiche-repository-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-AN_ADO_ERROR_OCCURRED_ERROR_OCCURS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012658",
+    "title": "An \"An Installation package for the product Microsoft SQL Server Native Client cannot be found.\" Error Occurs When Installing SQL Server 2005 Express.",
+    "url": "https://support.laserfiche.com/kb/1012658/an-an-installation-package-for-the-product-microsoft-sql-server-native-client-cannot-be-found-error-occurs-when-installing-sql-server-2005-express-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-AN_AN_INSTALLATION_PACKAGE_FOR_THE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000642",
+    "title": "An \"Error: could not find object.\" Error Occurs When Processing.",
+    "url": "https://support.laserfiche.com/kb/1000642/an-error-could-not-find-object-error-occurs-when-processing-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-AN_ERROR_COULD_NOT_FIND_OBJECT_ERR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013377",
+    "title": "An \"Error logging in. The Laserfiche client was unable to intercept the Print Screen hot key\" Error Occurs When You Log In With A Second Instance Of Laserfiche Client 9.",
+    "url": "https://support.laserfiche.com/kb/1013377/an-error-logging-in-the-laserfiche-client-was-unable-to-intercept-the-print-screen-hot-key-error-occurs-when-you-log-in-with-a-second-instance-of-laserfiche-client-9-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-AN_ERROR_LOGGING_IN_THE_LASERFICHE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011936",
+    "title": "An \"invalid license file\" Error Occurs When Trying to Activate Laserfiche Plus.",
+    "url": "https://support.laserfiche.com/kb/1011936/an-invalid-license-file-error-occurs-when-trying-to-activate-laserfiche-plus-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-AN_INVALID_LICENSE_FILE_ERROR_OCCU"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014391",
+    "title": "Deprecation of Basic authentication in Exchange Online",
+    "url": "https://support.laserfiche.com/kb/1014391/deprecation-of-basic-authentication-in-exchange-online",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-DEPRECATION_OF_BASIC_AUTHENTICATIO"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014516",
+    "title": "Error - There is a problem with Adobe/Acrobat Reader. If it is running, please exit and try again. (523:523)",
+    "url": "https://support.laserfiche.com/kb/1014516/error-there-is-a-problem-with-adobe-acrobat-reader-if-it-is-running-please-exit-and-try-again-523-523-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-ERROR_THERE_IS_A_PROBLEM_WITH_ADOB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014509",
+    "title": "General Technical Support Checklist for Laserfiche Cloud",
+    "url": "https://support.laserfiche.com/kb/1014509/general-technical-support-checklist-for-laserfiche-cloud",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-GENERAL_TECHNICAL_SUPPORT_CHECKLIS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013987",
+    "title": "General Technical Support Checklist for Laserfiche 10 and Higher",
+    "url": "https://support.laserfiche.com/kb/1013987/general-technical-support-checklist-for-laserfiche-10-and-higher",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-GENERAL_TECHNICAL_SUPPORT_CHECKLIS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013034",
+    "title": "Laserfiche Cannot Generate Page Images For Dynamic XFA Form PDF Files.",
+    "url": "https://support.laserfiche.com/kb/1013034/laserfiche-cannot-generate-page-images-for-dynamic-xfa-form-pdf-files-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-LASERFICHE_CANNOT_GENERATE_PAGE_IM"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014520",
+    "title": "Laserfiche Cloud Remote Agents with version numbers before 11.7.2405.42009 Will Not Be Able to Connect to Laserfiche Cloud After August 28, 2024.",
+    "url": "https://support.laserfiche.com/kb/1014520/laserfiche-cloud-remote-agents-with-version-numbers-before-11-7-2405-42009-will-not-be-able-to-connect-to-laserfiche-cloud-after-august-28-2024-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-LASERFICHE_CLOUD_REMOTE_AGENTS_WIT"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012785",
+    "title": "Laserfiche Localization Release Information",
+    "url": "https://support.laserfiche.com/kb/1012785/laserfiche-localization-release-information",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-LASERFICHE_LOCALIZATION_RELEASE_IN"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012888",
+    "title": "Laserfiche Solution Provider Demo Limitations.",
+    "url": "https://support.laserfiche.com/kb/1012888/laserfiche-solution-provider-demo-limitations-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-LASERFICHE_SOLUTION_PROVIDER_DEMO_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000782",
+    "title": "Laserfiche Supported Scanners.",
+    "url": "https://support.laserfiche.com/kb/1000782/laserfiche-supported-scanners-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-LASERFICHE_SUPPORTED_SCANNERS"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013493",
+    "title": "License Manager Reports \"There was a SQL error.\" in the Application Event Log",
+    "url": "https://support.laserfiche.com/kb/1013493/license-manager-reports-there-was-a-sql-error-in-the-application-event-log",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-LICENSE_MANAGER_REPORTS_THERE_WAS_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013996",
+    "title": "List of Changes for Laserfiche 10.3.1 Update 2",
+    "url": "https://support.laserfiche.com/kb/1013996/list-of-changes-for-laserfiche-10-3-1-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_10_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014086",
+    "title": "List of Changes for Laserfiche 10.4.2.",
+    "url": "https://support.laserfiche.com/kb/1014086/list-of-changes-for-laserfiche-10-4-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_10_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013909",
+    "title": "List of Changes for Laserfiche 10.3",
+    "url": "https://support.laserfiche.com/kb/1013909/list-of-changes-for-laserfiche-10-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_10_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014268",
+    "title": "List of Changes for Laserfiche 11",
+    "url": "https://support.laserfiche.com/kb/1014268/list-of-changes-for-laserfiche-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_11"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014568",
+    "title": "List of Changes for Laserfiche Server 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014568/list-of-changes-for-laserfiche-server-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_SER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014418",
+    "title": "List of Changes for Laserfiche Windows Client 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014418/list-of-changes-for-laserfiche-windows-client-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-LIST_OF_CHANGES_FOR_LASERFICHE_WIN"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012334",
+    "title": "List of Changes for License Manager 8.1.",
+    "url": "https://support.laserfiche.com/kb/1012334/list-of-changes-for-license-manager-8-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-LIST_OF_CHANGES_FOR_LICENSE_MANAGE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014273",
+    "title": "Release Information for Laserfiche 11",
+    "url": "https://support.laserfiche.com/kb/1014273/release-information-for-laserfiche-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-RELEASE_INFORMATION_FOR_LASERFICHE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013819",
+    "title": "Release Notes for Laserfiche 10.2",
+    "url": "https://support.laserfiche.com/kb/1013819/release-notes-for-laserfiche-10-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_2"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013908",
+    "title": "Release Notes for Laserfiche 10.3",
+    "url": "https://support.laserfiche.com/kb/1013908/release-notes-for-laserfiche-10-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_3"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013948",
+    "title": "Release Notes for Laserfiche 10.3.1",
+    "url": "https://support.laserfiche.com/kb/1013948/release-notes-for-laserfiche-10-3-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_3_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014026",
+    "title": "Release Notes for Laserfiche 10.4",
+    "url": "https://support.laserfiche.com/kb/1014026/release-notes-for-laserfiche-10-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_4"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014082",
+    "title": "Release Notes for Laserfiche 10.4.2",
+    "url": "https://support.laserfiche.com/kb/1014082/release-notes-for-laserfiche-10-4-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_4_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014049",
+    "title": "Release Notes for Laserfiche 10.4.1",
+    "url": "https://support.laserfiche.com/kb/1014049/release-notes-for-laserfiche-10-4-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_10_4_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014267",
+    "title": "Release Notes for Laserfiche 11",
+    "url": "https://support.laserfiche.com/kb/1014267/release-notes-for-laserfiche-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_11"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014107",
+    "title": "Release Notes for Laserfiche Cloud 2020.1",
+    "url": "https://support.laserfiche.com/kb/1014107/release-notes-for-laserfiche-cloud-2020-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_CLOUD"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014182",
+    "title": "Release Notes for Laserfiche Cloud 2020.3",
+    "url": "https://support.laserfiche.com/kb/1014182/release-notes-for-laserfiche-cloud-2020-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_CLOUD"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014198",
+    "title": "Release Notes for Laserfiche Server 10.4.3",
+    "url": "https://support.laserfiche.com/kb/1014198/release-notes-for-laserfiche-server-10-4-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-RELEASE_NOTES_FOR_LASERFICHE_SERVE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-100141",
+    "title": "SQL Informational and Error Messages are Not Logged.",
+    "url": "https://support.laserfiche.com/kb/100141/sql-informational-and-error-messages-are-not-logged-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-SQL_INFORMATIONAL_AND_ERROR_MESSAG"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012582",
+    "title": "The Laserfiche Server 8 May Fail to Start Due to a \"WMI provider module registration failed\" Error (Error Code -2147217390).",
+    "url": "https://support.laserfiche.com/kb/1012582/the-laserfiche-server-8-may-fail-to-start-due-to-a-wmi-provider-module-registration-failed-error-error-code-2147217390-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-THE_LASERFICHE_SERVER_8_MAY_FAIL_T"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014503",
+    "title": "Understanding a Laserfiche Repository Consistency Check Report",
+    "url": "https://support.laserfiche.com/kb/1014503/understanding-a-laserfiche-repository-consistency-check-report",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-UNDERSTANDING_A_LASERFICHE_REPOSIT"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014164",
+    "title": "When Using Distributed Computing Cluster, You May Receive the Following Error Message: \"License error: 'Validation Error code: 'ConnectionFailed'.\"",
+    "url": "https://support.laserfiche.com/kb/1014164/when-using-distributed-computing-cluster-you-may-receive-the-following-error-message-license-error-validation-error-code-connectionfailed-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-WHEN_USING_DISTRIBUTED_COMPUTING_C"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014534",
+    "title": "You are Redirected Back to the Sign-in Page When Attempting to Sign In With a Username and Password in Firefox version 127",
+    "url": "https://support.laserfiche.com/kb/1014534/you-are-redirected-back-to-the-sign-in-page-when-attempting-to-sign-in-with-a-username-and-password-in-firefox-version-127",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-YOU_ARE_REDIRECTED_BACK_TO_THE_SIG"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014058",
+    "title": "You receive a \"Failed to Login\" error message when Find Entries activity runs in Laserfiche Cloud.",
+    "url": "https://support.laserfiche.com/kb/1014058/you-receive-a-failed-to-login-error-message-when-find-entries-activity-runs-in-laserfiche-cloud-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "LFSERVER-YOU_RECEIVE_A_FAILED_TO_LOGIN_ERRO"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012823",
+    "title": "An \"Error 500 - internal server error\" Error Message Displays When Logging In With The Laserfiche Mobile iPhone App.",
+    "url": "https://support.laserfiche.com/kb/1012823/an-error-500-internal-server-error-error-message-displays-when-logging-in-with-the-laserfiche-mobile-iphone-app-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Mobile",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "500"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014225",
+    "title": "List of Changes for the August 2020 Laserfiche App",
+    "url": "https://support.laserfiche.com/kb/1014225/list-of-changes-for-the-august-2020-laserfiche-app",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Mobile",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "MOBILE-LIST_OF_CHANGES_FOR_THE_AUGUST_202"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014425",
+    "title": "List of Changes for the February 15, 2023 Laserfiche iOS and Android App",
+    "url": "https://support.laserfiche.com/kb/1014425/list-of-changes-for-the-february-15-2023-laserfiche-ios-and-android-app",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Mobile",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "MOBILE-LIST_OF_CHANGES_FOR_THE_FEBRUARY_1"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014555",
+    "title": "List of Changes for the January 31, 2025 Laserfiche App",
+    "url": "https://support.laserfiche.com/kb/1014555/list-of-changes-for-the-january-31-2025-laserfiche-app",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Mobile",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "MOBILE-LIST_OF_CHANGES_FOR_THE_JANUARY_31"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014494",
+    "title": "List of Changes for the November 3, 2023 Laserfiche Windows and Android App",
+    "url": "https://support.laserfiche.com/kb/1014494/list-of-changes-for-the-november-3-2023-laserfiche-windows-and-android-app",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Mobile",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "MOBILE-LIST_OF_CHANGES_FOR_THE_NOVEMBER_3"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014541",
+    "title": "List of Changes for the September 6, 2024 Laserfiche App",
+    "url": "https://support.laserfiche.com/kb/1014541/list-of-changes-for-the-september-6-2024-laserfiche-app",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Mobile",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "MOBILE-LIST_OF_CHANGES_FOR_THE_SEPTEMBER_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014488",
+    "title": "Laserfiche Office Integration 11",
+    "url": "https://support.laserfiche.com/kb/1014488/laserfiche-office-integration-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Office Integration",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "OFFICE-LASERFICHE_OFFICE_INTEGRATION_11"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014452",
+    "title": "List of Changes for Laserfiche Office Integration 11 May 2023 Update",
+    "url": "https://support.laserfiche.com/kb/1014452/list-of-changes-for-laserfiche-office-integration-11-may-2023-update",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Office Integration",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "OFFICE-LIST_OF_CHANGES_FOR_LASERFICHE_OFF"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014224",
+    "title": "When Launching the Laserfiche Office Integration, You May Receive the Following Error Message: \"Not loaded. A runtime error occurred during the loading of the COM Add-in.\"",
+    "url": "https://support.laserfiche.com/kb/1014224/when-launching-the-laserfiche-office-integration-you-may-receive-the-following-error-message-not-loaded-a-runtime-error-occurred-during-the-loading-of-the-com-add-in-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Office Integration",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "OFFICE-WHEN_LAUNCHING_THE_LASERFICHE_OFFI"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011165",
+    "title": "An \"Error 5006 (0x8007005)\" Error Occurs When Installing or Uninstalling Quick Fields.",
+    "url": "https://support.laserfiche.com/kb/1011165/an-error-5006-0x8007005-error-occurs-when-installing-or-uninstalling-quick-fields-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "5006"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012794",
+    "title": "An \"ERROR [42000] [Microsoft][ODBC Text Driver] Syntax error in FROM clause.\" Error Occurs On A Quick Fields 8 Real-Time Lookup Process.",
+    "url": "https://support.laserfiche.com/kb/1012794/an-error-42000-microsoft-odbc-text-driver-syntax-error-in-from-clause-error-occurs-on-a-quick-fields-8-real-time-lookup-process-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "42000"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014204",
+    "title": "List of Changes for Quick Fields 10.3 Hotfix 1014204",
+    "url": "https://support.laserfiche.com/kb/1014204/list-of-changes-for-quick-fields-10-3-hotfix-1014204",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "LFSO103"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012812",
+    "title": "An \"Invalid license\" Error Occurs When Loading Quick Fields 8 If You Previously Activated Quick Fields With Microsoft Windows Set To Display A Different Language.",
+    "url": "https://support.laserfiche.com/kb/1012812/an-invalid-license-error-occurs-when-loading-quick-fields-8-if-you-previously-activated-quick-fields-with-microsoft-windows-set-to-display-a-different-language-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "QF-AN_INVALID_LICENSE_ERROR_OCCURS_WH"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013781",
+    "title": "An \"IP2: Unhandled Exception in CDIBFilterImpl::RunEx\" error occurs when using Barcode 9.1 in Quick Fields on Windows 10",
+    "url": "https://support.laserfiche.com/kb/1013781/an-ip2-unhandled-exception-in-cdibfilterimpl-runex-error-occurs-when-using-barcode-9-1-in-quick-fields-on-windows-10",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 9",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "QF-AN_IP2_UNHANDLED_EXCEPTION_IN_CDIB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014387",
+    "title": "Issue configuring Real Time Lookup when using a SQL connection string",
+    "url": "https://support.laserfiche.com/kb/1014387/issue-configuring-real-time-lookup-when-using-a-sql-connection-string",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "QF-ISSUE_CONFIGURING_REAL_TIME_LOOKUP"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013824",
+    "title": "List of Changes for Quick Fields 10.1",
+    "url": "https://support.laserfiche.com/kb/1013824/list-of-changes-for-quick-fields-10-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013788",
+    "title": "List of Changes for Quick Fields 10 Update 1",
+    "url": "https://support.laserfiche.com/kb/1013788/list-of-changes-for-quick-fields-10-update-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014105",
+    "title": "List of Changes for Quick Fields 10.3 Hotfix 1014105",
+    "url": "https://support.laserfiche.com/kb/1014105/list-of-changes-for-quick-fields-10-3-hotfix-1014105",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013952",
+    "title": "List of Changes for Quick Fields 10.3 Hotfix 1013952",
+    "url": "https://support.laserfiche.com/kb/1013952/list-of-changes-for-quick-fields-10-3-hotfix-1013952",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013873",
+    "title": "List of Changes for Quick Fields 10.1 Hotfix 1013873",
+    "url": "https://support.laserfiche.com/kb/1013873/list-of-changes-for-quick-fields-10-1-hotfix-1013873",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014141",
+    "title": "List of Changes for Quick Fields 10.3 Hotfix 1014141",
+    "url": "https://support.laserfiche.com/kb/1014141/list-of-changes-for-quick-fields-10-3-hotfix-1014141",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "QF-LIST_OF_CHANGES_FOR_QUICK_FIELDS_1"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013993",
+    "title": "Quick Fields Technical Support Checklist.",
+    "url": "https://support.laserfiche.com/kb/1013993/quick-fields-technical-support-checklist-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "QF-QUICK_FIELDS_TECHNICAL_SUPPORT_CHE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014432",
+    "title": "Release and Hotfix Information for Laserfiche Quick Fields 11",
+    "url": "https://support.laserfiche.com/kb/1014432/release-and-hotfix-information-for-laserfiche-quick-fields-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "QF-RELEASE_AND_HOTFIX_INFORMATION_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013756",
+    "title": "Release Notes for Quick Fields 10",
+    "url": "https://support.laserfiche.com/kb/1013756/release-notes-for-quick-fields-10",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "QF-RELEASE_NOTES_FOR_QUICK_FIELDS_10"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014519",
+    "title": "Users may see an \"Unspecified error\" message when storing documents from Quick Fields to a Laserfiche Cloud Repository",
+    "url": "https://support.laserfiche.com/kb/1014519/users-may-see-an-unspecified-error-message-when-storing-documents-from-quick-fields-to-a-laserfiche-cloud-repository",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "QF-USERS_MAY_SEE_AN_UNSPECIFIED_ERROR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014112",
+    "title": "While Updating an Existing Record in Microsoft Access database via Laserfiche Workflow, Quick Fields or Laserfiche Forms, You May Get the Following Error: \"Query 'query name' is co",
+    "url": "https://support.laserfiche.com/kb/1014112/while-updating-an-existing-record-in-microsoft-access-database-via-laserfiche-workflow-quick-fields-or-laserfiche-forms-you-may-get-the-following-error-query-query-name-is-corrupt-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "QF-WHILE_UPDATING_AN_EXISTING_RECORD_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011822",
+    "title": "An \"Error in function: dAddPortMonitor, Error code: 1805.\" Error Occurs When Installing Snapshot on a 64-bit Edition of Windows.",
+    "url": "https://support.laserfiche.com/kb/1011822/an-error-in-function-daddportmonitor-error-code-1805-error-occurs-when-installing-snapshot-on-a-64-bit-edition-of-windows-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Snapshot",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "1805"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012965",
+    "title": "An \"Error in function: dAddPortMonitor, Error code: 5\" Error Occurs When Installing Snapshot 8.",
+    "url": "https://support.laserfiche.com/kb/1012965/an-error-in-function-daddportmonitor-error-code-5-error-occurs-when-installing-snapshot-8-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Snapshot",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "SNAPSHOT-AN_ERROR_IN_FUNCTION_DADDPORTMONIT"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012246",
+    "title": "An \"OLE Error.\" Error Occurs When Starting Snapshot 8.1.",
+    "url": "https://support.laserfiche.com/kb/1012246/an-ole-error-error-occurs-when-starting-snapshot-8-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Snapshot",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "SNAPSHOT-AN_OLE_ERROR_ERROR_OCCURS_WHEN_STA"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1010999",
+    "title": "Configuring Security for Laserfiche Snapshot",
+    "url": "https://support.laserfiche.com/kb/1010999/configuring-security-for-laserfiche-snapshot",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Snapshot",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "SNAPSHOT-CONFIGURING_SECURITY_FOR_LASERFICH"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014383",
+    "title": "Documents Printed to Laserfiche Snapshot May Remain in the Print Queue for an Extended Period of Time",
+    "url": "https://support.laserfiche.com/kb/1014383/documents-printed-to-laserfiche-snapshot-may-remain-in-the-print-queue-for-an-extended-period-of-time",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Snapshot",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "SNAPSHOT-DOCUMENTS_PRINTED_TO_LASERFICHE_SN"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014205",
+    "title": "End-of-Support for TLS 1.0 and 1.1 for Laserfiche Cloud",
+    "url": "https://support.laserfiche.com/kb/1014205/end-of-support-for-tls-1-0-and-1-1-for-laserfiche-cloud",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Snapshot",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "SNAPSHOT-END_OF_SUPPORT_FOR_TLS_1_0_AND_1_1"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013798",
+    "title": "List of Changes for Laserfiche 10.1 Update 2.",
+    "url": "https://support.laserfiche.com/kb/1013798/list-of-changes-for-laserfiche-10-1-update-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Snapshot",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "SNAPSHOT-LIST_OF_CHANGES_FOR_LASERFICHE_10_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014278",
+    "title": "Microsoft Windows Updates KB5000802, KB5000803, KB5000808, KB5000822 and KB5000848 May Cause Laserfiche Snapshot to Only Print the First Page of a Multi-Page Document.",
+    "url": "https://support.laserfiche.com/kb/1014278/microsoft-windows-updates-kb5000802-kb5000803-kb5000808-kb5000822-and-kb5000848-may-cause-laserfiche-snapshot-to-only-print-the-first-page-of-a-multi-page-document-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Snapshot",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "SNAPSHOT-MICROSOFT_WINDOWS_UPDATES_KB500080"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013454",
+    "title": "A \"WriteIIS7ConfigChanges: Error 0x80070002: Site not found for create application.\" Error Occurs When Installing The Laserfiche Mobile 9 Add-on For Web Access.",
+    "url": "https://support.laserfiche.com/kb/1013454/a-writeiis7configchanges-error-0x80070002-site-not-found-for-create-application-error-occurs-when-installing-the-laserfiche-mobile-9-add-on-for-web-access-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "0x80070002"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013252",
+    "title": "An \"Error parsing 'LFEFilename.lfe' Unknown error. [6000:0xc00ce556]\" Error Occurs When Opening A Laserfiche Shortcut File (.LFE) From Outlook Web Access.",
+    "url": "https://support.laserfiche.com/kb/1013252/an-error-parsing-lfefilename-lfe-unknown-error-6000-0xc00ce556-error-occurs-when-opening-a-laserfiche-shortcut-file-lfe-from-outlook-web-access-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "0xc00ce556",
+      "6000"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013069",
+    "title": "A \"HTTP Error 503. The service is unavailable.\" Error Occurs When Loading Web Access 8.",
+    "url": "https://support.laserfiche.com/kb/1013069/a-http-error-503-the-service-is-unavailable-error-occurs-when-loading-web-access-8-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "503"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014375",
+    "title": "A \"Method Not Allowed\" Error Occurs When Importing through the Laserfiche Web Client.",
+    "url": "https://support.laserfiche.com/kb/1014375/a-method-not-allowed-error-occurs-when-importing-through-the-laserfiche-web-client-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-A_METHOD_NOT_ALLOWED_ERROR_OCCURS_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014513",
+    "title": "How to Troubleshoot the Laserfiche 11 Web Client Folder Browser Not Automatically Refreshing when Folder Contents Change",
+    "url": "https://support.laserfiche.com/kb/1014513/how-to-troubleshoot-the-laserfiche-11-web-client-folder-browser-not-automatically-refreshing-when-folder-contents-change",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-HOW_TO_TROUBLESHOOT_THE_LASERFICHE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014025",
+    "title": "List of Changes for Laserfiche 10.4",
+    "url": "https://support.laserfiche.com/kb/1014025/list-of-changes-for-laserfiche-10-4",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_10_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014544",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 9",
+    "url": "https://support.laserfiche.com/kb/1014544/list-of-changes-for-laserfiche-web-client-11-update-9",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014559",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 10",
+    "url": "https://support.laserfiche.com/kb/1014559/list-of-changes-for-laserfiche-web-client-11-update-10",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014502",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 8",
+    "url": "https://support.laserfiche.com/kb/1014502/list-of-changes-for-laserfiche-web-client-11-update-8",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014483",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 7",
+    "url": "https://support.laserfiche.com/kb/1014483/list-of-changes-for-laserfiche-web-client-11-update-7",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014446",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 6.",
+    "url": "https://support.laserfiche.com/kb/1014446/list-of-changes-for-laserfiche-web-client-11-update-6-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014441",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 5.",
+    "url": "https://support.laserfiche.com/kb/1014441/list-of-changes-for-laserfiche-web-client-11-update-5-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014317",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014317/list-of-changes-for-laserfiche-web-client-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014300",
+    "title": "List of Changes for Laserfiche Web Client 11 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014300/list-of-changes-for-laserfiche-web-client-11-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013073",
+    "title": "Online Laserfiche Product Help Files For Previous Product Versions.",
+    "url": "https://support.laserfiche.com/kb/1013073/online-laserfiche-product-help-files-for-previous-product-versions-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-ONLINE_LASERFICHE_PRODUCT_HELP_FIL"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014200",
+    "title": "Software versions and fixes included in the Laserfiche 10.4.3 Download Package",
+    "url": "https://support.laserfiche.com/kb/1014200/software-versions-and-fixes-included-in-the-laserfiche-10-4-3-download-package",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Web Client",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBCLIENT-SOFTWARE_VERSIONS_AND_FIXES_INCLUD"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013473",
+    "title": "An \"Exception of type 'System.Exception' was thrown.\" Error Occurs When Opening an Electronic Document In WebLink 8.",
+    "url": "https://support.laserfiche.com/kb/1013473/an-exception-of-type-system-exception-was-thrown-error-occurs-when-opening-an-electronic-document-in-weblink-8-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "404"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-90100",
+    "title": "6507: Maximum users exceeded.",
+    "url": "https://support.laserfiche.com/kb/90100/6507-maximum-users-exceeded-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-6507_MAXIMUM_USERS_EXCEEDED"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013828",
+    "title": "A \"The system has encountered an error and could not complete your request.\" Error Occurs With WebLink 9 On Mobile Device Web Browsers When Viewing a Document in a Folder Tunneling",
+    "url": "https://support.laserfiche.com/kb/1013828/a-the-system-has-encountered-an-error-and-could-not-complete-your-request-error-occurs-with-weblink-9-on-mobile-device-web-browsers-when-viewing-a-document-in-a-folder-tunneling-scenario-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-A_THE_SYSTEM_HAS_ENCOUNTERED_AN_ER"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014166",
+    "title": "After Updating to WebLink 10.2, You May Notice that Custom Links Do Not Display When WebLink is Configured for Automatic Login",
+    "url": "https://support.laserfiche.com/kb/1014166/after-updating-to-weblink-10-2-you-may-notice-that-custom-links-do-not-display-when-weblink-is-configured-for-automatic-login",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-AFTER_UPDATING_TO_WEBLINK_10_2_YOU"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000229",
+    "title": "An \"ASP 0115: Unexpected error\" Error Occurs When Opening a Folder.",
+    "url": "https://support.laserfiche.com/kb/1000229/an-asp-0115-unexpected-error-error-occurs-when-opening-a-folder-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-AN_ASP_0115_UNEXPECTED_ERROR_ERROR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013986",
+    "title": "Displaying more context hits when searching in WebLink 10",
+    "url": "https://support.laserfiche.com/kb/1013986/displaying-more-context-hits-when-searching-in-weblink-10",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-DISPLAYING_MORE_CONTEXT_HITS_WHEN_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014551",
+    "title": "Enabling HTTP Strict Transport Security (HSTS) in IIS 10.0.",
+    "url": "https://support.laserfiche.com/kb/1014551/enabling-http-strict-transport-security-hsts-in-iis-10-0-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-ENABLING_HTTP_STRICT_TRANSPORT_SEC"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013988",
+    "title": "Laserfiche Web Client and WebLink 10 and Higher Technical Support Checklist.",
+    "url": "https://support.laserfiche.com/kb/1013988/laserfiche-web-client-and-weblink-10-and-higher-technical-support-checklist-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-LASERFICHE_WEB_CLIENT_AND_WEBLINK_"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014456",
+    "title": "List of Changes for Laserfiche WebLink 11 Update 2.",
+    "url": "https://support.laserfiche.com/kb/1014456/list-of-changes-for-laserfiche-weblink-11-update-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014577",
+    "title": "List of Changes for Laserfiche WebLink 11 Update 6.",
+    "url": "https://support.laserfiche.com/kb/1014577/list-of-changes-for-laserfiche-weblink-11-update-6-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014574",
+    "title": "List of Changes for Laserfiche WebLink 11 Update 5.",
+    "url": "https://support.laserfiche.com/kb/1014574/list-of-changes-for-laserfiche-weblink-11-update-5-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014465",
+    "title": "List of Changes for Laserfiche WebLink 11 Update 3.",
+    "url": "https://support.laserfiche.com/kb/1014465/list-of-changes-for-laserfiche-weblink-11-update-3-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014438",
+    "title": "List of Changes for Laserfiche WebLink 11 Update 1.",
+    "url": "https://support.laserfiche.com/kb/1014438/list-of-changes-for-laserfiche-weblink-11-update-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-LIST_OF_CHANGES_FOR_LASERFICHE_WEB"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013923",
+    "title": "List of Changes for WebLink 10",
+    "url": "https://support.laserfiche.com/kb/1013923/list-of-changes-for-weblink-10",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_10"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013953",
+    "title": "List of Changes for WebLink 10.1.",
+    "url": "https://support.laserfiche.com/kb/1013953/list-of-changes-for-weblink-10-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_10_1"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014123",
+    "title": "List of Changes for WebLink 10.2",
+    "url": "https://support.laserfiche.com/kb/1014123",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_10_2"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014330",
+    "title": "List of Changes for WebLink 11",
+    "url": "https://support.laserfiche.com/kb/1014330/list-of-changes-for-weblink-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-LIST_OF_CHANGES_FOR_WEBLINK_11"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012796",
+    "title": "Release Notes for Laserfiche WebLink 8.2",
+    "url": "https://support.laserfiche.com/kb/1012796",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-RELEASE_NOTES_FOR_LASERFICHE_WEBLI"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1012940",
+    "title": "Release Notes for WebLink 8.2.1.",
+    "url": "https://support.laserfiche.com/kb/1012940/release-notes-for-weblink-8-2-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-RELEASE_NOTES_FOR_WEBLINK_8_2_1"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013209",
+    "title": "Release Notes for WebLink 8.2.2.",
+    "url": "https://support.laserfiche.com/kb/1013209/release-notes-for-weblink-8-2-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-RELEASE_NOTES_FOR_WEBLINK_8_2_2"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014124",
+    "title": "Release Notes for WebLink 10.2",
+    "url": "https://support.laserfiche.com/kb/1014124/release-notes-for-weblink-10-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-RELEASE_NOTES_FOR_WEBLINK_10_2"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014562",
+    "title": "Viewing documents in Public Portal/WebLink may show a white grid across every page",
+    "url": "https://support.laserfiche.com/kb/1014562/viewing-documents-in-public-portal-weblink-may-show-a-white-grid-across-every-page",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-VIEWING_DOCUMENTS_IN_PUBLIC_PORTAL"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014439",
+    "title": "WebLink 11 Updates",
+    "url": "https://support.laserfiche.com/kb/1014439/weblink-11-updates",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-WEBLINK_11_UPDATES"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000211",
+    "title": "WebLink Error Code Format.",
+    "url": "https://support.laserfiche.com/kb/1000211/weblink-error-code-format-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "WebLink",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WEBLINK-WEBLINK_ERROR_CODE_FORMAT"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013562",
+    "title": "An \"Unknown error (0x80005000)[0339-WF1]\" Error Occurs When Searching for Specific Active Directory User Accounts In A Workflow.",
+    "url": "https://support.laserfiche.com/kb/1013562/an-unknown-error-0x80005000-0339-wf1-error-occurs-when-searching-for-specific-active-directory-user-accounts-in-a-workflow-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "0x80005000"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013863",
+    "title": "A \"The remote server returned an error: (404) Not Found\" Error Occurs When Running Workflows With Activities that Connect to Laserfiche Forms 10.2.1.",
+    "url": "https://support.laserfiche.com/kb/1013863/a-the-remote-server-returned-an-error-404-not-found-error-occurs-when-running-workflows-with-activities-that-connect-to-laserfiche-forms-10-2-1-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "404"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013259",
+    "title": "An \"HTTP 500.19\" Error Occurs When Loading The Workflow Web Service When The Service Is Installed On Windows Server 2008.",
+    "url": "https://support.laserfiche.com/kb/1013259/an-http-500-19-error-occurs-when-loading-the-workflow-web-service-when-the-service-is-installed-on-windows-server-2008-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "HTTP500"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1013837",
+    "title": "List of Changes for Laserfiche Workflow 10.2 Hotfix 1013837.",
+    "url": "https://support.laserfiche.com/kb/1013837/list-of-changes-for-laserfiche-workflow-10-2-hotfix-1013837-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-LIST_OF_CHANGES_FOR_LASERFICHE_WOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014131",
+    "title": "List of Changes for Laserfiche Workflow 10.4.2 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014131/list-of-changes-for-laserfiche-workflow-10-4-2-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-LIST_OF_CHANGES_FOR_LASERFICHE_WOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014243",
+    "title": "List of Changes for Laserfiche Workflow 10.4.3",
+    "url": "https://support.laserfiche.com/kb/1014243/list-of-changes-for-laserfiche-workflow-10-4-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-LIST_OF_CHANGES_FOR_LASERFICHE_WOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014461",
+    "title": "List of Changes for Workflow 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014461/list-of-changes-for-workflow-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-LIST_OF_CHANGES_FOR_WORKFLOW_11_UP"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014101",
+    "title": "Release Notes for Laserfiche Workflow 10.4.2",
+    "url": "https://support.laserfiche.com/kb/1014101",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-RELEASE_NOTES_FOR_LASERFICHE_WORKF"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014244",
+    "title": "Release Notes for Laserfiche Workflow 10.4.3",
+    "url": "https://support.laserfiche.com/kb/1014244/release-notes-for-laserfiche-workflow-10-4-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-RELEASE_NOTES_FOR_LASERFICHE_WORKF"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014522",
+    "title": "Release Notes for the Laserfiche Cloud Migration Readiness Assessment Tool",
+    "url": "https://support.laserfiche.com/kb/1014522/release-notes-for-the-laserfiche-cloud-migration-readiness-assessment-tool",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 10",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-RELEASE_NOTES_FOR_THE_LASERFICHE_C"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014246",
+    "title": "Release Notes for Workflow 11",
+    "url": "https://support.laserfiche.com/kb/1014246/release-notes-for-workflow-11",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014462",
+    "title": "Release Notes for Workflow 11 Update 3",
+    "url": "https://support.laserfiche.com/kb/1014462/release-notes-for-workflow-11-update-3",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11_UPDA"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014395",
+    "title": "Release Notes for Workflow 11 Update 2",
+    "url": "https://support.laserfiche.com/kb/1014395/release-notes-for-workflow-11-update-2",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11_UPDA"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014339",
+    "title": "Release Notes for Workflow 11 Update 1",
+    "url": "https://support.laserfiche.com/kb/1014339/release-notes-for-workflow-11-update-1",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 9",
+      "Version 10",
+      "Version 11"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-RELEASE_NOTES_FOR_WORKFLOW_11_UPDA"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014445",
+    "title": "Remote Agent Technical Support Checklist",
+    "url": "https://support.laserfiche.com/kb/1014445/remote-agent-technical-support-checklist",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-REMOTE_AGENT_TECHNICAL_SUPPORT_CHE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1014128",
+    "title": "You May Receive the Following Error Message in Workflow 10.4 when installing or upgrading newer versions of Laserfiche products: \"Could not load file or assembly.\"",
+    "url": "https://support.laserfiche.com/kb/1014128/you-may-receive-the-following-error-message-in-workflow-10-4-when-installing-or-upgrading-newer-versions-of-laserfiche-products-could-not-load-file-or-assembly-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Workflow",
+      "Version 10"
+    ],
+    "extractedErrorCodes": [
+      "WORKFLOW-YOU_MAY_RECEIVE_THE_FOLLOWING_ERRO"
+    ],
+    "reviewStatus": "curated-unresolved"
+  }
+];
