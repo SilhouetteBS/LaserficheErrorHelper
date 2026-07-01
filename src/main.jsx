@@ -732,6 +732,7 @@ function App() {
           <FilterSelect label="Version" value={version} onChange={trackFilterChange(setVersion)} options={filters.versions} />
           <FilterSelect
             label="Source"
+            className="source-filter"
             value={source}
             onChange={trackFilterChange(setSource)}
             options={filters.sources}
@@ -1042,9 +1043,9 @@ function App() {
   );
 }
 
-function FilterSelect({ label, options, value, onChange, formatOption = (option) => option }) {
+function FilterSelect({ label, options, value, onChange, formatOption = (option) => option, className = "" }) {
   return (
-    <label className="filter-control">
+    <label className={`filter-control ${className}`.trim()}>
       <span>{label}</span>
       <select value={value} onChange={(event) => onChange(event.target.value)}>
         {options.map((option) => (
