@@ -4,37 +4,37 @@ Generated: 2026-07-01
 
 ## Summary
 
-- Published entries: 1917
-- Reviewed sources: 936
+- Published entries: 1936
+- Reviewed sources: 949
 - Entries needing validation: 0
 - Entries with scenario variants: 20
 - High-priority unresolved reviewed sources: 0
-- Thin-coverage products with fewer than 5 entries: 2
+- Thin-coverage products with fewer than 5 entries: 1
 - Repeated-code clusters to review for scenario modeling: 100
 
 ## Confidence Coverage
 
 | Confidence | Entries |
 | --- | --- |
-| high | 71 |
+| high | 88 |
 | low | 1481 |
-| medium | 365 |
+| medium | 367 |
 
 ## Fix Status Coverage
 
 | Fix status | Entries |
 | --- | --- |
-| diagnostic-only | 355 |
-| known-fix | 109 |
+| diagnostic-only | 356 |
+| known-fix | 121 |
 | needs-review | 1135 |
-| workaround | 318 |
+| workaround | 324 |
 
 ## Validation Triage Coverage
 
 | Validation status | Entries |
 | --- | --- |
 | official-doc-baseline | 1135 |
-| reviewed-diagnostic | 398 |
+| reviewed-diagnostic | 417 |
 
 ## Validation Queue by Product
 
@@ -71,8 +71,8 @@ Generated: 2026-07-01
 | Review status | Sources |
 | --- | --- |
 | cross-product | 65 |
-| curated | 417 |
-| curated-partial | 448 |
+| curated | 428 |
+| curated-partial | 450 |
 | no-matching-posts | 2 |
 | not-actionable | 4 |
 
@@ -86,22 +86,21 @@ Generated: 2026-07-01
 | Product | Published entries |
 | --- | --- |
 | AI Service | 1 |
-| Webtools Agent | 4 |
 
 ## Product-Level Lazy Load Candidates
 
 | Product | Published entries | Linked sources |
 | --- | --- | --- |
 | Laserfiche Server/Repository Server | 1081 | 1171 |
-| Windows Client/Desktop Client | 234 | 236 |
+| Windows Client/Desktop Client | 236 | 238 |
 | Forms | 122 | 159 |
 | Directory Server | 77 | 78 |
+| Web Client | 66 | 73 |
 | Workflow | 65 | 72 |
-| Web Client | 61 | 68 |
-| Laserfiche Installer | 42 | 42 |
-| Quick Fields | 34 | 35 |
-| WebLink | 24 | 27 |
-| Import Agent | 24 | 25 |
+| Laserfiche Installer | 43 | 43 |
+| Quick Fields | 38 | 39 |
+| Import Agent | 26 | 27 |
+| WebLink | 25 | 28 |
 
 ## Repeated-Code Scenario Review
 

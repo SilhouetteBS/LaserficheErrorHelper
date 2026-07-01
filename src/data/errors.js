@@ -21024,6 +21024,681 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "support-kb-1014572-webtools-agent-port-18435",
+    code: "WEBTOOLS-PORT-18435-FAILED",
+    message: "Port 18435: Failed",
+    product: "Webtools Agent",
+    versions: ["Version 11", "Version 12"],
+    confidence: "medium",
+    fixStatus: "diagnostic-only",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Webtools Agent connection failures can prevent browser-based Laserfiche features from detecting the local agent used by Web Client integrations.",
+    symptoms: [
+      "The browser reports Port 18435: Failed.",
+      "Webtools Agent is not detected even though a Laserfiche web feature needs it.",
+      "Users may be repeatedly prompted to install Webtools Agent.",
+      "The browser cannot reach plugin.laserfichelocalhost.com.",
+    ],
+    likelyCauses: [
+      "Webtools Agent is not running on the workstation.",
+      "The local browser cannot reach the Webtools Agent localhost endpoint.",
+      "A local endpoint security, proxy, certificate, or port conflict issue is blocking the Webtools Agent connection.",
+      "The Web Client or Webtools Agent install is outdated.",
+    ],
+    likelyFixes: [
+      "Confirm Webtools Agent is installed and running on the workstation.",
+      "Restart Webtools Agent and then reload the affected Laserfiche web page.",
+      "Test whether the browser can reach plugin.laserfichelocalhost.com and the local Webtools Agent port.",
+      "Check endpoint security, proxy, certificate inspection, or local firewall rules that may block the localhost connection.",
+      "Update Webtools Agent and the related Laserfiche web application before retesting.",
+    ],
+    notes:
+      "Published as diagnostic-only because the support search result identifies the error and troubleshooting scope, but the public result did not expose the full article body.",
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title: "Troubleshooting Laserfiche Webtools Agent Connection Errors (Port 18435: Failed)",
+        url: "https://support.laserfiche.com/kb/1014572/troubleshooting-laserfiche-webtools-agent-connection-errors-port-18435-failed-",
+        note:
+          "Laserfiche Support search result identifies Port 18435: Failed and calls out Webtools Agent detection, browser localhost access, port, and outdated Web Client checks.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014570-docusign-sobousername-cache",
+    code: "DOCUSIGN-SOBOUSERNAME-500",
+    message: "Error loading dialog: Argument cannot be empty Parameter name: SOBOUserName (500 Internal Server Error)",
+    product: "Connector",
+    versions: ["Version 11", "Version 12"],
+    confidence: "medium",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Request Signature with DocuSign can fail with a SOBOUserName argument error when the browser cache is stale or inconsistent.",
+    symptoms: [
+      "Request Signature with DocuSign fails to load the dialog.",
+      "The dialog reports Argument cannot be empty Parameter name: SOBOUserName.",
+      "The response includes a 500 Internal Server Error.",
+    ],
+    likelyCauses: ["Browser cache issue in the DocuSign integration flow."],
+    likelyFixes: [
+      "Clear the affected browser cache.",
+      "Reload the Laserfiche page, sign in again if prompted, and retry Request Signature with DocuSign.",
+      "If the issue persists, test with another browser profile or workstation to confirm whether the failure is cache-specific.",
+    ],
+    notes:
+      "The support result is for Laserfiche DocuSign Integration. It is filed under Connector because the current product list does not have a separate DocuSign Integration product.",
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title:
+          "Error loading dialog: Argument cannot be empty Parameter name: SOBOUserName (500 Internal Server Error) when Request Signature with DocuSign",
+        url: "https://support.laserfiche.com/kb/1014570/error-loading-dialog-argument-cannot-be-empty-parameter-name-sobousername-500-internal-server-error-when-request-signature-with-docusign",
+        note:
+          "Laserfiche Support search result lists the cause as a cache issue and the resolution as clearing the browser cache.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014527-web-client-dotnet-may-2024-http-500",
+    code: "WEBCLIENT-DOTNET-MAY-2024-HTTP500",
+    message: "Various HTTP 500 errors after the May 14, 2024 .NET Framework cumulative update",
+    product: "Web Client",
+    versions: ["Version 10", "Version 11"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "The May 14, 2024 .NET Framework cumulative update can cause reliability issues for Laserfiche Web Client 10 and 11, including repeated IIS application pool failures and HTTP 500 responses.",
+    symptoms: [
+      "Users receive various HTTP 500 errors in Web Client.",
+      "The WebAccessAppPool application pool repeatedly faults or stops.",
+      "Windows Event Viewer may show w3wp.exe faulting in ntdll.dll with exception code 0xc0000374.",
+      "The issue appears after applying the May 14, 2024 cumulative update for .NET Framework.",
+    ],
+    likelyCauses: [
+      "A May 2024 Microsoft .NET Framework cumulative update caused reliability issues with affected Web Client versions.",
+      "IIS rapid fail protection may stop the affected application pool after repeated worker process failures.",
+    ],
+    likelyFixes: [
+      "For Web Client 11, apply Laserfiche Web Client 11 Update 9 or later.",
+      "For Web Client 10, contact Laserfiche Support for the applicable hotfix.",
+      "As a workaround, uninstall the May 2024 cumulative update for .NET Framework 4.8, reboot, and confirm the April 2024 .NET Framework cumulative update is installed.",
+      "If IIS rapid fail protection was disabled while troubleshooting, re-enable it after applying the fix or workaround.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title:
+          "The May 14, 2024 Cumulative Update for .NET Framework May Cause Reliability Issues with the Laserfiche Web Client and Laserfiche WebLink.",
+        url: "https://support.laserfiche.com/kb/1014527/the-may-14-2024-cumulative-update-for-net-framework-may-cause-reliability-issues-with-the-laserfiche-web-client-and-laserfiche-weblink-",
+        note:
+          "Laserfiche Support KB lists affected Web Client versions, IIS symptoms, Event Viewer details, Update 9 guidance for Web Client 11, hotfix guidance for Web Client 10, and the .NET update workaround.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014527-weblink-dotnet-may-2024-http-500",
+    code: "WEBLINK-DOTNET-MAY-2024-HTTP500",
+    message: "Various HTTP 500 errors after the May 14, 2024 .NET Framework cumulative update",
+    product: "WebLink",
+    versions: ["Version 10", "Version 11"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "The May 14, 2024 .NET Framework cumulative update can cause reliability issues for Laserfiche WebLink 10 and 11, including repeated IIS application pool failures and HTTP 500 responses.",
+    symptoms: [
+      "Users receive various HTTP 500 errors in WebLink.",
+      "The WebLinkAppPool application pool repeatedly faults or stops.",
+      "Windows Event Viewer may show w3wp.exe faulting in ntdll.dll with exception code 0xc0000374.",
+      "The issue appears after applying the May 14, 2024 cumulative update for .NET Framework.",
+    ],
+    likelyCauses: [
+      "A May 2024 Microsoft .NET Framework cumulative update caused reliability issues with affected WebLink versions.",
+      "IIS rapid fail protection may stop the affected application pool after repeated worker process failures.",
+    ],
+    likelyFixes: [
+      "For WebLink 10 or 11, contact Laserfiche Support for the applicable hotfix.",
+      "As a workaround, uninstall the May 2024 cumulative update for .NET Framework 4.8, reboot, and confirm the April 2024 .NET Framework cumulative update is installed.",
+      "If IIS rapid fail protection was disabled while troubleshooting, re-enable it after applying the fix or workaround.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title:
+          "The May 14, 2024 Cumulative Update for .NET Framework May Cause Reliability Issues with the Laserfiche Web Client and Laserfiche WebLink.",
+        url: "https://support.laserfiche.com/kb/1014527/the-may-14-2024-cumulative-update-for-net-framework-may-cause-reliability-issues-with-the-laserfiche-web-client-and-laserfiche-weblink-",
+        note:
+          "Laserfiche Support KB lists affected WebLink versions, IIS symptoms, Event Viewer details, hotfix guidance, and the .NET update workaround.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014569-quick-fields-agent-rpc-unavailable",
+    code: "QF-AGENT-RPC-SERVER-UNAVAILABLE",
+    message: "The RPC Server is unavailable",
+    product: "Quick Fields",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Quick Fields Agent 11 Update 3 could display The RPC Server is unavailable when running sessions that scan large PDF documents using Laserfiche Capture Engine.",
+    symptoms: [
+      "Quick Fields Agent displays The RPC Server is unavailable.",
+      "The failure occurs while running a session that scans a large PDF document.",
+      "The session uses Laserfiche Capture Engine.",
+    ],
+    likelyCauses: [
+      "A Quick Fields Agent 11 Update 3 defect affected large PDF scans through Laserfiche Capture Engine.",
+    ],
+    likelyFixes: [
+      "Install Quick Fields 11 Update 3 Hotfix 1014569 on the Quick Fields machine.",
+      "After applying the hotfix, rerun the affected Quick Fields Agent session with the same large PDF workload.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title: "List of Changes for Quick Fields 11 Update 3 Hotfix 1014569",
+        url: "https://support.laserfiche.com/kb/1014569/list-of-changes-for-quick-fields-11-update-3-hotfix-1014569",
+        note:
+          "Laserfiche Support KB states Hotfix 1014569 resolves Quick Fields Agent RPC Server unavailable errors for large PDF scans using Laserfiche Capture Engine.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014569-quick-fields-agent-invalidcastexception",
+    code: "QF-AGENT-INVALIDCASTEXCEPTION-LARGE-DOCUMENT",
+    message: "InvalidCastException",
+    product: "Quick Fields",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Quick Fields Agent 11 Update 3 could display InvalidCastException when running sessions that scan and page-process large documents with Laserfiche Capture Engine.",
+    symptoms: [
+      "Quick Fields Agent displays InvalidCastException.",
+      "The failure occurs during scanning and page processing of large documents.",
+      "The affected session uses Laserfiche Capture Engine.",
+    ],
+    likelyCauses: [
+      "A Quick Fields Agent 11 Update 3 defect affected page processing on large Capture Engine documents.",
+    ],
+    likelyFixes: [
+      "Install Quick Fields 11 Update 3 Hotfix 1014569 on the Quick Fields machine.",
+      "Retest the same large-document session after the hotfix is applied.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title: "List of Changes for Quick Fields 11 Update 3 Hotfix 1014569",
+        url: "https://support.laserfiche.com/kb/1014569/list-of-changes-for-quick-fields-11-update-3-hotfix-1014569",
+        note:
+          "Laserfiche Support KB states Hotfix 1014569 resolves InvalidCastException errors for Quick Fields Agent sessions that scan and process large documents.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1013389-quick-fields-object-reference-ocr-sample-pages",
+    code: "QF-OBJECT-REFERENCE-OCR-SAMPLE-PAGES",
+    message: "Object Reference not set to an instance of an object",
+    product: "Quick Fields",
+    versions: ["Version 9"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Quick Fields 9.0 could report an Object Reference error when running OCR on the Sample Pages step of the Full Wizard from the New Session Wizard.",
+    symptoms: [
+      "Quick Fields reports Object Reference not set to an instance of an object.",
+      "The error occurs when using OCR on the Sample Pages step.",
+      "The workflow starts from the New Session Wizard on the Quick Fields Start Page.",
+    ],
+    likelyCauses: [
+      "A Quick Fields 9.0 defect in the New Session Wizard/Sample Pages OCR path.",
+    ],
+    likelyFixes: [
+      "Apply the Quick Fields 9.0 hotfix referenced by KB 1013389 or the superseding Quick Fields 9.0 hotfix KB 1013497.",
+      "Retest the New Session Wizard OCR path after applying the update.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title: "List of Changes for Quick Fields 9.0 Hotfix 1013389",
+        url: "https://support.laserfiche.com/kb/1013389/list-of-changes-for-quick-fields-9-0-hotfix-1013389",
+        note:
+          "Laserfiche Support KB states Hotfix 1013389 resolves this Object Reference error and notes the hotfix was superseded by KB 1013497.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1013389-quick-fields-image-not-clean-form-extraction",
+    code: "QF-IMAGE-NOT-CLEAN-FORM-EXTRACTION",
+    message: "Image is not clean enough to process",
+    product: "Quick Fields",
+    versions: ["Version 9"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Quick Fields 9.0 could report Image is not clean enough to process when running the Form Extraction process on certain images.",
+    symptoms: [
+      "Quick Fields reports Image is not clean enough to process.",
+      "The error appears while running the Form Extraction process.",
+      "Only certain images may trigger the failure.",
+    ],
+    likelyCauses: [
+      "A Quick Fields 9.0 Form Extraction defect affected processing for some image inputs.",
+    ],
+    likelyFixes: [
+      "Apply the Quick Fields 9.0 hotfix referenced by KB 1013389 or the superseding Quick Fields 9.0 hotfix KB 1013497.",
+      "Rerun Form Extraction against the affected image samples after applying the update.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title: "List of Changes for Quick Fields 9.0 Hotfix 1013389",
+        url: "https://support.laserfiche.com/kb/1013389/list-of-changes-for-quick-fields-9-0-hotfix-1013389",
+        note:
+          "Laserfiche Support KB states Hotfix 1013389 resolves Image is not clean enough to process errors for Form Extraction and notes the hotfix was superseded by KB 1013497.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1013815-windows-client-6720-dotnet35",
+    code: "WINDOWS-CLIENT-6720-DOTNET35",
+    message: "Could not create required control. [6720]",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Laserfiche Windows Client 10 can report error 6720 during sign-in when .NET Framework 3.5 is not installed on the workstation.",
+    symptoms: [
+      "Signing in with the Laserfiche Windows Client fails or warns with Could not create required control. [6720].",
+      "The issue can appear after installing the Windows Client with the Custom setup type.",
+    ],
+    likelyCauses: [
+      ".NET Framework 3.5 is not installed on the Windows Client workstation.",
+      "The Custom Windows Client setup did not automatically install the .NET Framework 3.5 prerequisite.",
+    ],
+    likelyFixes: [
+      "Install .NET Framework 3.5 on the affected workstation.",
+      "Use the .NET Framework 3.5 launcher from the Support subfolder on the Laserfiche installation media when available.",
+      "Retry signing in with the Laserfiche Windows Client after installing the prerequisite.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title: 'A "Could not create required control. [6720]" Error Occurs When Signing In With the Laserfiche Windows Client.',
+        url: "https://support.laserfiche.com/kb/1013815/a-could-not-create-required-control-6720-error-occurs-when-signing-in-with-the-laserfiche-windows-client-",
+        note:
+          "Laserfiche Support KB identifies missing .NET Framework 3.5 as the cause and recommends installing it from the Laserfiche media Support folder or Microsoft guidance.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1013541-web-client-viewstate-mac-failed",
+    code: "WEBACCESS-VIEWSTATE-MAC-FAILED",
+    message: "Validation of viewstate MAC failed",
+    product: "Web Client",
+    versions: ["Version 9"],
+    confidence: "high",
+    fixStatus: "workaround",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Web Access 9 can fail during login with a Validation of viewstate MAC failed ASP.NET error after specific Microsoft security updates.",
+    symptoms: [
+      "Users cannot log in to Web Access 9.",
+      "The ASP.NET error reports Validation of viewstate MAC failed.",
+      "The stack trace may include ViewStateException or HttpException details from Login.aspx.",
+      "The issue appears after Microsoft Security Updates 2894854, 2894855, or 2894856.",
+    ],
+    likelyCauses: [
+      "A .NET security update conflicts with an existing Web Access 9 ViewState security feature.",
+    ],
+    likelyFixes: [
+      "Upgrade Web Access to 9.1.1 Service Pack 2 or later.",
+      "As a temporary workaround, open WebAccessConfig.xml and add EnableViewStateKey Value=\"False\" within the WebAccessConfiguration section.",
+      "Save WebAccessConfig.xml and retest Web Access login.",
+    ],
+    notes:
+      "Web Access is filed under Web Client because the product naming was later consolidated and the user confirmed Web Access and Web Client should be treated together.",
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title:
+          'A "Validation of viewstate MAC failed" Error Occurs When Logging In To Web Access 9 After Installing Windows Updates 2894854, 2894855, or 2894856.',
+        url: "https://support.laserfiche.com/kb/1013541/a-validation-of-viewstate-mac-failed-error-occurs-when-logging-in-to-web-access-9-after-installing-windows-updates-2894854-2894855-or-2894856-",
+        note:
+          "Laserfiche Support KB identifies the Microsoft update conflict, recommends Web Access 9.1.1 SP2 or later, and documents the temporary EnableViewStateKey workaround.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1013469-snapshot-template-field-data",
+    code: "SNAPSHOT-TEMPLATE-FIELD-DATA-IMPORT",
+    message: "Importing the document failed because there was an error assigning template or field data for template",
+    product: "Snapshot",
+    versions: ["Version 9"],
+    confidence: "high",
+    fixStatus: "workaround",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Laserfiche Snapshot 9.1.1 can fail while printing to Laserfiche when Snapshot sets a template that contains a read-only field.",
+    symptoms: [
+      "Printing a document with Laserfiche Snapshot displays an import failure.",
+      "The error says there was an error assigning template or field data for the selected template.",
+      "The affected template contains a read-only field.",
+    ],
+    likelyCauses: [
+      "A Snapshot 9.1.1 defect is triggered when Snapshot applies a template containing a read-only field.",
+    ],
+    likelyFixes: [
+      "Upgrade to Laserfiche Snapshot 9.1.1 Service Pack 2 or later.",
+      "As a workaround, click OK on the error dialog, then click OK again in the Laserfiche Snapshot properties dialog so Snapshot sends the document to Laserfiche.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title:
+          'An "Importing the document failed because there was an error assigning template or field data for template \'TemplateName\'." Error Occurs When Printing To Laserfiche Snapshot 9.1.1.',
+        url: "https://support.laserfiche.com/kb/1013469/an-importing-the-document-failed-because-there-was-an-error-assigning-template-or-field-data-for-template-templatename-error-occurs-when-printing-to-laserfiche-snapshot-9-1-1-",
+        note:
+          "Laserfiche Support KB identifies read-only template fields as the trigger and lists Snapshot 9.1.1 SP2 plus an OK/retry workaround.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014279-web-client-docusign-object-reference-pages",
+    code: "WEBCLIENT-DOCUSIGN-OBJECT-REFERENCE-PAGE-GENERATION",
+    message: "Object reference not set to an instance of an object",
+    product: "Web Client",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Laserfiche Web Client 10.4.2 could report an Object reference error when generating pages for documents updated through the Laserfiche DocuSign integration.",
+    symptoms: [
+      "Generating pages for a document updated through Laserfiche DocuSign integration fails.",
+      "The error reports Object reference not set to an instance of an object.",
+      "The issue affects Laserfiche Web Client 10.4.2 before Update 3.",
+    ],
+    likelyCauses: [
+      "A Web Client 10.4.2 defect in page generation for documents updated through the Laserfiche DocuSign integration.",
+    ],
+    likelyFixes: [
+      "Apply Laserfiche Windows and Web Clients 10.4.2 Update 3 from KB 1014279 on the Web Client server.",
+      "Regenerate pages for the affected DocuSign-updated document after the update is installed.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title: "List of Changes for Laserfiche Windows and Web Clients 10.4.2 Update 3",
+        url: "https://support.laserfiche.com/kb/1014279/list-of-changes-for-laserfiche-windows-and-web-clients-10-4-2-update-3",
+        note:
+          "Laserfiche Support KB states Update 3 resolves Object reference errors when generating pages for documents updated through the DocuSign integration.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014279-client-lfds-unexpected-response-many-groups",
+    code: "CLIENT-LFDS-UNEXPECTED-RESPONSE-MANY-GROUPS",
+    message: "The Laserfiche Server received an unrecognized or unexpected response from the Laserfiche Directory Server",
+    product: "Windows Client/Desktop Client",
+    versions: ["Version 10"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Laserfiche 10.4.2 clients could report an unexpected Directory Server response when users who belong to many domain groups open documents involved in a business process.",
+    symptoms: [
+      "Opening a document involved in a business process fails for some users.",
+      "The error says the Laserfiche Server received an unrecognized or unexpected response from Laserfiche Directory Server.",
+      "The affected user is a member of many domain groups.",
+    ],
+    likelyCauses: [
+      "A Laserfiche 10.4.2 client/server defect affected users with large domain group memberships when opening business-process documents.",
+    ],
+    likelyFixes: [
+      "Apply Laserfiche Windows and Web Clients 10.4.2 Update 3 from KB 1014279.",
+      "Retest opening the business-process document as a user with the affected domain group membership.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title: "List of Changes for Laserfiche Windows and Web Clients 10.4.2 Update 3",
+        url: "https://support.laserfiche.com/kb/1014279/list-of-changes-for-laserfiche-windows-and-web-clients-10-4-2-update-3",
+        note:
+          "Laserfiche Support KB states Update 3 resolves this Directory Server response error for users in many domain groups when opening business-process documents.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014464-import-agent-extracted-text-overwrites-pages",
+    code: "IMPORT-AGENT-EXTRACTED-TEXT-OVERWRITES-PAGES",
+    message: "All pages will be overwritten by extracted text",
+    product: "Import Agent",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "workaround",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Import Agent 11 can report that all pages will be overwritten by extracted text when XML list files import PDFs while both extract_text=true and page generation are configured.",
+    symptoms: [
+      "Import Agent reports All pages will be overwritten by extracted text during import.",
+      "The profile imports XML files as list files.",
+      "The XML list file imports PDFs and sets extract_text=true.",
+      "The Import Agent profile also generates pages for PDFs.",
+    ],
+    likelyCauses: [
+      "The generate pages option takes effect before the extract_text setting when importing PDFs through XML list files.",
+    ],
+    likelyFixes: [
+      "Clear the generate pages option in the Import Agent profile, or remove extract_text=true from the XML list file.",
+      "Rerun the import after only one of the conflicting PDF text/page options remains enabled.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title: "Release Notes for Import Agent 11",
+        url: "https://support.laserfiche.com/kb/1014464/release-notes-for-import-agent-11",
+        note:
+          "Laserfiche Support KB lists this Import Agent 11 known issue and recommends clearing either generate pages or extract_text=true.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014464-import-agent-gcount-folder-exists",
+    code: "IMPORT-AGENT-GCOUNT-FOLDER-EXISTS",
+    message: "An error will occur when the repository folder path includes %(GCount) and the folder already exists",
+    product: "Import Agent",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "workaround",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Import Agent 11 can fail when %(GCount) is included in the repository folder path and the target folder already exists in the repository.",
+    symptoms: [
+      "An Import Agent profile errors during import.",
+      "The repository folder path configured on the Properties tab includes the %(GCount) token.",
+      "The resolved destination folder already exists in the repository.",
+    ],
+    likelyCauses: [
+      "Import Agent expects to create the %(GCount)-based destination folder, but a matching folder already exists.",
+    ],
+    likelyFixes: [
+      "Delete the existing destination folder in the repository if it is safe to do so.",
+      "Allow Import Agent to create the %(GCount)-based folder during the next import.",
+      "If deleting the folder is not appropriate, change the destination path or naming pattern to avoid the collision.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title: "Release Notes for Import Agent 11",
+        url: "https://support.laserfiche.com/kb/1014464/release-notes-for-import-agent-11",
+        note:
+          "Laserfiche Support KB lists this Import Agent 11 known issue and recommends deleting the existing folder so Import Agent can create it.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014404-api-server-request-entity-too-large",
+    code: "API-SERVER-REQUEST-ENTITY-TOO-LARGE",
+    message: "The page was not displayed because the request entity is too large",
+    product: "API Server",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "workaround",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Document import through the self-hosted Laserfiche API Server can fail when IIS uploadReadAheadSize is too small for the request in certain network configurations.",
+    symptoms: [
+      "Document import through Laserfiche API Server fails.",
+      "The response says The page was not displayed because the request entity is too large.",
+      "The issue appears in environments where the default IIS uploadReadAheadSize is not sufficient.",
+    ],
+    likelyCauses: [
+      "The IIS system.webServer/serverRuntime uploadReadAheadSize value is too low for the request.",
+    ],
+    likelyFixes: [
+      "On the API Server computer, open IIS Manager.",
+      "Select the LFRepositoryAPI application under the website hosting API Server.",
+      "Open Configuration Editor, select system.webServer/serverRuntime, and increase uploadReadAheadSize above the default 49152 bytes.",
+      "Retest the API document import after applying the IIS setting change.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title: "Release Notes for Laserfiche API Server",
+        url: "https://support.laserfiche.com/kb/1014404/release-notes-for-laserfiche-api-server",
+        note:
+          "Laserfiche Support KB lists this API Server known issue and provides the IIS uploadReadAheadSize remediation path.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014424-web-client-pdf-generate-pages-argument-range",
+    code: "WEBCLIENT-PDF-GENERATE-PAGES-ARGUMENT-RANGE",
+    message: "Specified argument was out of the range of valid values",
+    product: "Web Client",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Web Client 11 could report a specified-argument range error when importing certain PDF files and attempting to generate pages.",
+    symptoms: [
+      "Importing certain PDF files in Web Client fails during page generation.",
+      "The error reports Specified argument was out of the range of valid values.",
+    ],
+    likelyCauses: [
+      "A Web Client 11 PDF import/page-generation defect fixed in the February 2023 update.",
+    ],
+    likelyFixes: [
+      "Apply the Laserfiche 11 February 2023 Update, which includes Web Client 11 Update 4.",
+      "Retest importing the affected PDF and generating pages after the update is installed.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title: "List of Changes for the Laserfiche 11 February 2023 Update.",
+        url: "https://support.laserfiche.com/kb/1014424/list-of-changes-for-the-laserfiche-11-february-2023-update-",
+        note:
+          "Laserfiche Support KB states Web Client 11 Update 4 resolves this PDF import/page-generation error.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014424-web-client-pdf-generate-pages-buffer-null",
+    code: "WEBCLIENT-PDF-GENERATE-PAGES-BUFFER-NULL",
+    message: "Buffer cannot be null. Parameter name: buffer",
+    product: "Web Client",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Web Client 11 could report Buffer cannot be null when attempting to generate pages for certain PDF files.",
+    symptoms: [
+      "Generating pages for certain PDF files in Web Client fails.",
+      "The error reports Buffer cannot be null. Parameter name: buffer.",
+    ],
+    likelyCauses: [
+      "A Web Client 11 PDF page-generation defect fixed in the February 2023 update.",
+    ],
+    likelyFixes: [
+      "Apply the Laserfiche 11 February 2023 Update, which includes Web Client 11 Update 4.",
+      "Retest page generation for the affected PDF after the update is installed.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title: "List of Changes for the Laserfiche 11 February 2023 Update.",
+        url: "https://support.laserfiche.com/kb/1014424/list-of-changes-for-the-laserfiche-11-february-2023-update-",
+        note:
+          "Laserfiche Support KB states Web Client 11 Update 4 resolves this PDF page-generation error.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014263-installer-mounted-iso-disk-error",
+    code: "INSTALLER-MOUNTED-ISO-DISK-ERROR",
+    message: "Installer may report an error finding a disk during upgrades from a mounted ISO",
+    product: "Laserfiche Installer",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "workaround",
+    reviewedDate: "2026-07-01",
+    summary:
+      "The Laserfiche Server installer can report an error finding a disk during upgrades when it is run directly from a mounted Laserfiche 11 ISO file.",
+    symptoms: [
+      "The Laserfiche Server installer reports an error finding a disk.",
+      "The upgrade is being run directly from a mounted ISO file.",
+      "The issue applies to upgrades from a previous version using the Laserfiche 11 package.",
+    ],
+    likelyCauses: [
+      "The installer is running from mounted ISO media instead of from a copied local or network path.",
+    ],
+    likelyFixes: [
+      "Copy the installer from the mounted ISO to a local or network drive.",
+      "Run the upgrade from the copied installer location instead of directly from the mounted ISO.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title: "Software versions and fixes included in the Laserfiche 11 Download Package",
+        url: "https://support.laserfiche.com/kb/1014263/software-versions-and-fixes-included-in-the-laserfiche-11-download-package",
+        note:
+          "Laserfiche Support KB lists this as a known issue for the Laserfiche 11 package and recommends copying the installer from the ISO before running it.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
