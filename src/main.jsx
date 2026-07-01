@@ -706,12 +706,6 @@ function App() {
           <FilterSelect label="Product" value={product} onChange={trackFilterChange(setProduct)} options={filters.products} />
           <FilterSelect label="Version" value={version} onChange={trackFilterChange(setVersion)} options={filters.versions} />
           <FilterSelect
-            label="Source Confidence"
-            value={confidence}
-            onChange={trackFilterChange(setConfidence)}
-            options={filters.confidences}
-          />
-          <FilterSelect
             label="Source"
             value={source}
             onChange={trackFilterChange(setSource)}
@@ -763,8 +757,14 @@ function App() {
           <section className="advanced-filters" id="advanced-filters" aria-label="More filters">
             <div className="advanced-filter-summary">
               <h2>More Filters</h2>
-              <p>Use these filters to narrow results by fix maturity, scenario coverage, and review status.</p>
+              <p>Use these filters to narrow results by source confidence, fix maturity, scenario coverage, and review status.</p>
             </div>
+            <FilterSelect
+              label="Source Confidence"
+              value={confidence}
+              onChange={trackFilterChange(setConfidence)}
+              options={filters.confidences}
+            />
             <FilterSelect
               label="Fix Status"
               value={fixStatus}
