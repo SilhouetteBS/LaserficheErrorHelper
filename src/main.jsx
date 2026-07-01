@@ -492,6 +492,7 @@ function App() {
       .filter((entry) => product === allOption || entry.product === product)
       .filter((entry) => version === allOption || entry.versions.includes(version))
       .filter((entry) => source === allOption || entry.sources.some((item) => item.sourceType === source))
+      .filter((entry) => ledgerSource === allOption || entry.sources.some((item) => item.sourceType === ledgerSource))
       .filter((entry) => confidence === allOption || confidenceLabel(entry.confidence) === confidence)
       .filter((entry) => fixStatus === allOption || fixStatusValue(entry) === fixStatus)
       .filter((entry) => {
@@ -515,7 +516,7 @@ function App() {
         if (sortBy === "product") return a.product.localeCompare(b.product) || a.code.localeCompare(b.code);
         return b.searchScore - a.searchScore || sourceRank(a) - sourceRank(b) || a.code.localeCompare(b.code, undefined, { numeric: true });
       });
-  }, [errorEntries, reviewedSources, query, product, version, source, confidence, fixStatus, scenarioFilter, researchFilter, validationFilter, reviewStatusFilter, sortBy]);
+  }, [errorEntries, reviewedSources, query, product, version, source, ledgerSource, confidence, fixStatus, scenarioFilter, researchFilter, validationFilter, reviewStatusFilter, sortBy]);
 
   const selectedEntry = selectedId ? errorEntries.find((entry) => entry.id === selectedId) : null;
   const qualitySummary = useMemo(() => {
