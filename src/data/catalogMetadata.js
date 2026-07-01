@@ -1,8 +1,10 @@
 export const sourcePriority = {
   "official-docs": 1,
-  "answers-laserfiche-employee": 2,
-  "answers-community-confirmed": 3,
-  "answers-community": 4,
+  "support-knowledge-base": 2,
+  "answers-laserfiche-employee": 3,
+  "answers-community-confirmed": 4,
+  "answers-community": 5,
+  "answers-search": 6,
 };
 
 export const productOptions = [
@@ -36,11 +38,12 @@ export const productOptions = [
 export const versionOptions = ["Version 9", "Version 10", "Version 11", "Version 12"];
 
 export const sourceTypeOptions = [
+  { value: "official-docs", label: "Official Docs" },
+  { value: "support-knowledge-base", label: "Support Knowledge Base" },
   { value: "answers-community-confirmed", label: "Answers - Community Confirmed" },
   { value: "answers-laserfiche-employee", label: "Answers - Laserfiche Employee" },
   { value: "answers-community", label: "Answers - Community" },
   { value: "answers-search", label: "Answers - Search Reviewed" },
-  { value: "official-docs", label: "Official Docs" },
 ];
 
 export const productAliases = {

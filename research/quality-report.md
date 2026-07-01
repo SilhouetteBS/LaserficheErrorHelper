@@ -1,11 +1,11 @@
 # Laserfiche Error Helper Quality Report
 
-Generated: 2026-06-29
+Generated: 2026-07-01
 
 ## Summary
 
-- Published entries: 1911
-- Reviewed sources: 930
+- Published entries: 1917
+- Reviewed sources: 936
 - Entries needing validation: 0
 - Entries with scenario variants: 20
 - High-priority unresolved reviewed sources: 0
@@ -16,7 +16,7 @@ Generated: 2026-06-29
 
 | Confidence | Entries |
 | --- | --- |
-| high | 65 |
+| high | 71 |
 | low | 1481 |
 | medium | 365 |
 
@@ -25,16 +25,16 @@ Generated: 2026-06-29
 | Fix status | Entries |
 | --- | --- |
 | diagnostic-only | 355 |
-| known-fix | 106 |
+| known-fix | 109 |
 | needs-review | 1135 |
-| workaround | 315 |
+| workaround | 318 |
 
 ## Validation Triage Coverage
 
 | Validation status | Entries |
 | --- | --- |
 | official-doc-baseline | 1135 |
-| reviewed-diagnostic | 392 |
+| reviewed-diagnostic | 398 |
 
 ## Validation Queue by Product
 
@@ -71,7 +71,7 @@ Generated: 2026-06-29
 | Review status | Sources |
 | --- | --- |
 | cross-product | 65 |
-| curated | 411 |
+| curated | 417 |
 | curated-partial | 448 |
 | no-matching-posts | 2 |
 | not-actionable | 4 |
@@ -95,10 +95,10 @@ Generated: 2026-06-29
 | Laserfiche Server/Repository Server | 1081 | 1171 |
 | Windows Client/Desktop Client | 234 | 236 |
 | Forms | 122 | 159 |
-| Directory Server | 76 | 77 |
-| Workflow | 62 | 69 |
-| Web Client | 60 | 67 |
-| Laserfiche Installer | 41 | 41 |
+| Directory Server | 77 | 78 |
+| Workflow | 65 | 72 |
+| Web Client | 61 | 68 |
+| Laserfiche Installer | 42 | 42 |
 | Quick Fields | 34 | 35 |
 | WebLink | 24 | 27 |
 | Import Agent | 24 | 25 |

@@ -1211,6 +1211,11 @@ li + li {
   background: var(--accent-soft);
 }
 
+.source-badge.support-knowledge-base {
+  color: #582500;
+  background: #fff5ec;
+}
+
 .source-badge.answers-laserfiche-employee {
   color: #0f5132;
   background: #dff5e8;

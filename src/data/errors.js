@@ -20794,6 +20794,236 @@ const curatedErrorEntries = [
       },
     ],
   },
+  {
+    id: "support-kb-1012896-workflow-communication-timeout",
+    code: "WORKFLOW-COMMUNICATION-TIMEOUT",
+    message: "An error occurred communicating with the workflow server",
+    product: "Workflow",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "high",
+    fixStatus: "workaround",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Workflow Designer or Workflow Administration Console can report a communication error when connection or operation timeouts are too short for a high-latency environment.",
+    symptoms: [
+      "Workflow Designer reports An error occurred communicating with the workflow server.",
+      "Workflow Administration Console reports the same communication error.",
+      "The issue is more likely when Workflow client operations take longer than the default timeout limits.",
+    ],
+    likelyCauses: [
+      "Workflow client connection timeout is too low for the environment.",
+      "Workflow client operation timeout is too low for a long-running or high-latency operation.",
+    ],
+    likelyFixes: [
+      "On machines running Workflow Designer or Workflow Administration Console, add or adjust the ConnectionTimeout string value under the Workflow Options registry key.",
+      "Add or adjust the OperationTimeout string value under the same Workflow Options registry key.",
+      "Use the current-user Workflow Options key when the timeout should apply only to one user; otherwise use the local-machine key for the workstation.",
+      "Validate the timeout change in a test or maintenance window before applying it broadly.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title:
+          "Modifying Connection And Operation Timeout Limits For the Workflow Designer, Workflow Administration Console, and Workflow Configuration Manager.",
+        url: "https://support.laserfiche.com/kb/1012896/modifying-connection-and-operation-timeout-limits-for-the-workflow-designer-workflow-administration-console-and-workflow-configuration-manager-",
+        note:
+          "Laserfiche Support KB says high-latency operations can manifest as workflow server communication errors and documents ConnectionTimeout and OperationTimeout registry settings.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1013467-forms-workflow-multiple-site-bindings",
+    code: "WORKFLOW-MULTIPLE-SITE-BINDINGS",
+    message: "This collection already contains an address with scheme http",
+    product: "Workflow",
+    versions: ["Version 9", "Version 10", "Version 11", "Version 12"],
+    confidence: "high",
+    fixStatus: "workaround",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Forms may be unable to launch Workflow, or Workflow web service configuration may fail, when the Workflow WCF service is hosted under an IIS site with multiple bindings.",
+    symptoms: [
+      "Laserfiche Forms cannot launch a Workflow through a configured web service task.",
+      "Workflow Configuration Manager errors while configuring the Workflow web service.",
+      "Windows Event Log records a System.ServiceModel.ServiceActivationException for /Workflow/api.",
+      "The exception says the collection already contains an address with scheme http.",
+    ],
+    likelyCauses: [
+      "The IIS site hosting the Workflow web service has multiple bindings.",
+      "The WCF service hosting environment is still configured for one binding per scheme.",
+    ],
+    likelyFixes: [
+      "Back up the Workflow web service Web.config file before editing it.",
+      "In the Workflow web service Web.config, set serviceHostingEnvironment multipleSiteBindingsEnabled to true.",
+      "Recycle the relevant IIS application pool or restart the Workflow web service during a maintenance window.",
+      "Retest Forms starting the Workflow after the binding configuration change.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title:
+          'A "This collection already contains an address with scheme http" Error Occurs When Starting A Workflow In Laserfiche Forms.',
+        url: "https://support.laserfiche.com/kb/1013467/a-this-collection-already-contains-an-address-with-scheme-http-error-occurs-when-starting-a-workflow-in-laserfiche-forms-",
+        note:
+          "Laserfiche Support KB identifies multiple IIS site bindings as the cause and documents setting multipleSiteBindingsEnabled to true in the Workflow web service Web.config.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014435-directory-server-aadsts75011",
+    code: "AADSTS75011",
+    message:
+      "Authentication method by which the user authenticated with the service does not match requested authentication method",
+    product: "Directory Server",
+    versions: ["Version 10", "Version 11", "Version 12"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Directory Server SAML sign-in with Azure AD/Entra ID can fail with AADSTS75011 when the SAML RequestedAuthnContext sent by LFDS does not match the AuthnContext returned by the identity provider.",
+    symptoms: [
+      "Users attempting SAML SSO receive AADSTS75011 from Azure AD or Entra ID.",
+      "The error mentions an authentication method mismatch between the authenticated method and the requested authentication method.",
+      "The same pattern may appear with other SAML providers as an AuthnContext mismatch.",
+    ],
+    likelyCauses: [
+      "The Directory Server SAML Authentication context value requests a specific AuthnContext that the identity provider does not return.",
+      "Leaving the LFDS Authentication context field blank can still cause LFDS to send the default PasswordProtectedTransport value.",
+    ],
+    likelyFixes: [
+      "In Directory Server Web Admin, open Settings > Identity Providers and select the Azure AD or Entra ID SAML provider.",
+      "Set Authentication context to urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified.",
+      "Save the identity provider configuration and retest SAML sign-in.",
+      "For non-Azure SAML providers, apply the same AuthnContext review when the provider logs show a similar mismatch.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title:
+          'You receive an Azure AD "AADSTS75011: Authentication method by which the user authenticated with the service doesn\'t match requested authentication method." Error When Trying To Sign Into Laserfiche Directory Server With Azure AD SAML SSO',
+        url: "https://support.laserfiche.com/kb/1014435/you-receive-an-azure-ad-aadsts75011-authentication-method-by-which-the-user-authenticated-with-the-service-doesnt-match-requested-authentication-method-error-when-trying-to-sign-into-laserfiche-directory-server-with-azure-ad-saml-sso",
+        note:
+          "Laserfiche Support KB explains the SAML RequestedAuthnContext/AuthnContext mismatch and recommends using the unspecified SAML authentication context value.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014471-activation-tool-http-response",
+    code: "ACTIVATION-SERVICE-HTTP-RESPONSE",
+    message: "An error occurred while receiving the HTTP response to https://activation.laserfiche.com/IActivationService.svc",
+    product: "Laserfiche Installer",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "workaround",
+    reviewedDate: "2026-07-01",
+    summary:
+      "The Activation Tool can fail while contacting Laserfiche activation services if its .NET configuration uses an unsupported cryptographic protocol.",
+    symptoms: [
+      "Opening the Activation Tool to manually activate or deactivate a self-hosted Laserfiche application fails.",
+      "The error references receiving the HTTP response from https://activation.laserfiche.com/IActivationService.svc.",
+      "The message may mention endpoint binding, an aborted HTTP request context, or server logs.",
+    ],
+    likelyCauses: [
+      "The Activation Tool attempts network communication using a cryptographic protocol that is no longer supported.",
+    ],
+    likelyFixes: [
+      "Back up ActivationToolNet4.exe.config before changing it.",
+      "Add the Laserfiche Support KB runtime AppContextSwitchOverrides block to force strong cryptography.",
+      "If using the Directory Server-installed Activation Tool, check the default Directory Server installation folder for the config file.",
+      "Alternatively, download and use the updated Activation Tool package linked from the Laserfiche Support KB.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title:
+          '"An error occurred while receiving the HTTP response to https://activation.laserfiche.com/IActivationService.svc." Error Message Occurs When Opening the Activation Tool.',
+        url: "https://support.laserfiche.com/kb/1014471/an-error-occurred-while-receiving-the-http-response-to-https-activation-laserfiche-com-iactivationservice-svc-error-message-occurs-when-opening-the-activation-tool-",
+        note:
+          "Laserfiche Support KB documents the strong-cryptography configuration workaround and an updated Activation Tool download.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014530-workflow-base64-designer-server-version",
+    code: "WORKFLOW-BASE64-DECRYPTION",
+    message:
+      "The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters",
+    product: "Workflow",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Workflow Designer can report a Base-64 string error when the Designer and Workflow Server versions are mismatched, especially around workflows published with Workflow 11.0.2306.898 encryption changes.",
+    symptoms: [
+      "Viewing or running a workflow in Workflow Designer fails with a Base-64 string error.",
+      "The workflow may have been published in Workflow 11.0.2306.898.",
+      "An older Workflow Designer may be unable to decrypt a workflow published by a newer build.",
+    ],
+    likelyCauses: [
+      "Workflow Designer is newer than the Workflow Server.",
+      "Workflow Designer is older than the build that published the workflow.",
+      "Workflow encryption algorithm changes prevent an older client from decrypting the workflow definition.",
+    ],
+    likelyFixes: [
+      "Confirm the Workflow Designer and Workflow Server build numbers.",
+      "Upgrade or align Workflow Designer and Workflow Server so they are on the same version.",
+      "Retest opening and running the workflow after the client/server versions match.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title:
+          '"The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters." error when attempting to run a workflow.',
+        url: "https://support.laserfiche.com/kb/1014530/the-input-is-not-a-valid-base-64-string-as-it-contains-a-non-base-64-character-more-than-two-padding-characters-or-an-illegal-character-among-the-padding-characters-error-when-attempting-to-run-a-workflow-",
+        note:
+          "Laserfiche Support KB identifies Workflow Designer/Workflow Server version mismatch and Workflow 11.0.2306.898 encryption changes as causes.",
+      },
+    ],
+  },
+  {
+    id: "support-kb-1014535-web-client-forms-status-breakpoint",
+    code: "STATUS_BREAKPOINT",
+    message: "error code: STATUS_BREAKPOINT",
+    product: "Web Client",
+    versions: ["Version 11"],
+    confidence: "high",
+    fixStatus: "known-fix",
+    reviewedDate: "2026-07-01",
+    summary:
+      "Chrome or Edge version 126 browser builds could become unstable with STATUS_BREAKPOINT when loading large dropdown lists in Forms 11 or the Web Client 11 metadata pane.",
+    symptoms: [
+      "Clicking a large dropdown list in a Forms form causes the browser tab to become unstable.",
+      "Clicking a large dropdown list in the Web Client metadata pane causes the browser tab to become unstable.",
+      "The browser displays error code: STATUS_BREAKPOINT.",
+      "The issue appears after Chrome 126.0.6478.114/115 or Edge 126.0.2592.61.",
+    ],
+    likelyCauses: [
+      "A Chromium-based browser regression affected large dropdown lists around June 18, 2024.",
+      "Dropdown lists around 1000 items were specifically called out in the Laserfiche Support KB.",
+    ],
+    likelyFixes: [
+      "Update Google Chrome to 126.0.6478.127 or later.",
+      "Update Microsoft Edge to 126.0.2592.81 or later.",
+      "If the issue remains after browser updates, test another browser and review whether the dropdown list size can be reduced.",
+    ],
+    validationStatus: "reviewed-diagnostic",
+    sources: [
+      {
+        sourceType: "support-knowledge-base",
+        title:
+          'A "STATUS_BREAKPOINT" Error Occurs When Loading a Large Dropdown List in Laserfiche Forms 11 or Laserfiche Web Client 11.',
+        url: "https://support.laserfiche.com/kb/1014535/a-status_breakpoint-error-occurs-when-loading-a-large-dropdown-list-in-laserfiche-forms-11-or-laserfiche-web-client-11-",
+        note:
+          "Laserfiche Support KB ties STATUS_BREAKPOINT to specific Chrome and Edge builds and recommends browser updates.",
+      },
+    ],
+  },
 ];
 
 const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));

@@ -218,6 +218,7 @@ function fixStatusValue(entry) {
 
 function sourceIcon(sourceType) {
   if (sourceType === "official-docs") return BookOpen;
+  if (sourceType === "support-knowledge-base") return BookOpen;
   if (sourceType === "answers-search") return Search;
   return MessageSquare;
 }
@@ -1082,6 +1083,7 @@ function SourceTypeIcon({ sourceType }) {
 function SourceBadge({ sourceType }) {
   const labels = {
     "official-docs": "Official Docs",
+    "support-knowledge-base": "Support Knowledge Base",
     "answers-laserfiche-employee": "Answers - Laserfiche Employee",
     "answers-community-confirmed": "Answers - Community Confirmed",
     "answers-community": "Answers - Community",

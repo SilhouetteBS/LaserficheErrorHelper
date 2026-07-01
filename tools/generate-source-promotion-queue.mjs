@@ -18,10 +18,11 @@ function fixStatusValue(entry) {
 
 function sourcePriority(sourceType) {
   if (sourceType === "official-docs") return 1;
-  if (sourceType === "answers-laserfiche-employee") return 2;
-  if (sourceType === "answers-community-confirmed") return 3;
-  if (sourceType === "answers-community") return 4;
-  return 5;
+  if (sourceType === "support-knowledge-base") return 2;
+  if (sourceType === "answers-laserfiche-employee") return 3;
+  if (sourceType === "answers-community-confirmed") return 4;
+  if (sourceType === "answers-community") return 5;
+  return 6;
 }
 
 function normalizeCode(value) {
@@ -40,6 +41,7 @@ function table(headers, rows) {
 function sourceLabel(sourceType) {
   const labels = {
     "official-docs": "Official Docs",
+    "support-knowledge-base": "Support Knowledge Base",
     "answers-laserfiche-employee": "Answers - Laserfiche Employee",
     "answers-community-confirmed": "Answers - Community Confirmed",
     "answers-community": "Answers - Community",
