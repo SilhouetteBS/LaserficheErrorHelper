@@ -1,4 +1,7 @@
+import { answersChromePromotedReviewedSources } from "./answersChromePromotions.js";
+
 export const reviewedSources = [
+  ...answersChromePromotedReviewedSources,
   {
     id: "lf12-user-guide-error-codes",
     title: "Laserfiche 12 User Guide: Error Codes",

@@ -1,4 +1,5 @@
 import { officialDocumentationErrorEntries } from "./officialDocumentationErrors.js";
+import { answersChromePromotedErrorEntries } from "./answersChromePromotions.js";
 import { curationOverrides } from "./curationOverrides.js";
 import { sourceAugmentations } from "./sourceAugmentations.js";
 import { sourceCandidatePromotions } from "./sourceCandidateReviews.js";
@@ -21701,7 +21702,7 @@ const curatedErrorEntries = [
   },
 ];
 
-const curatedCodes = new Set(curatedErrorEntries.map((entry) => entry.code));
+const curatedCodes = new Set([...curatedErrorEntries, ...answersChromePromotedErrorEntries].map((entry) => entry.code));
 
 function applyCurationOverride(entry) {
   const override = curationOverrides[entry.id];
@@ -21761,6 +21762,7 @@ function mergeScenarios(existingScenarios = [], additionalScenarios = []) {
 
 export const baseErrorEntries = [
   ...curatedErrorEntries,
+  ...answersChromePromotedErrorEntries,
   ...officialDocumentationErrorEntries.filter((entry) => !curatedCodes.has(entry.code)),
 ].sort((a, b) => a.code.localeCompare(b.code, undefined, { numeric: true }) || a.id.localeCompare(b.id));
 
