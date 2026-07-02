@@ -4,8 +4,8 @@ Generated: 2026-07-02
 
 ## Summary
 
-- Published entries: 2303
-- Reviewed sources: 1556
+- Published entries: 2308
+- Reviewed sources: 1562
 - Entries needing validation: 0
 - Entries with scenario variants: 20
 - High-priority unresolved reviewed sources: 2
@@ -17,8 +17,8 @@ Generated: 2026-07-02
 | Confidence | Entries |
 | --- | --- |
 | high | 88 |
-| low | 1539 |
-| medium | 676 |
+| low | 1538 |
+| medium | 682 |
 
 ## Fix Status Coverage
 
@@ -26,15 +26,15 @@ Generated: 2026-07-02
 | --- | --- |
 | diagnostic-only | 356 |
 | known-fix | 121 |
-| needs-review | 1502 |
+| needs-review | 1507 |
 | workaround | 324 |
 
 ## Validation Triage Coverage
 
 | Validation status | Entries |
 | --- | --- |
-| official-doc-baseline | 1124 |
-| reviewed-diagnostic | 795 |
+| official-doc-baseline | 1123 |
+| reviewed-diagnostic | 801 |
 
 ## Validation Queue by Product
 
@@ -73,7 +73,7 @@ Generated: 2026-07-02
 | cross-product | 65 |
 | curated | 428 |
 | curated-partial | 450 |
-| curated-unresolved | 607 |
+| curated-unresolved | 613 |
 | no-matching-posts | 2 |
 | not-actionable | 4 |
 
@@ -93,14 +93,14 @@ Generated: 2026-07-02
 
 | Product | Published entries | Linked sources |
 | --- | --- | --- |
-| Laserfiche Server/Repository Server | 1217 | 1307 |
+| Laserfiche Server/Repository Server | 1218 | 1308 |
 | Windows Client/Desktop Client | 233 | 235 |
 | Forms | 144 | 181 |
 | Directory Server | 106 | 107 |
 | Web Client | 91 | 98 |
 | WebLink | 87 | 90 |
 | Workflow | 83 | 90 |
-| Quick Fields | 55 | 56 |
+| Quick Fields | 59 | 60 |
 | Laserfiche Installer | 48 | 48 |
 | Snapshot | 36 | 36 |
 
@@ -111,7 +111,7 @@ Generated: 2026-07-02
 | LFF502-UnexpectedError | 24 | Directory Server, Forms, Laserfiche Server/Repository Server | 1 |
 | 9013 | 18 | Connector, Import Agent, Laserfiche Server/Repository Server, Quick Fields, Records Management, Web Client, WebLink, Windows Client/Desktop Client, Workflow | 1 |
 | 6000 | 14 | Directory Server, Forms, Laserfiche Installer, Laserfiche Server/Repository Server, Records Management, Snapshot, Windows Client/Desktop Client, Workflow | 0 |
-| 7050 | 11 | Laserfiche Server/Repository Server | 0 |
+| 7050 | 12 | Laserfiche Server/Repository Server | 0 |
 | 9008 | 10 | Full Text Search, Import Agent, Laserfiche Server/Repository Server | 1 |
 | 784 | 8 | Full Text Search, Laserfiche Server/Repository Server | 1 |
 | 0x80040310 | 7 | Laserfiche Installer, Web Client, Windows Client/Desktop Client | 0 |

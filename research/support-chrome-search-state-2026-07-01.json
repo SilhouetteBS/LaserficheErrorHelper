@@ -540,7 +540,13 @@
     "1011057",
     "1001098",
     "1000765",
-    "90028"
+    "90028",
+    "1001078",
+    "1011176",
+    "1011841",
+    "1000801",
+    "1000931",
+    "1011840"
   ],
   "visitedUrls": [
     "https://support.laserfiche.com/kb/1014571/using-chrome-or-edge-136-and-higher-with-laserfiche-connector-may-result-in-an-error-stating-the-browser-is-not-configured-correctly",
@@ -1078,7 +1084,13 @@
     "https://support.laserfiche.com/kb/1011057/basic-information-regarding-word-location-information-generated-through-the-laserfiche-client-",
     "https://support.laserfiche.com/kb/1001098/the-autorun-silently-fails-when-clicking-a-link-to-a-pdf-document-",
     "https://support.laserfiche.com/kb/1000765/configuring-laserfiche-to-be-firewall-compatible-",
-    "https://support.laserfiche.com/kb/90028/6327-only-image-documents-can-be-processed-"
+    "https://support.laserfiche.com/kb/90028/6327-only-image-documents-can-be-processed-",
+    "https://support.laserfiche.com/kb/1001078/known-issues-with-laserfiche-7-1-2-",
+    "https://support.laserfiche.com/kb/1011176/known-issues-with-laserfiche-7-2-",
+    "https://support.laserfiche.com/kb/1011841/omnipage-ocr-does-not-correctly-process-multi-byte-western-languages-",
+    "https://support.laserfiche.com/kb/1000801/known-issues-with-the-laserfiche-server-7-0-2-",
+    "https://support.laserfiche.com/kb/1000931/known-issues-with-laserfiche-server-7-0-3-",
+    "https://support.laserfiche.com/kb/1011840/temporary-ocr-files-are-not-automatically-removed-when-ocring-color-or-grayscale-images-"
   ],
   "batches": [
     {
@@ -1253,12 +1265,12 @@
       "batchNumber": 22,
       "batchPath": "research/support-chrome-search-batch-2026-07-01-22.json",
       "mdPath": "research/support-chrome-search-batch-2026-07-01-22.md",
-      "count": 11,
+      "count": 17,
       "createdAt": "2026-07-02T16:41:35.263Z",
-      "updatedAt": "2026-07-02T16:42:22.826Z"
+      "updatedAt": "2026-07-02T19:17:20.174Z"
     }
   ],
-  "updatedAt": "2026-07-02T16:42:22.825Z",
+  "updatedAt": "2026-07-02T19:17:20.173Z",
   "notes": "Restarted from batch 1 for manual validation of support search result detection.",
   "queryCursors": {
     "query:error": {
@@ -1410,7 +1422,7 @@
       "done": true
     },
     "query:Snapshot 10": {
-      "page": 28,
+      "page": 37,
       "done": false
     },
     "query:Laserfiche Server 11": {
@@ -1706,8 +1718,8 @@
       "done": true
     },
     "query:Connector cannot": {
-      "page": 17,
-      "done": false
+      "page": 18,
+      "done": true
     },
     "query:Quick Fields cannot": {
       "page": 2,
@@ -1718,7 +1730,7 @@
       "done": true
     },
     "query:Snapshot cannot": {
-      "page": 15,
+      "page": 24,
       "done": false
     },
     "query:WebLink cannot": {
@@ -1786,7 +1798,7 @@
       "done": true
     },
     "query:Docusign error Laserfiche": {
-      "page": 16,
+      "page": 25,
       "done": false
     },
     "query:DocuSign 500 Internal Server Error": {

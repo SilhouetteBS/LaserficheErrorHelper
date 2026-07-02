@@ -4,8 +4,8 @@ Generated: 2026-07-02
 
 ## Summary
 
-- Published helper entries: 2303
-- Reviewed source ledger rows: 1556
+- Published helper entries: 2308
+- Reviewed source ledger rows: 1562
 - Discovery rows tracked: 4081
 - Remaining candidate rows: 71
 
@@ -15,7 +15,7 @@ Generated: 2026-07-02
 | --- | --- |
 | diagnostic-only | 356 |
 | known-fix | 121 |
-| needs-review | 1502 |
+| needs-review | 1507 |
 | workaround | 324 |
 
 ## Source Ledger Review Status
@@ -25,7 +25,7 @@ Generated: 2026-07-02
 | cross-product | 65 |
 | curated | 428 |
 | curated-partial | 450 |
-| curated-unresolved | 607 |
+| curated-unresolved | 613 |
 | no-matching-posts | 2 |
 | not-actionable | 4 |
 
@@ -38,7 +38,7 @@ Generated: 2026-07-02
 | answers-laserfiche-employee | 282 |
 | answers-search | 70 |
 | official-docs | 16 |
-| support-knowledge-base | 555 |
+| support-knowledge-base | 561 |
 
 ## Product Coverage
 
@@ -58,10 +58,10 @@ Generated: 2026-07-02
 | Full Text Search | 17 | 0 |
 | Import Agent | 33 | 3 |
 | Laserfiche Installer | 48 | 1 |
-| Laserfiche Server/Repository Server | 1217 | 24 |
+| Laserfiche Server/Repository Server | 1218 | 24 |
 | Mobile | 18 | 2 |
 | Office Integration | 13 | 0 |
-| Quick Fields | 55 | 6 |
+| Quick Fields | 59 | 6 |
 | Records Management | 12 | 0 |
 | Snapshot | 36 | 1 |
 | Web Client | 91 | 4 |

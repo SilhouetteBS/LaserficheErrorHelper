@@ -1,9 +1,9 @@
 {
   "batchNumber": 22,
   "reviewedDate": "2026-07-01",
-  "count": 11,
+  "count": 17,
   "cursor": {
-    "page": 15,
+    "page": 24,
     "done": false
   },
   "rows": [
@@ -1455,6 +1455,867 @@
         "2026"
       ],
       "productHints": [],
+      "links": [
+        {
+          "href": "https://support.laserfiche.com/",
+          "text": ""
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/",
+          "text": "Product Support"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012113/current-release-versions-of-laserfiche-products-and-associated-service-pack-or-hotfix-releases",
+          "text": "Product Downloads Access the latest release downloads."
+        },
+        {
+          "href": "https://answers.laserfiche.com/",
+          "text": "Laserfiche Answers Collaborate and share ideas with other users."
+        },
+        {
+          "href": "https://support.laserfiche.com/search?q=Laserfiche&category=Knowledge%20Base&page=1&byDate=false",
+          "text": "Knowledge Base Documentation on latest maintenance updates."
+        },
+        {
+          "href": "https://support.laserfiche.com/product/laserfiche",
+          "text": "Laserfiche"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/laserficheapp",
+          "text": "Laserfiche App"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/agendamanager",
+          "text": "Agenda Manager"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/quickfields",
+          "text": "Quick Fields"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/audittrail",
+          "text": "Audit Trail"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/recordsmanagement",
+          "text": "Records Management"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/sdk",
+          "text": "SDK"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/workflow",
+          "text": "Workflow"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/connector",
+          "text": "Connector"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/webclient",
+          "text": "Web Client"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/forms",
+          "text": "Forms"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/weblink",
+          "text": "WebLink"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/importagent",
+          "text": "Import Agent"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012418/supported-os-list-versions-7-8-9-and-10",
+          "text": "Supported Configurations"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1013772/laserfiche-product-support-lifecycle",
+          "text": "Product Support Lifecycle"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012253/current-online-laserfiche-product-help-files",
+          "text": "Laserfiche Product Help"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012113/current-release-versions-of-laserfiche-products-and-associated-service-pack-or-hotfix-releases",
+          "text": "Release Summary"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/",
+          "text": "Learn"
+        },
+        {
+          "href": "https://go.laserfiche.com/aspire",
+          "text": "Aspire Your one-stop source to learn how to use Laserfiche."
+        },
+        {
+          "href": "https://www.laserfiche.com/learn-support/certification",
+          "text": "Laserfiche Certification E-learning Certification Courses."
+        },
+        {
+          "href": "https://laserfiche.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253d27",
+          "text": "Video Tutorials Short demos assisting user in learning."
+        },
+        {
+          "href": "https://empower.laserfiche.com/",
+          "text": "Empower Conference The premier conference in the ECM industry."
+        },
+        {
+          "href": "https://www.laserfiche.com/events/virtual-user-groups",
+          "text": "User Groups"
+        },
+        {
+          "href": "https://www.laserfiche.com/resources/events/training/",
+          "text": "Instructor-led Training"
+        },
+        {
+          "href": "https://laserfiche.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253d29",
+          "text": "Getting Started Guides"
+        }
+      ],
+      "reviewedDate": "2026-07-01",
+      "status": "support-candidate"
+    },
+    {
+      "kbId": "1001078",
+      "snippet": "Known Issues with Laserfiche 7.1.2. 19 years ago the Same Computer. Client 1000676 A \"[7050] Open database failed: Cannot generate SSPI context.\" Error Occurs When Creating a New Repository. Client If you select a set of thumbnails ... https://support.laserfiche.com/kb/1001078/known-issues-with-laserfiche-7-1- ...",
+      "title": "Known Issues with Laserfiche 7.1.2.",
+      "url": "https://support.laserfiche.com/kb/1001078/known-issues-with-laserfiche-7-1-2-",
+      "query": "Snapshot cannot",
+      "page": 15,
+      "detailTitle": "Known Issues with Laserfiche 7.1.2.",
+      "detailText": "Product Support Learn Blake Smith Known Issues with Laserfiche 7.1.2. Product: Laserfiche 7.1.2 KB: 1001078 Published: November 7, 2005 Last Updated: August 3, 2006 Summary This article documents the list of known issues with Laserfiche 7.1.2. More Information See the following list of known issues for version 7.1.2 Product Known Issue Laserfiche Administration Console 1001092 A \"Unable to retrieve a list of databases.\" Error Occurs When Creating or Migrating a Repository on Microsoft SQL Server 2005. (23218) Laserfiche Administration Console 1000966 The Laserfiche Administration Console Loads Slowly in Certain Situations. (15650) Laserfiche Administration Console A Windows user account associated with a Laserfiche user account will not be copied when copying & pasting user accounts within the same repository when using the Laserfiche Administration Console. (18860) Client 1011110 An \"Error 7390 (Object Locked)\" Error Occurs When Migrating a Document from the Search Results. (16839) Client 1011098 An \"Error 1722\" Occurs When Installing the Laserfiche Client. Client 1011094 Errors Occur When Sending Files With Long File Names to Laserfiche from Windows Explorer. Client 1011086 An \"Internal error 2738.\" Error Occurs When Installing Laserfiche. Client 1011085 An \"Unknown error. [2500]\" Error Occurs When Importing Documents into a Laserfiche Repository. Client 1011084 An \"Ordinal 75 not found in mapi32.dll.\" Error Occurs When Starting the Laserfiche Client. Client 1011082 A \"1607:Unable to install InstallShield Scripting runtime\" Error Occurs When Starting the Installation. Client 1011079 A \"Loading MSXML parser failed\" Error Occurs When Importing a Briefcase or Attaching a Volume. Client 1001090 An \"Error: 6000 (null)\" Error Occurs When Sending E-mails with Attachments from Outlook 2003. (23604) Client 1000807 A \"The repository was not found [7023]\" Error Occurs When Unregistering a Local Repository. (17330) Client 1000697 Issues When Using the Laserfiche Client 6 with the Laserfiche Server 7. Client 1000698 Using the Laserfiche Client 6 and Laserfiche Client 7 on the Same Computer. Client 1000676 A \"[7050] Open database failed: Cannot generate SSPI context.\" Error Occurs When Creating a New Repository. Client If you select a set of thumbnails and then choose to print, that set of thumbnails will not automatically be the specified page range for printing. (21520) Client Scrolling up and down rapidly in a folder with a large number of documents can cause the Laserfiche client to crash. (20679) Client The option to create custom toolbar buttons is only available for the Folder Browser window. You cannot create custom toolbar buttons for the Document window. (20117) Client Highlights and watermarks may print as solid color blocks when printing to PDF Distiller. (19513) Client Certain printer drivers contain an option called \"Print graphics as raster.\" If your printer driver contains this option, make sure it is enabled. If it is not enabled, image highlights and watermarks may print as solid color blocks. (18350) Client If you have a Microsoft Office program installed, but have never started the program, you may encounter a configuration issue when you start the Laserfiche Client. You will be prompted for the Microsoft Office CD or given an error 1706. As a workaround, simply start any Microsoft Office program. For more information, please see Microsoft Knowledge Base article: http://support.microsoft.com/default.aspx?scid=kb;en-us;298385. Client When sending e-mail from Outlook to Laserfiche, Laserfiche may not recognize that an e-mail contains an attachment. As a result, the Import Outlook Message dialog box may not list the e-mail's attachment(s). This prevents you from separating the attachment from the e-mail message. Importing the e-mail message will always include attachments along with the message. (14299) Client Microsoft Outlook 2002 may display a \"Virus attack\" message each time Office Integration is used with Outlook. This is the default Outlook behavior when a menu item is added to Outlook 2002. This is not a security issue involving a virus. (11762) Client Color scanning does not work when using the Kodak scanner i840. Attempting to perform color scanning will generate the following message: cannot decompress image (61080). (13489) Client If the folder path specified for archiving audit events does not exist, you may receive a 7361 error. (16030) Client An administrator with the Manage Trustees privilege can delete Laserfiche user and group accounts. If this administrator does not also have the Set Trustee Privileges privilege, deleting all user and group accounts can create a scenario where the remaining administrator is unable to recreate the full set of user accounts. (10881) Client The following characters are unsupported for the name of a template or field: curly braces {}, brackets [], or quotation marks \". (11641) E-mail The Outlook New Message window appears when sending a Laserfiche documen",
+      "extractedErrorCodes": [
+        "2005",
+        "2006",
+        "23218",
+        "15650",
+        "18860",
+        "7390",
+        "16839",
+        "1722",
+        "2738",
+        "2500",
+        "1607",
+        "6000"
+      ],
+      "productHints": [
+        "Laserfiche Server",
+        "Office Integration"
+      ],
+      "links": [
+        {
+          "href": "https://support.laserfiche.com/",
+          "text": ""
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/",
+          "text": "Product Support"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012113/current-release-versions-of-laserfiche-products-and-associated-service-pack-or-hotfix-releases",
+          "text": "Product Downloads Access the latest release downloads."
+        },
+        {
+          "href": "https://answers.laserfiche.com/",
+          "text": "Laserfiche Answers Collaborate and share ideas with other users."
+        },
+        {
+          "href": "https://support.laserfiche.com/search?q=Laserfiche&category=Knowledge%20Base&page=1&byDate=false",
+          "text": "Knowledge Base Documentation on latest maintenance updates."
+        },
+        {
+          "href": "https://support.laserfiche.com/product/laserfiche",
+          "text": "Laserfiche"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/laserficheapp",
+          "text": "Laserfiche App"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/agendamanager",
+          "text": "Agenda Manager"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/quickfields",
+          "text": "Quick Fields"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/audittrail",
+          "text": "Audit Trail"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/recordsmanagement",
+          "text": "Records Management"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/sdk",
+          "text": "SDK"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/workflow",
+          "text": "Workflow"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/connector",
+          "text": "Connector"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/webclient",
+          "text": "Web Client"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/forms",
+          "text": "Forms"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/weblink",
+          "text": "WebLink"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/importagent",
+          "text": "Import Agent"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012418/supported-os-list-versions-7-8-9-and-10",
+          "text": "Supported Configurations"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1013772/laserfiche-product-support-lifecycle",
+          "text": "Product Support Lifecycle"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012253/current-online-laserfiche-product-help-files",
+          "text": "Laserfiche Product Help"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012113/current-release-versions-of-laserfiche-products-and-associated-service-pack-or-hotfix-releases",
+          "text": "Release Summary"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/",
+          "text": "Learn"
+        },
+        {
+          "href": "https://go.laserfiche.com/aspire",
+          "text": "Aspire Your one-stop source to learn how to use Laserfiche."
+        },
+        {
+          "href": "https://www.laserfiche.com/learn-support/certification",
+          "text": "Laserfiche Certification E-learning Certification Courses."
+        },
+        {
+          "href": "https://laserfiche.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253d27",
+          "text": "Video Tutorials Short demos assisting user in learning."
+        },
+        {
+          "href": "https://empower.laserfiche.com/",
+          "text": "Empower Conference The premier conference in the ECM industry."
+        },
+        {
+          "href": "https://www.laserfiche.com/events/virtual-user-groups",
+          "text": "User Groups"
+        },
+        {
+          "href": "https://www.laserfiche.com/resources/events/training/",
+          "text": "Instructor-led Training"
+        },
+        {
+          "href": "https://laserfiche.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253d29",
+          "text": "Getting Started Guides"
+        }
+      ],
+      "reviewedDate": "2026-07-01",
+      "status": "support-candidate"
+    },
+    {
+      "kbId": "1011176",
+      "snippet": "Known Issues with Laserfiche 7.2. 13 years ago the Same Computer. Client 1000676 A \"[7050] Open database failed: Cannot generate SSPI context.\" Error Occurs When Creating a New Repository. Client When you use the E-mail plug-in ..... https://support.laserfiche.com/kb/1011176/known-issues-with-laserfiche-7-2-",
+      "title": "Known Issues with Laserfiche 7.2.",
+      "url": "https://support.laserfiche.com/kb/1011176/known-issues-with-laserfiche-7-2-",
+      "query": "Snapshot cannot",
+      "page": 15,
+      "detailTitle": "- Knowledge Base",
+      "detailText": "Product Support Learn Sign in Product: KB: 1011176 Published: Last Updated: Loading... 2026 Laserfiche Privacy Trademark",
+      "extractedErrorCodes": [
+        "2026"
+      ],
+      "productHints": [],
+      "links": [
+        {
+          "href": "https://support.laserfiche.com/",
+          "text": ""
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/",
+          "text": "Product Support"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012113/current-release-versions-of-laserfiche-products-and-associated-service-pack-or-hotfix-releases",
+          "text": "Product Downloads Access the latest release downloads."
+        },
+        {
+          "href": "https://answers.laserfiche.com/",
+          "text": "Laserfiche Answers Collaborate and share ideas with other users."
+        },
+        {
+          "href": "https://support.laserfiche.com/search?q=Laserfiche&category=Knowledge%20Base&page=1&byDate=false",
+          "text": "Knowledge Base Documentation on latest maintenance updates."
+        },
+        {
+          "href": "https://support.laserfiche.com/product/laserfiche",
+          "text": "Laserfiche"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/laserficheapp",
+          "text": "Laserfiche App"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/agendamanager",
+          "text": "Agenda Manager"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/quickfields",
+          "text": "Quick Fields"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/audittrail",
+          "text": "Audit Trail"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/recordsmanagement",
+          "text": "Records Management"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/sdk",
+          "text": "SDK"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/workflow",
+          "text": "Workflow"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/connector",
+          "text": "Connector"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/webclient",
+          "text": "Web Client"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/forms",
+          "text": "Forms"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/weblink",
+          "text": "WebLink"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/importagent",
+          "text": "Import Agent"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012418/supported-os-list-versions-7-8-9-and-10",
+          "text": "Supported Configurations"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1013772/laserfiche-product-support-lifecycle",
+          "text": "Product Support Lifecycle"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012253/current-online-laserfiche-product-help-files",
+          "text": "Laserfiche Product Help"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012113/current-release-versions-of-laserfiche-products-and-associated-service-pack-or-hotfix-releases",
+          "text": "Release Summary"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/",
+          "text": "Learn"
+        },
+        {
+          "href": "https://go.laserfiche.com/aspire",
+          "text": "Aspire Your one-stop source to learn how to use Laserfiche."
+        },
+        {
+          "href": "https://www.laserfiche.com/learn-support/certification",
+          "text": "Laserfiche Certification E-learning Certification Courses."
+        },
+        {
+          "href": "https://laserfiche.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253d27",
+          "text": "Video Tutorials Short demos assisting user in learning."
+        },
+        {
+          "href": "https://empower.laserfiche.com/",
+          "text": "Empower Conference The premier conference in the ECM industry."
+        },
+        {
+          "href": "https://www.laserfiche.com/events/virtual-user-groups",
+          "text": "User Groups"
+        },
+        {
+          "href": "https://www.laserfiche.com/resources/events/training/",
+          "text": "Instructor-led Training"
+        },
+        {
+          "href": "https://laserfiche.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253d29",
+          "text": "Getting Started Guides"
+        }
+      ],
+      "reviewedDate": "2026-07-01",
+      "status": "support-candidate"
+    },
+    {
+      "kbId": "1011841",
+      "snippet": "OmniPage OCR Does Not Correctly Process Multi-Byte Western Languages. 11 years ago Quick Fields 7.1.2, Import Agent 7.0.2, Snapshot 7.0.3, Scanning 7.2.1, Web Access 7.2.1 Summary When you attempt to OCR a ... Displayed in the Laserfiche Client When OCRing. 1011839 OmniPage O... https://support.laserfiche.com/kb/1011841/omnipage-ocr-does-not-correctly-p ...",
+      "title": "OmniPage OCR Does Not Correctly Process Multi-Byte Western Languages.",
+      "url": "https://support.laserfiche.com/kb/1011841/omnipage-ocr-does-not-correctly-process-multi-byte-western-languages-",
+      "query": "Snapshot cannot",
+      "page": 15,
+      "detailTitle": "- Knowledge Base",
+      "detailText": "Product Support Learn Sign in Product: KB: 1011841 Published: Last Updated: Loading... 2026 Laserfiche Privacy Trademark",
+      "extractedErrorCodes": [
+        "2026"
+      ],
+      "productHints": [],
+      "links": [
+        {
+          "href": "https://support.laserfiche.com/",
+          "text": ""
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/",
+          "text": "Product Support"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012113/current-release-versions-of-laserfiche-products-and-associated-service-pack-or-hotfix-releases",
+          "text": "Product Downloads Access the latest release downloads."
+        },
+        {
+          "href": "https://answers.laserfiche.com/",
+          "text": "Laserfiche Answers Collaborate and share ideas with other users."
+        },
+        {
+          "href": "https://support.laserfiche.com/search?q=Laserfiche&category=Knowledge%20Base&page=1&byDate=false",
+          "text": "Knowledge Base Documentation on latest maintenance updates."
+        },
+        {
+          "href": "https://support.laserfiche.com/product/laserfiche",
+          "text": "Laserfiche"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/laserficheapp",
+          "text": "Laserfiche App"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/agendamanager",
+          "text": "Agenda Manager"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/quickfields",
+          "text": "Quick Fields"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/audittrail",
+          "text": "Audit Trail"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/recordsmanagement",
+          "text": "Records Management"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/sdk",
+          "text": "SDK"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/workflow",
+          "text": "Workflow"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/connector",
+          "text": "Connector"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/webclient",
+          "text": "Web Client"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/forms",
+          "text": "Forms"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/weblink",
+          "text": "WebLink"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/importagent",
+          "text": "Import Agent"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012418/supported-os-list-versions-7-8-9-and-10",
+          "text": "Supported Configurations"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1013772/laserfiche-product-support-lifecycle",
+          "text": "Product Support Lifecycle"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012253/current-online-laserfiche-product-help-files",
+          "text": "Laserfiche Product Help"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012113/current-release-versions-of-laserfiche-products-and-associated-service-pack-or-hotfix-releases",
+          "text": "Release Summary"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/",
+          "text": "Learn"
+        },
+        {
+          "href": "https://go.laserfiche.com/aspire",
+          "text": "Aspire Your one-stop source to learn how to use Laserfiche."
+        },
+        {
+          "href": "https://www.laserfiche.com/learn-support/certification",
+          "text": "Laserfiche Certification E-learning Certification Courses."
+        },
+        {
+          "href": "https://laserfiche.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253d27",
+          "text": "Video Tutorials Short demos assisting user in learning."
+        },
+        {
+          "href": "https://empower.laserfiche.com/",
+          "text": "Empower Conference The premier conference in the ECM industry."
+        },
+        {
+          "href": "https://www.laserfiche.com/events/virtual-user-groups",
+          "text": "User Groups"
+        },
+        {
+          "href": "https://www.laserfiche.com/resources/events/training/",
+          "text": "Instructor-led Training"
+        },
+        {
+          "href": "https://laserfiche.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253d29",
+          "text": "Getting Started Guides"
+        }
+      ],
+      "reviewedDate": "2026-07-01",
+      "status": "support-candidate"
+    },
+    {
+      "kbId": "1000801",
+      "snippet": "Known Issues with the Laserfiche Server 7.0.2. 21 years ago Laserfiche Server Known Issues When using a terminal server, Laserfiche Snapshot, Quick Fields, Scanning, and Import Agent will not share with the Laserfiche Client a connection to the Laserfic... https://support.laserfiche.com/kb/1000801/known-issues-with-the-laserfiche- ...",
+      "title": "Known Issues with the Laserfiche Server 7.0.2.",
+      "url": "https://support.laserfiche.com/kb/1000801/known-issues-with-the-laserfiche-server-7-0-2-",
+      "query": "Snapshot cannot",
+      "page": 16,
+      "detailTitle": "Known Issues with the Laserfiche Server 7.0.2.",
+      "detailText": "Product Support Learn Sign in Known Issues with the Laserfiche Server 7.0.2. Product: Server (MSDE) 7.0.2, Server (MSSQL) 7.0.2, Server (Oracle) 7.0.2 KB: 1000801 Published: February 16, 2005 Last Updated: February 16, 2005 Summary This article documents known issues with the Laserfiche Server 7.0.2. More Information 1000889 Incorrect Image Highlights When Viewing Search Results. 1000871 Electronic Files May Not be Properly Exported. 1000851 Searching Returns Invalid Search Results and Can Potentially Crash Laserfiche. 1000827 Opening Certain Documents Freezes the Laserfiche Server. 1000814 Laserfiche 7.0.2 Does Not Display Laserfiche 7.0 or 7.0.1 Repositories. Laserfiche Server Known Issues When using a terminal server, Laserfiche Snapshot, Quick Fields, Scanning, and Import Agent will not share with the Laserfiche Client a connection to the Laserfiche Server. (17446) The installation expects the installation package to be located in the same path where the original installation package was located. This means that you should install from the same CD-ROM drive you used for the original installation. (16825) A search cannot be cancelled. (13655) The LaserFiche Server and the Server service will not shut down if any process (i.e. Laserfiche Client, Web Access, WebLink, etc...) is still connected to the Laserfiche Server. If this occurs on Windows XP or Windows Server 2003, then you should use the Windows task manager and remove the Server process. This is a larger issue on Windows 2000, as you will have to open up Visual Studio .NET, attach the process, then stop the process. (11501) The Laserfiche Server may become unstable if documents are imported while Microsoft SQL Server is running a scheduled job. (8572) 2026 Laserfiche Privacy Trademark",
+      "extractedErrorCodes": [
+        "2005",
+        "17446",
+        "16825",
+        "13655",
+        "2003",
+        "2000",
+        "11501",
+        "8572",
+        "2026"
+      ],
+      "productHints": [
+        "Import Agent",
+        "Laserfiche Server",
+        "Quick Fields",
+        "Snapshot",
+        "WebLink"
+      ],
+      "links": [
+        {
+          "href": "https://support.laserfiche.com/",
+          "text": ""
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/",
+          "text": "Product Support"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012113/current-release-versions-of-laserfiche-products-and-associated-service-pack-or-hotfix-releases",
+          "text": "Product Downloads Access the latest release downloads."
+        },
+        {
+          "href": "https://answers.laserfiche.com/",
+          "text": "Laserfiche Answers Collaborate and share ideas with other users."
+        },
+        {
+          "href": "https://support.laserfiche.com/search?q=Laserfiche&category=Knowledge%20Base&page=1&byDate=false",
+          "text": "Knowledge Base Documentation on latest maintenance updates."
+        },
+        {
+          "href": "https://support.laserfiche.com/product/laserfiche",
+          "text": "Laserfiche"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/laserficheapp",
+          "text": "Laserfiche App"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/agendamanager",
+          "text": "Agenda Manager"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/quickfields",
+          "text": "Quick Fields"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/audittrail",
+          "text": "Audit Trail"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/recordsmanagement",
+          "text": "Records Management"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/sdk",
+          "text": "SDK"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/workflow",
+          "text": "Workflow"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/connector",
+          "text": "Connector"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/webclient",
+          "text": "Web Client"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/forms",
+          "text": "Forms"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/weblink",
+          "text": "WebLink"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/importagent",
+          "text": "Import Agent"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012418/supported-os-list-versions-7-8-9-and-10",
+          "text": "Supported Configurations"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1013772/laserfiche-product-support-lifecycle",
+          "text": "Product Support Lifecycle"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012253/current-online-laserfiche-product-help-files",
+          "text": "Laserfiche Product Help"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012113/current-release-versions-of-laserfiche-products-and-associated-service-pack-or-hotfix-releases",
+          "text": "Release Summary"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/",
+          "text": "Learn"
+        },
+        {
+          "href": "https://go.laserfiche.com/aspire",
+          "text": "Aspire Your one-stop source to learn how to use Laserfiche."
+        },
+        {
+          "href": "https://www.laserfiche.com/learn-support/certification",
+          "text": "Laserfiche Certification E-learning Certification Courses."
+        },
+        {
+          "href": "https://laserfiche.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253d27",
+          "text": "Video Tutorials Short demos assisting user in learning."
+        },
+        {
+          "href": "https://empower.laserfiche.com/",
+          "text": "Empower Conference The premier conference in the ECM industry."
+        },
+        {
+          "href": "https://www.laserfiche.com/events/virtual-user-groups",
+          "text": "User Groups"
+        },
+        {
+          "href": "https://www.laserfiche.com/resources/events/training/",
+          "text": "Instructor-led Training"
+        },
+        {
+          "href": "https://laserfiche.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253d29",
+          "text": "Getting Started Guides"
+        }
+      ],
+      "reviewedDate": "2026-07-01",
+      "status": "support-candidate"
+    },
+    {
+      "kbId": "1000931",
+      "snippet": "Known Issues with Laserfiche Server 7.0.3. 21 years ago expansion database. (17890, 20138) When using a terminal server, Laserfiche Snapshot 7.0 and earlier, Quick Fields 7.1 and earlier, Laserfiche Scanning, Import Agent 6, and Laserfiche Client 6 ... https://support.laserfiche.com/kb/1000931/known-issues-with-laserfiche-serv ...",
+      "title": "Known Issues with Laserfiche Server 7.0.3.",
+      "url": "https://support.laserfiche.com/kb/1000931/known-issues-with-laserfiche-server-7-0-3-",
+      "query": "Snapshot cannot",
+      "page": 16,
+      "detailTitle": "- Knowledge Base",
+      "detailText": "Product Support Learn Sign in Product: KB: 1000931 Published: Last Updated: Loading... 2026 Laserfiche Privacy Trademark",
+      "extractedErrorCodes": [
+        "2026"
+      ],
+      "productHints": [],
+      "links": [
+        {
+          "href": "https://support.laserfiche.com/",
+          "text": ""
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/",
+          "text": "Product Support"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012113/current-release-versions-of-laserfiche-products-and-associated-service-pack-or-hotfix-releases",
+          "text": "Product Downloads Access the latest release downloads."
+        },
+        {
+          "href": "https://answers.laserfiche.com/",
+          "text": "Laserfiche Answers Collaborate and share ideas with other users."
+        },
+        {
+          "href": "https://support.laserfiche.com/search?q=Laserfiche&category=Knowledge%20Base&page=1&byDate=false",
+          "text": "Knowledge Base Documentation on latest maintenance updates."
+        },
+        {
+          "href": "https://support.laserfiche.com/product/laserfiche",
+          "text": "Laserfiche"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/laserficheapp",
+          "text": "Laserfiche App"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/agendamanager",
+          "text": "Agenda Manager"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/quickfields",
+          "text": "Quick Fields"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/audittrail",
+          "text": "Audit Trail"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/recordsmanagement",
+          "text": "Records Management"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/sdk",
+          "text": "SDK"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/workflow",
+          "text": "Workflow"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/connector",
+          "text": "Connector"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/webclient",
+          "text": "Web Client"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/forms",
+          "text": "Forms"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/weblink",
+          "text": "WebLink"
+        },
+        {
+          "href": "https://support.laserfiche.com/product/importagent",
+          "text": "Import Agent"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012418/supported-os-list-versions-7-8-9-and-10",
+          "text": "Supported Configurations"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1013772/laserfiche-product-support-lifecycle",
+          "text": "Product Support Lifecycle"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012253/current-online-laserfiche-product-help-files",
+          "text": "Laserfiche Product Help"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/1012113/current-release-versions-of-laserfiche-products-and-associated-service-pack-or-hotfix-releases",
+          "text": "Release Summary"
+        },
+        {
+          "href": "https://support.laserfiche.com/kb/",
+          "text": "Learn"
+        },
+        {
+          "href": "https://go.laserfiche.com/aspire",
+          "text": "Aspire Your one-stop source to learn how to use Laserfiche."
+        },
+        {
+          "href": "https://www.laserfiche.com/learn-support/certification",
+          "text": "Laserfiche Certification E-learning Certification Courses."
+        },
+        {
+          "href": "https://laserfiche.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253d27",
+          "text": "Video Tutorials Short demos assisting user in learning."
+        },
+        {
+          "href": "https://empower.laserfiche.com/",
+          "text": "Empower Conference The premier conference in the ECM industry."
+        },
+        {
+          "href": "https://www.laserfiche.com/events/virtual-user-groups",
+          "text": "User Groups"
+        },
+        {
+          "href": "https://www.laserfiche.com/resources/events/training/",
+          "text": "Instructor-led Training"
+        },
+        {
+          "href": "https://laserfiche.csod.com/samldefault.aspx?ouid=2&returnurl=%252fDeepLink%252fProcessRedirect.aspx%253fmodule%253d29",
+          "text": "Getting Started Guides"
+        }
+      ],
+      "reviewedDate": "2026-07-01",
+      "status": "support-candidate"
+    },
+    {
+      "kbId": "1011840",
+      "snippet": "Temporary OCR Files Are Not Automatically Removed When OCRing Color or Grayscale Images. 19 years ago 7.0.2, Quick Fields 7.1.2, Scanning 7.2.1, Snapshot 7.0.3, Web Access 7.2.1 Summary The OmniPage OCR engine generates files stored in a user ... Displayed in the Laserfiche Client When OCRing. ... https://support.laserfiche.com/kb/1011840/temporary-ocr-files-are-not-autom ...",
+      "title": "Temporary OCR Files Are Not Automatically Removed When OCRing Color or Grayscale Images.",
+      "url": "https://support.laserfiche.com/kb/1011840/temporary-ocr-files-are-not-automatically-removed-when-ocring-color-or-grayscale-images-",
+      "query": "Snapshot cannot",
+      "page": 16,
+      "detailTitle": "Temporary OCR Files Are Not Automatically Removed When OCRing Color or Grayscale Images.",
+      "detailText": "Product Support Learn Blake Smith Temporary OCR Files Are Not Automatically Removed When OCRing Color or Grayscale Images. Product: Laserfiche 7.2.1, Import Agent 7.0.2, Quick Fields 7.1.2, Scanning 7.2.1, Snapshot 7.0.3, Web Access 7.2.1 KB: 1011840 Published: June 25, 2007 Last Updated: June 25, 2007 Summary The OmniPage OCR engine generates files stored in a user's temporary file location. However, Laserfiche does not automatically remove these files after the OCR process is complete if you are OCRing color or grayscale images. Resolution There is a hotfix available for Laserfiche products that include the OmniPage OCR engine. The fix includes updated versions of the following files: BPOmniOCR.exe (version 7.2.1.3) OmniOCRWrapper.dll (version 7.2.1.3) OmniPage32.lfo (version 1.0.0.3) To update the OmniPage OCR component Close any applications that may be using the OmniPage OCR engine. Click the following link to download a zip file containing the hotfix files. Hotfix_SCR29378.zip Replace your existing versions of BPOmniOCR.exe and OmniOCRWrapper.dll with the updated versions contained in the zip file. The files are located at \"C:\\Program Files\\Common Files\\Laserfiche\\Batch Processor\\BPOmniOCR.\" Register the new version of OmniOCRWrapper.dll. Click Start and then click Run. Type the following and then click OK: regsvr32 \"C:\\Program Files\\Common Files\\Laserfiche\\Batch Processor\\BPOmniOCR\\OmniOCRWrapper.dll\" Replace your existing version of OmniPage32.lfo located in your Laserfiche Client installation folder with the updated version. By default, the Laserfiche Client is installed at \"C:\\Program Files\\Laserfiche\\Client.\" Related Links BPOmniOCR.exe (version 7.2.1.3) also contains additional hotfixes. Please see the following Knowledge Base articles for more information. 1011725 OmniPage OCR Does Not Correctly Use the Image Orientation Displayed in the Laserfiche Client When OCRing. 1011839 OmniPage OCR Cannot Process E-sized Images. 1011841 OmniPage OCR Does Not Correctly Process Multi-Byte Western Languages. Share 2026 Laserfiche Privacy Trademark",
+      "extractedErrorCodes": [
+        "2007",
+        "2026"
+      ],
+      "productHints": [
+        "Import Agent",
+        "Quick Fields",
+        "Snapshot"
+      ],
       "links": [
         {
           "href": "https://support.laserfiche.com/",

@@ -3607,6 +3607,44 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
+    "id": "support-promoted-1011176-laserfiche-server-repository-server-7050-known-issues-with-laserfiche-7-2",
+    "code": "7050",
+    "message": "Known Issues with Laserfiche 7.2.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Known Issues with Laserfiche 7.2. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Known Issues with Laserfiche 7.2..",
+      "Reported code or token: 7050."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Known Issues with Laserfiche 7.2.",
+        "url": "https://support.laserfiche.com/kb/1011176/known-issues-with-laserfiche-7-2-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
     "id": "support-promoted-1011860-laserfiche-server-repository-server-7361-an-error-cannot-open-files-7361-error-occurs-when-sending-documents-from-laserfiche-scanni",
     "code": "7361",
     "message": "An \"Error: Cannot open files (7361)\" Error Occurs When Sending Documents From Laserfiche Scanning.",
@@ -3678,6 +3716,44 @@ export const supportChromePromotedErrorEntries = [
         "sourceType": "support-knowledge-base",
         "title": "An \"Error cannot create file 7366.\" Error Occurs When Publishing.",
         "url": "https://support.laserfiche.com/kb/1000662/an-error-cannot-create-file-7366-error-occurs-when-publishing-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1001078-laserfiche-server-repository-server-7390-known-issues-with-laserfiche-7-1-2",
+    "code": "7390",
+    "message": "Known Issues with Laserfiche 7.1.2.",
+    "product": "Laserfiche Server/Repository Server",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Known Issues with Laserfiche 7.1.2. for Laserfiche Server/Repository Server. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Known Issues with Laserfiche 7.1.2..",
+      "Reported code or token: 7390, 1722, 2738, 2500, 6000, 1706, 16030, 7050."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Known Issues with Laserfiche 7.1.2.",
+        "url": "https://support.laserfiche.com/kb/1001078/known-issues-with-laserfiche-7-1-2-",
         "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
       }
     ]
@@ -7346,6 +7422,120 @@ export const supportChromePromotedErrorEntries = [
     ]
   },
   {
+    "id": "support-promoted-1000931-quick-fields-qf-known-issues-with-laserfiche-serve-known-issues-with-laserfiche-server-7-0-3",
+    "code": "QF-KNOWN_ISSUES_WITH_LASERFICHE_SERVE",
+    "message": "Known Issues with Laserfiche Server 7.0.3.",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Known Issues with Laserfiche Server 7.0.3. for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Known Issues with Laserfiche Server 7.0.3..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Known Issues with Laserfiche Server 7.0.3.",
+        "url": "https://support.laserfiche.com/kb/1000931/known-issues-with-laserfiche-server-7-0-3-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1000801-quick-fields-qf-known-issues-with-the-laserfiche-s-known-issues-with-the-laserfiche-server-7-0-2",
+    "code": "QF-KNOWN_ISSUES_WITH_THE_LASERFICHE_S",
+    "message": "Known Issues with the Laserfiche Server 7.0.2.",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Known Issues with the Laserfiche Server 7.0.2. for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Known Issues with the Laserfiche Server 7.0.2..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Known Issues with the Laserfiche Server 7.0.2.",
+        "url": "https://support.laserfiche.com/kb/1000801/known-issues-with-the-laserfiche-server-7-0-2-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011841-quick-fields-qf-omnipage-ocr-does-not-correctly-pr-omnipage-ocr-does-not-correctly-process-multi-byte-western-languages",
+    "code": "QF-OMNIPAGE_OCR_DOES_NOT_CORRECTLY_PR",
+    "message": "OmniPage OCR Does Not Correctly Process Multi-Byte Western Languages.",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports OmniPage OCR Does Not Correctly Process Multi-Byte Western Languages. for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: OmniPage OCR Does Not Correctly Process Multi-Byte Western Languages..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Treat this as a diagnostic source until a specific fix is manually curated from the article.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "OmniPage OCR Does Not Correctly Process Multi-Byte Western Languages.",
+        "url": "https://support.laserfiche.com/kb/1011841/omnipage-ocr-does-not-correctly-process-multi-byte-western-languages-",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
     "id": "support-promoted-1013993-quick-fields-qf-quick-fields-technical-support-che-quick-fields-technical-support-checklist",
     "code": "QF-QUICK_FIELDS_TECHNICAL_SUPPORT_CHE",
     "message": "Quick Fields Technical Support Checklist.",
@@ -7414,6 +7604,44 @@ export const supportChromePromotedErrorEntries = [
         "sourceType": "support-knowledge-base",
         "title": "Release and Hotfix Information for Laserfiche Quick Fields 11",
         "url": "https://support.laserfiche.com/kb/1014432/release-and-hotfix-information-for-laserfiche-quick-fields-11",
+        "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
+      }
+    ]
+  },
+  {
+    "id": "support-promoted-1011840-quick-fields-qf-temporary-ocr-files-are-not-automa-temporary-ocr-files-are-not-automatically-removed-when-ocring-color-or-grayscale-images",
+    "code": "QF-TEMPORARY_OCR_FILES_ARE_NOT_AUTOMA",
+    "message": "Temporary OCR Files Are Not Automatically Removed When OCRing Color or Grayscale Images.",
+    "product": "Quick Fields",
+    "versions": [
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "confidence": "medium",
+    "fixStatus": "needs-review",
+    "reviewedDate": "2026-07-01",
+    "summary": "A Laserfiche Support Knowledge Base article reports Temporary OCR Files Are Not Automatically Removed When OCRing Color or Grayscale Images. for Quick Fields. This entry is published so users can discover the source while the exact remediation is still being curated.",
+    "symptoms": [
+      "The linked Support KB article reports: Temporary OCR Files Are Not Automatically Removed When OCRing Color or Grayscale Images..",
+      "No stable numeric error code was extracted from the article title or summary."
+    ],
+    "likelyCauses": [
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting context, but the root cause still needs final curation."
+    ],
+    "likelyFixes": [
+      "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
+      "Review the article's Resolution or Workaround section before making changes; validate the change in a test environment or maintenance window.",
+      "If the article does not fully match the environment, collect the relevant Laserfiche product logs around the failure time and escalate through normal Laserfiche support channels."
+    ],
+    "validationStatus": "reviewed-diagnostic",
+    "notes": "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments.",
+    "sources": [
+      {
+        "sourceType": "support-knowledge-base",
+        "title": "Temporary OCR Files Are Not Automatically Removed When OCRing Color or Grayscale Images.",
+        "url": "https://support.laserfiche.com/kb/1011840/temporary-ocr-files-are-not-automatically-removed-when-ocring-color-or-grayscale-images-",
         "note": "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix."
       }
     ]
@@ -13167,6 +13395,24 @@ export const supportChromePromotedReviewedSources = [
     "reviewStatus": "curated-unresolved"
   },
   {
+    "id": "support-promoted-source-1011176",
+    "title": "Known Issues with Laserfiche 7.2.",
+    "url": "https://support.laserfiche.com/kb/1011176/known-issues-with-laserfiche-7-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "7050"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
     "id": "support-promoted-source-1011860",
     "title": "An \"Error: Cannot open files (7361)\" Error Occurs When Sending Documents From Laserfiche Scanning.",
     "url": "https://support.laserfiche.com/kb/1011860/an-error-cannot-open-files-7361-error-occurs-when-sending-documents-from-laserfiche-scanning-",
@@ -13199,6 +13445,31 @@ export const supportChromePromotedReviewedSources = [
     ],
     "extractedErrorCodes": [
       "7366"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1001078",
+    "title": "Known Issues with Laserfiche 7.1.2.",
+    "url": "https://support.laserfiche.com/kb/1001078/known-issues-with-laserfiche-7-1-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Laserfiche Server/Repository Server",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "7390",
+      "1722",
+      "2738",
+      "2500",
+      "6000",
+      "1706",
+      "16030",
+      "7050"
     ],
     "reviewStatus": "curated-unresolved"
   },
@@ -14908,6 +15179,60 @@ export const supportChromePromotedReviewedSources = [
     "reviewStatus": "curated-unresolved"
   },
   {
+    "id": "support-promoted-source-1000931",
+    "title": "Known Issues with Laserfiche Server 7.0.3.",
+    "url": "https://support.laserfiche.com/kb/1000931/known-issues-with-laserfiche-server-7-0-3-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "QF-KNOWN_ISSUES_WITH_LASERFICHE_SERVE"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1000801",
+    "title": "Known Issues with the Laserfiche Server 7.0.2.",
+    "url": "https://support.laserfiche.com/kb/1000801/known-issues-with-the-laserfiche-server-7-0-2-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "QF-KNOWN_ISSUES_WITH_THE_LASERFICHE_S"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011841",
+    "title": "OmniPage OCR Does Not Correctly Process Multi-Byte Western Languages.",
+    "url": "https://support.laserfiche.com/kb/1011841/omnipage-ocr-does-not-correctly-process-multi-byte-western-languages-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "QF-OMNIPAGE_OCR_DOES_NOT_CORRECTLY_PR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
     "id": "support-promoted-source-1013993",
     "title": "Quick Fields Technical Support Checklist.",
     "url": "https://support.laserfiche.com/kb/1013993/quick-fields-technical-support-checklist-",
@@ -14937,6 +15262,24 @@ export const supportChromePromotedReviewedSources = [
     ],
     "extractedErrorCodes": [
       "QF-RELEASE_AND_HOTFIX_INFORMATION_FOR"
+    ],
+    "reviewStatus": "curated-unresolved"
+  },
+  {
+    "id": "support-promoted-source-1011840",
+    "title": "Temporary OCR Files Are Not Automatically Removed When OCRing Color or Grayscale Images.",
+    "url": "https://support.laserfiche.com/kb/1011840/temporary-ocr-files-are-not-automatically-removed-when-ocring-color-or-grayscale-images-",
+    "sourceType": "support-knowledge-base",
+    "reviewedDate": "2026-07-01",
+    "productTags": [
+      "Quick Fields",
+      "Version 9",
+      "Version 10",
+      "Version 11",
+      "Version 12"
+    ],
+    "extractedErrorCodes": [
+      "QF-TEMPORARY_OCR_FILES_ARE_NOT_AUTOMA"
     ],
     "reviewStatus": "curated-unresolved"
   },

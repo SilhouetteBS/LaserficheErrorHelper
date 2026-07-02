@@ -1,8 +1,8 @@
 # Support KB Research Status
 
-Generated: 2026-07-02T16:42:48.116Z
+Generated: 2026-07-02T19:17:39.819Z
 
-Visited Support KB URLs: 536
+Visited Support KB URLs: 542
 Promoted Support KB entries: 307
 Support KB reviewed-source rows: 536
 Search batches captured: 22
@@ -11,10 +11,9 @@ Search batches captured: 22
 
 | Query | Next Page |
 | --- | --- |
-| Connector cannot | 17 |
-| Docusign error Laserfiche | 16 |
-| Snapshot 10 | 28 |
-| Snapshot cannot | 15 |
+| Docusign error Laserfiche | 25 |
+| Snapshot 10 | 37 |
+| Snapshot cannot | 24 |
 
 ## Support Promotion Distribution
 

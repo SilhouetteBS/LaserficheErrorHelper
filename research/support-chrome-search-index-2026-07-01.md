@@ -1,11 +1,11 @@
 # Support KB Raw Batch Index
 
-Generated: 2026-07-02T16:42:48.117Z
+Generated: 2026-07-02T19:17:39.819Z
 
 This index summarizes the raw Support KB search batches so the large JSON captures can be audited without opening each file.
 
 Total captured batch files: 22
-Total captured rows: 536
+Total captured rows: 542
 
 | Batch | Rows | Queries | Top Product Hints | JSON | Markdown |
 | --- | --- | --- | --- | --- | --- |
@@ -30,4 +30,4 @@ Total captured rows: 536
 | 19 | 25 | Snapshot cannot, SSL error Laserfiche, Web Client error, Web Scanning error, WebLink cannot, Docusign error Laserfiche | Unclassified: 15; Audit Trail: 3; Laserfiche Server: 2; Snapshot: 2 | research/support-chrome-search-batch-2026-07-01-19.json | research/support-chrome-search-batch-2026-07-01-19.md |
 | 20 | 25 | SSL error Laserfiche, WebLink cannot, Snapshot cannot | Unclassified: 16; Forms: 3; Audit Trail: 2; Directory Server: 2 | research/support-chrome-search-batch-2026-07-01-20.json | research/support-chrome-search-batch-2026-07-01-20.md |
 | 21 | 25 | Snapshot cannot, WebLink cannot, IActivationService.svc, timeout expired Laserfiche, certificate chain Laserfiche | Unclassified: 12; Laserfiche Server: 4; Audit Trail: 2; Import Agent: 2 | research/support-chrome-search-batch-2026-07-01-21.json | research/support-chrome-search-batch-2026-07-01-21.md |
-| 22 | 11 | Snapshot cannot | Unclassified: 7; Import Agent: 2; Audit Trail: 1; Snapshot: 1 | research/support-chrome-search-batch-2026-07-01-22.json | research/support-chrome-search-batch-2026-07-01-22.md |
+| 22 | 17 | Snapshot cannot | Unclassified: 10; Import Agent: 4; Audit Trail: 1; Laserfiche Server: 1 | research/support-chrome-search-batch-2026-07-01-22.json | research/support-chrome-search-batch-2026-07-01-22.md |
