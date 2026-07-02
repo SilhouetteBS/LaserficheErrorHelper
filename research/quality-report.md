@@ -4,21 +4,21 @@ Generated: 2026-07-02
 
 ## Summary
 
-- Published entries: 2175
-- Reviewed sources: 1370
+- Published entries: 2303
+- Reviewed sources: 1556
 - Entries needing validation: 0
 - Entries with scenario variants: 20
 - High-priority unresolved reviewed sources: 2
 - Thin-coverage products with fewer than 5 entries: 1
-- Repeated-code clusters to review for scenario modeling: 118
+- Repeated-code clusters to review for scenario modeling: 123
 
 ## Confidence Coverage
 
 | Confidence | Entries |
 | --- | --- |
 | high | 88 |
-| low | 1544 |
-| medium | 543 |
+| low | 1539 |
+| medium | 676 |
 
 ## Fix Status Coverage
 
@@ -26,15 +26,15 @@ Generated: 2026-07-02
 | --- | --- |
 | diagnostic-only | 356 |
 | known-fix | 121 |
-| needs-review | 1374 |
+| needs-review | 1502 |
 | workaround | 324 |
 
 ## Validation Triage Coverage
 
 | Validation status | Entries |
 | --- | --- |
-| official-doc-baseline | 1129 |
-| reviewed-diagnostic | 662 |
+| official-doc-baseline | 1124 |
+| reviewed-diagnostic | 795 |
 
 ## Validation Queue by Product
 
@@ -73,7 +73,7 @@ Generated: 2026-07-02
 | cross-product | 65 |
 | curated | 428 |
 | curated-partial | 450 |
-| curated-unresolved | 421 |
+| curated-unresolved | 607 |
 | no-matching-posts | 2 |
 | not-actionable | 4 |
 
@@ -93,46 +93,46 @@ Generated: 2026-07-02
 
 | Product | Published entries | Linked sources |
 | --- | --- | --- |
-| Laserfiche Server/Repository Server | 1175 | 1265 |
-| Windows Client/Desktop Client | 235 | 237 |
-| Forms | 140 | 177 |
-| Directory Server | 105 | 106 |
-| Web Client | 77 | 84 |
-| Workflow | 76 | 83 |
-| WebLink | 56 | 59 |
-| Quick Fields | 54 | 55 |
-| Laserfiche Installer | 47 | 47 |
-| Import Agent | 30 | 31 |
+| Laserfiche Server/Repository Server | 1217 | 1307 |
+| Windows Client/Desktop Client | 233 | 235 |
+| Forms | 144 | 181 |
+| Directory Server | 106 | 107 |
+| Web Client | 91 | 98 |
+| WebLink | 87 | 90 |
+| Workflow | 83 | 90 |
+| Quick Fields | 55 | 56 |
+| Laserfiche Installer | 48 | 48 |
+| Snapshot | 36 | 36 |
 
 ## Repeated-Code Scenario Review
 
 | Code | Entries | Products | Entries with scenarios |
 | --- | --- | --- | --- |
 | LFF502-UnexpectedError | 24 | Directory Server, Forms, Laserfiche Server/Repository Server | 1 |
-| 9013 | 17 | Connector, Import Agent, Laserfiche Server/Repository Server, Quick Fields, Records Management, Web Client, WebLink, Windows Client/Desktop Client, Workflow | 1 |
-| 6000 | 13 | Directory Server, Forms, Laserfiche Installer, Laserfiche Server/Repository Server, Records Management, Snapshot, Windows Client/Desktop Client, Workflow | 0 |
-| 9008 | 9 | Full Text Search, Import Agent, Laserfiche Server/Repository Server | 1 |
+| 9013 | 18 | Connector, Import Agent, Laserfiche Server/Repository Server, Quick Fields, Records Management, Web Client, WebLink, Windows Client/Desktop Client, Workflow | 1 |
+| 6000 | 14 | Directory Server, Forms, Laserfiche Installer, Laserfiche Server/Repository Server, Records Management, Snapshot, Windows Client/Desktop Client, Workflow | 0 |
+| 7050 | 11 | Laserfiche Server/Repository Server | 0 |
+| 9008 | 10 | Full Text Search, Import Agent, Laserfiche Server/Repository Server | 1 |
+| 784 | 8 | Full Text Search, Laserfiche Server/Repository Server | 1 |
 | 0x80040310 | 7 | Laserfiche Installer, Web Client, Windows Client/Desktop Client | 0 |
-| 784 | 7 | Full Text Search, Laserfiche Server/Repository Server | 1 |
-| 7050 | 7 | Laserfiche Server/Repository Server | 0 |
 | 9010 | 7 | API Server, Laserfiche Server/Repository Server, Mobile, Quick Fields, Workflow | 1 |
 | 10061 | 7 | Forms, Quick Fields, Workflow | 0 |
 | 42000 | 7 | Audit Trail, Discussions, Forms, Laserfiche Server/Repository Server, Quick Fields, Workflow | 0 |
 | 0x80004002 | 6 | Laserfiche Server/Repository Server, Windows Client/Desktop Client, Workflow | 1 |
+| 0x80004005 | 6 | Directory Server, Forms, Windows Client/Desktop Client, Workflow | 0 |
+| 404 | 6 | API Server, Laserfiche Server/Repository Server, WebLink, Workflow | 1 |
+| 500 | 6 | Audit Trail, Laserfiche Server/Repository Server, Mobile, WebLink | 0 |
+| 780 | 6 | Laserfiche Server/Repository Server, Snapshot, Web Client | 1 |
 | 0x800706BA | 5 | Distributed Computing Cluster, Forms, Quick Fields | 0 |
-| 0x80004005 | 5 | Directory Server, Forms, Windows Client/Desktop Client | 0 |
 | 0x80005000 | 5 | Directory Server, Workflow | 0 |
 | 0x80131040 | 5 | API Server, Directory Server, Web Client | 0 |
-| 404 | 5 | API Server, Laserfiche Server/Repository Server, WebLink, Workflow | 1 |
-| 780 | 5 | Laserfiche Server/Repository Server, Snapshot | 1 |
 | 797 | 5 | Laserfiche Server/Repository Server, Workflow | 0 |
 | 9025 | 5 | Laserfiche Server/Repository Server | 0 |
 | LFF2106-InvalidDataSent | 5 | Directory Server, Discussions, Mobile | 0 |
 | LFF2400-DataSourceConnectionError | 5 | Forms | 1 |
 | 0x80070002 | 4 | Laserfiche Installer, Laserfiche Server/Repository Server, Web Client, Workflow | 0 |
 | 0xc0042335 | 4 | Laserfiche Server/Repository Server, Web Client, Windows Client/Desktop Client | 0 |
-| 500 | 4 | Audit Trail, Laserfiche Server/Repository Server, Mobile, WebLink | 0 |
-| 9001 | 4 | Laserfiche Server/Repository Server, Records Management, Workflow | 0 |
+| 1053 | 4 | Audit Trail, Laserfiche Server/Repository Server, Snapshot, Workflow | 0 |
 
 ## Top Validation Candidates
 

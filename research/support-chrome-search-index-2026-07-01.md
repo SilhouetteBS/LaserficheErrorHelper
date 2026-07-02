@@ -1,11 +1,11 @@
 # Support KB Raw Batch Index
 
-Generated: 2026-07-02T13:38:59.480Z
+Generated: 2026-07-02T16:42:48.117Z
 
 This index summarizes the raw Support KB search batches so the large JSON captures can be audited without opening each file.
 
-Total captured batch files: 14
-Total captured rows: 350
+Total captured batch files: 22
+Total captured rows: 536
 
 | Batch | Rows | Queries | Top Product Hints | JSON | Markdown |
 | --- | --- | --- | --- | --- | --- |
@@ -23,3 +23,11 @@ Total captured rows: 350
 | 12 | 25 | Snapshot 10, Web Client 11, Forms 10 | Unclassified: 22; Directory Server: 1; Snapshot: 1; Web Client: 1 | research/support-chrome-search-batch-2026-07-01-12.json | research/support-chrome-search-batch-2026-07-01-12.md |
 | 13 | 25 | Forms 10, Workflow 10, WebLink 10, Quick Fields 10, WebLink 11 | Unclassified: 17; Laserfiche Server: 2; Quick Fields: 2; WebLink: 2 | research/support-chrome-search-batch-2026-07-01-13.json | research/support-chrome-search-batch-2026-07-01-13.md |
 | 14 | 25 | WebLink 11, Snapshot 10 | Unclassified: 14; Audit Trail: 5; WebLink: 3; Directory Server: 2 | research/support-chrome-search-batch-2026-07-01-14.json | research/support-chrome-search-batch-2026-07-01-14.md |
+| 15 | 25 | Snapshot 10, failure, access denied, Workflow error, Web Client error, Web Access error | Unclassified: 19; Audit Trail: 2; Laserfiche Server: 2; Mobile: 1 | research/support-chrome-search-batch-2026-07-01-15.json | research/support-chrome-search-batch-2026-07-01-15.md |
+| 16 | 25 | Web Scanning error, WebLink error, Mobile error, Webtools Agent error, license error, Base-64 string, LFSO error | Unclassified: 16; WebLink: 5; Forms: 2; Audit Trail: 1 | research/support-chrome-search-batch-2026-07-01-16.json | research/support-chrome-search-batch-2026-07-01-16.md |
+| 17 | 25 | database error, failed to connect, failed to retrieve, failed to initialize, could not load, error occurs when publishing, repository could not, Forms cannot, Connector cannot, Import Agent cannot, Snapshot cannot | Unclassified: 20; Forms: 2; Import Agent: 2; Audit Trail: 1 | research/support-chrome-search-batch-2026-07-01-17.json | research/support-chrome-search-batch-2026-07-01-17.md |
+| 18 | 25 | WebLink cannot, certificate error Laserfiche, Docusign error Laserfiche, HTTP response error Laserfiche, Connector cannot, database error, LFSO error | Unclassified: 13; Laserfiche Server: 3; Connector: 2; Import Agent: 2 | research/support-chrome-search-batch-2026-07-01-18.json | research/support-chrome-search-batch-2026-07-01-18.md |
+| 19 | 25 | Snapshot cannot, SSL error Laserfiche, Web Client error, Web Scanning error, WebLink cannot, Docusign error Laserfiche | Unclassified: 15; Audit Trail: 3; Laserfiche Server: 2; Snapshot: 2 | research/support-chrome-search-batch-2026-07-01-19.json | research/support-chrome-search-batch-2026-07-01-19.md |
+| 20 | 25 | SSL error Laserfiche, WebLink cannot, Snapshot cannot | Unclassified: 16; Forms: 3; Audit Trail: 2; Directory Server: 2 | research/support-chrome-search-batch-2026-07-01-20.json | research/support-chrome-search-batch-2026-07-01-20.md |
+| 21 | 25 | Snapshot cannot, WebLink cannot, IActivationService.svc, timeout expired Laserfiche, certificate chain Laserfiche | Unclassified: 12; Laserfiche Server: 4; Audit Trail: 2; Import Agent: 2 | research/support-chrome-search-batch-2026-07-01-21.json | research/support-chrome-search-batch-2026-07-01-21.md |
+| 22 | 11 | Snapshot cannot | Unclassified: 7; Import Agent: 2; Audit Trail: 1; Snapshot: 1 | research/support-chrome-search-batch-2026-07-01-22.json | research/support-chrome-search-batch-2026-07-01-22.md |

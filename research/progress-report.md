@@ -4,8 +4,8 @@ Generated: 2026-07-02
 
 ## Summary
 
-- Published helper entries: 2175
-- Reviewed source ledger rows: 1370
+- Published helper entries: 2303
+- Reviewed source ledger rows: 1556
 - Discovery rows tracked: 4081
 - Remaining candidate rows: 71
 
@@ -15,7 +15,7 @@ Generated: 2026-07-02
 | --- | --- |
 | diagnostic-only | 356 |
 | known-fix | 121 |
-| needs-review | 1374 |
+| needs-review | 1502 |
 | workaround | 324 |
 
 ## Source Ledger Review Status
@@ -25,7 +25,7 @@ Generated: 2026-07-02
 | cross-product | 65 |
 | curated | 428 |
 | curated-partial | 450 |
-| curated-unresolved | 421 |
+| curated-unresolved | 607 |
 | no-matching-posts | 2 |
 | not-actionable | 4 |
 
@@ -38,7 +38,7 @@ Generated: 2026-07-02
 | answers-laserfiche-employee | 282 |
 | answers-search | 70 |
 | official-docs | 16 |
-| support-knowledge-base | 369 |
+| support-knowledge-base | 555 |
 
 ## Product Coverage
 
@@ -47,28 +47,28 @@ Generated: 2026-07-02
 | Administration Hub | 5 | 0 |
 | AI Service | 1 | 0 |
 | API Server | 16 | 0 |
-| Audit Trail | 25 | 4 |
+| Audit Trail | 30 | 4 |
 | Common Dialog | 9 | 0 |
-| Connector | 17 | 3 |
-| Directory Server | 105 | 3 |
+| Connector | 19 | 3 |
+| Directory Server | 106 | 3 |
 | Discussions | 7 | 0 |
 | Distributed Computing Cluster | 11 | 0 |
 | Federated Search | 7 | 0 |
-| Forms | 140 | 4 |
+| Forms | 144 | 4 |
 | Full Text Search | 17 | 0 |
-| Import Agent | 30 | 3 |
-| Laserfiche Installer | 47 | 1 |
-| Laserfiche Server/Repository Server | 1175 | 24 |
-| Mobile | 16 | 2 |
+| Import Agent | 33 | 3 |
+| Laserfiche Installer | 48 | 1 |
+| Laserfiche Server/Repository Server | 1217 | 24 |
+| Mobile | 18 | 2 |
 | Office Integration | 13 | 0 |
-| Quick Fields | 54 | 6 |
+| Quick Fields | 55 | 6 |
 | Records Management | 12 | 0 |
-| Snapshot | 19 | 1 |
-| Web Client | 77 | 4 |
-| WebLink | 56 | 12 |
+| Snapshot | 36 | 1 |
+| Web Client | 91 | 4 |
+| WebLink | 87 | 12 |
 | Webtools Agent | 5 | 0 |
-| Windows Client/Desktop Client | 235 | 0 |
-| Workflow | 76 | 4 |
+| Windows Client/Desktop Client | 233 | 0 |
+| Workflow | 83 | 4 |
 
 ## Next Batch Targets
 

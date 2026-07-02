@@ -354,7 +354,193 @@
     "1013325",
     "1013197",
     "1013089",
-    "1013131"
+    "1013131",
+    "1011762",
+    "1012133",
+    "1012135",
+    "1012084",
+    "1012014",
+    "1000977",
+    "1012716",
+    "90156",
+    "1000498",
+    "1000556",
+    "1011129",
+    "1000684",
+    "1013603",
+    "1013368",
+    "1011134",
+    "90078",
+    "1000797",
+    "1013989",
+    "1014340",
+    "1013808",
+    "1014195",
+    "1014033",
+    "1013894",
+    "1013779",
+    "1012314",
+    "1014457",
+    "1012749",
+    "1011873",
+    "1011204",
+    "1011801",
+    "1013659",
+    "1013949",
+    "1000302",
+    "1000582",
+    "1012372",
+    "1011058",
+    "1012243",
+    "1001083",
+    "1011256",
+    "1011126",
+    "1013666",
+    "1014072",
+    "1014536",
+    "1013727",
+    "1014431",
+    "1013295",
+    "1012970",
+    "1012797",
+    "1012867",
+    "1014104",
+    "1012074",
+    "1000557",
+    "1014542",
+    "1014549",
+    "1014189",
+    "1014176",
+    "90127",
+    "1011905",
+    "1013250",
+    "1013445",
+    "1013330",
+    "1012105",
+    "1000769",
+    "1013001",
+    "1011636",
+    "1000854",
+    "1014357",
+    "1014575",
+    "1013765",
+    "1014087",
+    "1014397",
+    "1011681",
+    "1000720",
+    "1011170",
+    "1000507",
+    "1000622",
+    "1012804",
+    "1000625",
+    "1013913",
+    "1014306",
+    "1014228",
+    "1011157",
+    "1013820",
+    "1012750",
+    "1013746",
+    "1013672",
+    "1000295",
+    "1013410",
+    "1000298",
+    "1001092",
+    "1000631",
+    "1013206",
+    "1013201",
+    "1013343",
+    "1014051",
+    "1012701",
+    "1013088",
+    "1013071",
+    "1014015",
+    "1012068",
+    "1000726",
+    "1000901",
+    "90293",
+    "1011645",
+    "1000103",
+    "1000973",
+    "1011954",
+    "1012263",
+    "1013764",
+    "1014415",
+    "1014479",
+    "1013871",
+    "1011090",
+    "1013019",
+    "1011819",
+    "1012682",
+    "1012585",
+    "1012393",
+    "1000563",
+    "1013277",
+    "1000552",
+    "1012621",
+    "1000696",
+    "1012558",
+    "1012352",
+    "1014157",
+    "1014075",
+    "1014202",
+    "1012220",
+    "1011115",
+    "1001085",
+    "1000535",
+    "1012108",
+    "1012195",
+    "100085",
+    "1013692",
+    "1014114",
+    "1014032",
+    "1013187",
+    "1001030",
+    "1000965",
+    "1012586",
+    "1000910",
+    "1011953",
+    "1012015",
+    "1013668",
+    "1012387",
+    "1013980",
+    "1000959",
+    "1000816",
+    "1011839",
+    "1012828",
+    "1000495",
+    "1001086",
+    "1011637",
+    "1011679",
+    "1013882",
+    "1012600",
+    "90041",
+    "1000792",
+    "1012333",
+    "1013945",
+    "1013225",
+    "1000743",
+    "1011952",
+    "1000674",
+    "1013394",
+    "1013211",
+    "1013965",
+    "1013810",
+    "1011676",
+    "1011221",
+    "1013326",
+    "1000929",
+    "1000803",
+    "1012194",
+    "1013057",
+    "1011666",
+    "1000619",
+    "1001021",
+    "1011930",
+    "1000980",
+    "1011057",
+    "1001098",
+    "1000765",
+    "90028"
   ],
   "visitedUrls": [
     "https://support.laserfiche.com/kb/1014571/using-chrome-or-edge-136-and-higher-with-laserfiche-connector-may-result-in-an-error-stating-the-browser-is-not-configured-correctly",
@@ -706,7 +892,193 @@
     "https://support.laserfiche.com/kb/1013325/release-notes-for-laserfiche-9-0-3-",
     "https://support.laserfiche.com/kb/1013197/release-notes-for-laserfiche-9-0-2-",
     "https://support.laserfiche.com/kb/1013089/release-notes-for-laserfiche-8-3-2-",
-    "https://support.laserfiche.com/kb/1013131/release-notes-for-laserfiche-9-0-1"
+    "https://support.laserfiche.com/kb/1013131/release-notes-for-laserfiche-9-0-1",
+    "https://support.laserfiche.com/kb/1011762/var-dealer-demo-kit-7-limitations",
+    "https://support.laserfiche.com/kb/1012133/document-processor-8-0-does-not-correctly-read-the-ocr-engine-registry-value-",
+    "https://support.laserfiche.com/kb/1012135",
+    "https://support.laserfiche.com/kb/1012084",
+    "https://support.laserfiche.com/kb/1012014/list-of-changes-for-laserfiche-8-0-1-",
+    "https://support.laserfiche.com/kb/1000977/list-of-changes-for-laserfiche-7-1-",
+    "https://support.laserfiche.com/kb/1012716/a-setup-resource-decompression-failure-error-occurs-when-installing-audit-trail-reporting-8-",
+    "https://support.laserfiche.com/kb/90156/6702-scanner-engine-failure",
+    "https://support.laserfiche.com/kb/1000498/a-6701-general-scanning-failure-error-occurs-when-scanning-",
+    "https://support.laserfiche.com/kb/1000556/a-6531-failure-to-log-into-database-error-occurs-when-configuring-weblink-",
+    "https://support.laserfiche.com/kb/1011129/an-error-32002-was-generated-by-mapimessages-unspecified-failure-has-occurred-error-occurs-when-sending-an-e-mail-",
+    "https://support.laserfiche.com/kb/1000684/an-error-32002-unspecified-failure-has-occurred-the-form-required-to-view-this-message-cannot-be-displayed-error-occurs-when-sending-e-mail-",
+    "https://support.laserfiche.com/kb/1013603/an-access-denied-9013-error-occurs-when-overwriting-an-existing-electronic-document-",
+    "https://support.laserfiche.com/kb/1013368/an-access-denied-error-occurs-when-connecting-to-a-repository-with-laserfiche-mobile-9-",
+    "https://support.laserfiche.com/kb/1011134/an-access-is-denied-error-occurs-when-trying-to-load-web-access-",
+    "https://support.laserfiche.com/kb/90078/6414-access-denied-to-file-or-path-",
+    "https://support.laserfiche.com/kb/1000797/browse-behavior-is-incorrect-when-the-browse-access-right-is-denied-on-the-root-folder-",
+    "https://support.laserfiche.com/kb/1013989/workflow-technical-support-checklist-",
+    "https://support.laserfiche.com/kb/1014340/list-of-changes-for-workflow-11-update-1",
+    "https://support.laserfiche.com/kb/1013808/a-the-remote-server-returned-an-error-403-forbidden-error-occurs-when-testing-the-workflow-web-service-urls-in-the-workflow-configuration-manager-",
+    "https://support.laserfiche.com/kb/1014195/you-may-not-be-able-to-sign-in-to-the-laserfiche-web-client-through-chrome-version-84-when-using-an-insecure-connection-http-",
+    "https://support.laserfiche.com/kb/1014033/when-opening-an-electronic-document-in-the-laserfiche-web-client-you-may-receive-the-following-error-message-no-response-received-from-the-server-780-",
+    "https://support.laserfiche.com/kb/1013894/list-of-changes-for-laserfiche-10-2-1-update-2-",
+    "https://support.laserfiche.com/kb/1013779/list-of-changes-for-laserfiche-10-1-update-1-",
+    "https://support.laserfiche.com/kb/1012314/a-the-export-has-timed-out-error-occurs-when-exporting-large-files-from-web-access-8-",
+    "https://support.laserfiche.com/kb/1014457/list-of-changes-for-laserfiche-scanning-11-update-2",
+    "https://support.laserfiche.com/kb/1012749/a-location-data-out-of-range-9134-error-message-occurs-when-using-sending-large-images-to-laserfiche-from-web-access-scanning-8-2-0-",
+    "https://support.laserfiche.com/kb/1011873/a-could-not-establish-connection-error-occurs-when-loading-web-access-scanning-",
+    "https://support.laserfiche.com/kb/1011204/a-the-operation-timed-out-error-occurs-when-scanning-documents-using-web-access-",
+    "https://support.laserfiche.com/kb/1011801/a-could-not-establish-connection-reason-object-not-found-error-occurs-when-starting-web-access-scanning-",
+    "https://support.laserfiche.com/kb/1013659/list-of-changes-for-laserfiche-9-2-1-service-pack-1-",
+    "https://support.laserfiche.com/kb/1013949/list-of-changes-for-laserfiche-10-3-1",
+    "https://support.laserfiche.com/kb/1000302/a-2106-weblink-error-error-occurs-when-clicking-browse-in-weblink-",
+    "https://support.laserfiche.com/kb/1000582/an-error-access-is-denied-error-occurs-when-loading-the-weblink-start-page-",
+    "https://support.laserfiche.com/kb/1012372/an-500-internal-server-error-error-occurs-when-printing-to-pdf-with-weblink-8-",
+    "https://support.laserfiche.com/kb/1011058/a-weblink-requires-iis-5-0-or-greater-error-occurs-when-installing-weblink-7-",
+    "https://support.laserfiche.com/kb/1012243/an-access-is-denied-exception-from-hresult-0x80070005-e_accessdenied-error-occurs-when-opening-documents-in-weblink-",
+    "https://support.laserfiche.com/kb/1001083/a-error-404-cannot-find-file-error-occurs-when-accessing-the-web-access-or-weblink-web-site-",
+    "https://support.laserfiche.com/kb/1011256/known-issues-with-weblink-7-0-5",
+    "https://support.laserfiche.com/kb/1011126/a-server-application-unavailable-error-occurs-when-accessing-weblink-",
+    "https://support.laserfiche.com/kb/1013666/release-notes-for-laserfiche-mobile-9-3",
+    "https://support.laserfiche.com/kb/1014072/you-receive-a-cannot-connect-to-the-laserfiche-forms-server-error-when-adding-a-forms-server-to-the-laserfiche-mobile-10-4-1-configuration-page",
+    "https://support.laserfiche.com/kb/1014536/list-of-changes-for-the-june-28-2024-laserfiche-app",
+    "https://support.laserfiche.com/kb/1013727/list-of-changes-for-laserfiche-mobile-server-10-update-1",
+    "https://support.laserfiche.com/kb/1014431/release-notes-for-laserfiche-quick-fields-11-update-3",
+    "https://support.laserfiche.com/kb/1013295/an-object-reference-not-set-to-an-instance-of-an-object-error-occurs-when-attaching-a-licensing-database-in-license-manager-8-3-1-",
+    "https://support.laserfiche.com/kb/1012970/list-of-changes-for-workflow-8-3-1-hotfix-1012970-",
+    "https://support.laserfiche.com/kb/1012797/list-of-changes-for-workflow-subscriber-8-0-1-hotfix-1012797-june-2011-",
+    "https://support.laserfiche.com/kb/1012867/laserfiche-full-text-search-lffts-8-3-config-registry-key-",
+    "https://support.laserfiche.com/kb/1014104/release-notes-for-laserfiche-sdk-10-4-",
+    "https://support.laserfiche.com/kb/1012074/an-error-current-filing-system-not-found-in-location-table-in-source-database-error-occurs-when-migrating-a-database-",
+    "https://support.laserfiche.com/kb/1000557/an-error-in-attaching-database-to-server-error-occurs-when-using-the-laserfiche-administration-console-to-attach-a-database-",
+    "https://support.laserfiche.com/kb/1014542/list-of-changes-for-the-laserfiche-cloud-migration-readiness-assessment-tool-update-1-0-2409",
+    "https://support.laserfiche.com/kb/1014549/list-of-changes-for-the-laserfiche-cloud-migration-readiness-assessment-tool-update-1-0-2411",
+    "https://support.laserfiche.com/kb/1014189/laserfiche-audit-trail-11-frequently-asked-questions-faq-",
+    "https://support.laserfiche.com/kb/1014176/list-of-changes-for-the-june-2020-laserfiche-app",
+    "https://support.laserfiche.com/kb/90127/6550-search-error-failed-to-initialize-search-",
+    "https://support.laserfiche.com/kb/1011905/an-application-failed-to-initialize-properly-0xc0000005-error-occurs-when-starting-the-laserfiche-client-through-a-citrix-session-",
+    "https://support.laserfiche.com/kb/1013250/a-could-not-load-file-or-assembly-lflicensereader-dll-or-one-of-its-dependencies-the-specified-module-could-not-be-found-error-occurs-when-loading-the-laserfiche-forms-website-",
+    "https://support.laserfiche.com/kb/1013445/a-could-not-load-type-system-servicemodel-activation-httpmodule-from-assembly-system-servicemodel-error-occurs-when-loading-the-laserfiche-forms-configuration-page-",
+    "https://support.laserfiche.com/kb/1013330/a-multiple-forms-processes-were-found-on-server-validation-error-occurs-when-publishing-a-workflow-",
+    "https://support.laserfiche.com/kb/1012105/a-failed-to-publish-workflow-0213-s9-an-item-with-the-same-key-has-already-been-added-error-occurs-when-publishing-a-workflow-",
+    "https://support.laserfiche.com/kb/1000769/a-c-runtime-error-occurs-when-publishing-",
+    "https://support.laserfiche.com/kb/1013001/a-the-file-exists-error-occurs-when-publishing-a-workflow-or-viewing-the-rule-manager-in-workflow-8-",
+    "https://support.laserfiche.com/kb/1011636/a-the-standalone-engine-could-not-initialize-or-connect-to-the-new-laserfiche-repository-error-occurs-when-publishing-",
+    "https://support.laserfiche.com/kb/1000854/a-6512-error-opening-repository-error-occurs-when-opening-a-published-repository-from-cd-",
+    "https://support.laserfiche.com/kb/1014357/using-either-google-chrome-or-microsoft-edge-for-pdf-generation-with-forms-11-update-2-or-later",
+    "https://support.laserfiche.com/kb/1014575/list-of-changes-for-the-june-24-2025-laserfiche-android-app",
+    "https://support.laserfiche.com/kb/1013765/samsung-connector-version-10-0-cannot-be-deactivated-unless-a-host-id-is-provided-in-the-command-line",
+    "https://support.laserfiche.com/kb/1014087/release-notes-for-import-agent-10-4",
+    "https://support.laserfiche.com/kb/1014397/list-of-changes-for-import-agent-10-4-0-update-6",
+    "https://support.laserfiche.com/kb/1011681/import-agent-7-cannot-import-laserfiche-briefcases-exported-from-laserfiche-client-7-2-x-",
+    "https://support.laserfiche.com/kb/1000720/laserfiche-snapshot-cannot-be-uninstalled-if-another-shared-snapshot-printer-has-been-added-",
+    "https://support.laserfiche.com/kb/1011170/the-snapshot-configuration-utility-cannot-display-arabic-characters-",
+    "https://support.laserfiche.com/kb/1000507/laserfiche-cannot-ocr-photo-quality-snapshots-of-pdf-documents-",
+    "https://support.laserfiche.com/kb/1000622/a-2011-cannot-log-into-database-error-occurs-when-trying-to-configure-weblink-through-the-web-products-administrators-utility-",
+    "https://support.laserfiche.com/kb/1012804/a-the-page-cannot-be-found-error-occurs-when-printing-to-pdf-with-weblink-8-",
+    "https://support.laserfiche.com/kb/1000625/a-http-404-page-cannot-be-found-error-occurs-when-a-weblink-page-is-loaded-",
+    "https://support.laserfiche.com/kb/1013913/digital-signatures-are-not-working-in-laserfiche-windows-client-and-you-may-receive-the-following-error-message-no-usable-certificates-found-to-import-a-certificate-use-the-certificate-manager-or-contact-your-system-administrator-",
+    "https://support.laserfiche.com/kb/1014306/list-of-changes-for-import-agent-10-4-0-update-3",
+    "https://support.laserfiche.com/kb/1014228/release-notes-for-laserfiche-cloud-2020-4",
+    "https://support.laserfiche.com/kb/1011157/a-response-object-error-occurs-when-submitting-an-item-",
+    "https://support.laserfiche.com/kb/1013820/list-of-changes-for-laserfiche-10-2",
+    "https://support.laserfiche.com/kb/1012750/import-agent-8-may-not-send-documents-to-laserfiche-when-laserfiche-server-8-is-not-using-the-default-http-listening-port-",
+    "https://support.laserfiche.com/kb/1013746/laserfiche-connector-9-closes-immediately-after-starting-",
+    "https://support.laserfiche.com/kb/1013672/laserfiche-9-compatibility-information-for-windows-10-windows-server-2016-and-windows-server-2019-",
+    "https://support.laserfiche.com/kb/1000295/a-8-7023-service-unable-to-start-database-error-occurs-when-logging-into-a-database",
+    "https://support.laserfiche.com/kb/1013410/a-failed-to-load-annotations-the-image-cannot-be-modified-general-database-error-9008-error-may-occur-in-laserfiche-9-1-when-opening-documents-that-contain-annotations-",
+    "https://support.laserfiche.com/kb/1000298/a-7020-cannot-open-this-version-of-the-database-error-occurs-when-logging-into-a-database",
+    "https://support.laserfiche.com/kb/1001092/a-unable-to-retrieve-a-list-of-databases-error-occurs-when-creating-or-migrating-a-repository-on-microsoft-sql-server-2005-",
+    "https://support.laserfiche.com/kb/1000631/a-7026-the-server-cannot-attach-a-user-to-the-database-error-occurs-when-publishing-a-database-",
+    "https://support.laserfiche.com/kb/1013206/list-of-features-for-laserfiche-web-import-services-9-0-2-",
+    "https://support.laserfiche.com/kb/1013201/release-notes-for-web-access-9-0-2-",
+    "https://support.laserfiche.com/kb/1013343/a-could-not-load-type-lfso83lib-lfvolumechecksumreporterror-from-assembly-error-may-occur-in-custom-sdk-programs-",
+    "https://support.laserfiche.com/kb/1014051/release-notes-for-workflow-10-4-1",
+    "https://support.laserfiche.com/kb/1012701/list-of-changes-for-lfso80-and-lfso81-hotfix-1012701-november-2010-",
+    "https://support.laserfiche.com/kb/1013088/list-of-changes-for-laserfiche-8-3-2-",
+    "https://support.laserfiche.com/kb/1013071/increasing-timeout-values-for-retrieving-server-information-in-high-latency-connections-",
+    "https://support.laserfiche.com/kb/1014015/release-notes-for-workflow-10-4",
+    "https://support.laserfiche.com/kb/1012068",
+    "https://support.laserfiche.com/kb/1000726/known-issues-with-snapshot-6-1",
+    "https://support.laserfiche.com/kb/1000901/known-issues-with-snapshot-7-0-",
+    "https://support.laserfiche.com/kb/90293/7361-cannot-open-file",
+    "https://support.laserfiche.com/kb/1011645/known-issues-with-snapshot-7-0-3-",
+    "https://support.laserfiche.com/kb/1000103/known-issues-with-snapshot-7-0-2",
+    "https://support.laserfiche.com/kb/1000973/known-issues-with-snapshot-7-0-1-",
+    "https://support.laserfiche.com/kb/1011954/installing-snapshot-8-and-higher-as-a-shared-printer-on-windows-server-operating-systems-",
+    "https://support.laserfiche.com/kb/1012263/a-could-not-establish-trust-relationship-for-the-ssl-tls-secure-channel-error-occurs-when-starting-web-access-scanning-",
+    "https://support.laserfiche.com/kb/1013764/an-exception-system-web-httpexception-0x80004005-there-was-no-channel-actively-listening-at-https-sampleformsserver-forms-api-businessprocess-listing-error-occurs-when-configuring-forms-with-workflow-over-ssl-",
+    "https://support.laserfiche.com/kb/1014415/list-of-changes-for-laserfiche-office-integration-11-december-2022-update-11-0-2212-482",
+    "https://support.laserfiche.com/kb/1014479/list-of-changes-for-laserfiche-web-import-services-11-update-2-",
+    "https://support.laserfiche.com/kb/1013871/release-notes-for-laserfiche-for-ricoh-mfd-2-0",
+    "https://support.laserfiche.com/kb/1011090/scanning-in-web-access-silently-fails",
+    "https://support.laserfiche.com/kb/1013019/an-unhandled-exception-occurs-when-specifying-a-value-in-a-field-with-a-constraint-when-using-web-access-scanning-8-3-",
+    "https://support.laserfiche.com/kb/1011819/an-internal-error-calling-klr_open-9-error-occurs-when-scanning-with-kofax-in-laserfiche-scanning-7-",
+    "https://support.laserfiche.com/kb/1012682/configuring-default-upload-and-download-limits-in-laserfiche-web-access-and-laserfiche-weblink-",
+    "https://support.laserfiche.com/kb/1012585/release-notes-for-weblink-8-0-2-",
+    "https://support.laserfiche.com/kb/1012393/release-notes-for-weblink-8-0-1",
+    "https://support.laserfiche.com/kb/1000563/searches-cannot-be-performed-on-index-card-field-values-with-multiple-sequential-spaces-",
+    "https://support.laserfiche.com/kb/1013277/list-of-changes-for-web-access-9-0-2-service-pack-1-",
+    "https://support.laserfiche.com/kb/1000552/the-laserfiche-snapshot-service-requires-the-net-framework-",
+    "https://support.laserfiche.com/kb/1012621/using-the-correct-license-when-installing-laserfiche-snapshot-8-",
+    "https://support.laserfiche.com/kb/1000696",
+    "https://support.laserfiche.com/kb/1012558/release-notes-for-laserfiche-8-1-2-",
+    "https://support.laserfiche.com/kb/1012352/release-notes-for-laserfiche-8-1-1-",
+    "https://support.laserfiche.com/kb/1014157/laserfiche-compatibility-information-for-the-microsoft-windows-security-update-for-ldap-channel-binding",
+    "https://support.laserfiche.com/kb/1014075/list-of-changes-for-the-august-22-2019-laserfiche-android-app-release",
+    "https://support.laserfiche.com/kb/1014202/list-of-changes-for-laserfiche-forms-10-4-5",
+    "https://support.laserfiche.com/kb/1012220/known-issues-with-weblink-8-0",
+    "https://support.laserfiche.com/kb/1011115/enabling-weblink-to-function-when-microsoft-sharepoint-is-installed-on-the-same-computer-",
+    "https://support.laserfiche.com/kb/1001085/known-issues-with-weblink-7-0-4-",
+    "https://support.laserfiche.com/kb/1000535/weblink-does-not-display-unsecure-redactions-",
+    "https://support.laserfiche.com/kb/1012108/known-issues-with-laserfiche-8-0-2-",
+    "https://support.laserfiche.com/kb/1012195/known-issues-with-laserfiche-8-1-",
+    "https://support.laserfiche.com/kb/100085/laserfiche-cannot-update-the-images-for-electronic-documents-",
+    "https://support.laserfiche.com/kb/1013692/release-notes-for-laserfiche-mobile-10",
+    "https://support.laserfiche.com/kb/1014114/list-of-changes-for-laserfiche-forms-10-4-3",
+    "https://support.laserfiche.com/kb/1014032/list-of-changes-for-the-laserfiche-audit-trail-10-4-0-hotfix-1014032-",
+    "https://support.laserfiche.com/kb/1013187/list-of-changes-for-weblink-8-2-1-hotfix-1013187-",
+    "https://support.laserfiche.com/kb/1001030/known-issues-with-weblink-7-0-3-",
+    "https://support.laserfiche.com/kb/1000965/known-issues-with-weblink-7-0-1-",
+    "https://support.laserfiche.com/kb/1012586/modifying-the-weblink-8-log-file-path-",
+    "https://support.laserfiche.com/kb/1000910/known-issues-with-weblink-7-0-",
+    "https://support.laserfiche.com/kb/1011953/known-issues-with-laserfiche-8-0-0",
+    "https://support.laserfiche.com/kb/1012015",
+    "https://support.laserfiche.com/kb/1013668/product-activation-may-be-unsuccessful-on-windows-8-1-or-windows-server-2012-r2-and-later-",
+    "https://support.laserfiche.com/kb/1012387/a-license-file-located-at-c-program-files-laserfiche-weblink-8-is-either-invalid-or-doesnt-exist-error-occurs-when-using-weblink-8-in-a-laserfiche-rio-environment-",
+    "https://support.laserfiche.com/kb/1013980/release-notes-for-laserfiche-cloud",
+    "https://support.laserfiche.com/kb/1000959/known-issues-with-weblink-6-17-",
+    "https://support.laserfiche.com/kb/1000816/known-issues-with-weblink-6-16-",
+    "https://support.laserfiche.com/kb/1011839/omnipage-ocr-cannot-process-e-sized-images-",
+    "https://support.laserfiche.com/kb/1012828/list-of-changes-for-laserfiche-weblink-8-2-0-hotfix-1012828-august-2011-",
+    "https://support.laserfiche.com/kb/1000495/using-weblink-and-web-access-with-windows-server-2003-iis-6-",
+    "https://support.laserfiche.com/kb/1001086/constructing-a-weblink-url-that-links-to-a-document-or-folder-",
+    "https://support.laserfiche.com/kb/1011637/a-the-directory-weblink7-could-not-be-found-in-the-default-web-site-error-occurs-when-loading-the-laserfiche-weblink-7-administrators-utility-",
+    "https://support.laserfiche.com/kb/1011679/optimizing-ocr-for-speed-using-the-registry",
+    "https://support.laserfiche.com/kb/1013882/list-of-changes-for-laserfiche-server-10-1-update-3",
+    "https://support.laserfiche.com/kb/1012600/windows-vista-editions-without-iis-windows-authentication-cannot-host-laserfiche-web-products-using-this-feature-",
+    "https://support.laserfiche.com/kb/90041/6341-obtaining-the-electronic-document-pages-failed-",
+    "https://support.laserfiche.com/kb/1000792/laserfiche-repositories-version-7-are-not-displayed-",
+    "https://support.laserfiche.com/kb/1012333/a-there-was-no-endpoint-listening-at-https-activation-laserfiche-com-iactivationservice-svc-that-could-accept-the-message-error-occurs-during-the-activation-process-",
+    "https://support.laserfiche.com/kb/1013945/list-of-changes-for-laserfiche-forms-9-2-1-update-2",
+    "https://support.laserfiche.com/kb/1013225/using-the-verify-pdf-signatures-activity-in-workflow-9-to-verify-docusign-signatures-",
+    "https://support.laserfiche.com/kb/1000743/known-issues-with-the-laserfiche-7-0-1-client",
+    "https://support.laserfiche.com/kb/1011952/new-features-for-laserfiche-8-0-0-",
+    "https://support.laserfiche.com/kb/1000674/known-issues-with-the-laserfiche-7-0-client-",
+    "https://support.laserfiche.com/kb/1013394/release-and-hotfix-information-for-laserfiche-mobile-9-1",
+    "https://support.laserfiche.com/kb/1013211/list-of-changes-for-laserfiche-mobile-9-0",
+    "https://support.laserfiche.com/kb/1013965/release-notes-for-workflow-10-2-1",
+    "https://support.laserfiche.com/kb/1013810/release-notes-for-workflow-10-2",
+    "https://support.laserfiche.com/kb/1011676/known-issues-with-laserfiche-7-2-1-",
+    "https://support.laserfiche.com/kb/1011221/known-issues-with-web-access-7-2-",
+    "https://support.laserfiche.com/kb/1013326/list-of-changes-in-laserfiche-9-0-3-",
+    "https://support.laserfiche.com/kb/1000929/known-issues-with-laserfiche-client-7-0-3-",
+    "https://support.laserfiche.com/kb/1000803/known-issues-with-the-laserfiche-client-7-0-2-",
+    "https://support.laserfiche.com/kb/1012194/list-of-changes-for-laserfiche-8-1-",
+    "https://support.laserfiche.com/kb/1013057/legacy-client-applications-and-laserfiche-server-9-",
+    "https://support.laserfiche.com/kb/1011666/known-issues-with-web-access-7-2-1",
+    "https://support.laserfiche.com/kb/1000619/list-of-fixes-in-laserfiche-6-11-",
+    "https://support.laserfiche.com/kb/1001021/known-issues-with-laserfiche-7-1-1-",
+    "https://support.laserfiche.com/kb/1011930/legacy-client-applications-and-laserfiche-server-8-",
+    "https://support.laserfiche.com/kb/1000980/known-issues-with-laserfiche-7-1-",
+    "https://support.laserfiche.com/kb/1011057/basic-information-regarding-word-location-information-generated-through-the-laserfiche-client-",
+    "https://support.laserfiche.com/kb/1001098/the-autorun-silently-fails-when-clicking-a-link-to-a-pdf-document-",
+    "https://support.laserfiche.com/kb/1000765/configuring-laserfiche-to-be-firewall-compatible-",
+    "https://support.laserfiche.com/kb/90028/6327-only-image-documents-can-be-processed-"
   ],
   "batches": [
     {
@@ -820,9 +1192,73 @@
       "count": 25,
       "createdAt": "2026-07-01T21:56:34.405Z",
       "updatedAt": "2026-07-01T21:59:16.138Z"
+    },
+    {
+      "batchNumber": 15,
+      "batchPath": "research/support-chrome-search-batch-2026-07-01-15.json",
+      "mdPath": "research/support-chrome-search-batch-2026-07-01-15.md",
+      "count": 25,
+      "createdAt": "2026-07-02T15:44:33.782Z",
+      "updatedAt": "2026-07-02T15:49:33.852Z"
+    },
+    {
+      "batchNumber": 16,
+      "batchPath": "research/support-chrome-search-batch-2026-07-01-16.json",
+      "mdPath": "research/support-chrome-search-batch-2026-07-01-16.md",
+      "count": 25,
+      "createdAt": "2026-07-02T15:50:17.423Z",
+      "updatedAt": "2026-07-02T15:55:13.397Z"
+    },
+    {
+      "batchNumber": 17,
+      "batchPath": "research/support-chrome-search-batch-2026-07-01-17.json",
+      "mdPath": "research/support-chrome-search-batch-2026-07-01-17.md",
+      "count": 25,
+      "createdAt": "2026-07-02T15:57:05.295Z",
+      "updatedAt": "2026-07-02T16:06:47.465Z"
+    },
+    {
+      "batchNumber": 18,
+      "batchPath": "research/support-chrome-search-batch-2026-07-01-18.json",
+      "mdPath": "research/support-chrome-search-batch-2026-07-01-18.md",
+      "count": 25,
+      "createdAt": "2026-07-02T16:06:57.646Z",
+      "updatedAt": "2026-07-02T16:17:57.130Z"
+    },
+    {
+      "batchNumber": 19,
+      "batchPath": "research/support-chrome-search-batch-2026-07-01-19.json",
+      "mdPath": "research/support-chrome-search-batch-2026-07-01-19.md",
+      "count": 25,
+      "createdAt": "2026-07-02T16:19:25.110Z",
+      "updatedAt": "2026-07-02T16:24:05.468Z"
+    },
+    {
+      "batchNumber": 20,
+      "batchPath": "research/support-chrome-search-batch-2026-07-01-20.json",
+      "mdPath": "research/support-chrome-search-batch-2026-07-01-20.md",
+      "count": 25,
+      "createdAt": "2026-07-02T16:24:22.144Z",
+      "updatedAt": "2026-07-02T16:27:48.229Z"
+    },
+    {
+      "batchNumber": 21,
+      "batchPath": "research/support-chrome-search-batch-2026-07-01-21.json",
+      "mdPath": "research/support-chrome-search-batch-2026-07-01-21.md",
+      "count": 25,
+      "createdAt": "2026-07-02T16:28:07.866Z",
+      "updatedAt": "2026-07-02T16:40:13.725Z"
+    },
+    {
+      "batchNumber": 22,
+      "batchPath": "research/support-chrome-search-batch-2026-07-01-22.json",
+      "mdPath": "research/support-chrome-search-batch-2026-07-01-22.md",
+      "count": 11,
+      "createdAt": "2026-07-02T16:41:35.263Z",
+      "updatedAt": "2026-07-02T16:42:22.826Z"
     }
   ],
-  "updatedAt": "2026-07-01T21:59:16.136Z",
+  "updatedAt": "2026-07-02T16:42:22.825Z",
   "notes": "Restarted from batch 1 for manual validation of support search result detection.",
   "queryCursors": {
     "query:error": {
@@ -910,8 +1346,8 @@
       "done": true
     },
     "query:HTTP 500": {
-      "page": 13,
-      "done": false
+      "page": 18,
+      "done": true
     },
     "query:SQL error": {
       "page": 6,
@@ -974,7 +1410,7 @@
       "done": true
     },
     "query:Snapshot 10": {
-      "page": 11,
+      "page": 28,
       "done": false
     },
     "query:Laserfiche Server 11": {
@@ -1003,6 +1439,478 @@
     },
     "query:Quick Fields 10": {
       "page": 3,
+      "done": true
+    },
+    "query:error occurs": {
+      "page": 6,
+      "done": true
+    },
+    "query:error message": {
+      "page": 6,
+      "done": true
+    },
+    "query:failure": {
+      "page": 3,
+      "done": true
+    },
+    "query:internal server error": {
+      "page": 2,
+      "done": true
+    },
+    "query:access denied": {
+      "page": 3,
+      "done": true
+    },
+    "query:Laserfiche Server error": {
+      "page": 2,
+      "done": true
+    },
+    "query:Repository error": {
+      "page": 2,
+      "done": true
+    },
+    "query:Directory Server error": {
+      "page": 2,
+      "done": true
+    },
+    "query:Forms error": {
+      "page": 2,
+      "done": true
+    },
+    "query:Workflow error": {
+      "page": 5,
+      "done": true
+    },
+    "query:Web Client error": {
+      "page": 6,
+      "done": true
+    },
+    "query:Web Access error": {
+      "page": 4,
+      "done": true
+    },
+    "query:Web Scanning error": {
+      "page": 6,
+      "done": true
+    },
+    "query:WebLink error": {
+      "page": 4,
+      "done": true
+    },
+    "query:Quick Fields error": {
+      "page": 2,
+      "done": true
+    },
+    "query:Import Agent error": {
+      "page": 2,
+      "done": true
+    },
+    "query:Connector error": {
+      "page": 2,
+      "done": true
+    },
+    "query:Audit Trail error": {
+      "page": 2,
+      "done": true
+    },
+    "query:Mobile error": {
+      "page": 3,
+      "done": true
+    },
+    "query:API Server error": {
+      "page": 2,
+      "done": true
+    },
+    "query:Office Integration error": {
+      "page": 2,
+      "done": true
+    },
+    "query:Webtools Agent error": {
+      "page": 3,
+      "done": true
+    },
+    "query:Activation error": {
+      "page": 4,
+      "done": true
+    },
+    "query:license error": {
+      "page": 5,
+      "done": true
+    },
+    "query:401 Unauthorized": {
+      "page": 3,
+      "done": true
+    },
+    "query:STATUS_BREAKPOINT": {
+      "page": 3,
+      "done": true
+    },
+    "query:AADSTS": {
+      "page": 2,
+      "done": true
+    },
+    "query:Base-64 string": {
+      "page": 4,
+      "done": true
+    },
+    "query:LFF error": {
+      "page": 2,
+      "done": true
+    },
+    "query:LFDS error": {
+      "page": 2,
+      "done": true
+    },
+    "query:LFSO error": {
+      "page": 5,
+      "done": true
+    },
+    "query:Workflow API was not successful": {
+      "page": 2,
+      "done": true
+    },
+    "query:Object reference not set": {
+      "page": 2,
+      "done": true
+    },
+    "query:Operation timed out": {
+      "page": 2,
+      "done": true
+    },
+    "query:No response received from the server": {
+      "page": 2,
+      "done": true
+    },
+    "query:Could not find file": {
+      "page": 2,
+      "done": true
+    },
+    "query:InvalidCastException": {
+      "page": 3,
+      "done": true
+    },
+    "query:RPC server unavailable": {
+      "page": 2,
+      "done": true
+    },
+    "query:database error": {
+      "page": 5,
+      "done": true
+    },
+    "query:SAML error": {
+      "page": 4,
+      "done": true
+    },
+    "query:TLS 1.2 error": {
+      "page": 2,
+      "done": true
+    },
+    "query:browser is not configured correctly": {
+      "page": 2,
+      "done": true
+    },
+    "query:failed to connect": {
+      "page": 3,
+      "done": true
+    },
+    "query:failed to load": {
+      "page": 2,
+      "done": true
+    },
+    "query:failed to retrieve": {
+      "page": 3,
+      "done": true
+    },
+    "query:failed to initialize": {
+      "page": 3,
+      "done": true
+    },
+    "query:could not connect": {
+      "page": 2,
+      "done": true
+    },
+    "query:could not load": {
+      "page": 3,
+      "done": true
+    },
+    "query:could not access": {
+      "page": 2,
+      "done": true
+    },
+    "query:connection was closed": {
+      "page": 2,
+      "done": true
+    },
+    "query:server was unable": {
+      "page": 2,
+      "done": true
+    },
+    "query:error occurs when opening": {
+      "page": 2,
+      "done": true
+    },
+    "query:error occurs when starting": {
+      "page": 2,
+      "done": true
+    },
+    "query:error occurs when signing in": {
+      "page": 2,
+      "done": true
+    },
+    "query:error occurs when scanning": {
+      "page": 2,
+      "done": true
+    },
+    "query:error occurs when exporting": {
+      "page": 2,
+      "done": true
+    },
+    "query:error occurs when importing": {
+      "page": 3,
+      "done": true
+    },
+    "query:error occurs when routing": {
+      "page": 2,
+      "done": true
+    },
+    "query:error occurs when publishing": {
+      "page": 3,
+      "done": true
+    },
+    "query:error occurs when activating": {
+      "page": 3,
+      "done": true
+    },
+    "query:cannot connect to repository": {
+      "page": 2,
+      "done": true
+    },
+    "query:repository could not": {
+      "page": 3,
+      "done": true
+    },
+    "query:Forms cannot": {
+      "page": 3,
+      "done": true
+    },
+    "query:Workflow cannot": {
+      "page": 3,
+      "done": true
+    },
+    "query:Directory Server cannot": {
+      "page": 2,
+      "done": true
+    },
+    "query:Web Client cannot": {
+      "page": 4,
+      "done": true
+    },
+    "query:Connector cannot": {
+      "page": 17,
+      "done": false
+    },
+    "query:Quick Fields cannot": {
+      "page": 2,
+      "done": true
+    },
+    "query:Import Agent cannot": {
+      "page": 3,
+      "done": true
+    },
+    "query:Snapshot cannot": {
+      "page": 15,
+      "done": false
+    },
+    "query:WebLink cannot": {
+      "page": 9,
+      "done": true
+    },
+    "query:Office Integration cannot": {
+      "page": 2,
+      "done": true
+    },
+    "query:Audit Trail cannot": {
+      "page": 2,
+      "done": true
+    },
+    "query:Mobile cannot": {
+      "page": 2,
+      "done": true
+    },
+    "query:API Server cannot": {
+      "page": 2,
+      "done": true
+    },
+    "query:Laserfiche Server cannot": {
+      "page": 2,
+      "done": true
+    },
+    "query:Laserfiche Installer failed": {
+      "page": 2,
+      "done": true
+    },
+    "query:Laserfiche service failed": {
+      "page": 2,
+      "done": true
+    },
+    "query:repository database": {
+      "page": 2,
+      "done": true
+    },
+    "query:SQL Server Laserfiche error": {
+      "page": 2,
+      "done": true
+    },
+    "query:Windows authentication error": {
+      "page": 3,
+      "done": true
+    },
+    "query:single sign-on error": {
+      "page": 2,
+      "done": true
+    },
+    "query:SAML token error": {
+      "page": 4,
+      "done": true
+    },
+    "query:certificate error Laserfiche": {
+      "page": 3,
+      "done": true
+    },
+    "query:SSL error Laserfiche": {
+      "page": 8,
+      "done": true
+    },
+    "query:IIS error Laserfiche": {
+      "page": 3,
+      "done": true
+    },
+    "query:Docusign error Laserfiche": {
+      "page": 16,
+      "done": false
+    },
+    "query:DocuSign 500 Internal Server Error": {
+      "page": 2,
+      "done": true
+    },
+    "query:HTTP response error Laserfiche": {
+      "page": 3,
+      "done": true
+    },
+    "query:Pervasive.SQL engine cannot be found": {
+      "page": 2,
+      "done": true
+    },
+    "query:browser not configured correctly Laserfiche": {
+      "page": 2,
+      "done": true
+    },
+    "query:7039:0": {
+      "page": 3,
+      "done": true
+    },
+    "query:AADSTS75011": {
+      "page": 3,
+      "done": true
+    },
+    "query:SOBOUserName": {
+      "page": 3,
+      "done": true
+    },
+    "query:Port 18435 Failed": {
+      "page": 3,
+      "done": true
+    },
+    "query:STATUS_BREAKPOINT Forms 11": {
+      "page": 2,
+      "done": true
+    },
+    "query:STATUS_BREAKPOINT Web Client 11": {
+      "page": 3,
+      "done": true
+    },
+    "query:Base-64 character workflow": {
+      "page": 2,
+      "done": true
+    },
+    "query:This collection already contains an address with scheme http": {
+      "page": 2,
+      "done": true
+    },
+    "query:IActivationService.svc": {
+      "page": 3,
+      "done": true
+    },
+    "query:activation tool error": {
+      "page": 3,
+      "done": true
+    },
+    "query:DocuSign Request Signature error": {
+      "page": 2,
+      "done": true
+    },
+    "query:Laserfiche Connector browser is not configured correctly": {
+      "page": 2,
+      "done": true
+    },
+    "query:Object reference not set to an instance": {
+      "page": 2,
+      "done": true
+    },
+    "query:InvalidCastException Laserfiche": {
+      "page": 3,
+      "done": true
+    },
+    "query:RPC server unavailable Laserfiche": {
+      "page": 2,
+      "done": true
+    },
+    "query:The remote server returned an error": {
+      "page": 2,
+      "done": true
+    },
+    "query:500 Internal Server Error Laserfiche Forms": {
+      "page": 2,
+      "done": true
+    },
+    "query:404 Not Found Laserfiche": {
+      "page": 2,
+      "done": true
+    },
+    "query:401 Unauthorized Laserfiche": {
+      "page": 3,
+      "done": true
+    },
+    "query:403 Forbidden Laserfiche": {
+      "page": 3,
+      "done": true
+    },
+    "query:timeout expired Laserfiche": {
+      "page": 4,
+      "done": true
+    },
+    "query:SQL timeout Laserfiche": {
+      "page": 4,
+      "done": true
+    },
+    "query:database login failed Laserfiche": {
+      "page": 2,
+      "done": true
+    },
+    "query:certificate chain Laserfiche": {
+      "page": 3,
+      "done": true
+    },
+    "query:SAML response invalid Laserfiche": {
+      "page": 2,
+      "done": true
+    },
+    "query:keyset does not exist Laserfiche": {
+      "page": 2,
+      "done": true
+    },
+    "query:could not establish trust relationship Laserfiche": {
+      "page": 2,
       "done": true
     }
   }
