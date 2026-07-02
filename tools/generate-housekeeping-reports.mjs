@@ -2,7 +2,10 @@ import fs from "node:fs";
 import path from "node:path";
 import { errorEntries } from "../src/data/errors.js";
 import { reviewedSources } from "../src/data/reviewedSources.js";
-import { supportChromePromotedErrorEntries } from "../src/data/supportChromePromotions.js";
+import {
+  supportChromePromotedErrorEntries,
+  supportChromeSourceCurationQueue,
+} from "../src/data/supportChromePromotions.js";
 
 const researchDir = "research";
 const statePath = path.join(researchDir, "support-chrome-search-state-2026-07-01.json");
@@ -43,17 +46,11 @@ function sourceUrl(entry) {
   return entry.sources?.[0]?.url ?? "";
 }
 
-function sourceTitle(entry) {
-  return entry.sources?.[0]?.title ?? entry.message;
-}
-
-function isReleaseNote(entry) {
-  return /^(release notes|list of changes|software versions and fixes)\b/i.test(entry.message);
-}
-
 const needsReview = errorEntries.filter((entry) => entry.fixStatus === "needs-review");
 const supportNeedsReview = supportChromePromotedErrorEntries.filter((entry) => entry.fixStatus === "needs-review");
-const releaseNoteSupport = supportChromePromotedErrorEntries.filter(isReleaseNote);
+const supportReviewedSources = reviewedSources.filter(
+  (source) => source.id?.startsWith("support-promoted-source-") || source.id?.startsWith("support-reference-source-"),
+);
 const state = readJson(statePath, {});
 const batchRows = (state.batches ?? []).map((batch) => {
   const batchData = readJson(batch.batchPath, { rows: [] });
@@ -90,14 +87,15 @@ const needsReviewRows = needsReview
   }))
   .sort((a, b) => a.product.localeCompare(b.product) || a.code.localeCompare(b.code, undefined, { numeric: true }));
 
-const releaseRows = releaseNoteSupport
-  .map((entry) => ({
-    product: entry.product,
-    code: entry.code,
-    message: entry.message,
-    url: sourceUrl(entry),
+const sourceCurationRows = supportChromeSourceCurationQueue
+  .map((source) => ({
+    product: source.product,
+    codes: (source.extractedErrorCodes ?? []).join(", "),
+    title: source.title,
+    url: source.url,
+    note: source.curationNote,
   }))
-  .sort((a, b) => a.product.localeCompare(b.product) || a.message.localeCompare(b.message));
+  .sort((a, b) => a.product.localeCompare(b.product) || a.title.localeCompare(b.title));
 
 const needsReviewReport = [
   "# Needs Review Queue",
@@ -147,7 +145,7 @@ const supportStatus = [
   "",
   `Visited Support KB URLs: ${(state.visitedUrls ?? []).length}`,
   `Promoted Support KB entries: ${supportChromePromotedErrorEntries.length}`,
-  `Support KB reviewed-source rows: ${reviewedSources.filter((source) => source.id?.startsWith("support-promoted-source-")).length}`,
+  `Support KB reviewed-source rows: ${supportReviewedSources.length}`,
   `Search batches captured: ${(state.batches ?? []).length}`,
   "",
   "## Open Search Cursors",
@@ -169,16 +167,16 @@ const supportStatus = [
     ],
   ),
   "",
-  "## Release Notes Needing Curation",
+  "## Reference-Only Sources Needing Curation",
   "",
-  releaseRows.length
-    ? table(releaseRows, [
+  sourceCurationRows.length
+    ? table(sourceCurationRows, [
         { label: "Product", value: (row) => row.product },
-        { label: "Code", value: (row) => row.code },
-        { label: "Title", value: (row) => row.message },
+        { label: "Extracted Codes", value: (row) => row.codes },
+        { label: "Title", value: (row) => row.title },
         { label: "URL", value: (row) => row.url },
       ])
-    : "No Support KB release-note entries are currently promoted as needs-review diagnostics.",
+    : "No Support KB reference-only sources are queued for item-level curation.",
   "",
 ].join("\n");
 
@@ -218,7 +216,7 @@ const readme = [
   "## Key Reports",
   "",
   "- `needs-review-report.md`: public entries that still need manual curation into confirmed fixes, workarounds, or lower-priority diagnostic notes.",
-  "- `support-kb-research-status.md`: Support Knowledge Base search progress, open cursors, and release-note entries that need deeper curation.",
+  "- `support-kb-research-status.md`: Support Knowledge Base search progress, open cursors, and reference-only sources that need item-level curation.",
   "- `progress-report.md`: generated catalog coverage summary.",
   "- `quality-report.md`: generated validation queue summary.",
   "",
@@ -237,4 +235,4 @@ console.log(`Wrote ${path.join(researchDir, "needs-review-report.md")}`);
 console.log(`Wrote ${path.join(researchDir, "support-kb-research-status.md")}`);
 console.log(`Wrote ${path.join(researchDir, "support-chrome-search-index-2026-07-01.md")}`);
 console.log(`Wrote ${path.join(researchDir, "README.md")}`);
-console.log(`Needs review: ${needsReview.length}; Support release-note entries: ${releaseRows.length}.`);
+console.log(`Needs review: ${needsReview.length}; Support reference-only curation sources: ${sourceCurationRows.length}.`);

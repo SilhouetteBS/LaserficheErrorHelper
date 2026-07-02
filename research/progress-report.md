@@ -1,10 +1,10 @@
 # Laserfiche Error Helper Progress Report
 
-Generated: 2026-07-01
+Generated: 2026-07-02
 
 ## Summary
 
-- Published helper entries: 2351
+- Published helper entries: 2175
 - Reviewed source ledger rows: 1370
 - Discovery rows tracked: 4081
 - Remaining candidate rows: 71
@@ -15,7 +15,7 @@ Generated: 2026-07-01
 | --- | --- |
 | diagnostic-only | 356 |
 | known-fix | 121 |
-| needs-review | 1550 |
+| needs-review | 1374 |
 | workaround | 324 |
 
 ## Source Ledger Review Status
@@ -49,26 +49,26 @@ Generated: 2026-07-01
 | API Server | 16 | 0 |
 | Audit Trail | 25 | 4 |
 | Common Dialog | 9 | 0 |
-| Connector | 37 | 3 |
-| Directory Server | 136 | 3 |
+| Connector | 17 | 3 |
+| Directory Server | 105 | 3 |
 | Discussions | 7 | 0 |
 | Distributed Computing Cluster | 11 | 0 |
 | Federated Search | 7 | 0 |
-| Forms | 177 | 4 |
+| Forms | 140 | 4 |
 | Full Text Search | 17 | 0 |
-| Import Agent | 31 | 3 |
-| Laserfiche Installer | 48 | 1 |
-| Laserfiche Server/Repository Server | 1205 | 24 |
-| Mobile | 21 | 2 |
-| Office Integration | 14 | 0 |
-| Quick Fields | 62 | 6 |
+| Import Agent | 30 | 3 |
+| Laserfiche Installer | 47 | 1 |
+| Laserfiche Server/Repository Server | 1175 | 24 |
+| Mobile | 16 | 2 |
+| Office Integration | 13 | 0 |
+| Quick Fields | 54 | 6 |
 | Records Management | 12 | 0 |
-| Snapshot | 23 | 1 |
-| Web Client | 89 | 4 |
-| WebLink | 71 | 12 |
+| Snapshot | 19 | 1 |
+| Web Client | 77 | 4 |
+| WebLink | 56 | 12 |
 | Webtools Agent | 5 | 0 |
 | Windows Client/Desktop Client | 235 | 0 |
-| Workflow | 87 | 4 |
+| Workflow | 76 | 4 |
 
 ## Next Batch Targets
 

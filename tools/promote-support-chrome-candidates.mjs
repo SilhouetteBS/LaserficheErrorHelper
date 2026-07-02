@@ -255,16 +255,13 @@ function entryMessage(row) {
   return title(row).slice(0, 180);
 }
 
-function likelyFixes(row, isReleaseSummary = false) {
+function isReferenceOnlyRow(row) {
+  return /^(release notes|list of change(?:s)?|software versions and fixes)\b/i.test(title(row));
+}
+
+function likelyFixes(row) {
   const text = row.detailText ?? "";
   const hasResolution = /\b(resolution|workaround|solution)\b/i.test(text);
-  if (isReleaseSummary) {
-    return [
-      "Open the linked Support Knowledge Base release-note or list-of-changes article and search within it for the affected error text, exception, or symptom.",
-      "Use this entry as a pointer to a product update that may contain the fix; verify the exact fixed issue, affected version, and target update before planning an upgrade.",
-      "If the release note appears to match, validate the update in a test environment or maintenance window before changing production.",
-    ];
-  }
   return [
     "Open the linked Support Knowledge Base article and compare the article's product, version, symptoms, and environment details to the affected system.",
     hasResolution
@@ -276,9 +273,8 @@ function likelyFixes(row, isReleaseSummary = false) {
 
 function buildEntry(row) {
   const product = inferProduct(row);
-  const isReleaseSummary = /^(release notes|list of change(?:s)?|software versions and fixes)\b/i.test(title(row));
-  const codes = isReleaseSummary ? meaningfulCodes({ ...row, detailText: "", snippet: "" }) : meaningfulCodes(row);
-  const code = codes[0] || (isReleaseSummary && row.kbId ? `${productPrefix(product)}-KB-${row.kbId}` : syntheticCode(row, product));
+  const codes = meaningfulCodes(row);
+  const code = codes[0] || syntheticCode(row, product);
   const versions = inferVersions(row);
   const message = entryMessage(row);
   const sourceId = `support-promoted-source-${row.kbId || slugify(message)}`;
@@ -289,12 +285,10 @@ function buildEntry(row) {
     message,
     product,
     versions,
-    confidence: isReleaseSummary ? "low" : "medium",
+    confidence: "medium",
     fixStatus: "needs-review",
     reviewedDate,
-    summary: isReleaseSummary
-      ? `A Laserfiche Support Knowledge Base release-note article may contain a ${product} fix relevant to reported errors or symptoms. This entry is published as a pointer while the exact fixed issue is still being curated.`
-      : `A Laserfiche Support Knowledge Base article reports ${message} for ${product}. This entry is published so users can discover the source while the exact remediation is still being curated.`,
+    summary: `A Laserfiche Support Knowledge Base article reports ${message} for ${product}. This entry is published so users can discover the source while the exact remediation is still being curated.`,
     symptoms: [
       `The linked Support KB article reports: ${message}.`,
       codes.length > 0
@@ -302,16 +296,12 @@ function buildEntry(row) {
         : "No stable numeric error code was extracted from the article title or summary.",
     ],
     likelyCauses: [
-      isReleaseSummary
-        ? "The linked Support release-note article may describe one or more fixed issues, but the exact error-specific root cause still needs item-level curation."
-        : "The linked Support Knowledge Base article describes this failure in a real troubleshooting or release-note context, but the root cause still needs final curation.",
+      "The linked Support Knowledge Base article describes this failure in a real troubleshooting context, but the root cause still needs final curation.",
     ],
-    likelyFixes: likelyFixes(row, isReleaseSummary),
+    likelyFixes: likelyFixes(row),
     validationStatus: "reviewed-diagnostic",
     notes:
-      isReleaseSummary
-        ? "Release-note/list-of-changes source. Review the article manually and split specific fixed issues into confirmed entries where the article provides enough detail."
-        : versions.length === allowedVersions.length
+      versions.length === allowedVersions.length
         ? "No version-specific scope was confirmed in the Support KB capture; versions 9-12 are included because the issue may plausibly apply to self-hosted deployments."
         : "Version scope is based on version text found in the Support KB article title or body.",
     sources: [
@@ -319,13 +309,35 @@ function buildEntry(row) {
         sourceType: "support-knowledge-base",
         title: message,
         url: row.url,
-        note: isReleaseSummary
-          ? "Support KB release-note candidate promoted as a needs-review pointer; review the article and extract specific fixed issues before treating it as a confirmed fix."
-          : "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix.",
+        note: "Support KB candidate promoted as a needs-review diagnostic entry; review the article before treating it as a confirmed fix.",
       },
     ],
     sourceId,
     sourceCodes: codes.length > 0 ? codes : [code],
+  };
+}
+
+function buildReferenceSource(row) {
+  const product = inferProduct(row);
+  const versions = inferVersions(row);
+  const message = entryMessage(row);
+  const codes = meaningfulCodes({ ...row, detailText: "", snippet: "" });
+  const fallbackCode = row.kbId ? `${productPrefix(product)}-KB-${row.kbId}` : syntheticCode(row, product);
+
+  return {
+    id: `support-reference-source-${row.kbId || slugify(message)}`,
+    title: message,
+    url: row.url,
+    sourceType: "support-knowledge-base",
+    reviewedDate,
+    productTags: unique([product, ...versions]),
+    extractedErrorCodes: codes.length > 0 ? codes : [fallbackCode],
+    reviewStatus: "curated-unresolved",
+    product,
+    versions,
+    sourceCodes: codes.length > 0 ? codes : [fallbackCode],
+    curationNote:
+      "Reference-only Support KB article. Do not list as a user-facing error until a specific error, symptom, fixed issue, or workaround is extracted.",
   };
 }
 
@@ -340,31 +352,55 @@ for (const file of fs.readdirSync(researchDir).filter((name) => batchPattern.tes
   }
 }
 
-const entries = [...rowsByUrl.values()]
+const rows = [...rowsByUrl.values()];
+const referenceRows = rows.filter(isReferenceOnlyRow);
+const entryRows = rows.filter((row) => !isReferenceOnlyRow(row));
+
+const entries = entryRows
   .map(buildEntry)
   .sort((a, b) => a.product.localeCompare(b.product) || a.code.localeCompare(b.code, undefined, { numeric: true }));
 
-const reviewedSources = entries.map((entry) => ({
-  id: entry.sourceId,
-  title: entry.sources[0].title,
-  url: entry.sources[0].url,
-  sourceType: "support-knowledge-base",
-  reviewedDate,
-  productTags: unique([entry.product, ...entry.versions]),
-  extractedErrorCodes: entry.sourceCodes,
-  reviewStatus: "curated-unresolved",
-}));
+const referenceSources = referenceRows
+  .map(buildReferenceSource)
+  .sort((a, b) => a.product.localeCompare(b.product) || a.title.localeCompare(b.title));
+
+const reviewedSources = [
+  ...entries.map((entry) => ({
+    id: entry.sourceId,
+    title: entry.sources[0].title,
+    url: entry.sources[0].url,
+    sourceType: "support-knowledge-base",
+    reviewedDate,
+    productTags: unique([entry.product, ...entry.versions]),
+    extractedErrorCodes: entry.sourceCodes,
+    reviewStatus: "curated-unresolved",
+  })),
+  ...referenceSources.map(({ product, versions, sourceCodes, curationNote, ...source }) => source),
+];
 
 const publicEntries = entries.map(({ sourceId, sourceCodes, ...entry }) => entry);
+const sourceCurationQueue = referenceSources.map((source) => ({
+  id: source.id,
+  title: source.title,
+  url: source.url,
+  product: source.product,
+  versions: source.versions,
+  extractedErrorCodes: source.sourceCodes,
+  curationNote: source.curationNote,
+}));
 
 const output = [
   "// Generated from research/support-chrome-search-batch-2026-07-01-*.json.",
-  "// These entries are diagnostic-only/needs-review until each Support KB source is manually curated into a confirmed fix.",
+  "// Public entries exclude broad Support KB release-note/list-of-changes articles; those remain in the reviewed-source ledger and curation queue.",
   `export const supportChromePromotedErrorEntries = ${JSON.stringify(publicEntries, null, 2)};`,
   "",
   `export const supportChromePromotedReviewedSources = ${JSON.stringify(reviewedSources, null, 2)};`,
   "",
+  `export const supportChromeSourceCurationQueue = ${JSON.stringify(sourceCurationQueue, null, 2)};`,
+  "",
 ].join("\n");
 
 fs.writeFileSync(outputPath, output);
-console.log(`Wrote ${publicEntries.length} Support KB entries and ${reviewedSources.length} reviewed sources to ${outputPath}.`);
+console.log(
+  `Wrote ${publicEntries.length} Support KB entries, ${reviewedSources.length} reviewed sources, and ${sourceCurationQueue.length} reference-only curation rows to ${outputPath}.`,
+);

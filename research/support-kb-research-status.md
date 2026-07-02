@@ -1,9 +1,9 @@
 # Support KB Research Status
 
-Generated: 2026-07-01T22:01:07.175Z
+Generated: 2026-07-02T13:38:59.480Z
 
 Visited Support KB URLs: 350
-Promoted Support KB entries: 350
+Promoted Support KB entries: 174
 Support KB reviewed-source rows: 350
 Search batches captured: 14
 
@@ -18,24 +18,24 @@ Search batches captured: 14
 
 | Product | Promoted Entries |
 | --- | --- |
-| Laserfiche Server/Repository Server | 112 |
-| Directory Server | 55 |
-| Forms | 48 |
-| WebLink | 34 |
-| Connector | 22 |
-| Web Client | 18 |
-| Quick Fields | 17 |
-| Workflow | 16 |
-| Snapshot | 11 |
-| Mobile | 6 |
-| Laserfiche Installer | 4 |
-| Office Integration | 3 |
+| Laserfiche Server/Repository Server | 82 |
+| Directory Server | 24 |
+| WebLink | 19 |
+| Forms | 11 |
+| Quick Fields | 9 |
+| Snapshot | 7 |
+| Web Client | 6 |
+| Workflow | 5 |
+| Laserfiche Installer | 3 |
 | Audit Trail | 2 |
-| Import Agent | 2 |
+| Connector | 2 |
+| Office Integration | 2 |
+| Import Agent | 1 |
+| Mobile | 1 |
 
-## Release Notes Needing Curation
+## Reference-Only Sources Needing Curation
 
-| Product | Code | Title | URL |
+| Product | Extracted Codes | Title | URL |
 | --- | --- | --- | --- |
 | Connector | CONNECTOR-KB-1014247 | List of Changes for Connector 11 | https://support.laserfiche.com/kb/1014247/list-of-changes-for-connector-11 |
 | Connector | CONNECTOR-KB-1013793 | List of Changes for Laserfiche Connector 10.2 | https://support.laserfiche.com/kb/1013793/list-of-changes-for-laserfiche-connector-10-2 |

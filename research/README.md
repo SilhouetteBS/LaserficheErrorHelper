@@ -4,15 +4,15 @@ This folder contains source-review artifacts used to build the public Laserfiche
 
 ## Current Published Totals
 
-- Error entries: 2351
+- Error entries: 2175
 - Reviewed sources: 1370
-- Needs-review entries: 421
-- Support KB promoted entries: 350
+- Needs-review entries: 245
+- Support KB promoted entries: 174
 
 ## Key Reports
 
 - `needs-review-report.md`: public entries that still need manual curation into confirmed fixes, workarounds, or lower-priority diagnostic notes.
-- `support-kb-research-status.md`: Support Knowledge Base search progress, open cursors, and release-note entries that need deeper curation.
+- `support-kb-research-status.md`: Support Knowledge Base search progress, open cursors, and reference-only sources that need item-level curation.
 - `progress-report.md`: generated catalog coverage summary.
 - `quality-report.md`: generated validation queue summary.
 
